@@ -1,0 +1,28 @@
+@prefix : <http://example.org/au/leg/concepts> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <http://schema.org#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/au/leg/concepts> a owl:Ontology, skos:ConceptScheme ;
+    dcterms:title "Legilsation Concepts" ;
+    dcterms:identifier "https://www.legislation.gov.au" ;
+    dcterms:creator <https://orcid.org/0009-0007-8434-7325> ;
+    dcterms:publisher <https://orcid.org/0009-0007-8434-7325> ;
+    dcterms:description "A SKOS Concept Scheme for Legislation Parts" ;
+    sdo:dateCreated "2024-07-29"^^xsd:date ;
+    sdo:dateModified "2024-07-29"^^xsd:date ;
+    dcterms:language dcterms:RFC4646:en-AU
+.
+
+<https://orcid.org/0009-0007-8434-7325>
+    a sdo:Person ;
+    sdo:affiliation <https://surroundaustralia.com> ;
+    sdo:email "seewodg@gmail.com"^^xsd:anyURI ;
+    sdo:name "Marcus Jowsey" ;
+    sdo:url "https://www.linkedin.com/in/marcus-jowsey-surround/"^^xsd:anyURI ;
+.

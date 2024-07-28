@@ -42,7 +42,6 @@ def scrapeMetaPage(source_url): # capture metadata from the legislation details 
         else:
             vers = missng
         linkarray.append(['Latest Version', vers])
-        print(f"got to breakpoint 1 {vers} {stat}")
         for ul in soup.find_all('ul', attrs={'class':'list-group list-unstyled ms-3'}): # Administered By
             licnt = 0
             for li in ul.find_all('li'):
@@ -60,7 +59,6 @@ def scrapeMetaPage(source_url): # capture metadata from the legislation details 
         admin = admin.replace('\n', ' ').replace('\r', '')
         admin = admin.strip()
         linkarray.append(['Administered By', admin])
-        print(f"got to breakpoint 2 {admin}")
         for div in soup.find_all('div', attrs={'class':'col-lg-9 title-id'}): # Title ID
             titleID = div.string
             titleID.strip()
@@ -73,7 +71,6 @@ def scrapeMetaPage(source_url): # capture metadata from the legislation details 
         if regDate == "":
             regDate = missng
         linkarray.append(['Registered Date', regDate])
-        print(f"got to breakpoint 3 {titleID} {regDate}")
         label = legID
         label += '_pagemetadata'
         writecsv(linkarray, label, fieldnames)
@@ -82,7 +79,7 @@ def scrapeMetaPage(source_url): # capture metadata from the legislation details 
         return e
 
 def scrapeMeta(source_url): # capture page metadata for the legislation page
-    print("Legislation Metadata scraping has begun")
+    print("Legislation ToC Metadata scraping has begun")
     try:
         parser = 'html.parser'  # or 'lxml' (preferred) or 'html5lib', if installed
         resp = requests.get(source_url)
@@ -97,7 +94,10 @@ def scrapeMeta(source_url): # capture page metadata for the legislation page
             if 'name' in tag.attrs:
                 name = tag.attrs['name']
                 content = tag.attrs.get('content', '')
-                metadata[name] = content
+                if not name.startswith("dcterms"): # don't capture this metadata so iterate for loop
+                    continue
+                else:
+                    metadata[name] = content
             elif 'prop' in tag.attrs:  # For OpenGraph metadata
                 prop = tag.attrs['property']
                 content = tag.attrs.get('content', '')
@@ -190,15 +190,38 @@ if __name__ == "__main__":
                             name, value = line.split(";")
                             var[name] = str(value).rstrip()
     globals().update(var)
+    tocMessage = ""
+    pageMetaMessage = ""
+    detailedMetadataMessage = ""
+    result = True
+    newline = "\n"
     global legID
     legID = globals().get('legID')
-    leg_seed_url = f"https://www.legislation.gov.au/{legID}/latest/text" # e.g.https://www.legislation.gov.au/F2021L00319/latest/text
-    result = scrape(leg_seed_url)
-    if result == True:
+    if legID != None and globals().get('tableOfContents') == 'True':
+        leg_seed_url = f"https://www.legislation.gov.au/{legID}/latest/text" # e.g.https://www.legislation.gov.au/F2021L00319/latest/text
+        result = scrape(leg_seed_url)
+        tocMessage = "Table of Contents"
+    else:
+        print('\nPage ToC links NOT mined\n')
+    if legID != None and result == True and globals().get('pageMetadata') == 'True':
         result = scrapeMeta(leg_seed_url)
-    if result == True:
+        pageMetaMessage = "Table of Contents Metadata"
+    else:
+        print('\nPage metadata NOT mined\n')
+    if legID != None and result == True and globals().get('detailedMetadata') == 'True':
         result = scrapeMetaPage(f"https://www.legislation.gov.au/{legID}/latest/details") # e.g.https://www.legislation.gov.au/F2021L00319/latest/details
+        detailedMetadataMessage = "Detailed Metadata"
+    else:
+        print('\nDetailed page metadata NOT mined\n')
     if result == True:
-        print("Legislation ToC and Metadata and Metadata Details scraping is now complete!")
+        tocMetaDone = False
+        metaPageDone = False
+        print("\nLegislation scraping completed for:")
+        if tocMessage != "":
+            print(f"   {tocMessage}")
+        if pageMetaMessage != "":
+            print(f"   {pageMetaMessage}")
+        if detailedMetadataMessage != "":
+            print(f"   {detailedMetadataMessage}")
     else:
         print(f"\nOops, That doesn't seem right!!!:\n{result}")
