@@ -119,7 +119,7 @@ def scrape(source_url): # capture the table of contents links and associated met
         html_encoding = EncodingDetector.find_declared_encoding(resp.content, is_html=True)
         encoding = html_encoding or http_encoding
         soup = BeautifulSoup(resp.content, parser, from_encoding=encoding)
-        fieldnames = ['DOM Element Count', 'Legislation Section URL', 'Chapter', 'Part', 'Divison', 'SubHeading']
+        fieldnames = ['DOM Element Count', 'Legislation Section URL', 'Chapter', 'Part', 'Divison', 'Subdivision']
         linkarray = []
         chapter = ""
         part = ""
