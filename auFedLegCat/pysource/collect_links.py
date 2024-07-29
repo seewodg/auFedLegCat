@@ -119,8 +119,10 @@ def scrape(source_url): # capture the table of contents links and associated met
         html_encoding = EncodingDetector.find_declared_encoding(resp.content, is_html=True)
         encoding = html_encoding or http_encoding
         soup = BeautifulSoup(resp.content, parser, from_encoding=encoding)
-        fieldnames = ['DOM Element Count', 'Legislation Section URL', 'Chapter', 'Part', 'Divison', 'Subdivision']
+        fieldnames = []
+        fieldnames = ['DOM Element Count', 'Legislation Section URL', 'volume', 'Chapter', 'Part', 'Divison', 'Subdivision']
         linkarray = []
+        volume = ""
         chapter = ""
         part = ""
         division = ""
@@ -132,6 +134,9 @@ def scrape(source_url): # capture the table of contents links and associated met
                 heading = link.string
                 # clean up the text
                 heading = cleanCruft(str(heading)) # clean up the string adding space after digits
+                if 'Volume' in heading:
+                    if heading.startswith('Volume'):
+                        volume = heading
                 if 'Chapter' in heading:
                     if heading.startswith("Chapter"):
                         chapter = heading
@@ -141,7 +146,7 @@ def scrape(source_url): # capture the table of contents links and associated met
                 if 'Division' in heading:
                     if heading.startswith("Division"):
                         division = heading
-                if heading != "" and heading != chapter and heading != part and heading != division and heading != subheading:
+                if heading != "" and heading != volume and heading != chapter and heading != part and heading != division and heading != subheading:
                     subheading = heading
                 else:
                     subheading = ""
@@ -195,6 +200,7 @@ if __name__ == "__main__":
     detailedMetadataMessage = ""
     result = True
     newline = "\n"
+    # set some globals
     global legID
     legID = globals().get('legID')
     if legID != None and globals().get('tableOfContents') == 'True':
