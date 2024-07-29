@@ -3,19 +3,20 @@
 ## Description: Australian Federal Legislation DCAT Dataset Entries
 
 @author: [ORCID 0009-0007-8434-7325](https://orcid.org/0009-0007-8434-7325)
-Template the RDF below, then alter collect_links.py to handle name value pairs and call collect_links to populate the RDF
-in this. The goal is to a) create the dataset b) catalog the dataset, b) validate dataset on publilshing c) eventually populate
-a provenance graph with changes resulting from the changed dataset (changed from publishing).
 
-The Python script to create CSV of legilsation is: [collect_links.py](./auFedLegCat/auFedLegCat/pysource/collect_links.py)
+### Goals
+
+The goal is to a) create the dataset b) catalog the dataset, b) validate dataset on publilshing c) eventually populate a provenance graph with changes resulting from the changed dataset (changed from publishing).
+
+### Guide
+
+The Python script to create CSV of legilsation is: [collect_links.py](./auFedLegCat/pysource/collect_links.py)
 
 The collect_links.py script scrapes (mines) page metadata and table of contents from Legilsative Instruments and Acts at [https://www.legislation.gov.au/](https://www.legislation.gov.au/), and creates three outputs, depending on the settings in global.txt
 
-The configuration file for the collect_links script is: [globals.txt](./auFedLegCat/auFedLegCat/pysource/globals.txt)
+The configuration file for the collect_links script is: [globals.txt](./auFedLegCat/pysource/globals.txt)
 
 globals.txt is populated with the following semicolon seperated name/value pairs:
-
- 
 
 | Name             | Value Example                             | Description                                                                                                                                   |
 | ---------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
