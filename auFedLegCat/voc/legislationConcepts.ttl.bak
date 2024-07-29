@@ -1,5 +1,5 @@
 @prefix : <http://example.org/au/leg/concepts/> .
-@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix leg: <http://example.org/au/leg/concepts/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -9,7 +9,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-:legcons a owl:Ontology, skos:ConceptScheme ;
+:leg a owl:Ontology, skos:ConceptScheme ;
     owl:versionIRI :0.1 ;
     owl:versionInfo "0.1" ;
     dcterms:title "Legilsation Concepts for Australilan Statutes" ;
@@ -44,10 +44,10 @@
 :chapter
     a skos:Concept , owl:Class ;
     skos:definition "The component of a regulation/statute that is a top level component."@en ;
-    skos:inScheme :legcons ;
+    skos:inScheme :leg ;
     skos:prefLabel "Chapter"@en ;
-    skos:topConceptOf :legcons ;
-	rdfs:subClassOf :legcons ;
+    skos:topConceptOf :leg ;
+	rdfs:subClassOf :leg ;
 	skos:hasTopConcept :part ;
     schema:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI 
 .
@@ -55,7 +55,7 @@
 :part
     a skos:Concept , owl:Class ;
     skos:definition "The component of a regulation/statute that is component under chapter."@en ;
-    skos:inScheme :legcons ;
+    skos:inScheme :leg ;
     skos:prefLabel "Part"@en ;
     skos:topConceptOf :chapter ;
 	rdfs:subClassOf :chapter ;
@@ -66,7 +66,7 @@
 :division
     a skos:Concept , owl:Class ;
     skos:definition "The component of a regulation/statute that is component under part."@en ;
-    skos:inScheme :legcons ;
+    skos:inScheme :leg ;
     skos:prefLabel "Division"@en ;
     skos:topConceptOf :part ;
 	rdfs:subClassOf :part ;
@@ -77,7 +77,7 @@
 :subdivision
     a skos:Concept , owl:Class ;
     skos:definition "The component of a regulation/statute that is component under division."@en ;
-    skos:inScheme :legcons ;
+    skos:inScheme :leg ;
     skos:prefLabel "Subdivision"@en ;
     skos:topConceptOf :division ;
 	rdfs:subClassOf :division ;
