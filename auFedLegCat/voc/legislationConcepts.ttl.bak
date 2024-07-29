@@ -49,7 +49,7 @@
     skos:topConceptOf :legcons ;
 	rdfs:subClassOf :legcons ;
 	skos:hasTopConcept :part ;
-    sdo:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI 
+    schema:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI 
 .
 
 :part
@@ -60,7 +60,7 @@
     skos:topConceptOf :chapter ;
 	rdfs:subClassOf :chapter ;
 	skos:hasTopConcept :division ;
-    sdo:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI 
+    schema:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI 
 .
 
 :division
@@ -71,7 +71,7 @@
     skos:topConceptOf :part ;
 	rdfs:subClassOf :part ;
 	skos:hasTopConcept :subdivision ;
-    sdo:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI ;
+    schema:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI ;
 .
 
 :subdivision
@@ -81,5 +81,5 @@
     skos:prefLabel "Subdivision"@en ;
     skos:topConceptOf :division ;
 	rdfs:subClassOf :division ;
-    sdo:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI ;
+    schema:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI ;
 .
