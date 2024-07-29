@@ -32,7 +32,7 @@ globals.txt is populated with the following semicolon seperated name/value pairs
 
 | Name             | Value Example                               | Description                                                                                                                                   |
 | ---------------- | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| legID            | C1901A00006                                 | The Legislative Instrument or ACT ID to target for mining (scraping).                                                                         |
+| legID            | `C1901A00006`                               | The Legislative Instrument or ACT ID to target for mining (scraping).                                                                         |
 | tableOfContents  | `True`                                      | Mine the table of contents structure, (metadata) content, and hypterlinks (as a CSV file). Omit this mining and output if set to False        |
 | pageMetadata     | `True`                                      | Mine the Dubline Core Terms metadata (as a CSV file) from  Legislative Instrument or ACT webpage. Omit this mining and output if set to False |
 | detailedMetadata | `True`                                      | Mine the metadata (as a CSV file) from the Legislative Instrument or ACT Details webpage. Omit this mining and output if set to False         |
