@@ -10,7 +10,7 @@ A DCAT catalog of Australian Legislation will assist with indexing references to
 
 The immediate goals include a) create the dataset b) catalog the dataset, b) validate dataset on publilshing c) eventually populate a provenance graph with changes resulting from the changed dataset (changed from publishing).
 
-### Guide
+### Generate CSV Guide
 
 The Python script to create CSV of legilsation is: [collect_links.py](./auFedLegCat/pysource/collect_links.py)
 
@@ -20,7 +20,7 @@ The files optionally written to the output directory by the script include:
 
 | File Name                  | Description                                                                                                        |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| `<legID>_data.csv`         | The links and associated metadata scraped from the table of contents for the Legislative Instrument of Act webpage |
+| `<legID>_data.csv`         | The links and associated metadata scraped from the table of contents for the Legislative Instrument or Act webpage |
 | `<legID>_metadata.csv`     | The page metadata (Dublin Core Terms) scraped from the page header for the Legislative Instrument or Act webpage   |
 | `<legID>_pagemetadata.csv` | The metadata from the Details scraped from the Legislative Instrument or Act Details webpage                       |
 
