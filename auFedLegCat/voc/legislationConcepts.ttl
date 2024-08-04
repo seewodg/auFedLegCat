@@ -48,7 +48,9 @@
     skos:prefLabel "Volume"@en ;
     skos:topConceptOf :legcons ;
     skos:hasTopConcept
-        :Chapter ;
+        :Chapter ,
+        :Part ,
+        :Item ;
     sdo:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI 
 .
 
@@ -58,8 +60,10 @@
     skos:inScheme :legcons ;
     skos:prefLabel "Chapter"@en ;
     skos:topConceptOf :Volume ;
-    rdfs:subClassOf :Chapter ;
-    skos:hasTopConcept :Part ;
+    rdfs:subClassOf :Volume ;
+    skos:hasTopConcept :Part ,
+        :Division ,
+        :Item ;
     sdo:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI 
 .
 
@@ -68,9 +72,10 @@
     skos:definition "The component of a regulation/statute that is component under Chapter."@en ;
     skos:inScheme :legcons ;
     skos:prefLabel "Part"@en ;
-    skos:topConceptOf :Chapter ;
-    rdfs:subClassOf :Chapter ;
-    skos:hasTopConcept :Division ;
+    skos:topConceptOf :Volume , :Chapter ;
+    rdfs:subClassOf :Volume ;
+    skos:hasTopConcept :Division ,
+        :Item ;
     sdo:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI 
 .
 
@@ -79,9 +84,11 @@
     skos:definition "The component of a regulation/statute that is component under part."@en ;
     skos:inScheme :legcons ;
     skos:prefLabel "Division"@en ;
-    skos:topConceptOf :Part ;
+    skos:topConceptOf :Part ,
+        :Chapter ;
     rdfs:subClassOf :Part ;
-    skos:hasTopConcept :Subdivision ;
+    skos:hasTopConcept :Subdivision ,
+        :Item ;
     sdo:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI ;
 .
 
@@ -91,6 +98,26 @@
     skos:inScheme :legcons ;
     skos:prefLabel "Subdivision"@en ;
     skos:topConceptOf :Division ;
+    skos:hasTopConcept :Item ;
     rdfs:subClassOf :Division ;
     sdo:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI ;
 .
+
+:Item
+    a skos:Concept , owl:Class ;
+    skos:definition "The component of a regulation/statute that is component under division."@en ;
+    skos:inScheme :legcons ;
+    skos:prefLabel "Items"@en ;
+    skos:topConceptOf :Volume ,
+        :Chapter ,
+        :Part ,
+        :Division ,
+        :Subdivision ;
+    rdfs:subClassOf :Volume ,
+        :Chapter ,
+        :Part ,
+        :Division ,
+        :Subdivision ;
+    sdo:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI ;
+.
+
