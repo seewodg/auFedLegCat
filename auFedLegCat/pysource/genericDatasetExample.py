@@ -166,8 +166,7 @@ def scrape(g, source_url, legID, outputFolder): # capture the table of contents 
                     # clean up the text
                     heading = cleanCruft(str(heading)) # clean up the string adding space after digits and remove cruft
                     # set the global to enable skos
-                    if 'Volume' in heading:
-                        if heading.startswith('Volume'):
+                    if 'Volume' in heading and heading.startswith('Volume'):
                             change_globals("V", leader)
                             change_globals("C", None)
                             change_globals("P", None)
@@ -175,47 +174,31 @@ def scrape(g, source_url, legID, outputFolder): # capture the table of contents 
                             change_globals("S", None)
                             change_globals("I", None)
                             buildNode(g, "Volume", cnt, skosref, leader, heading)
-                    elif 'Chapter' in heading:
-                        if heading.startswith("Chapter"):
+                    elif 'Chapter' in heading and heading.startswith("Chapter"):
                             change_globals("C", leader)
                             change_globals("P", None)
                             change_globals("D", None)
                             change_globals("S", None)
                             change_globals("I", None)
                             buildNode(g, "Chapter", cnt, skosref, leader, heading)
-                    elif 'Endnotes' in heading:
-                        if heading.startswith("Endnotes"):
-                            change_globals("P", leader)
-                            change_globals("C", None)
-                            change_globals("S", None)
-                            change_globals("D", None)
-                            change_globals("I", None)
-                            buildNode(g, "Part", cnt, skosref, leader, heading)
-                    elif 'Part' in heading:
-                        if heading.startswith("Part"):
+                    elif ('Endnotes' in heading or 'Part' in heading) and (heading.startswith("Endnotes") or heading.startswith("Part ")):
                             change_globals("P", leader)
                             change_globals("D", None)
                             change_globals("S", None)
                             change_globals("I", None)
                             buildNode(g, "Part", cnt, skosref, leader, heading)
-                    elif 'Division' in heading:
-                        if heading.startswith("Division"):
+                    elif 'Division' in heading and heading.startswith("Division"):
                             change_globals("D", leader)
                             change_globals("S", None)
                             change_globals("I", None)
                             buildNode(g, "Division", cnt, skosref, leader, heading)
-                    elif 'Subdivision' in heading:
-                        if heading.startswith("Subdivision"):
+                    elif 'Subdivision' in heading and heading.startswith("Subdivision"):
                             change_globals("S", leader)
                             change_globals("I", None)
                             buildNode(g, "Subdivision", cnt, skosref, leader, heading)
-                    elif not heading == None and not leader == None:
+                    else:
                         change_globals("I", leader)
                         buildNode(g, "Item", cnt, skosref, leader, heading)
-#                        tst = str(leader)
-#                        for leader, RDFS.label, tst in g:
-#                            if (leader, RDF.label, tst) in g:
-                    
                     continue
         g.serialize(destination=outputFolder + legID + '.ttl', format='ttl')
         return True
@@ -224,67 +207,71 @@ def scrape(g, source_url, legID, outputFolder): # capture the table of contents 
 
 def buildNode(g, headingVal, cnt, skosref, leader, heading): # this is where the not is constructed, including its place in the SKOS taxonomy
     try:
-        prfx = headingVal[0].upper() + str(cnt) + " - "
+        # sub = leader
+        # pred = RDF.predicate
+        # obj = RDF.object
+        # for (sub, pred, obj) in g:
+        #     if obj == None:
+        #         return False
+        prfx = headingVal[0].upper() + str(cnt)
         lab = heading
         nodeURI = URIRef(skosref + headingVal)
+        cleanHeading = cleanCruft(headingVal)
         g.add((leader, URIRef(RDF.type), nodeURI))
         g.add((leader, RDF.type, URIRef(SKOS.Concept)))
         g.add((leader, SKOS.definition, Literal(lab, lang="en-AU")))
-        g.add((leader, SKOS.prefLabel, Literal(prfx + headingVal, lang="en-AU")))
-        g.add((leader, RDFS.comment, Literal(prfx + lab, lang="en-AU")))
-        g.add((leader, RDFS.label, Literal(prfx + headingVal, lang="en-AU")))
+        g.add((leader, SKOS.prefLabel, Literal(cleanHeading + ' ' + prfx, lang="en-AU")))
+        g.add((leader, RDFS.comment, Literal(lab + ' - GraphNodeID: ' + prfx, lang="en-AU")))
+        g.add((leader, RDFS.label, Literal(cleanHeading + ' ' + prfx, lang="en-AU")))
         # add skos broader than or narrower than references according to global variable value settings if a parent exists
-        if headingVal == "Chapter": # we have a Chapter, so check for parent (Volume)
-            if not volumeBranch == None: # there is an existing Volume (parent) node so specify a parent node exists and this node is a child
-                g.add((leader, SKOS.narrower, volumeBranch))
-                g.add((volumeBranch, SKOS.broader, leader))
-        elif headingVal == "Part": # we have a Part, so check for parent (Chapter)
-            if not chapterBranch == None: # there is an existing (parent) Chapter node so specify a parent node exists and this node is a child
-                g.add((leader, SKOS.narrower, chapterBranch))
-                g.add((chapterBranch, SKOS.broader, leader))
-            elif not volumeBranch == None: # there is an existing Volume (parent) node so specify a parent node exists and this node is a child
-                g.add((leader, SKOS.narrower, volumeBranch))
-                g.add((volumeBranch, SKOS.broader, leader))
-        elif headingVal == "Division": # we have a Division, so check for parent (Part)
-            if not partBranch == None: # there is an existing (parent) Chapter node so specify a parent node exists and this node is a child
-                g.add((leader, SKOS.narrower, partBranch))
-                g.add((partBranch, SKOS.broader, leader))
-            elif not chapterBranch == None:
-                g.add((leader, SKOS.narrower, chapterBranch))
-                g.add((chapterBranch, SKOS.broader, leader))
+        if headingVal == "Item": # and not checkGlobalsForNone() == False: # we have a Item, so check for parent (Part)
+            if (URIRef(subdivisionBranch), None, None) in g: # there is an existing (parent) subdivision node so specify a parent node exists and this node is a child
+                g.add((leader, SKOS.narrower, URIRef(subdivisionBranch)))
+                g.add((URIRef(subdivisionBranch), SKOS.broader, leader))
+            elif (URIRef(divisionBranch), None, None) in g:
+                g.add((leader, SKOS.narrower, URIRef(divisionBranch)))
+                g.add((URIRef(divisionBranch), SKOS.broader, leader))
+            elif (URIRef(partBranch), None, None) in g:
+                g.add((leader, SKOS.narrower, URIRef(partBranch)))
+                g.add((URIRef(partBranch), SKOS.broader, leader))
+            elif (chapterBranch, None, None) in g:
+                g.add((leader, SKOS.narrower, URIRef(chapterBranch)))
+                g.add((URIRef(chapterBranch), SKOS.broader, leader))
+            elif (URIRef(volumeBranch), None, None) in g:
+                g.add((leader, SKOS.narrower, URIRef(volumeBranch)))
+                g.add((URIRef(volumeBranch), SKOS.broader, leader))
         elif headingVal == "Subdivision": # we have a Subdivision, so check for parent (Part)
-            if not divisionBranch == None: # there is an existing (parent) Division node so specify a parent node exists and this node is a child
-                g.add((leader, SKOS.narrower, divisionBranch))
-                g.add((divisionBranch, SKOS.broader, leader))
-            elif not partBranch == None: # there is an existing (parent) Part node so specify a parent node exists and this node is a child
-                g.add((leader, SKOS.narrower, partBranch))
-                g.add((partBranch, SKOS.broader, leader))
-            elif not chapterBranch == None: # there is an existing (parent) Chapter node so specify a parent node exists and this node is a child
-                g.add((leader, SKOS.narrower, chapterBranch))
-                g.add((chapterBranch, SKOS.broader, leader))
-            elif not volumeBranch == None: # there is an existing (parent) Volume node so specify a parent node exists and this node is a child
-                g.add((leader, SKOS.narrower, volumeBranch))
-                g.add((volumeBranch, SKOS.broader, leader))
-        elif headingVal == "Item" and not checkGlobalsForNone() == False: # we have a Item, so check for parent (Part)
-            if not subdivisionBranch == None: # there is an existing (parent) subdivision node so specify a parent node exists and this node is a child
-                g.add((leader, SKOS.narrower, subdivisionBranch))
-                g.add((subdivisionBranch, SKOS.broader, leader))
-            elif not divisionBranch == None: # there is an existing (parent) Division node so specify a parent node exists and this node is a child
-                # print('divisionBranch')
-                g.add((leader, SKOS.narrower, divisionBranch))
-                g.add((divisionBranch, SKOS.broader, leader))
-            elif not partBranch == None: # there is an existing (parent) Part node so specify a parent node exists and this node is a child
-                # print(partBranch)
-                g.add((leader, SKOS.narrower, partBranch))
-                g.add((partBranch, SKOS.broader, leader))
-            elif not chapterBranch == None: # there is an existing (parent) Chapter node so specify a parent node exists and this node is a child
-                # print('chapterBranch')
-                g.add((leader, SKOS.narrower, chapterBranch))
-                g.add((chapterBranch, SKOS.broader, leader))
-            elif not volumeBranch == None: # there is an existing (parent) Volume node so specify a parent node exists and this node is a child
-                # print('volumeBranch')
-                g.add((leader, SKOS.narrower, volumeBranch))
-                g.add((volumeBranch, SKOS.broader, leader))
+            if (URIRef(divisionBranch), None, None) in g: # there is an existing (parent) Division node so specify a parent node exists and this node is a child
+                g.add((leader, SKOS.narrower, URIRef(divisionBranch)))
+                g.add((URIRef(divisionBranch), SKOS.broader, leader))
+            elif (URIRef(partBranch), None, None) in g:
+                g.add((leader, SKOS.narrower, URIRef(partBranch)))
+                g.add((URIRef(partBranch), SKOS.broader, leader))
+            elif (URIRef(chapterBranch), None, None) in g:
+                g.add((leader, SKOS.narrower, URIRef(chapterBranch)))
+                g.add((URIRef(chapterBranch), SKOS.broader, leader))
+            elif (URIRef(volumeBranch), None, None) in g:
+                g.add((leader, SKOS.narrower, URIRef(volumeBranch)))
+                g.add((URIRef(volumeBranch), SKOS.broader, leader))
+        elif headingVal == "Division": # we have a Division, so check for parent (Part)
+            if (URIRef(partBranch), None, None) in g: # there is an existing (parent) Chapter node so specify a parent node exists and this node is a child
+                g.add((leader, SKOS.narrower, URIRef(partBranch)))
+                g.add((URIRef(partBranch), SKOS.broader, leader))
+            elif (URIRef(chapterBranch), None, None) in g:
+                g.add((leader, SKOS.narrower, URIRef(chapterBranch)))
+                g.add((URIRef(chapterBranch), SKOS.broader, leader))
+        elif headingVal == "Part": # we have a Part, so check for parent (Chapter)
+            if (URIRef(chapterBranch), None, None) in g: # there is an existing (parent) Chapter node so specify a parent node exists and this node is a child
+                g.add((leader, SKOS.narrower, URIRef(chapterBranch)))
+                g.add((URIRef(chapterBranch), SKOS.broader, leader))
+            elif (URIRef(volumeBranch), None, None) in g: # there is an existing Volume (parent) node so specify a parent node exists and this node is a child
+                g.add((leader, SKOS.narrower, URIRef(volumeBranch)))
+                g.add((URIRef(volumeBranch), SKOS.broader, leader))
+        if headingVal == "Chapter": # we have a Chapter, so check for parent (Volume)
+            if (URIRef(volumeBranch), None, None) in g: # there is an existing Volume (parent) node so specify a parent node exists and this node is a child
+                g.add((leader, SKOS.narrower, URIRef(volumeBranch)))
+                g.add((URIRef(volumeBranch), SKOS.broader, leader))
+            else: return False
         return True
     except Exception as e:
         return e
@@ -297,23 +284,23 @@ def change_globals(name, val): # Take the name of the node type and the node ins
             return False
         else:
             if name == "V":
-                global volumeBranch
-                volumeBranch = val
+                global volumeBranch 
+                volumeBranch = URIRef(val)
             elif (name == "C"):
                 global chapterBranch
-                chapterBranch = val
+                chapterBranch = URIRef(val)
             elif (name == "P"):
                 global partBranch
-                partBranch = val
+                partBranch = URIRef(val)
             elif (name == "D"):
                 global divisionBranch
-                divisionBranch = val
+                divisionBranch = URIRef(val)
             elif (name == "S"):
                 global subdivisionBranch
-                subdivisionBranch = val
+                subdivisionBranch = URIRef(val)
             elif (name == "I"):
                 global itemBranch
-                itemBranch = val
+                itemBranch = URIRef(val)
     except Exception as e:
         return e
 
