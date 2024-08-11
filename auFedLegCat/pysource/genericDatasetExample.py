@@ -8,7 +8,7 @@ import unicodedata
 import datetime
 
 def scrapeMetaPage(g, legID, source_url): # capture metadata from the legislation details page - lists legislation metadata
-    print("Legislation Metadata Details Page scraping has begun")
+    print(f"Legislation Metadata Details Page https://www.legislation.gov.au/{legID}/latest/details scraping has begun")
     try:
         parser = 'html.parser'  # or 'lxml' (preferred) or 'html5lib', if installed
         resp = requests.get(source_url)
@@ -57,26 +57,24 @@ def scrapeMetaPage(g, legID, source_url): # capture metadata from the legislatio
             break
         if not titleID == "":
             g.add((nspace, SDO.identifier, Literal(titleID)))
-#        for div in soup.find_all('div', attrs={'class':'col-lg-9 registered-at'}): # Registered Date
-#                regDate = div.string
-#        if not regDate == "":
-#            g.add((nspace, DCTERMS.regDate, Literal(regDate)))
         return True
     except Exception as e:
           return e
 
-def scrape(g, source_url, legID, outputFolder): # capture the table of contents links and associated metadata for the legislation page
+def scrape(g, source_url, legID, outputFolder): # capture the legislation associated metadata for the legislation page, write the graph header, and pass miner for leg mining
     print("Legislation ToC scraping has begun")
-    print(legID)
-    print(source_url)
+    print(f"legilsation Identifier: {legID}")
+    print(f"Legislation Webpage: {source_url}")
+    global parentNode
+    global childNode
     try:
-
         parser = 'html.parser'  # or 'lxml' (preferred) or 'html5lib', if installed
         resp = requests.get(source_url)
         http_encoding = resp.encoding if 'charset' in resp.headers.get('content-type', '').lower() else None
         html_encoding = EncodingDetector.find_declared_encoding(resp.content, is_html=True)
         encoding = html_encoding or http_encoding
         soup = BeautifulSoup(resp.content, parser, from_encoding=encoding)
+        
         # build first part of graph
         baseURL = f"http://example.org/au/leg/dataset/{legID}/"
         nspace = URIRef(baseURL)
@@ -136,187 +134,152 @@ def scrape(g, source_url, legID, outputFolder): # capture the table of contents 
         if legID != None and globals().get('detailedMetadata') == 'True':
             result = scrapeMetaPage(g, legID, f"https://www.legislation.gov.au/{legID}/latest/details") # e.g.https://www.legislation.gov.au/F2021L00319/latest/details
             if result != True:
-                return
+                return result
         # add imports
         g.add((nspace, OWL.imports, skosref))
-        # used to set skos:broader/skos:narrower
-        change_globals("V", None)
-        change_globals("C", None)
-        change_globals("P", None)
-        change_globals("D", None)
-        change_globals("S", None)
-        change_globals("I", None)
-        # itterate through mined page elements
-        cnt = 0
-        li = None
-        div = None
-        link = None
-        for li in soup.find_all('li', {'class': 'toc-link'}):
-            div = li.find("div")
-            if not div == None:
-                link = div.find('a', recursive=False)
-                if not link == None:
-                    cnt = cnt+1
-                    # add some triples
-                    leader = URIRef(nspace + str(cnt))
-                    g.add((leader, URIRef(RDF.type), URIRef(DCAT.Resource)))
-                    g.add((leader, URIRef(DCAT.accessURL), Literal(link['href'], datatype=XSD.anyURI)))
-                    g.add((leader, RDF.type, URIRef(SKOS.Concept)))
-                    heading = link.string
-                    # clean up the text
-                    heading = cleanCruft(str(heading)) # clean up the string adding space after digits and remove cruft
-                    # set the global to enable skos
-                    if 'Volume' in heading and heading.startswith('Volume'):
-                            change_globals("V", leader)
-                            change_globals("C", None)
-                            change_globals("P", None)
-                            change_globals("D", None)
-                            change_globals("S", None)
-                            change_globals("I", None)
-                            buildNode(g, "Volume", cnt, skosref, leader, heading)
-                    elif 'Chapter' in heading and heading.startswith("Chapter"):
-                            change_globals("C", leader)
-                            change_globals("P", None)
-                            change_globals("D", None)
-                            change_globals("S", None)
-                            change_globals("I", None)
-                            buildNode(g, "Chapter", cnt, skosref, leader, heading)
-                    elif ('Endnotes' in heading or 'Part' in heading) and (heading.startswith("Endnotes") or heading.startswith("Part ")):
-                            change_globals("P", leader)
-                            change_globals("D", None)
-                            change_globals("S", None)
-                            change_globals("I", None)
-                            buildNode(g, "Part", cnt, skosref, leader, heading)
-                    elif 'Division' in heading and heading.startswith("Division"):
-                            change_globals("D", leader)
-                            change_globals("S", None)
-                            change_globals("I", None)
-                            buildNode(g, "Division", cnt, skosref, leader, heading)
-                    elif 'Subdivision' in heading and heading.startswith("Subdivision"):
-                            change_globals("S", leader)
-                            change_globals("I", None)
-                            buildNode(g, "Subdivision", cnt, skosref, leader, heading)
-                    else:
-                        change_globals("I", leader)
-                        buildNode(g, "Item", cnt, skosref, leader, heading)
-                    continue
+        # mineContent(g, soup, nspace, skosref) # begin mining the nodes
+        tocScrape(g, soup, nspace, skosref)
         g.serialize(destination=outputFolder + legID + '.ttl', format='ttl')
         return True
+        return g
     except Exception as e:
         return e
 
-def buildNode(g, headingVal, cnt, skosref, leader, heading): # this is where the not is constructed, including its place in the SKOS taxonomy
+def tocScrape(g, soup, nspace, skosref):
     try:
-        # sub = leader
-        # pred = RDF.predicate
-        # obj = RDF.object
-        # for (sub, pred, obj) in g:
-        #     if obj == None:
-        #         return False
-        prfx = headingVal[0].upper() + str(cnt)
-        lab = heading
-        nodeURI = URIRef(skosref + headingVal)
-        cleanHeading = cleanCruft(headingVal)
-        g.add((leader, URIRef(RDF.type), nodeURI))
-        g.add((leader, RDF.type, URIRef(SKOS.Concept)))
-        g.add((leader, SKOS.definition, Literal(lab, lang="en-AU")))
-        g.add((leader, SKOS.prefLabel, Literal(cleanHeading + ' ' + prfx, lang="en-AU")))
-        g.add((leader, RDFS.comment, Literal(lab + ' - GraphNodeID: ' + prfx, lang="en-AU")))
-        g.add((leader, RDFS.label, Literal(cleanHeading + ' ' + prfx, lang="en-AU")))
-        # add skos broader than or narrower than references according to global variable value settings if a parent exists
-        if headingVal == "Item": # and not checkGlobalsForNone() == False: # we have a Item, so check for parent (Part)
-            if (URIRef(subdivisionBranch), None, None) in g: # there is an existing (parent) subdivision node so specify a parent node exists and this node is a child
-                g.add((leader, SKOS.narrower, URIRef(subdivisionBranch)))
-                g.add((URIRef(subdivisionBranch), SKOS.broader, leader))
-            elif (URIRef(divisionBranch), None, None) in g:
-                g.add((leader, SKOS.narrower, URIRef(divisionBranch)))
-                g.add((URIRef(divisionBranch), SKOS.broader, leader))
-            elif (URIRef(partBranch), None, None) in g:
-                g.add((leader, SKOS.narrower, URIRef(partBranch)))
-                g.add((URIRef(partBranch), SKOS.broader, leader))
-            elif (chapterBranch, None, None) in g:
-                g.add((leader, SKOS.narrower, URIRef(chapterBranch)))
-                g.add((URIRef(chapterBranch), SKOS.broader, leader))
-            elif (URIRef(volumeBranch), None, None) in g:
-                g.add((leader, SKOS.narrower, URIRef(volumeBranch)))
-                g.add((URIRef(volumeBranch), SKOS.broader, leader))
-        elif headingVal == "Subdivision": # we have a Subdivision, so check for parent (Part)
-            if (URIRef(divisionBranch), None, None) in g: # there is an existing (parent) Division node so specify a parent node exists and this node is a child
-                g.add((leader, SKOS.narrower, URIRef(divisionBranch)))
-                g.add((URIRef(divisionBranch), SKOS.broader, leader))
-            elif (URIRef(partBranch), None, None) in g:
-                g.add((leader, SKOS.narrower, URIRef(partBranch)))
-                g.add((URIRef(partBranch), SKOS.broader, leader))
-            elif (URIRef(chapterBranch), None, None) in g:
-                g.add((leader, SKOS.narrower, URIRef(chapterBranch)))
-                g.add((URIRef(chapterBranch), SKOS.broader, leader))
-            elif (URIRef(volumeBranch), None, None) in g:
-                g.add((leader, SKOS.narrower, URIRef(volumeBranch)))
-                g.add((URIRef(volumeBranch), SKOS.broader, leader))
-        elif headingVal == "Division": # we have a Division, so check for parent (Part)
-            if (URIRef(partBranch), None, None) in g: # there is an existing (parent) Chapter node so specify a parent node exists and this node is a child
-                g.add((leader, SKOS.narrower, URIRef(partBranch)))
-                g.add((URIRef(partBranch), SKOS.broader, leader))
-            elif (URIRef(chapterBranch), None, None) in g:
-                g.add((leader, SKOS.narrower, URIRef(chapterBranch)))
-                g.add((URIRef(chapterBranch), SKOS.broader, leader))
-        elif headingVal == "Part": # we have a Part, so check for parent (Chapter)
-            if (URIRef(chapterBranch), None, None) in g: # there is an existing (parent) Chapter node so specify a parent node exists and this node is a child
-                g.add((leader, SKOS.narrower, URIRef(chapterBranch)))
-                g.add((URIRef(chapterBranch), SKOS.broader, leader))
-            elif (URIRef(volumeBranch), None, None) in g: # there is an existing Volume (parent) node so specify a parent node exists and this node is a child
-                g.add((leader, SKOS.narrower, URIRef(volumeBranch)))
-                g.add((URIRef(volumeBranch), SKOS.broader, leader))
-        if headingVal == "Chapter": # we have a Chapter, so check for parent (Volume)
-            if (URIRef(volumeBranch), None, None) in g: # there is an existing Volume (parent) node so specify a parent node exists and this node is a child
-                g.add((leader, SKOS.narrower, URIRef(volumeBranch)))
-                g.add((URIRef(volumeBranch), SKOS.broader, leader))
-            else: return False
-        return True
+        cnt = 0
+        for div in soup.find_all('div', {'class': 'toc-body flex-grow-1'}, recursive=True):
+            if div is not None:
+                # print(div)
+                ul = div.find('ul')
+                if ul is not None:
+                    for toc in ul.find_all('li', {'class': 'toc-link'}, recursive = False):
+                        if toc is not None:
+                            link = toc.find('a')
+                            if link is not None:
+                                cnt = cnt + 1
+                                heading = link.string
+                                print(heading)
+                                heading = cleanCruft(str(heading))
+                                leader = URIRef(nspace + str(cnt))
+                                addNode(g, cnt, skosref, heading, leader, link)
+                # for toc in div.find_all('li', {'class': 'toc-link'}, recursive = True):
+                #     if toc is not None:
+                #         print(toc.name)
+                #         for toc2 in toc.find('a'):
+                #             print(toc2)
+                #             cnt += cnt + 1
     except Exception as e:
         return e
 
-
-def change_globals(name, val): # Take the name of the node type and the node instance then set the instance value to that passed in (either a URIRef or None)
+def mineContent(g, soup, nspace, skosref): # Mine content from the table of contents on the legislation page
     try:
-        if name == None and isinstance(name, str):
-            print("\"def change_globals(name, val)\" requires an \"name\" argument that is a string and a \"val\" argument that is rdfdib URIRef, or \"None\"")
-            return False
+        # itterate through mined page elements
+        cnt = 0
+        for li in soup.find_all('li', {'class': 'toc-link'}, recursive=True): # loop
+            div = li.find("div")
+            if div is not None:
+                link = div.find('a')
+                if not link == None:
+                    heading = link.string
+                    heading = cleanCruft(str(heading)) # clean up the string adding space after digits and remove cruft
+                    cnt = cnt+1
+                    leader = URIRef(nspace + str(cnt))
+                    # print(leader)
+                    # Add node below
+                    if not (leader, None, None) in g:
+                        addNode(g, cnt, skosref, heading, leader, link)
+                        ul = div.next_sibling # grab the next submenu item
+                        if ul is not None and ul.name == 'ul': # if submenu exists...
+                            for toc in ul.find_all('li', {'class': 'toc-link'}, recursive = False): # find all the children
+                                if toc is not None:
+                                    # print(len(toc))
+                                    alink = toc.find('a')
+                                    if alink is not None:
+                                        href = alink['href'] # get only the hyperlinks in this submenu
+                                        if href is not None:
+                                            cnt = cnt+1
+                                            nleader = URIRef(nspace + str(cnt))
+                                            hheading = alink.string
+                                            hheading = cleanCruft(str(hheading))
+                                            if not (nleader, None, None) in g: # don't repeat entry
+                                                if not leader == nleader:
+                                                    addNode(g, cnt, skosref, hheading, nleader, alink)
+                                                    g.add((URIRef(nleader), SKOS.narrower, URIRef(leader)))
+                                                    g.add((URIRef(leader), SKOS.broader, URIRef(nleader)))
+                                                else: continue
+                                            else: continue
+                                        else: continue
+                                    else: continue
+                                else: continue
+                            else: continue
+                        else: continue
+                    else: continue
+                else: continue
+            continue
+        return
+    except Exception as e:
+        return e
+
+def addNode(g, cnt, skosref, heading, leader, link):
+    try:
+        # add some triples
+        # leader = URIRef(leader + str(cnt))
+        # print(f"Link: {link['href']}")
+        if not (leader, None, None) in g:
+
+            if heading.startswith('Volume'):
+                # print(" YEAH")
+                return buildNode(g, "Volume", cnt, skosref, leader, heading, link)
+            elif heading.startswith("Chapter"):
+                return buildNode(g, "Chapter", cnt, skosref, leader, heading, link)
+            elif heading.startswith("Schedule"):
+                return buildNode(g, "Schedule", cnt, skosref, leader, heading, link)
+            elif heading.startswith("Part "):
+                return buildNode(g, "Part", cnt, skosref, leader, heading, link)
+            elif heading.startswith("Endnotes"):
+                return buildNode(g, "Endnotes", cnt, skosref, leader, heading, link)
+            elif heading.startswith("Division"):
+                return buildNode(g, "Division", cnt, skosref, leader, heading, link)
+            elif heading.startswith("Subdivision"):
+                return buildNode(g, "Subdivision", cnt, skosref, leader, heading, link)
+            elif heading.startswith("Section"):
+                return buildNode(g, "Section", cnt, skosref, leader, heading, link)
+            else:
+                return buildNode(g, "Item", cnt, skosref, leader, heading, link)
         else:
-            if name == "V":
-                global volumeBranch 
-                volumeBranch = URIRef(val)
-            elif (name == "C"):
-                global chapterBranch
-                chapterBranch = URIRef(val)
-            elif (name == "P"):
-                global partBranch
-                partBranch = URIRef(val)
-            elif (name == "D"):
-                global divisionBranch
-                divisionBranch = URIRef(val)
-            elif (name == "S"):
-                global subdivisionBranch
-                subdivisionBranch = URIRef(val)
-            elif (name == "I"):
-                global itemBranch
-                itemBranch = URIRef(val)
+            return False
     except Exception as e:
         return e
 
-def checkGlobalsForNone():
-    returnVal = True
-    if volumeBranch == None:
-        returnVal = False
-    if chapterBranch == None and returnVal == False:
-        returnVal = False
-    if partBranch == None and returnVal == False:
-        returnVal = False
-    if divisionBranch == None and returnVal == False:
-        returnVal = False
-    if subdivisionBranch == None and returnVal == False:
-        returnVal = False
-    return returnVal
+def buildNode(g, headingVal, cnt, skosref, leader, heading, link): # this is where the not is constructed, including its place in the SKOS taxonomy
+    try:
+        # print(f"heading: {heading}")
+        if not (leader, None, None) in g:
+            prfx = headingVal[0].upper() + str(cnt)
+            nodeURI = URIRef(skosref + headingVal)
+            cleanHeading = cleanCruft(headingVal)
+            g.add((leader, URIRef(RDF.type), URIRef(DCAT.Resource)))
+            g.add((leader, URIRef(DCAT.accessURL), Literal(link['href'], datatype=XSD.anyURI)))
+            g.add((leader, RDF.type, URIRef(SKOS.Concept)))
+            g.add((leader, URIRef(RDF.type), nodeURI))
+            g.add((leader, SKOS.definition, Literal(heading, lang="en-AU")))
+            g.add((leader, SKOS.prefLabel, Literal(cleanHeading + ' ' + prfx, lang="en-AU")))
+            g.add((leader, RDFS.comment, Literal(heading + ' - GraphNodeID: ' + prfx, lang="en-AU")))
+            g.add((leader, RDFS.heading, Literal(cleanHeading + ' ' + prfx, lang="en-AU")))
+            return True
+        else:
+            return False
+    except Exception as e:
+        return e
+
+def linkToParent(g, leader, parent):
+    # if not leader == parent: # do not allow self references
+        g.add((leader, SKOS.narrower, parent))
+        g.add((parent, SKOS.broader, leader))
+        return True
+    # else: return False
+
             
     
 def cleanCruft(test_str): # clean string of all non RDF-8 characters
@@ -335,7 +298,7 @@ def cleanCruft(test_str): # clean string of all non RDF-8 characters
         elif test_str[i].isalpha() and result and result[-1].isdigit():
             # if so, add a space to the result string
             result += ' ' # add the current character to the result string
-        result += test_str[i]
+        result +=  test_str[i]
     return result
 
 def init():
@@ -357,7 +320,8 @@ def init():
     leg_seed_url = f"https://www.legislation.gov.au/{legID}/latest/text" # e.g.https://www.legislation.gov.au/F2021L00319/latest/text
     if legID != None and globals().get('tableOfContents') == 'True':
         result = scrape(g, leg_seed_url, legID, globals().get('outputFolder'))
-        tocMessage = "Table of Contents"
+        tocMessage = "Page Table of Contents"
+        pageMetaMessage = "Details Page Metadata"
         if result == True:
             print(f'Success! Mined {pageMetaMessage} and {tocMessage}')
         else:
