@@ -227,76 +227,44 @@ def checkForChildren(toc):
         return True
     else: return False
 
-# def addNode(g, cnt, heading, leader, link):
-#     try:
-#         # add some triples
-#         # leader = URIRef(leader + str(cnt))
-#         # print(f"Link: {link['href']}")
-#         if not (leader, None, None) in g:
-#             if heading.startswith(vol):
-#                 if not (URIRef(baseURL + vol), RDF.type, OWL.Class) in g:
-#                     nodeHeader(g, vol)
-#                 buildNode(g, vol, cnt, leader, heading, link)
-#             elif heading.startswith(chap):
-#                 rdfChap = URIRef(baseURL + vol)
-#                 g.add((rdfChap, RDF.type, OWL.Class))
-#                 g.add((rdfChap, RDF.type, SKOS.Concept))
-#                 g.add((rdfChap, RDFS.label, Literal(chap)))
-#                 buildNode(g, chap, cnt, leader, heading, link)
-#             elif heading.startswith(sch):
-#                 rdfsch = URIRef(baseURL + sch)
-#                 g.add((rdfsch, RDF.type, OWL.Class))
-#                 g.add((rdfsch, RDF.type, SKOS.Concept))
-#                 g.add((rdfsch, RDFS.label, Literal(sch)))
-#                 buildNode(g, sch, cnt, leader, heading, link)
-#             elif heading.startswith(part):
-#                 rdfPart = URIRef(baseURL + part)
-#                 g.add((rdfPart, RDF.type, OWL.Class))
-#                 g.add((rdfPart, RDF.type, SKOS.Concept))
-#                 g.add((rdfPart, RDFS.label, Literal(part)))
-#                 buildNode(g, part, cnt, leader, heading, link)
-#             elif heading.startswith(endn):
-#                 buildNode(g, endn, cnt, leader, heading, link)
-#             elif heading.startswith(divis):
-#                 buildNode(g, divis, cnt, leader, heading, link)
-#             elif heading.startswith(sub):
-#                 buildNode(g, sub, cnt, leader, heading, link)
-#             elif heading.startswith(sec):
-#                 buildNode(g, sec, cnt, leader, heading, link)
-#             else:
-#                 buildNode(g, it, cnt, leader, heading, link)
-#         if (leader, None, None) in g:
-#             return True
-#         else:
-#             return False
-#     except Exception as e:
-#         return e
-
 def addNode(g, cnt, heading, leader, link):
     try:
         # add some triples
         # leader = URIRef(leader + str(cnt))
         # print(f"Link: {link['href']}")
         if not (leader, None, None) in g:
-            if heading.startswith('Volume'):
-                # print(" YEAH")
-                buildNode(g, "Volume", cnt, skosref, leader, heading, link)
-            elif heading.startswith("Chapter"):
-                buildNode(g, "Chapter", cnt, skosref, leader, heading, link)
-            elif heading.startswith("Schedule"):
-                buildNode(g, "Schedule", cnt, skosref, leader, heading, link)
-            elif heading.startswith("Part "):
-                buildNode(g, "Part", cnt, skosref, leader, heading, link)
-            elif heading.startswith("Endnotes"):
-                buildNode(g, "Endnotes", cnt, skosref, leader, heading, link)
-            elif heading.startswith("Division"):
-                buildNode(g, "Division", cnt, skosref, leader, heading, link)
-            elif heading.startswith("Subdivision"):
-                buildNode(g, "Subdivision", cnt, skosref, leader, heading, link)
-            elif heading.startswith("Section"):
-                buildNode(g, "Section", cnt, skosref, leader, heading, link)
+            if heading.startswith(vol):
+                if not (URIRef(baseURL + vol), RDF.type, OWL.Class) in g:
+                    nodeHeader(g, vol)
+                buildNode(g, vol, cnt, leader, heading, link)
+            elif heading.startswith(chap):
+                rdfChap = URIRef(baseURL + chap)
+                g.add((rdfChap, RDF.type, OWL.Class))
+                g.add((rdfChap, RDF.type, SKOS.Concept))
+                g.add((rdfChap, RDFS.label, Literal(chap)))
+                buildNode(g, chap, cnt, leader, heading, link)
+            elif heading.startswith(sch):
+                rdfsch = URIRef(baseURL + sch)
+                g.add((rdfsch, RDF.type, OWL.Class))
+                g.add((rdfsch, RDF.type, SKOS.Concept))
+                g.add((rdfsch, RDFS.label, Literal(sch)))
+                buildNode(g, sch, cnt, leader, heading, link)
+            elif heading.startswith(part):
+                rdfPart = URIRef(baseURL + part)
+                g.add((rdfPart, RDF.type, OWL.Class))
+                g.add((rdfPart, RDF.type, SKOS.Concept))
+                g.add((rdfPart, RDFS.label, Literal(part)))
+                buildNode(g, part, cnt, leader, heading, link)
+            elif heading.startswith(endn):
+                buildNode(g, endn, cnt, leader, heading, link)
+            elif heading.startswith(divis):
+                buildNode(g, divis, cnt, leader, heading, link)
+            elif heading.startswith(sub):
+                buildNode(g, sub, cnt, leader, heading, link)
+            elif heading.startswith(sec):
+                buildNode(g, sec, cnt, leader, heading, link)
             else:
-                buildNode(g, "Item", cnt, skosref, leader, heading, link)
+                buildNode(g, it, cnt, leader, heading, link)
         if (leader, None, None) in g:
             return True
         else:
@@ -306,31 +274,14 @@ def addNode(g, cnt, heading, leader, link):
 
 # used when adding nodes - addNode(...)
 def nodeHeader(g, headerVal):
-    skosClass = URIRef(skosref + headerVal)
     rdfComp = URIRef(baseURL + headerVal)
+    sko = URIRef(skosref + headerVal)
+    print(sko)
     g.add((rdfComp, RDF.type, OWL.Class))
-    g.add((rdfComp, RDF.type, skosClass))
+    g.add((rdfComp, RDF.type, sko))
     g.add((rdfComp, RDFS.label, Literal(headerVal)))
     
-# def buildNode(g, headingVal, cnt, leader, heading, link): # this is where the not is constructed, including its place in the SKOS taxonomy
-#     try:
-#         # print(f"heading: {heading}")
-#         prfx = headingVal[0].upper() + str(cnt)
-#         nodeURI = URIRef(skosref + headingVal)
-#         cleanHeading = cleanCruft(headingVal)
-#         g.add((leader, URIRef(RDF.type), URIRef(DCAT.Resource)))
-#         g.add((leader, URIRef(DCAT.accessURL), Literal(link['href'], datatype=XSD.anyURI)))
-#         g.add((leader, RDF.type, URIRef(SKOS.Concept)))
-#         g.add((leader, URIRef(RDF.type), nodeURI))
-#         g.add((leader, SKOS.definition, Literal(heading, lang="en-AU")))
-#         g.add((leader, SKOS.prefLabel, Literal(cleanHeading + ' ' + prfx, lang="en-AU")))
-#         g.add((leader, RDFS.comment, Literal(heading + ' - Abrievated Graph Key: ' + prfx, lang="en-AU")))
-#         g.add((leader, RDFS.label, Literal(cleanHeading + ' - ' + prfx + ' ' + heading, lang="en-AU")))
-#         return
-#     except Exception as e:
-#         return e
-
-def buildNode(g, headingVal, cnt, skosref, leader, heading, link): # this is where the not is constructed, including its place in the SKOS taxonomy
+def buildNode(g, headingVal, cnt, leader, heading, link): # this is where the not is constructed, including its place in the SKOS taxonomy
     try:
         # print(f"heading: {heading}")
         prfx = headingVal[0].upper() + str(cnt)
