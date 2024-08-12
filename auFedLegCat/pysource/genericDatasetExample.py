@@ -65,8 +65,6 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
     print("Legislation ToC scraping has begun")
     print(f"legilsation Identifier: {legID}")
     print(f"Legislation Webpage: {source_url}")
-    global parentNode
-    global childNode
     try:
         parser = 'html.parser'  # or 'lxml' (preferred) or 'html5lib', if installed
         resp = requests.get(source_url)
@@ -76,9 +74,11 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
         soup = BeautifulSoup(resp.content, parser, from_encoding=encoding)
         
         # build first part of graph
+        global baseURL
         baseURL = f"http://example.org/au/leg/dataset/{legID}/"
         nspace = URIRef(baseURL)
         g.bind("LegID", Namespace(nspace))
+        global skosref
         skosref = URIRef("http://example.org/au/leg/concepts/")
         builder = "https://orcid.org/0009-0007-8434-7325"
         g.bind(":", nspace)
@@ -136,15 +136,36 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
             if result != True:
                 return result
         # add imports
-        g.add((nspace, OWL.imports, skosref))
-        tocScrape(g, soup, nspace, skosref)
+        g.add((nspace, OWL.imports, URIRef(skosref)))
+        # scrape data for DCAT dataset
+        tocScrape(g, soup, nspace)
+        # add the classes
+        global vol
+        vol = "Volume"
+        global chap
+        chap = "Chapter"
+        global sch
+        sch = "Schedule"
+        global part
+        part = "Part"
+        global endn
+        endn = "Endnotes"
+        global divis
+        divis = "Division"
+        global sub
+        sub = "Subdivision"
+        global sec
+        sec = "Section"
+        global it
+        it = "Item"
+        # write the output (turtle) file
         g.serialize(destination=outputFolder + legID + '.ttl', format='ttl')
         return True
         return g
     except Exception as e:
         return e
 
-def tocScrape(g, soup, nspace, skosref):
+def tocScrape(g, soup, nspace):
     try:
         cnt = 0
         for div in soup.find_all('div', {'class': 'toc-body flex-grow-1'}, recursive=True):
@@ -162,19 +183,19 @@ def tocScrape(g, soup, nspace, skosref):
                                 heading = cleanCruft(str(heading))
                                 leader = URIRef(nspace + str(cnt))
                                 # add top level menu items to graph
-                                if addNode(g, cnt, skosref, heading, leader, link) == True:
+                                if addNode(g, cnt, heading, leader, link) == True:
                                     # print(leader)
                                     ## check for children and if found, recurse
                                     if checkForChildren(toc) == True:
                                         kids = toc.findChildren("ul" , recursive=False)
                                         for kid in kids:
-                                            ccnt = childTocScrape(g, kid, nspace, skosref, leader, cnt)
+                                            ccnt = childTocScrape(g, kid, nspace, leader, cnt)
                                             if ccnt > cnt: cnt = ccnt
                                             # print(cnt)
     except Exception as e:
         return e
 
-def childTocScrape(g, soup, nspace, skosref, parent, cnt):
+def childTocScrape(g, soup, nspace, parent, cnt):
     try:
         for toc in soup.find_all('li', {'class': 'toc-link'}, recursive = False):
             if toc is not None:
@@ -186,13 +207,13 @@ def childTocScrape(g, soup, nspace, skosref, parent, cnt):
                     heading = cleanCruft(str(heading))
                     leader = URIRef(nspace + str(cnt))
                     # add top level menu items to graph
-                    if addNode(g, cnt, skosref, heading, leader, link) == True:
+                    if addNode(g, cnt, heading, leader, link) == True:
                         if linkToParent(g, leader, parent) == True:
                             # print(leader)
                             if checkForChildren(toc) == True:
                                     kids = toc.findChildren("ul" , recursive=False)
                                     for kid in kids:
-                                        ccnt = childTocScrape(g, kid, nspace, skosref, leader, cnt)
+                                        ccnt = childTocScrape(g, kid, nspace, leader, cnt)
                                         if ccnt > cnt: cnt = ccnt
         return cnt
     except Exception as e:
@@ -206,7 +227,52 @@ def checkForChildren(toc):
         return True
     else: return False
 
-def addNode(g, cnt, skosref, heading, leader, link):
+# def addNode(g, cnt, heading, leader, link):
+#     try:
+#         # add some triples
+#         # leader = URIRef(leader + str(cnt))
+#         # print(f"Link: {link['href']}")
+#         if not (leader, None, None) in g:
+#             if heading.startswith(vol):
+#                 if not (URIRef(baseURL + vol), RDF.type, OWL.Class) in g:
+#                     nodeHeader(g, vol)
+#                 buildNode(g, vol, cnt, leader, heading, link)
+#             elif heading.startswith(chap):
+#                 rdfChap = URIRef(baseURL + vol)
+#                 g.add((rdfChap, RDF.type, OWL.Class))
+#                 g.add((rdfChap, RDF.type, SKOS.Concept))
+#                 g.add((rdfChap, RDFS.label, Literal(chap)))
+#                 buildNode(g, chap, cnt, leader, heading, link)
+#             elif heading.startswith(sch):
+#                 rdfsch = URIRef(baseURL + sch)
+#                 g.add((rdfsch, RDF.type, OWL.Class))
+#                 g.add((rdfsch, RDF.type, SKOS.Concept))
+#                 g.add((rdfsch, RDFS.label, Literal(sch)))
+#                 buildNode(g, sch, cnt, leader, heading, link)
+#             elif heading.startswith(part):
+#                 rdfPart = URIRef(baseURL + part)
+#                 g.add((rdfPart, RDF.type, OWL.Class))
+#                 g.add((rdfPart, RDF.type, SKOS.Concept))
+#                 g.add((rdfPart, RDFS.label, Literal(part)))
+#                 buildNode(g, part, cnt, leader, heading, link)
+#             elif heading.startswith(endn):
+#                 buildNode(g, endn, cnt, leader, heading, link)
+#             elif heading.startswith(divis):
+#                 buildNode(g, divis, cnt, leader, heading, link)
+#             elif heading.startswith(sub):
+#                 buildNode(g, sub, cnt, leader, heading, link)
+#             elif heading.startswith(sec):
+#                 buildNode(g, sec, cnt, leader, heading, link)
+#             else:
+#                 buildNode(g, it, cnt, leader, heading, link)
+#         if (leader, None, None) in g:
+#             return True
+#         else:
+#             return False
+#     except Exception as e:
+#         return e
+
+def addNode(g, cnt, heading, leader, link):
     try:
         # add some triples
         # leader = URIRef(leader + str(cnt))
@@ -238,6 +304,32 @@ def addNode(g, cnt, skosref, heading, leader, link):
     except Exception as e:
         return e
 
+# used when adding nodes - addNode(...)
+def nodeHeader(g, headerVal):
+    skosClass = URIRef(skosref + headerVal)
+    rdfComp = URIRef(baseURL + headerVal)
+    g.add((rdfComp, RDF.type, OWL.Class))
+    g.add((rdfComp, RDF.type, skosClass))
+    g.add((rdfComp, RDFS.label, Literal(headerVal)))
+    
+# def buildNode(g, headingVal, cnt, leader, heading, link): # this is where the not is constructed, including its place in the SKOS taxonomy
+#     try:
+#         # print(f"heading: {heading}")
+#         prfx = headingVal[0].upper() + str(cnt)
+#         nodeURI = URIRef(skosref + headingVal)
+#         cleanHeading = cleanCruft(headingVal)
+#         g.add((leader, URIRef(RDF.type), URIRef(DCAT.Resource)))
+#         g.add((leader, URIRef(DCAT.accessURL), Literal(link['href'], datatype=XSD.anyURI)))
+#         g.add((leader, RDF.type, URIRef(SKOS.Concept)))
+#         g.add((leader, URIRef(RDF.type), nodeURI))
+#         g.add((leader, SKOS.definition, Literal(heading, lang="en-AU")))
+#         g.add((leader, SKOS.prefLabel, Literal(cleanHeading + ' ' + prfx, lang="en-AU")))
+#         g.add((leader, RDFS.comment, Literal(heading + ' - Abrievated Graph Key: ' + prfx, lang="en-AU")))
+#         g.add((leader, RDFS.label, Literal(cleanHeading + ' - ' + prfx + ' ' + heading, lang="en-AU")))
+#         return
+#     except Exception as e:
+#         return e
+
 def buildNode(g, headingVal, cnt, skosref, leader, heading, link): # this is where the not is constructed, including its place in the SKOS taxonomy
     try:
         # print(f"heading: {heading}")
@@ -260,6 +352,8 @@ def linkToParent(g, leader, parent):
     # if not leader == parent: # do not allow self references
         g.add((leader, SKOS.narrower, parent))
         g.add((parent, SKOS.broader, leader))
+        g.add((leader, DCTERMS.isPartOf, parent))
+        g.add((parent, DCTERMS.hasPart, leader))
         return True
     # else: return False
 
