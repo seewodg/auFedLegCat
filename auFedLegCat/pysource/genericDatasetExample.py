@@ -238,32 +238,36 @@ def addNode(g, cnt, heading, leader, link):
                     nodeHeader(g, vol)
                 buildNode(g, vol, cnt, leader, heading, link)
             elif heading.startswith(chap):
-                rdfChap = URIRef(baseURL + chap)
-                g.add((rdfChap, RDF.type, OWL.Class))
-                g.add((rdfChap, RDF.type, SKOS.Concept))
-                g.add((rdfChap, RDFS.label, Literal(chap)))
+                if not (URIRef(baseURL + chap), RDF.type, OWL.Class) in g:
+                    nodeHeader(g, chap)
                 buildNode(g, chap, cnt, leader, heading, link)
             elif heading.startswith(sch):
-                rdfsch = URIRef(baseURL + sch)
-                g.add((rdfsch, RDF.type, OWL.Class))
-                g.add((rdfsch, RDF.type, SKOS.Concept))
-                g.add((rdfsch, RDFS.label, Literal(sch)))
-                buildNode(g, sch, cnt, leader, heading, link)
+                if not (URIRef(baseURL + sch), RDF.type, OWL.Class) in g:
+                    nodeHeader(g, sch)
+                buildNode(g, sch, sch, leader, heading, link)
             elif heading.startswith(part):
-                rdfPart = URIRef(baseURL + part)
-                g.add((rdfPart, RDF.type, OWL.Class))
-                g.add((rdfPart, RDF.type, SKOS.Concept))
-                g.add((rdfPart, RDFS.label, Literal(part)))
+                if not (URIRef(baseURL + part), RDF.type, OWL.Class) in g:
+                    nodeHeader(g, part)
                 buildNode(g, part, cnt, leader, heading, link)
             elif heading.startswith(endn):
+                if not (URIRef(baseURL + endn), RDF.type, OWL.Class) in g:
+                    nodeHeader(g, endn)
                 buildNode(g, endn, cnt, leader, heading, link)
             elif heading.startswith(divis):
+                if not (URIRef(baseURL + divis), RDF.type, OWL.Class) in g:
+                    nodeHeader(g, divis)
                 buildNode(g, divis, cnt, leader, heading, link)
             elif heading.startswith(sub):
+                if not (URIRef(baseURL + sub), RDF.type, OWL.Class) in g:
+                    nodeHeader(g, sub)
                 buildNode(g, sub, cnt, leader, heading, link)
             elif heading.startswith(sec):
+                if not (URIRef(baseURL + sec), RDF.type, OWL.Class) in g:
+                    nodeHeader(g, sec)
                 buildNode(g, sec, cnt, leader, heading, link)
             else:
+                if not (URIRef(baseURL + it), RDF.type, OWL.Class) in g:
+                    nodeHeader(g, it)
                 buildNode(g, it, cnt, leader, heading, link)
         if (leader, None, None) in g:
             return True
