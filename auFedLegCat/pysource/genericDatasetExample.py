@@ -81,7 +81,7 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
         global skosref
         skosref = URIRef("http://example.org/au/leg/concepts/")
         builder = "https://orcid.org/0009-0007-8434-7325"
-        g.bind(":", nspace)
+        g.bind(':', Namespace(nspace))
         g.bind(legID, nspace) # the base URI
         g.bind('rdf', RDF)
         g.bind('rdfs', RDFS)
@@ -135,10 +135,15 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
             result = scrapeMetaPage(g, legID, f"https://www.legislation.gov.au/{legID}/latest/details") # e.g.https://www.legislation.gov.au/F2021L00319/latest/details
             if result != True:
                 return result
+        # add dcat theme
+        g.add((nspace, DCAT.theme, URIRef(skosref + "ToC")))
         # add imports
         g.add((nspace, OWL.imports, URIRef(skosref)))
         # scrape data for DCAT dataset
         tocScrape(g, soup, nspace)
+        # an arry of classification concepts
+#        global lawCategory
+#        lawCategory = ["Volume", "Part", "Chapter", "Schedule", "Endnotes", "Division", "Subdivision", "Section", "Item"]
         # add the classes
         global vol
         vol = "Volume"
@@ -233,6 +238,19 @@ def addNode(g, cnt, heading, leader, link):
         # leader = URIRef(leader + str(cnt))
         # print(f"Link: {link['href']}")
         if not (leader, None, None) in g:
+            # i = 0
+            # while i < len(lawCategory) - 1:
+            #     if not i < 8:
+            #         if heading.startswith(lawCategory[i]):
+            #             if not (URIRef(baseURL + heading), RDF.type, OWL.Class) in g:
+            #                 nodeHeader(g, lawCategory[i])
+            #                 buildNode(g, lawCategory[i], cnt, leader, heading, link)      
+            #     elif i < 7:
+            #         if not (URIRef(baseURL + heading), RDF.type, OWL.Class) in g:
+            #             nodeHeader(g, lawCategory[i])
+            #             buildNode(g, lawCategory[i], cnt, leader, heading, link)                      
+            #     i = i + 1
+
             if heading.startswith(vol):
                 if not (URIRef(baseURL + vol), RDF.type, OWL.Class) in g:
                     nodeHeader(g, vol)
@@ -283,7 +301,10 @@ def nodeHeader(g, headerVal):
     print(sko)
     g.add((rdfComp, RDF.type, OWL.Class))
     g.add((rdfComp, RDF.type, sko))
+    g.add((rdfComp, RDF.type, SKOS.Concept))
+    g.add((rdfComp, RDF.type, DCAT.Resource))
     g.add((rdfComp, RDFS.label, Literal(headerVal)))
+    g.add((rdfComp, SKOS.prefLabel, Literal(headerVal)))
     
 def buildNode(g, headingVal, cnt, leader, heading, link): # this is where the not is constructed, including its place in the SKOS taxonomy
     try:
@@ -291,10 +312,9 @@ def buildNode(g, headingVal, cnt, leader, heading, link): # this is where the no
         prfx = headingVal[0].upper() + str(cnt)
         nodeURI = URIRef(skosref + headingVal)
         cleanHeading = cleanCruft(headingVal)
-        g.add((leader, URIRef(RDF.type), URIRef(DCAT.Resource)))
-        g.add((leader, URIRef(DCAT.accessURL), Literal(link['href'], datatype=XSD.anyURI)))
-        g.add((leader, RDF.type, URIRef(SKOS.Concept)))
-        g.add((leader, URIRef(RDF.type), nodeURI))
+        g.add((leader, DCAT.accessURL, Literal(link['href'], datatype=XSD.anyURI)))
+        g.add((leader, RDF.type, URIRef(baseURL + headingVal)))
+        g.add((leader, RDF.type, nodeURI))
         g.add((leader, SKOS.definition, Literal(heading, lang="en-AU")))
         g.add((leader, SKOS.prefLabel, Literal(cleanHeading + ' ' + prfx, lang="en-AU")))
         g.add((leader, RDFS.comment, Literal(heading + ' - Abrievated Graph Key: ' + prfx, lang="en-AU")))
