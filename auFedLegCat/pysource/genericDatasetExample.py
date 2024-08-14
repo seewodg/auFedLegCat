@@ -6,6 +6,7 @@ import requests
 from html import unescape
 import unicodedata
 import datetime
+from config import CONFIG_INFO
 
 def scrapeMetaPage(g, legID, source_url): # capture metadata from the legislation details page - lists legislation metadata
     print(f"Legislation Metadata Details Page https://www.legislation.gov.au/{legID}/latest/details scraping has begun")
@@ -94,53 +95,52 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
         g.add((nspace, DCTERMS.creator, Literal(builder, datatype=XSD.anyURI)))
         g.add((nspace, DCTERMS.created, Literal(datetime.datetime.now(), datatype=XSD.dateTime)))
         # get the page metadata
-        if legID is not None and pageMeta is True:
-            key = ""
-            value = ""
-            for meta in soup.find_all('meta'):
-                if 'name' in meta.attrs:
-                    name = meta.attrs['name']
-                    if not name.startswith("dcterms"): # don't capture this metadata so iterate the for loop
-                        continue
-                    else:
-                        key = name
-                    if 'content' in meta.attrs:  # For OpenGraph metadata
-                        value = meta.attrs['content']
-                        if key == "dcterms.title":
-                            g.add((nspace, DCTERMS.title, Literal(value, lang="en-AU")))
-                        elif key == "dcterms.identifier":
-                            g.add((nspace, DCTERMS.identifier, Literal(value, datatype=XSD.anyURI)))
-                        elif key == "dcterms.creator":
-                            if ";" in value:
-                                end = len(value)
-                                index = value.index(";") + 2
-                                value = value[index:end]
-                                if "corporateName" in value:
-                                    index = value.index("corporateName") + 14
-                                    end = len(value)
-                                    value = value[index:end]
-                            g.add((nspace, DCTERMS.Agent, Literal(value, lang="en-AU")))
-                        elif key == "dcterms.publisher":
-                            g.add((nspace, DCTERMS.source, Literal(value, lang="en-AU")))
-                        elif key == "dcterms.description":
-                            g.add((nspace, DCTERMS.description, Literal(value, lang="en-AU")))
-                        elif key == "dcterms.date":
+        key = ""
+        value = ""
+        for meta in soup.find_all('meta'):
+            if 'name' in meta.attrs:
+                name = meta.attrs['name']
+                if not name.startswith("dcterms"): # don't capture this metadata so iterate the for loop
+                    continue
+                else:
+                    key = name
+                if 'content' in meta.attrs:  # For OpenGraph metadata
+                    value = meta.attrs['content']
+                    if key == "dcterms.title":
+                        g.add((nspace, DCTERMS.title, Literal(value, lang="en-AU")))
+                    elif key == "dcterms.identifier":
+                        g.add((nspace, DCTERMS.identifier, Literal(value, datatype=XSD.anyURI)))
+                    elif key == "dcterms.creator":
+                        if ";" in value:
                             end = len(value)
-                            beg =len("scheme=dcterms.ISO8601; ")
-                            value = value[beg:end]
-                            g.add((nspace, DCTERMS.date, Literal(value, datatype=XSD.dateTime)))
-                        elif key == "dcterms.subject":
-                            g.add((nspace, DCTERMS.subject, Literal(value, lang="en-AU")))
+                            index = value.index(";") + 2
+                            value = value[index:end]
+                            if "corporateName" in value:
+                                index = value.index("corporateName") + 14
+                                end = len(value)
+                                value = value[index:end]
+                        g.add((nspace, DCTERMS.Agent, Literal(value, lang="en-AU")))
+                    elif key == "dcterms.publisher":
+                        g.add((nspace, DCTERMS.source, Literal(value, lang="en-AU")))
+                    elif key == "dcterms.description":
+                        g.add((nspace, DCTERMS.description, Literal(value, lang="en-AU")))
+                    elif key == "dcterms.date":
+                        end = len(value)
+                        beg =len("scheme=dcterms.ISO8601; ")
+                        value = value[beg:end]
+                        g.add((nspace, DCTERMS.date, Literal(value, datatype=XSD.dateTime)))
+                    elif key == "dcterms.subject":
+                        g.add((nspace, DCTERMS.subject, Literal(value, lang="en-AU")))
         # get metadata from the legislation details page
+        result = True
         if legID is not None and detailedMetadata is True:
-            scrapeMetaPage(g, legID, f"https://www.legislation.gov.au/{legID}/latest/details") # e.g.https://www.legislation.gov.au/F2021L00319/latest/details
+            result = scrapeMetaPage(g, legID, f"https://www.legislation.gov.au/{legID}/latest/details") # e.g.https://www.legislation.gov.au/F2021L00319/latest/details
         # add dcat theme
         g.add((nspace, DCAT.theme, URIRef(skosref + "ToC")))
         # add imports
         g.add((nspace, OWL.imports, URIRef(skosref)))
         # scrape data for DCAT dataset
-        if legID is not None and ToC is True:
-            tocScrape(g, soup, nspace)
+        tocScrape(g, soup, nspace)
 
         # write the output (turtle) file
         g.serialize(destination=outputFolder + legID + '.ttl', format='ttl')
@@ -226,14 +226,14 @@ def addNode(g, cnt, heading, leader, link):
                 if not val == 'Item':
                     if heading.startswith(val):
                         if not (None, RDF.type, aclass) in g:
-                            nodeClass(g, val)
+                            nodeHeader(g, val)
                         if not (None, RDF.type, leader) in g:
                             buildNode(g, val, cnt, leader, heading, link)     
                             # print(f"{leader} {aclass}")
                         break
                 elif val == 'Item':
                     if not (None, RDF.type, aclass) in g:
-                        nodeClass(g, val)
+                        nodeHeader(g, val)
                     if not (None, RDF.type, leader) in g:
                         buildNode(g, val, cnt, leader, heading, link)    
                         # print(f"{leader} {aclass}")
@@ -246,8 +246,8 @@ def addNode(g, cnt, heading, leader, link):
     except Exception as e:
         return e
 
-# used when adding nodes - addNode(...) - adds a class for the node if not already existing - class is a type of theme
-def nodeClass(g, headerVal):
+# used when adding nodes - addNode(...)
+def nodeHeader(g, headerVal):
     try:
         rdfComp = URIRef(baseURL + headerVal)
         sko = URIRef(skosref + headerVal)
@@ -268,9 +268,11 @@ def buildNode(g, headingVal, cnt, leader, heading, link): # this is where the no
         # print(f"heading: {heading}")
         if not (leader, RDF.type, URIRef(skosref + headingVal)) in g:
             prfx = headingVal[0].upper() + str(cnt)
+            nodeURI = URIRef(skosref + headingVal)
             cleanHeading = cleanCruft(headingVal)
             g.add((leader, DCAT.accessURL, Literal(link['href'], datatype=XSD.anyURI)))
             g.add((leader, RDF.type, URIRef(baseURL + headingVal)))
+            g.add((leader, RDF.type, nodeURI))
             g.add((leader, SKOS.definition, Literal(heading, lang="en-AU")))
             g.add((leader, SKOS.prefLabel, Literal(cleanHeading + ' ' + prfx, lang="en-AU")))
             g.add((leader, RDFS.comment, Literal(heading + ' - Abrievated Graph Key: ' + prfx, lang="en-AU")))
@@ -313,7 +315,6 @@ def cleanCruft(test_str): # clean string of all non RDF-8 characters
 
 def init():
     # Get vars from conf file
-    from config import CONFIG_INFO
     global legID; legID = CONFIG_INFO["legID"]
     global ToC; ToC = CONFIG_INFO["tableOfContents"]
     global pageMeta; pageMeta = CONFIG_INFO["pageMetadata"]
@@ -335,7 +336,7 @@ def init():
     # global legID
     # legID = globals().get('legID')
     leg_seed_url = f"https://www.legislation.gov.au/{legID}/latest/text" # e.g.https://www.legislation.gov.au/F2021L00319/latest/text
-    if legID is not None:
+    if legID is not None and ToC is True:
         if scrape(g, leg_seed_url, legID, outputFolder) is True:
             tocMessage = "Page Table of Contents"
         else: tocMessage = "There was a problem scraping the legislation metadata page "
