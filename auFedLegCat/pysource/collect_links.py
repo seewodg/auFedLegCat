@@ -15,7 +15,6 @@ def scrapeMetaPage(source_url): # capture metadata from the legislation details 
         html_encoding = EncodingDetector.find_declared_encoding(resp.content, is_html=True)
         encoding = html_encoding or http_encoding
         soup = BeautifulSoup(resp.content, parser, from_encoding=encoding)
-        # fieldnames = ['Legislation Status', 'Administered By', 'Latest Version', 'Title ID', 'Registered Date', 'Effective Date Start', 'Type', 'To Be Repealed', 'Due to Sunset Date']
         fieldnames = ['Meta Key', 'Meta Value']
         linkarray = []        
         missng = "missing metadata"
@@ -133,7 +132,7 @@ def scrape(source_url): # capture the table of contents links and associated met
                 cnt = cnt+1
                 heading = link.string
                 # clean up the text
-                heading = cleanCruft(str(heading)) # clean up the string adding space after digits
+                heading = cleanCruft(str(heading)) # clean up the string adding space after digits and remove cruft
                 if 'Volume' in heading:
                     if heading.startswith('Volume'):
                         volume = heading
@@ -220,8 +219,6 @@ if __name__ == "__main__":
     else:
         print('\nDetailed page metadata NOT mined\n')
     if result == True:
-        tocMetaDone = False
-        metaPageDone = False
         print("\nLegislation scraping completed for:")
         if tocMessage != "":
             print(f"   {tocMessage}")

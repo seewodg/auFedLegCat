@@ -6,7 +6,7 @@ Created on Wed Aug 14 16:43:38 2024
 """
 
 CONFIG_INFO = {
-    "legID": "C2004A04997",
+    "legID": "C2022A00037",
     "tableOfContents": True,
     "pageMetadata": True,
     "detailedMetadata": True,
