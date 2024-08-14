@@ -131,28 +131,26 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
                     elif key == "dcterms.subject":
                         g.add((nspace, DCTERMS.subject, Literal(value, lang="en-AU")))
         # get metadata from the legislation details page
-        if legID != None and globals().get('detailedMetadata') == 'True':
+        result = True
+        if legID is not None and detailedMetadata is True:
             result = scrapeMetaPage(g, legID, f"https://www.legislation.gov.au/{legID}/latest/details") # e.g.https://www.legislation.gov.au/F2021L00319/latest/details
-            if result != True:
-                return result
         # add dcat theme
         g.add((nspace, DCAT.theme, URIRef(skosref + "ToC")))
         # add imports
         g.add((nspace, OWL.imports, URIRef(skosref)))
         # scrape data for DCAT dataset
         tocScrape(g, soup, nspace)
-        # an arry of legislation classification concepts
-        global lawCategory
-        lawCategory = ["Volume", "Part", "Chapter", "Schedule", "Endnotes", "Division", "Subdivision", "Section", "Item"]
+
         # write the output (turtle) file
         g.serialize(destination=outputFolder + legID + '.ttl', format='ttl')
         return True
-        return g
+        # return g
     except Exception as e:
         return e
 
 def tocScrape(g, soup, nspace):
     try:
+        result = False
         cnt = 0
         for div in soup.find_all('div', {'class': 'toc-body flex-grow-1'}, recursive=True):
             if div is not None:
@@ -178,6 +176,8 @@ def tocScrape(g, soup, nspace):
                                             ccnt = childTocScrape(g, kid, nspace, leader, cnt)
                                             if ccnt > cnt: cnt = ccnt
                                             # print(cnt)
+        result = True
+        return result
     except Exception as e:
         return e
 
@@ -250,7 +250,7 @@ def nodeHeader(g, headerVal):
     try:
         rdfComp = URIRef(baseURL + headerVal)
         sko = URIRef(skosref + headerVal)
-        print(sko)
+        print(f"catalog theme: {sko}")
         if not (rdfComp, RDF.type, OWL.Class) in g:
             g.add((rdfComp, RDF.type, OWL.Class))
             g.add((rdfComp, RDF.type, sko))
@@ -314,24 +314,32 @@ def cleanCruft(test_str): # clean string of all non RDF-8 characters
 
 def init():
     # Get vars from conf file
-    var = {}
-    with open("./LinkMiner/globals.txt") as conf:
-            for line in conf:
-                    if ";" in line:
-                            name, value = line.split(";")
-                            var[name] = str(value).rstrip()
-    globals().update(var)
-    tocMessage = ""
+    from config import CONFIG_INFO
+    global legID; legID = CONFIG_INFO["legID"]
+    global ToC; ToC = CONFIG_INFO["tableOfContents"]
+    global pageMeta; pageMeta = CONFIG_INFO["pageMetadata"]
+    global detailedMetadata; detailedMetadata = CONFIG_INFO["detailedMetadata"]
+    global outputFolder; outputFolder = CONFIG_INFO["outputFolder"]
+    # an arry of legislation classification concepts
+    global lawCategory
+    lawCategory = ["Volume", "Part", "Chapter", "Schedule", "Endnotes", "Division", "Subdivision", "Section", "Item"]
+
+    # print(f"LegID: {legID}")
+    # print(f"ToC: {ToC}")
+    # print(f"Page Meta: {pageMeta}")
+    # print(f"Detailed Metadata: {detailedMetadata}")
+    # print(f"Output Folder: {outputFolder}")
     pageMetaMessage = ""
     result = True
     g = Graph()
     # set some globals
-    global legID
-    legID = globals().get('legID')
+    # global legID
+    # legID = globals().get('legID')
     leg_seed_url = f"https://www.legislation.gov.au/{legID}/latest/text" # e.g.https://www.legislation.gov.au/F2021L00319/latest/text
-    if legID != None and globals().get('tableOfContents') == 'True':
-        result = scrape(g, leg_seed_url, legID, globals().get('outputFolder'))
-        tocMessage = "Page Table of Contents"
+    if legID is not None and ToC is True:
+        if scrape(g, leg_seed_url, legID, outputFolder) is True:
+            tocMessage = "Page Table of Contents"
+        else: tocMessage = "There was a problem scraping the legislation metadata page "
         pageMetaMessage = "Details Page Metadata"
         if result == True:
             print(f'Success! Mined {pageMetaMessage} and {tocMessage}')
