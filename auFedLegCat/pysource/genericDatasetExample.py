@@ -141,28 +141,9 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
         g.add((nspace, OWL.imports, URIRef(skosref)))
         # scrape data for DCAT dataset
         tocScrape(g, soup, nspace)
-        # an arry of classification concepts
-#        global lawCategory
-#        lawCategory = ["Volume", "Part", "Chapter", "Schedule", "Endnotes", "Division", "Subdivision", "Section", "Item"]
-        # add the classes
-        global vol
-        vol = "Volume"
-        global chap
-        chap = "Chapter"
-        global sch
-        sch = "Schedule"
-        global part
-        part = "Part"
-        global endn
-        endn = "Endnotes"
-        global divis
-        divis = "Division"
-        global sub
-        sub = "Subdivision"
-        global sec
-        sec = "Section"
-        global it
-        it = "Item"
+        # an arry of legislation classification concepts
+        global lawCategory
+        lawCategory = ["Volume", "Part", "Chapter", "Schedule", "Endnotes", "Division", "Subdivision", "Section", "Item"]
         # write the output (turtle) file
         g.serialize(destination=outputFolder + legID + '.ttl', format='ttl')
         return True
@@ -218,6 +199,7 @@ def childTocScrape(g, soup, nspace, parent, cnt):
                             if checkForChildren(toc) == True:
                                     kids = toc.findChildren("ul" , recursive=False)
                                     for kid in kids:
+                                        # recurse call
                                         ccnt = childTocScrape(g, kid, nspace, leader, cnt)
                                         if ccnt > cnt: cnt = ccnt
         return cnt
@@ -235,58 +217,27 @@ def checkForChildren(toc):
 def addNode(g, cnt, heading, leader, link):
     try:
         # add some triples
-        # leader = URIRef(leader + str(cnt))
-        # print(f"Link: {link['href']}")
-        if not (leader, None, None) in g:
-            # i = 0
-            # while i < len(lawCategory) - 1:
-            #     if not i < 8:
-            #         if heading.startswith(lawCategory[i]):
-            #             if not (URIRef(baseURL + heading), RDF.type, OWL.Class) in g:
-            #                 nodeHeader(g, lawCategory[i])
-            #                 buildNode(g, lawCategory[i], cnt, leader, heading, link)      
-            #     elif i < 7:
-            #         if not (URIRef(baseURL + heading), RDF.type, OWL.Class) in g:
-            #             nodeHeader(g, lawCategory[i])
-            #             buildNode(g, lawCategory[i], cnt, leader, heading, link)                      
-            #     i = i + 1
-
-            if heading.startswith(vol):
-                if not (URIRef(baseURL + vol), RDF.type, OWL.Class) in g:
-                    nodeHeader(g, vol)
-                buildNode(g, vol, cnt, leader, heading, link)
-            elif heading.startswith(chap):
-                if not (URIRef(baseURL + chap), RDF.type, OWL.Class) in g:
-                    nodeHeader(g, chap)
-                buildNode(g, chap, cnt, leader, heading, link)
-            elif heading.startswith(sch):
-                if not (URIRef(baseURL + sch), RDF.type, OWL.Class) in g:
-                    nodeHeader(g, sch)
-                buildNode(g, sch, sch, leader, heading, link)
-            elif heading.startswith(part):
-                if not (URIRef(baseURL + part), RDF.type, OWL.Class) in g:
-                    nodeHeader(g, part)
-                buildNode(g, part, cnt, leader, heading, link)
-            elif heading.startswith(endn):
-                if not (URIRef(baseURL + endn), RDF.type, OWL.Class) in g:
-                    nodeHeader(g, endn)
-                buildNode(g, endn, cnt, leader, heading, link)
-            elif heading.startswith(divis):
-                if not (URIRef(baseURL + divis), RDF.type, OWL.Class) in g:
-                    nodeHeader(g, divis)
-                buildNode(g, divis, cnt, leader, heading, link)
-            elif heading.startswith(sub):
-                if not (URIRef(baseURL + sub), RDF.type, OWL.Class) in g:
-                    nodeHeader(g, sub)
-                buildNode(g, sub, cnt, leader, heading, link)
-            elif heading.startswith(sec):
-                if not (URIRef(baseURL + sec), RDF.type, OWL.Class) in g:
-                    nodeHeader(g, sec)
-                buildNode(g, sec, cnt, leader, heading, link)
-            else:
-                if not (URIRef(baseURL + it), RDF.type, OWL.Class) in g:
-                    nodeHeader(g, it)
-                buildNode(g, it, cnt, leader, heading, link)
+        if not (None, None, leader) in g:
+            i = 0
+            while i < len(lawCategory):
+                val = lawCategory[i]
+                aclass = URIRef(skosref + val)
+                if not val == 'Item':
+                    if heading.startswith(val):
+                        if not (None, RDF.type, aclass) in g:
+                            nodeHeader(g, val)
+                        if not (None, RDF.type, leader) in g:
+                            buildNode(g, val, cnt, leader, heading, link)     
+                            # print(f"{leader} {aclass}")
+                        break
+                elif val == 'Item':
+                    if not (None, RDF.type, aclass) in g:
+                        nodeHeader(g, val)
+                    if not (None, RDF.type, leader) in g:
+                        buildNode(g, val, cnt, leader, heading, link)    
+                        # print(f"{leader} {aclass}")
+                    break
+                i += 1
         if (leader, None, None) in g:
             return True
         else:
@@ -296,35 +247,42 @@ def addNode(g, cnt, heading, leader, link):
 
 # used when adding nodes - addNode(...)
 def nodeHeader(g, headerVal):
-    rdfComp = URIRef(baseURL + headerVal)
-    sko = URIRef(skosref + headerVal)
-    print(sko)
-    g.add((rdfComp, RDF.type, OWL.Class))
-    g.add((rdfComp, RDF.type, sko))
-    g.add((rdfComp, RDF.type, SKOS.Concept))
-    g.add((rdfComp, RDF.type, DCAT.Resource))
-    g.add((rdfComp, RDFS.label, Literal(headerVal)))
-    g.add((rdfComp, SKOS.prefLabel, Literal(headerVal)))
+    try:
+        rdfComp = URIRef(baseURL + headerVal)
+        sko = URIRef(skosref + headerVal)
+        print(sko)
+        if not (rdfComp, RDF.type, OWL.Class) in g:
+            g.add((rdfComp, RDF.type, OWL.Class))
+            g.add((rdfComp, RDF.type, sko))
+            g.add((rdfComp, RDF.type, SKOS.Concept))
+            g.add((rdfComp, RDF.type, DCAT.Resource))
+            g.add((rdfComp, RDFS.label, Literal(headerVal)))
+            g.add((rdfComp, SKOS.prefLabel, Literal(headerVal)))
+        return True
+    except Exception as e:
+        return e
     
 def buildNode(g, headingVal, cnt, leader, heading, link): # this is where the not is constructed, including its place in the SKOS taxonomy
     try:
         # print(f"heading: {heading}")
-        prfx = headingVal[0].upper() + str(cnt)
-        nodeURI = URIRef(skosref + headingVal)
-        cleanHeading = cleanCruft(headingVal)
-        g.add((leader, DCAT.accessURL, Literal(link['href'], datatype=XSD.anyURI)))
-        g.add((leader, RDF.type, URIRef(baseURL + headingVal)))
-        g.add((leader, RDF.type, nodeURI))
-        g.add((leader, SKOS.definition, Literal(heading, lang="en-AU")))
-        g.add((leader, SKOS.prefLabel, Literal(cleanHeading + ' ' + prfx, lang="en-AU")))
-        g.add((leader, RDFS.comment, Literal(heading + ' - Abrievated Graph Key: ' + prfx, lang="en-AU")))
-        g.add((leader, RDFS.label, Literal(cleanHeading + ' - ' + prfx + ' ' + heading, lang="en-AU")))
-        return
+        if not (leader, RDF.type, URIRef(skosref + headingVal)) in g:
+            prfx = headingVal[0].upper() + str(cnt)
+            nodeURI = URIRef(skosref + headingVal)
+            cleanHeading = cleanCruft(headingVal)
+            g.add((leader, DCAT.accessURL, Literal(link['href'], datatype=XSD.anyURI)))
+            g.add((leader, RDF.type, URIRef(baseURL + headingVal)))
+            g.add((leader, RDF.type, nodeURI))
+            g.add((leader, SKOS.definition, Literal(heading, lang="en-AU")))
+            g.add((leader, SKOS.prefLabel, Literal(cleanHeading + ' ' + prfx, lang="en-AU")))
+            g.add((leader, RDFS.comment, Literal(heading + ' - Abrievated Graph Key: ' + prfx, lang="en-AU")))
+            g.add((leader, RDFS.label, Literal(cleanHeading + ' - ' + prfx + ' ' + heading, lang="en-AU")))
+            return True
     except Exception as e:
         return e
 
 def linkToParent(g, leader, parent):
-    # if not leader == parent: # do not allow self references
+    if not leader == parent: # do not allow self references
+        # print(f"{leader} {parent}")
         g.add((leader, SKOS.narrower, parent))
         g.add((parent, SKOS.broader, leader))
         g.add((leader, DCTERMS.isPartOf, parent))
