@@ -18,9 +18,9 @@ The Python script to create a DCAT Dataset including:
 
 - Table of contents structure (as ToC metadata) of Act or Legislative Instrument
 
-- A SKOS Vocabulary that enables use as [dcat:theme]([Data Catalog Vocabulary (DCAT) - Version 3](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_theme)) for DCAT dataset and related [DCAT catalog]([Data Catalog Vocabulary (DCAT) - Version 3](https://www.w3.org/TR/vocab-dcat-3/#Class:Catalog))
-
- The (Python) application that scrapes the Act or Legislative Instrument (legilsation) is: [genericDatasetExample.py](./auFedLegCat/pysource/genericDatasetExample.py)
+- A SKOS Vocabulary that enables use as [dcat:theme](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_theme) for DCAT dataset and related [DCAT catalog](https://www.w3.org/TR/vocab-dcat-3/#Class:Catalog)
+  
+  The (Python) application that scrapes the Act or Legislative Instrument (legilsation) is: [genericDatasetExample.py](./auFedLegCat/pysource/genericDatasetExample.py)
 
 Outputs from running the script are written to the following directory: [output directory](./auFedLegCat/vocdata).
 
