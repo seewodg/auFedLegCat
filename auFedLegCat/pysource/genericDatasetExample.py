@@ -88,7 +88,7 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
         g.bind('rdfs', RDFS)
         g.bind('skos', SKOS)
         g.bind('dcat', DCAT)
-        g.bind('dt', DCTERMS)
+        g.bind('dct', DCTERMS)
         g.bind("legcons", skosref)
         g.add((nspace, RDF.type, OWL.Ontology))
         g.add((nspace, RDF.type, DCAT.Dataset))
@@ -138,6 +138,8 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
             scrapeMetaPage(g, legID, f"https://www.legislation.gov.au/{legID}/latest/details") # e.g.https://www.legislation.gov.au/F2021L00319/latest/details
         # add dcat theme
         g.add((nspace, DCAT.theme, URIRef(skosref + "ToC")))
+        # add license
+        g.add((nspace, DCTERMS.license, URIRef("https://creativecommons.org/licenses/by-sa/4.0/")))
         # add imports
         g.add((nspace, OWL.imports, URIRef(skosref)))
         # scrape data for DCAT dataset
