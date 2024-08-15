@@ -92,6 +92,7 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
         g.bind("legcons", skosref)
         g.add((nspace, RDF.type, OWL.Ontology))
         g.add((nspace, RDF.type, DCAT.Dataset))
+        g.add((nspace, RDF.type, DCAT.Resource))
         g.add((nspace, DCTERMS.creator, Literal(builder, datatype=XSD.anyURI)))
         g.add((nspace, DCTERMS.created, Literal(datetime.datetime.now(), datatype=XSD.dateTime)))
         # get the page metadata
@@ -252,7 +253,7 @@ def nodeClass(g, headerVal):
     try:
         rdfComp = URIRef(baseURL + headerVal)
         sko = URIRef(skosref + headerVal)
-        print(f"catalog theme: {sko}")
+        print(f"Dataset Theme: {sko}")
         if not (rdfComp, RDF.type, OWL.Class) in g:
             g.add((rdfComp, RDF.type, OWL.Class))
             g.add((rdfComp, RDF.type, sko))
@@ -260,6 +261,7 @@ def nodeClass(g, headerVal):
             g.add((rdfComp, RDF.type, DCAT.Resource))
             g.add((rdfComp, RDFS.label, Literal(headerVal)))
             g.add((rdfComp, SKOS.prefLabel, Literal(headerVal)))
+            g.add((URIRef(baseURL), DCAT.theme, URIRef(skosref + headerVal)))
         return True
     except Exception as e:
         return e

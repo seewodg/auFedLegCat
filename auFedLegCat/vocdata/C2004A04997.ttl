@@ -9,9 +9,10 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 C2004A04997: a owl:Ontology,
-        dcat:Dataset ;
+        dcat:Dataset,
+        dcat:Resource ;
     dt:Agent "Home Affairs"@en-AU ;
-    dt:created "2024-08-15T09:25:23.005184"^^xsd:dateTime ;
+    dt:created "2024-08-15T14:18:59.557510"^^xsd:dateTime ;
     dt:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
     dt:date "2024-07-01T00:00:00+10:00"^^xsd:dateTime ;
     dt:description "Customs Tariff Act 1995"@en-AU ;
@@ -21,7 +22,14 @@ C2004A04997: a owl:Ontology,
     dt:subject "Customs Tariff Act 1995"@en-AU ;
     dt:title "Customs Tariff Act 1995"@en-AU ;
     owl:imports legcons: ;
-    dcat:theme legcons:ToC ;
+    dcat:theme legcons:Chapter,
+        legcons:Endnotes,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule,
+        legcons:Section,
+        legcons:ToC,
+        legcons:Volume ;
     schema:identifier "C2004A04997" ;
     schema:status "In force" ;
     schema:version "C2024C00273 (C92)" .

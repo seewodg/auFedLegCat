@@ -8,7 +8,7 @@
 
 A DCAT catalog of Australian Legislation will assist with indexing references to standards and legislation to point at from Profiles where a Profile is pointed to from a Varifiable Credential.
 
-The immediate goals include a) create the dataset b) catalog the dataset, b) validate dataset on publilshing c) eventually populate a provenance graph with changes resulting from the changed dataset (changed from publishing).
+The immediate goals include a) create the dataset b) catalog the dataset, b) validate dataset on publilshing c) eventually populate a provenance graph with changes resulting from the changed dataset (changed from manual publishing).
 
 ### Generate DCAT Dataset
 

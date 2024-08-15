@@ -87,12 +87,6 @@ skos:definition rdf:type owl:AnnotationProperty .
 
 
 
-###  http://www.w3.org/2004/02/skos/core#hasTopConcept
-
-skos:hasTopConcept rdf:type owl:AnnotationProperty .
-
-
-
 ###  http://www.w3.org/2004/02/skos/core#inScheme
 
 skos:inScheme rdf:type owl:AnnotationProperty .
@@ -140,11 +134,7 @@ skos:prefLabel rdf:type owl:AnnotationProperty .
          
          skos:definition "The Chapter component of a regulation/statute."@en ;
          
-         skos:hasTopConcept :Item ;
-         
          skos:broader :Item ;
-         
-         skos:isTopConceptOf :ToC ;
          
          skos:narrower :ToC ;
          
@@ -166,13 +156,10 @@ skos:prefLabel rdf:type owl:AnnotationProperty .
           
           skos:definition "The Division component of a regulation/statute."@en ;
           
-          skos:broader :Item ;
-          
-          skos:hasTopConcept :Item ;
+          skos:broader :Item ,
+                       :Subdivision ;
           
           skos:narrower :ToC ;
-          
-          skos:isTopConceptOf :ToC ;
           
           skos:inScheme <http://example.org/au/leg/concepts/legcons> .
 
@@ -192,11 +179,7 @@ skos:prefLabel rdf:type owl:AnnotationProperty .
           
           skos:definition "The Endnotes component of a of a regulation/statute."@en ;
           
-          skos:hasTopConcept :Item ;
-          
           skos:broader :Item ;
-          
-          skos:isTopConceptOf :ToC ;
           
           skos:narrower :ToC ;
           
@@ -210,14 +193,7 @@ skos:prefLabel rdf:type owl:AnnotationProperty .
       
       rdfs:label "Item"@en ;
       
-      rdfs:subClassOf :Chapter ,
-                      :Division ,
-                      :Endnotes ,
-                      :Part ,
-                      :Schedule ,
-                      :Section ,
-                      :Subdivision ,
-                      :Volume ;
+      rdfs:subClassOf :ToC ;
       
       sdo:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI ;
       
@@ -225,33 +201,15 @@ skos:prefLabel rdf:type owl:AnnotationProperty .
       
       skos:definition "The Item component of a regulation/statute."@en ;
       
-      skos:narrower :Chapter ;
-      
-      skos:isTopConceptOf :Chapter ,
-                          :Division ;
-      
-      skos:narrower :Division ,
-                    :Endnotes ;
-      
-      skos:isTopConceptOf :Endnotes ,
-                          :Part ;
-      
-      skos:narrower :Part ,
-                    :Schedule ;
-      
-      skos:isTopConceptOf :Schedule ;
-      
-      skos:narrower :Section ;
-      
-      skos:isTopConceptOf :Section ;
-      
-      skos:narrower :Subdivision ;
-      
-      skos:isTopConceptOf :Subdivision ;
-      
-      skos:narrower :Volume ;
-      
-      skos:isTopConceptOf :Volume ;
+      skos:narrower :Chapter ,
+                    :Division ,
+                    :Endnotes ,
+                    :Part ,
+                    :Schedule ,
+                    :Section ,
+                    :Subdivision ,
+                    :ToC ,
+                    :Volume ;
       
       skos:inScheme <http://example.org/au/leg/concepts/legcons> .
 
@@ -271,13 +229,9 @@ skos:prefLabel rdf:type owl:AnnotationProperty .
       
       skos:definition "The Part component of a of a regulation/statute."@en ;
       
-      skos:hasTopConcept :Item ;
-      
       skos:broader :Item ;
       
       skos:narrower :ToC ;
-      
-      skos:isTopConceptOf :ToC ;
       
       skos:inScheme <http://example.org/au/leg/concepts/legcons> .
 
@@ -297,11 +251,7 @@ skos:prefLabel rdf:type owl:AnnotationProperty .
           
           skos:definition "The Schedule component of a regulation/statute."@en ;
           
-          skos:hasTopConcept :Item ;
-          
           skos:broader :Item ;
-          
-          skos:isTopConceptOf :ToC ;
           
           skos:narrower :ToC ;
           
@@ -325,10 +275,6 @@ skos:prefLabel rdf:type owl:AnnotationProperty .
          
          skos:broader :Item ;
          
-         skos:hasTopConcept :Item ;
-         
-         skos:isTopConceptOf :ToC ;
-         
          skos:narrower :ToC ;
          
          skos:inScheme <http://example.org/au/leg/concepts/legcons> .
@@ -349,13 +295,9 @@ skos:prefLabel rdf:type owl:AnnotationProperty .
              
              skos:definition "The Subdivision component of a regulation/statute."@en ;
              
-             skos:hasTopConcept :Item ;
+             skos:narrower :Division ;
              
              skos:broader :Item ;
-             
-             skos:isTopConceptOf :ToC ;
-             
-             skos:narrower :ToC ;
              
              skos:inScheme <http://example.org/au/leg/concepts/legcons> .
 
@@ -374,10 +316,10 @@ skos:prefLabel rdf:type owl:AnnotationProperty .
      skos:broader :Chapter ,
                   :Division ,
                   :Endnotes ,
+                  :Item ,
                   :Part ,
                   :Schedule ,
                   :Section ,
-                  :Subdivision ,
                   :Volume ;
      
      skos:inScheme <http://example.org/au/leg/concepts/legcons> ;
@@ -402,11 +344,7 @@ skos:prefLabel rdf:type owl:AnnotationProperty .
         
         skos:broader :Item ;
         
-        skos:hasTopConcept :Item ;
-        
         skos:narrower :ToC ;
-        
-        skos:isTopConceptOf :ToC ;
         
         skos:inScheme <http://example.org/au/leg/concepts/legcons> .
 
