@@ -10,36 +10,36 @@ A DCAT catalog of Australian Legislation will assist with indexing references to
 
 The immediate goals include a) create the dataset b) catalog the dataset, b) validate dataset on publilshing c) eventually populate a provenance graph with changes resulting from the changed dataset (changed from publishing).
 
-### Generate CSV Guide
+### Generate DCAT Dataset
 
-The Python script to create CSV of legilsation is: [collect_links.py](./auFedLegCat/pysource/collect_links.py)
+The Python script to create a DCAT Dataset including:
+
+- Metadata from an Act or Legislative Instrument from: [https://www.legislation.gov.au/](https://www.legislation.gov.au/) details page
+
+- Table of contents structure (as ToC metadata) of Act or Legislative Instrument
+
+- A SKOS Vocabulary that enables use as [dcat:theme]([Data Catalog Vocabulary (DCAT) - Version 3](https://www.w3.org/TR/vocab-dcat-3/#Property:resource_theme)) for DCAT dataset and related [DCAT catalog]([Data Catalog Vocabulary (DCAT) - Version 3](https://www.w3.org/TR/vocab-dcat-3/#Class:Catalog))
+
+ The (Python) application that scrapes the Act or Legislative Instrument (legilsation) is: [genericDatasetExample.py](./auFedLegCat/pysource/genericDatasetExample.py)
 
 Outputs from running the script are written to the following directory: [output directory](./auFedLegCat/vocdata).
 
-The files optionally written to the output directory by the script include:
+The application configuration file is: [config.py](./auFedLegCat/pysource/config.py)
 
-| File Name                  | Description                                                                                                        |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| `<legID>_data.csv`         | The links and associated metadata scraped from the table of contents for the Legislative Instrument or Act webpage |
-| `<legID>_metadata.csv`     | The page metadata (Dublin Core Terms) scraped from the page header for the Legislative Instrument or Act webpage   |
-| `<legID>_pagemetadata.csv` | The metadata from the Details scraped from the Legislative Instrument or Act Details webpage                       |
+](./auFedLegCat/pysource/globals.txt)
 
-The collect_links.py script scrapes (mines) page metadata and table of contents from Legilsative Instruments and Acts at [https://www.legislation.gov.au/](https://www.legislation.gov.au/), and creates three outputs, depending on the settings in global.txt
-
-The configuration file for the collect_links script is: [globals.txt](./auFedLegCat/pysource/globals.txt)
-
-globals.txt is populated with the following semicolon seperated name/value pairs:
+config.py provides the application the following name/value pair for configuring application target/output:
 
 | Name             | Value Example                               | Description                                                                                                                                   |
 | ---------------- | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | legID            | `C1901A00006`                               | The Legislative Instrument or ACT ID to target for mining (scraping).                                                                         |
-| tableOfContents  | `True`                                      | Mine the table of contents structure, (metadata) content, and hypterlinks (as a CSV file). Omit this mining and output if set to False        |
+| tableOfContents  | `True`                                      | Mine the table of contents structure, (metadata) content, and hypterlinks. Omit this mining and output if set to False                        |
 | pageMetadata     | `True`                                      | Mine the Dubline Core Terms metadata (as a CSV file) from  Legislative Instrument or ACT webpage. Omit this mining and output if set to False |
 | detailedMetadata | `True`                                      | Mine the metadata (as a CSV file) from the Legislative Instrument or ACT Details webpage. Omit this mining and output if set to False         |
 | outputFolder     | `<some local path to and output directory>` | The path to the directory where output CSV files will be written.                                                                             |
 
-### RDF
+### Themes
 
 The taxonomy file [legilsationConcepts.ttl](./auFedLegCat/voc/legislationConcepts.ttl) contains a SKOS concept scheme for the structures in Australian Legislative Instruments and Acts, as a SKOS taxonomy and includes owl:subClassOf declarations.
 
-The Python script file: [rdfLegCatalogDataset.py](./auFedLegCat/pysource/rdfLegCatalogDataset.py) writes a DCAT Catalog file for CSV files written by [collect_links.py](./auFedLegCat/pysource/collect_links.py)
+The Python script file: [rdfLegCatalogDataset.py](./auFedLegCat/pysource/rdfLegCatalogDataset.py) writes a DCAT Dataset file for to output for referencing in a DCAT Catalog
