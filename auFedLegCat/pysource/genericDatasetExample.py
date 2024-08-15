@@ -112,6 +112,7 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
                             g.add((nspace, DCTERMS.title, Literal(value, lang="en-AU")))
                         elif key == "dcterms.identifier":
                             g.add((nspace, DCTERMS.identifier, Literal(value, datatype=XSD.anyURI)))
+                            # add label
                         elif key == "dcterms.creator":
                             if ";" in value:
                                 end = len(value)
@@ -126,6 +127,7 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
                             g.add((nspace, DCTERMS.source, Literal(value, lang="en-AU")))
                         elif key == "dcterms.description":
                             g.add((nspace, DCTERMS.description, Literal(value, lang="en-AU")))
+                            g.add((nspace, RDFS.label, Literal(value)))
                         elif key == "dcterms.date":
                             end = len(value)
                             beg =len("scheme=dcterms.ISO8601; ")
