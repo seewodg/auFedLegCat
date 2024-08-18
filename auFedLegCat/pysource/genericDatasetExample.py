@@ -139,7 +139,7 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
         if legID is not None and detailedMetadata is True:
             scrapeMetaPage(g, legID, f"https://www.legislation.gov.au/{legID}/latest/details") # e.g.https://www.legislation.gov.au/F2021L00319/latest/details
         # add dcat theme
-        g.add((nspace, DCAT.theme, URIRef(skosref + "ToC")))
+#        g.add((nspace, DCAT.theme, URIRef(skosref + "ToC")))
         # add license
         g.add((nspace, DCTERMS.license, URIRef("https://creativecommons.org/licenses/by-sa/4.0/")))
         # add imports
@@ -228,18 +228,18 @@ def addNode(g, cnt, heading, leader, link):
             i = 0
             while i < len(lawCategory):
                 val = lawCategory[i]
-                aclass = URIRef(skosref + val)
+                # aclass = URIRef(skosref + val)
                 if not val == 'Item':
                     if heading.startswith(val):
-                        if not (None, RDF.type, aclass) in g:
-                            nodeClass(g, val)
+                        # if not (None, RDF.type, aclass) in g:
+                        #     nodeClass(g, val)
                         if not (None, RDF.type, leader) in g:
                             buildNode(g, val, cnt, leader, heading, link)     
                             # print(f"{leader} {aclass}")
                         break
                 elif val == 'Item':
-                    if not (None, RDF.type, aclass) in g:
-                        nodeClass(g, val)
+                    # if not (None, RDF.type, aclass) in g:
+                    #     nodeClass(g, val)
                     if not (None, RDF.type, leader) in g:
                         buildNode(g, val, cnt, leader, heading, link)    
                         # print(f"{leader} {aclass}")
@@ -253,22 +253,22 @@ def addNode(g, cnt, heading, leader, link):
         return e
 
 # used when adding nodes - addNode(...) - adds a class for the node if not already existing - class is a SKOS theme
-def nodeClass(g, headerVal):
-    try:
-        rdfComp = URIRef(baseURL + headerVal)
-        sko = URIRef(skosref + headerVal)
-        print(f"Dataset Theme: {sko}")
-        if not (rdfComp, RDF.type, OWL.Class) in g:
-            g.add((rdfComp, RDF.type, OWL.Class))
-            g.add((rdfComp, RDF.type, sko))
-            g.add((rdfComp, RDF.type, SKOS.Concept))
-            g.add((rdfComp, RDF.type, DCAT.Resource))
-            g.add((rdfComp, RDFS.label, Literal(headerVal)))
-            g.add((rdfComp, SKOS.prefLabel, Literal(headerVal)))
-            g.add((URIRef(baseURL), DCAT.theme, URIRef(skosref + headerVal))) # adds dcat:theme to the dataset header
-        return True
-    except Exception as e:
-        return e
+# def nodeClass(g, headerVal):
+#     try:
+#         rdfComp = URIRef(baseURL + headerVal)
+#         sko = URIRef(skosref + headerVal)
+#         print(f"Dataset Theme: {sko}")
+#         if not (rdfComp, RDF.type, OWL.Class) in g:
+#             g.add((rdfComp, RDF.type, OWL.Class))
+#             g.add((rdfComp, RDF.type, sko))
+#             g.add((rdfComp, RDF.type, SKOS.Concept))
+#             g.add((rdfComp, RDF.type, DCAT.Resource))
+#             g.add((rdfComp, RDFS.label, Literal(headerVal)))
+#             g.add((rdfComp, SKOS.prefLabel, Literal(headerVal)))
+#             g.add((URIRef(baseURL), DCAT.theme, URIRef(skosref + headerVal))) # adds dcat:theme to the dataset header
+#         return True
+#     except Exception as e:
+#         return e
     
 def buildNode(g, headingVal, cnt, leader, heading, link): # this is where the not is constructed, including its place in the SKOS taxonomy
     try:
@@ -278,11 +278,16 @@ def buildNode(g, headingVal, cnt, leader, heading, link): # this is where the no
             cleanHeading = cleanCruft(headingVal)
             g.add((leader, DCAT.landingPage, Literal(link['href'], datatype=XSD.anyURI)))
             g.add((leader, DCAT.accessURL, URIRef(link['href'])))
-            g.add((leader, RDF.type, URIRef(baseURL + headingVal)))
+            # g.add((leader, RDF.type, URIRef(baseURL + headingVal)))
+            g.add((leader, RDF.type, OWL.Class))
+            g.add((leader, RDF.type, DCAT.Resource))
+            g.add((leader, RDF.type, URIRef(skosref + headingVal)))
             g.add((leader, SKOS.definition, Literal(heading, lang="en-AU")))
             g.add((leader, SKOS.prefLabel, Literal(cleanHeading + ' ' + prfx, lang="en-AU")))
             g.add((leader, RDFS.comment, Literal(heading + ' - Abrievated Graph Key: ' + prfx, lang="en-AU")))
             g.add((leader, RDFS.label, Literal(cleanHeading + ' - ' + prfx + ' ' + heading, lang="en-AU")))
+            if not (URIRef(baseURL), DCAT.theme, URIRef(skosref + headingVal)) in g:
+                g.add((URIRef(baseURL), DCAT.theme, URIRef(skosref + headingVal))) # adds dcat:theme to the dataset header
             return True
     except Exception as e:
         return e
