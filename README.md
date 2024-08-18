@@ -42,4 +42,6 @@ config.py provides the application the following name/value pair for configuring
 
 The taxonomy file [legilsationConcepts.ttl](./auFedLegCat/voc/legislationConcepts.ttl) contains a SKOS concept scheme for the structures in Australian Legislative Instruments and Acts, as a SKOS taxonomy and includes owl:subClassOf declarations.
 
-The Python script file: [rdfLegCatalogDataset.py](./auFedLegCat/pysource/rdfLegCatalogDataset.py) writes a DCAT Dataset file for to output for referencing in a DCAT Catalog
+### Script
+
+The Python script file: [genericDatasetExample.py](./auFedLegCat/pysource/genericDatasetExample.py) writes a DCAT Dataset file for to output for referencing in a DCAT Catalog
