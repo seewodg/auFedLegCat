@@ -24,7 +24,7 @@
     dcterms:description "A SKOS Concept Scheme for Legislation/Statute Components"@en ;
     sdo:dateCreated "2024-07-29"^^xsd:date ;
     sdo:dateModified "2024-07-29"^^xsd:date ;
-	skos:hasTopConcept :Volume , :Part , :Endnotes , :Chapter , :Division , :Schedule , :Section , :Item ;
+	skos:hasTopConcept :Volume , :Part , :Endnotes , :Chapter , :Division , :Subdivision , :Schedule , :Section , :Item ;
 .
 
 <https://orcid.org/0009-0007-8434-7325>
@@ -129,6 +129,6 @@
     skos:prefLabel "Items"@en ;
     rdfs:label "Item"@en     ;
     skos:definition "The Item component of a regulation/statute."@en ;
-    skos:isTopConceptOf : ;
+    skos:isTopConceptOf : , :Volume , :Part , :Endnotes , :Chapter , :Division , :Subdivision , :Schedule , :Section ;
     sdo:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI 
 .
