@@ -252,7 +252,7 @@ def addNode(g, cnt, heading, leader, link):
     except Exception as e:
         return e
 
-# used when adding nodes - addNode(...) - adds a class for the node if not already existing - class is a type of theme
+# used when adding nodes - addNode(...) - adds a class for the node if not already existing - class is a SKOS theme
 def nodeClass(g, headerVal):
     try:
         rdfComp = URIRef(baseURL + headerVal)
@@ -265,7 +265,7 @@ def nodeClass(g, headerVal):
             g.add((rdfComp, RDF.type, DCAT.Resource))
             g.add((rdfComp, RDFS.label, Literal(headerVal)))
             g.add((rdfComp, SKOS.prefLabel, Literal(headerVal)))
-            g.add((URIRef(baseURL), DCAT.theme, URIRef(skosref + headerVal)))
+            g.add((URIRef(baseURL), DCAT.theme, URIRef(skosref + headerVal))) # adds dcat:theme to the dataset header
         return True
     except Exception as e:
         return e
@@ -276,7 +276,8 @@ def buildNode(g, headingVal, cnt, leader, heading, link): # this is where the no
         if not (leader, RDF.type, URIRef(skosref + headingVal)) in g:
             prfx = headingVal[0].upper() + str(cnt)
             cleanHeading = cleanCruft(headingVal)
-            g.add((leader, DCAT.accessURL, Literal(link['href'], datatype=XSD.anyURI)))
+            g.add((leader, DCAT.landingPage, Literal(link['href'], datatype=XSD.anyURI)))
+            g.add((leader, DCAT.accessURL, URIRef(link['href'])))
             g.add((leader, RDF.type, URIRef(baseURL + headingVal)))
             g.add((leader, SKOS.definition, Literal(heading, lang="en-AU")))
             g.add((leader, SKOS.prefLabel, Literal(cleanHeading + ' ' + prfx, lang="en-AU")))
@@ -286,7 +287,7 @@ def buildNode(g, headingVal, cnt, leader, heading, link): # this is where the no
     except Exception as e:
         return e
 
-def linkToParent(g, leader, parent):
+def linkToParent(g, leader, parent): # adds skos:broader, skos:narrower, dct:isPartOf and dct:hasPart to establish child/parent relationships between nodes
     if not leader == parent: # do not allow self references
         # print(f"{leader} {parent}")
         g.add((leader, SKOS.narrower, parent))
@@ -298,7 +299,7 @@ def linkToParent(g, leader, parent):
 
             
     
-def cleanCruft(test_str): # clean string of all non RDF-8 characters
+def cleanCruft(test_str): # clean string of all NBSP characters from web pages being scraped (and other formatting as required)
     result = ''
     test_str = unescape(test_str)
     test_str = unicodedata.normalize('NFKD', test_str)
