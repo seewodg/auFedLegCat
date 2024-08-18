@@ -1,8 +1,9 @@
-@prefix : <http://example.org/au/leg/concepts/> .
+# @prefix : <http://example.org/au/leg/concepts/> .
 @prefix legcons: <http://example.org/au/leg/concepts/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <http://schema.org#> .
@@ -11,8 +12,9 @@
 @base <http://example.org/au/leg/concepts/legcons> .
 
 :legcons a owl:Ontology, skos:ConceptScheme ;
-    skos:prefLabel "Legilsation Concepts for Australilan Statutes"@en ;
-    rdfs:label "Legilsation Concepts for Australilan Statutes"@en ;
+    skos:prefLabel "Australilan Legislation Structure Vocabulary"@en ;
+    rdfs:label "Australilan Legislation Structure Vocabulary"@en ;
+    rdfs:comment "A Vocabulary for dcat:theme instances"@en ;
     owl:versionIRI "https://github.com/seewodg/auFedLegCat/blob/main/auFedLegCat/voc/legislationConcepts.ttl"^^xsd:anyURI ;
     owl:versionInfo "0.1" ;
     dcterms:title "Legilsation Concepts for Australilan Statutes"@en ;
@@ -22,7 +24,6 @@
     dcterms:description "A SKOS Concept Scheme for Legislation/Statute Components"@en ;
     sdo:dateCreated "2024-07-29"^^xsd:date ;
     sdo:dateModified "2024-07-29"^^xsd:date ;
-    skos:hasTopConcept :ToC ;
 .
 
 <https://orcid.org/0009-0007-8434-7325>
@@ -36,13 +37,13 @@
 
 <https://uncefact.github.io/spec-untp/>
     a sdo:Organization ;
-    sdo:name "United Nations Transparency Protocol" ;
+    sdo:name "United Nations Transparency Protocol"@en ;
     sdo:url "https://uncefact.github.io/spec-untp/"^^xsd:anyURI ;
     skos:prefLabel "UNTP"@en
 .
 
-:ToC
-    a skos:Concept , owl:Class ;
+legcons:ToC
+    a owl:NamedIndividual , skos:Concept , prof:ResourceRole ;
     skos:inScheme :legcons ;
     skos:prefLabel "Table of Contents"@en ;
     rdfs:label "Table of Contents"@en ;
@@ -58,12 +59,12 @@
        :Item 
 .
 
-:Volume
-    a skos:Concept , owl:Class ;
+legcons:Volume
+    a owl:NamedIndividual , skos:Concept , prof:ResourceRole ;
     skos:inScheme :legcons ;
     skos:prefLabel "Volume"@en ;
     skos:definition "The Volume component of a regulation/statute."@en ;
-
+    skos:isTopConceptOf :ToC ;
     skos:broader :Item ;
     skos:narrower :ToC ;
     rdfs:label "Volume"@en ;
@@ -71,52 +72,52 @@
     sdo:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI 
 .
 
-:Part
-    a skos:Concept , owl:Class ;
+legcons:Part
+    a owl:NamedIndividual , skos:Concept , prof:ResourceRole ;
     skos:inScheme :legcons ;
     skos:prefLabel "Part"@en ;
     rdfs:label "Part"@en ;
     skos:definition "The Part component of a of a regulation/statute."@en ;
-
+    skos:isTopConceptOf :ToC ;
     skos:narrower :ToC ;
     skos:broader :Item ;
     rdfs:subClassOf :ToC ;
     sdo:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI 
 .
 
-:Endnotes
-    a skos:Concept , owl:Class ;
+legcons:Endnotes
+    a owl:NamedIndividual , skos:Concept , prof:ResourceRole ;
     skos:inScheme :legcons ;
     skos:prefLabel "Endnotes"@en ;
     rdfs:label "Endnotes"@en ;
     skos:definition "The Endnotes component of a of a regulation/statute."@en ;
-
+    skos:isTopConceptOf :ToC ;
     skos:narrower :ToC ;
     skos:broader :Item ;
     rdfs:subClassOf :ToC ;
     sdo:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI 
 .
 
-:Chapter
-    a skos:Concept , owl:Class ;
+legcons:Chapter
+    a owl:NamedIndividual , skos:Concept , prof:ResourceRole ;
     skos:inScheme :legcons ;
     skos:prefLabel "Chapter"@en ;
     rdfs:label "Chapter"@en ;
     skos:definition "The Chapter component of a regulation/statute."@en ;
-
+    skos:isTopConceptOf :ToC ;
     skos:narrower :ToC ;
     skos:broader :Item ;
     rdfs:subClassOf :ToC ;
     sdo:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI 
 .
 
-:Division
-    a skos:Concept , owl:Class ;
+legcons:Division
+    a owl:NamedIndividual , skos:Concept , prof:ResourceRole ;
     skos:inScheme :legcons ;
     skos:prefLabel "Division"@en ;
     rdfs:label "Division"@en ;
     skos:definition "The Division component of a regulation/statute."@en ;
-
+    skos:isTopConceptOf :ToC ;
     skos:narrower :ToC ;
     skos:broader :Subdivision ,
          :Item ;
@@ -124,51 +125,52 @@
     sdo:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI 
 .
 
-:Subdivision
-    a skos:Concept , owl:Class ;
+legcons:Subdivision
+    a owl:NamedIndividual , skos:Concept , prof:ResourceRole ;
     skos:inScheme :legcons ;
     skos:prefLabel "Subdivision"@en ;
     rdfs:label "Subdivision"@en ;
     skos:definition "The Subdivision component of a regulation/statute."@en ;
-
+    skos:isTopConceptOf :Subdivision ;
     skos:narrower :Division ;
     skos:broader :Item ;
     rdfs:subClassOf :ToC ;
     sdo:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI 
 .
 
-:Schedule
-    a skos:Concept , owl:Class ;
+legcons:Schedule
+    a owl:NamedIndividual , skos:Concept , prof:ResourceRole ;
     skos:inScheme :legcons ;
     skos:prefLabel "Schedule"@en ;
     rdfs:label "Schedule"@en ;
     skos:definition "The Schedule component of a regulation/statute."@en ;
-
+    skos:isTopConceptOf :ToC ;
     skos:narrower :ToC ;
     skos:broader :Item ;
     rdfs:subClassOf :ToC ;
     sdo:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI 
 .
 
-:Section
-    a skos:Concept , owl:Class ;
+legcons:Section
+    a owl:NamedIndividual , skos:Concept , prof:ResourceRole ;
     skos:inScheme :legcons ;
     skos:prefLabel "Section"@en ;
     rdfs:label "Section"@en     ;
     skos:definition "The Section component of a regulation/statute."@en ;
-
+    skos:isTopConceptOf :ToC ;
     skos:narrower :ToC ;
     skos:broader :Item ;
     rdfs:subClassOf :ToC ;
     sdo:citation "https://www.legislation.gov.au/help-and-resources/understanding-legislation/structure-of-a-law"^^xsd:anyURI
 .
 
-:Item
-    a skos:Concept , owl:Class ;
+legcons:Item
+    a owl:NamedIndividual , skos:Concept , prof:ResourceRole ;
     skos:inScheme :legcons ;
     skos:prefLabel "Items"@en ;
     rdfs:label "Item"@en     ;
     skos:definition "The Item component of a regulation/statute."@en ;
+    skos:isTopConceptOf :ToC , :Volume , :Part , :Endnotes , :Chapter , :Division , :Subdivision , :Schedule, :Section ;
     rdfs:subClassOf :ToC ;
     skos:narrower :ToC ,
        :Volume ,
