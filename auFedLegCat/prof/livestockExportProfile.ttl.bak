@@ -10,29 +10,129 @@
 #
 #   lvstex, described as a profile for use with a DCAT Catalog
 #
-:lvstex
-    a prof:Profile ;
-    rdfs:label "Livestock Export Profile example only" ;
+<http://example.org/au/leg/profile/lvstex/> a owl:Ontology, prof:Profile ;
+    rdfs:label "Livestock Export Profile - example only" ;
     # this URI is for DCAT (original) as defined in the DCAT examples
     prof:profileOf <http://example.org/au/leg/catalog/> ;
-    prof:hasResource :lvstex-rdf ;
+    prof:hasResource lvstex:Item4546 ;
+    prof:hasResource lvstex:Item854 ;
+    prof:hasResource lvstex:Item4547 ;
+    prof:hasResource lvstex:Item853 ;
+    prof:hasResource lvstex:Item1061 ;
+    prof:hasResource lvstex:Item4545 ;
+    prof:hasResource lvstex:Item97 ;
+    prof:hasResource lvstex:Item4550 ;
+    prof:hasResource lvstex:Item244 ;
+    prof:hasResource lvstex:Item182 ;
+    prof:hasResource lvstex:Item283 ;
 .
 
-:lvstex-rdf
-    a prof:ResourceDescriptor ;
-    rdfs:label "lvstex RDF vocabulary" ;
-    prof:hasRole roles:vocabulary ;
+lvstex:Item4546
+    a prof:Profile ;
+    rdfs:label "Item - I4546 385 115  Your assessable income includes an amount for replacement live stock you breed"@en ;
+    prof:profileOf <http://example.org/au/leg/concepts/> ;
     dct:conformsTo <http://example.org/au/leg/profile/> ;
     dct:format <https://w3id.org/mediatypes/text/turtle> ;
-    prof:hasArtifact <http://example.org/au/leg/dataset/C2004A05138/4546> ,
-                   <http://example.org/au/leg/dataset/C1901A00006/854> ,
-                   <http://example.org/au/leg/dataset/C2004A05138/4547> ,
-                   <http://example.org/au/leg/dataset/C1901A00006/853> ,
-                   <http://example.org/au/leg/dataset/C2004A05138/1061> ,
-                   <http://example.org/au/leg/dataset/C2004A05138/4545> ,
-                   <http://example.org/au/leg/dataset/C1901A00006/97> ,
-                   <http://example.org/au/leg/dataset/C2004A05138/4550> ,
-                   <http://example.org/au/leg/dataset/C1901A00006/244> ,
-                   <http://example.org/au/leg/dataset/C1901A00006/182> ,
-                   <http://example.org/au/leg/dataset/C1901A00006/283> ;
+    prof:hasArtifact <https://www.legislation.gov.au/C2004A05138/2024-07-01/2024-07-01/text/original/epub/OEBPS/document_7/document_7.html#_Toc172902881> ;
+    prof:hasResource <http://example.org/au/leg/dataset/C2004A05138/4546> ;
+.
+
+lvstex:Item854
+    a prof:Profile ;
+    rdfs:label "Item - I854 162 A  Delivery of goods on the giving of a general security or undertaking for payment of duty GST and luxury car tax"@en ;
+    prof:profileOf <http://example.org/au/leg/concepts/> ;
+    dct:conformsTo <http://example.org/au/leg/profile/> ;
+    dct:format <https://w3id.org/mediatypes/text/turtle> ;
+    prof:hasArtifact <https://www.legislation.gov.au/C1901A00006/2024-07-01/2024-07-01/text/original/epub/OEBPS/document_2/document_2.html#_Toc172624609> ;
+    prof:hasResource <http://example.org/au/leg/dataset/C1901A00006/854> ;
+.
+
+lvstex:Item4547
+    a prof:Profile ;
+    rdfs:label "Item - I4547 385 120  Purchase price of replacement live stock is reduced"@en ;
+    prof:profileOf <http://example.org/au/leg/concepts/> ;
+    dct:conformsTo <http://example.org/au/leg/profile/> ;
+    dct:format <https://w3id.org/mediatypes/text/turtle> ;
+    prof:hasArtifact <https://www.legislation.gov.au/C2004A05138/2024-07-01/2024-07-01/text/original/epub/OEBPS/document_7/document_7.html#_Toc172902882> ;
+    prof:hasResource <http://example.org/au/leg/dataset/C2004A05138/4547> ;
+.
+
+lvstex:Item853
+    a prof:Profile ;
+    rdfs:label "Item - I853 162  Delivery of goods upon giving of security or undertaking for payment of duty GST and luxury car tax"@en ;
+    prof:profileOf <http://example.org/au/leg/concepts/> ;
+    dct:conformsTo <http://example.org/au/leg/profile/> ;
+    dct:format <https://w3id.org/mediatypes/text/turtle> ;
+    prof:hasArtifact <https://www.legislation.gov.au/C1901A00006/2024-07-01/2024-07-01/text/original/epub/OEBPS/document_2/document_2.html#_Toc172624608> ;
+    prof:hasResource <http://example.org/au/leg/dataset/C1901A00006/853> ;
+.
+
+lvstex:Item1061
+    a prof:Profile ;
+    rdfs:label "Item - I1061 70 55  Working out the cost of natural increase of live stock"@en ;
+    prof:profileOf <http://example.org/au/leg/concepts/> ;
+    dct:conformsTo <http://example.org/au/leg/profile/> ;
+    dct:format <https://w3id.org/mediatypes/text/turtle> ;
+    prof:hasArtifact <https://www.legislation.gov.au/C2004A05138/2024-07-01/2024-07-01/text/original/epub/OEBPS/document_3/document_3.html#_Toc172883944> ;
+    prof:hasResource <http://example.org/au/leg/dataset/C2004A05138/1061> ;
+.
+
+lvstex:Item4545
+    a prof:Profile ;
+    rdfs:label "Item - I4545 385 110  Alternative election to defer tax profit and reduce cost of replacement live stock"@en ;
+    prof:profileOf <http://example.org/au/leg/concepts/> ;
+    dct:conformsTo <http://example.org/au/leg/profile/> ;
+    dct:format <https://w3id.org/mediatypes/text/turtle> ;
+    prof:hasArtifact <https://www.legislation.gov.au/C2004A05138/2024-07-01/2024-07-01/text/original/epub/OEBPS/document_7/document_7.html#_Toc172902880> ;
+    prof:hasResource <http://example.org/au/leg/dataset/C2004A05138/4545> ;
+.
+
+lvstex:Item97
+    a prof:Profile ;
+    rdfs:label "Item - I97 66  Goods derelict to be delivered to officer"@en ;
+    prof:profileOf <http://example.org/au/leg/concepts/> ;
+    dct:conformsTo <http://example.org/au/leg/profile/> ;
+    dct:format <https://w3id.org/mediatypes/text/turtle> ;
+    prof:hasArtifact <https://www.legislation.gov.au/C1901A00006/2024-07-01/2024-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc172623071> ;
+    prof:hasResource <http://example.org/au/leg/dataset/C1901A00006/97> ;
+.
+
+lvstex:Item4550
+    a prof:Profile ;
+    rdfs:label "Item - I4550 385 130  Insurance for loss of live stock or trees"@en ;
+    prof:profileOf <http://example.org/au/leg/concepts/> ;
+    dct:conformsTo <http://example.org/au/leg/profile/> ;
+    dct:format <https://w3id.org/mediatypes/text/turtle> ;
+    prof:hasArtifact <https://www.legislation.gov.au/C2004A05138/2024-07-01/2024-07-01/text/original/epub/OEBPS/document_7/document_7.html#_Toc172902885> ;
+    prof:hasResource <http://example.org/au/leg/dataset/C2004A05138/4550> ;
+.
+
+lvstex:Item244
+    a prof:Profile ;
+    rdfs:label "Item - I244 101  Delivery of warehousing authority"@en ;
+    prof:profileOf <http://example.org/au/leg/concepts/> ;
+    dct:conformsTo <http://example.org/au/leg/profile/> ;
+    dct:format <https://w3id.org/mediatypes/text/turtle> ;
+    prof:hasArtifact <https://www.legislation.gov.au/C1901A00006/2024-07-01/2024-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc172623218> ;
+    prof:hasResource <http://example.org/au/leg/dataset/C1901A00006/244> ;
+.
+
+lvstex:Item182
+    a prof:Profile ;
+    rdfs:label "Item - I182 77 ED  Minister may authorise delivery of detained goods into home consumption"@en ;
+    prof:profileOf <http://example.org/au/leg/concepts/> ;
+    dct:conformsTo <http://example.org/au/leg/profile/> ;
+    dct:format <https://w3id.org/mediatypes/text/turtle> ;
+    prof:hasArtifact <https://www.legislation.gov.au/C1901A00006/2024-07-01/2024-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc172623156> ;
+    prof:hasResource <http://example.org/au/leg/dataset/C1901A00006/182> ;
+.
+
+lvstex:Item283
+    a prof:Profile ;
+    rdfs:label "Item - I283 105 A  Delivery from customs control of brandy whisky or rum"@en ;
+    prof:profileOf <http://example.org/au/leg/concepts/> ;
+    dct:conformsTo <http://example.org/au/leg/profile/> ;
+    dct:format <https://w3id.org/mediatypes/text/turtle> ;
+    prof:hasArtifact <https://www.legislation.gov.au/C1901A00006/2024-07-01/2024-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc172623257> ;
+    prof:hasResource <http://example.org/au/leg/dataset/C1901A00006/283> ;
 .
