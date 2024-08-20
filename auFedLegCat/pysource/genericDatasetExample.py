@@ -272,9 +272,6 @@ def buildNode(g, headingVal, cnt, leader, heading, link): # this is where the no
 def linkToParent(g, leader, parent): # adds skos:broader, skos:narrower, dct:isPartOf and dct:hasPart to establish child/parent relationships between nodes
     if not leader == parent: # do not allow self references
         # print(f"{leader} {parent}")
-        if not (parent, SKOS.narrower, URIRef(skosref + "ToC")) in g:
-            g.add((parent, SKOS.narrower, URIRef(skosref + "ToC")))
-        g.add((leader, SKOS.narrower, URIRef(skosref + "ToC")))
         g.add((leader, SKOS.narrower, parent))
         g.add((parent, SKOS.broader, leader))
         g.add((leader, DCTERMS.isPartOf, parent))
