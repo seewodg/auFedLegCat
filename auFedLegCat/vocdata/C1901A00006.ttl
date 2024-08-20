@@ -8,11 +8,12 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-C1901A00006: a dcat:Dataset,
+C1901A00006: a owl:Ontology,
+        dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Customs Act 1901" ;
     dct:Agent "Home Affairs"@en-AU ;
-    dct:created "2024-08-20T15:37:18.868265"^^xsd:dateTime ;
+    dct:created "2024-08-20T16:12:31.693487"^^xsd:dateTime ;
     dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
     dct:date "2024-07-01T00:00:00+10:00"^^xsd:dateTime ;
     dct:description "Customs Act 1901"@en-AU ;
