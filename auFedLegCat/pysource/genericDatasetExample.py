@@ -90,7 +90,7 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
         g.bind('dcat', DCAT)
         g.bind('dct', DCTERMS)
         g.bind("legcons", skosref)
-        g.add((nspace, RDF.type, OWL.Ontology))
+#        g.add((nspace, RDF.type, OWL.Ontology))
         g.add((nspace, RDF.type, DCAT.Dataset))
         g.add((nspace, RDF.type, DCAT.Resource))
         g.add((nspace, DCTERMS.creator, Literal(builder, datatype=XSD.anyURI)))
@@ -143,7 +143,7 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
         # add license
         g.add((nspace, DCTERMS.license, URIRef("https://creativecommons.org/licenses/by-sa/4.0/")))
         # add imports
-        g.add((nspace, OWL.imports, URIRef(skosref)))
+#        g.add((nspace, OWL.imports, URIRef(skosref)))
         # scrape data for DCAT dataset
         if legID is not None and ToC is True:
             tocScrape(g, soup, nspace)

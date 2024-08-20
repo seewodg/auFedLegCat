@@ -8,12 +8,11 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-C1901A00002: a owl:Ontology,
-        dcat:Dataset,
+C1901A00002: a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Acts Interpretation Act 1901" ;
     dct:Agent "Attorney-General's"@en-AU ;
-    dct:created "2024-08-20T10:36:54.860418"^^xsd:dateTime ;
+    dct:created "2024-08-20T13:08:02.595414"^^xsd:dateTime ;
     dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
     dct:date "2023-08-12T00:00:00+10:00"^^xsd:dateTime ;
     dct:description "Acts Interpretation Act 1901"@en-AU ;
@@ -23,7 +22,6 @@ C1901A00002: a owl:Ontology,
     dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
     dct:subject "Acts Interpretation Act 1901"@en-AU ;
     dct:title "Acts Interpretation Act 1901"@en-AU ;
-    owl:imports legcons: ;
     dcat:theme legcons:Endnotes,
         legcons:Item,
         legcons:Part,

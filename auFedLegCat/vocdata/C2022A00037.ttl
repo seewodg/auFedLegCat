@@ -8,12 +8,11 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-C2022A00037: a owl:Ontology,
-        dcat:Dataset,
+C2022A00037: a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Climate Change Act 2022" ;
     dct:Agent "Climate Change, Energy, the Environment and Water"@en-AU ;
-    dct:created "2024-08-20T10:37:14.996628"^^xsd:dateTime ;
+    dct:created "2024-08-20T13:08:18.470309"^^xsd:dateTime ;
     dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
     dct:date "2023-04-12T00:00:00+10:00"^^xsd:dateTime ;
     dct:description "Climate Change Act 2022"@en-AU ;
@@ -23,7 +22,6 @@ C2022A00037: a owl:Ontology,
     dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
     dct:subject "Climate Change Act 2022"@en-AU ;
     dct:title "Climate Change Act 2022"@en-AU ;
-    owl:imports legcons: ;
     dcat:theme legcons:Endnotes,
         legcons:Item,
         legcons:Part,

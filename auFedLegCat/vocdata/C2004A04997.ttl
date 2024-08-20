@@ -8,12 +8,11 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-C2004A04997: a owl:Ontology,
-        dcat:Dataset,
+C2004A04997: a dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Customs Tariff Act 1995" ;
     dct:Agent "Home Affairs"@en-AU ;
-    dct:created "2024-08-20T10:37:34.998695"^^xsd:dateTime ;
+    dct:created "2024-08-20T13:08:40.570964"^^xsd:dateTime ;
     dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
     dct:date "2024-07-01T00:00:00+10:00"^^xsd:dateTime ;
     dct:description "Customs Tariff Act 1995"@en-AU ;
@@ -23,7 +22,6 @@ C2004A04997: a owl:Ontology,
     dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
     dct:subject "Customs Tariff Act 1995"@en-AU ;
     dct:title "Customs Tariff Act 1995"@en-AU ;
-    owl:imports legcons: ;
     dcat:theme legcons:Chapter,
         legcons:Endnotes,
         legcons:Item,
