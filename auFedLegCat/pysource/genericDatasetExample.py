@@ -139,7 +139,7 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
         if legID is not None and detailedMetadata is True:
             scrapeMetaPage(g, legID, f"https://www.legislation.gov.au/{legID}/latest/details") # e.g.https://www.legislation.gov.au/F2021L00319/latest/details
         # add dcat theme
-        g.add((nspace, DCAT.theme, URIRef(skosref + "ToC")))
+#        g.add((nspace, DCAT.theme, URIRef(skosref + "ToC")))
         # add license
         g.add((nspace, DCTERMS.license, URIRef("https://creativecommons.org/licenses/by-sa/4.0/")))
         # add imports
