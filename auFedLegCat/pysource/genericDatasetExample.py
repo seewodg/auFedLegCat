@@ -138,10 +138,12 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
         # get metadata from the legislation details page
         if legID is not None and detailedMetadata is True:
             scrapeMetaPage(g, legID, f"https://www.legislation.gov.au/{legID}/latest/details") # e.g.https://www.legislation.gov.au/F2021L00319/latest/details
+        # add dcat theme
+#        g.add((nspace, DCAT.theme, URIRef(skosref + "ToC")))
         # add license
         g.add((nspace, DCTERMS.license, URIRef("https://creativecommons.org/licenses/by-sa/4.0/")))
         # add imports
-#        g.add((nspace, OWL.imports, URIRef(skosref)))
+        g.add((nspace, OWL.imports, URIRef(skosref)))
         # scrape data for DCAT dataset
         if legID is not None and ToC is True:
             tocScrape(g, soup, nspace)
@@ -253,7 +255,7 @@ def buildNode(g, headingVal, cnt, leader, heading, link): # this is where the no
             # print(f"buidNode - clean - {headingVal}")
             g.add((leader, DCAT.landingPage, Literal(link['href'], datatype=XSD.anyURI)))
             g.add((leader, DCAT.accessURL, URIRef(link['href'])))
-            # g.add((leader, RDF.type, URIRef(baseURL + headingVal)))
+            g.add((leader, RDF.type, URIRef(baseURL + headingVal)))
             g.add((leader, RDF.type, OWL.Class))
             g.add((leader, RDF.type, DCAT.Resource))
             g.add((leader, RDF.type, URIRef(skosref + headingVal)))
@@ -262,8 +264,9 @@ def buildNode(g, headingVal, cnt, leader, heading, link): # this is where the no
             g.add((leader, SKOS.prefLabel, Literal(cleanHeading + ' ' + prfx, lang="en-AU")))
             g.add((leader, RDFS.comment, Literal(heading + ' - Abrievated Graph Key: ' + prfx, lang="en-AU")))
             g.add((leader, RDFS.label, Literal(cleanHeading + ' - ' + prfx + ' ' + heading, lang="en-AU")))
+            g.add((leader, DCAT.theme, URIRef(skosref + headingVal))) # adds dcat:theme to the dataset entry
             if not (URIRef(baseURL), DCAT.theme, URIRef(skosref + headingVal)) in g:
-                g.add((URIRef(baseURL), DCAT.theme, URIRef(skosref + headingVal))) # adds dcat:theme to the dataset header
+                g.add((URIRef(baseURL), DCAT.theme, URIRef(skosref + headingVal)))
             return True
     except Exception as e:
         return e
