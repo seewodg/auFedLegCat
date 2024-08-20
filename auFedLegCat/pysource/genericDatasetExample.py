@@ -257,6 +257,7 @@ def buildNode(g, headingVal, cnt, leader, heading, link): # this is where the no
             g.add((leader, RDF.type, OWL.Class))
             g.add((leader, RDF.type, DCAT.Resource))
             g.add((leader, RDF.type, URIRef(skosref + headingVal)))
+            g.add((leader, RDFS.subClassOf, URIRef(baseURL)))
             g.add((leader, SKOS.definition, Literal(heading, lang="en-AU")))
             g.add((leader, SKOS.prefLabel, Literal(cleanHeading + ' ' + prfx, lang="en-AU")))
             g.add((leader, RDFS.comment, Literal(heading + ' - Abrievated Graph Key: ' + prfx, lang="en-AU")))

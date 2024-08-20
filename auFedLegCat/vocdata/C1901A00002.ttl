@@ -8,34 +8,13 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-C1901A00002: a owl:Class,
-        dcat:Dataset,
-        dcat:Resource ;
-    rdfs:label "Acts Interpretation Act 1901" ;
-    dct:Agent "Attorney-General's"@en-AU ;
-    dct:created "2024-08-20T16:26:55.991289"^^xsd:dateTime ;
-    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
-    dct:date "2023-08-12T00:00:00+10:00"^^xsd:dateTime ;
-    dct:description "Acts Interpretation Act 1901"@en-AU ;
-    dct:identifier "https://www.legislation.gov.au/C1901A00002/latest"^^xsd:anyURI ;
-    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
-    dct:publisher "Attorney-General's Department" ;
-    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
-    dct:subject "Acts Interpretation Act 1901"@en-AU ;
-    dct:title "Acts Interpretation Act 1901"@en-AU ;
-    dcat:theme legcons:Endnotes,
-        legcons:Item,
-        legcons:Part ;
-    schema:identifier "C1901A00002" ;
-    schema:status "In force" ;
-    schema:version "C2023C00213 (C37)" .
-
 C1901A00002:10 a legcons:Item,
         owl:Class,
         dcat:Resource ;
     rdfs:label "Item - I10 2 D  References to de facto partners"@en-AU ;
     dct:isPartOf C1901A00002:6 ;
     rdfs:comment "2 D  References to de facto partners - Abrievated Graph Key: I10"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "2 D  References to de facto partners"@en-AU ;
     skos:narrower C1901A00002:6 ;
     skos:prefLabel "Item I10"@en-AU ;
@@ -48,6 +27,7 @@ C1901A00002:11 a legcons:Item,
     rdfs:label "Item - I11 2 E  Registered relationships"@en-AU ;
     dct:isPartOf C1901A00002:6 ;
     rdfs:comment "2 E  Registered relationships - Abrievated Graph Key: I11"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "2 E  Registered relationships"@en-AU ;
     skos:narrower C1901A00002:6 ;
     skos:prefLabel "Item I11"@en-AU ;
@@ -60,6 +40,7 @@ C1901A00002:12 a legcons:Item,
     rdfs:label "Item - I12 2 F  De facto relationships"@en-AU ;
     dct:isPartOf C1901A00002:6 ;
     rdfs:comment "2 F  De facto relationships - Abrievated Graph Key: I12"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "2 F  De facto relationships"@en-AU ;
     skos:narrower C1901A00002:6 ;
     skos:prefLabel "Item I12"@en-AU ;
@@ -72,6 +53,7 @@ C1901A00002:13 a legcons:Item,
     rdfs:label "Item - I13 2 G  Months"@en-AU ;
     dct:isPartOf C1901A00002:6 ;
     rdfs:comment "2 G  Months - Abrievated Graph Key: I13"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "2 G  Months"@en-AU ;
     skos:narrower C1901A00002:6 ;
     skos:prefLabel "Item I13"@en-AU ;
@@ -84,6 +66,7 @@ C1901A00002:14 a legcons:Item,
     rdfs:label "Item - I14 2 H  References to law of the Commonwealth"@en-AU ;
     dct:isPartOf C1901A00002:6 ;
     rdfs:comment "2 H  References to law of the Commonwealth - Abrievated Graph Key: I14"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "2 H  References to law of the Commonwealth"@en-AU ;
     skos:narrower C1901A00002:6 ;
     skos:prefLabel "Item I14"@en-AU ;
@@ -96,6 +79,7 @@ C1901A00002:15 a legcons:Item,
     rdfs:label "Item - I15 2 J  Documents commencing proceedings"@en-AU ;
     dct:isPartOf C1901A00002:6 ;
     rdfs:comment "2 J  Documents commencing proceedings - Abrievated Graph Key: I15"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "2 J  Documents commencing proceedings"@en-AU ;
     skos:narrower C1901A00002:6 ;
     skos:prefLabel "Item I15"@en-AU ;
@@ -108,6 +92,7 @@ C1901A00002:16 a legcons:Item,
     rdfs:label "Item - I16 2 K  Rules of court"@en-AU ;
     dct:isPartOf C1901A00002:6 ;
     rdfs:comment "2 K  Rules of court - Abrievated Graph Key: I16"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "2 K  Rules of court"@en-AU ;
     skos:narrower C1901A00002:6 ;
     skos:prefLabel "Item I16"@en-AU ;
@@ -120,6 +105,7 @@ C1901A00002:17 a legcons:Item,
     rdfs:label "Item - I17 2 L  References to Australian Standards"@en-AU ;
     dct:isPartOf C1901A00002:6 ;
     rdfs:comment "2 L  References to Australian Standards - Abrievated Graph Key: I17"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "2 L  References to Australian Standards"@en-AU ;
     skos:narrower C1901A00002:6 ;
     skos:prefLabel "Item I17"@en-AU ;
@@ -132,6 +118,7 @@ C1901A00002:18 a legcons:Item,
     rdfs:label "Item - I18 2 M  Sitting day"@en-AU ;
     dct:isPartOf C1901A00002:6 ;
     rdfs:comment "2 M  Sitting day - Abrievated Graph Key: I18"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "2 M  Sitting day"@en-AU ;
     skos:narrower C1901A00002:6 ;
     skos:prefLabel "Item I18"@en-AU ;
@@ -144,6 +131,7 @@ C1901A00002:2 a legcons:Item,
     rdfs:label "Item - I2 1  Short title"@en-AU ;
     dct:isPartOf C1901A00002:1 ;
     rdfs:comment "1  Short title - Abrievated Graph Key: I2"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "1  Short title"@en-AU ;
     skos:narrower C1901A00002:1 ;
     skos:prefLabel "Item I2"@en-AU ;
@@ -156,6 +144,7 @@ C1901A00002:20 a legcons:Item,
     rdfs:label "Item - I20 3  When Acts come into operation"@en-AU ;
     dct:isPartOf C1901A00002:19 ;
     rdfs:comment "3  When Acts come into operation - Abrievated Graph Key: I20"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "3  When Acts come into operation"@en-AU ;
     skos:narrower C1901A00002:19 ;
     skos:prefLabel "Item I20"@en-AU ;
@@ -168,6 +157,7 @@ C1901A00002:21 a legcons:Item,
     rdfs:label "Item - I21 3 A  Commencement of Acts"@en-AU ;
     dct:isPartOf C1901A00002:19 ;
     rdfs:comment "3 A  Commencement of Acts - Abrievated Graph Key: I21"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "3 A  Commencement of Acts"@en-AU ;
     skos:narrower C1901A00002:19 ;
     skos:prefLabel "Item I21"@en-AU ;
@@ -180,6 +170,7 @@ C1901A00002:22 a legcons:Item,
     rdfs:label "Item - I22 4  Exercise of powers between enactment and commencement of Act"@en-AU ;
     dct:isPartOf C1901A00002:19 ;
     rdfs:comment "4  Exercise of powers between enactment and commencement of Act - Abrievated Graph Key: I22"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "4  Exercise of powers between enactment and commencement of Act"@en-AU ;
     skos:narrower C1901A00002:19 ;
     skos:prefLabel "Item I22"@en-AU ;
@@ -192,6 +183,7 @@ C1901A00002:23 a legcons:Item,
     rdfs:label "Item - I23 6  Evidence of date of assent"@en-AU ;
     dct:isPartOf C1901A00002:19 ;
     rdfs:comment "6  Evidence of date of assent - Abrievated Graph Key: I23"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "6  Evidence of date of assent"@en-AU ;
     skos:narrower C1901A00002:19 ;
     skos:prefLabel "Item I23"@en-AU ;
@@ -204,6 +196,7 @@ C1901A00002:25 a legcons:Item,
     rdfs:label "Item - I25 7  Effect of repeal or amendment of Act"@en-AU ;
     dct:isPartOf C1901A00002:24 ;
     rdfs:comment "7  Effect of repeal or amendment of Act - Abrievated Graph Key: I25"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "7  Effect of repeal or amendment of Act"@en-AU ;
     skos:narrower C1901A00002:24 ;
     skos:prefLabel "Item I25"@en-AU ;
@@ -216,6 +209,7 @@ C1901A00002:26 a legcons:Item,
     rdfs:label "Item - I26 10  References to amended or re enacted Acts"@en-AU ;
     dct:isPartOf C1901A00002:24 ;
     rdfs:comment "10  References to amended or re enacted Acts - Abrievated Graph Key: I26"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "10  References to amended or re enacted Acts"@en-AU ;
     skos:narrower C1901A00002:24 ;
     skos:prefLabel "Item I26"@en-AU ;
@@ -228,6 +222,7 @@ C1901A00002:27 a legcons:Item,
     rdfs:label "Item - I27 10 A  References to amended or re enacted laws of States and Territories"@en-AU ;
     dct:isPartOf C1901A00002:24 ;
     rdfs:comment "10 A  References to amended or re enacted laws of States and Territories - Abrievated Graph Key: I27"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "10 A  References to amended or re enacted laws of States and Territories"@en-AU ;
     skos:narrower C1901A00002:24 ;
     skos:prefLabel "Item I27"@en-AU ;
@@ -240,6 +235,7 @@ C1901A00002:28 a legcons:Item,
     rdfs:label "Item - I28 11  Acts may be altered etc in same session"@en-AU ;
     dct:isPartOf C1901A00002:24 ;
     rdfs:comment "11  Acts may be altered etc in same session - Abrievated Graph Key: I28"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "11  Acts may be altered etc in same session"@en-AU ;
     skos:narrower C1901A00002:24 ;
     skos:prefLabel "Item I28"@en-AU ;
@@ -252,6 +248,7 @@ C1901A00002:29 a legcons:Item,
     rdfs:label "Item - I29 11 A  Inserting definitions into provisions or inserting items into lists or tables"@en-AU ;
     dct:isPartOf C1901A00002:24 ;
     rdfs:comment "11 A  Inserting definitions into provisions or inserting items into lists or tables - Abrievated Graph Key: I29"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "11 A  Inserting definitions into provisions or inserting items into lists or tables"@en-AU ;
     skos:narrower C1901A00002:24 ;
     skos:prefLabel "Item I29"@en-AU ;
@@ -264,6 +261,7 @@ C1901A00002:3 a legcons:Item,
     rdfs:label "Item - I3 1 A  Simplified outline"@en-AU ;
     dct:isPartOf C1901A00002:1 ;
     rdfs:comment "1 A  Simplified outline - Abrievated Graph Key: I3"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "1 A  Simplified outline"@en-AU ;
     skos:narrower C1901A00002:1 ;
     skos:prefLabel "Item I3"@en-AU ;
@@ -276,6 +274,7 @@ C1901A00002:30 a legcons:Item,
     rdfs:label "Item - I30 11 B  Amending Act to be construed with amended Act"@en-AU ;
     dct:isPartOf C1901A00002:24 ;
     rdfs:comment "11 B  Amending Act to be construed with amended Act - Abrievated Graph Key: I30"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "11 B  Amending Act to be construed with amended Act"@en-AU ;
     skos:narrower C1901A00002:24 ;
     skos:prefLabel "Item I30"@en-AU ;
@@ -288,6 +287,7 @@ C1901A00002:32 a legcons:Item,
     rdfs:label "Item - I32 12  Every section a substantive enactment"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "12  Every section a substantive enactment - Abrievated Graph Key: I32"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "12  Every section a substantive enactment"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I32"@en-AU ;
@@ -300,6 +300,7 @@ C1901A00002:33 a legcons:Item,
     rdfs:label "Item - I33 13  Material that is part of an Act"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "13  Material that is part of an Act - Abrievated Graph Key: I33"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "13  Material that is part of an Act"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I33"@en-AU ;
@@ -312,6 +313,7 @@ C1901A00002:34 a legcons:Item,
     rdfs:label "Item - I34 15 A  Construction of Acts to be subject to Constitution"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "15 A  Construction of Acts to be subject to Constitution - Abrievated Graph Key: I34"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "15 A  Construction of Acts to be subject to Constitution"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I34"@en-AU ;
@@ -324,6 +326,7 @@ C1901A00002:35 a legcons:Item,
     rdfs:label "Item - I35 15 AA  Interpretation best achieving Acts purpose or object"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "15 AA  Interpretation best achieving Acts purpose or object - Abrievated Graph Key: I35"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "15 AA  Interpretation best achieving Acts purpose or object"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I35"@en-AU ;
@@ -336,6 +339,7 @@ C1901A00002:36 a legcons:Item,
     rdfs:label "Item - I36 15 AB  Use of extrinsic material in the interpretation of an Act"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "15 AB  Use of extrinsic material in the interpretation of an Act - Abrievated Graph Key: I36"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "15 AB  Use of extrinsic material in the interpretation of an Act"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I36"@en-AU ;
@@ -348,6 +352,7 @@ C1901A00002:37 a legcons:Item,
     rdfs:label "Item - I37 15 AC  Changes to style not to affect meaning"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "15 AC  Changes to style not to affect meaning - Abrievated Graph Key: I37"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "15 AC  Changes to style not to affect meaning"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I37"@en-AU ;
@@ -360,6 +365,7 @@ C1901A00002:38 a legcons:Item,
     rdfs:label "Item - I38 15 AD  Examples"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "15 AD  Examples - Abrievated Graph Key: I38"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "15 AD  Examples"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I38"@en-AU ;
@@ -372,6 +378,7 @@ C1901A00002:39 a legcons:Item,
     rdfs:label "Item - I39 15 B  Application of Acts in coastal sea"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "15 B  Application of Acts in coastal sea - Abrievated Graph Key: I39"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "15 B  Application of Acts in coastal sea"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I39"@en-AU ;
@@ -384,6 +391,7 @@ C1901A00002:4 a legcons:Item,
     rdfs:label "Item - I4 2  Application of Act"@en-AU ;
     dct:isPartOf C1901A00002:1 ;
     rdfs:comment "2  Application of Act - Abrievated Graph Key: I4"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "2  Application of Act"@en-AU ;
     skos:narrower C1901A00002:1 ;
     skos:prefLabel "Item I4"@en-AU ;
@@ -396,6 +404,7 @@ C1901A00002:40 a legcons:Item,
     rdfs:label "Item - I40 15 C  Jurisdiction of courts"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "15 C  Jurisdiction of courts - Abrievated Graph Key: I40"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "15 C  Jurisdiction of courts"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I40"@en-AU ;
@@ -408,6 +417,7 @@ C1901A00002:41 a legcons:Item,
     rdfs:label "Item - I41 16  References to the Sovereign"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "16  References to the Sovereign - Abrievated Graph Key: I41"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "16  References to the Sovereign"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I41"@en-AU ;
@@ -420,6 +430,7 @@ C1901A00002:42 a legcons:Item,
     rdfs:label "Item - I42 16 A  References to the Governor General"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "16 A  References to the Governor General - Abrievated Graph Key: I42"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "16 A  References to the Governor General"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I42"@en-AU ;
@@ -432,6 +443,7 @@ C1901A00002:43 a legcons:Item,
     rdfs:label "Item - I43 16 B  References to the Governor of a State"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "16 B  References to the Governor of a State - Abrievated Graph Key: I43"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "16 B  References to the Governor of a State"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I43"@en-AU ;
@@ -444,6 +456,7 @@ C1901A00002:44 a legcons:Item,
     rdfs:label "Item - I44 16 BA  References to judge"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "16 BA  References to judge - Abrievated Graph Key: I44"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "16 BA  References to judge"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I44"@en-AU ;
@@ -456,6 +469,7 @@ C1901A00002:45 a legcons:Item,
     rdfs:label "Item - I45 16 C  References to Stipendiary Magistrate and Magistrate"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "16 C  References to Stipendiary Magistrate and Magistrate - Abrievated Graph Key: I45"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "16 C  References to Stipendiary Magistrate and Magistrate"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I45"@en-AU ;
@@ -468,6 +482,7 @@ C1901A00002:46 a legcons:Item,
     rdfs:label "Item - I46 17 A  Paper or document purporting to be printed by Government Printer"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "17 A  Paper or document purporting to be printed by Government Printer - Abrievated Graph Key: I46"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "17 A  Paper or document purporting to be printed by Government Printer"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I46"@en-AU ;
@@ -480,6 +495,7 @@ C1901A00002:47 a legcons:Item,
     rdfs:label "Item - I47 18 A  Parts of speech and grammatical forms"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "18 A  Parts of speech and grammatical forms - Abrievated Graph Key: I47"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "18 A  Parts of speech and grammatical forms"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I47"@en-AU ;
@@ -492,6 +508,7 @@ C1901A00002:48 a legcons:Item,
     rdfs:label "Item - I48 18 B  Titles of Chairs and Deputy Chairs"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "18 B  Titles of Chairs and Deputy Chairs - Abrievated Graph Key: I48"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "18 B  Titles of Chairs and Deputy Chairs"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I48"@en-AU ;
@@ -504,6 +521,7 @@ C1901A00002:49 a legcons:Item,
     rdfs:label "Item - I49 19  References to Ministers in Acts"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "19  References to Ministers in Acts - Abrievated Graph Key: I49"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "19  References to Ministers in Acts"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I49"@en-AU ;
@@ -516,6 +534,7 @@ C1901A00002:5 a legcons:Item,
     rdfs:label "Item - I5 2 A  Binding the Crown"@en-AU ;
     dct:isPartOf C1901A00002:1 ;
     rdfs:comment "2 A  Binding the Crown - Abrievated Graph Key: I5"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "2 A  Binding the Crown"@en-AU ;
     skos:narrower C1901A00002:1 ;
     skos:prefLabel "Item I5"@en-AU ;
@@ -528,6 +547,7 @@ C1901A00002:50 a legcons:Item,
     rdfs:label "Item - I50 19 A  References to Departments in Acts"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "19 A  References to Departments in Acts - Abrievated Graph Key: I50"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "19 A  References to Departments in Acts"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I50"@en-AU ;
@@ -540,6 +560,7 @@ C1901A00002:51 a legcons:Item,
     rdfs:label "Item - I51 19 B  Machinery of governmentsubstituted reference orders"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "19 B  Machinery of governmentsubstituted reference orders - Abrievated Graph Key: I51"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "19 B  Machinery of governmentsubstituted reference orders"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I51"@en-AU ;
@@ -552,6 +573,7 @@ C1901A00002:52 a legcons:Item,
     rdfs:label "Item - I52 19 C  Machinery of governmentreferences to authorities in Commonwealth agreements"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "19 C  Machinery of governmentreferences to authorities in Commonwealth agreements - Abrievated Graph Key: I52"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "19 C  Machinery of governmentreferences to authorities in Commonwealth agreements"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I52"@en-AU ;
@@ -564,6 +586,7 @@ C1901A00002:53 a legcons:Item,
     rdfs:label "Item - I53 19 D  Machinery of government changessaving the validity of acts done by authorities"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "19 D  Machinery of government changessaving the validity of acts done by authorities - Abrievated Graph Key: I53"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "19 D  Machinery of government changessaving the validity of acts done by authorities"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I53"@en-AU ;
@@ -576,6 +599,7 @@ C1901A00002:54 a legcons:Item,
     rdfs:label "Item - I54 19 E  Validity of acts done by Ministers"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "19 E  Validity of acts done by Ministers - Abrievated Graph Key: I54"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "19 E  Validity of acts done by Ministers"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I54"@en-AU ;
@@ -588,6 +612,7 @@ C1901A00002:55 a legcons:Item,
     rdfs:label "Item - I55 20  References to holders of appointments offices and positions in Acts and Commonwealth agreements"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "20  References to holders of appointments offices and positions in Acts and Commonwealth agreements - Abrievated Graph Key: I55"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "20  References to holders of appointments offices and positions in Acts and Commonwealth agreements"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I55"@en-AU ;
@@ -600,6 +625,7 @@ C1901A00002:56 a legcons:Item,
     rdfs:label "Item - I56 21  Office etc means office etc of the Commonwealth"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "21  Office etc means office etc of the Commonwealth - Abrievated Graph Key: I56"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "21  Office etc means office etc of the Commonwealth"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I56"@en-AU ;
@@ -612,6 +638,7 @@ C1901A00002:57 a legcons:Item,
     rdfs:label "Item - I57 23  Rules as to gender and number"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "23  Rules as to gender and number - Abrievated Graph Key: I57"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "23  Rules as to gender and number"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I57"@en-AU ;
@@ -624,6 +651,7 @@ C1901A00002:58 a legcons:Item,
     rdfs:label "Item - I58 25 A  Production of records kept in computers etc"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "25 A  Production of records kept in computers etc - Abrievated Graph Key: I58"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "25 A  Production of records kept in computers etc"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I58"@en-AU ;
@@ -636,6 +664,7 @@ C1901A00002:59 a legcons:Item,
     rdfs:label "Item - I59 25 B  Alterations of names and constitutions"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "25 B  Alterations of names and constitutions - Abrievated Graph Key: I59"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "25 B  Alterations of names and constitutions"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I59"@en-AU ;
@@ -648,6 +677,7 @@ C1901A00002:60 a legcons:Item,
     rdfs:label "Item - I60 25 C  Compliance with forms"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "25 C  Compliance with forms - Abrievated Graph Key: I60"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "25 C  Compliance with forms"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I60"@en-AU ;
@@ -660,6 +690,7 @@ C1901A00002:61 a legcons:Item,
     rdfs:label "Item - I61 25 D  Content of statements of reasons for decisions"@en-AU ;
     dct:isPartOf C1901A00002:31 ;
     rdfs:comment "25 D  Content of statements of reasons for decisions - Abrievated Graph Key: I61"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "25 D  Content of statements of reasons for decisions"@en-AU ;
     skos:narrower C1901A00002:31 ;
     skos:prefLabel "Item I61"@en-AU ;
@@ -672,6 +703,7 @@ C1901A00002:63 a legcons:Item,
     rdfs:label "Item - I63 28 A  Service of documents"@en-AU ;
     dct:isPartOf C1901A00002:62 ;
     rdfs:comment "28 A  Service of documents - Abrievated Graph Key: I63"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "28 A  Service of documents"@en-AU ;
     skos:narrower C1901A00002:62 ;
     skos:prefLabel "Item I63"@en-AU ;
@@ -684,6 +716,7 @@ C1901A00002:64 a legcons:Item,
     rdfs:label "Item - I64 29  Meaning of service by post"@en-AU ;
     dct:isPartOf C1901A00002:62 ;
     rdfs:comment "29  Meaning of service by post - Abrievated Graph Key: I64"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "29  Meaning of service by post"@en-AU ;
     skos:narrower C1901A00002:62 ;
     skos:prefLabel "Item I64"@en-AU ;
@@ -696,6 +729,7 @@ C1901A00002:66 a legcons:Item,
     rdfs:label "Item - I66 33  Exercise of powers and performance of functions or duties"@en-AU ;
     dct:isPartOf C1901A00002:65 ;
     rdfs:comment "33  Exercise of powers and performance of functions or duties - Abrievated Graph Key: I66"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "33  Exercise of powers and performance of functions or duties"@en-AU ;
     skos:narrower C1901A00002:65 ;
     skos:prefLabel "Item I66"@en-AU ;
@@ -708,6 +742,7 @@ C1901A00002:67 a legcons:Item,
     rdfs:label "Item - I67 33 AA  Power to appoint includes power to reappoint"@en-AU ;
     dct:isPartOf C1901A00002:65 ;
     rdfs:comment "33 AA  Power to appoint includes power to reappoint - Abrievated Graph Key: I67"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "33 AA  Power to appoint includes power to reappoint"@en-AU ;
     skos:narrower C1901A00002:65 ;
     skos:prefLabel "Item I67"@en-AU ;
@@ -720,6 +755,7 @@ C1901A00002:68 a legcons:Item,
     rdfs:label "Item - I68 33 AB  Validity of things done under appointments under Acts"@en-AU ;
     dct:isPartOf C1901A00002:65 ;
     rdfs:comment "33 AB  Validity of things done under appointments under Acts - Abrievated Graph Key: I68"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "33 AB  Validity of things done under appointments under Acts"@en-AU ;
     skos:narrower C1901A00002:65 ;
     skos:prefLabel "Item I68"@en-AU ;
@@ -732,6 +768,7 @@ C1901A00002:69 a legcons:Item,
     rdfs:label "Item - I69 33 A  Acting in offices or positions"@en-AU ;
     dct:isPartOf C1901A00002:65 ;
     rdfs:comment "33 A  Acting in offices or positions - Abrievated Graph Key: I69"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "33 A  Acting in offices or positions"@en-AU ;
     skos:narrower C1901A00002:65 ;
     skos:prefLabel "Item I69"@en-AU ;
@@ -744,6 +781,7 @@ C1901A00002:7 a legcons:Item,
     rdfs:label "Item - I7 2 B  Definitions"@en-AU ;
     dct:isPartOf C1901A00002:6 ;
     rdfs:comment "2 B  Definitions - Abrievated Graph Key: I7"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "2 B  Definitions"@en-AU ;
     skos:narrower C1901A00002:6 ;
     skos:prefLabel "Item I7"@en-AU ;
@@ -756,6 +794,7 @@ C1901A00002:70 a legcons:Item,
     rdfs:label "Item - I70 33 B  Participation in meetings by telephone etc"@en-AU ;
     dct:isPartOf C1901A00002:65 ;
     rdfs:comment "33 B  Participation in meetings by telephone etc - Abrievated Graph Key: I70"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "33 B  Participation in meetings by telephone etc"@en-AU ;
     skos:narrower C1901A00002:65 ;
     skos:prefLabel "Item I70"@en-AU ;
@@ -768,6 +807,7 @@ C1901A00002:71 a legcons:Item,
     rdfs:label "Item - I71 34  Power to hear and determine a matter includes power to receive evidence and examine witnesses etc"@en-AU ;
     dct:isPartOf C1901A00002:65 ;
     rdfs:comment "34  Power to hear and determine a matter includes power to receive evidence and examine witnesses etc - Abrievated Graph Key: I71"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "34  Power to hear and determine a matter includes power to receive evidence and examine witnesses etc"@en-AU ;
     skos:narrower C1901A00002:65 ;
     skos:prefLabel "Item I71"@en-AU ;
@@ -780,6 +820,7 @@ C1901A00002:72 a legcons:Item,
     rdfs:label "Item - I72 34 AAA  Exercise of powers etc by holders etc of offices or positions"@en-AU ;
     dct:isPartOf C1901A00002:65 ;
     rdfs:comment "34 AAA  Exercise of powers etc by holders etc of offices or positions - Abrievated Graph Key: I72"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "34 AAA  Exercise of powers etc by holders etc of offices or positions"@en-AU ;
     skos:narrower C1901A00002:65 ;
     skos:prefLabel "Item I72"@en-AU ;
@@ -792,6 +833,7 @@ C1901A00002:73 a legcons:Item,
     rdfs:label "Item - I73 34 AAB  Minister may authorise others to perform functions or duties or exercise powers on his or her behalf"@en-AU ;
     dct:isPartOf C1901A00002:65 ;
     rdfs:comment "34 AAB  Minister may authorise others to perform functions or duties or exercise powers on his or her behalf - Abrievated Graph Key: I73"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "34 AAB  Minister may authorise others to perform functions or duties or exercise powers on his or her behalf"@en-AU ;
     skos:narrower C1901A00002:65 ;
     skos:prefLabel "Item I73"@en-AU ;
@@ -804,6 +846,7 @@ C1901A00002:74 a legcons:Item,
     rdfs:label "Item - I74 34 AA  Delegation to persons holding occupying or performing the duties of an office or position"@en-AU ;
     dct:isPartOf C1901A00002:65 ;
     rdfs:comment "34 AA  Delegation to persons holding occupying or performing the duties of an office or position - Abrievated Graph Key: I74"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "34 AA  Delegation to persons holding occupying or performing the duties of an office or position"@en-AU ;
     skos:narrower C1901A00002:65 ;
     skos:prefLabel "Item I74"@en-AU ;
@@ -816,6 +859,7 @@ C1901A00002:75 a legcons:Item,
     rdfs:label "Item - I75 34 AB  Effect of delegation"@en-AU ;
     dct:isPartOf C1901A00002:65 ;
     rdfs:comment "34 AB  Effect of delegation - Abrievated Graph Key: I75"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "34 AB  Effect of delegation"@en-AU ;
     skos:narrower C1901A00002:65 ;
     skos:prefLabel "Item I75"@en-AU ;
@@ -828,6 +872,7 @@ C1901A00002:76 a legcons:Item,
     rdfs:label "Item - I76 34 A  Exercise of powers and performance of functions or duties that depend upon the opinion etc of delegates"@en-AU ;
     dct:isPartOf C1901A00002:65 ;
     rdfs:comment "34 A  Exercise of powers and performance of functions or duties that depend upon the opinion etc of delegates - Abrievated Graph Key: I76"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "34 A  Exercise of powers and performance of functions or duties that depend upon the opinion etc of delegates"@en-AU ;
     skos:narrower C1901A00002:65 ;
     skos:prefLabel "Item I76"@en-AU ;
@@ -840,6 +885,7 @@ C1901A00002:77 a legcons:Item,
     rdfs:label "Item - I77 34 B  Presentation of papers to the Parliament"@en-AU ;
     dct:isPartOf C1901A00002:65 ;
     rdfs:comment "34 B  Presentation of papers to the Parliament - Abrievated Graph Key: I77"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "34 B  Presentation of papers to the Parliament"@en-AU ;
     skos:narrower C1901A00002:65 ;
     skos:prefLabel "Item I77"@en-AU ;
@@ -852,6 +898,7 @@ C1901A00002:78 a legcons:Item,
     rdfs:label "Item - I78 34 C  Periodic reports"@en-AU ;
     dct:isPartOf C1901A00002:65 ;
     rdfs:comment "34 C  Periodic reports - Abrievated Graph Key: I78"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "34 C  Periodic reports"@en-AU ;
     skos:narrower C1901A00002:65 ;
     skos:prefLabel "Item I78"@en-AU ;
@@ -864,6 +911,7 @@ C1901A00002:8 a legcons:Item,
     rdfs:label "Item - I8 2 C  References to persons"@en-AU ;
     dct:isPartOf C1901A00002:6 ;
     rdfs:comment "2 C  References to persons - Abrievated Graph Key: I8"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "2 C  References to persons"@en-AU ;
     skos:narrower C1901A00002:6 ;
     skos:prefLabel "Item I8"@en-AU ;
@@ -876,6 +924,7 @@ C1901A00002:80 a legcons:Item,
     rdfs:label "Item - I80 35  Measurement of distance"@en-AU ;
     dct:isPartOf C1901A00002:79 ;
     rdfs:comment "35  Measurement of distance - Abrievated Graph Key: I80"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "35  Measurement of distance"@en-AU ;
     skos:narrower C1901A00002:79 ;
     skos:prefLabel "Item I80"@en-AU ;
@@ -888,6 +937,7 @@ C1901A00002:81 a legcons:Item,
     rdfs:label "Item - I81 36  Calculating time"@en-AU ;
     dct:isPartOf C1901A00002:79 ;
     rdfs:comment "36  Calculating time - Abrievated Graph Key: I81"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "36  Calculating time"@en-AU ;
     skos:narrower C1901A00002:79 ;
     skos:prefLabel "Item I81"@en-AU ;
@@ -900,6 +950,7 @@ C1901A00002:82 a legcons:Item,
     rdfs:label "Item - I82 37  Expressions of time"@en-AU ;
     dct:isPartOf C1901A00002:79 ;
     rdfs:comment "37  Expressions of time - Abrievated Graph Key: I82"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "37  Expressions of time"@en-AU ;
     skos:narrower C1901A00002:79 ;
     skos:prefLabel "Item I82"@en-AU ;
@@ -912,6 +963,7 @@ C1901A00002:83 a legcons:Item,
     rdfs:label "Item - I83 37 A  Attainment of particular age"@en-AU ;
     dct:isPartOf C1901A00002:79 ;
     rdfs:comment "37 A  Attainment of particular age - Abrievated Graph Key: I83"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "37 A  Attainment of particular age"@en-AU ;
     skos:narrower C1901A00002:79 ;
     skos:prefLabel "Item I83"@en-AU ;
@@ -924,6 +976,7 @@ C1901A00002:85 a legcons:Item,
     rdfs:label "Item - I85 38  Reference to Acts"@en-AU ;
     dct:isPartOf C1901A00002:84 ;
     rdfs:comment "38  Reference to Acts - Abrievated Graph Key: I85"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "38  Reference to Acts"@en-AU ;
     skos:narrower C1901A00002:84 ;
     skos:prefLabel "Item I85"@en-AU ;
@@ -936,6 +989,7 @@ C1901A00002:86 a legcons:Item,
     rdfs:label "Item - I86 39  Numbering of Acts"@en-AU ;
     dct:isPartOf C1901A00002:84 ;
     rdfs:comment "39  Numbering of Acts - Abrievated Graph Key: I86"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "39  Numbering of Acts"@en-AU ;
     skos:narrower C1901A00002:84 ;
     skos:prefLabel "Item I86"@en-AU ;
@@ -948,6 +1002,7 @@ C1901A00002:87 a legcons:Item,
     rdfs:label "Item - I87 40  Citation of Acts and instruments"@en-AU ;
     dct:isPartOf C1901A00002:84 ;
     rdfs:comment "40  Citation of Acts and instruments - Abrievated Graph Key: I87"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "40  Citation of Acts and instruments"@en-AU ;
     skos:narrower C1901A00002:84 ;
     skos:prefLabel "Item I87"@en-AU ;
@@ -960,6 +1015,7 @@ C1901A00002:88 a legcons:Item,
     rdfs:label "Item - I88 40 A  References to the new corporations and ASIC legislation"@en-AU ;
     dct:isPartOf C1901A00002:84 ;
     rdfs:comment "40 A  References to the new corporations and ASIC legislation - Abrievated Graph Key: I88"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "40 A  References to the new corporations and ASIC legislation"@en-AU ;
     skos:narrower C1901A00002:84 ;
     skos:prefLabel "Item I88"@en-AU ;
@@ -972,6 +1028,7 @@ C1901A00002:9 a legcons:Item,
     rdfs:label "Item - I9 2 CA  References to spouses"@en-AU ;
     dct:isPartOf C1901A00002:6 ;
     rdfs:comment "2 CA  References to spouses - Abrievated Graph Key: I9"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "2 CA  References to spouses"@en-AU ;
     skos:narrower C1901A00002:6 ;
     skos:prefLabel "Item I9"@en-AU ;
@@ -984,6 +1041,7 @@ C1901A00002:90 a legcons:Item,
     rdfs:label "Item - I90 46  Construction of instruments"@en-AU ;
     dct:isPartOf C1901A00002:89 ;
     rdfs:comment "46  Construction of instruments - Abrievated Graph Key: I90"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "46  Construction of instruments"@en-AU ;
     skos:narrower C1901A00002:89 ;
     skos:prefLabel "Item I90"@en-AU ;
@@ -996,6 +1054,7 @@ C1901A00002:91 a legcons:Item,
     rdfs:label "Item - I91 46 AA  Prescribing matters by reference to other instruments"@en-AU ;
     dct:isPartOf C1901A00002:89 ;
     rdfs:comment "46 AA  Prescribing matters by reference to other instruments - Abrievated Graph Key: I91"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "46 AA  Prescribing matters by reference to other instruments"@en-AU ;
     skos:narrower C1901A00002:89 ;
     skos:prefLabel "Item I91"@en-AU ;
@@ -1008,6 +1067,7 @@ C1901A00002:92 a legcons:Item,
     rdfs:label "Item - I92 47  Construction of resolutions"@en-AU ;
     dct:isPartOf C1901A00002:89 ;
     rdfs:comment "47  Construction of resolutions - Abrievated Graph Key: I92"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "47  Construction of resolutions"@en-AU ;
     skos:narrower C1901A00002:89 ;
     skos:prefLabel "Item I92"@en-AU ;
@@ -1020,6 +1080,7 @@ C1901A00002:93 a legcons:Part,
     rdfs:label "Part - P93 Part 11 Regulations"@en-AU ;
     dct:hasPart C1901A00002:94 ;
     rdfs:comment "Part 11 Regulations - Abrievated Graph Key: P93"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:broader C1901A00002:94 ;
     skos:definition "Part 11 Regulations"@en-AU ;
     skos:prefLabel "Part P93"@en-AU ;
@@ -1032,6 +1093,7 @@ C1901A00002:94 a legcons:Item,
     rdfs:label "Item - I94 51  Regulations"@en-AU ;
     dct:isPartOf C1901A00002:93 ;
     rdfs:comment "51  Regulations - Abrievated Graph Key: I94"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "51  Regulations"@en-AU ;
     skos:narrower C1901A00002:93 ;
     skos:prefLabel "Item I94"@en-AU ;
@@ -1044,6 +1106,7 @@ C1901A00002:96 a legcons:Item,
     rdfs:label "Item - I96 Endnote 1 About the endnotes"@en-AU ;
     dct:isPartOf C1901A00002:95 ;
     rdfs:comment "Endnote 1 About the endnotes - Abrievated Graph Key: I96"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "Endnote 1 About the endnotes"@en-AU ;
     skos:narrower C1901A00002:95 ;
     skos:prefLabel "Item I96"@en-AU ;
@@ -1056,6 +1119,7 @@ C1901A00002:97 a legcons:Item,
     rdfs:label "Item - I97 Endnote 2 Abbreviation key"@en-AU ;
     dct:isPartOf C1901A00002:95 ;
     rdfs:comment "Endnote 2 Abbreviation key - Abrievated Graph Key: I97"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "Endnote 2 Abbreviation key"@en-AU ;
     skos:narrower C1901A00002:95 ;
     skos:prefLabel "Item I97"@en-AU ;
@@ -1068,6 +1132,7 @@ C1901A00002:98 a legcons:Item,
     rdfs:label "Item - I98 Endnote 3 Legislation history"@en-AU ;
     dct:isPartOf C1901A00002:95 ;
     rdfs:comment "Endnote 3 Legislation history - Abrievated Graph Key: I98"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "Endnote 3 Legislation history"@en-AU ;
     skos:narrower C1901A00002:95 ;
     skos:prefLabel "Item I98"@en-AU ;
@@ -1080,6 +1145,7 @@ C1901A00002:99 a legcons:Item,
     rdfs:label "Item - I99 Endnote 4 Amendment history"@en-AU ;
     dct:isPartOf C1901A00002:95 ;
     rdfs:comment "Endnote 4 Amendment history - Abrievated Graph Key: I99"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:definition "Endnote 4 Amendment history"@en-AU ;
     skos:narrower C1901A00002:95 ;
     skos:prefLabel "Item I99"@en-AU ;
@@ -1093,6 +1159,7 @@ C1901A00002:62 a legcons:Part,
     dct:hasPart C1901A00002:63,
         C1901A00002:64 ;
     rdfs:comment "Part 6 Service of documents - Abrievated Graph Key: P62"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:broader C1901A00002:63,
         C1901A00002:64 ;
     skos:definition "Part 6 Service of documents"@en-AU ;
@@ -1108,6 +1175,7 @@ C1901A00002:89 a legcons:Part,
         C1901A00002:91,
         C1901A00002:92 ;
     rdfs:comment "Part 10 Instruments not covered by the Legislation Act 2003 and parliamentary resolutions - Abrievated Graph Key: P89"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:broader C1901A00002:90,
         C1901A00002:91,
         C1901A00002:92 ;
@@ -1125,6 +1193,7 @@ C1901A00002:1 a legcons:Part,
         C1901A00002:4,
         C1901A00002:5 ;
     rdfs:comment "Part 1 Preliminary - Abrievated Graph Key: P1"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:broader C1901A00002:2,
         C1901A00002:3,
         C1901A00002:4,
@@ -1143,6 +1212,7 @@ C1901A00002:19 a legcons:Part,
         C1901A00002:22,
         C1901A00002:23 ;
     rdfs:comment "Part 3 Commencement of Acts - Abrievated Graph Key: P19"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:broader C1901A00002:20,
         C1901A00002:21,
         C1901A00002:22,
@@ -1161,6 +1231,7 @@ C1901A00002:79 a legcons:Part,
         C1901A00002:82,
         C1901A00002:83 ;
     rdfs:comment "Part 8 Distance time and age - Abrievated Graph Key: P79"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:broader C1901A00002:80,
         C1901A00002:81,
         C1901A00002:82,
@@ -1179,6 +1250,7 @@ C1901A00002:84 a legcons:Part,
         C1901A00002:87,
         C1901A00002:88 ;
     rdfs:comment "Part 9 Citation of Acts and instruments - Abrievated Graph Key: P84"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:broader C1901A00002:85,
         C1901A00002:86,
         C1901A00002:87,
@@ -1197,6 +1269,7 @@ C1901A00002:95 a legcons:Endnotes,
         C1901A00002:98,
         C1901A00002:99 ;
     rdfs:comment "Endnotes - Abrievated Graph Key: E95"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:broader C1901A00002:96,
         C1901A00002:97,
         C1901A00002:98,
@@ -1217,6 +1290,7 @@ C1901A00002:24 a legcons:Part,
         C1901A00002:29,
         C1901A00002:30 ;
     rdfs:comment "Part 4 Amendment repeal and expiry of Acts - Abrievated Graph Key: P24"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:broader C1901A00002:25,
         C1901A00002:26,
         C1901A00002:27,
@@ -1245,6 +1319,7 @@ C1901A00002:6 a legcons:Part,
         C1901A00002:8,
         C1901A00002:9 ;
     rdfs:comment "Part 2 Definitions - Abrievated Graph Key: P6"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:broader C1901A00002:10,
         C1901A00002:11,
         C1901A00002:12,
@@ -1280,6 +1355,7 @@ C1901A00002:65 a legcons:Part,
         C1901A00002:77,
         C1901A00002:78 ;
     rdfs:comment "Part 7 Powers functions and duties - Abrievated Graph Key: P65"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:broader C1901A00002:66,
         C1901A00002:67,
         C1901A00002:68,
@@ -1333,6 +1409,7 @@ C1901A00002:31 a legcons:Part,
         C1901A00002:60,
         C1901A00002:61 ;
     rdfs:comment "Part 5 General interpretation rules - Abrievated Graph Key: P31"@en-AU ;
+    rdfs:subClassOf C1901A00002: ;
     skos:broader C1901A00002:32,
         C1901A00002:33,
         C1901A00002:34,
@@ -1367,4 +1444,26 @@ C1901A00002:31 a legcons:Part,
     skos:prefLabel "Part P31"@en-AU ;
     dcat:accessURL <https://www.legislation.gov.au/C1901A00002/2023-08-12/2023-08-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc143701732> ;
     dcat:landingPage "https://www.legislation.gov.au/C1901A00002/2023-08-12/2023-08-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc143701732"^^xsd:anyURI .
+
+C1901A00002: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Acts Interpretation Act 1901" ;
+    dct:Agent "Attorney-General's"@en-AU ;
+    dct:created "2024-08-20T16:35:54.890069"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2023-08-12T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Acts Interpretation Act 1901"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C1901A00002/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:publisher "Attorney-General's Department" ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Acts Interpretation Act 1901"@en-AU ;
+    dct:title "Acts Interpretation Act 1901"@en-AU ;
+    dcat:theme legcons:Endnotes,
+        legcons:Item,
+        legcons:Part ;
+    schema:identifier "C1901A00002" ;
+    schema:status "In force" ;
+    schema:version "C2023C00213 (C37)" .
 
