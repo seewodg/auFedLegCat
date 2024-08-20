@@ -90,7 +90,7 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
         g.bind('dcat', DCAT)
         g.bind('dct', DCTERMS)
         g.bind("legcons", skosref)
-        g.add((nspace, RDF.type, OWL.Ontology))
+        g.add((nspace, RDF.type, OWL.Class))
         g.add((nspace, RDF.type, DCAT.Dataset))
         g.add((nspace, RDF.type, DCAT.Resource))
         g.add((nspace, DCTERMS.creator, Literal(builder, datatype=XSD.anyURI)))
