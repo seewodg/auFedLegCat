@@ -18,7 +18,6 @@ def scrapeMetaPage(g, legID, source_url): # capture metadata from the legislatio
         encoding = html_encoding or http_encoding
         soup = BeautifulSoup(resp.content, parser, from_encoding=encoding)
         stat = ""
-        admin = ""
         vers = ""
         titleID = ""
 #        regDate = ""
@@ -38,20 +37,10 @@ def scrapeMetaPage(g, legID, source_url): # capture metadata from the legislatio
             vers = vers.replace('\n', ' ').replace('\r', '')
             g.add((nspace, SDO.version, Literal(vers)))
         for ul in soup.find_all('ul', attrs={'class':'list-group list-unstyled ms-3'}): # Administered By
-            licnt = 0
             for li in ul.find_all('li'):
                 sadmin = li.string
                 if len(sadmin) > 0:
-                    if licnt > 0:
-                        admin += " - " + sadmin
-                        licnt + 1
-                    else:
-                        admin = sadmin
-                        licnt + 1
-        if not admin == "":
-            admin = admin.replace('\n', ' ').replace('\r', '')
-            admin = admin.strip()
-            g.add((nspace, DCTERMS.publisher, Literal(admin)))
+                    g.add((nspace, DCTERMS.Jurisdiction, Literal(sadmin, lang="en-AU")))
         for div in soup.find_all('div', attrs={'class':'col-lg-9 title-id'}): # Title ID
             titleID = div.string
             titleID.strip()
@@ -112,17 +101,6 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
                             g.add((nspace, DCTERMS.title, Literal(value, lang="en-AU")))
                         elif key == "dcterms.identifier":
                             g.add((nspace, DCTERMS.identifier, Literal(value, datatype=XSD.anyURI)))
-                            # add label
-                        elif key == "dcterms.creator":
-                            if ";" in value:
-                                end = len(value)
-                                index = value.index(";") + 2
-                                value = value[index:end]
-                                if "corporateName" in value:
-                                    index = value.index("corporateName") + 14
-                                    end = len(value)
-                                    value = value[index:end]
-                            g.add((nspace, DCTERMS.Agent, Literal(value, lang="en-AU")))
                         elif key == "dcterms.publisher":
                             g.add((nspace, DCTERMS.source, Literal(value, lang="en-AU")))
                         elif key == "dcterms.description":
@@ -280,21 +258,10 @@ def linkToParent(g, leader, parent): # adds skos:broader, skos:narrower, dct:isP
         g.add((parent, DCTERMS.hasPart, leader))
         return True
     # else: return False
-
-# def cleanCruft(soup, test_str): # clean string of all NBSP characters from web pages being scraped (and other formatting as required)
-#     result = ''
-#     s = soup(test_str)
-#     words = s.find_all(text=True)
-#     for t in words:
-#        newtext = t.replace("&nbsp", " ")
-#        t.replace_with(newtext)
-#     result = words.replace("&amp", " and ")
-#     return result
     
 def cleanCruft(test_str): # clean string of all NBSP characters from web pages being scraped (and other formatting as required)
     result = ''
     test_str = unescape(test_str)
-    
     test_str = unicodedata.normalize('NFKD', test_str)
     test_str = unicodedata.normalize('NFKD', test_str)
     test_str = filter(lambda x: x.isalnum() or x.isspace(), test_str) # remove non alphanumeric characters and preserve whitespaces

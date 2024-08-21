@@ -35603,14 +35603,16 @@ C2004A04121: a owl:Class,
         dcat:Dataset,
         dcat:Resource ;
     rdfs:label "Social Security Act 1991" ;
-    dct:Agent "Home Affairs"@en-AU ;
-    dct:created "2024-08-21T12:47:27.079435"^^xsd:dateTime ;
+    dct:Jurisdiction " Department of Employment and Workplace Relations "@en-AU,
+        " Department of Home Affairs "@en-AU,
+        " Department of Social Services "@en-AU,
+        " Department of the Prime Minister and Cabinet "@en-AU ;
+    dct:created "2024-08-21T20:34:39.965762"^^xsd:dateTime ;
     dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
     dct:date "2024-07-09T00:00:00+10:00"^^xsd:dateTime ;
     dct:description "Social Security Act 1991"@en-AU ;
     dct:identifier "https://www.legislation.gov.au/C2004A04121/latest"^^xsd:anyURI ;
     dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
-    dct:publisher "Department of the Prime Minister and Cabinet" ;
     dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
     dct:subject "Social Security Act 1991"@en-AU ;
     dct:title "Social Security Act 1991"@en-AU ;
