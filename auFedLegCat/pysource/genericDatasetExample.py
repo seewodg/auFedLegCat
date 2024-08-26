@@ -6,6 +6,7 @@ import requests
 from html import unescape
 import unicodedata
 import datetime
+import sys
 from config import CONFIG_INFO
 
 def scrapeMetaPage(g, legID, source_url): # capture metadata from the legislation details page - lists legislation metadata
@@ -280,9 +281,11 @@ def cleanCruft(test_str): # clean string of all NBSP characters from web pages b
         result +=  test_str[i]
     return result
 
-def init():
+def init(leg):
     # Get vars from conf file
-    global legID; legID = CONFIG_INFO["legID"]
+    if leg is None:
+        leg = CONFIG_INFO["legID"]
+    global legID; legID = leg
     global ToC; ToC = CONFIG_INFO["tableOfContents"]
     global pageMeta; pageMeta = CONFIG_INFO["pageMetadata"]
     global detailedMetadata; detailedMetadata = CONFIG_INFO["detailedMetadata"]
@@ -307,9 +310,13 @@ def init():
         pageMetaMessage = "Details Page Metadata"
         if result == True:
             print(f'Success! Mined {pageMetaMessage} and {tocMessage}')
+            g.close(commit_pending_transaction=False)
         else:
             print(f"\nOops, That doesn't seem right!!!:\n{result}")
+    return result
 
 
 if __name__ == "__main__":
-    init()
+    if not sys.argv[0]:
+        init(None)
+    else: init(sys.argv[0])
