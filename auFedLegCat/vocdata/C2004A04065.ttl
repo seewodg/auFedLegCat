@@ -1,0 +1,42 @@
+@prefix C2004A04065: <http://example.org/au/leg/dataset/C2004A04065/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A04065:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 Primary Industries and Energy Legislation Amendment Act 1990  Act"@en-AU ;
+    dct:isReferencedBy C2004A04065: ;
+    rdfs:comment "Primary Industries and Energy Legislation Amendment Act 1990  Act - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "Primary Industries and Energy Legislation Amendment Act 1990  Act"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A04065/asmade/1990-12-28/text/original/epub/OEBPS/document_1/document_1.html> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A04065/asmade/1990-12-28/text/original/epub/OEBPS/document_1/document_1.html"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A04065: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Primary Industries and Energy Legislation Amendment Act 1990" ;
+    dct:Jurisdiction " Department of Agriculture, Fisheries and Forestry "@en-AU ;
+    dct:created "2024-08-30T15:21:14.936647"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "1990-12-28T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Primary Industries and Energy Legislation Amendment Act 1990"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A04065/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Primary Industries and Energy Legislation Amendment Act 1990"@en-AU ;
+    dct:title "Primary Industries and Energy Legislation Amendment Act 1990"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item ;
+    schema:identifier "C2004A04065" ;
+    schema:status "In force" ;
+    schema:version "C2004A04065" .
+

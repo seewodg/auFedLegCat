@@ -1,0 +1,225 @@
+@prefix C2023A00108: <http://example.org/au/leg/dataset/C2023A00108/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2023A00108:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2023A00108: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685818> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685818"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00108:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2023A00108: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685819> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685819"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00108:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:isReferencedBy C2023A00108: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685820> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685820"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00108:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Inspector General of Live Animal Exports Act 2019"@en-AU ;
+    dct:isPartOf C2023A00108:4 ;
+    dct:isReferencedBy C2023A00108: ;
+    rdfs:comment "Inspector General of Live Animal Exports Act 2019 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Inspector General of Live Animal Exports Act 2019"@en-AU ;
+    skos:narrower C2023A00108:4 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685843> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685843"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00108:11 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D11 Division 2 Amendment of the National Anti Corruption Commission Act 2022"@en-AU ;
+    dct:isPartOf C2023A00108:4 ;
+    dct:isReferencedBy C2023A00108: ;
+    rdfs:comment "Division 2 Amendment of the National Anti Corruption Commission Act 2022 - Abrievated Graph Key: D11"@en-AU ;
+    skos:definition "Division 2 Amendment of the National Anti Corruption Commission Act 2022"@en-AU ;
+    skos:narrower C2023A00108:4 ;
+    skos:prefLabel "Division D11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685844> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685844"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00108:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 National Anti Corruption Commission Act 2022"@en-AU ;
+    dct:isPartOf C2023A00108:4 ;
+    dct:isReferencedBy C2023A00108: ;
+    rdfs:comment "National Anti Corruption Commission Act 2022 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "National Anti Corruption Commission Act 2022"@en-AU ;
+    skos:narrower C2023A00108:4 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685845> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685845"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00108:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 3 Saving application and transitional provisions"@en-AU ;
+    dct:isPartOf C2023A00108:4 ;
+    dct:isReferencedBy C2023A00108: ;
+    rdfs:comment "Part 3 Saving application and transitional provisions - Abrievated Graph Key: P13"@en-AU ;
+    skos:definition "Part 3 Saving application and transitional provisions"@en-AU ;
+    skos:narrower C2023A00108:4 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685846> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685846"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00108:5 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S5 Schedule 1 Amendments"@en-AU ;
+    dct:isPartOf C2023A00108:4 ;
+    dct:isReferencedBy C2023A00108: ;
+    rdfs:comment "Schedule 1 Amendments - Abrievated Graph Key: S5"@en-AU ;
+    skos:definition "Schedule 1 Amendments"@en-AU ;
+    skos:narrower C2023A00108:4 ;
+    skos:prefLabel "Schedule S5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685822> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685822"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2023A00108:6 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P6 Part 1 Main amendments"@en-AU ;
+    dct:isPartOf C2023A00108:4 ;
+    dct:isReferencedBy C2023A00108: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P6"@en-AU ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2023A00108:4 ;
+    skos:prefLabel "Part P6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685823> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685823"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00108:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Inspector General of Live Animal Exports Act 2019"@en-AU ;
+    dct:isPartOf C2023A00108:4 ;
+    dct:isReferencedBy C2023A00108: ;
+    rdfs:comment "Inspector General of Live Animal Exports Act 2019 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Inspector General of Live Animal Exports Act 2019"@en-AU ;
+    skos:narrower C2023A00108:4 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685824> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685824"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00108:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 2 Other amendments"@en-AU ;
+    dct:isPartOf C2023A00108:4 ;
+    dct:isReferencedBy C2023A00108: ;
+    rdfs:comment "Part 2 Other amendments - Abrievated Graph Key: P8"@en-AU ;
+    skos:definition "Part 2 Other amendments"@en-AU ;
+    skos:narrower C2023A00108:4 ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685841> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685841"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00108:9 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D9 Division 1 Amendment of the Inspector General of Live Animal Exports Act 2019"@en-AU ;
+    dct:isPartOf C2023A00108:4 ;
+    dct:isReferencedBy C2023A00108: ;
+    rdfs:comment "Division 1 Amendment of the Inspector General of Live Animal Exports Act 2019 - Abrievated Graph Key: D9"@en-AU ;
+    skos:definition "Division 1 Amendment of the Inspector General of Live Animal Exports Act 2019"@en-AU ;
+    skos:narrower C2023A00108:4 ;
+    skos:prefLabel "Division D9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685842> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685842"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00108: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Inspector-General of Live Animal Exports Amendment (Animal Welfare) Act 2023" ;
+    dct:Jurisdiction " Department of Agriculture, Fisheries and Forestry "@en-AU ;
+    dct:created "2024-08-30T15:17:14.840025"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2023-12-04T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Inspector-General of Live Animal Exports Amendment (Animal Welfare) Act 2023"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2023A00108/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Inspector-General of Live Animal Exports Amendment (Animal Welfare) Act 2023"@en-AU ;
+    dct:title "Inspector-General of Live Animal Exports Amendment (Animal Welfare) Act 2023"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:identifier "C2023A00108" ;
+    schema:status "In force" ;
+    schema:version "C2023A00108" .
+
+C2023A00108:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 4  Review of operation of amendments"@en-AU ;
+    dct:hasPart C2023A00108:10,
+        C2023A00108:11,
+        C2023A00108:12,
+        C2023A00108:13,
+        C2023A00108:5,
+        C2023A00108:6,
+        C2023A00108:7,
+        C2023A00108:8,
+        C2023A00108:9 ;
+    dct:isReferencedBy C2023A00108: ;
+    rdfs:comment "4  Review of operation of amendments - Abrievated Graph Key: I4"@en-AU ;
+    skos:broader C2023A00108:10,
+        C2023A00108:11,
+        C2023A00108:12,
+        C2023A00108:13,
+        C2023A00108:5,
+        C2023A00108:6,
+        C2023A00108:7,
+        C2023A00108:8,
+        C2023A00108:9 ;
+    skos:definition "4  Review of operation of amendments"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685821> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00108/asmade/2023-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc152685821"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+

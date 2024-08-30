@@ -1,0 +1,42 @@
+@prefix C2020A00144: <http://example.org/au/leg/dataset/C2020A00144/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2020A00144:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 Customs Charges and Levies Legislation Amendment Sheep and Lamb Act 2020  Act"@en-AU ;
+    dct:isReferencedBy C2020A00144: ;
+    rdfs:comment "Customs Charges and Levies Legislation Amendment Sheep and Lamb Act 2020  Act - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "Customs Charges and Levies Legislation Amendment Sheep and Lamb Act 2020  Act"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00144/asmade/2020-12-17/text/original/epub/OEBPS/document_1/document_1.html> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00144/asmade/2020-12-17/text/original/epub/OEBPS/document_1/document_1.html"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00144: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Customs Charges and Levies Legislation Amendment (Sheep and Lamb) Act 2020" ;
+    dct:Jurisdiction " Department of Agriculture, Fisheries and Forestry "@en-AU ;
+    dct:created "2024-08-30T15:23:54.288097"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2020-12-17T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Customs Charges and Levies Legislation Amendment (Sheep and Lamb) Act 2020"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2020A00144/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Customs Charges and Levies Legislation Amendment (Sheep and Lamb) Act 2020"@en-AU ;
+    dct:title "Customs Charges and Levies Legislation Amendment (Sheep and Lamb) Act 2020"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item ;
+    schema:identifier "C2020A00144" ;
+    schema:status "In force" ;
+    schema:version "C2020A00144" .
+

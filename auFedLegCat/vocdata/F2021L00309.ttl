@@ -1,0 +1,42 @@
+@prefix F2021L00309: <http://example.org/au/leg/dataset/F2021L00309/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2021L00309:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 Export Control Fees and Payments Rules 2021  Legislative Instrument Compilation"@en-AU ;
+    dct:isReferencedBy F2021L00309: ;
+    rdfs:comment "Export Control Fees and Payments Rules 2021  Legislative Instrument Compilation - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "Export Control Fees and Payments Rules 2021  Legislative Instrument Compilation"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2021L00309/2021-07-01/2021-07-01/text/original/epub/OEBPS/document_1/document_1.html> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2021L00309/2021-07-01/2021-07-01/text/original/epub/OEBPS/document_1/document_1.html"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2021L00309: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Export Control (Fees and Payments) Rules 2021" ;
+    dct:Jurisdiction " Department of Agriculture, Fisheries and Forestry "@en-AU ;
+    dct:created "2024-08-30T15:12:26.859982"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2021-07-01T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Export Control (Fees and Payments) Rules 2021"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2021L00309/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Export Control (Fees and Payments) Rules 2021"@en-AU ;
+    dct:title "Export Control (Fees and Payments) Rules 2021"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item ;
+    schema:identifier "F2021L00309" ;
+    schema:status "In force" ;
+    schema:version "F2021C00755 (C01)" .
+
