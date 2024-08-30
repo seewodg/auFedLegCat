@@ -1,0 +1,21 @@
+@prefix legdata: <http://example.org/au/leg/dataset/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/au/leg/dataset/> a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+        rdfs:label "A dcat:Dataset Class to model Legislation table of contents data";
+        dcat:theme skos:Concept .
+
+legdata:Resource a skos:Concept,
+        owl:Class,
+        dcat:Resource ;
+        rdfs:label "A dcat:Resource Clalss to model a table of contents instance" ;
+        dct:isReferencedBy <http://example.org/au/leg/dataset/> .

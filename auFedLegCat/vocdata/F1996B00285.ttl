@@ -1,0 +1,1707 @@
+@prefix F1996B00285: <http://example.org/au/leg/dataset/F1996B00285/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F1996B00285:100 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P100 Part 3 Chemical products defined in terms of 2 or more active constituents"@en-AU ;
+    dct:isPartOf F1996B00285:97 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Part 3 Chemical products defined in terms of 2 or more active constituents - Abrievated Graph Key: P100"@en-AU ;
+    skos:definition "Part 3 Chemical products defined in terms of 2 or more active constituents"@en-AU ;
+    skos:narrower F1996B00285:97 ;
+    skos:prefLabel "Part P100"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713596> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713596"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F1996B00285:101 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S101 Schedule 5 Infringement notices"@en-AU ;
+    dct:hasPart F1996B00285:102 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Schedule 5 Infringement notices - Abrievated Graph Key: S101"@en-AU ;
+    skos:broader F1996B00285:102 ;
+    skos:definition "Schedule 5 Infringement notices"@en-AU ;
+    skos:prefLabel "Schedule S101"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713598> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713598"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F1996B00285:103 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I103 Endnote 1 About the endnotes"@en-AU ;
+    dct:isPartOf F1996B00285:102 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Endnote 1 About the endnotes - Abrievated Graph Key: I103"@en-AU ;
+    skos:definition "Endnote 1 About the endnotes"@en-AU ;
+    skos:narrower F1996B00285:102 ;
+    skos:prefLabel "Item I103"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713600> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713600"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:104 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I104 Endnote 2 Abbreviation key"@en-AU ;
+    dct:isPartOf F1996B00285:102 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Endnote 2 Abbreviation key - Abrievated Graph Key: I104"@en-AU ;
+    skos:definition "Endnote 2 Abbreviation key"@en-AU ;
+    skos:narrower F1996B00285:102 ;
+    skos:prefLabel "Item I104"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713601> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713601"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:105 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I105 Endnote 3 Legislation history"@en-AU ;
+    dct:isPartOf F1996B00285:102 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Endnote 3 Legislation history - Abrievated Graph Key: I105"@en-AU ;
+    skos:definition "Endnote 3 Legislation history"@en-AU ;
+    skos:narrower F1996B00285:102 ;
+    skos:prefLabel "Item I105"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713602> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713602"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:106 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I106 Endnote 4 Amendment history"@en-AU ;
+    dct:isPartOf F1996B00285:102 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Endnote 4 Amendment history - Abrievated Graph Key: I106"@en-AU ;
+    skos:definition "Endnote 4 Amendment history"@en-AU ;
+    skos:narrower F1996B00285:102 ;
+    skos:prefLabel "Item I106"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713603> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713603"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:107 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I107 Endnote 5 Editorial changes"@en-AU ;
+    dct:isPartOf F1996B00285:102 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Endnote 5 Editorial changes - Abrievated Graph Key: I107"@en-AU ;
+    skos:definition "Endnote 5 Editorial changes"@en-AU ;
+    skos:narrower F1996B00285:102 ;
+    skos:prefLabel "Item I107"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713604> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713604"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 205  Prescribed international agreements Act s 69 CA 1"@en-AU ;
+    dct:isPartOf F1996B00285:10 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "205  Prescribed international agreements Act s 69 CA 1 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "205  Prescribed international agreements Act s 69 CA 1"@en-AU ;
+    skos:narrower F1996B00285:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713507> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713507"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 210  Prescribed chemicals Act s 69 CA 2"@en-AU ;
+    dct:isPartOf F1996B00285:10 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "210  Prescribed chemicals Act s 69 CA 2 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "210  Prescribed chemicals Act s 69 CA 2"@en-AU ;
+    skos:narrower F1996B00285:10 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713508> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713508"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 215  Prescribed chemicals Act s 69 CB 1"@en-AU ;
+    dct:isPartOf F1996B00285:10 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "215  Prescribed chemicals Act s 69 CB 1 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "215  Prescribed chemicals Act s 69 CB 1"@en-AU ;
+    skos:narrower F1996B00285:10 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713509> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713509"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 220  Prescribed informationimport Act ss 69 CA 2 a and 69 CB 2 a"@en-AU ;
+    dct:isPartOf F1996B00285:10 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "220  Prescribed informationimport Act ss 69 CA 2 a and 69 CB 2 a - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "220  Prescribed informationimport Act ss 69 CA 2 a and 69 CB 2 a"@en-AU ;
+    skos:narrower F1996B00285:10 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713510> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713510"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 225  Prescribed informationmanufacture Act ss 69 CA 2 b and 69 CB 2 b"@en-AU ;
+    dct:isPartOf F1996B00285:10 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "225  Prescribed informationmanufacture Act ss 69 CA 2 b and 69 CB 2 b - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "225  Prescribed informationmanufacture Act ss 69 CA 2 b and 69 CB 2 b"@en-AU ;
+    skos:narrower F1996B00285:10 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713511> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713511"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 230  Prescribed informationuse Act ss 69 CA 2 b or 69 CB 2 b"@en-AU ;
+    dct:isPartOf F1996B00285:10 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "230  Prescribed informationuse Act ss 69 CA 2 b or 69 CB 2 b - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "230  Prescribed informationuse Act ss 69 CA 2 b or 69 CB 2 b"@en-AU ;
+    skos:narrower F1996B00285:10 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713512> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713512"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 235  Prescribed informationother dealings Act ss 69 CA 2 c or 69 CB 2 c"@en-AU ;
+    dct:isPartOf F1996B00285:10 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "235  Prescribed informationother dealings Act ss 69 CA 2 c or 69 CB 2 c - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "235  Prescribed informationother dealings Act ss 69 CA 2 c or 69 CB 2 c"@en-AU ;
+    skos:narrower F1996B00285:10 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713513> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713513"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 240  Prescribed informationexport Act ss 69 CA 2 d and 69 CB 2 d"@en-AU ;
+    dct:isPartOf F1996B00285:10 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "240  Prescribed informationexport Act ss 69 CA 2 d and 69 CB 2 d - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "240  Prescribed informationexport Act ss 69 CA 2 d and 69 CB 2 d"@en-AU ;
+    skos:narrower F1996B00285:10 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713514> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713514"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 245  Prescribed period for giving prescribed information Act ss 69 CA 5 and 69 CB 5"@en-AU ;
+    dct:isPartOf F1996B00285:10 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "245  Prescribed period for giving prescribed information Act ss 69 CA 5 and 69 CB 5 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "245  Prescribed period for giving prescribed information Act ss 69 CA 5 and 69 CB 5"@en-AU ;
+    skos:narrower F1996B00285:10 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713515> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713515"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 11  Name of Regulations"@en-AU ;
+    dct:isPartOf F1996B00285:1 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "11  Name of Regulations - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "11  Name of Regulations"@en-AU ;
+    skos:narrower F1996B00285:1 ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713498> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713498"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 305  Prescribed international agreements Act s 69 C"@en-AU ;
+    dct:isPartOf F1996B00285:21 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "305  Prescribed international agreements Act s 69 C - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "305  Prescribed international agreements Act s 69 C"@en-AU ;
+    skos:narrower F1996B00285:21 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713518> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713518"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 310  Effect of grant of permissions or multiple permits"@en-AU ;
+    dct:isPartOf F1996B00285:21 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "310  Effect of grant of permissions or multiple permits - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "310  Effect of grant of permissions or multiple permits"@en-AU ;
+    skos:narrower F1996B00285:21 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713519> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713519"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 315  Notice to be given if additional information required"@en-AU ;
+    dct:isPartOf F1996B00285:21 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "315  Notice to be given if additional information required - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "315  Notice to be given if additional information required"@en-AU ;
+    skos:narrower F1996B00285:21 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713520> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713520"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 320  Matters that may be considered when making decision"@en-AU ;
+    dct:isPartOf F1996B00285:21 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "320  Matters that may be considered when making decision - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "320  Matters that may be considered when making decision"@en-AU ;
+    skos:narrower F1996B00285:21 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713521> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713521"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:26 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D26 Division 32 Import"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Division 32 Import - Abrievated Graph Key: D26"@en-AU ;
+    skos:definition "Division 32 Import"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Division D26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713522> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713522"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F1996B00285:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 345  Prohibited importation"@en-AU ;
+    dct:isPartOf F1996B00285:27 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "345  Prohibited importation - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "345  Prohibited importation"@en-AU ;
+    skos:narrower F1996B00285:27 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713524> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713524"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:29 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S29 Subdivision 322 Prohibition subject to conditions"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Subdivision 322 Prohibition subject to conditions - Abrievated Graph Key: S29"@en-AU ;
+    skos:definition "Subdivision 322 Prohibition subject to conditions"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Subdivision S29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713525> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713525"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F1996B00285:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 13  Interpretation"@en-AU ;
+    dct:isPartOf F1996B00285:1 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "13  Interpretation - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "13  Interpretation"@en-AU ;
+    skos:narrower F1996B00285:1 ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713499> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713499"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 350  Chemicals to which this Subdivision applies"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "350  Chemicals to which this Subdivision applies - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "350  Chemicals to which this Subdivision applies"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713526> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713526"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 355  Prohibition"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "355  Prohibition - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "355  Prohibition"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713527> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713527"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 360  Applications for permission to import import prohibited chemicals"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "360  Applications for permission to import import prohibited chemicals - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "360  Applications for permission to import import prohibited chemicals"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713528> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713528"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 365  When permission may be granted"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "365  When permission may be granted - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "365  When permission may be granted"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713529> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713529"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:34 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D34 Division 33 Manufacture"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Division 33 Manufacture - Abrievated Graph Key: D34"@en-AU ;
+    skos:definition "Division 33 Manufacture"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Division D34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713530> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713530"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F1996B00285:35 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S35 Subdivision 331 Absolute prohibition"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Subdivision 331 Absolute prohibition - Abrievated Graph Key: S35"@en-AU ;
+    skos:definition "Subdivision 331 Absolute prohibition"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Subdivision S35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713531> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713531"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F1996B00285:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 3100  Prohibited manufacture"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3100  Prohibited manufacture - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "3100  Prohibited manufacture"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713532> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713532"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:37 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S37 Subdivision 332 Prohibition subject to conditions"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Subdivision 332 Prohibition subject to conditions - Abrievated Graph Key: S37"@en-AU ;
+    skos:definition "Subdivision 332 Prohibition subject to conditions"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Subdivision S37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713533> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713533"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F1996B00285:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 3105  Chemicals to which this Subdivision applies"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3105  Chemicals to which this Subdivision applies - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "3105  Chemicals to which this Subdivision applies"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713534> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713534"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 3110  Prohibition"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3110  Prohibition - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "3110  Prohibition"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713535> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713535"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 13 A  Meaning of controlled chemical"@en-AU ;
+    dct:isPartOf F1996B00285:1 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "13 A  Meaning of controlled chemical - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "13 A  Meaning of controlled chemical"@en-AU ;
+    skos:narrower F1996B00285:1 ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713500> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713500"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 3115  Applications for permission to manufacture manufacture prohibited chemicals"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3115  Applications for permission to manufacture manufacture prohibited chemicals - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "3115  Applications for permission to manufacture manufacture prohibited chemicals"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713536> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713536"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 3120  When permission may be granted"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3120  When permission may be granted - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "3120  When permission may be granted"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713537> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713537"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:42 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D42 Division 34 Use"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Division 34 Use - Abrievated Graph Key: D42"@en-AU ;
+    skos:definition "Division 34 Use"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Division D42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713538> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713538"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F1996B00285:43 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I43 3145  Absolute prohibition"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3145  Absolute prohibition - Abrievated Graph Key: I43"@en-AU ;
+    skos:definition "3145  Absolute prohibition"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713539> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713539"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 3150  Prohibition subject to conditions"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3150  Prohibition subject to conditions - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "3150  Prohibition subject to conditions"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713540> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713540"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:45 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D45 Division 35 Dealing with chemicals"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Division 35 Dealing with chemicals - Abrievated Graph Key: D45"@en-AU ;
+    skos:definition "Division 35 Dealing with chemicals"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Division D45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713541> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713541"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F1996B00285:46 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S46 Subdivision 351 Absolute prohibition"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Subdivision 351 Absolute prohibition - Abrievated Graph Key: S46"@en-AU ;
+    skos:definition "Subdivision 351 Absolute prohibition"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Subdivision S46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713542> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713542"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F1996B00285:47 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I47 3175  Prohibited dealing"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3175  Prohibited dealing - Abrievated Graph Key: I47"@en-AU ;
+    skos:definition "3175  Prohibited dealing"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713543> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713543"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:48 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S48 Subdivision 352 Prohibition subject to conditions"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Subdivision 352 Prohibition subject to conditions - Abrievated Graph Key: S48"@en-AU ;
+    skos:definition "Subdivision 352 Prohibition subject to conditions"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Subdivision S48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713544> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713544"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F1996B00285:49 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I49 3180  Chemicals to which this Subdivision applies"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3180  Chemicals to which this Subdivision applies - Abrievated Graph Key: I49"@en-AU ;
+    skos:definition "3180  Chemicals to which this Subdivision applies"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713545> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713545"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 14  Meaning of authorised officer"@en-AU ;
+    dct:isPartOf F1996B00285:1 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "14  Meaning of authorised officer - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "14  Meaning of authorised officer"@en-AU ;
+    skos:narrower F1996B00285:1 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713501> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713501"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:50 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I50 3185  Prohibition"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3185  Prohibition - Abrievated Graph Key: I50"@en-AU ;
+    skos:definition "3185  Prohibition"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713546> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713546"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:51 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I51 3190  Applications for permission to deal with dealing prohibited chemicals"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3190  Applications for permission to deal with dealing prohibited chemicals - Abrievated Graph Key: I51"@en-AU ;
+    skos:definition "3190  Applications for permission to deal with dealing prohibited chemicals"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713547> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713547"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:52 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I52 3195  When permission may be granted"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3195  When permission may be granted - Abrievated Graph Key: I52"@en-AU ;
+    skos:definition "3195  When permission may be granted"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713548> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713548"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:53 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D53 Division 36 Export"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Division 36 Export - Abrievated Graph Key: D53"@en-AU ;
+    skos:definition "Division 36 Export"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Division D53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713549> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713549"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F1996B00285:54 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S54 Subdivision 361 Absolute prohibition"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Subdivision 361 Absolute prohibition - Abrievated Graph Key: S54"@en-AU ;
+    skos:definition "Subdivision 361 Absolute prohibition"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Subdivision S54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713550> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713550"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F1996B00285:55 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I55 3200  Prohibited export"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3200  Prohibited export - Abrievated Graph Key: I55"@en-AU ;
+    skos:definition "3200  Prohibited export"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713551> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713551"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:56 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S56 Subdivision 362 Prohibition subject to conditions"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Subdivision 362 Prohibition subject to conditions - Abrievated Graph Key: S56"@en-AU ;
+    skos:definition "Subdivision 362 Prohibition subject to conditions"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Subdivision S56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713552> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713552"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F1996B00285:57 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I57 3205  Chemicals to which this Subdivision applies"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3205  Chemicals to which this Subdivision applies - Abrievated Graph Key: I57"@en-AU ;
+    skos:definition "3205  Chemicals to which this Subdivision applies"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I57"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713553> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713553"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:58 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I58 3210  Prohibition"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3210  Prohibition - Abrievated Graph Key: I58"@en-AU ;
+    skos:definition "3210  Prohibition"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I58"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713554> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713554"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:59 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I59 3215  Applications for permission to export export prohibited chemicals"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3215  Applications for permission to export export prohibited chemicals - Abrievated Graph Key: I59"@en-AU ;
+    skos:definition "3215  Applications for permission to export export prohibited chemicals"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I59"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713555> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713555"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 15  Meaning of generic information about a person"@en-AU ;
+    dct:isPartOf F1996B00285:1 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "15  Meaning of generic information about a person - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "15  Meaning of generic information about a person"@en-AU ;
+    skos:narrower F1996B00285:1 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713502> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713502"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:60 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I60 3220  Additional information required for certain exports"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3220  Additional information required for certain exports - Abrievated Graph Key: I60"@en-AU ;
+    skos:definition "3220  Additional information required for certain exports"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I60"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713556> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713556"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:61 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I61 3225  When permission must be granted"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3225  When permission must be granted - Abrievated Graph Key: I61"@en-AU ;
+    skos:definition "3225  When permission must be granted"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I61"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713557> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713557"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:62 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I62 3230  When permission may be granted"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3230  When permission may be granted - Abrievated Graph Key: I62"@en-AU ;
+    skos:definition "3230  When permission may be granted"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I62"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713558> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713558"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:63 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I63 3235  Required conditions"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3235  Required conditions - Abrievated Graph Key: I63"@en-AU ;
+    skos:definition "3235  Required conditions"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I63"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713559> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713559"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:64 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I64 3240  Deciding application for permission to export when import decision available"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3240  Deciding application for permission to export when import decision available - Abrievated Graph Key: I64"@en-AU ;
+    skos:definition "3240  Deciding application for permission to export when import decision available"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I64"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713560> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713560"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:65 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I65 3245  Deciding application for permission to export when import decision not known"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3245  Deciding application for permission to export when import decision not known - Abrievated Graph Key: I65"@en-AU ;
+    skos:definition "3245  Deciding application for permission to export when import decision not known"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I65"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713561> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713561"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:66 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I66 3250  When permission must be refused"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3250  When permission must be refused - Abrievated Graph Key: I66"@en-AU ;
+    skos:definition "3250  When permission must be refused"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I66"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713562> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713562"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:67 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D67 Division 37 Multiple entry import and multiple exit export permits"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Division 37 Multiple entry import and multiple exit export permits - Abrievated Graph Key: D67"@en-AU ;
+    skos:definition "Division 37 Multiple entry import and multiple exit export permits"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Division D67"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713563> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713563"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F1996B00285:68 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I68 3305  Definitions"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3305  Definitions - Abrievated Graph Key: I68"@en-AU ;
+    skos:definition "3305  Definitions"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I68"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713564> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713564"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:69 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I69 3310  Purpose"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3310  Purpose - Abrievated Graph Key: I69"@en-AU ;
+    skos:definition "3310  Purpose"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I69"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713565> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713565"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:70 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I70 3315  Fit and proper person"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3315  Fit and proper person - Abrievated Graph Key: I70"@en-AU ;
+    skos:definition "3315  Fit and proper person"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I70"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713566> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713566"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:71 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I71 3320  Multiple entry import permits"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3320  Multiple entry import permits - Abrievated Graph Key: I71"@en-AU ;
+    skos:definition "3320  Multiple entry import permits"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I71"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713567> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713567"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:72 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I72 3325  When multiple entry import permits may be granted"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3325  When multiple entry import permits may be granted - Abrievated Graph Key: I72"@en-AU ;
+    skos:definition "3325  When multiple entry import permits may be granted"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I72"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713568> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713568"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:73 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I73 3330  Multiple exit export permits"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3330  Multiple exit export permits - Abrievated Graph Key: I73"@en-AU ;
+    skos:definition "3330  Multiple exit export permits"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I73"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713569> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713569"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:74 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I74 3335  When multiple exit export permits may be grantedgeneral"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3335  When multiple exit export permits may be grantedgeneral - Abrievated Graph Key: I74"@en-AU ;
+    skos:definition "3335  When multiple exit export permits may be grantedgeneral"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I74"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713570> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713570"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:75 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I75 3340  Grant of multiple exit export permits in special circumstances"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3340  Grant of multiple exit export permits in special circumstances - Abrievated Graph Key: I75"@en-AU ;
+    skos:definition "3340  Grant of multiple exit export permits in special circumstances"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I75"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713571> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713571"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:76 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I76 3345  Annual reports"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3345  Annual reports - Abrievated Graph Key: I76"@en-AU ;
+    skos:definition "3345  Annual reports"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I76"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713572> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713572"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:77 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I77 3350  Period of validity and renewal of permit"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3350  Period of validity and renewal of permit - Abrievated Graph Key: I77"@en-AU ;
+    skos:definition "3350  Period of validity and renewal of permit"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I77"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713573> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713573"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:78 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D78 Division 38 Conditions or restrictions of permissions or multiple permits"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Division 38 Conditions or restrictions of permissions or multiple permits - Abrievated Graph Key: D78"@en-AU ;
+    skos:definition "Division 38 Conditions or restrictions of permissions or multiple permits"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Division D78"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713574> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713574"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F1996B00285:79 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I79 3405  Conditions"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3405  Conditions - Abrievated Graph Key: I79"@en-AU ;
+    skos:definition "3405  Conditions"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I79"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713575> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713575"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 1 A 1  Information for inclusion in annual report"@en-AU ;
+    dct:isPartOf F1996B00285:7 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "1 A 1  Information for inclusion in annual report - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "1 A 1  Information for inclusion in annual report"@en-AU ;
+    skos:narrower F1996B00285:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713504> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713504"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:80 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I80 3410  Revocation etc of permission or multiple permits"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3410  Revocation etc of permission or multiple permits - Abrievated Graph Key: I80"@en-AU ;
+    skos:definition "3410  Revocation etc of permission or multiple permits"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I80"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713576> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713576"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:81 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D81 Division 39 Review of decisions"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Division 39 Review of decisions - Abrievated Graph Key: D81"@en-AU ;
+    skos:definition "Division 39 Review of decisions"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Division D81"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713577> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713577"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F1996B00285:82 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I82 3505  Notice of authorised officers decision"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3505  Notice of authorised officers decision - Abrievated Graph Key: I82"@en-AU ;
+    skos:definition "3505  Notice of authorised officers decision"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I82"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713578> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713578"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:83 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I83 3510  Reconsideration of decisions by Minister"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3510  Reconsideration of decisions by Minister - Abrievated Graph Key: I83"@en-AU ;
+    skos:definition "3510  Reconsideration of decisions by Minister"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I83"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713579> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713579"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:84 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I84 3515  Notice of Ministers decision"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3515  Notice of Ministers decision - Abrievated Graph Key: I84"@en-AU ;
+    skos:definition "3515  Notice of Ministers decision"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I84"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713580> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713580"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:85 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I85 3520  Review of decisions by AAT"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3520  Review of decisions by AAT - Abrievated Graph Key: I85"@en-AU ;
+    skos:definition "3520  Review of decisions by AAT"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I85"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713581> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713581"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:86 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I86 3550  Export of chemical productsfees for certificates"@en-AU ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3550  Export of chemical productsfees for certificates - Abrievated Graph Key: I86"@en-AU ;
+    skos:definition "3550  Export of chemical productsfees for certificates"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Item I86"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713582> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713582"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:87 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P87 Part 3 AInfringement notices"@en-AU ;
+    dct:hasPart F1996B00285:88 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Part 3 AInfringement notices - Abrievated Graph Key: P87"@en-AU ;
+    skos:broader F1996B00285:88 ;
+    skos:definition "Part 3 AInfringement notices"@en-AU ;
+    skos:prefLabel "Part P87"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713583> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713583"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F1996B00285:88 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I88 3 A 01  Infringement notices"@en-AU ;
+    dct:isPartOf F1996B00285:87 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "3 A 01  Infringement notices - Abrievated Graph Key: I88"@en-AU ;
+    skos:definition "3 A 01  Infringement notices"@en-AU ;
+    skos:narrower F1996B00285:87 ;
+    skos:prefLabel "Item I88"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713584> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713584"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 1 A 3  Performance indicators for inclusion in annual report"@en-AU ;
+    dct:isPartOf F1996B00285:7 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "1 A 3  Performance indicators for inclusion in annual report - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "1 A 3  Performance indicators for inclusion in annual report"@en-AU ;
+    skos:narrower F1996B00285:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713505> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713505"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:90 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I90 415  Method of securing samples"@en-AU ;
+    dct:isPartOf F1996B00285:89 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "415  Method of securing samples - Abrievated Graph Key: I90"@en-AU ;
+    skos:definition "415  Method of securing samples"@en-AU ;
+    skos:narrower F1996B00285:89 ;
+    skos:prefLabel "Item I90"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713586> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713586"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:91 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I91 420  Reconsideration participation review"@en-AU ;
+    dct:isPartOf F1996B00285:89 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "420  Reconsideration participation review - Abrievated Graph Key: I91"@en-AU ;
+    skos:definition "420  Reconsideration participation review"@en-AU ;
+    skos:narrower F1996B00285:89 ;
+    skos:prefLabel "Item I91"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713587> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713587"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:92 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P92 Part 5 Application saving and transitional provisions"@en-AU ;
+    dct:hasPart F1996B00285:93 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Part 5 Application saving and transitional provisions - Abrievated Graph Key: P92"@en-AU ;
+    skos:broader F1996B00285:93 ;
+    skos:definition "Part 5 Application saving and transitional provisions"@en-AU ;
+    skos:prefLabel "Part P92"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713588> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713588"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F1996B00285:94 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I94 505  Amendments made by the Minamata Convention on Mercury Consequential Amendments Regulations 2021"@en-AU ;
+    dct:isPartOf F1996B00285:93 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "505  Amendments made by the Minamata Convention on Mercury Consequential Amendments Regulations 2021 - Abrievated Graph Key: I94"@en-AU ;
+    skos:definition "505  Amendments made by the Minamata Convention on Mercury Consequential Amendments Regulations 2021"@en-AU ;
+    skos:narrower F1996B00285:93 ;
+    skos:prefLabel "Item I94"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713590> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713590"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:95 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P95 Part 5 AApplication saving and transitional provisions"@en-AU ;
+    dct:hasPart F1996B00285:96 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Part 5 AApplication saving and transitional provisions - Abrievated Graph Key: P95"@en-AU ;
+    skos:broader F1996B00285:96 ;
+    skos:definition "Part 5 AApplication saving and transitional provisions"@en-AU ;
+    skos:prefLabel "Part P95"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713591> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713591"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F1996B00285:96 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I96 51  Saving provisions relating to the Agricultural and Veterinary Chemicals Legislation Amendment Improvements Regulations 2021"@en-AU ;
+    dct:isPartOf F1996B00285:95 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "51  Saving provisions relating to the Agricultural and Veterinary Chemicals Legislation Amendment Improvements Regulations 2021 - Abrievated Graph Key: I96"@en-AU ;
+    skos:definition "51  Saving provisions relating to the Agricultural and Veterinary Chemicals Legislation Amendment Improvements Regulations 2021"@en-AU ;
+    skos:narrower F1996B00285:95 ;
+    skos:prefLabel "Item I96"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713592> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713592"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1996B00285:98 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P98 Part 1 Reading this Schedule"@en-AU ;
+    dct:isPartOf F1996B00285:97 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Part 1 Reading this Schedule - Abrievated Graph Key: P98"@en-AU ;
+    skos:definition "Part 1 Reading this Schedule"@en-AU ;
+    skos:narrower F1996B00285:97 ;
+    skos:prefLabel "Part P98"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713594> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713594"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F1996B00285:99 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P99 Part 2 Chemical products defined in terms of a single active constituent"@en-AU ;
+    dct:isPartOf F1996B00285:97 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Part 2 Chemical products defined in terms of a single active constituent - Abrievated Graph Key: P99"@en-AU ;
+    skos:definition "Part 2 Chemical products defined in terms of a single active constituent"@en-AU ;
+    skos:narrower F1996B00285:97 ;
+    skos:prefLabel "Part P99"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713595> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713595"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F1996B00285:27 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S27 Subdivision 321 Absolute prohibition"@en-AU ;
+    dct:hasPart F1996B00285:28 ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Subdivision 321 Absolute prohibition - Abrievated Graph Key: S27"@en-AU ;
+    skos:broader F1996B00285:28 ;
+    skos:definition "Subdivision 321 Absolute prohibition"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Subdivision S27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713523> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713523"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F1996B00285:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 1 AAnnual operational plan and annual report"@en-AU ;
+    dct:hasPart F1996B00285:8,
+        F1996B00285:9 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Part 1 AAnnual operational plan and annual report - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader F1996B00285:8,
+        F1996B00285:9 ;
+    skos:definition "Part 1 AAnnual operational plan and annual report"@en-AU ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713503> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713503"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F1996B00285:89 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P89 Part 4 Miscellaneous"@en-AU ;
+    dct:hasPart F1996B00285:90,
+        F1996B00285:91 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Part 4 Miscellaneous - Abrievated Graph Key: P89"@en-AU ;
+    skos:broader F1996B00285:90,
+        F1996B00285:91 ;
+    skos:definition "Part 4 Miscellaneous"@en-AU ;
+    skos:prefLabel "Part P89"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713585> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713585"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F1996B00285:93 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D93 Division 1 Amendments made by the Minamata Convention on Mercury Consequential Amendments Regulations 2021"@en-AU ;
+    dct:hasPart F1996B00285:94 ;
+    dct:isPartOf F1996B00285:92 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Division 1 Amendments made by the Minamata Convention on Mercury Consequential Amendments Regulations 2021 - Abrievated Graph Key: D93"@en-AU ;
+    skos:broader F1996B00285:94 ;
+    skos:definition "Division 1 Amendments made by the Minamata Convention on Mercury Consequential Amendments Regulations 2021"@en-AU ;
+    skos:narrower F1996B00285:92 ;
+    skos:prefLabel "Division D93"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713589> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713589"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F1996B00285:97 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S97 Schedule 1 Chemicals"@en-AU ;
+    dct:hasPart F1996B00285:100,
+        F1996B00285:98,
+        F1996B00285:99 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Schedule 1 Chemicals - Abrievated Graph Key: S97"@en-AU ;
+    skos:broader F1996B00285:100,
+        F1996B00285:98,
+        F1996B00285:99 ;
+    skos:definition "Schedule 1 Chemicals"@en-AU ;
+    skos:prefLabel "Schedule S97"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713593> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713593"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F1996B00285:1 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P1 Part 1 Preliminary"@en-AU ;
+    dct:hasPart F1996B00285:2,
+        F1996B00285:3,
+        F1996B00285:4,
+        F1996B00285:5,
+        F1996B00285:6 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Part 1 Preliminary - Abrievated Graph Key: P1"@en-AU ;
+    skos:broader F1996B00285:2,
+        F1996B00285:3,
+        F1996B00285:4,
+        F1996B00285:5,
+        F1996B00285:6 ;
+    skos:definition "Part 1 Preliminary"@en-AU ;
+    skos:prefLabel "Part P1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713497> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713497"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F1996B00285:21 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D21 Division 31 General"@en-AU ;
+    dct:hasPart F1996B00285:22,
+        F1996B00285:23,
+        F1996B00285:24,
+        F1996B00285:25 ;
+    dct:isPartOf F1996B00285:20 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Division 31 General - Abrievated Graph Key: D21"@en-AU ;
+    skos:broader F1996B00285:22,
+        F1996B00285:23,
+        F1996B00285:24,
+        F1996B00285:25 ;
+    skos:definition "Division 31 General"@en-AU ;
+    skos:narrower F1996B00285:20 ;
+    skos:prefLabel "Division D21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713517> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713517"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F1996B00285:102 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E102 Endnotes"@en-AU ;
+    dct:hasPart F1996B00285:103,
+        F1996B00285:104,
+        F1996B00285:105,
+        F1996B00285:106,
+        F1996B00285:107 ;
+    dct:isPartOf F1996B00285:101 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E102"@en-AU ;
+    skos:broader F1996B00285:103,
+        F1996B00285:104,
+        F1996B00285:105,
+        F1996B00285:106,
+        F1996B00285:107 ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:narrower F1996B00285:101 ;
+    skos:prefLabel "Endnotes E102"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713599> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713599"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+
+F1996B00285:10 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P10 Part 2 Providing information about certain active constituents and chemical products"@en-AU ;
+    dct:hasPart F1996B00285:11,
+        F1996B00285:12,
+        F1996B00285:13,
+        F1996B00285:14,
+        F1996B00285:15,
+        F1996B00285:16,
+        F1996B00285:17,
+        F1996B00285:18,
+        F1996B00285:19 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Part 2 Providing information about certain active constituents and chemical products - Abrievated Graph Key: P10"@en-AU ;
+    skos:broader F1996B00285:11,
+        F1996B00285:12,
+        F1996B00285:13,
+        F1996B00285:14,
+        F1996B00285:15,
+        F1996B00285:16,
+        F1996B00285:17,
+        F1996B00285:18,
+        F1996B00285:19 ;
+    skos:definition "Part 2 Providing information about certain active constituents and chemical products"@en-AU ;
+    skos:prefLabel "Part P10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713506> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713506"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F1996B00285: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Agricultural and Veterinary Chemicals (Administration) Regulations 1995" ;
+    dct:Jurisdiction " Department of Agriculture, Fisheries and Forestry "@en-AU ;
+    dct:created "2024-08-30T15:22:57.288668"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2022-03-07T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Agricultural and Veterinary Chemicals (Administration) Regulations 1995"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F1996B00285/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Agricultural and Veterinary Chemicals (Administration) Regulations 1995"@en-AU ;
+    dct:title "Agricultural and Veterinary Chemicals (Administration) Regulations 1995"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Endnotes,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule,
+        legcons:Subdivision ;
+    schema:identifier "F1996B00285" ;
+    schema:status "In force" ;
+    schema:version "F2022C00348 (C21)" .
+
+F1996B00285:20 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P20 Part 3 Prohibition on import manufacture etc of certain active constituents and chemical products"@en-AU ;
+    dct:hasPart F1996B00285:21,
+        F1996B00285:26,
+        F1996B00285:27,
+        F1996B00285:29,
+        F1996B00285:30,
+        F1996B00285:31,
+        F1996B00285:32,
+        F1996B00285:33,
+        F1996B00285:34,
+        F1996B00285:35,
+        F1996B00285:36,
+        F1996B00285:37,
+        F1996B00285:38,
+        F1996B00285:39,
+        F1996B00285:40,
+        F1996B00285:41,
+        F1996B00285:42,
+        F1996B00285:43,
+        F1996B00285:44,
+        F1996B00285:45,
+        F1996B00285:46,
+        F1996B00285:47,
+        F1996B00285:48,
+        F1996B00285:49,
+        F1996B00285:50,
+        F1996B00285:51,
+        F1996B00285:52,
+        F1996B00285:53,
+        F1996B00285:54,
+        F1996B00285:55,
+        F1996B00285:56,
+        F1996B00285:57,
+        F1996B00285:58,
+        F1996B00285:59,
+        F1996B00285:60,
+        F1996B00285:61,
+        F1996B00285:62,
+        F1996B00285:63,
+        F1996B00285:64,
+        F1996B00285:65,
+        F1996B00285:66,
+        F1996B00285:67,
+        F1996B00285:68,
+        F1996B00285:69,
+        F1996B00285:70,
+        F1996B00285:71,
+        F1996B00285:72,
+        F1996B00285:73,
+        F1996B00285:74,
+        F1996B00285:75,
+        F1996B00285:76,
+        F1996B00285:77,
+        F1996B00285:78,
+        F1996B00285:79,
+        F1996B00285:80,
+        F1996B00285:81,
+        F1996B00285:82,
+        F1996B00285:83,
+        F1996B00285:84,
+        F1996B00285:85,
+        F1996B00285:86 ;
+    dct:isReferencedBy F1996B00285: ;
+    rdfs:comment "Part 3 Prohibition on import manufacture etc of certain active constituents and chemical products - Abrievated Graph Key: P20"@en-AU ;
+    skos:broader F1996B00285:21,
+        F1996B00285:26,
+        F1996B00285:27,
+        F1996B00285:29,
+        F1996B00285:30,
+        F1996B00285:31,
+        F1996B00285:32,
+        F1996B00285:33,
+        F1996B00285:34,
+        F1996B00285:35,
+        F1996B00285:36,
+        F1996B00285:37,
+        F1996B00285:38,
+        F1996B00285:39,
+        F1996B00285:40,
+        F1996B00285:41,
+        F1996B00285:42,
+        F1996B00285:43,
+        F1996B00285:44,
+        F1996B00285:45,
+        F1996B00285:46,
+        F1996B00285:47,
+        F1996B00285:48,
+        F1996B00285:49,
+        F1996B00285:50,
+        F1996B00285:51,
+        F1996B00285:52,
+        F1996B00285:53,
+        F1996B00285:54,
+        F1996B00285:55,
+        F1996B00285:56,
+        F1996B00285:57,
+        F1996B00285:58,
+        F1996B00285:59,
+        F1996B00285:60,
+        F1996B00285:61,
+        F1996B00285:62,
+        F1996B00285:63,
+        F1996B00285:64,
+        F1996B00285:65,
+        F1996B00285:66,
+        F1996B00285:67,
+        F1996B00285:68,
+        F1996B00285:69,
+        F1996B00285:70,
+        F1996B00285:71,
+        F1996B00285:72,
+        F1996B00285:73,
+        F1996B00285:74,
+        F1996B00285:75,
+        F1996B00285:76,
+        F1996B00285:77,
+        F1996B00285:78,
+        F1996B00285:79,
+        F1996B00285:80,
+        F1996B00285:81,
+        F1996B00285:82,
+        F1996B00285:83,
+        F1996B00285:84,
+        F1996B00285:85,
+        F1996B00285:86 ;
+    skos:definition "Part 3 Prohibition on import manufacture etc of certain active constituents and chemical products"@en-AU ;
+    skos:prefLabel "Part P20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713516> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1996B00285/2022-03-07/2022-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc99713516"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+

@@ -1,0 +1,127 @@
+@prefix F2024L00870: <http://example.org/au/leg/dataset/F2024L00870/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2024L00870:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Name"@en-AU ;
+    dct:isReferencedBy F2024L00870: ;
+    rdfs:comment "1  Name - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Name"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L00870/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc165991962> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L00870/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc165991962"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L00870:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy F2024L00870: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L00870/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc165991963> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L00870/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc165991963"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L00870:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Authority"@en-AU ;
+    dct:isReferencedBy F2024L00870: ;
+    rdfs:comment "3  Authority - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "3  Authority"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L00870/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc165991964> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L00870/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc165991964"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L00870:5 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S5 Schedule 1 Amendments"@en-AU ;
+    dct:isPartOf F2024L00870:4 ;
+    dct:isReferencedBy F2024L00870: ;
+    rdfs:comment "Schedule 1 Amendments - Abrievated Graph Key: S5"@en-AU ;
+    skos:definition "Schedule 1 Amendments"@en-AU ;
+    skos:narrower F2024L00870:4 ;
+    skos:prefLabel "Schedule S5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L00870/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc165991966> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L00870/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc165991966"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F2024L00870:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Primary Industries Excise Levies Regulations 1999"@en-AU ;
+    dct:isPartOf F2024L00870:4 ;
+    dct:isReferencedBy F2024L00870: ;
+    rdfs:comment "Primary Industries Excise Levies Regulations 1999 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Primary Industries Excise Levies Regulations 1999"@en-AU ;
+    skos:narrower F2024L00870:4 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L00870/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc165991967> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L00870/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc165991967"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L00870:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Primary Industries Levies and Charges National Residue Survey Levies Regulations 1998"@en-AU ;
+    dct:isPartOf F2024L00870:4 ;
+    dct:isReferencedBy F2024L00870: ;
+    rdfs:comment "Primary Industries Levies and Charges National Residue Survey Levies Regulations 1998 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Primary Industries Levies and Charges National Residue Survey Levies Regulations 1998"@en-AU ;
+    skos:narrower F2024L00870:4 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L00870/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc165991968> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L00870/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc165991968"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L00870:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 4  Schedules"@en-AU ;
+    dct:hasPart F2024L00870:5,
+        F2024L00870:6,
+        F2024L00870:7 ;
+    dct:isReferencedBy F2024L00870: ;
+    rdfs:comment "4  Schedules - Abrievated Graph Key: I4"@en-AU ;
+    skos:broader F2024L00870:5,
+        F2024L00870:6,
+        F2024L00870:7 ;
+    skos:definition "4  Schedules"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L00870/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc165991965> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L00870/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc165991965"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L00870: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Primary Industries Excise Levies Legislation Amendment (Live-stock Transactions) Regulations 2024" ;
+    dct:Jurisdiction " Department of Agriculture, Fisheries and Forestry "@en-AU ;
+    dct:created "2024-08-30T15:25:29.283845"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2024-07-05T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Primary Industries Excise Levies Legislation Amendment (Live-stock Transactions) Regulations 2024"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2024L00870/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Primary Industries Excise Levies Legislation Amendment (Live-stock Transactions) Regulations 2024"@en-AU ;
+    dct:title "Primary Industries Excise Levies Legislation Amendment (Live-stock Transactions) Regulations 2024"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:identifier "F2024L00870" ;
+    schema:status "In force" ;
+    schema:version "F2024L00870" .
+

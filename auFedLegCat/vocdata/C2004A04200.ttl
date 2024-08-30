@@ -1,0 +1,42 @@
+@prefix C2004A04200: <http://example.org/au/leg/dataset/C2004A04200/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A04200:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 Primary Industries Legislation Amendment Act No 2 1991  Act"@en-AU ;
+    dct:isReferencedBy C2004A04200: ;
+    rdfs:comment "Primary Industries Legislation Amendment Act No 2 1991  Act - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "Primary Industries Legislation Amendment Act No 2 1991  Act"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A04200/asmade/1991-08-27/text/original/epub/OEBPS/document_1/document_1.html> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A04200/asmade/1991-08-27/text/original/epub/OEBPS/document_1/document_1.html"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A04200: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Primary Industries Legislation Amendment Act (No. 2) 1991" ;
+    dct:Jurisdiction " Department of Agriculture, Fisheries and Forestry "@en-AU ;
+    dct:created "2024-08-30T15:25:40.669673"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "1991-08-27T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Primary Industries Legislation Amendment Act (No. 2) 1991"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A04200/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Primary Industries Legislation Amendment Act (No. 2) 1991"@en-AU ;
+    dct:title "Primary Industries Legislation Amendment Act (No. 2) 1991"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item ;
+    schema:identifier "C2004A04200" ;
+    schema:status "In force" ;
+    schema:version "C2004A04200" .
+

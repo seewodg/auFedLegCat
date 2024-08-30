@@ -1,0 +1,164 @@
+@prefix C2023A00064: <http://example.org/au/leg/dataset/C2023A00064/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2023A00064:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2023A00064: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00064/asmade/2023-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc145593640> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00064/asmade/2023-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc145593640"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00064:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2023A00064: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00064/asmade/2023-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc145593641> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00064/asmade/2023-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc145593641"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00064:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Information management"@en-AU ;
+    dct:isPartOf C2023A00064:3 ;
+    dct:isReferencedBy C2023A00064: ;
+    rdfs:comment "Schedule 1 Information management - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Information management"@en-AU ;
+    skos:narrower C2023A00064:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00064/asmade/2023-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc145593643> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00064/asmade/2023-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc145593643"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2023A00064:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Export Control Act 2020"@en-AU ;
+    dct:isPartOf C2023A00064:3 ;
+    dct:isReferencedBy C2023A00064: ;
+    rdfs:comment "Export Control Act 2020 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Export Control Act 2020"@en-AU ;
+    skos:narrower C2023A00064:3 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00064/asmade/2023-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc145593644> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00064/asmade/2023-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc145593644"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00064:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Other amendments"@en-AU ;
+    dct:isPartOf C2023A00064:3 ;
+    dct:isReferencedBy C2023A00064: ;
+    rdfs:comment "Schedule 2 Other amendments - Abrievated Graph Key: S6"@en-AU ;
+    skos:definition "Schedule 2 Other amendments"@en-AU ;
+    skos:narrower C2023A00064:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00064/asmade/2023-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc145593667> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00064/asmade/2023-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc145593667"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2023A00064:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 1 Amendments"@en-AU ;
+    dct:isPartOf C2023A00064:3 ;
+    dct:isReferencedBy C2023A00064: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2023A00064:3 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00064/asmade/2023-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc145593668> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00064/asmade/2023-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc145593668"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00064:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Export Control Act 2020"@en-AU ;
+    dct:isPartOf C2023A00064:3 ;
+    dct:isReferencedBy C2023A00064: ;
+    rdfs:comment "Export Control Act 2020 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Export Control Act 2020"@en-AU ;
+    skos:narrower C2023A00064:3 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00064/asmade/2023-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc145593669> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00064/asmade/2023-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc145593669"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00064:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 2 Application provisions"@en-AU ;
+    dct:isPartOf C2023A00064:3 ;
+    dct:isReferencedBy C2023A00064: ;
+    rdfs:comment "Part 2 Application provisions - Abrievated Graph Key: P9"@en-AU ;
+    skos:definition "Part 2 Application provisions"@en-AU ;
+    skos:narrower C2023A00064:3 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00064/asmade/2023-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc145593670> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00064/asmade/2023-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc145593670"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00064: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Export Control Amendment (Streamlining Administrative Processes) Act 2023" ;
+    dct:Jurisdiction " Department of Agriculture, Fisheries and Forestry "@en-AU ;
+    dct:created "2024-08-30T15:09:34.007965"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2023-09-13T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Export Control Amendment (Streamlining Administrative Processes) Act 2023"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2023A00064/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Export Control Amendment (Streamlining Administrative Processes) Act 2023"@en-AU ;
+    dct:title "Export Control Amendment (Streamlining Administrative Processes) Act 2023"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:identifier "C2023A00064" ;
+    schema:status "In force" ;
+    schema:version "C2023A00064" .
+
+C2023A00064:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2023A00064:4,
+        C2023A00064:5,
+        C2023A00064:6,
+        C2023A00064:7,
+        C2023A00064:8,
+        C2023A00064:9 ;
+    dct:isReferencedBy C2023A00064: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2023A00064:4,
+        C2023A00064:5,
+        C2023A00064:6,
+        C2023A00064:7,
+        C2023A00064:8,
+        C2023A00064:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00064/asmade/2023-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc145593642> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00064/asmade/2023-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc145593642"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
