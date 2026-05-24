@@ -1,0 +1,2684 @@
+@prefix C2005A00008: <http://example.org/au/leg/dataset/C2005A00008/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2005A00008:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403785> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403785"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403786> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403786"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403787> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403787"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Housing Assistance Act 1981"@en-AU ;
+    dct:isPartOf C2005A00008:6 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Housing Assistance Act 1981 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Housing Assistance Act 1981"@en-AU ;
+    skos:narrower C2005A00008:6 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403794> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403794"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:100 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I100 Aboriginal and Torres Strait Islander Act 2005"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Aboriginal and Torres Strait Islander Act 2005 - Abrievated Graph Key: I100"@en-AU ;
+    skos:definition "Aboriginal and Torres Strait Islander Act 2005"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I100"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403965> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403965"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:101 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I101 Aboriginal Land Rights Northern Territory Act 1976"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Aboriginal Land Rights Northern Territory Act 1976 - Abrievated Graph Key: I101"@en-AU ;
+    skos:definition "Aboriginal Land Rights Northern Territory Act 1976"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I101"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403967> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403967"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:102 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I102 Agricultural and Veterinary Chemicals Administration Act 1992"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Agricultural and Veterinary Chemicals Administration Act 1992 - Abrievated Graph Key: I102"@en-AU ;
+    skos:definition "Agricultural and Veterinary Chemicals Administration Act 1992"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I102"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403968> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403968"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:103 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I103 AlburyWodonga Development Act 1973"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "AlburyWodonga Development Act 1973 - Abrievated Graph Key: I103"@en-AU ;
+    skos:definition "AlburyWodonga Development Act 1973"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I103"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403970> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403970"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:104 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I104 Australian Broadcasting Corporation Act 1983"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Australian Broadcasting Corporation Act 1983 - Abrievated Graph Key: I104"@en-AU ;
+    skos:definition "Australian Broadcasting Corporation Act 1983"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I104"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403972> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403972"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:105 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I105 Australian Film Commission Act 1975"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Australian Film Commission Act 1975 - Abrievated Graph Key: I105"@en-AU ;
+    skos:definition "Australian Film Commission Act 1975"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I105"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403974> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403974"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:106 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I106 Australian Hearing Services Act 1991"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Australian Hearing Services Act 1991 - Abrievated Graph Key: I106"@en-AU ;
+    skos:definition "Australian Hearing Services Act 1991"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I106"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403975> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403975"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:107 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I107 Australian Maritime Safety Authority Act 1990"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Australian Maritime Safety Authority Act 1990 - Abrievated Graph Key: I107"@en-AU ;
+    skos:definition "Australian Maritime Safety Authority Act 1990"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I107"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403977> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403977"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:108 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I108 Australian National University Act 1991"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Australian National University Act 1991 - Abrievated Graph Key: I108"@en-AU ;
+    skos:definition "Australian National University Act 1991"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I108"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403978> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403978"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:109 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I109 Australian Nuclear Science and Technology Organisation Act 1987"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Australian Nuclear Science and Technology Organisation Act 1987 - Abrievated Graph Key: I109"@en-AU ;
+    skos:definition "Australian Nuclear Science and Technology Organisation Act 1987"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I109"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403979> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403979"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Housing Assistance Act 1984"@en-AU ;
+    dct:isPartOf C2005A00008:6 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Housing Assistance Act 1984 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Housing Assistance Act 1984"@en-AU ;
+    skos:narrower C2005A00008:6 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403795> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403795"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:110 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I110 Australian Prudential Regulation Authority Act 1998"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Australian Prudential Regulation Authority Act 1998 - Abrievated Graph Key: I110"@en-AU ;
+    skos:definition "Australian Prudential Regulation Authority Act 1998"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I110"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403981> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403981"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:111 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I111 Australian Trade Commission Act 1985"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Australian Trade Commission Act 1985 - Abrievated Graph Key: I111"@en-AU ;
+    skos:definition "Australian Trade Commission Act 1985"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I111"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403982> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403982"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:112 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I112 Commonwealth Authorities and Companies Act 1997"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Commonwealth Authorities and Companies Act 1997 - Abrievated Graph Key: I112"@en-AU ;
+    skos:definition "Commonwealth Authorities and Companies Act 1997"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I112"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403983> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403983"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:113 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I113 Cooperative Farmers and Graziers Direct Meat Supply Limited Loan Guarantee Act 1978"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Cooperative Farmers and Graziers Direct Meat Supply Limited Loan Guarantee Act 1978 - Abrievated Graph Key: I113"@en-AU ;
+    skos:definition "Cooperative Farmers and Graziers Direct Meat Supply Limited Loan Guarantee Act 1978"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I113"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403984> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403984"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:114 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I114 Defence Housing Authority Act 1987"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Defence Housing Authority Act 1987 - Abrievated Graph Key: I114"@en-AU ;
+    skos:definition "Defence Housing Authority Act 1987"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I114"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403986> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403986"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:115 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I115 Export Finance and Insurance Corporation Act 1991"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Export Finance and Insurance Corporation Act 1991 - Abrievated Graph Key: I115"@en-AU ;
+    skos:definition "Export Finance and Insurance Corporation Act 1991"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I115"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403988> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403988"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:116 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I116 Financial Management and Accountability Act 1997"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Financial Management and Accountability Act 1997 - Abrievated Graph Key: I116"@en-AU ;
+    skos:definition "Financial Management and Accountability Act 1997"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I116"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403989> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403989"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:117 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I117 Fisheries Administration Act 1991"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Fisheries Administration Act 1991 - Abrievated Graph Key: I117"@en-AU ;
+    skos:definition "Fisheries Administration Act 1991"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I117"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403990> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403990"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:118 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I118 Health Insurance Commission Act 1973"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Health Insurance Commission Act 1973 - Abrievated Graph Key: I118"@en-AU ;
+    skos:definition "Health Insurance Commission Act 1973"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I118"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403992> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403992"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:119 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I119 High Court of Australia Act 1979"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "High Court of Australia Act 1979 - Abrievated Graph Key: I119"@en-AU ;
+    skos:definition "High Court of Australia Act 1979"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I119"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403993> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403993"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Loan Temporary Revenue Deficits Act 1953"@en-AU ;
+    dct:isPartOf C2005A00008:6 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Loan Temporary Revenue Deficits Act 1953 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Loan Temporary Revenue Deficits Act 1953"@en-AU ;
+    skos:narrower C2005A00008:6 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403796> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403796"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:120 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I120 Maritime College Act 1978"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Maritime College Act 1978 - Abrievated Graph Key: I120"@en-AU ;
+    skos:definition "Maritime College Act 1978"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I120"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403994> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403994"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:121 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I121 Native Title Act 1993"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Native Title Act 1993 - Abrievated Graph Key: I121"@en-AU ;
+    skos:definition "Native Title Act 1993"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I121"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403996> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403996"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:122 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I122 Norfolk Island Act 1979"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Norfolk Island Act 1979 - Abrievated Graph Key: I122"@en-AU ;
+    skos:definition "Norfolk Island Act 1979"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I122"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403997> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403997"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:123 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I123 Northern Prawn Fishery Voluntary Adjustment Scheme Loan Guarantee Act 1985"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Northern Prawn Fishery Voluntary Adjustment Scheme Loan Guarantee Act 1985 - Abrievated Graph Key: I123"@en-AU ;
+    skos:definition "Northern Prawn Fishery Voluntary Adjustment Scheme Loan Guarantee Act 1985"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I123"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403999> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403999"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:124 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I124 Northern Territory Lessees Loans Guarantee Act 1954"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Northern Territory Lessees Loans Guarantee Act 1954 - Abrievated Graph Key: I124"@en-AU ;
+    skos:definition "Northern Territory Lessees Loans Guarantee Act 1954"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I124"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404002> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404002"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:125 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I125 Primary Industries and Energy Research and Development Act 1989"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Primary Industries and Energy Research and Development Act 1989 - Abrievated Graph Key: I125"@en-AU ;
+    skos:definition "Primary Industries and Energy Research and Development Act 1989"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I125"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404003> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404003"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:126 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I126 Safety Rehabilitation and Compensation Act 1988"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Safety Rehabilitation and Compensation Act 1988 - Abrievated Graph Key: I126"@en-AU ;
+    skos:definition "Safety Rehabilitation and Compensation Act 1988"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I126"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404005> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404005"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:127 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I127 Special Broadcasting Service Act 1991"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Special Broadcasting Service Act 1991 - Abrievated Graph Key: I127"@en-AU ;
+    skos:definition "Special Broadcasting Service Act 1991"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I127"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404006> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404006"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:128 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I128 Stevedoring Industry Finance Committee Act 1977"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Stevedoring Industry Finance Committee Act 1977 - Abrievated Graph Key: I128"@en-AU ;
+    skos:definition "Stevedoring Industry Finance Committee Act 1977"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I128"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404008> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404008"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:129 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I129 Sydney Harbour Federation Trust Act 2001"@en-AU ;
+    dct:isPartOf C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Sydney Harbour Federation Trust Act 2001 - Abrievated Graph Key: I129"@en-AU ;
+    skos:definition "Sydney Harbour Federation Trust Act 2001"@en-AU ;
+    skos:narrower C2005A00008:99 ;
+    skos:prefLabel "Item I129"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404009> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404009"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Loans Australian Industry Development Corporation Act 1974"@en-AU ;
+    dct:isPartOf C2005A00008:6 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Loans Australian Industry Development Corporation Act 1974 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Loans Australian Industry Development Corporation Act 1974"@en-AU ;
+    skos:narrower C2005A00008:6 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403797> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403797"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:131 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I131 Australian Development Assistance Agency Repeal Act 1977"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Australian Development Assistance Agency Repeal Act 1977 - Abrievated Graph Key: I131"@en-AU ;
+    skos:definition "Australian Development Assistance Agency Repeal Act 1977"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I131"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404011> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404011"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:132 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I132 Loan Act No 2 1983"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Loan Act No 2 1983 - Abrievated Graph Key: I132"@en-AU ;
+    skos:definition "Loan Act No 2 1983"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I132"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404012> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404012"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:133 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I133 Loan Act 1984"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Loan Act 1984 - Abrievated Graph Key: I133"@en-AU ;
+    skos:definition "Loan Act 1984"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I133"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404013> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404013"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:134 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I134 Loan Act 1985"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Loan Act 1985 - Abrievated Graph Key: I134"@en-AU ;
+    skos:definition "Loan Act 1985"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I134"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404014> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404014"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:135 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I135 Loan Act 1986"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Loan Act 1986 - Abrievated Graph Key: I135"@en-AU ;
+    skos:definition "Loan Act 1986"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I135"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404015> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404015"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:136 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I136 Loan Act 1992"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Loan Act 1992 - Abrievated Graph Key: I136"@en-AU ;
+    skos:definition "Loan Act 1992"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I136"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404016> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404016"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:137 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I137 Loan Act 1993"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Loan Act 1993 - Abrievated Graph Key: I137"@en-AU ;
+    skos:definition "Loan Act 1993"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I137"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404017> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404017"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:138 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I138 Loan Act 1994"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Loan Act 1994 - Abrievated Graph Key: I138"@en-AU ;
+    skos:definition "Loan Act 1994"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I138"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404018> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404018"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:139 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I139 Loan Act 1995"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Loan Act 1995 - Abrievated Graph Key: I139"@en-AU ;
+    skos:definition "Loan Act 1995"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I139"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404019> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404019"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Sewerage Agreements Act 1973"@en-AU ;
+    dct:isPartOf C2005A00008:6 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Sewerage Agreements Act 1973 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Sewerage Agreements Act 1973"@en-AU ;
+    skos:narrower C2005A00008:6 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403798> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403798"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:140 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I140 Loan Act 1996"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Loan Act 1996 - Abrievated Graph Key: I140"@en-AU ;
+    skos:definition "Loan Act 1996"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I140"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404020> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404020"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:141 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I141 Loan Income Equalization Deposits Act 1976"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Loan Income Equalization Deposits Act 1976 - Abrievated Graph Key: I141"@en-AU ;
+    skos:definition "Loan Income Equalization Deposits Act 1976"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I141"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404021> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404021"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:142 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I142 Loan International Bank for Reconstruction and Development Act 1950"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Loan International Bank for Reconstruction and Development Act 1950 - Abrievated Graph Key: I142"@en-AU ;
+    skos:definition "Loan International Bank for Reconstruction and Development Act 1950"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I142"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404022> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404022"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:143 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I143 Loan Supplementary Borrowing Act 1969"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Loan Supplementary Borrowing Act 1969 - Abrievated Graph Key: I143"@en-AU ;
+    skos:definition "Loan Supplementary Borrowing Act 1969"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I143"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404023> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404023"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:144 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I144 Loans Qantas Airways Limited Act No 2 1971"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Loans Qantas Airways Limited Act No 2 1971 - Abrievated Graph Key: I144"@en-AU ;
+    skos:definition "Loans Qantas Airways Limited Act No 2 1971"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I144"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404024> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404024"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:145 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I145 Loans Qantas Airways Limited Act 1972"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Loans Qantas Airways Limited Act 1972 - Abrievated Graph Key: I145"@en-AU ;
+    skos:definition "Loans Qantas Airways Limited Act 1972"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I145"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404025> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404025"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:146 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I146 Loans Qantas Airways Limited Act 1974"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Loans Qantas Airways Limited Act 1974 - Abrievated Graph Key: I146"@en-AU ;
+    skos:definition "Loans Qantas Airways Limited Act 1974"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I146"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404026> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404026"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:147 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I147 Loans Qantas Airways Limited Act 1976"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Loans Qantas Airways Limited Act 1976 - Abrievated Graph Key: I147"@en-AU ;
+    skos:definition "Loans Qantas Airways Limited Act 1976"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I147"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404027> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404027"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:148 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I148 Qantas Airways Limited Loan Guarantee Act 1976"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Qantas Airways Limited Loan Guarantee Act 1976 - Abrievated Graph Key: I148"@en-AU ;
+    skos:definition "Qantas Airways Limited Loan Guarantee Act 1976"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I148"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404028> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404028"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:149 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I149 Railway Standardization South Australia Agreement Act 1949"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Railway Standardization South Australia Agreement Act 1949 - Abrievated Graph Key: I149"@en-AU ;
+    skos:definition "Railway Standardization South Australia Agreement Act 1949"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I149"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404029> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404029"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Sewerage Agreements Act 1974"@en-AU ;
+    dct:isPartOf C2005A00008:6 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Sewerage Agreements Act 1974 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Sewerage Agreements Act 1974"@en-AU ;
+    skos:narrower C2005A00008:6 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403799> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403799"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:150 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I150 Roads Grants Act 1980"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Roads Grants Act 1980 - Abrievated Graph Key: I150"@en-AU ;
+    skos:definition "Roads Grants Act 1980"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I150"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404030> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404030"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:151 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I151 Roads Grants Act 1981"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Roads Grants Act 1981 - Abrievated Graph Key: I151"@en-AU ;
+    skos:definition "Roads Grants Act 1981"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I151"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404031> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404031"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:152 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I152 States Grants Capital Assistance Act No 3 1972"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "States Grants Capital Assistance Act No 3 1972 - Abrievated Graph Key: I152"@en-AU ;
+    skos:definition "States Grants Capital Assistance Act No 3 1972"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I152"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404032> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404032"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:153 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I153 States Grants Capital Assistance Act 1979"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "States Grants Capital Assistance Act 1979 - Abrievated Graph Key: I153"@en-AU ;
+    skos:definition "States Grants Capital Assistance Act 1979"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I153"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404033> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404033"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:154 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I154 States Grants Capital Assistance Act 1980"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "States Grants Capital Assistance Act 1980 - Abrievated Graph Key: I154"@en-AU ;
+    skos:definition "States Grants Capital Assistance Act 1980"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I154"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404034> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404034"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:155 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I155 States Grants Capital Assistance Act 1981"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "States Grants Capital Assistance Act 1981 - Abrievated Graph Key: I155"@en-AU ;
+    skos:definition "States Grants Capital Assistance Act 1981"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I155"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404035> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404035"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:156 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I156 States Grants Roads Act 1977"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "States Grants Roads Act 1977 - Abrievated Graph Key: I156"@en-AU ;
+    skos:definition "States Grants Roads Act 1977"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I156"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404036> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404036"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:157 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I157 States Grants Urban Public Transport Act 1978"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "States Grants Urban Public Transport Act 1978 - Abrievated Graph Key: I157"@en-AU ;
+    skos:definition "States Grants Urban Public Transport Act 1978"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I157"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404037> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404037"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:158 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I158 War Gratuity Appropriation Act 1948"@en-AU ;
+    dct:isPartOf C2005A00008:130 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "War Gratuity Appropriation Act 1948 - Abrievated Graph Key: I158"@en-AU ;
+    skos:definition "War Gratuity Appropriation Act 1948"@en-AU ;
+    skos:narrower C2005A00008:130 ;
+    skos:prefLabel "Item I158"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404038> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404038"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 States Grants Primary and Secondary Education Assistance Act 1992"@en-AU ;
+    dct:isPartOf C2005A00008:6 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "States Grants Primary and Secondary Education Assistance Act 1992 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "States Grants Primary and Secondary Education Assistance Act 1992"@en-AU ;
+    skos:narrower C2005A00008:6 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403800> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403800"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:160 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I160 Endnote 1 About the endnotes"@en-AU ;
+    dct:isPartOf C2005A00008:159 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Endnote 1 About the endnotes - Abrievated Graph Key: I160"@en-AU ;
+    skos:definition "Endnote 1 About the endnotes"@en-AU ;
+    skos:narrower C2005A00008:159 ;
+    skos:prefLabel "Item I160"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404040> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404040"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:161 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I161 Endnote 2 Abbreviation key"@en-AU ;
+    dct:isPartOf C2005A00008:159 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Endnote 2 Abbreviation key - Abrievated Graph Key: I161"@en-AU ;
+    skos:definition "Endnote 2 Abbreviation key"@en-AU ;
+    skos:narrower C2005A00008:159 ;
+    skos:prefLabel "Item I161"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404041> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404041"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:162 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I162 Endnote 3 Legislation history"@en-AU ;
+    dct:isPartOf C2005A00008:159 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Endnote 3 Legislation history - Abrievated Graph Key: I162"@en-AU ;
+    skos:definition "Endnote 3 Legislation history"@en-AU ;
+    skos:narrower C2005A00008:159 ;
+    skos:prefLabel "Item I162"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404042> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404042"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:163 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I163 Endnote 4 Amendment history"@en-AU ;
+    dct:isPartOf C2005A00008:159 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Endnote 4 Amendment history - Abrievated Graph Key: I163"@en-AU ;
+    skos:definition "Endnote 4 Amendment history"@en-AU ;
+    skos:narrower C2005A00008:159 ;
+    skos:prefLabel "Item I163"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404043> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404043"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:164 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I164 Endnote 5 Uncommenced amendments none"@en-AU ;
+    dct:isPartOf C2005A00008:159 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Endnote 5 Uncommenced amendments none - Abrievated Graph Key: I164"@en-AU ;
+    skos:definition "Endnote 5 Uncommenced amendments none"@en-AU ;
+    skos:narrower C2005A00008:159 ;
+    skos:prefLabel "Item I164"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404044> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404044"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:165 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I165 Endnote 6 Modifications none"@en-AU ;
+    dct:isPartOf C2005A00008:159 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Endnote 6 Modifications none - Abrievated Graph Key: I165"@en-AU ;
+    skos:definition "Endnote 6 Modifications none"@en-AU ;
+    skos:narrower C2005A00008:159 ;
+    skos:prefLabel "Item I165"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404045> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404045"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:166 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I166 Endnote 7 Misdescribed amendments none"@en-AU ;
+    dct:isPartOf C2005A00008:159 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Endnote 7 Misdescribed amendments none - Abrievated Graph Key: I166"@en-AU ;
+    skos:definition "Endnote 7 Misdescribed amendments none"@en-AU ;
+    skos:narrower C2005A00008:159 ;
+    skos:prefLabel "Item I166"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404046> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404046"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:167 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I167 Endnote 8 Miscellaneous none"@en-AU ;
+    dct:isPartOf C2005A00008:159 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Endnote 8 Miscellaneous none - Abrievated Graph Key: I167"@en-AU ;
+    skos:definition "Endnote 8 Miscellaneous none"@en-AU ;
+    skos:narrower C2005A00008:159 ;
+    skos:prefLabel "Item I167"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404047> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404047"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 States Grants Primary and Secondary Education Assistance Act 1996"@en-AU ;
+    dct:isPartOf C2005A00008:6 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "States Grants Primary and Secondary Education Assistance Act 1996 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "States Grants Primary and Secondary Education Assistance Act 1996"@en-AU ;
+    skos:narrower C2005A00008:6 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403801> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403801"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 States Works and Housing Assistance Act 1982"@en-AU ;
+    dct:isPartOf C2005A00008:6 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "States Works and Housing Assistance Act 1982 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "States Works and Housing Assistance Act 1982"@en-AU ;
+    skos:narrower C2005A00008:6 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403802> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403802"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 States Works and Housing Assistance Act 1983"@en-AU ;
+    dct:isPartOf C2005A00008:6 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "States Works and Housing Assistance Act 1983 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "States Works and Housing Assistance Act 1983"@en-AU ;
+    skos:narrower C2005A00008:6 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403803> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403803"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 States Works and Housing Assistance Act 1984"@en-AU ;
+    dct:isPartOf C2005A00008:6 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "States Works and Housing Assistance Act 1984 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "States Works and Housing Assistance Act 1984"@en-AU ;
+    skos:narrower C2005A00008:6 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403804> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403804"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 States Works and Housing Assistance Act 1985"@en-AU ;
+    dct:isPartOf C2005A00008:6 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "States Works and Housing Assistance Act 1985 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "States Works and Housing Assistance Act 1985"@en-AU ;
+    skos:narrower C2005A00008:6 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403805> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403805"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 States Works and Housing Assistance Act 1988"@en-AU ;
+    dct:isPartOf C2005A00008:6 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "States Works and Housing Assistance Act 1988 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "States Works and Housing Assistance Act 1988"@en-AU ;
+    skos:narrower C2005A00008:6 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403806> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403806"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Vocational Education and Training Funding Act 1992"@en-AU ;
+    dct:isPartOf C2005A00008:6 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Vocational Education and Training Funding Act 1992 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Vocational Education and Training Funding Act 1992"@en-AU ;
+    skos:narrower C2005A00008:6 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403807> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403807"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Aboriginal Land Lake Condah and Framlingham Forest Act 1987"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Aboriginal Land Lake Condah and Framlingham Forest Act 1987 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Aboriginal Land Lake Condah and Framlingham Forest Act 1987"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403809> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403809"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Aboriginal Land Rights Northern Territory Act 1976"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Aboriginal Land Rights Northern Territory Act 1976 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Aboriginal Land Rights Northern Territory Act 1976"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403811> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403811"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Acts Interpretation Act 1901"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Acts Interpretation Act 1901 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Acts Interpretation Act 1901"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403817> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403817"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 AeroSpace Technologies of Australia Limited Sale Act 1994"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "AeroSpace Technologies of Australia Limited Sale Act 1994 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "AeroSpace Technologies of Australia Limited Sale Act 1994"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403818> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403818"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Agricultural and Veterinary Chemicals Administration Act 1992"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Agricultural and Veterinary Chemicals Administration Act 1992 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Agricultural and Veterinary Chemicals Administration Act 1992"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403819> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403819"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Agricultural and Veterinary Chemical Products Collection of Interim Levy Act 1994"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Agricultural and Veterinary Chemical Products Collection of Interim Levy Act 1994 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Agricultural and Veterinary Chemical Products Collection of Interim Levy Act 1994"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403820> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403820"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Agricultural and Veterinary Chemical Products Collection of Levy Act 1994"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Agricultural and Veterinary Chemical Products Collection of Levy Act 1994 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Agricultural and Veterinary Chemical Products Collection of Levy Act 1994"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403822> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403822"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Alcohol Education and Rehabilitation Account Act 2001"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Alcohol Education and Rehabilitation Account Act 2001 - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Alcohol Education and Rehabilitation Account Act 2001"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403824> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403824"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 AustraliaJapan Foundation Act 1976"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "AustraliaJapan Foundation Act 1976 - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "AustraliaJapan Foundation Act 1976"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403825> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403825"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Australian Centre for International Agricultural Research Act 1982"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Australian Centre for International Agricultural Research Act 1982 - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Australian Centre for International Agricultural Research Act 1982"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403829> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403829"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Australian Federal Police Act 1979"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Australian Federal Police Act 1979 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Australian Federal Police Act 1979"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403833> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403833"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 Australian Meat and Livestock Industry Repeals and Consequential Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Australian Meat and Livestock Industry Repeals and Consequential Provisions Act 1997 - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "Australian Meat and Livestock Industry Repeals and Consequential Provisions Act 1997"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403834> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403834"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Australian Radiation Protection and Nuclear Safety Act 1998"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Australian Radiation Protection and Nuclear Safety Act 1998 - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Australian Radiation Protection and Nuclear Safety Act 1998"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403835> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403835"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 Australian Securities and Investments Commission Act 2001"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Australian Securities and Investments Commission Act 2001 - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "Australian Securities and Investments Commission Act 2001"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403837> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403837"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 Bankruptcy Act 1966"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Bankruptcy Act 1966 - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "Bankruptcy Act 1966"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403838> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403838"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 Broadcasting Services Act 1992"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Broadcasting Services Act 1992 - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "Broadcasting Services Act 1992"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403841> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403841"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 CFM Sale Act 1996"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "CFM Sale Act 1996 - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "CFM Sale Act 1996"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403842> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403842"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 Child Support Registration and Collection Act 1988"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Child Support Registration and Collection Act 1988 - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "Child Support Registration and Collection Act 1988"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403843> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403843"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:43 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I43 Coal Mining Industry Long Service Leave Payroll Levy Collection Act 1992"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Coal Mining Industry Long Service Leave Payroll Levy Collection Act 1992 - Abrievated Graph Key: I43"@en-AU ;
+    skos:definition "Coal Mining Industry Long Service Leave Payroll Levy Collection Act 1992"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403848> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403848"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 Commonwealth Places Mirror Taxes Act 1998"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Commonwealth Places Mirror Taxes Act 1998 - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "Commonwealth Places Mirror Taxes Act 1998"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403849> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403849"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:45 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I45 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I45"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403850> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403850"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:46 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I46 Crimes Act 1914"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Crimes Act 1914 - Abrievated Graph Key: I46"@en-AU ;
+    skos:definition "Crimes Act 1914"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403851> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403851"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:47 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I47 Crimes Superannuation Benefits Act 1989"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Crimes Superannuation Benefits Act 1989 - Abrievated Graph Key: I47"@en-AU ;
+    skos:definition "Crimes Superannuation Benefits Act 1989"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403852> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403852"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:48 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I48 CSL Sale Act 1993"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "CSL Sale Act 1993 - Abrievated Graph Key: I48"@en-AU ;
+    skos:definition "CSL Sale Act 1993"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403853> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403853"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:49 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I49 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I49"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403854> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403854"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:50 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I50 Defence Forces Retirement Benefits Fund Distribution of Surplus to Pensioners Act 1976"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Defence Forces Retirement Benefits Fund Distribution of Surplus to Pensioners Act 1976 - Abrievated Graph Key: I50"@en-AU ;
+    skos:definition "Defence Forces Retirement Benefits Fund Distribution of Surplus to Pensioners Act 1976"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403855> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403855"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:51 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I51 Defence Service Homes Act 1918"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Defence Service Homes Act 1918 - Abrievated Graph Key: I51"@en-AU ;
+    skos:definition "Defence Service Homes Act 1918"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403856> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403856"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:52 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I52 Financial Agreement Act 1994"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Financial Agreement Act 1994 - Abrievated Graph Key: I52"@en-AU ;
+    skos:definition "Financial Agreement Act 1994"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403859> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403859"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:53 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I53 Financial Institutions Supervisory Levies Collection Act 1998"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Financial Institutions Supervisory Levies Collection Act 1998 - Abrievated Graph Key: I53"@en-AU ;
+    skos:definition "Financial Institutions Supervisory Levies Collection Act 1998"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403861> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403861"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:54 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I54 Financial Management and Accountability Act 1997"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Financial Management and Accountability Act 1997 - Abrievated Graph Key: I54"@en-AU ;
+    skos:definition "Financial Management and Accountability Act 1997"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403863> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403863"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:55 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I55 Forestry and Timber Bureau Act 1930"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Forestry and Timber Bureau Act 1930 - Abrievated Graph Key: I55"@en-AU ;
+    skos:definition "Forestry and Timber Bureau Act 1930"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403864> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403864"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:56 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I56 Great Barrier Reef Marine Park Act 1975"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Great Barrier Reef Marine Park Act 1975 - Abrievated Graph Key: I56"@en-AU ;
+    skos:definition "Great Barrier Reef Marine Park Act 1975"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403866> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403866"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:57 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I57 Higher Education Funding Act 1988"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Higher Education Funding Act 1988 - Abrievated Graph Key: I57"@en-AU ;
+    skos:definition "Higher Education Funding Act 1988"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I57"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403867> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403867"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:58 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I58 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I58"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I58"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403872> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403872"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:59 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I59 Industrial Chemicals Notification and Assessment Act 1989"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Industrial Chemicals Notification and Assessment Act 1989 - Abrievated Graph Key: I59"@en-AU ;
+    skos:definition "Industrial Chemicals Notification and Assessment Act 1989"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I59"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403873> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403873"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:60 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I60 International Monetary Agreements Act 1947"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "International Monetary Agreements Act 1947 - Abrievated Graph Key: I60"@en-AU ;
+    skos:definition "International Monetary Agreements Act 1947"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I60"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403874> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403874"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:61 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I61 Interstate Road Transport Act 1985"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Interstate Road Transport Act 1985 - Abrievated Graph Key: I61"@en-AU ;
+    skos:definition "Interstate Road Transport Act 1985"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I61"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403875> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403875"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:62 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I62 Lands Acquisition Act 1989"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Lands Acquisition Act 1989 - Abrievated Graph Key: I62"@en-AU ;
+    skos:definition "Lands Acquisition Act 1989"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I62"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403879> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403879"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:63 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I63 MoombaSydney Pipeline System Sale Act 1994"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "MoombaSydney Pipeline System Sale Act 1994 - Abrievated Graph Key: I63"@en-AU ;
+    skos:definition "MoombaSydney Pipeline System Sale Act 1994"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I63"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403881> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403881"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:64 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I64 National Blood Authority Act 2003"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "National Blood Authority Act 2003 - Abrievated Graph Key: I64"@en-AU ;
+    skos:definition "National Blood Authority Act 2003"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I64"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403882> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403882"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:65 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I65 National Cattle Disease Eradication Reserve Act 1991"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "National Cattle Disease Eradication Reserve Act 1991 - Abrievated Graph Key: I65"@en-AU ;
+    skos:definition "National Cattle Disease Eradication Reserve Act 1991"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I65"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403883> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403883"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:66 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I66 National Health and Medical Research Council Act 1992"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "National Health and Medical Research Council Act 1992 - Abrievated Graph Key: I66"@en-AU ;
+    skos:definition "National Health and Medical Research Council Act 1992"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I66"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403886> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403886"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:67 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I67 National Residue Survey Administration Act 1992"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "National Residue Survey Administration Act 1992 - Abrievated Graph Key: I67"@en-AU ;
+    skos:definition "National Residue Survey Administration Act 1992"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I67"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403890> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403890"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:68 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I68 Native Title Act 1993"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Native Title Act 1993 - Abrievated Graph Key: I68"@en-AU ;
+    skos:definition "Native Title Act 1993"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I68"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403895> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403895"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:69 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I69 Natural Heritage Trust of Australia Act 1997"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Natural Heritage Trust of Australia Act 1997 - Abrievated Graph Key: I69"@en-AU ;
+    skos:definition "Natural Heritage Trust of Australia Act 1997"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I69"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403897> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403897"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Acts Interpretation Act 1901"@en-AU ;
+    dct:isPartOf C2005A00008:6 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Acts Interpretation Act 1901 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Acts Interpretation Act 1901"@en-AU ;
+    skos:narrower C2005A00008:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403791> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403791"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:70 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I70 Natural Resources Management Financial Assistance Act 1992"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Natural Resources Management Financial Assistance Act 1992 - Abrievated Graph Key: I70"@en-AU ;
+    skos:definition "Natural Resources Management Financial Assistance Act 1992"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I70"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403911> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403911"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:71 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I71 Navigation Act 1912"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Navigation Act 1912 - Abrievated Graph Key: I71"@en-AU ;
+    skos:definition "Navigation Act 1912"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I71"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403914> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403914"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:72 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I72 Petroleum Submerged Lands Act 1967"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Petroleum Submerged Lands Act 1967 - Abrievated Graph Key: I72"@en-AU ;
+    skos:definition "Petroleum Submerged Lands Act 1967"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I72"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403915> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403915"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:73 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I73 Primary Industries Customs Charges Act 1999"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Primary Industries Customs Charges Act 1999 - Abrievated Graph Key: I73"@en-AU ;
+    skos:definition "Primary Industries Customs Charges Act 1999"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I73"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403916> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403916"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:74 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I74 Primary Industries Excise Levies Act 1999"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Primary Industries Excise Levies Act 1999 - Abrievated Graph Key: I74"@en-AU ;
+    skos:definition "Primary Industries Excise Levies Act 1999"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I74"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403917> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403917"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:75 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I75 Proceeds of Crime Act 1987"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Proceeds of Crime Act 1987 - Abrievated Graph Key: I75"@en-AU ;
+    skos:definition "Proceeds of Crime Act 1987"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I75"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403918> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403918"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:76 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I76 Proceeds of Crime Act 2002"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Proceeds of Crime Act 2002 - Abrievated Graph Key: I76"@en-AU ;
+    skos:definition "Proceeds of Crime Act 2002"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I76"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403921> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403921"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:77 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I77 Protection of Movable Cultural Heritage Act 1986"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Protection of Movable Cultural Heritage Act 1986 - Abrievated Graph Key: I77"@en-AU ;
+    skos:definition "Protection of Movable Cultural Heritage Act 1986"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I77"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403922> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403922"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:78 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I78 Protection of the Sea Oil Pollution Compensation Fund Act 1993"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Protection of the Sea Oil Pollution Compensation Fund Act 1993 - Abrievated Graph Key: I78"@en-AU ;
+    skos:definition "Protection of the Sea Oil Pollution Compensation Fund Act 1993"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I78"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403923> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403923"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:79 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I79 Sea Installations Act 1987"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Sea Installations Act 1987 - Abrievated Graph Key: I79"@en-AU ;
+    skos:definition "Sea Installations Act 1987"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I79"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403924> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403924"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Higher Education Funding Act 1988"@en-AU ;
+    dct:isPartOf C2005A00008:6 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Higher Education Funding Act 1988 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Higher Education Funding Act 1988"@en-AU ;
+    skos:narrower C2005A00008:6 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403792> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403792"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:80 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I80 Small Superannuation Accounts Act 1995"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Small Superannuation Accounts Act 1995 - Abrievated Graph Key: I80"@en-AU ;
+    skos:definition "Small Superannuation Accounts Act 1995"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I80"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403926> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403926"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:81 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I81 Snowy Hydro Corporatisation Act 1997"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Snowy Hydro Corporatisation Act 1997 - Abrievated Graph Key: I81"@en-AU ;
+    skos:definition "Snowy Hydro Corporatisation Act 1997"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I81"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403933> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403933"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:82 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I82 Snowy Mountains Engineering Corporation Limited Sale Act 1993"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Snowy Mountains Engineering Corporation Limited Sale Act 1993 - Abrievated Graph Key: I82"@en-AU ;
+    skos:definition "Snowy Mountains Engineering Corporation Limited Sale Act 1993"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I82"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403934> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403934"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:83 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I83 States Grants Primary and Secondary Education Assistance Act 1992"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "States Grants Primary and Secondary Education Assistance Act 1992 - Abrievated Graph Key: I83"@en-AU ;
+    skos:definition "States Grants Primary and Secondary Education Assistance Act 1992"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I83"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403935> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403935"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:84 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I84 States Grants Primary and Secondary Education Assistance Act 1996"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "States Grants Primary and Secondary Education Assistance Act 1996 - Abrievated Graph Key: I84"@en-AU ;
+    skos:definition "States Grants Primary and Secondary Education Assistance Act 1996"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I84"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403936> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403936"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:85 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I85 Student Assistance Act 1973"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Student Assistance Act 1973 - Abrievated Graph Key: I85"@en-AU ;
+    skos:definition "Student Assistance Act 1973"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I85"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403937> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403937"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:86 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I86 Superannuation Act 1922"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Superannuation Act 1922 - Abrievated Graph Key: I86"@en-AU ;
+    skos:definition "Superannuation Act 1922"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I86"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403939> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403939"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:87 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I87 Superannuation Act 1976"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Superannuation Act 1976 - Abrievated Graph Key: I87"@en-AU ;
+    skos:definition "Superannuation Act 1976"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I87"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403940> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403940"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:88 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I88 Superannuation Government Cocontribution for Low Income Earners Act 2003"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Superannuation Government Cocontribution for Low Income Earners Act 2003 - Abrievated Graph Key: I88"@en-AU ;
+    skos:definition "Superannuation Government Cocontribution for Low Income Earners Act 2003"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I88"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403941> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403941"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:89 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I89 Superannuation Guarantee Administration Act 1992"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Superannuation Guarantee Administration Act 1992 - Abrievated Graph Key: I89"@en-AU ;
+    skos:definition "Superannuation Guarantee Administration Act 1992"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I89"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403942> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403942"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Housing Assistance Act 1978"@en-AU ;
+    dct:isPartOf C2005A00008:6 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Housing Assistance Act 1978 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Housing Assistance Act 1978"@en-AU ;
+    skos:narrower C2005A00008:6 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403793> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403793"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:90 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I90 Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: I90"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I90"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403943> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403943"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:91 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I91 Sydney Airport Demand Management Act 1997"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Sydney Airport Demand Management Act 1997 - Abrievated Graph Key: I91"@en-AU ;
+    skos:definition "Sydney Airport Demand Management Act 1997"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I91"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403947> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403947"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:92 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I92 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I92"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I92"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403948> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403948"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:93 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I93 Telecommunications Act 1997"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Telecommunications Act 1997 - Abrievated Graph Key: I93"@en-AU ;
+    skos:definition "Telecommunications Act 1997"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I93"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403949> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403949"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:94 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I94 Telecommunications Consumer Protection and Service Standards Act 1999"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Telecommunications Consumer Protection and Service Standards Act 1999 - Abrievated Graph Key: I94"@en-AU ;
+    skos:definition "Telecommunications Consumer Protection and Service Standards Act 1999"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I94"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403950> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403950"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:95 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I95 Telstra Corporation Act 1991"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Telstra Corporation Act 1991 - Abrievated Graph Key: I95"@en-AU ;
+    skos:definition "Telstra Corporation Act 1991"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I95"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403954> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403954"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:96 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I96 Therapeutic Goods Act 1989"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Therapeutic Goods Act 1989 - Abrievated Graph Key: I96"@en-AU ;
+    skos:definition "Therapeutic Goods Act 1989"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I96"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403960> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403960"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:97 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I97 Vocational Education and Training Funding Act 1992"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Vocational Education and Training Funding Act 1992 - Abrievated Graph Key: I97"@en-AU ;
+    skos:definition "Vocational Education and Training Funding Act 1992"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I97"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403962> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403962"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:98 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I98 Workplace Relations Act 1996"@en-AU ;
+    dct:isPartOf C2005A00008:24 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Workplace Relations Act 1996 - Abrievated Graph Key: I98"@en-AU ;
+    skos:definition "Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2005A00008:24 ;
+    skos:prefLabel "Item I98"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403963> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403963"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 4  Saving of matters in Part 2 of Schedule 1"@en-AU ;
+    dct:hasPart C2005A00008:130,
+        C2005A00008:5,
+        C2005A00008:99 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "4  Saving of matters in Part 2 of Schedule 1 - Abrievated Graph Key: I4"@en-AU ;
+    skos:broader C2005A00008:130,
+        C2005A00008:5,
+        C2005A00008:99 ;
+    skos:definition "4  Saving of matters in Part 2 of Schedule 1"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403788> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403788"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00008:5 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S5 Schedule 1 Amendments relating to the Financial Management Legislation Amendment Act 1999 and Special Accounts"@en-AU ;
+    dct:hasPart C2005A00008:24,
+        C2005A00008:6 ;
+    dct:isPartOf C2005A00008:4 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Schedule 1 Amendments relating to the Financial Management Legislation Amendment Act 1999 and Special Accounts - Abrievated Graph Key: S5"@en-AU ;
+    skos:broader C2005A00008:24,
+        C2005A00008:6 ;
+    skos:definition "Schedule 1 Amendments relating to the Financial Management Legislation Amendment Act 1999 and Special Accounts"@en-AU ;
+    skos:narrower C2005A00008:4 ;
+    skos:prefLabel "Schedule S5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403789> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403789"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00008:159 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E159 Endnotes"@en-AU ;
+    dct:hasPart C2005A00008:160,
+        C2005A00008:161,
+        C2005A00008:162,
+        C2005A00008:163,
+        C2005A00008:164,
+        C2005A00008:165,
+        C2005A00008:166,
+        C2005A00008:167 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E159"@en-AU ;
+    skos:broader C2005A00008:160,
+        C2005A00008:161,
+        C2005A00008:162,
+        C2005A00008:163,
+        C2005A00008:164,
+        C2005A00008:165,
+        C2005A00008:166,
+        C2005A00008:167 ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:prefLabel "Endnotes E159"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404039> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404039"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+
+C2005A00008:6 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P6 Part 1 Removal of references to Loan Fund"@en-AU ;
+    dct:hasPart C2005A00008:10,
+        C2005A00008:11,
+        C2005A00008:12,
+        C2005A00008:13,
+        C2005A00008:14,
+        C2005A00008:15,
+        C2005A00008:16,
+        C2005A00008:17,
+        C2005A00008:18,
+        C2005A00008:19,
+        C2005A00008:20,
+        C2005A00008:21,
+        C2005A00008:22,
+        C2005A00008:23,
+        C2005A00008:7,
+        C2005A00008:8,
+        C2005A00008:9 ;
+    dct:isPartOf C2005A00008:5 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Part 1 Removal of references to Loan Fund - Abrievated Graph Key: P6"@en-AU ;
+    skos:broader C2005A00008:10,
+        C2005A00008:11,
+        C2005A00008:12,
+        C2005A00008:13,
+        C2005A00008:14,
+        C2005A00008:15,
+        C2005A00008:16,
+        C2005A00008:17,
+        C2005A00008:18,
+        C2005A00008:19,
+        C2005A00008:20,
+        C2005A00008:21,
+        C2005A00008:22,
+        C2005A00008:23,
+        C2005A00008:7,
+        C2005A00008:8,
+        C2005A00008:9 ;
+    skos:definition "Part 1 Removal of references to Loan Fund"@en-AU ;
+    skos:narrower C2005A00008:5 ;
+    skos:prefLabel "Part P6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403790> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403790"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2005A00008:130 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S130 Schedule 3 Repeal of Acts"@en-AU ;
+    dct:hasPart C2005A00008:131,
+        C2005A00008:132,
+        C2005A00008:133,
+        C2005A00008:134,
+        C2005A00008:135,
+        C2005A00008:136,
+        C2005A00008:137,
+        C2005A00008:138,
+        C2005A00008:139,
+        C2005A00008:140,
+        C2005A00008:141,
+        C2005A00008:142,
+        C2005A00008:143,
+        C2005A00008:144,
+        C2005A00008:145,
+        C2005A00008:146,
+        C2005A00008:147,
+        C2005A00008:148,
+        C2005A00008:149,
+        C2005A00008:150,
+        C2005A00008:151,
+        C2005A00008:152,
+        C2005A00008:153,
+        C2005A00008:154,
+        C2005A00008:155,
+        C2005A00008:156,
+        C2005A00008:157,
+        C2005A00008:158 ;
+    dct:isPartOf C2005A00008:4 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Schedule 3 Repeal of Acts - Abrievated Graph Key: S130"@en-AU ;
+    skos:broader C2005A00008:131,
+        C2005A00008:132,
+        C2005A00008:133,
+        C2005A00008:134,
+        C2005A00008:135,
+        C2005A00008:136,
+        C2005A00008:137,
+        C2005A00008:138,
+        C2005A00008:139,
+        C2005A00008:140,
+        C2005A00008:141,
+        C2005A00008:142,
+        C2005A00008:143,
+        C2005A00008:144,
+        C2005A00008:145,
+        C2005A00008:146,
+        C2005A00008:147,
+        C2005A00008:148,
+        C2005A00008:149,
+        C2005A00008:150,
+        C2005A00008:151,
+        C2005A00008:152,
+        C2005A00008:153,
+        C2005A00008:154,
+        C2005A00008:155,
+        C2005A00008:156,
+        C2005A00008:157,
+        C2005A00008:158 ;
+    skos:definition "Schedule 3 Repeal of Acts"@en-AU ;
+    skos:narrower C2005A00008:4 ;
+    skos:prefLabel "Schedule S130"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404010> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368404010"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00008:99 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S99 Schedule 2 Other amendments"@en-AU ;
+    dct:hasPart C2005A00008:100,
+        C2005A00008:101,
+        C2005A00008:102,
+        C2005A00008:103,
+        C2005A00008:104,
+        C2005A00008:105,
+        C2005A00008:106,
+        C2005A00008:107,
+        C2005A00008:108,
+        C2005A00008:109,
+        C2005A00008:110,
+        C2005A00008:111,
+        C2005A00008:112,
+        C2005A00008:113,
+        C2005A00008:114,
+        C2005A00008:115,
+        C2005A00008:116,
+        C2005A00008:117,
+        C2005A00008:118,
+        C2005A00008:119,
+        C2005A00008:120,
+        C2005A00008:121,
+        C2005A00008:122,
+        C2005A00008:123,
+        C2005A00008:124,
+        C2005A00008:125,
+        C2005A00008:126,
+        C2005A00008:127,
+        C2005A00008:128,
+        C2005A00008:129 ;
+    dct:isPartOf C2005A00008:4 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Schedule 2 Other amendments - Abrievated Graph Key: S99"@en-AU ;
+    skos:broader C2005A00008:100,
+        C2005A00008:101,
+        C2005A00008:102,
+        C2005A00008:103,
+        C2005A00008:104,
+        C2005A00008:105,
+        C2005A00008:106,
+        C2005A00008:107,
+        C2005A00008:108,
+        C2005A00008:109,
+        C2005A00008:110,
+        C2005A00008:111,
+        C2005A00008:112,
+        C2005A00008:113,
+        C2005A00008:114,
+        C2005A00008:115,
+        C2005A00008:116,
+        C2005A00008:117,
+        C2005A00008:118,
+        C2005A00008:119,
+        C2005A00008:120,
+        C2005A00008:121,
+        C2005A00008:122,
+        C2005A00008:123,
+        C2005A00008:124,
+        C2005A00008:125,
+        C2005A00008:126,
+        C2005A00008:127,
+        C2005A00008:128,
+        C2005A00008:129 ;
+    skos:definition "Schedule 2 Other amendments"@en-AU ;
+    skos:narrower C2005A00008:4 ;
+    skos:prefLabel "Schedule S99"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403964> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403964"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00008:24 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P24 Part 2 Special Accounts and references to paid to the Consolidated Revenue Fund"@en-AU ;
+    dct:hasPart C2005A00008:25,
+        C2005A00008:26,
+        C2005A00008:27,
+        C2005A00008:28,
+        C2005A00008:29,
+        C2005A00008:30,
+        C2005A00008:31,
+        C2005A00008:32,
+        C2005A00008:33,
+        C2005A00008:34,
+        C2005A00008:35,
+        C2005A00008:36,
+        C2005A00008:37,
+        C2005A00008:38,
+        C2005A00008:39,
+        C2005A00008:40,
+        C2005A00008:41,
+        C2005A00008:42,
+        C2005A00008:43,
+        C2005A00008:44,
+        C2005A00008:45,
+        C2005A00008:46,
+        C2005A00008:47,
+        C2005A00008:48,
+        C2005A00008:49,
+        C2005A00008:50,
+        C2005A00008:51,
+        C2005A00008:52,
+        C2005A00008:53,
+        C2005A00008:54,
+        C2005A00008:55,
+        C2005A00008:56,
+        C2005A00008:57,
+        C2005A00008:58,
+        C2005A00008:59,
+        C2005A00008:60,
+        C2005A00008:61,
+        C2005A00008:62,
+        C2005A00008:63,
+        C2005A00008:64,
+        C2005A00008:65,
+        C2005A00008:66,
+        C2005A00008:67,
+        C2005A00008:68,
+        C2005A00008:69,
+        C2005A00008:70,
+        C2005A00008:71,
+        C2005A00008:72,
+        C2005A00008:73,
+        C2005A00008:74,
+        C2005A00008:75,
+        C2005A00008:76,
+        C2005A00008:77,
+        C2005A00008:78,
+        C2005A00008:79,
+        C2005A00008:80,
+        C2005A00008:81,
+        C2005A00008:82,
+        C2005A00008:83,
+        C2005A00008:84,
+        C2005A00008:85,
+        C2005A00008:86,
+        C2005A00008:87,
+        C2005A00008:88,
+        C2005A00008:89,
+        C2005A00008:90,
+        C2005A00008:91,
+        C2005A00008:92,
+        C2005A00008:93,
+        C2005A00008:94,
+        C2005A00008:95,
+        C2005A00008:96,
+        C2005A00008:97,
+        C2005A00008:98 ;
+    dct:isPartOf C2005A00008:5 ;
+    dct:isReferencedBy C2005A00008: ;
+    rdfs:comment "Part 2 Special Accounts and references to paid to the Consolidated Revenue Fund - Abrievated Graph Key: P24"@en-AU ;
+    skos:broader C2005A00008:25,
+        C2005A00008:26,
+        C2005A00008:27,
+        C2005A00008:28,
+        C2005A00008:29,
+        C2005A00008:30,
+        C2005A00008:31,
+        C2005A00008:32,
+        C2005A00008:33,
+        C2005A00008:34,
+        C2005A00008:35,
+        C2005A00008:36,
+        C2005A00008:37,
+        C2005A00008:38,
+        C2005A00008:39,
+        C2005A00008:40,
+        C2005A00008:41,
+        C2005A00008:42,
+        C2005A00008:43,
+        C2005A00008:44,
+        C2005A00008:45,
+        C2005A00008:46,
+        C2005A00008:47,
+        C2005A00008:48,
+        C2005A00008:49,
+        C2005A00008:50,
+        C2005A00008:51,
+        C2005A00008:52,
+        C2005A00008:53,
+        C2005A00008:54,
+        C2005A00008:55,
+        C2005A00008:56,
+        C2005A00008:57,
+        C2005A00008:58,
+        C2005A00008:59,
+        C2005A00008:60,
+        C2005A00008:61,
+        C2005A00008:62,
+        C2005A00008:63,
+        C2005A00008:64,
+        C2005A00008:65,
+        C2005A00008:66,
+        C2005A00008:67,
+        C2005A00008:68,
+        C2005A00008:69,
+        C2005A00008:70,
+        C2005A00008:71,
+        C2005A00008:72,
+        C2005A00008:73,
+        C2005A00008:74,
+        C2005A00008:75,
+        C2005A00008:76,
+        C2005A00008:77,
+        C2005A00008:78,
+        C2005A00008:79,
+        C2005A00008:80,
+        C2005A00008:81,
+        C2005A00008:82,
+        C2005A00008:83,
+        C2005A00008:84,
+        C2005A00008:85,
+        C2005A00008:86,
+        C2005A00008:87,
+        C2005A00008:88,
+        C2005A00008:89,
+        C2005A00008:90,
+        C2005A00008:91,
+        C2005A00008:92,
+        C2005A00008:93,
+        C2005A00008:94,
+        C2005A00008:95,
+        C2005A00008:96,
+        C2005A00008:97,
+        C2005A00008:98 ;
+    skos:definition "Part 2 Special Accounts and references to paid to the Consolidated Revenue Fund"@en-AU ;
+    skos:narrower C2005A00008:5 ;
+    skos:prefLabel "Part P24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403808> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00008/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc368403808"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2005A00008: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Financial Framework Legislation Amendment Act 2005" ;
+    dct:Jurisdiction " Department of Finance "@en-AU ;
+    dct:created "2026-05-23T14:15:32.836273"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2005-02-22T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Financial Framework Legislation Amendment Act 2005"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2005A00008/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Financial Framework Legislation Amendment Act 2005"@en-AU ;
+    dct:title "Financial Framework Legislation Amendment Act 2005"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Endnotes,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2013C00589 C01" .
+

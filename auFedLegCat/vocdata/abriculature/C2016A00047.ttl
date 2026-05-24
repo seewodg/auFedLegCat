@@ -1,0 +1,1188 @@
+@prefix C2016A00047: <http://example.org/au/leg/dataset/C2016A00047/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2016A00047:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306369> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306369"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306370> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306370"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Meat Inspection Act 1983"@en-AU ;
+    dct:isPartOf C2016A00047:5 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Meat Inspection Act 1983 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Meat Inspection Act 1983"@en-AU ;
+    skos:narrower C2016A00047:5 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306378> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306378"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Meat Inspection Arrangements Act 1964"@en-AU ;
+    dct:isPartOf C2016A00047:5 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Meat Inspection Arrangements Act 1964 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Meat Inspection Arrangements Act 1964"@en-AU ;
+    skos:narrower C2016A00047:5 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306379> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306379"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Primary Industry Councils Act 1991"@en-AU ;
+    dct:isPartOf C2016A00047:5 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Primary Industry Councils Act 1991 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Primary Industry Councils Act 1991"@en-AU ;
+    skos:narrower C2016A00047:5 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306380> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306380"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Natural Resources Management Financial Assistance Act 1992"@en-AU ;
+    dct:isPartOf C2016A00047:13 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Natural Resources Management Financial Assistance Act 1992 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Natural Resources Management Financial Assistance Act 1992"@en-AU ;
+    skos:narrower C2016A00047:13 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306382> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306382"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Export Inspection and Meat Charges Collection Act 1985"@en-AU ;
+    dct:isPartOf C2016A00047:15 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Export Inspection and Meat Charges Collection Act 1985 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Export Inspection and Meat Charges Collection Act 1985"@en-AU ;
+    skos:narrower C2016A00047:15 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306384> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306384"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Export Inspection Establishment Registration Charges Act 1985"@en-AU ;
+    dct:isPartOf C2016A00047:15 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Export Inspection Establishment Registration Charges Act 1985 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Export Inspection Establishment Registration Charges Act 1985"@en-AU ;
+    skos:narrower C2016A00047:15 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306385> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306385"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Export Inspection Quantity Charge Act 1985"@en-AU ;
+    dct:isPartOf C2016A00047:15 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Export Inspection Quantity Charge Act 1985 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Export Inspection Quantity Charge Act 1985"@en-AU ;
+    skos:narrower C2016A00047:15 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306386> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306386"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Export Inspection Service Charge Act 1985"@en-AU ;
+    dct:isPartOf C2016A00047:15 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Export Inspection Service Charge Act 1985 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Export Inspection Service Charge Act 1985"@en-AU ;
+    skos:narrower C2016A00047:15 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306387> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306387"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Natural Heritage Trust of Australia Act 1997"@en-AU ;
+    dct:isPartOf C2016A00047:21 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Natural Heritage Trust of Australia Act 1997 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Natural Heritage Trust of Australia Act 1997"@en-AU ;
+    skos:narrower C2016A00047:21 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306390> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306390"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    dct:isPartOf C2016A00047:23 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Environment Protection and Biodiversity Conservation Act 1999 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    skos:narrower C2016A00047:23 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306392> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306392"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    dct:isPartOf C2016A00047:25 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Environment Protection and Biodiversity Conservation Act 1999 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    skos:narrower C2016A00047:25 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306394> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306394"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    dct:isPartOf C2016A00047:27 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Environment Protection and Biodiversity Conservation Act 1999 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    skos:narrower C2016A00047:27 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306396> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306396"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Health and Other Services Compensation Act 1995"@en-AU ;
+    dct:isPartOf C2016A00047:29 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Health and Other Services Compensation Act 1995 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Health and Other Services Compensation Act 1995"@en-AU ;
+    skos:narrower C2016A00047:29 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306398> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306398"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Infrastructure Australia Act 2008"@en-AU ;
+    dct:isPartOf C2016A00047:31 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Infrastructure Australia Act 2008 - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Infrastructure Australia Act 2008"@en-AU ;
+    skos:narrower C2016A00047:31 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306400> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306400"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Aboriginal Affairs Arrangements with the States Act 1973"@en-AU ;
+    dct:isPartOf C2016A00047:34 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Aboriginal Affairs Arrangements with the States Act 1973 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Aboriginal Affairs Arrangements with the States Act 1973"@en-AU ;
+    skos:narrower C2016A00047:34 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306404> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306404"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 Aboriginal and Torres Strait Islanders Queensland Discriminatory Laws Act 1975"@en-AU ;
+    dct:isPartOf C2016A00047:34 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Aboriginal and Torres Strait Islanders Queensland Discriminatory Laws Act 1975 - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "Aboriginal and Torres Strait Islanders Queensland Discriminatory Laws Act 1975"@en-AU ;
+    skos:narrower C2016A00047:34 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306405> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306405"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 Aboriginal and Torres Strait Islanders Queensland Reserves and Communities Selfmanagement Act 1978"@en-AU ;
+    dct:isPartOf C2016A00047:37 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Aboriginal and Torres Strait Islanders Queensland Reserves and Communities Selfmanagement Act 1978 - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "Aboriginal and Torres Strait Islanders Queensland Reserves and Communities Selfmanagement Act 1978"@en-AU ;
+    skos:narrower C2016A00047:37 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306407> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306407"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    dct:isPartOf C2016A00047:40 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "A New Tax System Family Assistance Administration Act 1999 - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    skos:narrower C2016A00047:40 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306410> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306410"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 Paid Parental Leave Act 2010"@en-AU ;
+    dct:isPartOf C2016A00047:40 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Paid Parental Leave Act 2010 - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "Paid Parental Leave Act 2010"@en-AU ;
+    skos:narrower C2016A00047:40 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306411> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306411"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:43 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I43 Social Security Administration Act 1999"@en-AU ;
+    dct:isPartOf C2016A00047:40 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Social Security Administration Act 1999 - Abrievated Graph Key: I43"@en-AU ;
+    skos:definition "Social Security Administration Act 1999"@en-AU ;
+    skos:narrower C2016A00047:40 ;
+    skos:prefLabel "Item I43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306412> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306412"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 Student Assistance Act 1973"@en-AU ;
+    dct:isPartOf C2016A00047:40 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Student Assistance Act 1973 - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "Student Assistance Act 1973"@en-AU ;
+    skos:narrower C2016A00047:40 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306413> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306413"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:46 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I46 A New Tax System Family Assistance Act 1999"@en-AU ;
+    dct:isPartOf C2016A00047:45 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "A New Tax System Family Assistance Act 1999 - Abrievated Graph Key: I46"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Act 1999"@en-AU ;
+    skos:narrower C2016A00047:45 ;
+    skos:prefLabel "Item I46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306415> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306415"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:47 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I47 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2016A00047:45 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I47"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2016A00047:45 ;
+    skos:prefLabel "Item I47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306416> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306416"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:49 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I49 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2016A00047:48 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I49"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2016A00047:48 ;
+    skos:prefLabel "Item I49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306418> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306418"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:50 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I50 Social Security Administration Act 1999"@en-AU ;
+    dct:isPartOf C2016A00047:48 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Social Security Administration Act 1999 - Abrievated Graph Key: I50"@en-AU ;
+    skos:definition "Social Security Administration Act 1999"@en-AU ;
+    skos:narrower C2016A00047:48 ;
+    skos:prefLabel "Item I50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306419> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306419"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:52 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I52 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2016A00047:51 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I52"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2016A00047:51 ;
+    skos:prefLabel "Item I52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306421> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306421"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:54 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I54 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2016A00047:53 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I54"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2016A00047:53 ;
+    skos:prefLabel "Item I54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306423> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306423"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:57 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I57 Income Tax Withholding Tax Recoupment Act 1971"@en-AU ;
+    dct:isPartOf C2016A00047:56 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Income Tax Withholding Tax Recoupment Act 1971 - Abrievated Graph Key: I57"@en-AU ;
+    skos:definition "Income Tax Withholding Tax Recoupment Act 1971"@en-AU ;
+    skos:narrower C2016A00047:56 ;
+    skos:prefLabel "Item I57"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306426> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306426"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:58 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I58 International Monetary Agreements Act 1959"@en-AU ;
+    dct:isPartOf C2016A00047:56 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "International Monetary Agreements Act 1959 - Abrievated Graph Key: I58"@en-AU ;
+    skos:definition "International Monetary Agreements Act 1959"@en-AU ;
+    skos:narrower C2016A00047:56 ;
+    skos:prefLabel "Item I58"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306427> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306427"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:59 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I59 Occupational Superannuation Standards Regulations Application Act 1992"@en-AU ;
+    dct:isPartOf C2016A00047:56 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Occupational Superannuation Standards Regulations Application Act 1992 - Abrievated Graph Key: I59"@en-AU ;
+    skos:definition "Occupational Superannuation Standards Regulations Application Act 1992"@en-AU ;
+    skos:narrower C2016A00047:56 ;
+    skos:prefLabel "Item I59"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306428> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306428"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Dairy Adjustment Act 1974"@en-AU ;
+    dct:isPartOf C2016A00047:5 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Dairy Adjustment Act 1974 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Dairy Adjustment Act 1974"@en-AU ;
+    skos:narrower C2016A00047:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306374> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306374"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:60 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I60 States Grants Aboriginal Advancement Act 1972"@en-AU ;
+    dct:isPartOf C2016A00047:56 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "States Grants Aboriginal Advancement Act 1972 - Abrievated Graph Key: I60"@en-AU ;
+    skos:definition "States Grants Aboriginal Advancement Act 1972"@en-AU ;
+    skos:narrower C2016A00047:56 ;
+    skos:prefLabel "Item I60"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306429> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306429"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:61 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I61 Taxation Laws Clearing and Settlement Facility Support Act 2004"@en-AU ;
+    dct:isPartOf C2016A00047:56 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Taxation Laws Clearing and Settlement Facility Support Act 2004 - Abrievated Graph Key: I61"@en-AU ;
+    skos:definition "Taxation Laws Clearing and Settlement Facility Support Act 2004"@en-AU ;
+    skos:narrower C2016A00047:56 ;
+    skos:prefLabel "Item I61"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306430> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306430"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:63 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I63 Financial Corporations Transfer of Assets and Liabilities Act 1993"@en-AU ;
+    dct:isPartOf C2016A00047:62 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Financial Corporations Transfer of Assets and Liabilities Act 1993 - Abrievated Graph Key: I63"@en-AU ;
+    skos:definition "Financial Corporations Transfer of Assets and Liabilities Act 1993"@en-AU ;
+    skos:narrower C2016A00047:62 ;
+    skos:prefLabel "Item I63"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306432> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306432"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:64 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I64 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2016A00047:62 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I64"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2016A00047:62 ;
+    skos:prefLabel "Item I64"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306433> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306433"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:65 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I65 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2016A00047:62 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I65"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2016A00047:62 ;
+    skos:prefLabel "Item I65"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306434> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306434"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:67 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D67 Division 1 Application provisions"@en-AU ;
+    dct:isPartOf C2016A00047:66 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Division 1 Application provisions - Abrievated Graph Key: D67"@en-AU ;
+    skos:definition "Division 1 Application provisions"@en-AU ;
+    skos:narrower C2016A00047:66 ;
+    skos:prefLabel "Division D67"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306436> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306436"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2016A00047:68 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D68 Division 2 Savings provisions"@en-AU ;
+    dct:isPartOf C2016A00047:66 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Division 2 Savings provisions - Abrievated Graph Key: D68"@en-AU ;
+    skos:definition "Division 2 Savings provisions"@en-AU ;
+    skos:narrower C2016A00047:66 ;
+    skos:prefLabel "Division D68"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306437> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306437"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2016A00047:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Domestic Meat Premises Charge Act 1993"@en-AU ;
+    dct:isPartOf C2016A00047:5 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Domestic Meat Premises Charge Act 1993 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Domestic Meat Premises Charge Act 1993"@en-AU ;
+    skos:narrower C2016A00047:5 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306375> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306375"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:71 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I71 Veterans Entitlements Act 1986"@en-AU ;
+    dct:isPartOf C2016A00047:70 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Veterans Entitlements Act 1986 - Abrievated Graph Key: I71"@en-AU ;
+    skos:definition "Veterans Entitlements Act 1986"@en-AU ;
+    skos:narrower C2016A00047:70 ;
+    skos:prefLabel "Item I71"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306440> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306440"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:73 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I73 Veterans Entitlements Act 1986"@en-AU ;
+    dct:isPartOf C2016A00047:72 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Veterans Entitlements Act 1986 - Abrievated Graph Key: I73"@en-AU ;
+    skos:definition "Veterans Entitlements Act 1986"@en-AU ;
+    skos:narrower C2016A00047:72 ;
+    skos:prefLabel "Item I73"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306442> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306442"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Meat Export Charge Act 1984"@en-AU ;
+    dct:isPartOf C2016A00047:5 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Meat Export Charge Act 1984 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Meat Export Charge Act 1984"@en-AU ;
+    skos:narrower C2016A00047:5 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306376> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306376"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Meat Export Charge Collection Act 1984"@en-AU ;
+    dct:isPartOf C2016A00047:5 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Meat Export Charge Collection Act 1984 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Meat Export Charge Collection Act 1984"@en-AU ;
+    skos:narrower C2016A00047:5 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306377> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306377"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 2 Abolition of the Australian Landcare Council"@en-AU ;
+    dct:hasPart C2016A00047:14 ;
+    dct:isPartOf C2016A00047:4 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Part 2 Abolition of the Australian Landcare Council - Abrievated Graph Key: P13"@en-AU ;
+    skos:broader C2016A00047:14 ;
+    skos:definition "Part 2 Abolition of the Australian Landcare Council"@en-AU ;
+    skos:narrower C2016A00047:4 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306381> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306381"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00047:21 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P21 Part 1 Abolition of the Natural Heritage Trust Advisory Committee"@en-AU ;
+    dct:hasPart C2016A00047:22 ;
+    dct:isPartOf C2016A00047:20 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Part 1 Abolition of the Natural Heritage Trust Advisory Committee - Abrievated Graph Key: P21"@en-AU ;
+    skos:broader C2016A00047:22 ;
+    skos:definition "Part 1 Abolition of the Natural Heritage Trust Advisory Committee"@en-AU ;
+    skos:narrower C2016A00047:20 ;
+    skos:prefLabel "Part P21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306389> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306389"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00047:23 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P23 Part 2 Abolition of the Biological Diversity Advisory Committee"@en-AU ;
+    dct:hasPart C2016A00047:24 ;
+    dct:isPartOf C2016A00047:20 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Part 2 Abolition of the Biological Diversity Advisory Committee - Abrievated Graph Key: P23"@en-AU ;
+    skos:broader C2016A00047:24 ;
+    skos:definition "Part 2 Abolition of the Biological Diversity Advisory Committee"@en-AU ;
+    skos:narrower C2016A00047:20 ;
+    skos:prefLabel "Part P23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306391> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306391"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00047:25 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P25 Part 3 Plans"@en-AU ;
+    dct:hasPart C2016A00047:26 ;
+    dct:isPartOf C2016A00047:20 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Part 3 Plans - Abrievated Graph Key: P25"@en-AU ;
+    skos:broader C2016A00047:26 ;
+    skos:definition "Part 3 Plans"@en-AU ;
+    skos:narrower C2016A00047:20 ;
+    skos:prefLabel "Part P25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306393> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306393"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00047:27 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P27 Part 4 Directors functions and powers"@en-AU ;
+    dct:hasPart C2016A00047:28 ;
+    dct:isPartOf C2016A00047:20 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Part 4 Directors functions and powers - Abrievated Graph Key: P27"@en-AU ;
+    skos:broader C2016A00047:28 ;
+    skos:definition "Part 4 Directors functions and powers"@en-AU ;
+    skos:narrower C2016A00047:20 ;
+    skos:prefLabel "Part P27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306395> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306395"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00047:29 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S29 Schedule 3 Health"@en-AU ;
+    dct:hasPart C2016A00047:30 ;
+    dct:isPartOf C2016A00047:3 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Schedule 3 Health - Abrievated Graph Key: S29"@en-AU ;
+    skos:broader C2016A00047:30 ;
+    skos:definition "Schedule 3 Health"@en-AU ;
+    skos:narrower C2016A00047:3 ;
+    skos:prefLabel "Schedule S29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306397> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306397"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00047:31 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S31 Schedule 3 AInfrastructure and Regional Development"@en-AU ;
+    dct:hasPart C2016A00047:32 ;
+    dct:isPartOf C2016A00047:3 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Schedule 3 AInfrastructure and Regional Development - Abrievated Graph Key: S31"@en-AU ;
+    skos:broader C2016A00047:32 ;
+    skos:definition "Schedule 3 AInfrastructure and Regional Development"@en-AU ;
+    skos:narrower C2016A00047:3 ;
+    skos:prefLabel "Schedule S31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306399> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306399"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00047:37 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P37 Part 2 Consequential amendments on repeals of Acts"@en-AU ;
+    dct:hasPart C2016A00047:38 ;
+    dct:isPartOf C2016A00047:33 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Part 2 Consequential amendments on repeals of Acts - Abrievated Graph Key: P37"@en-AU ;
+    skos:broader C2016A00047:38 ;
+    skos:definition "Part 2 Consequential amendments on repeals of Acts"@en-AU ;
+    skos:narrower C2016A00047:33 ;
+    skos:prefLabel "Part P37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306406> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306406"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00047:51 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P51 Part 4 Repeals of spent saving and transitional provisions"@en-AU ;
+    dct:hasPart C2016A00047:52 ;
+    dct:isPartOf C2016A00047:39 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Part 4 Repeals of spent saving and transitional provisions - Abrievated Graph Key: P51"@en-AU ;
+    skos:broader C2016A00047:52 ;
+    skos:definition "Part 4 Repeals of spent saving and transitional provisions"@en-AU ;
+    skos:narrower C2016A00047:39 ;
+    skos:prefLabel "Part P51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306420> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306420"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00047:53 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P53 Part 5 Other corrections"@en-AU ;
+    dct:hasPart C2016A00047:54 ;
+    dct:isPartOf C2016A00047:39 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Part 5 Other corrections - Abrievated Graph Key: P53"@en-AU ;
+    skos:broader C2016A00047:54 ;
+    skos:definition "Part 5 Other corrections"@en-AU ;
+    skos:narrower C2016A00047:39 ;
+    skos:prefLabel "Part P53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306422> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306422"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00047:70 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P70 Part 1 Retirement assistance for farmers"@en-AU ;
+    dct:hasPart C2016A00047:71 ;
+    dct:isPartOf C2016A00047:69 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Part 1 Retirement assistance for farmers - Abrievated Graph Key: P70"@en-AU ;
+    skos:broader C2016A00047:71 ;
+    skos:definition "Part 1 Retirement assistance for farmers"@en-AU ;
+    skos:narrower C2016A00047:69 ;
+    skos:prefLabel "Part P70"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306439> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306439"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00047:72 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P72 Part 2 Repeals of spent saving and transitional provisions"@en-AU ;
+    dct:hasPart C2016A00047:73 ;
+    dct:isPartOf C2016A00047:69 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Part 2 Repeals of spent saving and transitional provisions - Abrievated Graph Key: P72"@en-AU ;
+    skos:broader C2016A00047:73 ;
+    skos:definition "Part 2 Repeals of spent saving and transitional provisions"@en-AU ;
+    skos:narrower C2016A00047:69 ;
+    skos:prefLabel "Part P72"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306441> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306441"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00047:33 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S33 Schedule 4 Prime Minister"@en-AU ;
+    dct:hasPart C2016A00047:34,
+        C2016A00047:37 ;
+    dct:isPartOf C2016A00047:3 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Schedule 4 Prime Minister - Abrievated Graph Key: S33"@en-AU ;
+    skos:broader C2016A00047:34,
+        C2016A00047:37 ;
+    skos:definition "Schedule 4 Prime Minister"@en-AU ;
+    skos:narrower C2016A00047:3 ;
+    skos:prefLabel "Schedule S33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306402> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306402"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00047:34 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P34 Part 1 Repeals of Acts"@en-AU ;
+    dct:hasPart C2016A00047:35,
+        C2016A00047:36 ;
+    dct:isPartOf C2016A00047:33 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Part 1 Repeals of Acts - Abrievated Graph Key: P34"@en-AU ;
+    skos:broader C2016A00047:35,
+        C2016A00047:36 ;
+    skos:definition "Part 1 Repeals of Acts"@en-AU ;
+    skos:narrower C2016A00047:33 ;
+    skos:prefLabel "Part P34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306403> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306403"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00047:45 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P45 Part 2 Indexation"@en-AU ;
+    dct:hasPart C2016A00047:46,
+        C2016A00047:47 ;
+    dct:isPartOf C2016A00047:39 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Part 2 Indexation - Abrievated Graph Key: P45"@en-AU ;
+    skos:broader C2016A00047:46,
+        C2016A00047:47 ;
+    skos:definition "Part 2 Indexation"@en-AU ;
+    skos:narrower C2016A00047:39 ;
+    skos:prefLabel "Part P45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306414> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306414"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00047:48 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P48 Part 3 Retirement assistance for farmers"@en-AU ;
+    dct:hasPart C2016A00047:49,
+        C2016A00047:50 ;
+    dct:isPartOf C2016A00047:39 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Part 3 Retirement assistance for farmers - Abrievated Graph Key: P48"@en-AU ;
+    skos:broader C2016A00047:49,
+        C2016A00047:50 ;
+    skos:definition "Part 3 Retirement assistance for farmers"@en-AU ;
+    skos:narrower C2016A00047:39 ;
+    skos:prefLabel "Part P48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306417> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306417"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00047:66 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P66 Part 3 Application and savings provisions"@en-AU ;
+    dct:hasPart C2016A00047:67,
+        C2016A00047:68 ;
+    dct:isPartOf C2016A00047:55 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Part 3 Application and savings provisions - Abrievated Graph Key: P66"@en-AU ;
+    skos:broader C2016A00047:67,
+        C2016A00047:68 ;
+    skos:definition "Part 3 Application and savings provisions"@en-AU ;
+    skos:narrower C2016A00047:55 ;
+    skos:prefLabel "Part P66"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306435> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306435"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00047:69 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S69 Schedule 7 Veterans Affairs"@en-AU ;
+    dct:hasPart C2016A00047:70,
+        C2016A00047:72 ;
+    dct:isPartOf C2016A00047:3 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Schedule 7 Veterans Affairs - Abrievated Graph Key: S69"@en-AU ;
+    skos:broader C2016A00047:70,
+        C2016A00047:72 ;
+    skos:definition "Schedule 7 Veterans Affairs"@en-AU ;
+    skos:narrower C2016A00047:3 ;
+    skos:prefLabel "Schedule S69"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306438> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306438"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00047:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Agriculture"@en-AU ;
+    dct:hasPart C2016A00047:13,
+        C2016A00047:15,
+        C2016A00047:5 ;
+    dct:isPartOf C2016A00047:3 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Schedule 1 Agriculture - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2016A00047:13,
+        C2016A00047:15,
+        C2016A00047:5 ;
+    skos:definition "Schedule 1 Agriculture"@en-AU ;
+    skos:narrower C2016A00047:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306372> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306372"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00047:55 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S55 Schedule 6 Treasury"@en-AU ;
+    dct:hasPart C2016A00047:56,
+        C2016A00047:62,
+        C2016A00047:66 ;
+    dct:isPartOf C2016A00047:3 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Schedule 6 Treasury - Abrievated Graph Key: S55"@en-AU ;
+    skos:broader C2016A00047:56,
+        C2016A00047:62,
+        C2016A00047:66 ;
+    skos:definition "Schedule 6 Treasury"@en-AU ;
+    skos:narrower C2016A00047:3 ;
+    skos:prefLabel "Schedule S55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306424> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306424"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00047:62 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P62 Part 2 Other amendments"@en-AU ;
+    dct:hasPart C2016A00047:63,
+        C2016A00047:64,
+        C2016A00047:65 ;
+    dct:isPartOf C2016A00047:55 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Part 2 Other amendments - Abrievated Graph Key: P62"@en-AU ;
+    skos:broader C2016A00047:63,
+        C2016A00047:64,
+        C2016A00047:65 ;
+    skos:definition "Part 2 Other amendments"@en-AU ;
+    skos:narrower C2016A00047:55 ;
+    skos:prefLabel "Part P62"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306431> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306431"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00047:15 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P15 Part 3 Other amendments"@en-AU ;
+    dct:hasPart C2016A00047:16,
+        C2016A00047:17,
+        C2016A00047:18,
+        C2016A00047:19 ;
+    dct:isPartOf C2016A00047:4 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Part 3 Other amendments - Abrievated Graph Key: P15"@en-AU ;
+    skos:broader C2016A00047:16,
+        C2016A00047:17,
+        C2016A00047:18,
+        C2016A00047:19 ;
+    skos:definition "Part 3 Other amendments"@en-AU ;
+    skos:narrower C2016A00047:4 ;
+    skos:prefLabel "Part P15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306383> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306383"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00047:20 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S20 Schedule 2 Environment"@en-AU ;
+    dct:hasPart C2016A00047:21,
+        C2016A00047:23,
+        C2016A00047:25,
+        C2016A00047:27 ;
+    dct:isPartOf C2016A00047:3 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Schedule 2 Environment - Abrievated Graph Key: S20"@en-AU ;
+    skos:broader C2016A00047:21,
+        C2016A00047:23,
+        C2016A00047:25,
+        C2016A00047:27 ;
+    skos:definition "Schedule 2 Environment"@en-AU ;
+    skos:narrower C2016A00047:3 ;
+    skos:prefLabel "Schedule S20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306388> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306388"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00047:40 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P40 Part 1 Use of protected information"@en-AU ;
+    dct:hasPart C2016A00047:41,
+        C2016A00047:42,
+        C2016A00047:43,
+        C2016A00047:44 ;
+    dct:isPartOf C2016A00047:39 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Part 1 Use of protected information - Abrievated Graph Key: P40"@en-AU ;
+    skos:broader C2016A00047:41,
+        C2016A00047:42,
+        C2016A00047:43,
+        C2016A00047:44 ;
+    skos:definition "Part 1 Use of protected information"@en-AU ;
+    skos:narrower C2016A00047:39 ;
+    skos:prefLabel "Part P40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306409> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306409"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00047:39 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S39 Schedule 5 Social Services"@en-AU ;
+    dct:hasPart C2016A00047:40,
+        C2016A00047:45,
+        C2016A00047:48,
+        C2016A00047:51,
+        C2016A00047:53 ;
+    dct:isPartOf C2016A00047:3 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Schedule 5 Social Services - Abrievated Graph Key: S39"@en-AU ;
+    skos:broader C2016A00047:40,
+        C2016A00047:45,
+        C2016A00047:48,
+        C2016A00047:51,
+        C2016A00047:53 ;
+    skos:definition "Schedule 5 Social Services"@en-AU ;
+    skos:narrower C2016A00047:3 ;
+    skos:prefLabel "Schedule S39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306408> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306408"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00047:56 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P56 Part 1 Repeals of Acts"@en-AU ;
+    dct:hasPart C2016A00047:57,
+        C2016A00047:58,
+        C2016A00047:59,
+        C2016A00047:60,
+        C2016A00047:61 ;
+    dct:isPartOf C2016A00047:55 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Part 1 Repeals of Acts - Abrievated Graph Key: P56"@en-AU ;
+    skos:broader C2016A00047:57,
+        C2016A00047:58,
+        C2016A00047:59,
+        C2016A00047:60,
+        C2016A00047:61 ;
+    skos:definition "Part 1 Repeals of Acts"@en-AU ;
+    skos:narrower C2016A00047:55 ;
+    skos:prefLabel "Part P56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306425> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306425"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00047:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2016A00047:20,
+        C2016A00047:29,
+        C2016A00047:31,
+        C2016A00047:33,
+        C2016A00047:39,
+        C2016A00047:4,
+        C2016A00047:55,
+        C2016A00047:69 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2016A00047:20,
+        C2016A00047:29,
+        C2016A00047:31,
+        C2016A00047:33,
+        C2016A00047:39,
+        C2016A00047:4,
+        C2016A00047:55,
+        C2016A00047:69 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306371> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306371"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00047:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Repeals of Acts"@en-AU ;
+    dct:hasPart C2016A00047:10,
+        C2016A00047:11,
+        C2016A00047:12,
+        C2016A00047:6,
+        C2016A00047:7,
+        C2016A00047:8,
+        C2016A00047:9 ;
+    dct:isPartOf C2016A00047:4 ;
+    dct:isReferencedBy C2016A00047: ;
+    rdfs:comment "Part 1 Repeals of Acts - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2016A00047:10,
+        C2016A00047:11,
+        C2016A00047:12,
+        C2016A00047:6,
+        C2016A00047:7,
+        C2016A00047:8,
+        C2016A00047:9 ;
+    skos:definition "Part 1 Repeals of Acts"@en-AU ;
+    skos:narrower C2016A00047:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306373> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00047/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450306373"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00047: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Omnibus Repeal Day (Autumn 2015) Act 2016" ;
+    dct:Jurisdiction " Department of the Prime Minister and Cabinet "@en-AU ;
+    dct:created "2026-05-23T14:02:19.387534"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2016-05-05T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Omnibus Repeal Day (Autumn 2015) Act 2016"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2016A00047/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Omnibus Repeal Day (Autumn 2015) Act 2016"@en-AU ;
+    dct:title "Omnibus Repeal Day (Autumn 2015) Act 2016"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2016A00047" .
+

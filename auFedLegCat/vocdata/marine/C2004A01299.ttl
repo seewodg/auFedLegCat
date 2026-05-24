@@ -1,0 +1,227 @@
+@prefix C2004A01299: <http://example.org/au/leg/dataset/C2004A01299/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A01299:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A01299: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151160> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151160"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01299:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A01299: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151161> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151161"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01299:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 1 Amendments relating to the amendments made by Part 1 of Schedule 1 to this Act"@en-AU ;
+    dct:isPartOf C2004A01299:10 ;
+    dct:isReferencedBy C2004A01299: ;
+    rdfs:comment "Part 1 Amendments relating to the amendments made by Part 1 of Schedule 1 to this Act - Abrievated Graph Key: P11"@en-AU ;
+    skos:definition "Part 1 Amendments relating to the amendments made by Part 1 of Schedule 1 to this Act"@en-AU ;
+    skos:narrower C2004A01299:10 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151172> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151172"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01299:12 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P12 Part 2 Amendments relating to the amendments made by Part 5 of Schedule 1 to this Act"@en-AU ;
+    dct:isPartOf C2004A01299:10 ;
+    dct:isReferencedBy C2004A01299: ;
+    rdfs:comment "Part 2 Amendments relating to the amendments made by Part 5 of Schedule 1 to this Act - Abrievated Graph Key: P12"@en-AU ;
+    skos:definition "Part 2 Amendments relating to the amendments made by Part 5 of Schedule 1 to this Act"@en-AU ;
+    skos:narrower C2004A01299:10 ;
+    skos:prefLabel "Part P12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151173> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151173"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01299:13 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S13 Schedule 3 Amendment of the Customs Tariff Amendment Act No 1 2003"@en-AU ;
+    dct:isPartOf C2004A01299:3 ;
+    dct:isReferencedBy C2004A01299: ;
+    rdfs:comment "Schedule 3 Amendment of the Customs Tariff Amendment Act No 1 2003 - Abrievated Graph Key: S13"@en-AU ;
+    skos:definition "Schedule 3 Amendment of the Customs Tariff Amendment Act No 1 2003"@en-AU ;
+    skos:narrower C2004A01299:3 ;
+    skos:prefLabel "Schedule S13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151174> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151174"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01299:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Amendments providing different customs duty rates for diesel and other fuels by reference to their sulphur content"@en-AU ;
+    dct:isPartOf C2004A01299:4 ;
+    dct:isReferencedBy C2004A01299: ;
+    rdfs:comment "Part 1 Amendments providing different customs duty rates for diesel and other fuels by reference to their sulphur content - Abrievated Graph Key: P5"@en-AU ;
+    skos:definition "Part 1 Amendments providing different customs duty rates for diesel and other fuels by reference to their sulphur content"@en-AU ;
+    skos:narrower C2004A01299:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151164> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151164"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01299:6 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P6 Part 2 Further amendments relating to the different customs duty rates that apply to diesel and other fuels by reference to their sulphur content"@en-AU ;
+    dct:isPartOf C2004A01299:4 ;
+    dct:isReferencedBy C2004A01299: ;
+    rdfs:comment "Part 2 Further amendments relating to the different customs duty rates that apply to diesel and other fuels by reference to their sulphur content - Abrievated Graph Key: P6"@en-AU ;
+    skos:definition "Part 2 Further amendments relating to the different customs duty rates that apply to diesel and other fuels by reference to their sulphur content"@en-AU ;
+    skos:narrower C2004A01299:4 ;
+    skos:prefLabel "Part P6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151165> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151165"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01299:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 3 Amendments increasing the customs duty rate on aviation fuels"@en-AU ;
+    dct:isPartOf C2004A01299:4 ;
+    dct:isReferencedBy C2004A01299: ;
+    rdfs:comment "Part 3 Amendments increasing the customs duty rate on aviation fuels - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 3 Amendments increasing the customs duty rate on aviation fuels"@en-AU ;
+    skos:narrower C2004A01299:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151166> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151166"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01299:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 4 Further amendments relating to the increased customs duty rate on aviation fuels"@en-AU ;
+    dct:isPartOf C2004A01299:4 ;
+    dct:isReferencedBy C2004A01299: ;
+    rdfs:comment "Part 4 Further amendments relating to the increased customs duty rate on aviation fuels - Abrievated Graph Key: P8"@en-AU ;
+    skos:definition "Part 4 Further amendments relating to the increased customs duty rate on aviation fuels"@en-AU ;
+    skos:narrower C2004A01299:4 ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151167> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151167"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01299:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 5 Amendments providing for a customs duty rate on biodiesel"@en-AU ;
+    dct:isPartOf C2004A01299:4 ;
+    dct:isReferencedBy C2004A01299: ;
+    rdfs:comment "Part 5 Amendments providing for a customs duty rate on biodiesel - Abrievated Graph Key: P9"@en-AU ;
+    skos:definition "Part 5 Amendments providing for a customs duty rate on biodiesel"@en-AU ;
+    skos:narrower C2004A01299:4 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151168> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151168"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01299:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 2 Further amendments of the Customs Tariff Act 1995 to commence only if the Customs Tariff Amendment Act No 1 2004 commences"@en-AU ;
+    dct:hasPart C2004A01299:11,
+        C2004A01299:12 ;
+    dct:isPartOf C2004A01299:3 ;
+    dct:isReferencedBy C2004A01299: ;
+    rdfs:comment "Schedule 2 Further amendments of the Customs Tariff Act 1995 to commence only if the Customs Tariff Amendment Act No 1 2004 commences - Abrievated Graph Key: S10"@en-AU ;
+    skos:broader C2004A01299:11,
+        C2004A01299:12 ;
+    skos:definition "Schedule 2 Further amendments of the Customs Tariff Act 1995 to commence only if the Customs Tariff Amendment Act No 1 2004 commences"@en-AU ;
+    skos:narrower C2004A01299:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151171> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151171"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01299:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A01299:10,
+        C2004A01299:13,
+        C2004A01299:4 ;
+    dct:isReferencedBy C2004A01299: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A01299:10,
+        C2004A01299:13,
+        C2004A01299:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151162> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151162"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01299:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendment of the Customs Tariff Act 1995"@en-AU ;
+    dct:hasPart C2004A01299:5,
+        C2004A01299:6,
+        C2004A01299:7,
+        C2004A01299:8,
+        C2004A01299:9 ;
+    dct:isPartOf C2004A01299:3 ;
+    dct:isReferencedBy C2004A01299: ;
+    rdfs:comment "Schedule 1 Amendment of the Customs Tariff Act 1995 - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A01299:5,
+        C2004A01299:6,
+        C2004A01299:7,
+        C2004A01299:8,
+        C2004A01299:9 ;
+    skos:definition "Schedule 1 Amendment of the Customs Tariff Act 1995"@en-AU ;
+    skos:narrower C2004A01299:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151163> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01299/asmade/2003-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc75151163"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01299: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Customs Tariff Amendment (Fuels) Act 2004" ;
+    dct:Jurisdiction " Department of Home Affairs "@en-AU ;
+    dct:created "2026-05-23T03:09:41.924765"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2003-06-30T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Customs Tariff Amendment (Fuels) Act 2004"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A01299/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Customs Tariff Amendment (Fuels) Act 2004"@en-AU ;
+    dct:title "Customs Tariff Amendment (Fuels) Act 2004"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2004A01299" .
+

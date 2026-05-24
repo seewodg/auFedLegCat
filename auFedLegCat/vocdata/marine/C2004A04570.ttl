@@ -1,0 +1,93 @@
+@prefix C2004A04570: <http://example.org/au/leg/dataset/C2004A04570/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A04570:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title see Note 1"@en-AU ;
+    dct:isReferencedBy C2004A04570: ;
+    rdfs:comment "1  Short title see Note 1 - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title see Note 1"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A04570/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc215998686> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A04570/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc215998686"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A04570:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement see Note 1"@en-AU ;
+    dct:isReferencedBy C2004A04570: ;
+    rdfs:comment "2  Commencement see Note 1 - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement see Note 1"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A04570/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc215998687> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A04570/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc215998687"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A04570:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Application of the Great Barrier Reef Marine Park Act 1975"@en-AU ;
+    dct:isReferencedBy C2004A04570: ;
+    rdfs:comment "3  Application of the Great Barrier Reef Marine Park Act 1975 - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "3  Application of the Great Barrier Reef Marine Park Act 1975"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A04570/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc215998688> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A04570/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc215998688"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A04570:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 4  Imposition of charge"@en-AU ;
+    dct:hasPart C2004A04570:5 ;
+    dct:isReferencedBy C2004A04570: ;
+    rdfs:comment "4  Imposition of charge - Abrievated Graph Key: I4"@en-AU ;
+    skos:broader C2004A04570:5 ;
+    skos:definition "4  Imposition of charge"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A04570/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc215998689> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A04570/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc215998689"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A04570:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Notes to the   STYLEREF ShortT  MERGEFORMAT  Great Barrier Reef Marine Park Environmental Management ChargeGeneral Act 1993"@en-AU ;
+    dct:isPartOf C2004A04570:4 ;
+    dct:isReferencedBy C2004A04570: ;
+    rdfs:comment "Notes to the   STYLEREF ShortT  MERGEFORMAT  Great Barrier Reef Marine Park Environmental Management ChargeGeneral Act 1993 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Notes to the   STYLEREF ShortT  MERGEFORMAT  Great Barrier Reef Marine Park Environmental Management ChargeGeneral Act 1993"@en-AU ;
+    skos:narrower C2004A04570:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A04570/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc215998690> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A04570/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc215998690"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A04570: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Great Barrier Reef Marine Park (Environmental Management Charge—General) Act 1993" ;
+    dct:Jurisdiction " Department of Climate Change, Energy, the Environment and Water "@en-AU ;
+    dct:created "2026-05-23T02:56:56.873683"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2008-11-26T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Great Barrier Reef Marine Park (Environmental Management Charge—General) Act 1993"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A04570/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Great Barrier Reef Marine Park (Environmental Management Charge—General) Act 1993"@en-AU ;
+    dct:title "Great Barrier Reef Marine Park (Environmental Management Charge—General) Act 1993"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item ;
+    schema:status "In force" ;
+    schema:version "C2008C00625" .
+

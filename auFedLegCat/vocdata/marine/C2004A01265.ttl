@@ -1,0 +1,195 @@
+@prefix C2004A01265: <http://example.org/au/leg/dataset/C2004A01265/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A01265:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A01265: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806093> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806093"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01265:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A01265: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806094> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806094"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01265:10 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P10 Part 3 Charter fishing"@en-AU ;
+    dct:isPartOf C2004A01265:7 ;
+    dct:isReferencedBy C2004A01265: ;
+    rdfs:comment "Part 3 Charter fishing - Abrievated Graph Key: P10"@en-AU ;
+    skos:definition "Part 3 Charter fishing"@en-AU ;
+    skos:narrower C2004A01265:7 ;
+    skos:prefLabel "Part P10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806112> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806112"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01265:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 4 Amendment of the Treaty"@en-AU ;
+    dct:isPartOf C2004A01265:7 ;
+    dct:isReferencedBy C2004A01265: ;
+    rdfs:comment "Part 4 Amendment of the Treaty - Abrievated Graph Key: P11"@en-AU ;
+    skos:definition "Part 4 Amendment of the Treaty"@en-AU ;
+    skos:narrower C2004A01265:7 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806113> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806113"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01265:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Fisheries Administration Act 1991"@en-AU ;
+    dct:isPartOf C2004A01265:4 ;
+    dct:isReferencedBy C2004A01265: ;
+    rdfs:comment "Fisheries Administration Act 1991 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Fisheries Administration Act 1991"@en-AU ;
+    skos:narrower C2004A01265:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806097> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806097"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01265:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Fisheries Management Act 1991"@en-AU ;
+    dct:isPartOf C2004A01265:4 ;
+    dct:isReferencedBy C2004A01265: ;
+    rdfs:comment "Fisheries Management Act 1991 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Fisheries Management Act 1991"@en-AU ;
+    skos:narrower C2004A01265:4 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806098> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806098"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01265:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 1 Logbooks for fisheries"@en-AU ;
+    dct:isPartOf C2004A01265:7 ;
+    dct:isReferencedBy C2004A01265: ;
+    rdfs:comment "Part 1 Logbooks for fisheries - Abrievated Graph Key: P8"@en-AU ;
+    skos:definition "Part 1 Logbooks for fisheries"@en-AU ;
+    skos:narrower C2004A01265:7 ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806110> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806110"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01265:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 2 Power to stop and detain vehicles and aircraft"@en-AU ;
+    dct:isPartOf C2004A01265:7 ;
+    dct:isReferencedBy C2004A01265: ;
+    rdfs:comment "Part 2 Power to stop and detain vehicles and aircraft - Abrievated Graph Key: P9"@en-AU ;
+    skos:definition "Part 2 Power to stop and detain vehicles and aircraft"@en-AU ;
+    skos:narrower C2004A01265:7 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806111> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806111"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01265:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A01265:4,
+        C2004A01265:7 ;
+    dct:isReferencedBy C2004A01265: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A01265:4,
+        C2004A01265:7 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806095> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806095"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01265:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Implementation of the Compliance Agreement in Australia"@en-AU ;
+    dct:hasPart C2004A01265:5,
+        C2004A01265:6 ;
+    dct:isPartOf C2004A01265:3 ;
+    dct:isReferencedBy C2004A01265: ;
+    rdfs:comment "Schedule 1 Implementation of the Compliance Agreement in Australia - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A01265:5,
+        C2004A01265:6 ;
+    skos:definition "Schedule 1 Implementation of the Compliance Agreement in Australia"@en-AU ;
+    skos:narrower C2004A01265:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806096> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806096"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01265:7 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S7 Schedule 2 Miscellaneous amendments of the Fisheries Management Act 1991"@en-AU ;
+    dct:hasPart C2004A01265:10,
+        C2004A01265:11,
+        C2004A01265:8,
+        C2004A01265:9 ;
+    dct:isPartOf C2004A01265:3 ;
+    dct:isReferencedBy C2004A01265: ;
+    rdfs:comment "Schedule 2 Miscellaneous amendments of the Fisheries Management Act 1991 - Abrievated Graph Key: S7"@en-AU ;
+    skos:broader C2004A01265:10,
+        C2004A01265:11,
+        C2004A01265:8,
+        C2004A01265:9 ;
+    skos:definition "Schedule 2 Miscellaneous amendments of the Fisheries Management Act 1991"@en-AU ;
+    skos:narrower C2004A01265:3 ;
+    skos:prefLabel "Schedule S7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806109> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01265/2004-08-20/2004-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806109"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01265: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Fisheries Legislation Amendment (High Seas Fishing Activities and Other Matters) Act 2004" ;
+    dct:Jurisdiction " Department of Agriculture, Fisheries and Forestry "@en-AU ;
+    dct:created "2026-05-23T03:04:48.873852"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2004-08-20T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Fisheries Legislation Amendment (High Seas Fishing Activities and Other Matters) Act 2004"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A01265/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Fisheries Legislation Amendment (High Seas Fishing Activities and Other Matters) Act 2004"@en-AU ;
+    dct:title "Fisheries Legislation Amendment (High Seas Fishing Activities and Other Matters) Act 2004"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2005C00501 C01" .
+

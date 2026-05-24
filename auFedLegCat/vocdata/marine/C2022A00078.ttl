@@ -1,0 +1,210 @@
+@prefix C2022A00078: <http://example.org/au/leg/dataset/C2022A00078/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2022A00078:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2022A00078: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305812> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305812"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00078:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2022A00078: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305813> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305813"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00078:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 4 Marine orders"@en-AU ;
+    dct:isPartOf C2022A00078:3 ;
+    dct:isReferencedBy C2022A00078: ;
+    rdfs:comment "Schedule 4 Marine orders - Abrievated Graph Key: S10"@en-AU ;
+    skos:definition "Schedule 4 Marine orders"@en-AU ;
+    skos:narrower C2022A00078:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305822> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305822"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2022A00078:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Protection of the Sea Harmful Anti fouling Systems Act 2006"@en-AU ;
+    dct:isPartOf C2022A00078:3 ;
+    dct:isReferencedBy C2022A00078: ;
+    rdfs:comment "Protection of the Sea Harmful Anti fouling Systems Act 2006 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Protection of the Sea Harmful Anti fouling Systems Act 2006"@en-AU ;
+    skos:narrower C2022A00078:3 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305823> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305823"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00078:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Protection of the Sea Prevention of Pollution from Ships Act 1983"@en-AU ;
+    dct:isPartOf C2022A00078:3 ;
+    dct:isReferencedBy C2022A00078: ;
+    rdfs:comment "Protection of the Sea Prevention of Pollution from Ships Act 1983 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Protection of the Sea Prevention of Pollution from Ships Act 1983"@en-AU ;
+    skos:narrower C2022A00078:3 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305824> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305824"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00078:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Discharge of persistent floaters"@en-AU ;
+    dct:isPartOf C2022A00078:3 ;
+    dct:isReferencedBy C2022A00078: ;
+    rdfs:comment "Schedule 1 Discharge of persistent floaters - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Discharge of persistent floaters"@en-AU ;
+    skos:narrower C2022A00078:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305815> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305815"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2022A00078:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Protection of the Sea Prevention of Pollution from Ships Act 1983"@en-AU ;
+    dct:isPartOf C2022A00078:3 ;
+    dct:isReferencedBy C2022A00078: ;
+    rdfs:comment "Protection of the Sea Prevention of Pollution from Ships Act 1983 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Protection of the Sea Prevention of Pollution from Ships Act 1983"@en-AU ;
+    skos:narrower C2022A00078:3 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305816> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305816"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00078:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Carriage of heavy grade oil in Arctic waters"@en-AU ;
+    dct:isPartOf C2022A00078:3 ;
+    dct:isReferencedBy C2022A00078: ;
+    rdfs:comment "Schedule 2 Carriage of heavy grade oil in Arctic waters - Abrievated Graph Key: S6"@en-AU ;
+    skos:definition "Schedule 2 Carriage of heavy grade oil in Arctic waters"@en-AU ;
+    skos:narrower C2022A00078:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305817> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305817"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2022A00078:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Protection of the Sea Prevention of Pollution from Ships Act 1983"@en-AU ;
+    dct:isPartOf C2022A00078:3 ;
+    dct:isReferencedBy C2022A00078: ;
+    rdfs:comment "Protection of the Sea Prevention of Pollution from Ships Act 1983 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Protection of the Sea Prevention of Pollution from Ships Act 1983"@en-AU ;
+    skos:narrower C2022A00078:3 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305818> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305818"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00078:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 3 Extension of controls on anti fouling systems"@en-AU ;
+    dct:isPartOf C2022A00078:3 ;
+    dct:isReferencedBy C2022A00078: ;
+    rdfs:comment "Schedule 3 Extension of controls on anti fouling systems - Abrievated Graph Key: S8"@en-AU ;
+    skos:definition "Schedule 3 Extension of controls on anti fouling systems"@en-AU ;
+    skos:narrower C2022A00078:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305820> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305820"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2022A00078:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Protection of the Sea Harmful Anti fouling Systems Act 2006"@en-AU ;
+    dct:isPartOf C2022A00078:3 ;
+    dct:isReferencedBy C2022A00078: ;
+    rdfs:comment "Protection of the Sea Harmful Anti fouling Systems Act 2006 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Protection of the Sea Harmful Anti fouling Systems Act 2006"@en-AU ;
+    skos:narrower C2022A00078:3 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305821> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305821"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00078: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Maritime Legislation Amendment Act 2022" ;
+    dct:Jurisdiction " Department of Infrastructure, Transport, Regional Development, Communications, Sport and the Arts "@en-AU ;
+    dct:created "2026-05-23T03:00:18.094350"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2022-12-05T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Maritime Legislation Amendment Act 2022"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2022A00078/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Maritime Legislation Amendment Act 2022"@en-AU ;
+    dct:title "Maritime Legislation Amendment Act 2022"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2022A00078" .
+
+C2022A00078:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2022A00078:10,
+        C2022A00078:11,
+        C2022A00078:12,
+        C2022A00078:4,
+        C2022A00078:5,
+        C2022A00078:6,
+        C2022A00078:7,
+        C2022A00078:8,
+        C2022A00078:9 ;
+    dct:isReferencedBy C2022A00078: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2022A00078:10,
+        C2022A00078:11,
+        C2022A00078:12,
+        C2022A00078:4,
+        C2022A00078:5,
+        C2022A00078:6,
+        C2022A00078:7,
+        C2022A00078:8,
+        C2022A00078:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305814> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00078/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121305814"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+

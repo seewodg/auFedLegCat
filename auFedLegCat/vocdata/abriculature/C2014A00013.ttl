@@ -1,0 +1,673 @@
+@prefix C2014A00013: <http://example.org/au/leg/dataset/C2014A00013/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2014A00013:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207502> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207502"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207503> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207503"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    dct:isPartOf C2014A00013:7 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "A New Tax System Family Assistance Administration Act 1999 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    skos:narrower C2014A00013:7 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207511> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207511"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Dairy Produce Act 1986"@en-AU ;
+    dct:isPartOf C2014A00013:7 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Dairy Produce Act 1986 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Dairy Produce Act 1986"@en-AU ;
+    skos:narrower C2014A00013:7 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207512> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207512"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2014A00013:7 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2014A00013:7 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207513> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207513"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2014A00013:7 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2014A00013:7 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207514> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207514"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Small Superannuation Accounts Act 1995"@en-AU ;
+    dct:isPartOf C2014A00013:7 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Small Superannuation Accounts Act 1995 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Small Superannuation Accounts Act 1995"@en-AU ;
+    skos:narrower C2014A00013:7 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207515> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207515"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2014A00013:7 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2014A00013:7 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207516> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207516"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Social Security Administration Act 1999"@en-AU ;
+    dct:isPartOf C2014A00013:7 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Social Security Administration Act 1999 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Social Security Administration Act 1999"@en-AU ;
+    skos:narrower C2014A00013:7 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207518> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207518"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Veterans Entitlements Act 1986"@en-AU ;
+    dct:isPartOf C2014A00013:7 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Veterans Entitlements Act 1986 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Veterans Entitlements Act 1986"@en-AU ;
+    skos:narrower C2014A00013:7 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207522> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207522"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Minerals Resource Rent Tax Repeal and Other Measures Act 2014"@en-AU ;
+    dct:isPartOf C2014A00013:19 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Minerals Resource Rent Tax Repeal and Other Measures Act 2014 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Minerals Resource Rent Tax Repeal and Other Measures Act 2014"@en-AU ;
+    skos:narrower C2014A00013:19 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207525> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207525"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2014A00013:19 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2014A00013:19 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207526> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207526"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2014A00013:22 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2014A00013:22 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207528> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207528"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Farm Household Support Act 2014"@en-AU ;
+    dct:isPartOf C2014A00013:24 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Farm Household Support Act 2014 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Farm Household Support Act 2014"@en-AU ;
+    skos:narrower C2014A00013:24 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207530> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207530"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2014A00013:26 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2014A00013:26 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207532> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207532"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2014A00013:26 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2014A00013:26 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207533> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207533"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2014A00013:29 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2014A00013:29 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207535> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207535"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2014A00013:29 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2014A00013:29 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207536> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207536"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:32 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S32 Schedule 3 Transitional provisions"@en-AU ;
+    dct:isPartOf C2014A00013:3 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Schedule 3 Transitional provisions - Abrievated Graph Key: S32"@en-AU ;
+    skos:definition "Schedule 3 Transitional provisions"@en-AU ;
+    skos:narrower C2014A00013:3 ;
+    skos:prefLabel "Schedule S32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207537> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207537"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2014A00013:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Endnote 1 About the endnotes"@en-AU ;
+    dct:isPartOf C2014A00013:33 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Endnote 1 About the endnotes - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Endnote 1 About the endnotes"@en-AU ;
+    skos:narrower C2014A00013:33 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207539> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207539"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Endnote 2 Abbreviation key"@en-AU ;
+    dct:isPartOf C2014A00013:33 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Endnote 2 Abbreviation key - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Endnote 2 Abbreviation key"@en-AU ;
+    skos:narrower C2014A00013:33 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207540> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207540"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 Endnote 3 Legislation history"@en-AU ;
+    dct:isPartOf C2014A00013:33 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Endnote 3 Legislation history - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "Endnote 3 Legislation history"@en-AU ;
+    skos:narrower C2014A00013:33 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207541> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207541"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Endnote 4 Amendment history"@en-AU ;
+    dct:isPartOf C2014A00013:33 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Endnote 4 Amendment history - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Endnote 4 Amendment history"@en-AU ;
+    skos:narrower C2014A00013:33 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207542> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207542"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 Endnote 5 Uncommenced amendments none"@en-AU ;
+    dct:isPartOf C2014A00013:33 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Endnote 5 Uncommenced amendments none - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "Endnote 5 Uncommenced amendments none"@en-AU ;
+    skos:narrower C2014A00013:33 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207543> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207543"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 Endnote 6 Modifications none"@en-AU ;
+    dct:isPartOf C2014A00013:33 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Endnote 6 Modifications none - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "Endnote 6 Modifications none"@en-AU ;
+    skos:narrower C2014A00013:33 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207544> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207544"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 Endnote 7 Misdescribed amendments none"@en-AU ;
+    dct:isPartOf C2014A00013:33 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Endnote 7 Misdescribed amendments none - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "Endnote 7 Misdescribed amendments none"@en-AU ;
+    skos:narrower C2014A00013:33 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207545> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207545"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 Endnote 8 Miscellaneous none"@en-AU ;
+    dct:isPartOf C2014A00013:33 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Endnote 8 Miscellaneous none - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "Endnote 8 Miscellaneous none"@en-AU ;
+    skos:narrower C2014A00013:33 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207546> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207546"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Farm Household Support Act 1992"@en-AU ;
+    dct:isPartOf C2014A00013:4 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Farm Household Support Act 1992 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Farm Household Support Act 1992"@en-AU ;
+    skos:narrower C2014A00013:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207506> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207506"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Aged Care Act 1997"@en-AU ;
+    dct:isPartOf C2014A00013:7 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Aged Care Act 1997 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Aged Care Act 1997"@en-AU ;
+    skos:narrower C2014A00013:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207509> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207509"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Age Discrimination Act 2004"@en-AU ;
+    dct:isPartOf C2014A00013:7 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Age Discrimination Act 2004 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Age Discrimination Act 2004"@en-AU ;
+    skos:narrower C2014A00013:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207510> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207510"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:22 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D22 Division 2 Amendments if this Act commences after the Minerals Resource Rent Tax Repeal and Other Measures Act 2014"@en-AU ;
+    dct:hasPart C2014A00013:23 ;
+    dct:isPartOf C2014A00013:18 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Division 2 Amendments if this Act commences after the Minerals Resource Rent Tax Repeal and Other Measures Act 2014 - Abrievated Graph Key: D22"@en-AU ;
+    skos:broader C2014A00013:23 ;
+    skos:definition "Division 2 Amendments if this Act commences after the Minerals Resource Rent Tax Repeal and Other Measures Act 2014"@en-AU ;
+    skos:narrower C2014A00013:18 ;
+    skos:prefLabel "Division D22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207527> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207527"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00013:24 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D24 Division 3 Amendments contingent on the Social Security Legislation Amendment Increased Employment Participation Act 2014"@en-AU ;
+    dct:hasPart C2014A00013:25 ;
+    dct:isPartOf C2014A00013:18 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Division 3 Amendments contingent on the Social Security Legislation Amendment Increased Employment Participation Act 2014 - Abrievated Graph Key: D24"@en-AU ;
+    skos:broader C2014A00013:25 ;
+    skos:definition "Division 3 Amendments contingent on the Social Security Legislation Amendment Increased Employment Participation Act 2014"@en-AU ;
+    skos:narrower C2014A00013:18 ;
+    skos:prefLabel "Division D24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207529> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207529"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00013:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Repeal of the Farm Household Support Act 1992"@en-AU ;
+    dct:hasPart C2014A00013:5 ;
+    dct:isPartOf C2014A00013:3 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Schedule 1 Repeal of the Farm Household Support Act 1992 - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2014A00013:5 ;
+    skos:definition "Schedule 1 Repeal of the Farm Household Support Act 1992"@en-AU ;
+    skos:narrower C2014A00013:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207505> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207505"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2014A00013:19 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D19 Division 1 Amendments if this Act commences before the Minerals Resource Rent Tax Repeal and Other Measures Act 2014"@en-AU ;
+    dct:hasPart C2014A00013:20,
+        C2014A00013:21 ;
+    dct:isPartOf C2014A00013:18 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Division 1 Amendments if this Act commences before the Minerals Resource Rent Tax Repeal and Other Measures Act 2014 - Abrievated Graph Key: D19"@en-AU ;
+    skos:broader C2014A00013:20,
+        C2014A00013:21 ;
+    skos:definition "Division 1 Amendments if this Act commences before the Minerals Resource Rent Tax Repeal and Other Measures Act 2014"@en-AU ;
+    skos:narrower C2014A00013:18 ;
+    skos:prefLabel "Division D19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207524> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207524"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00013:26 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D26 Division 4 Amendments relating to interim farm household allowance"@en-AU ;
+    dct:hasPart C2014A00013:27,
+        C2014A00013:28 ;
+    dct:isPartOf C2014A00013:18 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Division 4 Amendments relating to interim farm household allowance - Abrievated Graph Key: D26"@en-AU ;
+    skos:broader C2014A00013:27,
+        C2014A00013:28 ;
+    skos:definition "Division 4 Amendments relating to interim farm household allowance"@en-AU ;
+    skos:narrower C2014A00013:18 ;
+    skos:prefLabel "Division D26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207531> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207531"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00013:29 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D29 Division 5 Amendments relating to repeal of references to interim farm household allowance and transitional farm family payment"@en-AU ;
+    dct:hasPart C2014A00013:30,
+        C2014A00013:31 ;
+    dct:isPartOf C2014A00013:18 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Division 5 Amendments relating to repeal of references to interim farm household allowance and transitional farm family payment - Abrievated Graph Key: D29"@en-AU ;
+    skos:broader C2014A00013:30,
+        C2014A00013:31 ;
+    skos:definition "Division 5 Amendments relating to repeal of references to interim farm household allowance and transitional farm family payment"@en-AU ;
+    skos:narrower C2014A00013:18 ;
+    skos:prefLabel "Division D29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207534> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207534"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00013:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2014A00013:32,
+        C2014A00013:4,
+        C2014A00013:6 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2014A00013:32,
+        C2014A00013:4,
+        C2014A00013:6 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207504> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207504"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00013:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Consequential amendments"@en-AU ;
+    dct:hasPart C2014A00013:18,
+        C2014A00013:7 ;
+    dct:isPartOf C2014A00013:3 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Schedule 2 Consequential amendments - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2014A00013:18,
+        C2014A00013:7 ;
+    skos:definition "Schedule 2 Consequential amendments"@en-AU ;
+    skos:narrower C2014A00013:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207507> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207507"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2014A00013:18 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P18 Part 2 Contingent amendments"@en-AU ;
+    dct:hasPart C2014A00013:19,
+        C2014A00013:22,
+        C2014A00013:24,
+        C2014A00013:26,
+        C2014A00013:29 ;
+    dct:isPartOf C2014A00013:6 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Part 2 Contingent amendments - Abrievated Graph Key: P18"@en-AU ;
+    skos:broader C2014A00013:19,
+        C2014A00013:22,
+        C2014A00013:24,
+        C2014A00013:26,
+        C2014A00013:29 ;
+    skos:definition "Part 2 Contingent amendments"@en-AU ;
+    skos:narrower C2014A00013:6 ;
+    skos:prefLabel "Part P18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207523> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207523"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2014A00013:33 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E33 Endnotes"@en-AU ;
+    dct:hasPart C2014A00013:34,
+        C2014A00013:35,
+        C2014A00013:36,
+        C2014A00013:37,
+        C2014A00013:38,
+        C2014A00013:39,
+        C2014A00013:40,
+        C2014A00013:41 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E33"@en-AU ;
+    skos:broader C2014A00013:34,
+        C2014A00013:35,
+        C2014A00013:36,
+        C2014A00013:37,
+        C2014A00013:38,
+        C2014A00013:39,
+        C2014A00013:40,
+        C2014A00013:41 ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:prefLabel "Endnotes E33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207538> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207538"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+
+C2014A00013:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 1 Consequential amendments"@en-AU ;
+    dct:hasPart C2014A00013:10,
+        C2014A00013:11,
+        C2014A00013:12,
+        C2014A00013:13,
+        C2014A00013:14,
+        C2014A00013:15,
+        C2014A00013:16,
+        C2014A00013:17,
+        C2014A00013:8,
+        C2014A00013:9 ;
+    dct:isPartOf C2014A00013:6 ;
+    dct:isReferencedBy C2014A00013: ;
+    rdfs:comment "Part 1 Consequential amendments - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader C2014A00013:10,
+        C2014A00013:11,
+        C2014A00013:12,
+        C2014A00013:13,
+        C2014A00013:14,
+        C2014A00013:15,
+        C2014A00013:16,
+        C2014A00013:17,
+        C2014A00013:8,
+        C2014A00013:9 ;
+    skos:definition "Part 1 Consequential amendments"@en-AU ;
+    skos:narrower C2014A00013:6 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207508> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00013/2014-09-05/2014-09-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc398207508"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2014A00013: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Farm Household Support (Consequential and Transitional Provisions) Act 2014" ;
+    dct:Jurisdiction " Department of Agriculture, Fisheries and Forestry "@en-AU ;
+    dct:created "2026-05-23T14:01:08.380917"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2014-09-05T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Farm Household Support (Consequential and Transitional Provisions) Act 2014"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2014A00013/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Farm Household Support (Consequential and Transitional Provisions) Act 2014"@en-AU ;
+    dct:title "Farm Household Support (Consequential and Transitional Provisions) Act 2014"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Endnotes,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2014C00646 C01" .
+

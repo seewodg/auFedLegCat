@@ -1,0 +1,772 @@
+@prefix C2024A00054: <http://example.org/au/leg/dataset/C2024A00054/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2024A00054:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327620> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327620"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327621> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327621"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Federal Financial Relations Act 2009"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Federal Financial Relations Act 2009 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Federal Financial Relations Act 2009"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327629> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327629"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Fuel Indexation Road Funding Special Account Act 2015"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Fuel Indexation Road Funding Special Account Act 2015 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Fuel Indexation Road Funding Special Account Act 2015"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327630> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327630"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Future Drought Fund Act 2019"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Future Drought Fund Act 2019 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Future Drought Fund Act 2019"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327631> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327631"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Housing Australia Future Fund Act 2023"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Housing Australia Future Fund Act 2023 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Housing Australia Future Fund Act 2023"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327632> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327632"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Medical Research Future Fund Act 2015"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Medical Research Future Fund Act 2015 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Medical Research Future Fund Act 2015"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327633> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327633"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Offshore Petroleum and Greenhouse Gas Storage Act 2006"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Offshore Petroleum and Greenhouse Gas Storage Act 2006 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Offshore Petroleum and Greenhouse Gas Storage Act 2006"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327634> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327634"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Proceeds of Crime Act 2002"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Proceeds of Crime Act 2002 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Proceeds of Crime Act 2002"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327635> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327635"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:17 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P17 Part 3 Other bulk amendments"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Part 3 Other bulk amendments - Abrievated Graph Key: P17"@en-AU ;
+    skos:definition "Part 3 Other bulk amendments"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Part P17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327636> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327636"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00054:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 DisabilityCare Australia Fund Act 2013"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "DisabilityCare Australia Fund Act 2013 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "DisabilityCare Australia Fund Act 2013"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327637> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327637"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Disaster Ready Fund Act 2019"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Disaster Ready Fund Act 2019 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Disaster Ready Fund Act 2019"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327638> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327638"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Federal Financial Relations Act 2009"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Federal Financial Relations Act 2009 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Federal Financial Relations Act 2009"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327639> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327639"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Fuel Indexation Road Funding Special Account Act 2015"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Fuel Indexation Road Funding Special Account Act 2015 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Fuel Indexation Road Funding Special Account Act 2015"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327640> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327640"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Future Drought Fund Act 2019"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Future Drought Fund Act 2019 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Future Drought Fund Act 2019"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327641> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327641"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Housing Australia Future Fund Act 2023"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Housing Australia Future Fund Act 2023 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Housing Australia Future Fund Act 2023"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327642> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327642"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Medical Research Future Fund Act 2015"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Medical Research Future Fund Act 2015 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Medical Research Future Fund Act 2015"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327643> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327643"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Offshore Petroleum and Greenhouse Gas Storage Act 2006"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Offshore Petroleum and Greenhouse Gas Storage Act 2006 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Offshore Petroleum and Greenhouse Gas Storage Act 2006"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327644> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327644"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Proceeds of Crime Act 2002"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Proceeds of Crime Act 2002 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Proceeds of Crime Act 2002"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327645> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327645"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:27 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S27 Schedule 2 Amendments of references to COAG and Ministerial Council etc"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Schedule 2 Amendments of references to COAG and Ministerial Council etc - Abrievated Graph Key: S27"@en-AU ;
+    skos:definition "Schedule 2 Amendments of references to COAG and Ministerial Council etc"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Schedule S27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327646> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327646"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2024A00054:28 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P28 Part 1 Main amendments"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P28"@en-AU ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Part P28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327647> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327647"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00054:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Australian Curriculum Assessment and Reporting Authority Act 2008"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Australian Curriculum Assessment and Reporting Authority Act 2008 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Australian Curriculum Assessment and Reporting Authority Act 2008"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327648> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327648"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Australian Education Act 2013"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Australian Education Act 2013 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Australian Education Act 2013"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327649> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327649"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Australian National Preventive Health Agency Act 2010"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Australian National Preventive Health Agency Act 2010 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Australian National Preventive Health Agency Act 2010"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327650> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327650"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Biological Control Act 1984"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Biological Control Act 1984 - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Biological Control Act 1984"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327651> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327651"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Defence Road Transport Legislation Exemption Act 2006"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Defence Road Transport Legislation Exemption Act 2006 - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Defence Road Transport Legislation Exemption Act 2006"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327652> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327652"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Fisheries Management Act 1991"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Fisheries Management Act 1991 - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Fisheries Management Act 1991"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327653> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327653"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Healthcare Identifiers Act 2010"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Healthcare Identifiers Act 2010 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Healthcare Identifiers Act 2010"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327654> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327654"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 My Health Records Act 2012"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "My Health Records Act 2012 - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "My Health Records Act 2012"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327655> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327655"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 National Disability Insurance Scheme Act 2013"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "National Disability Insurance Scheme Act 2013 - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "National Disability Insurance Scheme Act 2013"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327656> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327656"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 National Health Reform Act 2011"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "National Health Reform Act 2011 - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "National Health Reform Act 2011"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327657> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327657"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 National Transport Commission Act 2003"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "National Transport Commission Act 2003 - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "National Transport Commission Act 2003"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327659> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327659"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments of references to COAG Reform Fund etc"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Schedule 1 Amendments of references to COAG Reform Fund etc - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Amendments of references to COAG Reform Fund etc"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327623> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327623"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2024A00054:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 National Vocational Education and Training Regulator Act 2011"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "National Vocational Education and Training Regulator Act 2011 - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "National Vocational Education and Training Regulator Act 2011"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327660> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327660"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 Offshore Petroleum and Greenhouse Gas Storage Act 2006"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Offshore Petroleum and Greenhouse Gas Storage Act 2006 - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "Offshore Petroleum and Greenhouse Gas Storage Act 2006"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327661> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327661"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:42 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P42 Part 2 Contingent amendments"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Part 2 Contingent amendments - Abrievated Graph Key: P42"@en-AU ;
+    skos:definition "Part 2 Contingent amendments"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Part P42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327662> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327662"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00054:43 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D43 Division 1 Amendments contingent on the Infrastructure Australia Amendment Independent Review Act 2023"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Division 1 Amendments contingent on the Infrastructure Australia Amendment Independent Review Act 2023 - Abrievated Graph Key: D43"@en-AU ;
+    skos:definition "Division 1 Amendments contingent on the Infrastructure Australia Amendment Independent Review Act 2023"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Division D43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327663> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327663"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2024A00054:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 Infrastructure Australia Act 2008"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Infrastructure Australia Act 2008 - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "Infrastructure Australia Act 2008"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327664> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327664"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:45 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D45 Division 2 Amendments contingent to the Water Amendment Restoring Our Rivers Act 2023"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Division 2 Amendments contingent to the Water Amendment Restoring Our Rivers Act 2023 - Abrievated Graph Key: D45"@en-AU ;
+    skos:definition "Division 2 Amendments contingent to the Water Amendment Restoring Our Rivers Act 2023"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Division D45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327665> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327665"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2024A00054:46 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I46 Water Act 2007"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Water Act 2007 - Abrievated Graph Key: I46"@en-AU ;
+    skos:definition "Water Act 2007"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327666> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327666"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:47 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P47 Part 3 Application transitional and saving provisions"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Part 3 Application transitional and saving provisions - Abrievated Graph Key: P47"@en-AU ;
+    skos:definition "Part 3 Application transitional and saving provisions"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Part P47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327667> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327667"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00054:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Amendment of the COAG Reform Fund Act 2008"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Part 1 Amendment of the COAG Reform Fund Act 2008 - Abrievated Graph Key: P5"@en-AU ;
+    skos:definition "Part 1 Amendment of the COAG Reform Fund Act 2008"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327624> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327624"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00054:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 COAG Reform Fund Act 2008"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "COAG Reform Fund Act 2008 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "COAG Reform Fund Act 2008"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327625> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327625"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Amendments of other Acts"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Part 2 Amendments of other Acts - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 2 Amendments of other Acts"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327626> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327626"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00054:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 DisabilityCare Australia Fund Act 2013"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "DisabilityCare Australia Fund Act 2013 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "DisabilityCare Australia Fund Act 2013"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327627> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327627"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Disaster Ready Fund Act 2019"@en-AU ;
+    dct:isPartOf C2024A00054:3 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "Disaster Ready Fund Act 2019 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Disaster Ready Fund Act 2019"@en-AU ;
+    skos:narrower C2024A00054:3 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327628> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327628"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00054: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "COAG Legislation Amendment Act 2024" ;
+    dct:Jurisdiction " Department of the Prime Minister and Cabinet "@en-AU ;
+    dct:created "2026-05-23T14:08:59.892516"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2024-07-05T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "COAG Legislation Amendment Act 2024"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2024A00054/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "COAG Legislation Amendment Act 2024"@en-AU ;
+    dct:title "COAG Legislation Amendment Act 2024"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2024A00054" .
+
+C2024A00054:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2024A00054:10,
+        C2024A00054:11,
+        C2024A00054:12,
+        C2024A00054:13,
+        C2024A00054:14,
+        C2024A00054:15,
+        C2024A00054:16,
+        C2024A00054:17,
+        C2024A00054:18,
+        C2024A00054:19,
+        C2024A00054:20,
+        C2024A00054:21,
+        C2024A00054:22,
+        C2024A00054:23,
+        C2024A00054:24,
+        C2024A00054:25,
+        C2024A00054:26,
+        C2024A00054:27,
+        C2024A00054:28,
+        C2024A00054:29,
+        C2024A00054:30,
+        C2024A00054:31,
+        C2024A00054:32,
+        C2024A00054:33,
+        C2024A00054:34,
+        C2024A00054:35,
+        C2024A00054:36,
+        C2024A00054:37,
+        C2024A00054:38,
+        C2024A00054:39,
+        C2024A00054:4,
+        C2024A00054:40,
+        C2024A00054:41,
+        C2024A00054:42,
+        C2024A00054:43,
+        C2024A00054:44,
+        C2024A00054:45,
+        C2024A00054:46,
+        C2024A00054:47,
+        C2024A00054:5,
+        C2024A00054:6,
+        C2024A00054:7,
+        C2024A00054:8,
+        C2024A00054:9 ;
+    dct:isReferencedBy C2024A00054: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2024A00054:10,
+        C2024A00054:11,
+        C2024A00054:12,
+        C2024A00054:13,
+        C2024A00054:14,
+        C2024A00054:15,
+        C2024A00054:16,
+        C2024A00054:17,
+        C2024A00054:18,
+        C2024A00054:19,
+        C2024A00054:20,
+        C2024A00054:21,
+        C2024A00054:22,
+        C2024A00054:23,
+        C2024A00054:24,
+        C2024A00054:25,
+        C2024A00054:26,
+        C2024A00054:27,
+        C2024A00054:28,
+        C2024A00054:29,
+        C2024A00054:30,
+        C2024A00054:31,
+        C2024A00054:32,
+        C2024A00054:33,
+        C2024A00054:34,
+        C2024A00054:35,
+        C2024A00054:36,
+        C2024A00054:37,
+        C2024A00054:38,
+        C2024A00054:39,
+        C2024A00054:4,
+        C2024A00054:40,
+        C2024A00054:41,
+        C2024A00054:42,
+        C2024A00054:43,
+        C2024A00054:44,
+        C2024A00054:45,
+        C2024A00054:46,
+        C2024A00054:47,
+        C2024A00054:5,
+        C2024A00054:6,
+        C2024A00054:7,
+        C2024A00054:8,
+        C2024A00054:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327622> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00054/asmade/2024-07-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc171327622"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+

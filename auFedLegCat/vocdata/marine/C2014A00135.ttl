@@ -1,0 +1,1297 @@
+@prefix C2014A00135: <http://example.org/au/leg/dataset/C2014A00135/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2014A00135:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820052> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820052"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820053> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820053"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820074> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820074"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 3 Application"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Part 3 Application - Abrievated Graph Key: P11"@en-AU ;
+    skos:definition "Part 3 Application"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820075> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820075"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2014A00135:12 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S12 Schedule 2 Protection visas and other measures"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Schedule 2 Protection visas and other measures - Abrievated Graph Key: S12"@en-AU ;
+    skos:definition "Schedule 2 Protection visas and other measures"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Schedule S12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820076> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820076"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2014A00135:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 1 Protection visas"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Part 1 Protection visas - Abrievated Graph Key: P13"@en-AU ;
+    skos:definition "Part 1 Protection visas"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820077> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820077"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2014A00135:14 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D14 Division 1 Protection visas generally"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Division 1 Protection visas generally - Abrievated Graph Key: D14"@en-AU ;
+    skos:definition "Division 1 Protection visas generally"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Division D14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820078> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820078"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00135:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820079> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820079"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:16 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D16 Division 2 Safe haven enterprise visas"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Division 2 Safe haven enterprise visas - Abrievated Graph Key: D16"@en-AU ;
+    skos:definition "Division 2 Safe haven enterprise visas"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Division D16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820082> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820082"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00135:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820083> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820083"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Migration Regulations 1994"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Regulations 1994 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Migration Regulations 1994"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820084> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820084"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:19 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D19 Division 2 ASafe haven enterprise visas pathways to other visas"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Division 2 ASafe haven enterprise visas pathways to other visas - Abrievated Graph Key: D19"@en-AU ;
+    skos:definition "Division 2 ASafe haven enterprise visas pathways to other visas"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Division D19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820100> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820100"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00135:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820101> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820101"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Migration Regulations 1994"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Regulations 1994 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Migration Regulations 1994"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820102> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820102"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:22 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D22 Division 3 Application"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Division 3 Application - Abrievated Graph Key: D22"@en-AU ;
+    skos:definition "Division 3 Application"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Division D22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820104> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820104"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00135:23 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P23 Part 2 Visa applications taken to be applications for a different visa"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Part 2 Visa applications taken to be applications for a different visa - Abrievated Graph Key: P23"@en-AU ;
+    skos:definition "Part 2 Visa applications taken to be applications for a different visa"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Part P23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820105> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820105"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2014A00135:24 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D24 Division 1 Amendments"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Division 1 Amendments - Abrievated Graph Key: D24"@en-AU ;
+    skos:definition "Division 1 Amendments"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Division D24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820106> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820106"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00135:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820107> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820107"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:26 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D26 Division 2 Application"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Division 2 Application - Abrievated Graph Key: D26"@en-AU ;
+    skos:definition "Division 2 Application"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Division D26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820109> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820109"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00135:27 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P27 Part 3 Deemed visa applications"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Part 3 Deemed visa applications - Abrievated Graph Key: P27"@en-AU ;
+    skos:definition "Part 3 Deemed visa applications"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Part P27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820110> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820110"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2014A00135:28 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D28 Division 1 Amendments"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Division 1 Amendments - Abrievated Graph Key: D28"@en-AU ;
+    skos:definition "Division 1 Amendments"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Division D28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820111> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820111"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00135:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820112> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820112"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:30 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D30 Division 2 Application"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Division 2 Application - Abrievated Graph Key: D30"@en-AU ;
+    skos:definition "Division 2 Application"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Division D30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820113> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820113"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00135:31 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P31 Part 4 Permanent protection visas and temporary protection visas"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Part 4 Permanent protection visas and temporary protection visas - Abrievated Graph Key: P31"@en-AU ;
+    skos:definition "Part 4 Permanent protection visas and temporary protection visas"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Part P31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820114> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820114"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2014A00135:32 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D32 Division 1 Main amendments"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Division 1 Main amendments - Abrievated Graph Key: D32"@en-AU ;
+    skos:definition "Division 1 Main amendments"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Division D32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820115> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820115"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00135:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Migration Regulations 1994"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Regulations 1994 - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Migration Regulations 1994"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820116> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820116"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:34 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D34 Division 2 Main amendments commencing immediately after Division 1"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Division 2 Main amendments commencing immediately after Division 1 - Abrievated Graph Key: D34"@en-AU ;
+    skos:definition "Division 2 Main amendments commencing immediately after Division 1"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Division D34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820135> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820135"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00135:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Migration Regulations 1994"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Regulations 1994 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Migration Regulations 1994"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820136> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820136"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:36 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D36 Division 3 Consequential amendments"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Division 3 Consequential amendments - Abrievated Graph Key: D36"@en-AU ;
+    skos:definition "Division 3 Consequential amendments"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Division D36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820138> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820138"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00135:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Migration Regulations 1994"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Regulations 1994 - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Migration Regulations 1994"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820139> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820139"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:38 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D38 Division 4 Amendments relating to application"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Division 4 Amendments relating to application - Abrievated Graph Key: D38"@en-AU ;
+    skos:definition "Division 4 Amendments relating to application"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Division D38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820140> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820140"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00135:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 Migration Regulations 1994"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Regulations 1994 - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "Migration Regulations 1994"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820141> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820141"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments relating to maritime powers"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Schedule 1 Amendments relating to maritime powers - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Amendments relating to maritime powers"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820055> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820055"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2014A00135:40 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S40 Schedule 2 AProtection Class XA visas and Refugee and Humanitarian Class XB visas"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Schedule 2 AProtection Class XA visas and Refugee and Humanitarian Class XB visas - Abrievated Graph Key: S40"@en-AU ;
+    skos:definition "Schedule 2 AProtection Class XA visas and Refugee and Humanitarian Class XB visas"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Schedule S40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820144> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820144"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2014A00135:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820145> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820145"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:42 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S42 Schedule 3 Act based visas"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Schedule 3 Act based visas - Abrievated Graph Key: S42"@en-AU ;
+    skos:definition "Schedule 3 Act based visas"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Schedule S42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820147> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820147"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2014A00135:43 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P43 Part 1 Amendment of the Migration Act 1958"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Part 1 Amendment of the Migration Act 1958 - Abrievated Graph Key: P43"@en-AU ;
+    skos:definition "Part 1 Amendment of the Migration Act 1958"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Part P43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820148> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820148"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2014A00135:44 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D44 Division 1 Amendments"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Division 1 Amendments - Abrievated Graph Key: D44"@en-AU ;
+    skos:definition "Division 1 Amendments"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Division D44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820149> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820149"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00135:45 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I45 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I45"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820150> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820150"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:46 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D46 Division 2 Application"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Division 2 Application - Abrievated Graph Key: D46"@en-AU ;
+    skos:definition "Division 2 Application"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Division D46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820152> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820152"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00135:47 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P47 Part 2 Amendment of the Migration Regulations 1994"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Part 2 Amendment of the Migration Regulations 1994 - Abrievated Graph Key: P47"@en-AU ;
+    skos:definition "Part 2 Amendment of the Migration Regulations 1994"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Part P47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820153> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820153"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2014A00135:48 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I48 Migration Regulations 1994"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Regulations 1994 - Abrievated Graph Key: I48"@en-AU ;
+    skos:definition "Migration Regulations 1994"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820154> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820154"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:49 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S49 Schedule 4 Amendments relating to fast track assessment process"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Schedule 4 Amendments relating to fast track assessment process - Abrievated Graph Key: S49"@en-AU ;
+    skos:definition "Schedule 4 Amendments relating to fast track assessment process"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Schedule S49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820156> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820156"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2014A00135:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Main amendments"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P5"@en-AU ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820056> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820056"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2014A00135:50 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P50 Part 1 Fast track assessment process"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Part 1 Fast track assessment process - Abrievated Graph Key: P50"@en-AU ;
+    skos:definition "Part 1 Fast track assessment process"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Part P50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820157> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820157"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2014A00135:51 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I51 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I51"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820158> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820158"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:52 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P52 Part 2 Application"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Part 2 Application - Abrievated Graph Key: P52"@en-AU ;
+    skos:definition "Part 2 Application"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Part P52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820207> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820207"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2014A00135:53 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S53 Schedule 5 Clarifying Australias international law obligations"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Schedule 5 Clarifying Australias international law obligations - Abrievated Graph Key: S53"@en-AU ;
+    skos:definition "Schedule 5 Clarifying Australias international law obligations"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Schedule S53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820208> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820208"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2014A00135:54 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P54 Part 1 Removal of unlawful non citizens"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Part 1 Removal of unlawful non citizens - Abrievated Graph Key: P54"@en-AU ;
+    skos:definition "Part 1 Removal of unlawful non citizens"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Part P54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820209> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820209"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2014A00135:55 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D55 Division 1 Amendments commencing on the day after Royal Assent"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Division 1 Amendments commencing on the day after Royal Assent - Abrievated Graph Key: D55"@en-AU ;
+    skos:definition "Division 1 Amendments commencing on the day after Royal Assent"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Division D55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820210> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820210"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00135:56 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I56 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I56"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820211> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820211"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:57 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D57 Division 2 Amendments if this Act commences after the Migration Amendment Protection and Other Measures Act 2015"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Division 2 Amendments if this Act commences after the Migration Amendment Protection and Other Measures Act 2015 - Abrievated Graph Key: D57"@en-AU ;
+    skos:definition "Division 2 Amendments if this Act commences after the Migration Amendment Protection and Other Measures Act 2015"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Division D57"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820213> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820213"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00135:58 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P58 Part 2 Amendments commencing on Proclamation"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Part 2 Amendments commencing on Proclamation - Abrievated Graph Key: P58"@en-AU ;
+    skos:definition "Part 2 Amendments commencing on Proclamation"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Part P58"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820214> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820214"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2014A00135:59 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I59 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I59"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I59"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820215> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820215"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Maritime Powers Act 2013"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Maritime Powers Act 2013 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Maritime Powers Act 2013"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820057> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820057"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:60 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P60 Part 3 Contingent amendments"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Part 3 Contingent amendments - Abrievated Graph Key: P60"@en-AU ;
+    skos:definition "Part 3 Contingent amendments"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Part P60"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820222> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820222"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2014A00135:61 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D61 Division 1 Amendments if this Act commences before the Migration Amendment Protection and Other Measures Act 2015"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Division 1 Amendments if this Act commences before the Migration Amendment Protection and Other Measures Act 2015 - Abrievated Graph Key: D61"@en-AU ;
+    skos:definition "Division 1 Amendments if this Act commences before the Migration Amendment Protection and Other Measures Act 2015"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Division D61"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820223> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820223"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00135:62 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I62 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I62"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I62"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820224> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820224"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:63 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D63 Division 2 Amendments if this Act commences before the Migration Amendment Regaining Control Over Australias Protection Obligations Act 2014"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Division 2 Amendments if this Act commences before the Migration Amendment Regaining Control Over Australias Protection Obligations Act 2014 - Abrievated Graph Key: D63"@en-AU ;
+    skos:definition "Division 2 Amendments if this Act commences before the Migration Amendment Regaining Control Over Australias Protection Obligations Act 2014"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Division D63"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820225> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820225"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00135:64 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I64 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I64"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I64"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820226> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820226"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:65 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D65 Division 3 Amendments if this Act commences after the Migration Amendment Regaining Control Over Australias Protection Obligations Act 2014"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Division 3 Amendments if this Act commences after the Migration Amendment Regaining Control Over Australias Protection Obligations Act 2014 - Abrievated Graph Key: D65"@en-AU ;
+    skos:definition "Division 3 Amendments if this Act commences after the Migration Amendment Regaining Control Over Australias Protection Obligations Act 2014"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Division D65"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820227> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820227"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2014A00135:66 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I66 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I66"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I66"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820228> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820228"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:67 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P67 Part 4 Application and transitional provisions"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Part 4 Application and transitional provisions - Abrievated Graph Key: P67"@en-AU ;
+    skos:definition "Part 4 Application and transitional provisions"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Part P67"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820229> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820229"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2014A00135:68 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S68 Schedule 6 Unauthorised maritime arrivals and transitory persons newborn children"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Schedule 6 Unauthorised maritime arrivals and transitory persons newborn children - Abrievated Graph Key: S68"@en-AU ;
+    skos:definition "Schedule 6 Unauthorised maritime arrivals and transitory persons newborn children"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Schedule S68"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820230> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820230"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2014A00135:69 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P69 Part 1 Amendments"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P69"@en-AU ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Part P69"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820231> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820231"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2014A00135:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Other amendments"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Part 2 Other amendments - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 2 Other amendments"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820071> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820071"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2014A00135:70 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I70 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I70"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I70"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820232> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820232"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:71 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P71 Part 2 Application of amendments"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Part 2 Application of amendments - Abrievated Graph Key: P71"@en-AU ;
+    skos:definition "Part 2 Application of amendments"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Part P71"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820233> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820233"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2014A00135:72 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S72 Schedule 7 Caseload management"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Schedule 7 Caseload management - Abrievated Graph Key: S72"@en-AU ;
+    skos:definition "Schedule 7 Caseload management"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Schedule S72"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820234> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820234"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2014A00135:73 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P73 Part 1 Amendments"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P73"@en-AU ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Part P73"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820235> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820235"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2014A00135:74 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I74 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I74"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I74"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820236> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820236"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:75 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P75 Part 2 Application and savings"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Part 2 Application and savings - Abrievated Graph Key: P75"@en-AU ;
+    skos:definition "Part 2 Application and savings"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Part P75"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820237> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820237"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2014A00135:77 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I77 Endnote 1 About the endnotes"@en-AU ;
+    dct:isPartOf C2014A00135:76 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Endnote 1 About the endnotes - Abrievated Graph Key: I77"@en-AU ;
+    skos:definition "Endnote 1 About the endnotes"@en-AU ;
+    skos:narrower C2014A00135:76 ;
+    skos:prefLabel "Item I77"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820239> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820239"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:78 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I78 Endnote 2 Abbreviation key"@en-AU ;
+    dct:isPartOf C2014A00135:76 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Endnote 2 Abbreviation key - Abrievated Graph Key: I78"@en-AU ;
+    skos:definition "Endnote 2 Abbreviation key"@en-AU ;
+    skos:narrower C2014A00135:76 ;
+    skos:prefLabel "Item I78"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820240> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820240"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:79 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I79 Endnote 3 Legislation history"@en-AU ;
+    dct:isPartOf C2014A00135:76 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Endnote 3 Legislation history - Abrievated Graph Key: I79"@en-AU ;
+    skos:definition "Endnote 3 Legislation history"@en-AU ;
+    skos:narrower C2014A00135:76 ;
+    skos:prefLabel "Item I79"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820241> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820241"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Administrative Decisions Judicial Review Act 1977"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Administrative Decisions Judicial Review Act 1977 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Administrative Decisions Judicial Review Act 1977"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820072> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820072"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:80 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I80 Endnote 4 Amendment history"@en-AU ;
+    dct:isPartOf C2014A00135:76 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Endnote 4 Amendment history - Abrievated Graph Key: I80"@en-AU ;
+    skos:definition "Endnote 4 Amendment history"@en-AU ;
+    skos:narrower C2014A00135:76 ;
+    skos:prefLabel "Item I80"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820242> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820242"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Immigration Guardianship of Children Act 1946"@en-AU ;
+    dct:isPartOf C2014A00135:3 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Immigration Guardianship of Children Act 1946 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Immigration Guardianship of Children Act 1946"@en-AU ;
+    skos:narrower C2014A00135:3 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820073> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820073"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2014A00135:76 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E76 Endnotes"@en-AU ;
+    dct:hasPart C2014A00135:77,
+        C2014A00135:78,
+        C2014A00135:79,
+        C2014A00135:80 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E76"@en-AU ;
+    skos:broader C2014A00135:77,
+        C2014A00135:78,
+        C2014A00135:79,
+        C2014A00135:80 ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:prefLabel "Endnotes E76"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820238> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820238"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+
+C2014A00135: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Migration and Maritime Powers Legislation Amendment (Resolving the Asylum Legacy Caseload) Act 2014" ;
+    dct:Jurisdiction " Department of Home Affairs "@en-AU ;
+    dct:created "2026-05-23T03:24:38.077153"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2023-10-18T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Migration and Maritime Powers Legislation Amendment (Resolving the Asylum Legacy Caseload) Act 2014"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2014A00135/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Migration and Maritime Powers Legislation Amendment (Resolving the Asylum Legacy Caseload) Act 2014"@en-AU ;
+    dct:title "Migration and Maritime Powers Legislation Amendment (Resolving the Asylum Legacy Caseload) Act 2014"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Endnotes,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2023C00394 C02" .
+
+C2014A00135:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2014A00135:10,
+        C2014A00135:11,
+        C2014A00135:12,
+        C2014A00135:13,
+        C2014A00135:14,
+        C2014A00135:15,
+        C2014A00135:16,
+        C2014A00135:17,
+        C2014A00135:18,
+        C2014A00135:19,
+        C2014A00135:20,
+        C2014A00135:21,
+        C2014A00135:22,
+        C2014A00135:23,
+        C2014A00135:24,
+        C2014A00135:25,
+        C2014A00135:26,
+        C2014A00135:27,
+        C2014A00135:28,
+        C2014A00135:29,
+        C2014A00135:30,
+        C2014A00135:31,
+        C2014A00135:32,
+        C2014A00135:33,
+        C2014A00135:34,
+        C2014A00135:35,
+        C2014A00135:36,
+        C2014A00135:37,
+        C2014A00135:38,
+        C2014A00135:39,
+        C2014A00135:4,
+        C2014A00135:40,
+        C2014A00135:41,
+        C2014A00135:42,
+        C2014A00135:43,
+        C2014A00135:44,
+        C2014A00135:45,
+        C2014A00135:46,
+        C2014A00135:47,
+        C2014A00135:48,
+        C2014A00135:49,
+        C2014A00135:5,
+        C2014A00135:50,
+        C2014A00135:51,
+        C2014A00135:52,
+        C2014A00135:53,
+        C2014A00135:54,
+        C2014A00135:55,
+        C2014A00135:56,
+        C2014A00135:57,
+        C2014A00135:58,
+        C2014A00135:59,
+        C2014A00135:6,
+        C2014A00135:60,
+        C2014A00135:61,
+        C2014A00135:62,
+        C2014A00135:63,
+        C2014A00135:64,
+        C2014A00135:65,
+        C2014A00135:66,
+        C2014A00135:67,
+        C2014A00135:68,
+        C2014A00135:69,
+        C2014A00135:7,
+        C2014A00135:70,
+        C2014A00135:71,
+        C2014A00135:72,
+        C2014A00135:73,
+        C2014A00135:74,
+        C2014A00135:75,
+        C2014A00135:8,
+        C2014A00135:9 ;
+    dct:isReferencedBy C2014A00135: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2014A00135:10,
+        C2014A00135:11,
+        C2014A00135:12,
+        C2014A00135:13,
+        C2014A00135:14,
+        C2014A00135:15,
+        C2014A00135:16,
+        C2014A00135:17,
+        C2014A00135:18,
+        C2014A00135:19,
+        C2014A00135:20,
+        C2014A00135:21,
+        C2014A00135:22,
+        C2014A00135:23,
+        C2014A00135:24,
+        C2014A00135:25,
+        C2014A00135:26,
+        C2014A00135:27,
+        C2014A00135:28,
+        C2014A00135:29,
+        C2014A00135:30,
+        C2014A00135:31,
+        C2014A00135:32,
+        C2014A00135:33,
+        C2014A00135:34,
+        C2014A00135:35,
+        C2014A00135:36,
+        C2014A00135:37,
+        C2014A00135:38,
+        C2014A00135:39,
+        C2014A00135:4,
+        C2014A00135:40,
+        C2014A00135:41,
+        C2014A00135:42,
+        C2014A00135:43,
+        C2014A00135:44,
+        C2014A00135:45,
+        C2014A00135:46,
+        C2014A00135:47,
+        C2014A00135:48,
+        C2014A00135:49,
+        C2014A00135:5,
+        C2014A00135:50,
+        C2014A00135:51,
+        C2014A00135:52,
+        C2014A00135:53,
+        C2014A00135:54,
+        C2014A00135:55,
+        C2014A00135:56,
+        C2014A00135:57,
+        C2014A00135:58,
+        C2014A00135:59,
+        C2014A00135:6,
+        C2014A00135:60,
+        C2014A00135:61,
+        C2014A00135:62,
+        C2014A00135:63,
+        C2014A00135:64,
+        C2014A00135:65,
+        C2014A00135:66,
+        C2014A00135:67,
+        C2014A00135:68,
+        C2014A00135:69,
+        C2014A00135:7,
+        C2014A00135:70,
+        C2014A00135:71,
+        C2014A00135:72,
+        C2014A00135:73,
+        C2014A00135:74,
+        C2014A00135:75,
+        C2014A00135:8,
+        C2014A00135:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820054> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2014A00135/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc149820054"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+

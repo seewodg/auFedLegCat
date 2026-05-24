@@ -1,0 +1,384 @@
+@prefix C2012A00084: <http://example.org/au/leg/dataset/C2012A00084/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2012A00084:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040332> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040332"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00084:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040333> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040333"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00084:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Clean Energy Act 2011"@en-AU ;
+    dct:isPartOf C2012A00084:9 ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "Clean Energy Act 2011 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Clean Energy Act 2011"@en-AU ;
+    skos:narrower C2012A00084:9 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040349> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040349"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00084:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Fuel Tax Act 2006"@en-AU ;
+    dct:isPartOf C2012A00084:9 ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "Fuel Tax Act 2006 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Fuel Tax Act 2006"@en-AU ;
+    skos:narrower C2012A00084:9 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040358> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040358"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00084:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Carbon Credits Carbon Farming Initiative Act 2011"@en-AU ;
+    dct:isPartOf C2012A00084:12 ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "Carbon Credits Carbon Farming Initiative Act 2011 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Carbon Credits Carbon Farming Initiative Act 2011"@en-AU ;
+    skos:narrower C2012A00084:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040366> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040366"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00084:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Australian National Registry of Emissions Units Act 2011"@en-AU ;
+    dct:isPartOf C2012A00084:14 ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "Australian National Registry of Emissions Units Act 2011 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Australian National Registry of Emissions Units Act 2011"@en-AU ;
+    skos:narrower C2012A00084:14 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040368> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040368"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00084:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Australian Renewable Energy Agency Act 2011"@en-AU ;
+    dct:isPartOf C2012A00084:16 ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "Australian Renewable Energy Agency Act 2011 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Australian Renewable Energy Agency Act 2011"@en-AU ;
+    skos:narrower C2012A00084:16 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040370> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040370"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00084:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Clean Energy Regulator Act 2011"@en-AU ;
+    dct:isPartOf C2012A00084:16 ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "Clean Energy Regulator Act 2011 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Clean Energy Regulator Act 2011"@en-AU ;
+    skos:narrower C2012A00084:16 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040372> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040372"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00084:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Endnote 1 Legislation history"@en-AU ;
+    dct:isPartOf C2012A00084:19 ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "Endnote 1 Legislation history - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Endnote 1 Legislation history"@en-AU ;
+    skos:narrower C2012A00084:19 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040374> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040374"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00084:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Endnote 2 Amendment history"@en-AU ;
+    dct:isPartOf C2012A00084:19 ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "Endnote 2 Amendment history - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Endnote 2 Amendment history"@en-AU ;
+    skos:narrower C2012A00084:19 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040375> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040375"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00084:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Endnote 3 Uncommenced amendments none"@en-AU ;
+    dct:isPartOf C2012A00084:19 ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "Endnote 3 Uncommenced amendments none - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Endnote 3 Uncommenced amendments none"@en-AU ;
+    skos:narrower C2012A00084:19 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040376> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040376"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00084:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Endnote 4 Misdescribed amendments none"@en-AU ;
+    dct:isPartOf C2012A00084:19 ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "Endnote 4 Misdescribed amendments none - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Endnote 4 Misdescribed amendments none"@en-AU ;
+    skos:narrower C2012A00084:19 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040377> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040377"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00084:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Clean Energy Act 2011"@en-AU ;
+    dct:isPartOf C2012A00084:5 ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "Clean Energy Act 2011 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Clean Energy Act 2011"@en-AU ;
+    skos:narrower C2012A00084:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040337> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040337"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00084:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 National Greenhouse and Energy Reporting Act 2007"@en-AU ;
+    dct:isPartOf C2012A00084:5 ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "National Greenhouse and Energy Reporting Act 2007 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "National Greenhouse and Energy Reporting Act 2007"@en-AU ;
+    skos:narrower C2012A00084:5 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040341> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040341"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00084:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 2 Transitional provisions"@en-AU ;
+    dct:isPartOf C2012A00084:4 ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "Part 2 Transitional provisions - Abrievated Graph Key: P8"@en-AU ;
+    skos:definition "Part 2 Transitional provisions"@en-AU ;
+    skos:narrower C2012A00084:4 ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040347> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040347"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00084:12 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S12 Schedule 3 Amendments relating to the carbon farming initiative"@en-AU ;
+    dct:hasPart C2012A00084:13 ;
+    dct:isPartOf C2012A00084:3 ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "Schedule 3 Amendments relating to the carbon farming initiative - Abrievated Graph Key: S12"@en-AU ;
+    skos:broader C2012A00084:13 ;
+    skos:definition "Schedule 3 Amendments relating to the carbon farming initiative"@en-AU ;
+    skos:narrower C2012A00084:3 ;
+    skos:prefLabel "Schedule S12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040365> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040365"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00084:14 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S14 Schedule 4 Amendments relating to the Australian National Registry of Emissions Units"@en-AU ;
+    dct:hasPart C2012A00084:15 ;
+    dct:isPartOf C2012A00084:3 ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "Schedule 4 Amendments relating to the Australian National Registry of Emissions Units - Abrievated Graph Key: S14"@en-AU ;
+    skos:broader C2012A00084:15 ;
+    skos:definition "Schedule 4 Amendments relating to the Australian National Registry of Emissions Units"@en-AU ;
+    skos:narrower C2012A00084:3 ;
+    skos:prefLabel "Schedule S14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040367> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040367"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00084:16 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S16 Schedule 5 Amendments relating to the Clean Energy Finance Corporation"@en-AU ;
+    dct:hasPart C2012A00084:17,
+        C2012A00084:18 ;
+    dct:isPartOf C2012A00084:3 ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "Schedule 5 Amendments relating to the Clean Energy Finance Corporation - Abrievated Graph Key: S16"@en-AU ;
+    skos:broader C2012A00084:17,
+        C2012A00084:18 ;
+    skos:definition "Schedule 5 Amendments relating to the Clean Energy Finance Corporation"@en-AU ;
+    skos:narrower C2012A00084:3 ;
+    skos:prefLabel "Schedule S16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040369> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040369"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00084:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 General amendments"@en-AU ;
+    dct:hasPart C2012A00084:5,
+        C2012A00084:8 ;
+    dct:isPartOf C2012A00084:3 ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "Schedule 1 General amendments - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2012A00084:5,
+        C2012A00084:8 ;
+    skos:definition "Schedule 1 General amendments"@en-AU ;
+    skos:narrower C2012A00084:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040335> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040335"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00084:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2012A00084:6,
+        C2012A00084:7 ;
+    dct:isPartOf C2012A00084:4 ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2012A00084:6,
+        C2012A00084:7 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2012A00084:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040336> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040336"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00084:9 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S9 Schedule 2 Amendments relating to gaseous fuel"@en-AU ;
+    dct:hasPart C2012A00084:10,
+        C2012A00084:11 ;
+    dct:isPartOf C2012A00084:3 ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "Schedule 2 Amendments relating to gaseous fuel - Abrievated Graph Key: S9"@en-AU ;
+    skos:broader C2012A00084:10,
+        C2012A00084:11 ;
+    skos:definition "Schedule 2 Amendments relating to gaseous fuel"@en-AU ;
+    skos:narrower C2012A00084:3 ;
+    skos:prefLabel "Schedule S9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040348> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040348"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00084:19 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E19 Endnotes"@en-AU ;
+    dct:hasPart C2012A00084:20,
+        C2012A00084:21,
+        C2012A00084:22,
+        C2012A00084:23 ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E19"@en-AU ;
+    skos:broader C2012A00084:20,
+        C2012A00084:21,
+        C2012A00084:22,
+        C2012A00084:23 ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:prefLabel "Endnotes E19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040373> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040373"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+
+C2012A00084:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2012A00084:12,
+        C2012A00084:14,
+        C2012A00084:16,
+        C2012A00084:4,
+        C2012A00084:9 ;
+    dct:isReferencedBy C2012A00084: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2012A00084:12,
+        C2012A00084:14,
+        C2012A00084:16,
+        C2012A00084:4,
+        C2012A00084:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040334> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00084/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc361040334"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00084: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Clean Energy Legislation Amendment Act 2012" ;
+    dct:Jurisdiction " Department of Climate Change, Energy, the Environment and Water "@en-AU ;
+    dct:created "2026-05-23T14:03:30.007214"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2012-07-01T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Clean Energy Legislation Amendment Act 2012"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2012A00084/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Clean Energy Legislation Amendment Act 2012"@en-AU ;
+    dct:title "Clean Energy Legislation Amendment Act 2012"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Endnotes,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2013C00334 C01" .
+

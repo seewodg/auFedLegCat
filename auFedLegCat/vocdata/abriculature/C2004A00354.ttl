@@ -1,0 +1,388 @@
+@prefix C2004A00354: <http://example.org/au/leg/dataset/C2004A00354/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A00354:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566032> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566032"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00354:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566033> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566033"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00354:10 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P10 Part 1 Initial amendments"@en-AU ;
+    dct:isPartOf C2004A00354:9 ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "Part 1 Initial amendments - Abrievated Graph Key: P10"@en-AU ;
+    skos:definition "Part 1 Initial amendments"@en-AU ;
+    skos:narrower C2004A00354:9 ;
+    skos:prefLabel "Part P10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566318> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566318"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00354:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 2 Later amendments"@en-AU ;
+    dct:isPartOf C2004A00354:9 ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "Part 2 Later amendments - Abrievated Graph Key: P11"@en-AU ;
+    skos:definition "Part 2 Later amendments"@en-AU ;
+    skos:narrower C2004A00354:9 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566336> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566336"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00354:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Native Title Act 1993"@en-AU ;
+    dct:isPartOf C2004A00354:12 ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "Native Title Act 1993 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Native Title Act 1993"@en-AU ;
+    skos:narrower C2004A00354:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566380> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566380"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00354:15 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P15 Part 1 Contents of this Schedule"@en-AU ;
+    dct:isPartOf C2004A00354:14 ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "Part 1 Contents of this Schedule - Abrievated Graph Key: P15"@en-AU ;
+    skos:definition "Part 1 Contents of this Schedule"@en-AU ;
+    skos:narrower C2004A00354:14 ;
+    skos:prefLabel "Part P15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566436> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566436"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00354:16 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P16 Part 2 Application of future act amendments"@en-AU ;
+    dct:isPartOf C2004A00354:14 ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "Part 2 Application of future act amendments - Abrievated Graph Key: P16"@en-AU ;
+    skos:definition "Part 2 Application of future act amendments"@en-AU ;
+    skos:narrower C2004A00354:14 ;
+    skos:prefLabel "Part P16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566437> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566437"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00354:17 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P17 Part 3 Application of amendments relating to section 61 applications proceedings relating to determinations"@en-AU ;
+    dct:isPartOf C2004A00354:14 ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "Part 3 Application of amendments relating to section 61 applications proceedings relating to determinations - Abrievated Graph Key: P17"@en-AU ;
+    skos:definition "Part 3 Application of amendments relating to section 61 applications proceedings relating to determinations"@en-AU ;
+    skos:narrower C2004A00354:14 ;
+    skos:prefLabel "Part P17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566438> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566438"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00354:18 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P18 Part 4 Application of amendments relating to section 61 applications registration of claims"@en-AU ;
+    dct:isPartOf C2004A00354:14 ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "Part 4 Application of amendments relating to section 61 applications registration of claims - Abrievated Graph Key: P18"@en-AU ;
+    skos:definition "Part 4 Application of amendments relating to section 61 applications registration of claims"@en-AU ;
+    skos:narrower C2004A00354:14 ;
+    skos:prefLabel "Part P18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566439> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566439"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00354:19 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P19 Part 5 Various application and transitional provisions"@en-AU ;
+    dct:isPartOf C2004A00354:14 ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "Part 5 Various application and transitional provisions - Abrievated Graph Key: P19"@en-AU ;
+    skos:definition "Part 5 Various application and transitional provisions"@en-AU ;
+    skos:narrower C2004A00354:14 ;
+    skos:prefLabel "Part P19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566440> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566440"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00354:20 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P20 Part 6 Validation of certain acts"@en-AU ;
+    dct:isPartOf C2004A00354:14 ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "Part 6 Validation of certain acts - Abrievated Graph Key: P20"@en-AU ;
+    skos:definition "Part 6 Validation of certain acts"@en-AU ;
+    skos:narrower C2004A00354:14 ;
+    skos:prefLabel "Part P20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566441> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566441"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00354:21 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P21 Part 7 Compensation etc"@en-AU ;
+    dct:isPartOf C2004A00354:14 ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "Part 7 Compensation etc - Abrievated Graph Key: P21"@en-AU ;
+    skos:definition "Part 7 Compensation etc"@en-AU ;
+    skos:narrower C2004A00354:14 ;
+    skos:prefLabel "Part P21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566442> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566442"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00354:22 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P22 Part 8 Regulations"@en-AU ;
+    dct:isPartOf C2004A00354:14 ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "Part 8 Regulations - Abrievated Graph Key: P22"@en-AU ;
+    skos:definition "Part 8 Regulations"@en-AU ;
+    skos:narrower C2004A00354:14 ;
+    skos:prefLabel "Part P22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566443> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566443"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00354:23 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P23 Part 9 Interpretation"@en-AU ;
+    dct:isPartOf C2004A00354:14 ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "Part 9 Interpretation - Abrievated Graph Key: P23"@en-AU ;
+    skos:definition "Part 9 Interpretation"@en-AU ;
+    skos:narrower C2004A00354:14 ;
+    skos:prefLabel "Part P23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566444> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566444"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00354:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Native Title Act 1993"@en-AU ;
+    dct:isPartOf C2004A00354:4 ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "Native Title Act 1993 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Native Title Act 1993"@en-AU ;
+    skos:narrower C2004A00354:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566036> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566036"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00354:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 1 Native Title Act 1993"@en-AU ;
+    dct:isPartOf C2004A00354:6 ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "Part 1 Native Title Act 1993 - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 1 Native Title Act 1993"@en-AU ;
+    skos:narrower C2004A00354:6 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566230> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566230"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00354:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 2 Federal Court of Australia Act 1976"@en-AU ;
+    dct:isPartOf C2004A00354:6 ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "Part 2 Federal Court of Australia Act 1976 - Abrievated Graph Key: P8"@en-AU ;
+    skos:definition "Part 2 Federal Court of Australia Act 1976"@en-AU ;
+    skos:narrower C2004A00354:6 ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566316> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566316"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00354:12 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S12 Schedule 4 Addition of Schedule"@en-AU ;
+    dct:hasPart C2004A00354:13 ;
+    dct:isPartOf C2004A00354:3 ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "Schedule 4 Addition of Schedule - Abrievated Graph Key: S12"@en-AU ;
+    skos:broader C2004A00354:13 ;
+    skos:definition "Schedule 4 Addition of Schedule"@en-AU ;
+    skos:narrower C2004A00354:3 ;
+    skos:prefLabel "Schedule S12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566379> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566379"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00354:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments relating to acts affecting native title etc"@en-AU ;
+    dct:hasPart C2004A00354:5 ;
+    dct:isPartOf C2004A00354:3 ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "Schedule 1 Amendments relating to acts affecting native title etc - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A00354:5 ;
+    skos:definition "Schedule 1 Amendments relating to acts affecting native title etc"@en-AU ;
+    skos:narrower C2004A00354:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566035> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566035"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00354:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Amendments relating to applications registration of claims etc"@en-AU ;
+    dct:hasPart C2004A00354:7,
+        C2004A00354:8 ;
+    dct:isPartOf C2004A00354:3 ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "Schedule 2 Amendments relating to applications registration of claims etc - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2004A00354:7,
+        C2004A00354:8 ;
+    skos:definition "Schedule 2 Amendments relating to applications registration of claims etc"@en-AU ;
+    skos:narrower C2004A00354:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566229> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566229"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00354:9 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S9 Schedule 3 Amendments relating to representative AboriginalTorres Strait Islander bodies"@en-AU ;
+    dct:hasPart C2004A00354:10,
+        C2004A00354:11 ;
+    dct:isPartOf C2004A00354:3 ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "Schedule 3 Amendments relating to representative AboriginalTorres Strait Islander bodies - Abrievated Graph Key: S9"@en-AU ;
+    skos:broader C2004A00354:10,
+        C2004A00354:11 ;
+    skos:definition "Schedule 3 Amendments relating to representative AboriginalTorres Strait Islander bodies"@en-AU ;
+    skos:narrower C2004A00354:3 ;
+    skos:prefLabel "Schedule S9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566317> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566317"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00354:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A00354:12,
+        C2004A00354:14,
+        C2004A00354:4,
+        C2004A00354:6,
+        C2004A00354:9 ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A00354:12,
+        C2004A00354:14,
+        C2004A00354:4,
+        C2004A00354:6,
+        C2004A00354:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566034> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566034"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00354:14 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S14 Schedule 5 Application and transitional"@en-AU ;
+    dct:hasPart C2004A00354:15,
+        C2004A00354:16,
+        C2004A00354:17,
+        C2004A00354:18,
+        C2004A00354:19,
+        C2004A00354:20,
+        C2004A00354:21,
+        C2004A00354:22,
+        C2004A00354:23 ;
+    dct:isPartOf C2004A00354:3 ;
+    dct:isReferencedBy C2004A00354: ;
+    rdfs:comment "Schedule 5 Application and transitional - Abrievated Graph Key: S14"@en-AU ;
+    skos:broader C2004A00354:15,
+        C2004A00354:16,
+        C2004A00354:17,
+        C2004A00354:18,
+        C2004A00354:19,
+        C2004A00354:20,
+        C2004A00354:21,
+        C2004A00354:22,
+        C2004A00354:23 ;
+    skos:definition "Schedule 5 Application and transitional"@en-AU ;
+    skos:narrower C2004A00354:3 ;
+    skos:prefLabel "Schedule S14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566435> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00354/2007-09-01/2007-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc424566435"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00354: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Native Title Amendment Act 1998" ;
+    dct:Jurisdiction " Attorney-General's Department "@en-AU,
+        " Department of the Prime Minister and Cabinet "@en-AU ;
+    dct:created "2026-05-23T13:59:46.270671"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2007-09-01T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Native Title Amendment Act 1998"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A00354/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Native Title Amendment Act 1998"@en-AU ;
+    dct:title "Native Title Amendment Act 1998"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2007C00533 C02" .
+

@@ -1,0 +1,692 @@
+@prefix C2020A00093: <http://example.org/au/leg/dataset/C2020A00093/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2020A00093:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859510> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859510"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00093:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859511> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859511"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00093:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2020A00093:10 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2020A00093:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859526> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859526"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00093:12 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D12 Division 2 Application provisions"@en-AU ;
+    dct:isPartOf C2020A00093:9 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Division 2 Application provisions - Abrievated Graph Key: D12"@en-AU ;
+    skos:definition "Division 2 Application provisions"@en-AU ;
+    skos:narrower C2020A00093:9 ;
+    skos:prefLabel "Division D12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859529> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859529"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2020A00093:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Higher Education Support Amendment 2009 Budget Measures Act 2009"@en-AU ;
+    dct:isPartOf C2020A00093:13 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Higher Education Support Amendment 2009 Budget Measures Act 2009 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Higher Education Support Amendment 2009 Budget Measures Act 2009"@en-AU ;
+    skos:narrower C2020A00093:13 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859531> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859531"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00093:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2020A00093:16 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2020A00093:16 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859534> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859534"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00093:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2020A00093:18 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2020A00093:18 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859536> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859536"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00093:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Education Legislation Amendment Provider Integrity and Other Measures Act 2017"@en-AU ;
+    dct:isPartOf C2020A00093:22 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Education Legislation Amendment Provider Integrity and Other Measures Act 2017 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Education Legislation Amendment Provider Integrity and Other Measures Act 2017"@en-AU ;
+    skos:narrower C2020A00093:22 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859540> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859540"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00093:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2020A00093:22 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2020A00093:22 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859541> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859541"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00093:25 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D25 Division 2 Application provision"@en-AU ;
+    dct:isPartOf C2020A00093:21 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Division 2 Application provision - Abrievated Graph Key: D25"@en-AU ;
+    skos:definition "Division 2 Application provision"@en-AU ;
+    skos:narrower C2020A00093:21 ;
+    skos:prefLabel "Division D25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859550> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859550"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2020A00093:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Education Legislation Amendment Provider Integrity and Other Measures Act 2017"@en-AU ;
+    dct:isPartOf C2020A00093:27 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Education Legislation Amendment Provider Integrity and Other Measures Act 2017 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Education Legislation Amendment Provider Integrity and Other Measures Act 2017"@en-AU ;
+    skos:narrower C2020A00093:27 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859553> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859553"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00093:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2020A00093:27 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2020A00093:27 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859554> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859554"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00093:30 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D30 Division 2 Application provision"@en-AU ;
+    dct:isPartOf C2020A00093:26 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Division 2 Application provision - Abrievated Graph Key: D30"@en-AU ;
+    skos:definition "Division 2 Application provision"@en-AU ;
+    skos:narrower C2020A00093:26 ;
+    skos:prefLabel "Division D30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859556> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859556"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2020A00093:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2020A00093:31 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2020A00093:31 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859558> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859558"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00093:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2020A00093:33 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2020A00093:33 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859563> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859563"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00093:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2020A00093:36 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2020A00093:36 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859591> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859591"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00093:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2020A00093:38 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2020A00093:38 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859593> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859593"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00093:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2020A00093:40 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2020A00093:40 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859596> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859596"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00093:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2020A00093:40 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2020A00093:40 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859597> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859597"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00093:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2020A00093:5 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2020A00093:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859515> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859515"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00093:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Application provisions"@en-AU ;
+    dct:isPartOf C2020A00093:4 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Part 2 Application provisions - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 2 Application provisions"@en-AU ;
+    skos:narrower C2020A00093:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859522> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859522"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00093:10 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D10 Division 1 Amendments"@en-AU ;
+    dct:hasPart C2020A00093:11 ;
+    dct:isPartOf C2020A00093:9 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Division 1 Amendments - Abrievated Graph Key: D10"@en-AU ;
+    skos:broader C2020A00093:11 ;
+    skos:definition "Division 1 Amendments"@en-AU ;
+    skos:narrower C2020A00093:9 ;
+    skos:prefLabel "Division D10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859525> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859525"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2020A00093:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 2 Amendments commencing 1 January 2021"@en-AU ;
+    dct:hasPart C2020A00093:14 ;
+    dct:isPartOf C2020A00093:8 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Part 2 Amendments commencing 1 January 2021 - Abrievated Graph Key: P13"@en-AU ;
+    skos:broader C2020A00093:14 ;
+    skos:definition "Part 2 Amendments commencing 1 January 2021"@en-AU ;
+    skos:narrower C2020A00093:8 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859530> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859530"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00093:16 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P16 Part 1 Amendments commencing day after Royal Assent"@en-AU ;
+    dct:hasPart C2020A00093:17 ;
+    dct:isPartOf C2020A00093:15 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Part 1 Amendments commencing day after Royal Assent - Abrievated Graph Key: P16"@en-AU ;
+    skos:broader C2020A00093:17 ;
+    skos:definition "Part 1 Amendments commencing day after Royal Assent"@en-AU ;
+    skos:narrower C2020A00093:15 ;
+    skos:prefLabel "Part P16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859533> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859533"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00093:18 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P18 Part 2 Amendments commencing 1 January 2021"@en-AU ;
+    dct:hasPart C2020A00093:19 ;
+    dct:isPartOf C2020A00093:15 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Part 2 Amendments commencing 1 January 2021 - Abrievated Graph Key: P18"@en-AU ;
+    skos:broader C2020A00093:19 ;
+    skos:definition "Part 2 Amendments commencing 1 January 2021"@en-AU ;
+    skos:narrower C2020A00093:15 ;
+    skos:prefLabel "Part P18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859535> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859535"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00093:31 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S31 Schedule 4 AUpfront payment discount"@en-AU ;
+    dct:hasPart C2020A00093:32 ;
+    dct:isPartOf C2020A00093:3 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Schedule 4 AUpfront payment discount - Abrievated Graph Key: S31"@en-AU ;
+    skos:broader C2020A00093:32 ;
+    skos:definition "Schedule 4 AUpfront payment discount"@en-AU ;
+    skos:narrower C2020A00093:3 ;
+    skos:prefLabel "Schedule S31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859557> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859557"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00093:33 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S33 Schedule 4 BStudent learning entitlement"@en-AU ;
+    dct:hasPart C2020A00093:34 ;
+    dct:isPartOf C2020A00093:3 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Schedule 4 BStudent learning entitlement - Abrievated Graph Key: S33"@en-AU ;
+    skos:broader C2020A00093:34 ;
+    skos:definition "Schedule 4 BStudent learning entitlement"@en-AU ;
+    skos:narrower C2020A00093:3 ;
+    skos:prefLabel "Schedule S33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859562> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859562"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00093:36 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P36 Part 1 Amendments commencing 1 January 2020"@en-AU ;
+    dct:hasPart C2020A00093:37 ;
+    dct:isPartOf C2020A00093:35 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Part 1 Amendments commencing 1 January 2020 - Abrievated Graph Key: P36"@en-AU ;
+    skos:broader C2020A00093:37 ;
+    skos:definition "Part 1 Amendments commencing 1 January 2020"@en-AU ;
+    skos:narrower C2020A00093:35 ;
+    skos:prefLabel "Part P36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859590> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859590"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00093:38 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P38 Part 2 Amendments commencing day after Royal Assent"@en-AU ;
+    dct:hasPart C2020A00093:39 ;
+    dct:isPartOf C2020A00093:35 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Part 2 Amendments commencing day after Royal Assent - Abrievated Graph Key: P38"@en-AU ;
+    skos:broader C2020A00093:39 ;
+    skos:definition "Part 2 Amendments commencing day after Royal Assent"@en-AU ;
+    skos:narrower C2020A00093:35 ;
+    skos:prefLabel "Part P38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859592> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859592"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00093:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2020A00093:6 ;
+    dct:isPartOf C2020A00093:4 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2020A00093:6 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2020A00093:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859514> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859514"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00093:15 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S15 Schedule 3 Other grants"@en-AU ;
+    dct:hasPart C2020A00093:16,
+        C2020A00093:18 ;
+    dct:isPartOf C2020A00093:3 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Schedule 3 Other grants - Abrievated Graph Key: S15"@en-AU ;
+    skos:broader C2020A00093:16,
+        C2020A00093:18 ;
+    skos:definition "Schedule 3 Other grants"@en-AU ;
+    skos:narrower C2020A00093:3 ;
+    skos:prefLabel "Schedule S15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859532> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859532"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00093:20 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S20 Schedule 4 Student protection"@en-AU ;
+    dct:hasPart C2020A00093:21,
+        C2020A00093:26 ;
+    dct:isPartOf C2020A00093:3 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Schedule 4 Student protection - Abrievated Graph Key: S20"@en-AU ;
+    skos:broader C2020A00093:21,
+        C2020A00093:26 ;
+    skos:definition "Schedule 4 Student protection"@en-AU ;
+    skos:narrower C2020A00093:3 ;
+    skos:prefLabel "Schedule S20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859537> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859537"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00093:21 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P21 Part 1 Amendments commencing 1 January 2021"@en-AU ;
+    dct:hasPart C2020A00093:22,
+        C2020A00093:25 ;
+    dct:isPartOf C2020A00093:20 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Part 1 Amendments commencing 1 January 2021 - Abrievated Graph Key: P21"@en-AU ;
+    skos:broader C2020A00093:22,
+        C2020A00093:25 ;
+    skos:definition "Part 1 Amendments commencing 1 January 2021"@en-AU ;
+    skos:narrower C2020A00093:20 ;
+    skos:prefLabel "Part P21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859538> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859538"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00093:22 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D22 Division 1 Amendments"@en-AU ;
+    dct:hasPart C2020A00093:23,
+        C2020A00093:24 ;
+    dct:isPartOf C2020A00093:21 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Division 1 Amendments - Abrievated Graph Key: D22"@en-AU ;
+    skos:broader C2020A00093:23,
+        C2020A00093:24 ;
+    skos:definition "Division 1 Amendments"@en-AU ;
+    skos:narrower C2020A00093:21 ;
+    skos:prefLabel "Division D22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859539> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859539"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2020A00093:26 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P26 Part 2 Amendments commencing 1 January 2022"@en-AU ;
+    dct:hasPart C2020A00093:27,
+        C2020A00093:30 ;
+    dct:isPartOf C2020A00093:20 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Part 2 Amendments commencing 1 January 2022 - Abrievated Graph Key: P26"@en-AU ;
+    skos:broader C2020A00093:27,
+        C2020A00093:30 ;
+    skos:definition "Part 2 Amendments commencing 1 January 2022"@en-AU ;
+    skos:narrower C2020A00093:20 ;
+    skos:prefLabel "Part P26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859551> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859551"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00093:27 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D27 Division 1 Amendments"@en-AU ;
+    dct:hasPart C2020A00093:28,
+        C2020A00093:29 ;
+    dct:isPartOf C2020A00093:26 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Division 1 Amendments - Abrievated Graph Key: D27"@en-AU ;
+    skos:broader C2020A00093:28,
+        C2020A00093:29 ;
+    skos:definition "Division 1 Amendments"@en-AU ;
+    skos:narrower C2020A00093:26 ;
+    skos:prefLabel "Division D27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859552> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859552"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2020A00093:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Commonwealth Grant Scheme"@en-AU ;
+    dct:hasPart C2020A00093:5,
+        C2020A00093:7 ;
+    dct:isPartOf C2020A00093:3 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Schedule 1 Commonwealth Grant Scheme - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2020A00093:5,
+        C2020A00093:7 ;
+    skos:definition "Schedule 1 Commonwealth Grant Scheme"@en-AU ;
+    skos:narrower C2020A00093:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859513> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859513"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00093:40 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P40 Part 3 Amendments commencing 1 January 2021"@en-AU ;
+    dct:hasPart C2020A00093:41,
+        C2020A00093:42 ;
+    dct:isPartOf C2020A00093:35 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Part 3 Amendments commencing 1 January 2021 - Abrievated Graph Key: P40"@en-AU ;
+    skos:broader C2020A00093:41,
+        C2020A00093:42 ;
+    skos:definition "Part 3 Amendments commencing 1 January 2021"@en-AU ;
+    skos:narrower C2020A00093:35 ;
+    skos:prefLabel "Part P40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859595> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859595"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00093:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 2 Maximum student contribution amounts for places"@en-AU ;
+    dct:hasPart C2020A00093:13,
+        C2020A00093:9 ;
+    dct:isPartOf C2020A00093:3 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Schedule 2 Maximum student contribution amounts for places - Abrievated Graph Key: S8"@en-AU ;
+    skos:broader C2020A00093:13,
+        C2020A00093:9 ;
+    skos:definition "Schedule 2 Maximum student contribution amounts for places"@en-AU ;
+    skos:narrower C2020A00093:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859523> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859523"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00093:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 1 Amendments commencing day after Royal Assent"@en-AU ;
+    dct:hasPart C2020A00093:10,
+        C2020A00093:12 ;
+    dct:isPartOf C2020A00093:8 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Part 1 Amendments commencing day after Royal Assent - Abrievated Graph Key: P9"@en-AU ;
+    skos:broader C2020A00093:10,
+        C2020A00093:12 ;
+    skos:definition "Part 1 Amendments commencing day after Royal Assent"@en-AU ;
+    skos:narrower C2020A00093:8 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859524> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859524"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00093:35 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S35 Schedule 5 Other amendments"@en-AU ;
+    dct:hasPart C2020A00093:36,
+        C2020A00093:38,
+        C2020A00093:40 ;
+    dct:isPartOf C2020A00093:3 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "Schedule 5 Other amendments - Abrievated Graph Key: S35"@en-AU ;
+    skos:broader C2020A00093:36,
+        C2020A00093:38,
+        C2020A00093:40 ;
+    skos:definition "Schedule 5 Other amendments"@en-AU ;
+    skos:narrower C2020A00093:3 ;
+    skos:prefLabel "Schedule S35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859589> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859589"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00093:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2020A00093:15,
+        C2020A00093:20,
+        C2020A00093:31,
+        C2020A00093:33,
+        C2020A00093:35,
+        C2020A00093:4,
+        C2020A00093:8 ;
+    dct:isReferencedBy C2020A00093: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2020A00093:15,
+        C2020A00093:20,
+        C2020A00093:31,
+        C2020A00093:33,
+        C2020A00093:35,
+        C2020A00093:4,
+        C2020A00093:8 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859512> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00093/asmade/2020-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc54859512"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00093: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Higher Education Support Amendment (Job-Ready Graduates and Supporting Regional and Remote Students) Act 2020" ;
+    dct:Jurisdiction " Department of Education "@en-AU ;
+    dct:created "2026-05-23T14:01:44.088439"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2020-01-01T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Higher Education Support Amendment (Job-Ready Graduates and Supporting Regional and Remote Students) Act 2020"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2020A00093/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Higher Education Support Amendment (Job-Ready Graduates and Supporting Regional and Remote Students) Act 2020"@en-AU ;
+    dct:title "Higher Education Support Amendment (Job-Ready Graduates and Supporting Regional and Remote Students) Act 2020"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2020A00093" .
+

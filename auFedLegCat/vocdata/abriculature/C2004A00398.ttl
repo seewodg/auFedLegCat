@@ -1,0 +1,1793 @@
+@prefix C2004A00398: <http://example.org/au/leg/dataset/C2004A00398/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A00398:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A00398: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00398/asmade/1999-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc448215814> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00398/asmade/1999-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc448215814"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00398:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A00398: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00398/asmade/1999-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc448215815> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00398/asmade/1999-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc448215815"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00398:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendment of the Agricultural and Veterinary Chemicals Administration Act 1992"@en-AU ;
+    dct:isPartOf C2004A00398:3 ;
+    dct:isReferencedBy C2004A00398: ;
+    rdfs:comment "Schedule 1 Amendment of the Agricultural and Veterinary Chemicals Administration Act 1992 - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Amendment of the Agricultural and Veterinary Chemicals Administration Act 1992"@en-AU ;
+    skos:narrower C2004A00398:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00398/asmade/1999-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc448215817> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00398/asmade/1999-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc448215817"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00398:5 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S5 Schedule 2 Amendment of the Dairy Produce Act 1986"@en-AU ;
+    dct:isPartOf C2004A00398:3 ;
+    dct:isReferencedBy C2004A00398: ;
+    rdfs:comment "Schedule 2 Amendment of the Dairy Produce Act 1986 - Abrievated Graph Key: S5"@en-AU ;
+    skos:definition "Schedule 2 Amendment of the Dairy Produce Act 1986"@en-AU ;
+    skos:narrower C2004A00398:3 ;
+    skos:prefLabel "Schedule S5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00398/asmade/1999-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc448215826> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00398/asmade/1999-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc448215826"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00398:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 3 Amendment of the Export Control Act 1982"@en-AU ;
+    dct:isPartOf C2004A00398:3 ;
+    dct:isReferencedBy C2004A00398: ;
+    rdfs:comment "Schedule 3 Amendment of the Export Control Act 1982 - Abrievated Graph Key: S6"@en-AU ;
+    skos:definition "Schedule 3 Amendment of the Export Control Act 1982"@en-AU ;
+    skos:narrower C2004A00398:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00398/asmade/1999-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc448215829> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00398/asmade/1999-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc448215829"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00398:7 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S7 Schedule 4 Amendment of the Imported Food Control Act 1992"@en-AU ;
+    dct:isPartOf C2004A00398:3 ;
+    dct:isReferencedBy C2004A00398: ;
+    rdfs:comment "Schedule 4 Amendment of the Imported Food Control Act 1992 - Abrievated Graph Key: S7"@en-AU ;
+    skos:definition "Schedule 4 Amendment of the Imported Food Control Act 1992"@en-AU ;
+    skos:narrower C2004A00398:3 ;
+    skos:prefLabel "Schedule S7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00398/asmade/1999-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc448215864> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00398/asmade/1999-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc448215864"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00398:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 5 Amendment of the Plant Breeders Rights Act 1994"@en-AU ;
+    dct:isPartOf C2004A00398:3 ;
+    dct:isReferencedBy C2004A00398: ;
+    rdfs:comment "Schedule 5 Amendment of the Plant Breeders Rights Act 1994 - Abrievated Graph Key: S8"@en-AU ;
+    skos:definition "Schedule 5 Amendment of the Plant Breeders Rights Act 1994"@en-AU ;
+    skos:narrower C2004A00398:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00398/asmade/1999-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc448215865> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00398/asmade/1999-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc448215865"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00398: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Agriculture, Fisheries and Forestry Legislation Amendment Act (No. 1) 1999" ;
+    dct:Jurisdiction " Department of Agriculture, Fisheries and Forestry "@en-AU ;
+    dct:created "2026-05-23T13:52:22.667901"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "1999-03-31T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Agriculture, Fisheries and Forestry Legislation Amendment Act (No. 1) 1999"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A00398/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Agriculture, Fisheries and Forestry Legislation Amendment Act (No. 1) 1999"@en-AU ;
+    dct:title "Agriculture, Fisheries and Forestry Legislation Amendment Act (No. 1) 1999"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2004A00398" .
+
+C2004A00398:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label """Item - I3 3  Schedules
+		Each Act that is specified in a Schedule to this Act is amended or repealed as set out in the applicable items in the Schedule concerned and any other item in a Schedule to this Act has effect according to its terms
+ 
+Schedule 1 Amendment of the Agricultural and Veterinary Chemicals Administration Act 1992
+  
+1  After Part 7 A
+Insert
+Part 7 BModification of the Agvet Codes for the purpose of giving effect to paragraph 3 of Article 39 of the TRIPS Agreement
+  
+69 EV  Definitions
+	1	In this Part
+current application has the meaning given by section 69 EX
+information includes but is not limited to information obtained from trials or laboratory experiments
+previous application has the meaning given by section 69 EX
+relevant information has the meaning given by section 69 EX
+	2	Expressions used in this Part that are defined or otherwise used in the Code set out in the Schedule to the Agricultural and Veterinary Chemicals Code Act 1994 have the same meanings as in that Code
+69 EW  Modification of Agvet Codes
+	1	This Part modifies the Agvet Codes for the purpose of giving effect to Australias obligations under paragraph 3 of Article 39 of the Agreement on TradeRelated Aspects of Intellectual Property Rights set out in Annex 1 C to the Marrakesh Agreement establishing the World Trade Organization done at Marrakesh on 15 April 1994
+Note	The English text of the Marrakesh Agreement establishing the World Trade Organization is set out in Australian Treaty Series 1995 No 8
+	2	The Agvet Codes have effect subject to this Part
+69 EX  Application of Part
+		This Part applies to an application the current application made to the NRA after the commencement of this Part for approval of an active constituent for a proposed or existing chemical product where
+	a	the NRA cannot grant the application without using information the relevant information given to the NRA in connection with a previous application the previous application made to the NRA other than a previous application made before the commencement of this Part for approval of an active constituent for a proposed or existing chemical product and
+	b	the relevant information has not been made publicly available in Australia and
+	c	at the time immediately before the previous application was made no application had been made to the NRA for approval of the active constituent to which that application related
+69 EY  NRA not to grant current application except in certain circumstances
+		The NRA must not grant the current application unless
+	a	the person who made that application
+	i	has given to the NRA information that makes it unnecessary for the NRA to use the relevant information in connection with that application or
+	ii	has given to the NRA evidence that satisfies the NRA that the person who made the previous application has consented to the NRA using the relevant information in connection with the current application or
+	b	at least 5 years have elapsed since the previous application was determined by the NRA or was withdrawn as the case may be
+69 EZ  Approval given in contravention of section 69 EY is not invalid but is to be cancelled
+	1	If
+	a	the NRA approves an active constituent for a proposed or existing chemical product and
+	b	the NRA was prohibited by section 69 EY from giving the approval
+the approval is not invalid
+	2	However the NRA must cancel the approval when it finds out that the giving of the approval was prohibited by section 69 EY
+69 EZA  Power of NRA to grant multiple approvals to be subject to section 69 EY
+		The power of the NRA under subsection 161 of the Agvet Codes to approve the same active constituent for a proposed or existing chemical product on applications made by different persons is subject to section 69 EY
+69 EZB  Power of NRA to use information obtained by it for other purposes not to be affected
+		Except as provided by section 69 EY the power of the NRA under subsection 581 of the Agvet Codes to use information obtained by it from any source for the purpose of performing any of its functions or exercising any of its powers under those Codes is not affected
+ 
+Schedule 2 Amendment of the Dairy Produce Act 1986
+  
+1  Paragraph 106 c
+Omit section 108 E substitute sections 108 E and 108 EA
+2  Paragraph 106 d
+Omit section 108 F substitute sections 108 EB and 108 F
+3  After section 108 E
+Insert
+108 EA  Levy rebates Victorian gas supply failure
+	1	A manufacturer is entitled to be paid by the Corporation a manufacturing milk levy rebate in respect of a month if
+	a	the manufacturer paid manufacturing milk levy on manufacturing milk delivered to the manufacturer during that month and
+	b	the manufacturer destroyed some or all of the milk at the manufacturers factory during the period that started on 26 September 1998 and ended at the end of 5 October 1998 as a result of the gas supply failure in Victoria
+	2	The amount of the rebate payable to a manufacturer under this section is an amount equal to the difference between
+	a	the amount of manufacturing milk levy paid by the manufacturer in respect of the relevant month and
+	b	the amount of manufacturing milk levy that would have been imposed on the manufacturer in respect of that month if the quantity of milk destroyed had not been delivered to the manufacturer during that month
+	3	A manufacturing milk levy rebate is not payable under this section unless a written application in accordance with a form approved by the Corporation is submitted to the Corporation within 28 days after the commencement of this section
+	4	The Corporation may include in the approved application form a requirement that the whole or a part of the information contained in an application be verified by statutory declaration
+	5	As soon as practicable after it receives an application under this section the Corporation must
+	a	if it decides that the applicant is entitled to a rebatenotify the applicant in writing of its decision and of the amount of the rebate to which the applicant is entitled or
+	b	if it decides that the applicant is not entitled to a rebatenotify the applicant in writing of its decision
+	6	A notice under paragraph 5 a must set out the basis on which the Corporation has determined the amount of the rebate to which the applicant is entitled
+	7	A notice under paragraph 5 b must set out the reasons for the Corporations decision
+	8	If the Corporation gives an applicant a notice under paragraph 5 a it must at the same time pay the applicant the amount of rebate specified in the notice
+108 EB  Payment to milk producers Victorian gas supply failure
+	1	A producer is entitled to be paid by the Corporation an amount worked out under subsection 2 if
+	a	before 6 October 1998 the producer produced a quantity of milk for the purpose of delivering it to a manufacturer as manufacturing milk and
+	b	as a result of the gas failure in Victoria the producer did not deliver the quantity of milk to a manufacturer but destroyed it during the period that started on 26 September 1998 and ended at the end of 5 October 1998
+	2	The amount payable to a producer under this section is an amount equal to the amount of domestic market support payment that would have been payable by the Corporation to the producer if the producer had delivered the prescribed quantity of milk to a manufacturer
+	3	For the purposes of subsection 2 the prescribed quantity of milk is the quantity of milk destroyed less any of that milk in relation to which the producer has received or is entitled to receive a payment relating to liquid milk for human consumption in Australia
+	4	An amount is not payable under this section unless a written application in accordance with a form approved by the Corporation is submitted to the Corporation within 3 months after commencement of this section
+	5	An application may be made
+	a	by a producer or
+	b	by 2 or more producers jointly or
+	c	by a person on behalf of 1 or more producers
+	6	The Corporation may include in the approved application form a requirement that the whole or a part of the information contained in an application be verified by statutory declaration
+	7	As soon as practicable after it receives an application under this section the Corporation must
+	a	if it decides that the producer or any producer to whom the application relates is entitled to a paymentnotify the applicant in writing of its decision and of the amount of the payment or
+	b	if it decides that the producer or any producer to whom the application relates is not entitled to a paymentnotify the applicant in writing of its decision
+	8	A notice under paragraph 7 a must set out the basis on which the Corporation has determined the amount specified in the notice
+	9	A notice under paragraph 7 b must set out the reasons for the Corporations decision
+	10	If the Corporation gives an applicant a notice under paragraph 7 a it must at the same time pay the amount specified in the notice
+4  Subsection 1181 definition of relevant payment decision
+After 108 E insert  108 EA 108 EB
+ 
+Schedule 3 Amendment of the Export Control Act 1982
+  
+1  Section 3
+Insert
+enter in relation to an aircraft vehicle or ship includes go on board
+2  Section 3 definition of establishment
+Repeal the definition substitute
+establishment includes premises
+3  Section 3
+Insert
+evidential material means any of the following things including such a thing in electronic form
+	a	a thing with respect to which an offence against this Act has been committed or is suspected on reasonable grounds to have been committed
+	b	a thing as to which there are reasonable grounds for suspecting that it will afford evidence as to the commission of an offence against this Act
+	c	a thing as to which there are reasonable grounds for suspecting that it is intended to be used for the purpose of committing an offence against this Act
+4  Section 3
+Insert
+executing officer for a warrant means the person named in the warrant as being responsible for executing the warrant
+5  Section 3
+Insert
+magistrate means a magistrate who is remunerated by salary or otherwise
+6  Section 3
+Insert
+occupier of premises means the person apparently in charge of the premises
+7  Section 3 paragraph a of the definition of offence against this Act
+Repeal the paragraph
+8  Section 3 paragraphs b and c of the definition of offence against this Act
+Omit or the regulations
+9  Section 3
+Insert
+officer assisting in relation to a warrant means
+	a	an authorized officer who is assisting in executing the warrant or
+	b	a person who is not an authorized officer but who has been authorized by the relevant executing officer to assist in executing the warrant
+10  Section 3 definition of premises
+Repeal the definition substitute
+premises includes the following
+	a	a building aircraft vehicle or ship
+	b	a place whether enclosed or built on or not
+	c	a part of a thing or place referred to in paragraph a or b
+11  Section 3
+Insert
+preparation in relation to prescribed goods includes the following
+	a	the slaughter or killing of animals and the dressing of carcasses from which prescribed goods are obtained
+	b	the processing packing or storage of prescribed goods
+	c	the treatment of prescribed goods
+	d	the handling or loading of prescribed goods
+12  Section 3
+Insert
+this Act includes the regulations
+13  After subsection 73
+Insert
+	3 A	Without limiting the generality of subsection 2 regulations made for the purposes of subsection 1
+	a	may provide that the export of prescribed goods or the export of prescribed goods to a specified place is prohibited unless the goods have been prepared in accordance with an arrangement that has been approved by the Secretary and
+	b	may make provision for and in relation to
+	i	the approval of an arrangement subject to specified conditions or restrictions or
+	ii	the variation suspension or revocation of an approval of an arrangement or 
+	iii	the variation suspension or revocation of any or all of the conditions or restrictions to which an approval of an arrangement is subject or the imposition of further conditions or restrictions or 
+	iv	persons including persons approved by the Secretary under the regulations and authorized officers who may exercise powers and perform functions under or for the purposes of an approved arrangement
+14  Subsection 74
+Omit subparagraph 3 bii substitute subparagraphs 3 bii and 3 Abi
+15  Part III heading
+Repeal the heading substitute
+Part IIIEnforcement
+16  Sections 10 and 11
+Repeal the sections substitute
+Division 1 General powers
+10  General powers of authorized officers in relation to premises
+		The powers an authorized officer may exercise under paragraphs 10 A 1 b and 10 D 1 b in relation to particular premises are as follows
+	a	to search the premises and any thing on the premises
+	b	to inspect examine and take samples of any thing on the premises
+	c	to take photographs including video or audio recordings or to make sketches of the premises or any thing on the premises
+	d	to take extracts from or make copies of any document book or record on the premises
+	e	to secure the premises or any thing on the premises
+Division 2 Monitoring powers
+10 A  Monitoring registered premises and other premises entered by consent
+	1	For the purpose of finding out whether any or all of the provisions of this Act are being complied with an authorized officer at any time and with any necessary help may
+	a	enter
+	i	any registered premises or
+	ii	any other premises with the consent of the occupier and
+	b	exercise the powers set out in section 10
+	2	If the relevant premises are an aircraft vehicle or ship an authorized officer may stop and detain the aircraft vehicle or ship for the purpose of exercising a power mentioned in subsection 1
+10 B  Monitoring warrants
+	1	An authorized officer may apply to a magistrate for a warrant under this section in relation to particular premises
+	2	Subject to subsection 3 the magistrate may issue a warrant if satisfied by information on oath or affirmation that it is reasonably necessary that the authorized officer should have access to the premises for the purpose of finding out whether any or all of the provisions of this Act are being complied with
+	3	The magistrate must not issue a warrant unless the authorized officer or another person has given the magistrate either orally on oath or affirmation or by affidavit such further information as the magistrate requires about the grounds on which the issue of the warrant is being sought
+	4	A warrant must
+	a	authorize an authorized officer named in the warrant with such assistance and by such force as is necessary and reasonable from time to time while the warrant remains in force to enter the premises and exercise powers of the kind set out in section 10 in relation to the premises and
+	b	state whether an entry under the warrant is authorized to be made at any time of the day or night or during specified hours of the day or night and
+	c	specify the day not more than 6 months after the issue of the warrant on which the warrant ceases to have effect and
+	d	state the purpose for which the warrant is issued
+10 C  Seizures without offencerelated warrant in emergency situations
+	1	This section applies when an authorized officer has entered premises under section 10 A or under a warrant issued under section 10 B
+	2	If the authorized officer suspects on reasonable grounds that
+	a	particular evidential material is in or on the premises and
+	b	it is necessary to seize the evidential material in order to prevent it from being concealed lost or destroyed and
+	c	it is necessary to do so without the authority of a warrant under section 10 E because the circumstances are serious and urgent
+the authorized officer may seize the evidential material if he or she finds it there
+Division 3 Offencerelated searches and seizures
+10 D  Registered premises and premises entered by consentoffencerelated searches and seizures
+	1	Subject to subsection 2 if an authorized officer has reasonable grounds for suspecting that there may be on any premises particular evidential material the officer at any time and with any necessary help may
+	a	enter the premises and
+	b	exercise the powers set out in section 10 and
+	c	seize that evidential material if the officer finds it on the premises
+	2	An authorized officer is not authorized to enter premises under subsection 1 unless
+	a	the premises are registered premises or
+	b	the occupier of the premises has consented to the entry
+	3	If the relevant premises are an aircraft vehicle or ship an authorized officer may stop and detain the aircraft vehicle or ship for the purpose of exercising a power mentioned in subsection 1
+10 E  Offencerelated warrants
+	1	An authorized officer may apply to a magistrate for a warrant under this section in relation to particular premises
+	2	Subject to subsection 3 a magistrate may issue the warrant if satisfied by information on oath or affirmation that there are reasonable grounds for suspecting that there is or may be within the next 72 hours any evidential material at the premises
+	3	A magistrate must not issue a warrant unless the authorized officer or some other person has given the magistrate either orally on oath or affirmation or by affidavit such further information as the magistrate requires about the grounds on which the issue of the warrant is being sought
+	4	The warrant must
+	a	state the offence to which the warrant relates and
+	b	describe the premises to which the warrant relates and
+	c	describe the kinds of evidential material that are to be searched for under the warrant and
+	d	state the name of the authorized officer who is to be responsible for executing the warrant and
+	e	state the period for which the warrant remains in force which must not be more than 7 days and
+	f	state whether the warrant may be executed at any time or only during particular hours
+	5	The warrant must also state that the warrant authorizes the seizure of a thing other than evidential material of the kind referred to in paragraph 4 c found at the premises in the course of the search that the executing officer or an officer assisting believes on reasonable grounds to be
+	a	evidential material in relation to an offence to which the warrant relates or
+	b	evidential material in relation to another offence against this Act
+if the executing officer or an officer assisting believes on reasonable grounds that seizure of the thing is necessary to prevent its concealment loss or destruction or its use in committing an offence against this Act
+	6	Paragraph 4 e does not prevent the issue of successive warrants in relation to the same premises
+	7	If the application for the warrant is made under section 10 F this section applies as if
+	a	subsection 2 referred to 48 hours rather than 72 hours and
+	b	paragraph 4 e referred to 48 hours rather than 7 days
+10 F  The things that are authorized by a search warrant
+	1	A warrant under this Division that is in force in relation to premises authorizes the executing officer or an officer assisting
+	a	to enter the premises and
+	b	to exercise powers of the kind set out in paragraphs 10 b to e inclusive and
+	c	to search the premises and any thing on the premises for the kinds of evidential material specified in the warrant and to seize things of those kinds found at the premises and
+	d	to seize other things found at the premises in the course of the search that the executing officer or an officer assisting believes on reasonable grounds to be
+	i	evidential material in relation to an offence to which the warrant relates or
+	ii	evidential material in relation to another offence against this Act
+if the executing officer or an officer assisting believes on reasonable grounds that seizure of the thing is necessary to prevent its concealment loss or destruction or its use in committing an offence against this Act
+	2	If the warrant states that it may be executed only during particular hours the warrant must not be executed outside those hours
+	3	If things are seized under a warrant the warrant authorizes the executing officer to make the things available to officers of other agencies if it is necessary to do so for the purpose of investigating or prosecuting an offence to which the things relate
+Division 4 Warrants granted by telephone or other electronic means
+10 G  Warrants may be granted by telephone or other electronic means
+	1	An authorized officer may apply to a magistrate for a warrant under section 10 B or 10 E by telephone facsimile or other electronic means
+	a	in an urgent case or
+	b	if the delay that would occur if an application were made in person would frustrate the effective execution of the warrant
+	2	The magistrate may require voice communication to the extent that it is practicable in the circumstances
+	3	An application under this section must include all information required to be provided in an ordinary application for a warrant under section 10 B or 10 E as the case requires but the application may if necessary be made before the information is sworn or affirmed
+	4	If a magistrate to whom an application is made under this section is satisfied
+	a	after having considered the information mentioned in subsection 3 and
+	b	after having received any further information that the magistrate requires about the grounds on which the issue of the warrant is being sought
+that there are reasonable grounds for issuing the warrant the magistrate may complete and sign the same form of warrant that would be issued under section 10 B or 10 E as the case requires
+	5	If a magistrate signs a warrant under subsection 4
+	a	the magistrate must notify the authorized officer by telephone facsimile or other electronic means of the terms of the warrant and the date on which and the time at which it was signed and write on it the reasons for the granting of the warrant and
+	b	the officer must complete a form of warrant in the terms notified to the officer by the magistrate and write on it the name of the magistrate and the date on which and the time at which the warrant was signed
+	6	If an authorized officer completes a form of warrant under subsection 5 the officer must not later than the day after the day on which the warrant ended or was executed whichever is the earlier give or transmit to the magistrate who signed the warrant the form of warrant completed by the officer and if the information mentioned in subsection 3 was not sworn or affirmed that information duly sworn or affirmed
+	7	The magistrate must attach to the documents provided under subsection 6 the warrant signed by the magistrate
+	8	A form of warrant duly completed by an authorized officer under subsection 5 is if it is in accordance with the terms of the warrant signed by the magistrate authority for any entry search seizure or other exercise of power that the warrant so signed authorizes
+	9	If
+	a	it is material in any proceedings for a court to be satisfied that an exercise of power was authorized under this section and
+	b	the warrant signed by the magistrate under this section authorizing the exercise of power is not produced in evidence
+the court must assume unless the contrary is proved that the exercise of power was not authorized by such a warrant
+Division 5 Stopping and searching aircraft vehicles or ships
+10 H  Searches without warrant in emergency situations
+	1	This section applies if an authorized officer suspects on reasonable grounds that
+	a	particular evidential material is in or on an aircraft vehicle or ship and
+	b	it is necessary to exercise a power under subsection 2 in order to prevent the evidential material being concealed lost or destroyed and
+	c	it is necessary to exercise the power without the authority of a warrant under section 10 E because the circumstances are serious and urgent
+	2	The authorized officer may
+	a	stop and detain the aircraft vehicle or ship and
+	b	search the aircraft vehicle or ship and any thing in or on the aircraft vehicle or ship for the evidential material and
+	c	seize the evidential material if he or she finds it there
+	3	If in the course of searching for the evidential material the authorized officer finds other evidential material the authorized officer may seize that other evidential material if he or she suspects on reasonable grounds that
+	a	it is necessary to seize it in order to prevent its concealment loss or destruction and
+	b	it is necessary to seize it without the authority of a warrant under section 10 E because the circumstances are serious and urgent
+	4	The authorized officer must exercise his or her powers subject to section 10 J
+10 J  How an authorized officer exercises a power under section 10 H
+		When an authorized officer exercises a power under section 10 H in relation to an aircraft vehicle or ship he or she
+	a	may use such assistance as is necessary and
+	b	must search the aircraft vehicle or ship in a public place or in some other place to which members of the public have ready access and
+	c	must not detain the aircraft vehicle or ship for longer than is necessary and reasonable to search it and any thing found in or on the aircraft vehicle or ship and
+	d	may use such force as is necessary and reasonable in the circumstances but must not damage the aircraft vehicle or ship or any thing found in or on the aircraft vehicle or ship by forcing open a part of the aircraft vehicle or ship or thing unless
+	i	the person if any apparently in charge of the aircraft vehicle or ship has been given a reasonable opportunity to open that part or thing or
+	ii	it is not possible to give that person such an opportunity
+Division 6 General rules about registered premises premises entered by consent and warrants
+11  Availability of assistance and use of force in executing a warrant
+		In executing a warrant
+	a	the executing officer may obtain such assistance as is necessary and reasonable in the circumstances and
+	b	the executing officer or an authorized officer who is assisting in executing the warrant may use such force against persons and things as is necessary and reasonable in the circumstances and
+	c	a person who is not an authorized officer but who has been authorized to assist in executing the warrant may use such force against things as is necessary and reasonable in the circumstances
+11 A  Announcement before entry under warrants
+	1	The executing officer must before any person enters premises under a warrant
+	a	announce that he or she is authorized by the warrant to enter the premises and
+	b	give any person at the premises an opportunity to allow entry to the premises
+	2	The authorized officer does not have to comply with subsection 1 if he or she believes on reasonable grounds that immediate entry to the premises is required to ensure
+	a	the safety of a person including the authorized officer or
+	b	that the effective execution of the warrant is not frustrated
+11 B  Details of warrant to be given to occupier etc
+	1	If a warrant in relation to premises is being executed and the occupier of the premises or another person who apparently represents the occupier is present at the premises the executing officer or an officer assisting must make a copy of the warrant available to that person
+	2	The executing officer must identify himself or herself to the person at the premises
+	3	The copy of the warrant referred to in subsection 1 need not include the signature of the magistrate who issued the warrant
+11 C  Occupier entitled to be present during search under warrants
+	1	If a warrant issued in relation to premises is being executed and the occupier of the premises or another person who apparently represents the occupier is present at the premises the person is subject to Part 1 C of the Crimes Act 1914 entitled to observe the search being conducted
+	2	The right to observe the search being conducted ceases if the person impedes the search
+	3	This section does not prevent 2 or more areas of the premises being searched at the same time
+11 D  Use of equipment to examine or process things
+	1	A person who enters premises under this Part may bring to the premises and use any equipment reasonably necessary for the examination or processing of things found at the premises for the purposes of exercising a power conferred on the person under this Part
+	2	If
+	a	it is not practicable to examine or process the things at the premises or
+	b	the occupier of the premises consents in writing
+the things may be moved to another place so that the examination or processing can be carried out
+	3	If things containing electronically stored information are moved to another place under subsection 2 the person referred to in subsection 1 must if it is practicable to do so
+	a	tell the occupier the address of the place and the time at which the examination or processing will be carried out and
+	b	allow the occupier or a representative of the occupier to be present during the examination or processing
+	4	A person who enters premises under this Part may operate equipment already at the premises to carry out the examination or processing of a thing found at the premises for the purposes of exercising a power conferred on the person under this Part if the person believes on reasonable grounds that
+	a	the equipment is suitable for the examination or processing and
+	b	the examination or processing can be carried out without damage to the equipment or the thing
+11 E  Use of electronic equipment at premises
+	1	A person who enters premises under this Part may operate electronic equipment at the premises for the purposes of exercising a power conferred on the person under this Part if he or she believes on reasonable grounds that the operation of the equipment can be carried out without damage to the equipment
+	2	If the person after operating the equipment finds that evidential material is accessible by doing so he or she may
+	a	seize the equipment and any disk tape or other associated device or
+	b	if the material can by using facilities at the premises be put in documentary formoperate the facilities to put the material in that form and seize the documents so produced or
+	c	if the material can be transferred to a disk tape or other storage device that
+	i	is brought to the premises or
+	ii	is at the premises and the use of which for the purpose has been agreed to in writing by the occupier of the premises
+operate the equipment or other facilities to copy the material to the storage device and take the storage device from the premises
+	3	A person may seize equipment under paragraph 2 a only if
+	a	it is not practicable to put the material in documentary form as mentioned in paragraph 2 b or to copy the material as mentioned in paragraph 2 c or
+	b	possession of the equipment by the occupier could constitute an offence
+	4	If the person believes on reasonable grounds that
+	a	evidential material may be accessible by operating electronic equipment at the premises and
+	b	expert assistance is required to operate the equipment and
+	c	if he or she does not take action under this subsection the material may be destroyed altered or otherwise interfered with
+he or she may do whatever is necessary to secure the equipment whether by locking it up placing a guard or otherwise
+	5	The person must give notice to the occupier of the premises of his or her intention to secure equipment and of the fact that the equipment may be secured for up to 24 hours
+	6	The equipment may be secured
+	a	for a period not exceeding 24 hours or
+	b	until the equipment has been operated by the expert
+whichever happens first
+	7	If the person believes on reasonable grounds that the expert assistance will not be available within 24 hours he or she may apply to a magistrate for an extension of that period
+	8	The person must give notice to the occupier of the premises of his or her intention to apply for an extension and the occupier is entitled to be heard in relation to the application
+11 F  Compensation for damage to equipment
+	1	If
+	a	equipment is damaged because of being operated as mentioned in section 11 D or 11 E and 
+	b	the damage was caused by
+	i	insufficient care being exercised in selecting the person who was to operate the equipment or
+	ii	insufficient care being exercised by the person other than the occupier or a person employed by the occupier operating the equipment
+compensation for the damage is payable to the owner of the equipment
+	2	Compensation is payable out of money appropriated by the Parliament for the purpose
+	3	In determining the amount of compensation payable regard is to be had to whether the occupier of the premises and the employees and agents of the occupier if they were available at the time had provided any warning or guidance as to the operation of the equipment that was appropriate in the circumstances
+11 G  Copies of seized things to be given
+	1	Subject to subsection 2 if a person who enters premises under this Part seizes
+	a	a document film computer file or other thing that can readily be copied or
+	b	a storage device the information in which can readily be copied
+the person must if asked to do so by the occupier of the premises or another person who apparently represents the occupier and is present when the seizure takes place give a copy of the thing or the information to that person as soon as practicable after the seizure
+	2	Subsection 1 does not apply if
+	a	the thing that has been seized was seized under paragraph 11 E 2 b or c or
+	b	possession by the occupier of the document film computer file thing or information could constitute an offence
+11 H  Retention of things which are seized
+	1	Subject to any contrary order of a court if a person seizes a thing under this Part the person must return it if
+	a	the reason for its seizure no longer exists or it is decided that it is not to be used in evidence or
+	b	the period of 60 days after its seizure ends
+whichever first occurs unless the thing is forfeited or forfeitable to the Commonwealth or is the subject of a dispute as to ownership
+	2	At the end of the 60 days specified in subsection 1 the person must take reasonable steps to return the thing to the person from whom it was seized or to the owner if that person is not entitled to possess it unless
+	a	proceedings in which the thing may be used in evidence were begun before the end of the 60 days and have not been completed including an appeal to a court in relation to those proceedings or
+	b	the officer may retain the thing because of an order under section 11 J or
+	c	the officer is otherwise authorized or required by a law or an order of a court of the Commonwealth or of a State or a Territory to retain destroy or dispose of the thing
+11 J  Magistrate may permit a thing to be kept
+	1	If a person seizes a thing under this Part and
+	a	before the end of 60 days after the seizure or
+	b	before the end of a period previously stated in an order of a magistrate under this section
+proceedings in which the thing may be used in evidence have not been brought the officer may apply to a magistrate for an order that he or she may keep the thing for a further period
+	2	If the magistrate is satisfied that it is necessary for the authorized officer to continue to keep the thing
+	a	for the purposes of an investigation as to whether an offence has been committed or
+	b	to enable evidence of an offence to be secured for the purposes of a prosecution
+the magistrate may order that the officer may keep the thing for a period stated in the order
+	3	Before making the application the authorized officer must
+	a	take reasonable steps to discover who has an interest in the retention of the thing and
+	b	if it is practicable to do so notify each person who the authorized officer believes to have such an interest of the proposed application
+	4	A function of making an order conferred on a magistrate by this section is conferred on the magistrate in a personal capacity and not as a court or a member of a court
+	5	Without limiting the generality of subsection 4 an order made by a magistrate under this section has effect only by virtue of this Act and is not taken by implication to be made by a court
+	6	A magistrate performing a function of or connected with making an order under this section has the same protection and immunity as if he or she were performing that function as or as a member of a court being the court of which the magistrate is a member
+	7	The GovernorGeneral may make arrangements with the Governor of a State the Chief Minister for the Australian Capital Territory or the Administrator of the Northern Territory for the performance by all or any of the persons who from time to time hold office as magistrates in that State or Territory of the function of making orders under this section
+11 K  Release of seized goods
+		The Secretary may authorize any evidential material seized under this Part to be released to the owner or to the person from whose possession it was seized either unconditionally or on any conditions that the Secretary thinks fit
+11 L  Authorized officer must produce identity card
+		An authorized officer may not exercise any powers under this Part in relation to premises other than premises entered under a warrant if
+	a	the occupier of the premises has required the officer to produce his or her identity card for inspection by the occupier and
+	b	the officer fails to comply with the requirement
+11 M  Giving of consent
+	1	Before obtaining the consent of a person for the purposes of entering premises under section 10 A or 10 D an authorized officer must tell the person that the person may refuse to give consent
+	2	An entry by an authorized officer in consequence of the consent of a person is not lawful unless the person voluntarily consented to the entry
+11 N  Receipts for things seized 
+	1	If a thing is seized under this Part or moved under subsection 11 D 2 an authorized officer must provide a receipt for the thing
+	2	If 2 or more things are seized or moved they may be covered in the one receipt
+Division 7 Offences
+11 P  Power of authorized officer to require information or documents
+	1	Subject to subsection 2 an authorized officer who has entered registered premises or any other premises under a warrant may to the extent that is reasonably necessary for the purpose of finding out whether any or all of the provisions of this Act are being complied with require a person to give information to the officer and to produce any documents referred to by the officer
+	2	An authorized officer who has entered any premises with the consent of the occupier may ask the occupier to give information to the officer and to produce any documents referred to by the officer
+	3	An authorized officer is not entitled to make a requirement of a person under subsection 1 unless the officer produces his or her identity card for inspection by the person
+	4	A person must not fail to comply with a requirement under subsection 1
+Penalty	30 penalty units
+11 Q  Secretary may require information or documents
+	1	The Secretary may by written notice given to a person require the person within a reasonable time stated in the notice to give the Secretary any information or produce to the Secretary any documents referred to in the notice that relate to any prescribed goods that have been or are proposed to be exported
+	2	Without limiting subsection 1 the information or documents referred to in the notice may relate to
+	a	the preparation of any prescribed goods that have been or are proposed to be exported or
+	b	the material or ingredients of which such goods are or are proposed to be composed or from which they are or are proposed to be derived or
+	c	any animals that are proposed to be used or have been used in the preparation of such goods or
+	d	the source of
+	i	any prescribed goods of the kind mentioned in paragraph a or
+	ii	any material or ingredients of the kind mentioned in paragraph b or
+	iii	any animals of the kind mentioned in paragraph c
+	3	A person must not fail to comply with a notice under subsection 1
+Penalty	Imprisonment for 12 months
+Note	Subsection 4 B 2 of the Crimes Act 1914 allows a court to impose an appropriate fine instead of or in addition to a term of imprisonment If a body corporate is convicted of the offence subsection 4 B 3 of that Act allows a court to impose a fine of an amount that is not greater than 5 times the maximum fine that could be imposed by the court on an individual convicted of the same offence
+	4	A person is not excused from giving information or producing a document under subsection 1 on the ground that the information or the production of the document as the case may be might tend to incriminate the person or make the person liable to a penalty 
+	5	However if the information is given or the document is produced by an individual the information or the production of the document and any information or thing including any document obtained as a direct or indirect result of the giving of the information or the production of the document as the case may be is not admissible in evidence against the individual in proceedings other than proceedings for an offence against section 16
+17  Section 12
+After powers insert  or in the performance of the authorized officers functions
+18  Subsection 131
+Repeal the subsection but not the penalty substitute
+	1	Subject to subsection 2 the owner or occupier of premises entered by an authorized officer under this Part must if requested by an authorized officer to do so provide reasonable assistance to the authorized officer for the purpose of the exercise of the authorized officers powers under this Part in relation to the premises
+19  Subsection 191
+After powers insert or functions
+20  Subsection 192
+After power insert or function
+21  Subsection 193
+After power insert  or the performance of a function
+22  Section 20
+Omit all the words from and including the purpose of to and including in the instrument substitute
+		the purpose of
+	a	the exercise by that person or those persons of the powers of an authorized officer under this Act or of such of those powers as are specified in the instrument or
+	b	the performance by that person or those persons of the functions of an authorized officer under this Act or of such of those functions as are specified in the instrument
+23  Subsections 221 and 2
+After authority insert  or in the performance or purported performance of any function
+24  Subsections 221 and 2
+Omit or the regulations
+25  Paragraph 231 b
+Omit or the regulations
+26  Subsections 24 A 1 3 6 and 7
+Omit or the regulations
+27  Paragraph 252 a
+Omit of substitute of premises
+28  Subparagraphs 252 ai and ii
+Repeal the subparagraphs
+29  Paragraph 252 e
+Omit or the regulations
+30  Paragraph 252 f
+Omit 1000 substitute 50 penalty units
+31  After paragraph 255 a
+Insert
+	ab	any matter contained in any instrument or writing that
+	i	sets out the requirements for the preparation of prescribed goods in Australia that are to be imported into a country and
+	ii	is made by the authority or body in that country responsible for regulating the importation of prescribed goods into that country
+as in force at a particular time or as in force from time to time or
+32  Persons exercising certain powers and functions
+1	If immediately before the commencement of this Schedule an order conferred or purported to confer a power or function on an authorized officer the order in so far as it conferred or purported to confer the power or function is taken to have been validly made for all purposes and continues to have effect according to its terms on and after that commencement
+2	If before the commencement of this Schedule
+	a	a person had been approved or was included in a class of persons that had been approved under an order to exercise a power or perform a function that was otherwise required under the order to be performed or exercised by an authorized officer and
+	b	the approval had not been revoked
+the approval is taken to have been validly made for all purposes and continues to have effect according to its terms on and after that commencement
+ 
+Schedule 4 Amendment of the Imported Food Control Act 1992
+  
+1  Subsection 31
+Insert
+imported as a trade sample in relation to food has the meaning given by subsection 73
+2  At the end of subsection 71
+Add
+	 or d	food that is imported as a trade sample
+3  Subsection 72
+After consumption insert if it has not been imported as a trade sample and
+4  At the end of section 7
+Add
+	3	Food of a particular kind is imported as a trade sample if
+	a	the food is imported for the purposes of scientific or commercial evaluation and
+	b	the food is not imported for consumption by any person and
+	c	the food is
+	i	in liquid form and has a volume of less than 20 litres or such lesser volume if any as is prescribed by the regulations in respect of food of that kind or
+	ii	not in liquid form and has a weight of 20 kilograms or such lesser weight if any as is prescribed by the regulations in respect of food of that kind
+5  After subsection 91
+Insert
+	1 A	A person other than an officer of Customs or an authorised officer acting in the course of his or her duties must not deal in any manner with examinable food that the person knows
+	a	has been imported into Australia and
+	b	is food in respect of which a food control certificate has been issued and
+	c	is food for which an imported food inspection advice has not been issued
+unless the owner of the food obtains the approval of an authorised officer to deal with the food in that manner
+Penalty	Imprisonment for 10 years
+6  Subsection 93
+After 1 insert  1 A
+7  Subsection 93
+After 1 a and b insert  1 Aa b and c
+8  Subsection 191
+Omit to substitute under subsection 1 A
+9  Paragraphs 191 a and b
+Repeal the paragraphs
+10  After subsection 191
+Insert
+	1 A	The Secretary may
+	a	approve a food processing operation mentioned in subsection 1 for the purposes of this Part or
+	b	revoke any such approval
+11  Subsection 192
+Omit 1 substitute 1 A
+12  After subparagraph 35 ci
+Insert
+	ia	has been identified in an imported food inspection advice as failing food or
+13  At the end of section 35
+Add
+	2	Without limiting subsection 1 the Secretary may publish
+	a	the name of the importer of the food or
+	b	the brand of the food
+14  After subsection 391
+Insert
+	1 A	The Secretary may approve the payment of compensation in respect of food if
+	a	the Secretary is satisfied on reasonable grounds that the food is no longer suitable for the purpose for which it was imported as a result of an inspection or inspection and analysis of the food under the Food Inspection Scheme and
+	b	a claim for compensation is made by or on behalf of the owner in an approved form accompanied by such documents as are required by the form to accompany the claim
+15  Subsection 393
+Omit this section substitute subsection 1
+16  After subsection 393
+Insert
+	3 A	The compensation payable under subsection 1 A in respect of food is the amount agreed between the Secretary and the owner or owners of the food as being the difference between the market value of the food immediately before it became unsuitable for the purpose for which it was imported and the amount if any for which the food is sold by the owner or owners
+17  Subsection 394
+Omit at the time of its destruction substitute at the time referred to in subsection 3 or 3 A as the case requires
+18  Subsection 396 definition of owner
+Omit that is permitted to be treated or required to be destroyed or reexported
+19  Subsection 421 definition of reviewable decision
+Omit 4 substitute 5
+ 
+Schedule 5 Amendment of the Plant Breeders Rights Act 1994
+  
+1  Subsection 31
+Insert
+plant class for the purpose of variety denomination means a class consisting of all plants
+	a	that belong to a single botanical genus or 
+	b	that belong to a group of closely related genera
+that is specified from time to time as a plant class in the Registrars List of Plant Classes maintained under subsection 611 A
+2  Subsection 31
+Insert
+Union means the Union for the Protection of New Varieties of Plants as defined in Article 1 of the Convention
+3  Paragraph 275 a
+After another plant variety insert of the same plant class
+4  Subparagraphs 531 ci and ii
+Repeal the subparagraphs substitute
+	i	any other plant variety of the same plant class or
+	ii	a plant of any other variety of the same plant class
+5  After subsection 611
+Insert
+	1 A	The Registrar must maintain for the purposes of this Act a list of all plant classes to be known as the Registrars List of Plant Classes
+	1 B	In maintaining that list the Registrar must for so long as the Union maintains the document presently known as the List of Classes for Variety Denomination Purposes have regard to that list and to any variations to that list as so maintained
+	1 C	The list maintained by the Registrar must be kept as a part of the Register
+6  At the end of section 62
+Add
+	3	For the purposes of subsection 2 a reference to an entry in the Register does not include a reference to the Registrars List of Plant Classes or to any part of that list
+
+
+
+Ministers second reading speech made in
+House of Representatives on 3 December 1998
+Senate on 8 March 1999
+
+
+
+
+
+
+
+
+
+23098"""@en-AU ;
+    dct:hasPart C2004A00398:4,
+        C2004A00398:5,
+        C2004A00398:6,
+        C2004A00398:7,
+        C2004A00398:8 ;
+    dct:isReferencedBy C2004A00398: ;
+    rdfs:comment """3  Schedules
+		Each Act that is specified in a Schedule to this Act is amended or repealed as set out in the applicable items in the Schedule concerned and any other item in a Schedule to this Act has effect according to its terms
+ 
+Schedule 1 Amendment of the Agricultural and Veterinary Chemicals Administration Act 1992
+  
+1  After Part 7 A
+Insert
+Part 7 BModification of the Agvet Codes for the purpose of giving effect to paragraph 3 of Article 39 of the TRIPS Agreement
+  
+69 EV  Definitions
+	1	In this Part
+current application has the meaning given by section 69 EX
+information includes but is not limited to information obtained from trials or laboratory experiments
+previous application has the meaning given by section 69 EX
+relevant information has the meaning given by section 69 EX
+	2	Expressions used in this Part that are defined or otherwise used in the Code set out in the Schedule to the Agricultural and Veterinary Chemicals Code Act 1994 have the same meanings as in that Code
+69 EW  Modification of Agvet Codes
+	1	This Part modifies the Agvet Codes for the purpose of giving effect to Australias obligations under paragraph 3 of Article 39 of the Agreement on TradeRelated Aspects of Intellectual Property Rights set out in Annex 1 C to the Marrakesh Agreement establishing the World Trade Organization done at Marrakesh on 15 April 1994
+Note	The English text of the Marrakesh Agreement establishing the World Trade Organization is set out in Australian Treaty Series 1995 No 8
+	2	The Agvet Codes have effect subject to this Part
+69 EX  Application of Part
+		This Part applies to an application the current application made to the NRA after the commencement of this Part for approval of an active constituent for a proposed or existing chemical product where
+	a	the NRA cannot grant the application without using information the relevant information given to the NRA in connection with a previous application the previous application made to the NRA other than a previous application made before the commencement of this Part for approval of an active constituent for a proposed or existing chemical product and
+	b	the relevant information has not been made publicly available in Australia and
+	c	at the time immediately before the previous application was made no application had been made to the NRA for approval of the active constituent to which that application related
+69 EY  NRA not to grant current application except in certain circumstances
+		The NRA must not grant the current application unless
+	a	the person who made that application
+	i	has given to the NRA information that makes it unnecessary for the NRA to use the relevant information in connection with that application or
+	ii	has given to the NRA evidence that satisfies the NRA that the person who made the previous application has consented to the NRA using the relevant information in connection with the current application or
+	b	at least 5 years have elapsed since the previous application was determined by the NRA or was withdrawn as the case may be
+69 EZ  Approval given in contravention of section 69 EY is not invalid but is to be cancelled
+	1	If
+	a	the NRA approves an active constituent for a proposed or existing chemical product and
+	b	the NRA was prohibited by section 69 EY from giving the approval
+the approval is not invalid
+	2	However the NRA must cancel the approval when it finds out that the giving of the approval was prohibited by section 69 EY
+69 EZA  Power of NRA to grant multiple approvals to be subject to section 69 EY
+		The power of the NRA under subsection 161 of the Agvet Codes to approve the same active constituent for a proposed or existing chemical product on applications made by different persons is subject to section 69 EY
+69 EZB  Power of NRA to use information obtained by it for other purposes not to be affected
+		Except as provided by section 69 EY the power of the NRA under subsection 581 of the Agvet Codes to use information obtained by it from any source for the purpose of performing any of its functions or exercising any of its powers under those Codes is not affected
+ 
+Schedule 2 Amendment of the Dairy Produce Act 1986
+  
+1  Paragraph 106 c
+Omit section 108 E substitute sections 108 E and 108 EA
+2  Paragraph 106 d
+Omit section 108 F substitute sections 108 EB and 108 F
+3  After section 108 E
+Insert
+108 EA  Levy rebates Victorian gas supply failure
+	1	A manufacturer is entitled to be paid by the Corporation a manufacturing milk levy rebate in respect of a month if
+	a	the manufacturer paid manufacturing milk levy on manufacturing milk delivered to the manufacturer during that month and
+	b	the manufacturer destroyed some or all of the milk at the manufacturers factory during the period that started on 26 September 1998 and ended at the end of 5 October 1998 as a result of the gas supply failure in Victoria
+	2	The amount of the rebate payable to a manufacturer under this section is an amount equal to the difference between
+	a	the amount of manufacturing milk levy paid by the manufacturer in respect of the relevant month and
+	b	the amount of manufacturing milk levy that would have been imposed on the manufacturer in respect of that month if the quantity of milk destroyed had not been delivered to the manufacturer during that month
+	3	A manufacturing milk levy rebate is not payable under this section unless a written application in accordance with a form approved by the Corporation is submitted to the Corporation within 28 days after the commencement of this section
+	4	The Corporation may include in the approved application form a requirement that the whole or a part of the information contained in an application be verified by statutory declaration
+	5	As soon as practicable after it receives an application under this section the Corporation must
+	a	if it decides that the applicant is entitled to a rebatenotify the applicant in writing of its decision and of the amount of the rebate to which the applicant is entitled or
+	b	if it decides that the applicant is not entitled to a rebatenotify the applicant in writing of its decision
+	6	A notice under paragraph 5 a must set out the basis on which the Corporation has determined the amount of the rebate to which the applicant is entitled
+	7	A notice under paragraph 5 b must set out the reasons for the Corporations decision
+	8	If the Corporation gives an applicant a notice under paragraph 5 a it must at the same time pay the applicant the amount of rebate specified in the notice
+108 EB  Payment to milk producers Victorian gas supply failure
+	1	A producer is entitled to be paid by the Corporation an amount worked out under subsection 2 if
+	a	before 6 October 1998 the producer produced a quantity of milk for the purpose of delivering it to a manufacturer as manufacturing milk and
+	b	as a result of the gas failure in Victoria the producer did not deliver the quantity of milk to a manufacturer but destroyed it during the period that started on 26 September 1998 and ended at the end of 5 October 1998
+	2	The amount payable to a producer under this section is an amount equal to the amount of domestic market support payment that would have been payable by the Corporation to the producer if the producer had delivered the prescribed quantity of milk to a manufacturer
+	3	For the purposes of subsection 2 the prescribed quantity of milk is the quantity of milk destroyed less any of that milk in relation to which the producer has received or is entitled to receive a payment relating to liquid milk for human consumption in Australia
+	4	An amount is not payable under this section unless a written application in accordance with a form approved by the Corporation is submitted to the Corporation within 3 months after commencement of this section
+	5	An application may be made
+	a	by a producer or
+	b	by 2 or more producers jointly or
+	c	by a person on behalf of 1 or more producers
+	6	The Corporation may include in the approved application form a requirement that the whole or a part of the information contained in an application be verified by statutory declaration
+	7	As soon as practicable after it receives an application under this section the Corporation must
+	a	if it decides that the producer or any producer to whom the application relates is entitled to a paymentnotify the applicant in writing of its decision and of the amount of the payment or
+	b	if it decides that the producer or any producer to whom the application relates is not entitled to a paymentnotify the applicant in writing of its decision
+	8	A notice under paragraph 7 a must set out the basis on which the Corporation has determined the amount specified in the notice
+	9	A notice under paragraph 7 b must set out the reasons for the Corporations decision
+	10	If the Corporation gives an applicant a notice under paragraph 7 a it must at the same time pay the amount specified in the notice
+4  Subsection 1181 definition of relevant payment decision
+After 108 E insert  108 EA 108 EB
+ 
+Schedule 3 Amendment of the Export Control Act 1982
+  
+1  Section 3
+Insert
+enter in relation to an aircraft vehicle or ship includes go on board
+2  Section 3 definition of establishment
+Repeal the definition substitute
+establishment includes premises
+3  Section 3
+Insert
+evidential material means any of the following things including such a thing in electronic form
+	a	a thing with respect to which an offence against this Act has been committed or is suspected on reasonable grounds to have been committed
+	b	a thing as to which there are reasonable grounds for suspecting that it will afford evidence as to the commission of an offence against this Act
+	c	a thing as to which there are reasonable grounds for suspecting that it is intended to be used for the purpose of committing an offence against this Act
+4  Section 3
+Insert
+executing officer for a warrant means the person named in the warrant as being responsible for executing the warrant
+5  Section 3
+Insert
+magistrate means a magistrate who is remunerated by salary or otherwise
+6  Section 3
+Insert
+occupier of premises means the person apparently in charge of the premises
+7  Section 3 paragraph a of the definition of offence against this Act
+Repeal the paragraph
+8  Section 3 paragraphs b and c of the definition of offence against this Act
+Omit or the regulations
+9  Section 3
+Insert
+officer assisting in relation to a warrant means
+	a	an authorized officer who is assisting in executing the warrant or
+	b	a person who is not an authorized officer but who has been authorized by the relevant executing officer to assist in executing the warrant
+10  Section 3 definition of premises
+Repeal the definition substitute
+premises includes the following
+	a	a building aircraft vehicle or ship
+	b	a place whether enclosed or built on or not
+	c	a part of a thing or place referred to in paragraph a or b
+11  Section 3
+Insert
+preparation in relation to prescribed goods includes the following
+	a	the slaughter or killing of animals and the dressing of carcasses from which prescribed goods are obtained
+	b	the processing packing or storage of prescribed goods
+	c	the treatment of prescribed goods
+	d	the handling or loading of prescribed goods
+12  Section 3
+Insert
+this Act includes the regulations
+13  After subsection 73
+Insert
+	3 A	Without limiting the generality of subsection 2 regulations made for the purposes of subsection 1
+	a	may provide that the export of prescribed goods or the export of prescribed goods to a specified place is prohibited unless the goods have been prepared in accordance with an arrangement that has been approved by the Secretary and
+	b	may make provision for and in relation to
+	i	the approval of an arrangement subject to specified conditions or restrictions or
+	ii	the variation suspension or revocation of an approval of an arrangement or 
+	iii	the variation suspension or revocation of any or all of the conditions or restrictions to which an approval of an arrangement is subject or the imposition of further conditions or restrictions or 
+	iv	persons including persons approved by the Secretary under the regulations and authorized officers who may exercise powers and perform functions under or for the purposes of an approved arrangement
+14  Subsection 74
+Omit subparagraph 3 bii substitute subparagraphs 3 bii and 3 Abi
+15  Part III heading
+Repeal the heading substitute
+Part IIIEnforcement
+16  Sections 10 and 11
+Repeal the sections substitute
+Division 1 General powers
+10  General powers of authorized officers in relation to premises
+		The powers an authorized officer may exercise under paragraphs 10 A 1 b and 10 D 1 b in relation to particular premises are as follows
+	a	to search the premises and any thing on the premises
+	b	to inspect examine and take samples of any thing on the premises
+	c	to take photographs including video or audio recordings or to make sketches of the premises or any thing on the premises
+	d	to take extracts from or make copies of any document book or record on the premises
+	e	to secure the premises or any thing on the premises
+Division 2 Monitoring powers
+10 A  Monitoring registered premises and other premises entered by consent
+	1	For the purpose of finding out whether any or all of the provisions of this Act are being complied with an authorized officer at any time and with any necessary help may
+	a	enter
+	i	any registered premises or
+	ii	any other premises with the consent of the occupier and
+	b	exercise the powers set out in section 10
+	2	If the relevant premises are an aircraft vehicle or ship an authorized officer may stop and detain the aircraft vehicle or ship for the purpose of exercising a power mentioned in subsection 1
+10 B  Monitoring warrants
+	1	An authorized officer may apply to a magistrate for a warrant under this section in relation to particular premises
+	2	Subject to subsection 3 the magistrate may issue a warrant if satisfied by information on oath or affirmation that it is reasonably necessary that the authorized officer should have access to the premises for the purpose of finding out whether any or all of the provisions of this Act are being complied with
+	3	The magistrate must not issue a warrant unless the authorized officer or another person has given the magistrate either orally on oath or affirmation or by affidavit such further information as the magistrate requires about the grounds on which the issue of the warrant is being sought
+	4	A warrant must
+	a	authorize an authorized officer named in the warrant with such assistance and by such force as is necessary and reasonable from time to time while the warrant remains in force to enter the premises and exercise powers of the kind set out in section 10 in relation to the premises and
+	b	state whether an entry under the warrant is authorized to be made at any time of the day or night or during specified hours of the day or night and
+	c	specify the day not more than 6 months after the issue of the warrant on which the warrant ceases to have effect and
+	d	state the purpose for which the warrant is issued
+10 C  Seizures without offencerelated warrant in emergency situations
+	1	This section applies when an authorized officer has entered premises under section 10 A or under a warrant issued under section 10 B
+	2	If the authorized officer suspects on reasonable grounds that
+	a	particular evidential material is in or on the premises and
+	b	it is necessary to seize the evidential material in order to prevent it from being concealed lost or destroyed and
+	c	it is necessary to do so without the authority of a warrant under section 10 E because the circumstances are serious and urgent
+the authorized officer may seize the evidential material if he or she finds it there
+Division 3 Offencerelated searches and seizures
+10 D  Registered premises and premises entered by consentoffencerelated searches and seizures
+	1	Subject to subsection 2 if an authorized officer has reasonable grounds for suspecting that there may be on any premises particular evidential material the officer at any time and with any necessary help may
+	a	enter the premises and
+	b	exercise the powers set out in section 10 and
+	c	seize that evidential material if the officer finds it on the premises
+	2	An authorized officer is not authorized to enter premises under subsection 1 unless
+	a	the premises are registered premises or
+	b	the occupier of the premises has consented to the entry
+	3	If the relevant premises are an aircraft vehicle or ship an authorized officer may stop and detain the aircraft vehicle or ship for the purpose of exercising a power mentioned in subsection 1
+10 E  Offencerelated warrants
+	1	An authorized officer may apply to a magistrate for a warrant under this section in relation to particular premises
+	2	Subject to subsection 3 a magistrate may issue the warrant if satisfied by information on oath or affirmation that there are reasonable grounds for suspecting that there is or may be within the next 72 hours any evidential material at the premises
+	3	A magistrate must not issue a warrant unless the authorized officer or some other person has given the magistrate either orally on oath or affirmation or by affidavit such further information as the magistrate requires about the grounds on which the issue of the warrant is being sought
+	4	The warrant must
+	a	state the offence to which the warrant relates and
+	b	describe the premises to which the warrant relates and
+	c	describe the kinds of evidential material that are to be searched for under the warrant and
+	d	state the name of the authorized officer who is to be responsible for executing the warrant and
+	e	state the period for which the warrant remains in force which must not be more than 7 days and
+	f	state whether the warrant may be executed at any time or only during particular hours
+	5	The warrant must also state that the warrant authorizes the seizure of a thing other than evidential material of the kind referred to in paragraph 4 c found at the premises in the course of the search that the executing officer or an officer assisting believes on reasonable grounds to be
+	a	evidential material in relation to an offence to which the warrant relates or
+	b	evidential material in relation to another offence against this Act
+if the executing officer or an officer assisting believes on reasonable grounds that seizure of the thing is necessary to prevent its concealment loss or destruction or its use in committing an offence against this Act
+	6	Paragraph 4 e does not prevent the issue of successive warrants in relation to the same premises
+	7	If the application for the warrant is made under section 10 F this section applies as if
+	a	subsection 2 referred to 48 hours rather than 72 hours and
+	b	paragraph 4 e referred to 48 hours rather than 7 days
+10 F  The things that are authorized by a search warrant
+	1	A warrant under this Division that is in force in relation to premises authorizes the executing officer or an officer assisting
+	a	to enter the premises and
+	b	to exercise powers of the kind set out in paragraphs 10 b to e inclusive and
+	c	to search the premises and any thing on the premises for the kinds of evidential material specified in the warrant and to seize things of those kinds found at the premises and
+	d	to seize other things found at the premises in the course of the search that the executing officer or an officer assisting believes on reasonable grounds to be
+	i	evidential material in relation to an offence to which the warrant relates or
+	ii	evidential material in relation to another offence against this Act
+if the executing officer or an officer assisting believes on reasonable grounds that seizure of the thing is necessary to prevent its concealment loss or destruction or its use in committing an offence against this Act
+	2	If the warrant states that it may be executed only during particular hours the warrant must not be executed outside those hours
+	3	If things are seized under a warrant the warrant authorizes the executing officer to make the things available to officers of other agencies if it is necessary to do so for the purpose of investigating or prosecuting an offence to which the things relate
+Division 4 Warrants granted by telephone or other electronic means
+10 G  Warrants may be granted by telephone or other electronic means
+	1	An authorized officer may apply to a magistrate for a warrant under section 10 B or 10 E by telephone facsimile or other electronic means
+	a	in an urgent case or
+	b	if the delay that would occur if an application were made in person would frustrate the effective execution of the warrant
+	2	The magistrate may require voice communication to the extent that it is practicable in the circumstances
+	3	An application under this section must include all information required to be provided in an ordinary application for a warrant under section 10 B or 10 E as the case requires but the application may if necessary be made before the information is sworn or affirmed
+	4	If a magistrate to whom an application is made under this section is satisfied
+	a	after having considered the information mentioned in subsection 3 and
+	b	after having received any further information that the magistrate requires about the grounds on which the issue of the warrant is being sought
+that there are reasonable grounds for issuing the warrant the magistrate may complete and sign the same form of warrant that would be issued under section 10 B or 10 E as the case requires
+	5	If a magistrate signs a warrant under subsection 4
+	a	the magistrate must notify the authorized officer by telephone facsimile or other electronic means of the terms of the warrant and the date on which and the time at which it was signed and write on it the reasons for the granting of the warrant and
+	b	the officer must complete a form of warrant in the terms notified to the officer by the magistrate and write on it the name of the magistrate and the date on which and the time at which the warrant was signed
+	6	If an authorized officer completes a form of warrant under subsection 5 the officer must not later than the day after the day on which the warrant ended or was executed whichever is the earlier give or transmit to the magistrate who signed the warrant the form of warrant completed by the officer and if the information mentioned in subsection 3 was not sworn or affirmed that information duly sworn or affirmed
+	7	The magistrate must attach to the documents provided under subsection 6 the warrant signed by the magistrate
+	8	A form of warrant duly completed by an authorized officer under subsection 5 is if it is in accordance with the terms of the warrant signed by the magistrate authority for any entry search seizure or other exercise of power that the warrant so signed authorizes
+	9	If
+	a	it is material in any proceedings for a court to be satisfied that an exercise of power was authorized under this section and
+	b	the warrant signed by the magistrate under this section authorizing the exercise of power is not produced in evidence
+the court must assume unless the contrary is proved that the exercise of power was not authorized by such a warrant
+Division 5 Stopping and searching aircraft vehicles or ships
+10 H  Searches without warrant in emergency situations
+	1	This section applies if an authorized officer suspects on reasonable grounds that
+	a	particular evidential material is in or on an aircraft vehicle or ship and
+	b	it is necessary to exercise a power under subsection 2 in order to prevent the evidential material being concealed lost or destroyed and
+	c	it is necessary to exercise the power without the authority of a warrant under section 10 E because the circumstances are serious and urgent
+	2	The authorized officer may
+	a	stop and detain the aircraft vehicle or ship and
+	b	search the aircraft vehicle or ship and any thing in or on the aircraft vehicle or ship for the evidential material and
+	c	seize the evidential material if he or she finds it there
+	3	If in the course of searching for the evidential material the authorized officer finds other evidential material the authorized officer may seize that other evidential material if he or she suspects on reasonable grounds that
+	a	it is necessary to seize it in order to prevent its concealment loss or destruction and
+	b	it is necessary to seize it without the authority of a warrant under section 10 E because the circumstances are serious and urgent
+	4	The authorized officer must exercise his or her powers subject to section 10 J
+10 J  How an authorized officer exercises a power under section 10 H
+		When an authorized officer exercises a power under section 10 H in relation to an aircraft vehicle or ship he or she
+	a	may use such assistance as is necessary and
+	b	must search the aircraft vehicle or ship in a public place or in some other place to which members of the public have ready access and
+	c	must not detain the aircraft vehicle or ship for longer than is necessary and reasonable to search it and any thing found in or on the aircraft vehicle or ship and
+	d	may use such force as is necessary and reasonable in the circumstances but must not damage the aircraft vehicle or ship or any thing found in or on the aircraft vehicle or ship by forcing open a part of the aircraft vehicle or ship or thing unless
+	i	the person if any apparently in charge of the aircraft vehicle or ship has been given a reasonable opportunity to open that part or thing or
+	ii	it is not possible to give that person such an opportunity
+Division 6 General rules about registered premises premises entered by consent and warrants
+11  Availability of assistance and use of force in executing a warrant
+		In executing a warrant
+	a	the executing officer may obtain such assistance as is necessary and reasonable in the circumstances and
+	b	the executing officer or an authorized officer who is assisting in executing the warrant may use such force against persons and things as is necessary and reasonable in the circumstances and
+	c	a person who is not an authorized officer but who has been authorized to assist in executing the warrant may use such force against things as is necessary and reasonable in the circumstances
+11 A  Announcement before entry under warrants
+	1	The executing officer must before any person enters premises under a warrant
+	a	announce that he or she is authorized by the warrant to enter the premises and
+	b	give any person at the premises an opportunity to allow entry to the premises
+	2	The authorized officer does not have to comply with subsection 1 if he or she believes on reasonable grounds that immediate entry to the premises is required to ensure
+	a	the safety of a person including the authorized officer or
+	b	that the effective execution of the warrant is not frustrated
+11 B  Details of warrant to be given to occupier etc
+	1	If a warrant in relation to premises is being executed and the occupier of the premises or another person who apparently represents the occupier is present at the premises the executing officer or an officer assisting must make a copy of the warrant available to that person
+	2	The executing officer must identify himself or herself to the person at the premises
+	3	The copy of the warrant referred to in subsection 1 need not include the signature of the magistrate who issued the warrant
+11 C  Occupier entitled to be present during search under warrants
+	1	If a warrant issued in relation to premises is being executed and the occupier of the premises or another person who apparently represents the occupier is present at the premises the person is subject to Part 1 C of the Crimes Act 1914 entitled to observe the search being conducted
+	2	The right to observe the search being conducted ceases if the person impedes the search
+	3	This section does not prevent 2 or more areas of the premises being searched at the same time
+11 D  Use of equipment to examine or process things
+	1	A person who enters premises under this Part may bring to the premises and use any equipment reasonably necessary for the examination or processing of things found at the premises for the purposes of exercising a power conferred on the person under this Part
+	2	If
+	a	it is not practicable to examine or process the things at the premises or
+	b	the occupier of the premises consents in writing
+the things may be moved to another place so that the examination or processing can be carried out
+	3	If things containing electronically stored information are moved to another place under subsection 2 the person referred to in subsection 1 must if it is practicable to do so
+	a	tell the occupier the address of the place and the time at which the examination or processing will be carried out and
+	b	allow the occupier or a representative of the occupier to be present during the examination or processing
+	4	A person who enters premises under this Part may operate equipment already at the premises to carry out the examination or processing of a thing found at the premises for the purposes of exercising a power conferred on the person under this Part if the person believes on reasonable grounds that
+	a	the equipment is suitable for the examination or processing and
+	b	the examination or processing can be carried out without damage to the equipment or the thing
+11 E  Use of electronic equipment at premises
+	1	A person who enters premises under this Part may operate electronic equipment at the premises for the purposes of exercising a power conferred on the person under this Part if he or she believes on reasonable grounds that the operation of the equipment can be carried out without damage to the equipment
+	2	If the person after operating the equipment finds that evidential material is accessible by doing so he or she may
+	a	seize the equipment and any disk tape or other associated device or
+	b	if the material can by using facilities at the premises be put in documentary formoperate the facilities to put the material in that form and seize the documents so produced or
+	c	if the material can be transferred to a disk tape or other storage device that
+	i	is brought to the premises or
+	ii	is at the premises and the use of which for the purpose has been agreed to in writing by the occupier of the premises
+operate the equipment or other facilities to copy the material to the storage device and take the storage device from the premises
+	3	A person may seize equipment under paragraph 2 a only if
+	a	it is not practicable to put the material in documentary form as mentioned in paragraph 2 b or to copy the material as mentioned in paragraph 2 c or
+	b	possession of the equipment by the occupier could constitute an offence
+	4	If the person believes on reasonable grounds that
+	a	evidential material may be accessible by operating electronic equipment at the premises and
+	b	expert assistance is required to operate the equipment and
+	c	if he or she does not take action under this subsection the material may be destroyed altered or otherwise interfered with
+he or she may do whatever is necessary to secure the equipment whether by locking it up placing a guard or otherwise
+	5	The person must give notice to the occupier of the premises of his or her intention to secure equipment and of the fact that the equipment may be secured for up to 24 hours
+	6	The equipment may be secured
+	a	for a period not exceeding 24 hours or
+	b	until the equipment has been operated by the expert
+whichever happens first
+	7	If the person believes on reasonable grounds that the expert assistance will not be available within 24 hours he or she may apply to a magistrate for an extension of that period
+	8	The person must give notice to the occupier of the premises of his or her intention to apply for an extension and the occupier is entitled to be heard in relation to the application
+11 F  Compensation for damage to equipment
+	1	If
+	a	equipment is damaged because of being operated as mentioned in section 11 D or 11 E and 
+	b	the damage was caused by
+	i	insufficient care being exercised in selecting the person who was to operate the equipment or
+	ii	insufficient care being exercised by the person other than the occupier or a person employed by the occupier operating the equipment
+compensation for the damage is payable to the owner of the equipment
+	2	Compensation is payable out of money appropriated by the Parliament for the purpose
+	3	In determining the amount of compensation payable regard is to be had to whether the occupier of the premises and the employees and agents of the occupier if they were available at the time had provided any warning or guidance as to the operation of the equipment that was appropriate in the circumstances
+11 G  Copies of seized things to be given
+	1	Subject to subsection 2 if a person who enters premises under this Part seizes
+	a	a document film computer file or other thing that can readily be copied or
+	b	a storage device the information in which can readily be copied
+the person must if asked to do so by the occupier of the premises or another person who apparently represents the occupier and is present when the seizure takes place give a copy of the thing or the information to that person as soon as practicable after the seizure
+	2	Subsection 1 does not apply if
+	a	the thing that has been seized was seized under paragraph 11 E 2 b or c or
+	b	possession by the occupier of the document film computer file thing or information could constitute an offence
+11 H  Retention of things which are seized
+	1	Subject to any contrary order of a court if a person seizes a thing under this Part the person must return it if
+	a	the reason for its seizure no longer exists or it is decided that it is not to be used in evidence or
+	b	the period of 60 days after its seizure ends
+whichever first occurs unless the thing is forfeited or forfeitable to the Commonwealth or is the subject of a dispute as to ownership
+	2	At the end of the 60 days specified in subsection 1 the person must take reasonable steps to return the thing to the person from whom it was seized or to the owner if that person is not entitled to possess it unless
+	a	proceedings in which the thing may be used in evidence were begun before the end of the 60 days and have not been completed including an appeal to a court in relation to those proceedings or
+	b	the officer may retain the thing because of an order under section 11 J or
+	c	the officer is otherwise authorized or required by a law or an order of a court of the Commonwealth or of a State or a Territory to retain destroy or dispose of the thing
+11 J  Magistrate may permit a thing to be kept
+	1	If a person seizes a thing under this Part and
+	a	before the end of 60 days after the seizure or
+	b	before the end of a period previously stated in an order of a magistrate under this section
+proceedings in which the thing may be used in evidence have not been brought the officer may apply to a magistrate for an order that he or she may keep the thing for a further period
+	2	If the magistrate is satisfied that it is necessary for the authorized officer to continue to keep the thing
+	a	for the purposes of an investigation as to whether an offence has been committed or
+	b	to enable evidence of an offence to be secured for the purposes of a prosecution
+the magistrate may order that the officer may keep the thing for a period stated in the order
+	3	Before making the application the authorized officer must
+	a	take reasonable steps to discover who has an interest in the retention of the thing and
+	b	if it is practicable to do so notify each person who the authorized officer believes to have such an interest of the proposed application
+	4	A function of making an order conferred on a magistrate by this section is conferred on the magistrate in a personal capacity and not as a court or a member of a court
+	5	Without limiting the generality of subsection 4 an order made by a magistrate under this section has effect only by virtue of this Act and is not taken by implication to be made by a court
+	6	A magistrate performing a function of or connected with making an order under this section has the same protection and immunity as if he or she were performing that function as or as a member of a court being the court of which the magistrate is a member
+	7	The GovernorGeneral may make arrangements with the Governor of a State the Chief Minister for the Australian Capital Territory or the Administrator of the Northern Territory for the performance by all or any of the persons who from time to time hold office as magistrates in that State or Territory of the function of making orders under this section
+11 K  Release of seized goods
+		The Secretary may authorize any evidential material seized under this Part to be released to the owner or to the person from whose possession it was seized either unconditionally or on any conditions that the Secretary thinks fit
+11 L  Authorized officer must produce identity card
+		An authorized officer may not exercise any powers under this Part in relation to premises other than premises entered under a warrant if
+	a	the occupier of the premises has required the officer to produce his or her identity card for inspection by the occupier and
+	b	the officer fails to comply with the requirement
+11 M  Giving of consent
+	1	Before obtaining the consent of a person for the purposes of entering premises under section 10 A or 10 D an authorized officer must tell the person that the person may refuse to give consent
+	2	An entry by an authorized officer in consequence of the consent of a person is not lawful unless the person voluntarily consented to the entry
+11 N  Receipts for things seized 
+	1	If a thing is seized under this Part or moved under subsection 11 D 2 an authorized officer must provide a receipt for the thing
+	2	If 2 or more things are seized or moved they may be covered in the one receipt
+Division 7 Offences
+11 P  Power of authorized officer to require information or documents
+	1	Subject to subsection 2 an authorized officer who has entered registered premises or any other premises under a warrant may to the extent that is reasonably necessary for the purpose of finding out whether any or all of the provisions of this Act are being complied with require a person to give information to the officer and to produce any documents referred to by the officer
+	2	An authorized officer who has entered any premises with the consent of the occupier may ask the occupier to give information to the officer and to produce any documents referred to by the officer
+	3	An authorized officer is not entitled to make a requirement of a person under subsection 1 unless the officer produces his or her identity card for inspection by the person
+	4	A person must not fail to comply with a requirement under subsection 1
+Penalty	30 penalty units
+11 Q  Secretary may require information or documents
+	1	The Secretary may by written notice given to a person require the person within a reasonable time stated in the notice to give the Secretary any information or produce to the Secretary any documents referred to in the notice that relate to any prescribed goods that have been or are proposed to be exported
+	2	Without limiting subsection 1 the information or documents referred to in the notice may relate to
+	a	the preparation of any prescribed goods that have been or are proposed to be exported or
+	b	the material or ingredients of which such goods are or are proposed to be composed or from which they are or are proposed to be derived or
+	c	any animals that are proposed to be used or have been used in the preparation of such goods or
+	d	the source of
+	i	any prescribed goods of the kind mentioned in paragraph a or
+	ii	any material or ingredients of the kind mentioned in paragraph b or
+	iii	any animals of the kind mentioned in paragraph c
+	3	A person must not fail to comply with a notice under subsection 1
+Penalty	Imprisonment for 12 months
+Note	Subsection 4 B 2 of the Crimes Act 1914 allows a court to impose an appropriate fine instead of or in addition to a term of imprisonment If a body corporate is convicted of the offence subsection 4 B 3 of that Act allows a court to impose a fine of an amount that is not greater than 5 times the maximum fine that could be imposed by the court on an individual convicted of the same offence
+	4	A person is not excused from giving information or producing a document under subsection 1 on the ground that the information or the production of the document as the case may be might tend to incriminate the person or make the person liable to a penalty 
+	5	However if the information is given or the document is produced by an individual the information or the production of the document and any information or thing including any document obtained as a direct or indirect result of the giving of the information or the production of the document as the case may be is not admissible in evidence against the individual in proceedings other than proceedings for an offence against section 16
+17  Section 12
+After powers insert  or in the performance of the authorized officers functions
+18  Subsection 131
+Repeal the subsection but not the penalty substitute
+	1	Subject to subsection 2 the owner or occupier of premises entered by an authorized officer under this Part must if requested by an authorized officer to do so provide reasonable assistance to the authorized officer for the purpose of the exercise of the authorized officers powers under this Part in relation to the premises
+19  Subsection 191
+After powers insert or functions
+20  Subsection 192
+After power insert or function
+21  Subsection 193
+After power insert  or the performance of a function
+22  Section 20
+Omit all the words from and including the purpose of to and including in the instrument substitute
+		the purpose of
+	a	the exercise by that person or those persons of the powers of an authorized officer under this Act or of such of those powers as are specified in the instrument or
+	b	the performance by that person or those persons of the functions of an authorized officer under this Act or of such of those functions as are specified in the instrument
+23  Subsections 221 and 2
+After authority insert  or in the performance or purported performance of any function
+24  Subsections 221 and 2
+Omit or the regulations
+25  Paragraph 231 b
+Omit or the regulations
+26  Subsections 24 A 1 3 6 and 7
+Omit or the regulations
+27  Paragraph 252 a
+Omit of substitute of premises
+28  Subparagraphs 252 ai and ii
+Repeal the subparagraphs
+29  Paragraph 252 e
+Omit or the regulations
+30  Paragraph 252 f
+Omit 1000 substitute 50 penalty units
+31  After paragraph 255 a
+Insert
+	ab	any matter contained in any instrument or writing that
+	i	sets out the requirements for the preparation of prescribed goods in Australia that are to be imported into a country and
+	ii	is made by the authority or body in that country responsible for regulating the importation of prescribed goods into that country
+as in force at a particular time or as in force from time to time or
+32  Persons exercising certain powers and functions
+1	If immediately before the commencement of this Schedule an order conferred or purported to confer a power or function on an authorized officer the order in so far as it conferred or purported to confer the power or function is taken to have been validly made for all purposes and continues to have effect according to its terms on and after that commencement
+2	If before the commencement of this Schedule
+	a	a person had been approved or was included in a class of persons that had been approved under an order to exercise a power or perform a function that was otherwise required under the order to be performed or exercised by an authorized officer and
+	b	the approval had not been revoked
+the approval is taken to have been validly made for all purposes and continues to have effect according to its terms on and after that commencement
+ 
+Schedule 4 Amendment of the Imported Food Control Act 1992
+  
+1  Subsection 31
+Insert
+imported as a trade sample in relation to food has the meaning given by subsection 73
+2  At the end of subsection 71
+Add
+	 or d	food that is imported as a trade sample
+3  Subsection 72
+After consumption insert if it has not been imported as a trade sample and
+4  At the end of section 7
+Add
+	3	Food of a particular kind is imported as a trade sample if
+	a	the food is imported for the purposes of scientific or commercial evaluation and
+	b	the food is not imported for consumption by any person and
+	c	the food is
+	i	in liquid form and has a volume of less than 20 litres or such lesser volume if any as is prescribed by the regulations in respect of food of that kind or
+	ii	not in liquid form and has a weight of 20 kilograms or such lesser weight if any as is prescribed by the regulations in respect of food of that kind
+5  After subsection 91
+Insert
+	1 A	A person other than an officer of Customs or an authorised officer acting in the course of his or her duties must not deal in any manner with examinable food that the person knows
+	a	has been imported into Australia and
+	b	is food in respect of which a food control certificate has been issued and
+	c	is food for which an imported food inspection advice has not been issued
+unless the owner of the food obtains the approval of an authorised officer to deal with the food in that manner
+Penalty	Imprisonment for 10 years
+6  Subsection 93
+After 1 insert  1 A
+7  Subsection 93
+After 1 a and b insert  1 Aa b and c
+8  Subsection 191
+Omit to substitute under subsection 1 A
+9  Paragraphs 191 a and b
+Repeal the paragraphs
+10  After subsection 191
+Insert
+	1 A	The Secretary may
+	a	approve a food processing operation mentioned in subsection 1 for the purposes of this Part or
+	b	revoke any such approval
+11  Subsection 192
+Omit 1 substitute 1 A
+12  After subparagraph 35 ci
+Insert
+	ia	has been identified in an imported food inspection advice as failing food or
+13  At the end of section 35
+Add
+	2	Without limiting subsection 1 the Secretary may publish
+	a	the name of the importer of the food or
+	b	the brand of the food
+14  After subsection 391
+Insert
+	1 A	The Secretary may approve the payment of compensation in respect of food if
+	a	the Secretary is satisfied on reasonable grounds that the food is no longer suitable for the purpose for which it was imported as a result of an inspection or inspection and analysis of the food under the Food Inspection Scheme and
+	b	a claim for compensation is made by or on behalf of the owner in an approved form accompanied by such documents as are required by the form to accompany the claim
+15  Subsection 393
+Omit this section substitute subsection 1
+16  After subsection 393
+Insert
+	3 A	The compensation payable under subsection 1 A in respect of food is the amount agreed between the Secretary and the owner or owners of the food as being the difference between the market value of the food immediately before it became unsuitable for the purpose for which it was imported and the amount if any for which the food is sold by the owner or owners
+17  Subsection 394
+Omit at the time of its destruction substitute at the time referred to in subsection 3 or 3 A as the case requires
+18  Subsection 396 definition of owner
+Omit that is permitted to be treated or required to be destroyed or reexported
+19  Subsection 421 definition of reviewable decision
+Omit 4 substitute 5
+ 
+Schedule 5 Amendment of the Plant Breeders Rights Act 1994
+  
+1  Subsection 31
+Insert
+plant class for the purpose of variety denomination means a class consisting of all plants
+	a	that belong to a single botanical genus or 
+	b	that belong to a group of closely related genera
+that is specified from time to time as a plant class in the Registrars List of Plant Classes maintained under subsection 611 A
+2  Subsection 31
+Insert
+Union means the Union for the Protection of New Varieties of Plants as defined in Article 1 of the Convention
+3  Paragraph 275 a
+After another plant variety insert of the same plant class
+4  Subparagraphs 531 ci and ii
+Repeal the subparagraphs substitute
+	i	any other plant variety of the same plant class or
+	ii	a plant of any other variety of the same plant class
+5  After subsection 611
+Insert
+	1 A	The Registrar must maintain for the purposes of this Act a list of all plant classes to be known as the Registrars List of Plant Classes
+	1 B	In maintaining that list the Registrar must for so long as the Union maintains the document presently known as the List of Classes for Variety Denomination Purposes have regard to that list and to any variations to that list as so maintained
+	1 C	The list maintained by the Registrar must be kept as a part of the Register
+6  At the end of section 62
+Add
+	3	For the purposes of subsection 2 a reference to an entry in the Register does not include a reference to the Registrars List of Plant Classes or to any part of that list
+
+
+
+Ministers second reading speech made in
+House of Representatives on 3 December 1998
+Senate on 8 March 1999
+
+
+
+
+
+
+
+
+
+23098 - Abrievated Graph Key: I3"""@en-AU ;
+    skos:broader C2004A00398:4,
+        C2004A00398:5,
+        C2004A00398:6,
+        C2004A00398:7,
+        C2004A00398:8 ;
+    skos:definition """3  Schedules
+		Each Act that is specified in a Schedule to this Act is amended or repealed as set out in the applicable items in the Schedule concerned and any other item in a Schedule to this Act has effect according to its terms
+ 
+Schedule 1 Amendment of the Agricultural and Veterinary Chemicals Administration Act 1992
+  
+1  After Part 7 A
+Insert
+Part 7 BModification of the Agvet Codes for the purpose of giving effect to paragraph 3 of Article 39 of the TRIPS Agreement
+  
+69 EV  Definitions
+	1	In this Part
+current application has the meaning given by section 69 EX
+information includes but is not limited to information obtained from trials or laboratory experiments
+previous application has the meaning given by section 69 EX
+relevant information has the meaning given by section 69 EX
+	2	Expressions used in this Part that are defined or otherwise used in the Code set out in the Schedule to the Agricultural and Veterinary Chemicals Code Act 1994 have the same meanings as in that Code
+69 EW  Modification of Agvet Codes
+	1	This Part modifies the Agvet Codes for the purpose of giving effect to Australias obligations under paragraph 3 of Article 39 of the Agreement on TradeRelated Aspects of Intellectual Property Rights set out in Annex 1 C to the Marrakesh Agreement establishing the World Trade Organization done at Marrakesh on 15 April 1994
+Note	The English text of the Marrakesh Agreement establishing the World Trade Organization is set out in Australian Treaty Series 1995 No 8
+	2	The Agvet Codes have effect subject to this Part
+69 EX  Application of Part
+		This Part applies to an application the current application made to the NRA after the commencement of this Part for approval of an active constituent for a proposed or existing chemical product where
+	a	the NRA cannot grant the application without using information the relevant information given to the NRA in connection with a previous application the previous application made to the NRA other than a previous application made before the commencement of this Part for approval of an active constituent for a proposed or existing chemical product and
+	b	the relevant information has not been made publicly available in Australia and
+	c	at the time immediately before the previous application was made no application had been made to the NRA for approval of the active constituent to which that application related
+69 EY  NRA not to grant current application except in certain circumstances
+		The NRA must not grant the current application unless
+	a	the person who made that application
+	i	has given to the NRA information that makes it unnecessary for the NRA to use the relevant information in connection with that application or
+	ii	has given to the NRA evidence that satisfies the NRA that the person who made the previous application has consented to the NRA using the relevant information in connection with the current application or
+	b	at least 5 years have elapsed since the previous application was determined by the NRA or was withdrawn as the case may be
+69 EZ  Approval given in contravention of section 69 EY is not invalid but is to be cancelled
+	1	If
+	a	the NRA approves an active constituent for a proposed or existing chemical product and
+	b	the NRA was prohibited by section 69 EY from giving the approval
+the approval is not invalid
+	2	However the NRA must cancel the approval when it finds out that the giving of the approval was prohibited by section 69 EY
+69 EZA  Power of NRA to grant multiple approvals to be subject to section 69 EY
+		The power of the NRA under subsection 161 of the Agvet Codes to approve the same active constituent for a proposed or existing chemical product on applications made by different persons is subject to section 69 EY
+69 EZB  Power of NRA to use information obtained by it for other purposes not to be affected
+		Except as provided by section 69 EY the power of the NRA under subsection 581 of the Agvet Codes to use information obtained by it from any source for the purpose of performing any of its functions or exercising any of its powers under those Codes is not affected
+ 
+Schedule 2 Amendment of the Dairy Produce Act 1986
+  
+1  Paragraph 106 c
+Omit section 108 E substitute sections 108 E and 108 EA
+2  Paragraph 106 d
+Omit section 108 F substitute sections 108 EB and 108 F
+3  After section 108 E
+Insert
+108 EA  Levy rebates Victorian gas supply failure
+	1	A manufacturer is entitled to be paid by the Corporation a manufacturing milk levy rebate in respect of a month if
+	a	the manufacturer paid manufacturing milk levy on manufacturing milk delivered to the manufacturer during that month and
+	b	the manufacturer destroyed some or all of the milk at the manufacturers factory during the period that started on 26 September 1998 and ended at the end of 5 October 1998 as a result of the gas supply failure in Victoria
+	2	The amount of the rebate payable to a manufacturer under this section is an amount equal to the difference between
+	a	the amount of manufacturing milk levy paid by the manufacturer in respect of the relevant month and
+	b	the amount of manufacturing milk levy that would have been imposed on the manufacturer in respect of that month if the quantity of milk destroyed had not been delivered to the manufacturer during that month
+	3	A manufacturing milk levy rebate is not payable under this section unless a written application in accordance with a form approved by the Corporation is submitted to the Corporation within 28 days after the commencement of this section
+	4	The Corporation may include in the approved application form a requirement that the whole or a part of the information contained in an application be verified by statutory declaration
+	5	As soon as practicable after it receives an application under this section the Corporation must
+	a	if it decides that the applicant is entitled to a rebatenotify the applicant in writing of its decision and of the amount of the rebate to which the applicant is entitled or
+	b	if it decides that the applicant is not entitled to a rebatenotify the applicant in writing of its decision
+	6	A notice under paragraph 5 a must set out the basis on which the Corporation has determined the amount of the rebate to which the applicant is entitled
+	7	A notice under paragraph 5 b must set out the reasons for the Corporations decision
+	8	If the Corporation gives an applicant a notice under paragraph 5 a it must at the same time pay the applicant the amount of rebate specified in the notice
+108 EB  Payment to milk producers Victorian gas supply failure
+	1	A producer is entitled to be paid by the Corporation an amount worked out under subsection 2 if
+	a	before 6 October 1998 the producer produced a quantity of milk for the purpose of delivering it to a manufacturer as manufacturing milk and
+	b	as a result of the gas failure in Victoria the producer did not deliver the quantity of milk to a manufacturer but destroyed it during the period that started on 26 September 1998 and ended at the end of 5 October 1998
+	2	The amount payable to a producer under this section is an amount equal to the amount of domestic market support payment that would have been payable by the Corporation to the producer if the producer had delivered the prescribed quantity of milk to a manufacturer
+	3	For the purposes of subsection 2 the prescribed quantity of milk is the quantity of milk destroyed less any of that milk in relation to which the producer has received or is entitled to receive a payment relating to liquid milk for human consumption in Australia
+	4	An amount is not payable under this section unless a written application in accordance with a form approved by the Corporation is submitted to the Corporation within 3 months after commencement of this section
+	5	An application may be made
+	a	by a producer or
+	b	by 2 or more producers jointly or
+	c	by a person on behalf of 1 or more producers
+	6	The Corporation may include in the approved application form a requirement that the whole or a part of the information contained in an application be verified by statutory declaration
+	7	As soon as practicable after it receives an application under this section the Corporation must
+	a	if it decides that the producer or any producer to whom the application relates is entitled to a paymentnotify the applicant in writing of its decision and of the amount of the payment or
+	b	if it decides that the producer or any producer to whom the application relates is not entitled to a paymentnotify the applicant in writing of its decision
+	8	A notice under paragraph 7 a must set out the basis on which the Corporation has determined the amount specified in the notice
+	9	A notice under paragraph 7 b must set out the reasons for the Corporations decision
+	10	If the Corporation gives an applicant a notice under paragraph 7 a it must at the same time pay the amount specified in the notice
+4  Subsection 1181 definition of relevant payment decision
+After 108 E insert  108 EA 108 EB
+ 
+Schedule 3 Amendment of the Export Control Act 1982
+  
+1  Section 3
+Insert
+enter in relation to an aircraft vehicle or ship includes go on board
+2  Section 3 definition of establishment
+Repeal the definition substitute
+establishment includes premises
+3  Section 3
+Insert
+evidential material means any of the following things including such a thing in electronic form
+	a	a thing with respect to which an offence against this Act has been committed or is suspected on reasonable grounds to have been committed
+	b	a thing as to which there are reasonable grounds for suspecting that it will afford evidence as to the commission of an offence against this Act
+	c	a thing as to which there are reasonable grounds for suspecting that it is intended to be used for the purpose of committing an offence against this Act
+4  Section 3
+Insert
+executing officer for a warrant means the person named in the warrant as being responsible for executing the warrant
+5  Section 3
+Insert
+magistrate means a magistrate who is remunerated by salary or otherwise
+6  Section 3
+Insert
+occupier of premises means the person apparently in charge of the premises
+7  Section 3 paragraph a of the definition of offence against this Act
+Repeal the paragraph
+8  Section 3 paragraphs b and c of the definition of offence against this Act
+Omit or the regulations
+9  Section 3
+Insert
+officer assisting in relation to a warrant means
+	a	an authorized officer who is assisting in executing the warrant or
+	b	a person who is not an authorized officer but who has been authorized by the relevant executing officer to assist in executing the warrant
+10  Section 3 definition of premises
+Repeal the definition substitute
+premises includes the following
+	a	a building aircraft vehicle or ship
+	b	a place whether enclosed or built on or not
+	c	a part of a thing or place referred to in paragraph a or b
+11  Section 3
+Insert
+preparation in relation to prescribed goods includes the following
+	a	the slaughter or killing of animals and the dressing of carcasses from which prescribed goods are obtained
+	b	the processing packing or storage of prescribed goods
+	c	the treatment of prescribed goods
+	d	the handling or loading of prescribed goods
+12  Section 3
+Insert
+this Act includes the regulations
+13  After subsection 73
+Insert
+	3 A	Without limiting the generality of subsection 2 regulations made for the purposes of subsection 1
+	a	may provide that the export of prescribed goods or the export of prescribed goods to a specified place is prohibited unless the goods have been prepared in accordance with an arrangement that has been approved by the Secretary and
+	b	may make provision for and in relation to
+	i	the approval of an arrangement subject to specified conditions or restrictions or
+	ii	the variation suspension or revocation of an approval of an arrangement or 
+	iii	the variation suspension or revocation of any or all of the conditions or restrictions to which an approval of an arrangement is subject or the imposition of further conditions or restrictions or 
+	iv	persons including persons approved by the Secretary under the regulations and authorized officers who may exercise powers and perform functions under or for the purposes of an approved arrangement
+14  Subsection 74
+Omit subparagraph 3 bii substitute subparagraphs 3 bii and 3 Abi
+15  Part III heading
+Repeal the heading substitute
+Part IIIEnforcement
+16  Sections 10 and 11
+Repeal the sections substitute
+Division 1 General powers
+10  General powers of authorized officers in relation to premises
+		The powers an authorized officer may exercise under paragraphs 10 A 1 b and 10 D 1 b in relation to particular premises are as follows
+	a	to search the premises and any thing on the premises
+	b	to inspect examine and take samples of any thing on the premises
+	c	to take photographs including video or audio recordings or to make sketches of the premises or any thing on the premises
+	d	to take extracts from or make copies of any document book or record on the premises
+	e	to secure the premises or any thing on the premises
+Division 2 Monitoring powers
+10 A  Monitoring registered premises and other premises entered by consent
+	1	For the purpose of finding out whether any or all of the provisions of this Act are being complied with an authorized officer at any time and with any necessary help may
+	a	enter
+	i	any registered premises or
+	ii	any other premises with the consent of the occupier and
+	b	exercise the powers set out in section 10
+	2	If the relevant premises are an aircraft vehicle or ship an authorized officer may stop and detain the aircraft vehicle or ship for the purpose of exercising a power mentioned in subsection 1
+10 B  Monitoring warrants
+	1	An authorized officer may apply to a magistrate for a warrant under this section in relation to particular premises
+	2	Subject to subsection 3 the magistrate may issue a warrant if satisfied by information on oath or affirmation that it is reasonably necessary that the authorized officer should have access to the premises for the purpose of finding out whether any or all of the provisions of this Act are being complied with
+	3	The magistrate must not issue a warrant unless the authorized officer or another person has given the magistrate either orally on oath or affirmation or by affidavit such further information as the magistrate requires about the grounds on which the issue of the warrant is being sought
+	4	A warrant must
+	a	authorize an authorized officer named in the warrant with such assistance and by such force as is necessary and reasonable from time to time while the warrant remains in force to enter the premises and exercise powers of the kind set out in section 10 in relation to the premises and
+	b	state whether an entry under the warrant is authorized to be made at any time of the day or night or during specified hours of the day or night and
+	c	specify the day not more than 6 months after the issue of the warrant on which the warrant ceases to have effect and
+	d	state the purpose for which the warrant is issued
+10 C  Seizures without offencerelated warrant in emergency situations
+	1	This section applies when an authorized officer has entered premises under section 10 A or under a warrant issued under section 10 B
+	2	If the authorized officer suspects on reasonable grounds that
+	a	particular evidential material is in or on the premises and
+	b	it is necessary to seize the evidential material in order to prevent it from being concealed lost or destroyed and
+	c	it is necessary to do so without the authority of a warrant under section 10 E because the circumstances are serious and urgent
+the authorized officer may seize the evidential material if he or she finds it there
+Division 3 Offencerelated searches and seizures
+10 D  Registered premises and premises entered by consentoffencerelated searches and seizures
+	1	Subject to subsection 2 if an authorized officer has reasonable grounds for suspecting that there may be on any premises particular evidential material the officer at any time and with any necessary help may
+	a	enter the premises and
+	b	exercise the powers set out in section 10 and
+	c	seize that evidential material if the officer finds it on the premises
+	2	An authorized officer is not authorized to enter premises under subsection 1 unless
+	a	the premises are registered premises or
+	b	the occupier of the premises has consented to the entry
+	3	If the relevant premises are an aircraft vehicle or ship an authorized officer may stop and detain the aircraft vehicle or ship for the purpose of exercising a power mentioned in subsection 1
+10 E  Offencerelated warrants
+	1	An authorized officer may apply to a magistrate for a warrant under this section in relation to particular premises
+	2	Subject to subsection 3 a magistrate may issue the warrant if satisfied by information on oath or affirmation that there are reasonable grounds for suspecting that there is or may be within the next 72 hours any evidential material at the premises
+	3	A magistrate must not issue a warrant unless the authorized officer or some other person has given the magistrate either orally on oath or affirmation or by affidavit such further information as the magistrate requires about the grounds on which the issue of the warrant is being sought
+	4	The warrant must
+	a	state the offence to which the warrant relates and
+	b	describe the premises to which the warrant relates and
+	c	describe the kinds of evidential material that are to be searched for under the warrant and
+	d	state the name of the authorized officer who is to be responsible for executing the warrant and
+	e	state the period for which the warrant remains in force which must not be more than 7 days and
+	f	state whether the warrant may be executed at any time or only during particular hours
+	5	The warrant must also state that the warrant authorizes the seizure of a thing other than evidential material of the kind referred to in paragraph 4 c found at the premises in the course of the search that the executing officer or an officer assisting believes on reasonable grounds to be
+	a	evidential material in relation to an offence to which the warrant relates or
+	b	evidential material in relation to another offence against this Act
+if the executing officer or an officer assisting believes on reasonable grounds that seizure of the thing is necessary to prevent its concealment loss or destruction or its use in committing an offence against this Act
+	6	Paragraph 4 e does not prevent the issue of successive warrants in relation to the same premises
+	7	If the application for the warrant is made under section 10 F this section applies as if
+	a	subsection 2 referred to 48 hours rather than 72 hours and
+	b	paragraph 4 e referred to 48 hours rather than 7 days
+10 F  The things that are authorized by a search warrant
+	1	A warrant under this Division that is in force in relation to premises authorizes the executing officer or an officer assisting
+	a	to enter the premises and
+	b	to exercise powers of the kind set out in paragraphs 10 b to e inclusive and
+	c	to search the premises and any thing on the premises for the kinds of evidential material specified in the warrant and to seize things of those kinds found at the premises and
+	d	to seize other things found at the premises in the course of the search that the executing officer or an officer assisting believes on reasonable grounds to be
+	i	evidential material in relation to an offence to which the warrant relates or
+	ii	evidential material in relation to another offence against this Act
+if the executing officer or an officer assisting believes on reasonable grounds that seizure of the thing is necessary to prevent its concealment loss or destruction or its use in committing an offence against this Act
+	2	If the warrant states that it may be executed only during particular hours the warrant must not be executed outside those hours
+	3	If things are seized under a warrant the warrant authorizes the executing officer to make the things available to officers of other agencies if it is necessary to do so for the purpose of investigating or prosecuting an offence to which the things relate
+Division 4 Warrants granted by telephone or other electronic means
+10 G  Warrants may be granted by telephone or other electronic means
+	1	An authorized officer may apply to a magistrate for a warrant under section 10 B or 10 E by telephone facsimile or other electronic means
+	a	in an urgent case or
+	b	if the delay that would occur if an application were made in person would frustrate the effective execution of the warrant
+	2	The magistrate may require voice communication to the extent that it is practicable in the circumstances
+	3	An application under this section must include all information required to be provided in an ordinary application for a warrant under section 10 B or 10 E as the case requires but the application may if necessary be made before the information is sworn or affirmed
+	4	If a magistrate to whom an application is made under this section is satisfied
+	a	after having considered the information mentioned in subsection 3 and
+	b	after having received any further information that the magistrate requires about the grounds on which the issue of the warrant is being sought
+that there are reasonable grounds for issuing the warrant the magistrate may complete and sign the same form of warrant that would be issued under section 10 B or 10 E as the case requires
+	5	If a magistrate signs a warrant under subsection 4
+	a	the magistrate must notify the authorized officer by telephone facsimile or other electronic means of the terms of the warrant and the date on which and the time at which it was signed and write on it the reasons for the granting of the warrant and
+	b	the officer must complete a form of warrant in the terms notified to the officer by the magistrate and write on it the name of the magistrate and the date on which and the time at which the warrant was signed
+	6	If an authorized officer completes a form of warrant under subsection 5 the officer must not later than the day after the day on which the warrant ended or was executed whichever is the earlier give or transmit to the magistrate who signed the warrant the form of warrant completed by the officer and if the information mentioned in subsection 3 was not sworn or affirmed that information duly sworn or affirmed
+	7	The magistrate must attach to the documents provided under subsection 6 the warrant signed by the magistrate
+	8	A form of warrant duly completed by an authorized officer under subsection 5 is if it is in accordance with the terms of the warrant signed by the magistrate authority for any entry search seizure or other exercise of power that the warrant so signed authorizes
+	9	If
+	a	it is material in any proceedings for a court to be satisfied that an exercise of power was authorized under this section and
+	b	the warrant signed by the magistrate under this section authorizing the exercise of power is not produced in evidence
+the court must assume unless the contrary is proved that the exercise of power was not authorized by such a warrant
+Division 5 Stopping and searching aircraft vehicles or ships
+10 H  Searches without warrant in emergency situations
+	1	This section applies if an authorized officer suspects on reasonable grounds that
+	a	particular evidential material is in or on an aircraft vehicle or ship and
+	b	it is necessary to exercise a power under subsection 2 in order to prevent the evidential material being concealed lost or destroyed and
+	c	it is necessary to exercise the power without the authority of a warrant under section 10 E because the circumstances are serious and urgent
+	2	The authorized officer may
+	a	stop and detain the aircraft vehicle or ship and
+	b	search the aircraft vehicle or ship and any thing in or on the aircraft vehicle or ship for the evidential material and
+	c	seize the evidential material if he or she finds it there
+	3	If in the course of searching for the evidential material the authorized officer finds other evidential material the authorized officer may seize that other evidential material if he or she suspects on reasonable grounds that
+	a	it is necessary to seize it in order to prevent its concealment loss or destruction and
+	b	it is necessary to seize it without the authority of a warrant under section 10 E because the circumstances are serious and urgent
+	4	The authorized officer must exercise his or her powers subject to section 10 J
+10 J  How an authorized officer exercises a power under section 10 H
+		When an authorized officer exercises a power under section 10 H in relation to an aircraft vehicle or ship he or she
+	a	may use such assistance as is necessary and
+	b	must search the aircraft vehicle or ship in a public place or in some other place to which members of the public have ready access and
+	c	must not detain the aircraft vehicle or ship for longer than is necessary and reasonable to search it and any thing found in or on the aircraft vehicle or ship and
+	d	may use such force as is necessary and reasonable in the circumstances but must not damage the aircraft vehicle or ship or any thing found in or on the aircraft vehicle or ship by forcing open a part of the aircraft vehicle or ship or thing unless
+	i	the person if any apparently in charge of the aircraft vehicle or ship has been given a reasonable opportunity to open that part or thing or
+	ii	it is not possible to give that person such an opportunity
+Division 6 General rules about registered premises premises entered by consent and warrants
+11  Availability of assistance and use of force in executing a warrant
+		In executing a warrant
+	a	the executing officer may obtain such assistance as is necessary and reasonable in the circumstances and
+	b	the executing officer or an authorized officer who is assisting in executing the warrant may use such force against persons and things as is necessary and reasonable in the circumstances and
+	c	a person who is not an authorized officer but who has been authorized to assist in executing the warrant may use such force against things as is necessary and reasonable in the circumstances
+11 A  Announcement before entry under warrants
+	1	The executing officer must before any person enters premises under a warrant
+	a	announce that he or she is authorized by the warrant to enter the premises and
+	b	give any person at the premises an opportunity to allow entry to the premises
+	2	The authorized officer does not have to comply with subsection 1 if he or she believes on reasonable grounds that immediate entry to the premises is required to ensure
+	a	the safety of a person including the authorized officer or
+	b	that the effective execution of the warrant is not frustrated
+11 B  Details of warrant to be given to occupier etc
+	1	If a warrant in relation to premises is being executed and the occupier of the premises or another person who apparently represents the occupier is present at the premises the executing officer or an officer assisting must make a copy of the warrant available to that person
+	2	The executing officer must identify himself or herself to the person at the premises
+	3	The copy of the warrant referred to in subsection 1 need not include the signature of the magistrate who issued the warrant
+11 C  Occupier entitled to be present during search under warrants
+	1	If a warrant issued in relation to premises is being executed and the occupier of the premises or another person who apparently represents the occupier is present at the premises the person is subject to Part 1 C of the Crimes Act 1914 entitled to observe the search being conducted
+	2	The right to observe the search being conducted ceases if the person impedes the search
+	3	This section does not prevent 2 or more areas of the premises being searched at the same time
+11 D  Use of equipment to examine or process things
+	1	A person who enters premises under this Part may bring to the premises and use any equipment reasonably necessary for the examination or processing of things found at the premises for the purposes of exercising a power conferred on the person under this Part
+	2	If
+	a	it is not practicable to examine or process the things at the premises or
+	b	the occupier of the premises consents in writing
+the things may be moved to another place so that the examination or processing can be carried out
+	3	If things containing electronically stored information are moved to another place under subsection 2 the person referred to in subsection 1 must if it is practicable to do so
+	a	tell the occupier the address of the place and the time at which the examination or processing will be carried out and
+	b	allow the occupier or a representative of the occupier to be present during the examination or processing
+	4	A person who enters premises under this Part may operate equipment already at the premises to carry out the examination or processing of a thing found at the premises for the purposes of exercising a power conferred on the person under this Part if the person believes on reasonable grounds that
+	a	the equipment is suitable for the examination or processing and
+	b	the examination or processing can be carried out without damage to the equipment or the thing
+11 E  Use of electronic equipment at premises
+	1	A person who enters premises under this Part may operate electronic equipment at the premises for the purposes of exercising a power conferred on the person under this Part if he or she believes on reasonable grounds that the operation of the equipment can be carried out without damage to the equipment
+	2	If the person after operating the equipment finds that evidential material is accessible by doing so he or she may
+	a	seize the equipment and any disk tape or other associated device or
+	b	if the material can by using facilities at the premises be put in documentary formoperate the facilities to put the material in that form and seize the documents so produced or
+	c	if the material can be transferred to a disk tape or other storage device that
+	i	is brought to the premises or
+	ii	is at the premises and the use of which for the purpose has been agreed to in writing by the occupier of the premises
+operate the equipment or other facilities to copy the material to the storage device and take the storage device from the premises
+	3	A person may seize equipment under paragraph 2 a only if
+	a	it is not practicable to put the material in documentary form as mentioned in paragraph 2 b or to copy the material as mentioned in paragraph 2 c or
+	b	possession of the equipment by the occupier could constitute an offence
+	4	If the person believes on reasonable grounds that
+	a	evidential material may be accessible by operating electronic equipment at the premises and
+	b	expert assistance is required to operate the equipment and
+	c	if he or she does not take action under this subsection the material may be destroyed altered or otherwise interfered with
+he or she may do whatever is necessary to secure the equipment whether by locking it up placing a guard or otherwise
+	5	The person must give notice to the occupier of the premises of his or her intention to secure equipment and of the fact that the equipment may be secured for up to 24 hours
+	6	The equipment may be secured
+	a	for a period not exceeding 24 hours or
+	b	until the equipment has been operated by the expert
+whichever happens first
+	7	If the person believes on reasonable grounds that the expert assistance will not be available within 24 hours he or she may apply to a magistrate for an extension of that period
+	8	The person must give notice to the occupier of the premises of his or her intention to apply for an extension and the occupier is entitled to be heard in relation to the application
+11 F  Compensation for damage to equipment
+	1	If
+	a	equipment is damaged because of being operated as mentioned in section 11 D or 11 E and 
+	b	the damage was caused by
+	i	insufficient care being exercised in selecting the person who was to operate the equipment or
+	ii	insufficient care being exercised by the person other than the occupier or a person employed by the occupier operating the equipment
+compensation for the damage is payable to the owner of the equipment
+	2	Compensation is payable out of money appropriated by the Parliament for the purpose
+	3	In determining the amount of compensation payable regard is to be had to whether the occupier of the premises and the employees and agents of the occupier if they were available at the time had provided any warning or guidance as to the operation of the equipment that was appropriate in the circumstances
+11 G  Copies of seized things to be given
+	1	Subject to subsection 2 if a person who enters premises under this Part seizes
+	a	a document film computer file or other thing that can readily be copied or
+	b	a storage device the information in which can readily be copied
+the person must if asked to do so by the occupier of the premises or another person who apparently represents the occupier and is present when the seizure takes place give a copy of the thing or the information to that person as soon as practicable after the seizure
+	2	Subsection 1 does not apply if
+	a	the thing that has been seized was seized under paragraph 11 E 2 b or c or
+	b	possession by the occupier of the document film computer file thing or information could constitute an offence
+11 H  Retention of things which are seized
+	1	Subject to any contrary order of a court if a person seizes a thing under this Part the person must return it if
+	a	the reason for its seizure no longer exists or it is decided that it is not to be used in evidence or
+	b	the period of 60 days after its seizure ends
+whichever first occurs unless the thing is forfeited or forfeitable to the Commonwealth or is the subject of a dispute as to ownership
+	2	At the end of the 60 days specified in subsection 1 the person must take reasonable steps to return the thing to the person from whom it was seized or to the owner if that person is not entitled to possess it unless
+	a	proceedings in which the thing may be used in evidence were begun before the end of the 60 days and have not been completed including an appeal to a court in relation to those proceedings or
+	b	the officer may retain the thing because of an order under section 11 J or
+	c	the officer is otherwise authorized or required by a law or an order of a court of the Commonwealth or of a State or a Territory to retain destroy or dispose of the thing
+11 J  Magistrate may permit a thing to be kept
+	1	If a person seizes a thing under this Part and
+	a	before the end of 60 days after the seizure or
+	b	before the end of a period previously stated in an order of a magistrate under this section
+proceedings in which the thing may be used in evidence have not been brought the officer may apply to a magistrate for an order that he or she may keep the thing for a further period
+	2	If the magistrate is satisfied that it is necessary for the authorized officer to continue to keep the thing
+	a	for the purposes of an investigation as to whether an offence has been committed or
+	b	to enable evidence of an offence to be secured for the purposes of a prosecution
+the magistrate may order that the officer may keep the thing for a period stated in the order
+	3	Before making the application the authorized officer must
+	a	take reasonable steps to discover who has an interest in the retention of the thing and
+	b	if it is practicable to do so notify each person who the authorized officer believes to have such an interest of the proposed application
+	4	A function of making an order conferred on a magistrate by this section is conferred on the magistrate in a personal capacity and not as a court or a member of a court
+	5	Without limiting the generality of subsection 4 an order made by a magistrate under this section has effect only by virtue of this Act and is not taken by implication to be made by a court
+	6	A magistrate performing a function of or connected with making an order under this section has the same protection and immunity as if he or she were performing that function as or as a member of a court being the court of which the magistrate is a member
+	7	The GovernorGeneral may make arrangements with the Governor of a State the Chief Minister for the Australian Capital Territory or the Administrator of the Northern Territory for the performance by all or any of the persons who from time to time hold office as magistrates in that State or Territory of the function of making orders under this section
+11 K  Release of seized goods
+		The Secretary may authorize any evidential material seized under this Part to be released to the owner or to the person from whose possession it was seized either unconditionally or on any conditions that the Secretary thinks fit
+11 L  Authorized officer must produce identity card
+		An authorized officer may not exercise any powers under this Part in relation to premises other than premises entered under a warrant if
+	a	the occupier of the premises has required the officer to produce his or her identity card for inspection by the occupier and
+	b	the officer fails to comply with the requirement
+11 M  Giving of consent
+	1	Before obtaining the consent of a person for the purposes of entering premises under section 10 A or 10 D an authorized officer must tell the person that the person may refuse to give consent
+	2	An entry by an authorized officer in consequence of the consent of a person is not lawful unless the person voluntarily consented to the entry
+11 N  Receipts for things seized 
+	1	If a thing is seized under this Part or moved under subsection 11 D 2 an authorized officer must provide a receipt for the thing
+	2	If 2 or more things are seized or moved they may be covered in the one receipt
+Division 7 Offences
+11 P  Power of authorized officer to require information or documents
+	1	Subject to subsection 2 an authorized officer who has entered registered premises or any other premises under a warrant may to the extent that is reasonably necessary for the purpose of finding out whether any or all of the provisions of this Act are being complied with require a person to give information to the officer and to produce any documents referred to by the officer
+	2	An authorized officer who has entered any premises with the consent of the occupier may ask the occupier to give information to the officer and to produce any documents referred to by the officer
+	3	An authorized officer is not entitled to make a requirement of a person under subsection 1 unless the officer produces his or her identity card for inspection by the person
+	4	A person must not fail to comply with a requirement under subsection 1
+Penalty	30 penalty units
+11 Q  Secretary may require information or documents
+	1	The Secretary may by written notice given to a person require the person within a reasonable time stated in the notice to give the Secretary any information or produce to the Secretary any documents referred to in the notice that relate to any prescribed goods that have been or are proposed to be exported
+	2	Without limiting subsection 1 the information or documents referred to in the notice may relate to
+	a	the preparation of any prescribed goods that have been or are proposed to be exported or
+	b	the material or ingredients of which such goods are or are proposed to be composed or from which they are or are proposed to be derived or
+	c	any animals that are proposed to be used or have been used in the preparation of such goods or
+	d	the source of
+	i	any prescribed goods of the kind mentioned in paragraph a or
+	ii	any material or ingredients of the kind mentioned in paragraph b or
+	iii	any animals of the kind mentioned in paragraph c
+	3	A person must not fail to comply with a notice under subsection 1
+Penalty	Imprisonment for 12 months
+Note	Subsection 4 B 2 of the Crimes Act 1914 allows a court to impose an appropriate fine instead of or in addition to a term of imprisonment If a body corporate is convicted of the offence subsection 4 B 3 of that Act allows a court to impose a fine of an amount that is not greater than 5 times the maximum fine that could be imposed by the court on an individual convicted of the same offence
+	4	A person is not excused from giving information or producing a document under subsection 1 on the ground that the information or the production of the document as the case may be might tend to incriminate the person or make the person liable to a penalty 
+	5	However if the information is given or the document is produced by an individual the information or the production of the document and any information or thing including any document obtained as a direct or indirect result of the giving of the information or the production of the document as the case may be is not admissible in evidence against the individual in proceedings other than proceedings for an offence against section 16
+17  Section 12
+After powers insert  or in the performance of the authorized officers functions
+18  Subsection 131
+Repeal the subsection but not the penalty substitute
+	1	Subject to subsection 2 the owner or occupier of premises entered by an authorized officer under this Part must if requested by an authorized officer to do so provide reasonable assistance to the authorized officer for the purpose of the exercise of the authorized officers powers under this Part in relation to the premises
+19  Subsection 191
+After powers insert or functions
+20  Subsection 192
+After power insert or function
+21  Subsection 193
+After power insert  or the performance of a function
+22  Section 20
+Omit all the words from and including the purpose of to and including in the instrument substitute
+		the purpose of
+	a	the exercise by that person or those persons of the powers of an authorized officer under this Act or of such of those powers as are specified in the instrument or
+	b	the performance by that person or those persons of the functions of an authorized officer under this Act or of such of those functions as are specified in the instrument
+23  Subsections 221 and 2
+After authority insert  or in the performance or purported performance of any function
+24  Subsections 221 and 2
+Omit or the regulations
+25  Paragraph 231 b
+Omit or the regulations
+26  Subsections 24 A 1 3 6 and 7
+Omit or the regulations
+27  Paragraph 252 a
+Omit of substitute of premises
+28  Subparagraphs 252 ai and ii
+Repeal the subparagraphs
+29  Paragraph 252 e
+Omit or the regulations
+30  Paragraph 252 f
+Omit 1000 substitute 50 penalty units
+31  After paragraph 255 a
+Insert
+	ab	any matter contained in any instrument or writing that
+	i	sets out the requirements for the preparation of prescribed goods in Australia that are to be imported into a country and
+	ii	is made by the authority or body in that country responsible for regulating the importation of prescribed goods into that country
+as in force at a particular time or as in force from time to time or
+32  Persons exercising certain powers and functions
+1	If immediately before the commencement of this Schedule an order conferred or purported to confer a power or function on an authorized officer the order in so far as it conferred or purported to confer the power or function is taken to have been validly made for all purposes and continues to have effect according to its terms on and after that commencement
+2	If before the commencement of this Schedule
+	a	a person had been approved or was included in a class of persons that had been approved under an order to exercise a power or perform a function that was otherwise required under the order to be performed or exercised by an authorized officer and
+	b	the approval had not been revoked
+the approval is taken to have been validly made for all purposes and continues to have effect according to its terms on and after that commencement
+ 
+Schedule 4 Amendment of the Imported Food Control Act 1992
+  
+1  Subsection 31
+Insert
+imported as a trade sample in relation to food has the meaning given by subsection 73
+2  At the end of subsection 71
+Add
+	 or d	food that is imported as a trade sample
+3  Subsection 72
+After consumption insert if it has not been imported as a trade sample and
+4  At the end of section 7
+Add
+	3	Food of a particular kind is imported as a trade sample if
+	a	the food is imported for the purposes of scientific or commercial evaluation and
+	b	the food is not imported for consumption by any person and
+	c	the food is
+	i	in liquid form and has a volume of less than 20 litres or such lesser volume if any as is prescribed by the regulations in respect of food of that kind or
+	ii	not in liquid form and has a weight of 20 kilograms or such lesser weight if any as is prescribed by the regulations in respect of food of that kind
+5  After subsection 91
+Insert
+	1 A	A person other than an officer of Customs or an authorised officer acting in the course of his or her duties must not deal in any manner with examinable food that the person knows
+	a	has been imported into Australia and
+	b	is food in respect of which a food control certificate has been issued and
+	c	is food for which an imported food inspection advice has not been issued
+unless the owner of the food obtains the approval of an authorised officer to deal with the food in that manner
+Penalty	Imprisonment for 10 years
+6  Subsection 93
+After 1 insert  1 A
+7  Subsection 93
+After 1 a and b insert  1 Aa b and c
+8  Subsection 191
+Omit to substitute under subsection 1 A
+9  Paragraphs 191 a and b
+Repeal the paragraphs
+10  After subsection 191
+Insert
+	1 A	The Secretary may
+	a	approve a food processing operation mentioned in subsection 1 for the purposes of this Part or
+	b	revoke any such approval
+11  Subsection 192
+Omit 1 substitute 1 A
+12  After subparagraph 35 ci
+Insert
+	ia	has been identified in an imported food inspection advice as failing food or
+13  At the end of section 35
+Add
+	2	Without limiting subsection 1 the Secretary may publish
+	a	the name of the importer of the food or
+	b	the brand of the food
+14  After subsection 391
+Insert
+	1 A	The Secretary may approve the payment of compensation in respect of food if
+	a	the Secretary is satisfied on reasonable grounds that the food is no longer suitable for the purpose for which it was imported as a result of an inspection or inspection and analysis of the food under the Food Inspection Scheme and
+	b	a claim for compensation is made by or on behalf of the owner in an approved form accompanied by such documents as are required by the form to accompany the claim
+15  Subsection 393
+Omit this section substitute subsection 1
+16  After subsection 393
+Insert
+	3 A	The compensation payable under subsection 1 A in respect of food is the amount agreed between the Secretary and the owner or owners of the food as being the difference between the market value of the food immediately before it became unsuitable for the purpose for which it was imported and the amount if any for which the food is sold by the owner or owners
+17  Subsection 394
+Omit at the time of its destruction substitute at the time referred to in subsection 3 or 3 A as the case requires
+18  Subsection 396 definition of owner
+Omit that is permitted to be treated or required to be destroyed or reexported
+19  Subsection 421 definition of reviewable decision
+Omit 4 substitute 5
+ 
+Schedule 5 Amendment of the Plant Breeders Rights Act 1994
+  
+1  Subsection 31
+Insert
+plant class for the purpose of variety denomination means a class consisting of all plants
+	a	that belong to a single botanical genus or 
+	b	that belong to a group of closely related genera
+that is specified from time to time as a plant class in the Registrars List of Plant Classes maintained under subsection 611 A
+2  Subsection 31
+Insert
+Union means the Union for the Protection of New Varieties of Plants as defined in Article 1 of the Convention
+3  Paragraph 275 a
+After another plant variety insert of the same plant class
+4  Subparagraphs 531 ci and ii
+Repeal the subparagraphs substitute
+	i	any other plant variety of the same plant class or
+	ii	a plant of any other variety of the same plant class
+5  After subsection 611
+Insert
+	1 A	The Registrar must maintain for the purposes of this Act a list of all plant classes to be known as the Registrars List of Plant Classes
+	1 B	In maintaining that list the Registrar must for so long as the Union maintains the document presently known as the List of Classes for Variety Denomination Purposes have regard to that list and to any variations to that list as so maintained
+	1 C	The list maintained by the Registrar must be kept as a part of the Register
+6  At the end of section 62
+Add
+	3	For the purposes of subsection 2 a reference to an entry in the Register does not include a reference to the Registrars List of Plant Classes or to any part of that list
+
+
+
+Ministers second reading speech made in
+House of Representatives on 3 December 1998
+Senate on 8 March 1999
+
+
+
+
+
+
+
+
+
+23098"""@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00398/asmade/1999-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc448215816> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00398/asmade/1999-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc448215816"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+

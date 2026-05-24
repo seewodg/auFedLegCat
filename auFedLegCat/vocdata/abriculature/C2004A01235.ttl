@@ -1,0 +1,623 @@
+@prefix C2004A01235: <http://example.org/au/leg/dataset/C2004A01235/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A01235:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147707> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147707"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147708> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147708"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147709> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147709"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:10 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P10 Part 6 Other transitional provisions"@en-AU ;
+    dct:isPartOf C2004A01235:5 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Part 6 Other transitional provisions - Abrievated Graph Key: P10"@en-AU ;
+    skos:definition "Part 6 Other transitional provisions"@en-AU ;
+    skos:narrower C2004A01235:5 ;
+    skos:prefLabel "Part P10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147716> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147716"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01235:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Higher Education Funding Act 1988"@en-AU ;
+    dct:isPartOf C2004A01235:12 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Higher Education Funding Act 1988 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Higher Education Funding Act 1988"@en-AU ;
+    skos:narrower C2004A01235:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147719> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147719"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Higher Education Funding Act 1988"@en-AU ;
+    dct:isPartOf C2004A01235:14 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Higher Education Funding Act 1988 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Higher Education Funding Act 1988"@en-AU ;
+    skos:narrower C2004A01235:14 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147721> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147721"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Higher Education Funding Act 1988"@en-AU ;
+    dct:isPartOf C2004A01235:16 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Higher Education Funding Act 1988 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Higher Education Funding Act 1988"@en-AU ;
+    skos:narrower C2004A01235:16 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147724> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147724"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Higher Education Funding Act 1988"@en-AU ;
+    dct:isPartOf C2004A01235:18 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Higher Education Funding Act 1988 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Higher Education Funding Act 1988"@en-AU ;
+    skos:narrower C2004A01235:18 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147726> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147726"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Australian National University Act 1991"@en-AU ;
+    dct:isPartOf C2004A01235:20 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Australian National University Act 1991 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Australian National University Act 1991"@en-AU ;
+    skos:narrower C2004A01235:20 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147731> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147731"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Maritime College Act 1978"@en-AU ;
+    dct:isPartOf C2004A01235:22 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Maritime College Act 1978 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Maritime College Act 1978"@en-AU ;
+    skos:narrower C2004A01235:22 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147741> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147741"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Higher Education Funding Act 1988"@en-AU ;
+    dct:isPartOf C2004A01235:24 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Higher Education Funding Act 1988 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Higher Education Funding Act 1988"@en-AU ;
+    skos:narrower C2004A01235:24 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147756> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147756"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    dct:isPartOf C2004A01235:26 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "A New Tax System Family Assistance Administration Act 1999 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    skos:narrower C2004A01235:26 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147759> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147759"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Bankruptcy Act 1966"@en-AU ;
+    dct:isPartOf C2004A01235:26 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Bankruptcy Act 1966 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Bankruptcy Act 1966"@en-AU ;
+    skos:narrower C2004A01235:26 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147760> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147760"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Disability Services Act 1986"@en-AU ;
+    dct:isPartOf C2004A01235:26 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Disability Services Act 1986 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Disability Services Act 1986"@en-AU ;
+    skos:narrower C2004A01235:26 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147761> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147761"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Equal Opportunity for Women in the Workplace Act 1999"@en-AU ;
+    dct:isPartOf C2004A01235:26 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Equal Opportunity for Women in the Workplace Act 1999 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Equal Opportunity for Women in the Workplace Act 1999"@en-AU ;
+    skos:narrower C2004A01235:26 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147762> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147762"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    dct:isPartOf C2004A01235:26 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Fringe Benefits Tax Assessment Act 1986 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    skos:narrower C2004A01235:26 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147763> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147763"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Higher Education Funding Act 1988"@en-AU ;
+    dct:isPartOf C2004A01235:26 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Higher Education Funding Act 1988 - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Higher Education Funding Act 1988"@en-AU ;
+    skos:narrower C2004A01235:26 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147764> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147764"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2004A01235:26 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2004A01235:26 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147765> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147765"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2004A01235:26 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2004A01235:26 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147766> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147766"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2004A01235:26 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2004A01235:26 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147768> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147768"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2004A01235:26 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2004A01235:26 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147769> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147769"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Taxation Interest on Overpayments and Early Payments Act 1983"@en-AU ;
+    dct:isPartOf C2004A01235:26 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Taxation Interest on Overpayments and Early Payments Act 1983 - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Taxation Interest on Overpayments and Early Payments Act 1983"@en-AU ;
+    skos:narrower C2004A01235:26 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147770> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147770"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 Veterans Entitlements Act 1986"@en-AU ;
+    dct:isPartOf C2004A01235:26 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Veterans Entitlements Act 1986 - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "Veterans Entitlements Act 1986"@en-AU ;
+    skos:narrower C2004A01235:26 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147771> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147771"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:6 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P6 Part 1 Transitional arrangement for students under the Higher Education Contribution Scheme"@en-AU ;
+    dct:isPartOf C2004A01235:5 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Part 1 Transitional arrangement for students under the Higher Education Contribution Scheme - Abrievated Graph Key: P6"@en-AU ;
+    skos:definition "Part 1 Transitional arrangement for students under the Higher Education Contribution Scheme"@en-AU ;
+    skos:narrower C2004A01235:5 ;
+    skos:prefLabel "Part P6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147712> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147712"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01235:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Transitional arrangement for students under the Postgraduate education loan scheme"@en-AU ;
+    dct:isPartOf C2004A01235:5 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Part 2 Transitional arrangement for students under the Postgraduate education loan scheme - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 2 Transitional arrangement for students under the Postgraduate education loan scheme"@en-AU ;
+    skos:narrower C2004A01235:5 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147713> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147713"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01235:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 3 Debts under the Higher Education Funding Act 1988"@en-AU ;
+    dct:isPartOf C2004A01235:5 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Part 3 Debts under the Higher Education Funding Act 1988 - Abrievated Graph Key: P8"@en-AU ;
+    skos:definition "Part 3 Debts under the Higher Education Funding Act 1988"@en-AU ;
+    skos:narrower C2004A01235:5 ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147714> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147714"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01235:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 5 Avondale College"@en-AU ;
+    dct:isPartOf C2004A01235:5 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Part 5 Avondale College - Abrievated Graph Key: P9"@en-AU ;
+    skos:definition "Part 5 Avondale College"@en-AU ;
+    skos:narrower C2004A01235:5 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147715> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147715"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01235:12 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P12 Part 1 Appropriations"@en-AU ;
+    dct:hasPart C2004A01235:13 ;
+    dct:isPartOf C2004A01235:11 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Part 1 Appropriations - Abrievated Graph Key: P12"@en-AU ;
+    skos:broader C2004A01235:13 ;
+    skos:definition "Part 1 Appropriations"@en-AU ;
+    skos:narrower C2004A01235:11 ;
+    skos:prefLabel "Part P12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147718> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147718"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01235:14 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P14 Part 2 Transitional financial assistance"@en-AU ;
+    dct:hasPart C2004A01235:15 ;
+    dct:isPartOf C2004A01235:11 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Part 2 Transitional financial assistance - Abrievated Graph Key: P14"@en-AU ;
+    skos:broader C2004A01235:15 ;
+    skos:definition "Part 2 Transitional financial assistance"@en-AU ;
+    skos:narrower C2004A01235:11 ;
+    skos:prefLabel "Part P14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147720> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147720"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01235:16 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P16 Part 2 AHEC repayment thresholds for the 200405 year of income"@en-AU ;
+    dct:hasPart C2004A01235:17 ;
+    dct:isPartOf C2004A01235:11 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Part 2 AHEC repayment thresholds for the 200405 year of income - Abrievated Graph Key: P16"@en-AU ;
+    skos:broader C2004A01235:17 ;
+    skos:definition "Part 2 AHEC repayment thresholds for the 200405 year of income"@en-AU ;
+    skos:narrower C2004A01235:11 ;
+    skos:prefLabel "Part P16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147723> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147723"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01235:18 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P18 Part 3 Discontinuance of provisions of the Higher Education Funding Act 1988"@en-AU ;
+    dct:hasPart C2004A01235:19 ;
+    dct:isPartOf C2004A01235:11 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Part 3 Discontinuance of provisions of the Higher Education Funding Act 1988 - Abrievated Graph Key: P18"@en-AU ;
+    skos:broader C2004A01235:19 ;
+    skos:definition "Part 3 Discontinuance of provisions of the Higher Education Funding Act 1988"@en-AU ;
+    skos:narrower C2004A01235:11 ;
+    skos:prefLabel "Part P18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147725> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147725"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01235:20 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P20 Part 4 The Australian National University"@en-AU ;
+    dct:hasPart C2004A01235:21 ;
+    dct:isPartOf C2004A01235:11 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Part 4 The Australian National University - Abrievated Graph Key: P20"@en-AU ;
+    skos:broader C2004A01235:21 ;
+    skos:definition "Part 4 The Australian National University"@en-AU ;
+    skos:narrower C2004A01235:11 ;
+    skos:prefLabel "Part P20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147730> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147730"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01235:22 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P22 Part 5 Australian Maritime College"@en-AU ;
+    dct:hasPart C2004A01235:23 ;
+    dct:isPartOf C2004A01235:11 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Part 5 Australian Maritime College - Abrievated Graph Key: P22"@en-AU ;
+    skos:broader C2004A01235:23 ;
+    skos:definition "Part 5 Australian Maritime College"@en-AU ;
+    skos:narrower C2004A01235:11 ;
+    skos:prefLabel "Part P22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147740> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147740"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01235:24 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P24 Part 6 Marcus Oldham College"@en-AU ;
+    dct:hasPart C2004A01235:25 ;
+    dct:isPartOf C2004A01235:11 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Part 6 Marcus Oldham College - Abrievated Graph Key: P24"@en-AU ;
+    skos:broader C2004A01235:25 ;
+    skos:definition "Part 6 Marcus Oldham College"@en-AU ;
+    skos:narrower C2004A01235:11 ;
+    skos:prefLabel "Part P24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147755> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147755"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01235:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 4  Meanings of expressions defined in the Higher Education Support Act 2003"@en-AU ;
+    dct:hasPart C2004A01235:11,
+        C2004A01235:5 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "4  Meanings of expressions defined in the Higher Education Support Act 2003 - Abrievated Graph Key: I4"@en-AU ;
+    skos:broader C2004A01235:11,
+        C2004A01235:5 ;
+    skos:definition "4  Meanings of expressions defined in the Higher Education Support Act 2003"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147710> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147710"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01235:5 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S5 Schedule 1 Transitional provisions"@en-AU ;
+    dct:hasPart C2004A01235:10,
+        C2004A01235:6,
+        C2004A01235:7,
+        C2004A01235:8,
+        C2004A01235:9 ;
+    dct:isPartOf C2004A01235:4 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Schedule 1 Transitional provisions - Abrievated Graph Key: S5"@en-AU ;
+    skos:broader C2004A01235:10,
+        C2004A01235:6,
+        C2004A01235:7,
+        C2004A01235:8,
+        C2004A01235:9 ;
+    skos:definition "Schedule 1 Transitional provisions"@en-AU ;
+    skos:narrower C2004A01235:4 ;
+    skos:prefLabel "Schedule S5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147711> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147711"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01235:11 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S11 Schedule 2 Amendments"@en-AU ;
+    dct:hasPart C2004A01235:12,
+        C2004A01235:14,
+        C2004A01235:16,
+        C2004A01235:18,
+        C2004A01235:20,
+        C2004A01235:22,
+        C2004A01235:24,
+        C2004A01235:26 ;
+    dct:isPartOf C2004A01235:4 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Schedule 2 Amendments - Abrievated Graph Key: S11"@en-AU ;
+    skos:broader C2004A01235:12,
+        C2004A01235:14,
+        C2004A01235:16,
+        C2004A01235:18,
+        C2004A01235:20,
+        C2004A01235:22,
+        C2004A01235:24,
+        C2004A01235:26 ;
+    skos:definition "Schedule 2 Amendments"@en-AU ;
+    skos:narrower C2004A01235:4 ;
+    skos:prefLabel "Schedule S11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147717> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147717"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01235:26 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P26 Part 7 Other amendments"@en-AU ;
+    dct:hasPart C2004A01235:27,
+        C2004A01235:28,
+        C2004A01235:29,
+        C2004A01235:30,
+        C2004A01235:31,
+        C2004A01235:32,
+        C2004A01235:33,
+        C2004A01235:34,
+        C2004A01235:35,
+        C2004A01235:36,
+        C2004A01235:37,
+        C2004A01235:38 ;
+    dct:isPartOf C2004A01235:11 ;
+    dct:isReferencedBy C2004A01235: ;
+    rdfs:comment "Part 7 Other amendments - Abrievated Graph Key: P26"@en-AU ;
+    skos:broader C2004A01235:27,
+        C2004A01235:28,
+        C2004A01235:29,
+        C2004A01235:30,
+        C2004A01235:31,
+        C2004A01235:32,
+        C2004A01235:33,
+        C2004A01235:34,
+        C2004A01235:35,
+        C2004A01235:36,
+        C2004A01235:37,
+        C2004A01235:38 ;
+    skos:definition "Part 7 Other amendments"@en-AU ;
+    skos:narrower C2004A01235:11 ;
+    skos:prefLabel "Part P26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147758> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01235/2008-01-01/2008-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc185147758"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01235: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Higher Education Support (Transitional Provisions and Consequential Amendments) Act 2003" ;
+    dct:Jurisdiction " Department of Education "@en-AU ;
+    dct:created "2026-05-23T14:12:34.774919"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2008-01-01T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Higher Education Support (Transitional Provisions and Consequential Amendments) Act 2003"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A01235/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Higher Education Support (Transitional Provisions and Consequential Amendments) Act 2003"@en-AU ;
+    dct:title "Higher Education Support (Transitional Provisions and Consequential Amendments) Act 2003"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2008C00021" .
+

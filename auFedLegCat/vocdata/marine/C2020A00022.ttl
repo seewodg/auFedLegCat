@@ -1,0 +1,1104 @@
+@prefix C2020A00022: <http://example.org/au/leg/dataset/C2020A00022/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2020A00022:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521874> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521874"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521875> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521875"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2020A00022:10 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2020A00022:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521890> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521890"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2020A00022:10 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2020A00022:10 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521892> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521892"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2020A00022:10 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2020A00022:10 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521893> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521893"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Veterans Entitlements Act 1986"@en-AU ;
+    dct:isPartOf C2020A00022:10 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Veterans Entitlements Act 1986 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Veterans Entitlements Act 1986"@en-AU ;
+    skos:narrower C2020A00022:10 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521894> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521894"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 A New Tax System Family Assistance Act 1999"@en-AU ;
+    dct:isPartOf C2020A00022:15 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "A New Tax System Family Assistance Act 1999 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Act 1999"@en-AU ;
+    skos:narrower C2020A00022:15 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521896> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521896"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    dct:isPartOf C2020A00022:15 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "A New Tax System Family Assistance Administration Act 1999 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    skos:narrower C2020A00022:15 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521908> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521908"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2020A00022:15 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2020A00022:15 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521913> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521913"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2020A00022:15 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2020A00022:15 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521914> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521914"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Social Security Administration Act 1999"@en-AU ;
+    dct:isPartOf C2020A00022:15 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Social Security Administration Act 1999 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Social Security Administration Act 1999"@en-AU ;
+    skos:narrower C2020A00022:15 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521926> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521926"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Veterans Entitlements Act 1986"@en-AU ;
+    dct:isPartOf C2020A00022:15 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Veterans Entitlements Act 1986 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Veterans Entitlements Act 1986"@en-AU ;
+    skos:narrower C2020A00022:15 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521931> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521931"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Biosecurity Act 2015"@en-AU ;
+    dct:isPartOf C2020A00022:22 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Biosecurity Act 2015 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Biosecurity Act 2015"@en-AU ;
+    skos:narrower C2020A00022:22 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521953> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521953"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Great Barrier Reef Marine Park Regulations 2019"@en-AU ;
+    dct:isPartOf C2020A00022:24 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Great Barrier Reef Marine Park Regulations 2019 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Great Barrier Reef Marine Park Regulations 2019"@en-AU ;
+    skos:narrower C2020A00022:24 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521956> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521956"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Financial Framework Supplementary Powers Regulations 1997"@en-AU ;
+    dct:isPartOf C2020A00022:27 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Financial Framework Supplementary Powers Regulations 1997 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Financial Framework Supplementary Powers Regulations 1997"@en-AU ;
+    skos:narrower C2020A00022:27 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521959> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521959"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Financial Framework Supplementary Powers Regulations 1997"@en-AU ;
+    dct:isPartOf C2020A00022:29 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Financial Framework Supplementary Powers Regulations 1997 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Financial Framework Supplementary Powers Regulations 1997"@en-AU ;
+    skos:narrower C2020A00022:29 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521961> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521961"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2020A00022:31 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2020A00022:31 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521963> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521963"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 A New Tax System Family Assistance Act 1999"@en-AU ;
+    dct:isPartOf C2020A00022:33 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "A New Tax System Family Assistance Act 1999 - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Act 1999"@en-AU ;
+    skos:narrower C2020A00022:33 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521967> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521967"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    dct:isPartOf C2020A00022:33 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "A New Tax System Family Assistance Administration Act 1999 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    skos:narrower C2020A00022:33 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521968> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521968"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Retirement Savings Accounts Regulations 1997"@en-AU ;
+    dct:isPartOf C2020A00022:36 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Retirement Savings Accounts Regulations 1997 - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Retirement Savings Accounts Regulations 1997"@en-AU ;
+    skos:narrower C2020A00022:36 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521970> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521970"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 Superannuation Industry Supervision Regulations 1994"@en-AU ;
+    dct:isPartOf C2020A00022:36 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Superannuation Industry Supervision Regulations 1994 - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Regulations 1994"@en-AU ;
+    skos:narrower C2020A00022:36 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521971> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521971"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 Farm Household Support Act 2014"@en-AU ;
+    dct:isPartOf C2020A00022:40 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Farm Household Support Act 2014 - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "Farm Household Support Act 2014"@en-AU ;
+    skos:narrower C2020A00022:40 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521974> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521974"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2020A00022:40 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2020A00022:40 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521975> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521975"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 Social Services and Other Legislation Amendment Simplifying Income Reporting and Other Measures Act 2020"@en-AU ;
+    dct:isPartOf C2020A00022:43 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Social Services and Other Legislation Amendment Simplifying Income Reporting and Other Measures Act 2020 - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "Social Services and Other Legislation Amendment Simplifying Income Reporting and Other Measures Act 2020"@en-AU ;
+    skos:narrower C2020A00022:43 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521984> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521984"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:47 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I47 Bankruptcy Act 1966"@en-AU ;
+    dct:isPartOf C2020A00022:46 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Bankruptcy Act 1966 - Abrievated Graph Key: I47"@en-AU ;
+    skos:definition "Bankruptcy Act 1966"@en-AU ;
+    skos:narrower C2020A00022:46 ;
+    skos:prefLabel "Item I47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521988> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521988"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:48 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I48 Bankruptcy Regulations 1996"@en-AU ;
+    dct:isPartOf C2020A00022:46 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Bankruptcy Regulations 1996 - Abrievated Graph Key: I48"@en-AU ;
+    skos:definition "Bankruptcy Regulations 1996"@en-AU ;
+    skos:narrower C2020A00022:46 ;
+    skos:prefLabel "Item I48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521989> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521989"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2020A00022:4 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2020A00022:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521878> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521878"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:50 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I50 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2020A00022:49 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I50"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2020A00022:49 ;
+    skos:prefLabel "Item I50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521994> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521994"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:51 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I51 Corporations Regulations 2001"@en-AU ;
+    dct:isPartOf C2020A00022:49 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Corporations Regulations 2001 - Abrievated Graph Key: I51"@en-AU ;
+    skos:definition "Corporations Regulations 2001"@en-AU ;
+    skos:narrower C2020A00022:49 ;
+    skos:prefLabel "Item I51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521997> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521997"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:53 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I53 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2020A00022:52 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I53"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2020A00022:52 ;
+    skos:prefLabel "Item I53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522000> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522000"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:55 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I55 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2020A00022:54 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I55"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2020A00022:54 ;
+    skos:prefLabel "Item I55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522003> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522003"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:56 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I56 Retirement Savings Accounts Regulations 1997"@en-AU ;
+    dct:isPartOf C2020A00022:54 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Retirement Savings Accounts Regulations 1997 - Abrievated Graph Key: I56"@en-AU ;
+    skos:definition "Retirement Savings Accounts Regulations 1997"@en-AU ;
+    skos:narrower C2020A00022:54 ;
+    skos:prefLabel "Item I56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522005> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522005"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:57 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I57 Superannuation Industry Supervision Regulations 1994"@en-AU ;
+    dct:isPartOf C2020A00022:54 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Superannuation Industry Supervision Regulations 1994 - Abrievated Graph Key: I57"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Regulations 1994"@en-AU ;
+    skos:narrower C2020A00022:54 ;
+    skos:prefLabel "Item I57"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522008> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522008"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:59 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I59 A New Tax System Medicare Levy SurchargeFringe Benefits Act 1999"@en-AU ;
+    dct:isPartOf C2020A00022:58 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "A New Tax System Medicare Levy SurchargeFringe Benefits Act 1999 - Abrievated Graph Key: I59"@en-AU ;
+    skos:definition "A New Tax System Medicare Levy SurchargeFringe Benefits Act 1999"@en-AU ;
+    skos:narrower C2020A00022:58 ;
+    skos:prefLabel "Item I59"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522012> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522012"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2020A00022:4 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2020A00022:4 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521879> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521879"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:60 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I60 Medicare Levy Act 1986"@en-AU ;
+    dct:isPartOf C2020A00022:58 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Medicare Levy Act 1986 - Abrievated Graph Key: I60"@en-AU ;
+    skos:definition "Medicare Levy Act 1986"@en-AU ;
+    skos:narrower C2020A00022:58 ;
+    skos:prefLabel "Item I60"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522013> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522013"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:62 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I62 Charter of Budget Honesty Act 1998"@en-AU ;
+    dct:isPartOf C2020A00022:61 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Charter of Budget Honesty Act 1998 - Abrievated Graph Key: I62"@en-AU ;
+    skos:definition "Charter of Budget Honesty Act 1998"@en-AU ;
+    skos:narrower C2020A00022:61 ;
+    skos:prefLabel "Item I62"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522015> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522015"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:63 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S63 Schedule 16 Deferral of sunsetting"@en-AU ;
+    dct:isPartOf C2020A00022:3 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Schedule 16 Deferral of sunsetting - Abrievated Graph Key: S63"@en-AU ;
+    skos:definition "Schedule 16 Deferral of sunsetting"@en-AU ;
+    skos:narrower C2020A00022:3 ;
+    skos:prefLabel "Schedule S63"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522016> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522016"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00022:65 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I65 Endnote 1 About the endnotes"@en-AU ;
+    dct:isPartOf C2020A00022:64 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Endnote 1 About the endnotes - Abrievated Graph Key: I65"@en-AU ;
+    skos:definition "Endnote 1 About the endnotes"@en-AU ;
+    skos:narrower C2020A00022:64 ;
+    skos:prefLabel "Item I65"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522018> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522018"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:66 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I66 Endnote 2 Abbreviation key"@en-AU ;
+    dct:isPartOf C2020A00022:64 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Endnote 2 Abbreviation key - Abrievated Graph Key: I66"@en-AU ;
+    skos:definition "Endnote 2 Abbreviation key"@en-AU ;
+    skos:narrower C2020A00022:64 ;
+    skos:prefLabel "Item I66"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522019> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522019"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:67 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I67 Endnote 3 Legislation history"@en-AU ;
+    dct:isPartOf C2020A00022:64 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Endnote 3 Legislation history - Abrievated Graph Key: I67"@en-AU ;
+    skos:definition "Endnote 3 Legislation history"@en-AU ;
+    skos:narrower C2020A00022:64 ;
+    skos:prefLabel "Item I67"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522020> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522020"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:68 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I68 Endnote 4 Amendment history"@en-AU ;
+    dct:isPartOf C2020A00022:64 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Endnote 4 Amendment history - Abrievated Graph Key: I68"@en-AU ;
+    skos:definition "Endnote 4 Amendment history"@en-AU ;
+    skos:narrower C2020A00022:64 ;
+    skos:prefLabel "Item I68"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522021> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522021"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2020A00022:7 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2020A00022:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521881> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521881"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2020A00022:7 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2020A00022:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521882> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521882"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022:22 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S22 Schedule 5 Delegation by Director of Human Biosecurity"@en-AU ;
+    dct:hasPart C2020A00022:23 ;
+    dct:isPartOf C2020A00022:3 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Schedule 5 Delegation by Director of Human Biosecurity - Abrievated Graph Key: S22"@en-AU ;
+    skos:broader C2020A00022:23 ;
+    skos:definition "Schedule 5 Delegation by Director of Human Biosecurity"@en-AU ;
+    skos:narrower C2020A00022:3 ;
+    skos:prefLabel "Schedule S22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521952> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521952"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00022:24 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S24 Schedule 6 Environmental management charges"@en-AU ;
+    dct:hasPart C2020A00022:25 ;
+    dct:isPartOf C2020A00022:3 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Schedule 6 Environmental management charges - Abrievated Graph Key: S24"@en-AU ;
+    skos:broader C2020A00022:25 ;
+    skos:definition "Schedule 6 Environmental management charges"@en-AU ;
+    skos:narrower C2020A00022:3 ;
+    skos:prefLabel "Schedule S24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521955> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521955"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00022:27 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P27 Part 1 Education Skills and Employment programs"@en-AU ;
+    dct:hasPart C2020A00022:28 ;
+    dct:isPartOf C2020A00022:26 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Part 1 Education Skills and Employment programs - Abrievated Graph Key: P27"@en-AU ;
+    skos:broader C2020A00022:28 ;
+    skos:definition "Part 1 Education Skills and Employment programs"@en-AU ;
+    skos:narrower C2020A00022:26 ;
+    skos:prefLabel "Part P27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521958> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521958"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00022:29 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P29 Part 2 Infrastructure Transport Regional Development and Communications programs"@en-AU ;
+    dct:hasPart C2020A00022:30 ;
+    dct:isPartOf C2020A00022:26 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Part 2 Infrastructure Transport Regional Development and Communications programs - Abrievated Graph Key: P29"@en-AU ;
+    skos:broader C2020A00022:30 ;
+    skos:definition "Part 2 Infrastructure Transport Regional Development and Communications programs"@en-AU ;
+    skos:narrower C2020A00022:26 ;
+    skos:prefLabel "Part P29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521960> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521960"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00022:31 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S31 Schedule 8 Providing flexibility in the Corporations Act"@en-AU ;
+    dct:hasPart C2020A00022:32 ;
+    dct:isPartOf C2020A00022:3 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Schedule 8 Providing flexibility in the Corporations Act - Abrievated Graph Key: S31"@en-AU ;
+    skos:broader C2020A00022:32 ;
+    skos:definition "Schedule 8 Providing flexibility in the Corporations Act"@en-AU ;
+    skos:narrower C2020A00022:3 ;
+    skos:prefLabel "Schedule S31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521962> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521962"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00022:43 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P43 Part 2 Other amendments"@en-AU ;
+    dct:hasPart C2020A00022:44 ;
+    dct:isPartOf C2020A00022:39 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Part 2 Other amendments - Abrievated Graph Key: P43"@en-AU ;
+    skos:broader C2020A00022:44 ;
+    skos:definition "Part 2 Other amendments"@en-AU ;
+    skos:narrower C2020A00022:39 ;
+    skos:prefLabel "Part P43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521983> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521983"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00022:52 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P52 Part 3 Temporary relief for directors from duty to prevent insolvent trading"@en-AU ;
+    dct:hasPart C2020A00022:53 ;
+    dct:isPartOf C2020A00022:45 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Part 3 Temporary relief for directors from duty to prevent insolvent trading - Abrievated Graph Key: P52"@en-AU ;
+    skos:broader C2020A00022:53 ;
+    skos:definition "Part 3 Temporary relief for directors from duty to prevent insolvent trading"@en-AU ;
+    skos:narrower C2020A00022:45 ;
+    skos:prefLabel "Part P52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521999> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521999"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00022:61 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S61 Schedule 15 Intergenerational report"@en-AU ;
+    dct:hasPart C2020A00022:62 ;
+    dct:isPartOf C2020A00022:3 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Schedule 15 Intergenerational report - Abrievated Graph Key: S61"@en-AU ;
+    skos:broader C2020A00022:62 ;
+    skos:definition "Schedule 15 Intergenerational report"@en-AU ;
+    skos:narrower C2020A00022:3 ;
+    skos:prefLabel "Schedule S61"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522014> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522014"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00022:26 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S26 Schedule 7 Assistance for apprentices and trainees and the aviation sector"@en-AU ;
+    dct:hasPart C2020A00022:27,
+        C2020A00022:29 ;
+    dct:isPartOf C2020A00022:3 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Schedule 7 Assistance for apprentices and trainees and the aviation sector - Abrievated Graph Key: S26"@en-AU ;
+    skos:broader C2020A00022:27,
+        C2020A00022:29 ;
+    skos:definition "Schedule 7 Assistance for apprentices and trainees and the aviation sector"@en-AU ;
+    skos:narrower C2020A00022:3 ;
+    skos:prefLabel "Schedule S26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521957> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521957"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00022:33 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S33 Schedule 9 Child care"@en-AU ;
+    dct:hasPart C2020A00022:34,
+        C2020A00022:35 ;
+    dct:isPartOf C2020A00022:3 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Schedule 9 Child care - Abrievated Graph Key: S33"@en-AU ;
+    skos:broader C2020A00022:34,
+        C2020A00022:35 ;
+    skos:definition "Schedule 9 Child care"@en-AU ;
+    skos:narrower C2020A00022:3 ;
+    skos:prefLabel "Schedule S33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521966> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521966"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00022:36 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S36 Schedule 10 Superannuation drawdowns"@en-AU ;
+    dct:hasPart C2020A00022:37,
+        C2020A00022:38 ;
+    dct:isPartOf C2020A00022:3 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Schedule 10 Superannuation drawdowns - Abrievated Graph Key: S36"@en-AU ;
+    skos:broader C2020A00022:37,
+        C2020A00022:38 ;
+    skos:definition "Schedule 10 Superannuation drawdowns"@en-AU ;
+    skos:narrower C2020A00022:3 ;
+    skos:prefLabel "Schedule S36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521969> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521969"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00022:39 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S39 Schedule 11 Additional support for income support recipients"@en-AU ;
+    dct:hasPart C2020A00022:40,
+        C2020A00022:43 ;
+    dct:isPartOf C2020A00022:3 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Schedule 11 Additional support for income support recipients - Abrievated Graph Key: S39"@en-AU ;
+    skos:broader C2020A00022:40,
+        C2020A00022:43 ;
+    skos:definition "Schedule 11 Additional support for income support recipients"@en-AU ;
+    skos:narrower C2020A00022:3 ;
+    skos:prefLabel "Schedule S39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521972> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521972"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00022:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Enhancing the instant asset writeoff"@en-AU ;
+    dct:hasPart C2020A00022:5,
+        C2020A00022:6 ;
+    dct:isPartOf C2020A00022:3 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Schedule 1 Enhancing the instant asset writeoff - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2020A00022:5,
+        C2020A00022:6 ;
+    skos:definition "Schedule 1 Enhancing the instant asset writeoff"@en-AU ;
+    skos:narrower C2020A00022:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521877> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521877"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00022:40 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P40 Part 1 Main amendments"@en-AU ;
+    dct:hasPart C2020A00022:41,
+        C2020A00022:42 ;
+    dct:isPartOf C2020A00022:39 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P40"@en-AU ;
+    skos:broader C2020A00022:41,
+        C2020A00022:42 ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2020A00022:39 ;
+    skos:prefLabel "Part P40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521973> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521973"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00022:46 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P46 Part 1 Amendments relating to individuals in financial distress"@en-AU ;
+    dct:hasPart C2020A00022:47,
+        C2020A00022:48 ;
+    dct:isPartOf C2020A00022:45 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Part 1 Amendments relating to individuals in financial distress - Abrievated Graph Key: P46"@en-AU ;
+    skos:broader C2020A00022:47,
+        C2020A00022:48 ;
+    skos:definition "Part 1 Amendments relating to individuals in financial distress"@en-AU ;
+    skos:narrower C2020A00022:45 ;
+    skos:prefLabel "Part P46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521987> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521987"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00022:49 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P49 Part 2 Amendments relating to businesses in financial distress"@en-AU ;
+    dct:hasPart C2020A00022:50,
+        C2020A00022:51 ;
+    dct:isPartOf C2020A00022:45 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Part 2 Amendments relating to businesses in financial distress - Abrievated Graph Key: P49"@en-AU ;
+    skos:broader C2020A00022:50,
+        C2020A00022:51 ;
+    skos:definition "Part 2 Amendments relating to businesses in financial distress"@en-AU ;
+    skos:narrower C2020A00022:45 ;
+    skos:prefLabel "Part P49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521993> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521993"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00022:58 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S58 Schedule 14 Medicare levy and Medicare levy surcharge income thresholds"@en-AU ;
+    dct:hasPart C2020A00022:59,
+        C2020A00022:60 ;
+    dct:isPartOf C2020A00022:3 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Schedule 14 Medicare levy and Medicare levy surcharge income thresholds - Abrievated Graph Key: S58"@en-AU ;
+    skos:broader C2020A00022:59,
+        C2020A00022:60 ;
+    skos:definition "Schedule 14 Medicare levy and Medicare levy surcharge income thresholds"@en-AU ;
+    skos:narrower C2020A00022:3 ;
+    skos:prefLabel "Schedule S58"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522011> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522011"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00022:7 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S7 Schedule 2 Backing business investment"@en-AU ;
+    dct:hasPart C2020A00022:8,
+        C2020A00022:9 ;
+    dct:isPartOf C2020A00022:3 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Schedule 2 Backing business investment - Abrievated Graph Key: S7"@en-AU ;
+    skos:broader C2020A00022:8,
+        C2020A00022:9 ;
+    skos:definition "Schedule 2 Backing business investment"@en-AU ;
+    skos:narrower C2020A00022:3 ;
+    skos:prefLabel "Schedule S7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521880> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521880"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00022:45 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S45 Schedule 12 Temporary relief for financially distressed individuals and businesses"@en-AU ;
+    dct:hasPart C2020A00022:46,
+        C2020A00022:49,
+        C2020A00022:52 ;
+    dct:isPartOf C2020A00022:3 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Schedule 12 Temporary relief for financially distressed individuals and businesses - Abrievated Graph Key: S45"@en-AU ;
+    skos:broader C2020A00022:46,
+        C2020A00022:49,
+        C2020A00022:52 ;
+    skos:definition "Schedule 12 Temporary relief for financially distressed individuals and businesses"@en-AU ;
+    skos:narrower C2020A00022:3 ;
+    skos:prefLabel "Schedule S45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521986> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521986"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00022:54 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S54 Schedule 13 Early release of superannuation"@en-AU ;
+    dct:hasPart C2020A00022:55,
+        C2020A00022:56,
+        C2020A00022:57 ;
+    dct:isPartOf C2020A00022:3 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Schedule 13 Early release of superannuation - Abrievated Graph Key: S54"@en-AU ;
+    skos:broader C2020A00022:55,
+        C2020A00022:56,
+        C2020A00022:57 ;
+    skos:definition "Schedule 13 Early release of superannuation"@en-AU ;
+    skos:narrower C2020A00022:3 ;
+    skos:prefLabel "Schedule S54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522002> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522002"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00022:64 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E64 Endnotes"@en-AU ;
+    dct:hasPart C2020A00022:65,
+        C2020A00022:66,
+        C2020A00022:67,
+        C2020A00022:68 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E64"@en-AU ;
+    skos:broader C2020A00022:65,
+        C2020A00022:66,
+        C2020A00022:67,
+        C2020A00022:68 ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:prefLabel "Endnotes E64"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522017> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38522017"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+
+C2020A00022:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 3 Boosting cash flow for employers"@en-AU ;
+    dct:hasPart C2020A00022:11,
+        C2020A00022:12,
+        C2020A00022:13,
+        C2020A00022:14 ;
+    dct:isPartOf C2020A00022:3 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Schedule 3 Boosting cash flow for employers - Abrievated Graph Key: S10"@en-AU ;
+    skos:broader C2020A00022:11,
+        C2020A00022:12,
+        C2020A00022:13,
+        C2020A00022:14 ;
+    skos:definition "Schedule 3 Boosting cash flow for employers"@en-AU ;
+    skos:narrower C2020A00022:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521889> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521889"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00022:15 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S15 Schedule 4 Stimulus payments to households to support growth"@en-AU ;
+    dct:hasPart C2020A00022:16,
+        C2020A00022:17,
+        C2020A00022:18,
+        C2020A00022:19,
+        C2020A00022:20,
+        C2020A00022:21 ;
+    dct:isPartOf C2020A00022:3 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "Schedule 4 Stimulus payments to households to support growth - Abrievated Graph Key: S15"@en-AU ;
+    skos:broader C2020A00022:16,
+        C2020A00022:17,
+        C2020A00022:18,
+        C2020A00022:19,
+        C2020A00022:20,
+        C2020A00022:21 ;
+    skos:definition "Schedule 4 Stimulus payments to households to support growth"@en-AU ;
+    skos:narrower C2020A00022:3 ;
+    skos:prefLabel "Schedule S15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521895> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521895"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00022:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2020A00022:10,
+        C2020A00022:15,
+        C2020A00022:22,
+        C2020A00022:24,
+        C2020A00022:26,
+        C2020A00022:31,
+        C2020A00022:33,
+        C2020A00022:36,
+        C2020A00022:39,
+        C2020A00022:4,
+        C2020A00022:45,
+        C2020A00022:54,
+        C2020A00022:58,
+        C2020A00022:61,
+        C2020A00022:63,
+        C2020A00022:7 ;
+    dct:isReferencedBy C2020A00022: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2020A00022:10,
+        C2020A00022:15,
+        C2020A00022:22,
+        C2020A00022:24,
+        C2020A00022:26,
+        C2020A00022:31,
+        C2020A00022:33,
+        C2020A00022:36,
+        C2020A00022:39,
+        C2020A00022:4,
+        C2020A00022:45,
+        C2020A00022:54,
+        C2020A00022:58,
+        C2020A00022:61,
+        C2020A00022:63,
+        C2020A00022:7 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521876> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00022/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc38521876"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00022: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Coronavirus Economic Response Package Omnibus Act 2020" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-23T03:25:13.390172"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2020-03-25T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Coronavirus Economic Response Package Omnibus Act 2020"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2020A00022/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Coronavirus Economic Response Package Omnibus Act 2020"@en-AU ;
+    dct:title "Coronavirus Economic Response Package Omnibus Act 2020"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Endnotes,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2020C00139 C01" .
+

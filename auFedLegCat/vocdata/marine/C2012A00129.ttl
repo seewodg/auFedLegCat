@@ -1,0 +1,610 @@
+@prefix C2012A00129: <http://example.org/au/leg/dataset/C2012A00129/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2012A00129:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672779> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672779"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672780> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672780"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Australian Maritime Safety Authority Act 1990"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Australian Maritime Safety Authority Act 1990 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Australian Maritime Safety Authority Act 1990"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672788> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672788"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Australian Meat and Livestock Industry Act 1997"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Australian Meat and Livestock Industry Act 1997 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Australian Meat and Livestock Industry Act 1997"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672789> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672789"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Carriage of Goods by Sea Act 1991"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Carriage of Goods by Sea Act 1991 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Carriage of Goods by Sea Act 1991"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672790> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672790"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Fair Work Act 2009"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Fair Work Act 2009 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Fair Work Act 2009"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672791> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672791"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Federal Court of Australia Act 1976"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Federal Court of Australia Act 1976 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Federal Court of Australia Act 1976"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672792> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672792"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Great Barrier Reef Marine Park Act 1975"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Great Barrier Reef Marine Park Act 1975 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Great Barrier Reef Marine Park Act 1975"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672793> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672793"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Legislative Instruments Act 2003"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Legislative Instruments Act 2003 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Legislative Instruments Act 2003"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672794> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672794"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Marine Navigation Levy Act 1989"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Marine Navigation Levy Act 1989 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Marine Navigation Levy Act 1989"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672795> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672795"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Marine Navigation Levy Collection Act 1989"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Marine Navigation Levy Collection Act 1989 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Marine Navigation Levy Collection Act 1989"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672796> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672796"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Marine Navigation Regulatory Functions Levy Act 1991"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Marine Navigation Regulatory Functions Levy Act 1991 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Marine Navigation Regulatory Functions Levy Act 1991"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672797> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672797"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Marine Navigation Regulatory Functions Levy Collection Act 1991"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Marine Navigation Regulatory Functions Levy Collection Act 1991 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Marine Navigation Regulatory Functions Levy Collection Act 1991"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672798> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672798"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Maritime Legislation Amendment Act 2007"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Maritime Legislation Amendment Act 2007 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Maritime Legislation Amendment Act 2007"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672799> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672799"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Maritime Transport and Offshore Facilities Security Act 2003"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Maritime Transport and Offshore Facilities Security Act 2003 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Maritime Transport and Offshore Facilities Security Act 2003"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672800> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672800"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Occupational Health and Safety Maritime Industry Act 1993"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Occupational Health and Safety Maritime Industry Act 1993 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Occupational Health and Safety Maritime Industry Act 1993"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672801> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672801"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Offshore Petroleum and Greenhouse Gas Storage Act 2006"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Offshore Petroleum and Greenhouse Gas Storage Act 2006 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Offshore Petroleum and Greenhouse Gas Storage Act 2006"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672805> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672805"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Protection of the Sea Civil Liability Act 1981"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Protection of the Sea Civil Liability Act 1981 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Protection of the Sea Civil Liability Act 1981"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672806> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672806"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Protection of the Sea Civil Liability for Bunker Oil Pollution Damage Act 2008"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Protection of the Sea Civil Liability for Bunker Oil Pollution Damage Act 2008 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Protection of the Sea Civil Liability for Bunker Oil Pollution Damage Act 2008"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672808> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672808"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Protection of the Sea Harmful Antifouling Systems Act 2006"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Protection of the Sea Harmful Antifouling Systems Act 2006 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Protection of the Sea Harmful Antifouling Systems Act 2006"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672810> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672810"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Protection of the Sea Powers of Intervention Act 1981"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Protection of the Sea Powers of Intervention Act 1981 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Protection of the Sea Powers of Intervention Act 1981"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672811> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672811"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Protection of the Sea Prevention of Pollution from Ships Act 1983"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Protection of the Sea Prevention of Pollution from Ships Act 1983 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Protection of the Sea Prevention of Pollution from Ships Act 1983"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672812> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672812"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Protection of the Sea Shipping Levy Collection Act 1981"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Protection of the Sea Shipping Levy Collection Act 1981 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Protection of the Sea Shipping Levy Collection Act 1981"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672813> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672813"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Radiocommunications Act 1992"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Radiocommunications Act 1992 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Radiocommunications Act 1992"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672814> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672814"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Seafarers Rehabilitation and Compensation Act 1992"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Seafarers Rehabilitation and Compensation Act 1992 - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Seafarers Rehabilitation and Compensation Act 1992"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672815> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672815"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Sea Installations Act 1987"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Sea Installations Act 1987 - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Sea Installations Act 1987"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672817> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672817"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Shipping Registration Act 1981"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Shipping Registration Act 1981 - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Shipping Registration Act 1981"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672818> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672818"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Transport Safety Investigation Act 2003"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Transport Safety Investigation Act 2003 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Transport Safety Investigation Act 2003"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672821> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672821"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Navigation Act 2012"@en-AU ;
+    dct:isPartOf C2012A00129:36 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Navigation Act 2012 - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Navigation Act 2012"@en-AU ;
+    skos:narrower C2012A00129:36 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672823> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672823"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Lighthouses Act 1911"@en-AU ;
+    dct:isPartOf C2012A00129:4 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Lighthouses Act 1911 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Lighthouses Act 1911"@en-AU ;
+    skos:narrower C2012A00129:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672783> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672783"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Navigation Act 1912"@en-AU ;
+    dct:isPartOf C2012A00129:4 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Navigation Act 1912 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Navigation Act 1912"@en-AU ;
+    skos:narrower C2012A00129:4 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672784> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672784"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Admiralty Act 1988"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Admiralty Act 1988 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Admiralty Act 1988"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672786> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672786"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Age Discrimination Act 2004"@en-AU ;
+    dct:isPartOf C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Age Discrimination Act 2004 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Age Discrimination Act 2004"@en-AU ;
+    skos:narrower C2012A00129:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672787> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672787"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:36 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S36 Schedule 3 Amendments relating to the Maritime Labour Convention"@en-AU ;
+    dct:hasPart C2012A00129:37 ;
+    dct:isPartOf C2012A00129:3 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Schedule 3 Amendments relating to the Maritime Labour Convention - Abrievated Graph Key: S36"@en-AU ;
+    skos:broader C2012A00129:37 ;
+    skos:definition "Schedule 3 Amendments relating to the Maritime Labour Convention"@en-AU ;
+    skos:narrower C2012A00129:3 ;
+    skos:prefLabel "Schedule S36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672822> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672822"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00129:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2012A00129:36,
+        C2012A00129:4,
+        C2012A00129:7 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2012A00129:36,
+        C2012A00129:4,
+        C2012A00129:7 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672781> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672781"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00129:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Repeal"@en-AU ;
+    dct:hasPart C2012A00129:5,
+        C2012A00129:6 ;
+    dct:isPartOf C2012A00129:3 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Schedule 1 Repeal - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2012A00129:5,
+        C2012A00129:6 ;
+    skos:definition "Schedule 1 Repeal"@en-AU ;
+    skos:narrower C2012A00129:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672782> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672782"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00129: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Navigation (Consequential Amendments) Act 2012" ;
+    dct:Jurisdiction " Department of Infrastructure, Transport, Regional Development, Communications, Sport and the Arts "@en-AU ;
+    dct:created "2026-05-23T02:57:32.014941"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2012-09-13T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Navigation (Consequential Amendments) Act 2012"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2012A00129/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Navigation (Consequential Amendments) Act 2012"@en-AU ;
+    dct:title "Navigation (Consequential Amendments) Act 2012"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2012A00129" .
+
+C2012A00129:7 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S7 Schedule 2 Consequential amendments"@en-AU ;
+    dct:hasPart C2012A00129:10,
+        C2012A00129:11,
+        C2012A00129:12,
+        C2012A00129:13,
+        C2012A00129:14,
+        C2012A00129:15,
+        C2012A00129:16,
+        C2012A00129:17,
+        C2012A00129:18,
+        C2012A00129:19,
+        C2012A00129:20,
+        C2012A00129:21,
+        C2012A00129:22,
+        C2012A00129:23,
+        C2012A00129:24,
+        C2012A00129:25,
+        C2012A00129:26,
+        C2012A00129:27,
+        C2012A00129:28,
+        C2012A00129:29,
+        C2012A00129:30,
+        C2012A00129:31,
+        C2012A00129:32,
+        C2012A00129:33,
+        C2012A00129:34,
+        C2012A00129:35,
+        C2012A00129:8,
+        C2012A00129:9 ;
+    dct:isPartOf C2012A00129:3 ;
+    dct:isReferencedBy C2012A00129: ;
+    rdfs:comment "Schedule 2 Consequential amendments - Abrievated Graph Key: S7"@en-AU ;
+    skos:broader C2012A00129:10,
+        C2012A00129:11,
+        C2012A00129:12,
+        C2012A00129:13,
+        C2012A00129:14,
+        C2012A00129:15,
+        C2012A00129:16,
+        C2012A00129:17,
+        C2012A00129:18,
+        C2012A00129:19,
+        C2012A00129:20,
+        C2012A00129:21,
+        C2012A00129:22,
+        C2012A00129:23,
+        C2012A00129:24,
+        C2012A00129:25,
+        C2012A00129:26,
+        C2012A00129:27,
+        C2012A00129:28,
+        C2012A00129:29,
+        C2012A00129:30,
+        C2012A00129:31,
+        C2012A00129:32,
+        C2012A00129:33,
+        C2012A00129:34,
+        C2012A00129:35,
+        C2012A00129:8,
+        C2012A00129:9 ;
+    skos:definition "Schedule 2 Consequential amendments"@en-AU ;
+    skos:narrower C2012A00129:3 ;
+    skos:prefLabel "Schedule S7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672785> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00129/asmade/2012-09-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc335672785"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+

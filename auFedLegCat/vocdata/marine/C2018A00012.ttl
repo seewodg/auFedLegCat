@@ -1,0 +1,304 @@
+@prefix C2018A00012: <http://example.org/au/leg/dataset/C2018A00012/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2018A00012:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2018A00012: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262030> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262030"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2018A00012:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2018A00012: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262031> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262031"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2018A00012:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Great Barrier Reef Marine Park Act 1975"@en-AU ;
+    dct:isPartOf C2018A00012:11 ;
+    dct:isReferencedBy C2018A00012: ;
+    rdfs:comment "Great Barrier Reef Marine Park Act 1975 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Great Barrier Reef Marine Park Act 1975"@en-AU ;
+    skos:narrower C2018A00012:11 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262066> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262066"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2018A00012:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 2 Application and transitional provisions"@en-AU ;
+    dct:isPartOf C2018A00012:10 ;
+    dct:isReferencedBy C2018A00012: ;
+    rdfs:comment "Part 2 Application and transitional provisions - Abrievated Graph Key: P13"@en-AU ;
+    skos:definition "Part 2 Application and transitional provisions"@en-AU ;
+    skos:narrower C2018A00012:10 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262069> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262069"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2018A00012:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Endnote 1 About the endnotes"@en-AU ;
+    dct:isPartOf C2018A00012:14 ;
+    dct:isReferencedBy C2018A00012: ;
+    rdfs:comment "Endnote 1 About the endnotes - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Endnote 1 About the endnotes"@en-AU ;
+    skos:narrower C2018A00012:14 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262071> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262071"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2018A00012:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Endnote 2 Abbreviation key"@en-AU ;
+    dct:isPartOf C2018A00012:14 ;
+    dct:isReferencedBy C2018A00012: ;
+    rdfs:comment "Endnote 2 Abbreviation key - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Endnote 2 Abbreviation key"@en-AU ;
+    skos:narrower C2018A00012:14 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262072> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262072"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2018A00012:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Endnote 3 Legislation history"@en-AU ;
+    dct:isPartOf C2018A00012:14 ;
+    dct:isReferencedBy C2018A00012: ;
+    rdfs:comment "Endnote 3 Legislation history - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Endnote 3 Legislation history"@en-AU ;
+    skos:narrower C2018A00012:14 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262073> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262073"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2018A00012:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Endnote 4 Amendment history"@en-AU ;
+    dct:isPartOf C2018A00012:14 ;
+    dct:isReferencedBy C2018A00012: ;
+    rdfs:comment "Endnote 4 Amendment history - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Endnote 4 Amendment history"@en-AU ;
+    skos:narrower C2018A00012:14 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262074> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262074"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2018A00012:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Great Barrier Reef Marine Park Act 1975"@en-AU ;
+    dct:isPartOf C2018A00012:5 ;
+    dct:isReferencedBy C2018A00012: ;
+    rdfs:comment "Great Barrier Reef Marine Park Act 1975 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Great Barrier Reef Marine Park Act 1975"@en-AU ;
+    skos:narrower C2018A00012:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262035> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262035"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2018A00012:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    dct:isPartOf C2018A00012:7 ;
+    dct:isReferencedBy C2018A00012: ;
+    rdfs:comment "Environment Protection and Biodiversity Conservation Act 1999 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    skos:narrower C2018A00012:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262062> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262062"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2018A00012:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 3 Application and transitional provisions"@en-AU ;
+    dct:isPartOf C2018A00012:4 ;
+    dct:isReferencedBy C2018A00012: ;
+    rdfs:comment "Part 3 Application and transitional provisions - Abrievated Graph Key: P9"@en-AU ;
+    skos:definition "Part 3 Application and transitional provisions"@en-AU ;
+    skos:narrower C2018A00012:4 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262063> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262063"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2018A00012:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2018A00012:12 ;
+    dct:isPartOf C2018A00012:10 ;
+    dct:isReferencedBy C2018A00012: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P11"@en-AU ;
+    skos:broader C2018A00012:12 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2018A00012:10 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262065> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262065"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2018A00012:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2018A00012:10,
+        C2018A00012:4 ;
+    dct:isReferencedBy C2018A00012: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2018A00012:10,
+        C2018A00012:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262032> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262032"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2018A00012:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Main amendments"@en-AU ;
+    dct:hasPart C2018A00012:6 ;
+    dct:isPartOf C2018A00012:4 ;
+    dct:isReferencedBy C2018A00012: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2018A00012:6 ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2018A00012:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262034> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262034"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2018A00012:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Consequential amendments"@en-AU ;
+    dct:hasPart C2018A00012:8 ;
+    dct:isPartOf C2018A00012:4 ;
+    dct:isReferencedBy C2018A00012: ;
+    rdfs:comment "Part 2 Consequential amendments - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader C2018A00012:8 ;
+    skos:definition "Part 2 Consequential amendments"@en-AU ;
+    skos:narrower C2018A00012:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262061> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262061"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2018A00012:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 2 Powers of zoning plans and plans of management"@en-AU ;
+    dct:hasPart C2018A00012:11,
+        C2018A00012:13 ;
+    dct:isPartOf C2018A00012:3 ;
+    dct:isReferencedBy C2018A00012: ;
+    rdfs:comment "Schedule 2 Powers of zoning plans and plans of management - Abrievated Graph Key: S10"@en-AU ;
+    skos:broader C2018A00012:11,
+        C2018A00012:13 ;
+    skos:definition "Schedule 2 Powers of zoning plans and plans of management"@en-AU ;
+    skos:narrower C2018A00012:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262064> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262064"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2018A00012:14 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E14 Endnotes"@en-AU ;
+    dct:hasPart C2018A00012:15,
+        C2018A00012:16,
+        C2018A00012:17,
+        C2018A00012:18 ;
+    dct:isReferencedBy C2018A00012: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E14"@en-AU ;
+    skos:broader C2018A00012:15,
+        C2018A00012:16,
+        C2018A00012:17,
+        C2018A00012:18 ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:prefLabel "Endnotes E14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262070> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262070"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+
+C2018A00012:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Authority governance"@en-AU ;
+    dct:hasPart C2018A00012:5,
+        C2018A00012:7,
+        C2018A00012:9 ;
+    dct:isPartOf C2018A00012:3 ;
+    dct:isReferencedBy C2018A00012: ;
+    rdfs:comment "Schedule 1 Authority governance - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2018A00012:5,
+        C2018A00012:7,
+        C2018A00012:9 ;
+    skos:definition "Schedule 1 Authority governance"@en-AU ;
+    skos:narrower C2018A00012:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262033> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00012/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc87262033"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2018A00012: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Great Barrier Reef Marine Park Amendment (Authority Governance and Other Matters) Act 2018" ;
+    dct:Jurisdiction " Department of Climate Change, Energy, the Environment and Water "@en-AU ;
+    dct:created "2026-05-23T02:57:20.201070"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2021-09-01T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Great Barrier Reef Marine Park Amendment (Authority Governance and Other Matters) Act 2018"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2018A00012/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Great Barrier Reef Marine Park Amendment (Authority Governance and Other Matters) Act 2018"@en-AU ;
+    dct:title "Great Barrier Reef Marine Park Amendment (Authority Governance and Other Matters) Act 2018"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Endnotes,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2021C00504 C01" .
+
