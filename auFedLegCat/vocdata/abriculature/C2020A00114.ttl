@@ -1,0 +1,601 @@
+@prefix C2020A00114: <http://example.org/au/leg/dataset/C2020A00114/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2020A00114:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83117947> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83117947"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00114:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83117948> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83117948"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00114:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83117949> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83117949"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00114:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 4  Evaluation of operation of this Act and related legislation"@en-AU ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "4  Evaluation of operation of this Act and related legislation - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "4  Evaluation of operation of this Act and related legislation"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83117950> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83117950"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00114:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Administrative Appeals Tribunal Act 1975"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Administrative Appeals Tribunal Act 1975 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Administrative Appeals Tribunal Act 1975"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118051> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118051"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00114:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Security of Critical Infrastructure Act 2018"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Security of Critical Infrastructure Act 2018 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Security of Critical Infrastructure Act 2018"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118052> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118052"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00114:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118053> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118053"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00114:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 3 Application and transitional provisions"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Part 3 Application and transitional provisions - Abrievated Graph Key: P13"@en-AU ;
+    skos:definition "Part 3 Application and transitional provisions"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118054> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118054"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00114:14 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D14 Division 1 National security reviews and last resort power"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Division 1 National security reviews and last resort power - Abrievated Graph Key: D14"@en-AU ;
+    skos:definition "Division 1 National security reviews and last resort power"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Division D14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118055> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118055"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2020A00114:15 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D15 Division 2 Other amendments"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Division 2 Other amendments - Abrievated Graph Key: D15"@en-AU ;
+    skos:definition "Division 2 Other amendments"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Division D15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118056> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118056"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2020A00114:16 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S16 Schedule 2 Compliance and enforcement"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Schedule 2 Compliance and enforcement - Abrievated Graph Key: S16"@en-AU ;
+    skos:definition "Schedule 2 Compliance and enforcement"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Schedule S16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118057> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118057"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00114:17 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P17 Part 1 Amendments"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P17"@en-AU ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Part P17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118058> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118058"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00114:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Foreign Acquisitions and Takeovers Act 1975 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118059> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118059"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00114:19 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P19 Part 2 Application provisions"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Part 2 Application provisions - Abrievated Graph Key: P19"@en-AU ;
+    skos:definition "Part 2 Application provisions"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Part P19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118084> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118084"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00114:20 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D20 Division 1 General"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Division 1 General - Abrievated Graph Key: D20"@en-AU ;
+    skos:definition "Division 1 General"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Division D20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118085> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118085"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2020A00114:21 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D21 Division 2 Application of Regulatory Powers Standard Provisions Act 2014"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Division 2 Application of Regulatory Powers Standard Provisions Act 2014 - Abrievated Graph Key: D21"@en-AU ;
+    skos:definition "Division 2 Application of Regulatory Powers Standard Provisions Act 2014"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Division D21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118086> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118086"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2020A00114:22 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P22 Part 3 Contingent amendments"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Part 3 Contingent amendments - Abrievated Graph Key: P22"@en-AU ;
+    skos:definition "Part 3 Contingent amendments"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Part P22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118087> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118087"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00114:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Foreign Acquisitions and Takeovers Act 1975 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118088> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118088"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00114:24 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S24 Schedule 3 Register of Foreign Ownership of Australian Assets"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Schedule 3 Register of Foreign Ownership of Australian Assets - Abrievated Graph Key: S24"@en-AU ;
+    skos:definition "Schedule 3 Register of Foreign Ownership of Australian Assets"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Schedule S24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118089> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118089"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00114:25 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P25 Part 1 Amendments"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P25"@en-AU ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Part P25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118090> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118090"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00114:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Foreign Acquisitions and Takeovers Act 1975 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118091> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118091"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00114:27 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P27 Part 2 Repeals"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Part 2 Repeals - Abrievated Graph Key: P27"@en-AU ;
+    skos:definition "Part 2 Repeals"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Part P27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118143> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118143"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00114:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Register of Foreign Ownership of Water or Agricultural Land Act 2015"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Register of Foreign Ownership of Water or Agricultural Land Act 2015 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Register of Foreign Ownership of Water or Agricultural Land Act 2015"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118144> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118144"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00114:29 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P29 Part 3 Amendments consequential on repeal"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Part 3 Amendments consequential on repeal - Abrievated Graph Key: P29"@en-AU ;
+    skos:definition "Part 3 Amendments consequential on repeal"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Part P29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118145> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118145"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00114:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Foreign Acquisitions and Takeovers Act 1975 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118146> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118146"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00114:31 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P31 Part 4 Transitional provisions"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Part 4 Transitional provisions - Abrievated Graph Key: P31"@en-AU ;
+    skos:definition "Part 4 Transitional provisions"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Part P31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118147> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118147"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00114:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Endnote 1 About the endnotes"@en-AU ;
+    dct:isPartOf C2020A00114:32 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Endnote 1 About the endnotes - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Endnote 1 About the endnotes"@en-AU ;
+    skos:narrower C2020A00114:32 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118149> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118149"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00114:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Endnote 2 Abbreviation key"@en-AU ;
+    dct:isPartOf C2020A00114:32 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Endnote 2 Abbreviation key - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Endnote 2 Abbreviation key"@en-AU ;
+    skos:narrower C2020A00114:32 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118150> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118150"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00114:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Endnote 3 Legislation history"@en-AU ;
+    dct:isPartOf C2020A00114:32 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Endnote 3 Legislation history - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Endnote 3 Legislation history"@en-AU ;
+    skos:narrower C2020A00114:32 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118151> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118151"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00114:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 Endnote 4 Amendment history"@en-AU ;
+    dct:isPartOf C2020A00114:32 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Endnote 4 Amendment history - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "Endnote 4 Amendment history"@en-AU ;
+    skos:narrower C2020A00114:32 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118152> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118152"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00114:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Endnote 5 Editorial changes"@en-AU ;
+    dct:isPartOf C2020A00114:32 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Endnote 5 Editorial changes - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Endnote 5 Editorial changes"@en-AU ;
+    skos:narrower C2020A00114:32 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118153> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118153"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00114:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 1 Main amendments"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Schedule 1 Main amendments - Abrievated Graph Key: S6"@en-AU ;
+    skos:definition "Schedule 1 Main amendments"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83117952> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83117952"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00114:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 1 Amendment of the Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Part 1 Amendment of the Foreign Acquisitions and Takeovers Act 1975 - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 1 Amendment of the Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83117953> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83117953"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00114:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Foreign Acquisitions and Takeovers Act 1975 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83117954> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83117954"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00114:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 2 Amendments of other Acts"@en-AU ;
+    dct:isPartOf C2020A00114:5 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Part 2 Amendments of other Acts - Abrievated Graph Key: P9"@en-AU ;
+    skos:definition "Part 2 Amendments of other Acts"@en-AU ;
+    skos:narrower C2020A00114:5 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118050> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118050"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00114:32 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E32 Endnotes"@en-AU ;
+    dct:hasPart C2020A00114:33,
+        C2020A00114:34,
+        C2020A00114:35,
+        C2020A00114:36,
+        C2020A00114:37 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E32"@en-AU ;
+    skos:broader C2020A00114:33,
+        C2020A00114:34,
+        C2020A00114:35,
+        C2020A00114:36,
+        C2020A00114:37 ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:prefLabel "Endnotes E32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118148> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83118148"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+
+C2020A00114: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Foreign Investment Reform (Protecting Australia’s National Security) Act 2020" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-23T14:16:55.298545"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2021-09-21T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Foreign Investment Reform (Protecting Australia’s National Security) Act 2020"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2020A00114/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Foreign Investment Reform (Protecting Australia’s National Security) Act 2020"@en-AU ;
+    dct:title "Foreign Investment Reform (Protecting Australia’s National Security) Act 2020"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Endnotes,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2021C00358 C01" .
+
+C2020A00114:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 5  Delegation"@en-AU ;
+    dct:hasPart C2020A00114:10,
+        C2020A00114:11,
+        C2020A00114:12,
+        C2020A00114:13,
+        C2020A00114:14,
+        C2020A00114:15,
+        C2020A00114:16,
+        C2020A00114:17,
+        C2020A00114:18,
+        C2020A00114:19,
+        C2020A00114:20,
+        C2020A00114:21,
+        C2020A00114:22,
+        C2020A00114:23,
+        C2020A00114:24,
+        C2020A00114:25,
+        C2020A00114:26,
+        C2020A00114:27,
+        C2020A00114:28,
+        C2020A00114:29,
+        C2020A00114:30,
+        C2020A00114:31,
+        C2020A00114:6,
+        C2020A00114:7,
+        C2020A00114:8,
+        C2020A00114:9 ;
+    dct:isReferencedBy C2020A00114: ;
+    rdfs:comment "5  Delegation - Abrievated Graph Key: I5"@en-AU ;
+    skos:broader C2020A00114:10,
+        C2020A00114:11,
+        C2020A00114:12,
+        C2020A00114:13,
+        C2020A00114:14,
+        C2020A00114:15,
+        C2020A00114:16,
+        C2020A00114:17,
+        C2020A00114:18,
+        C2020A00114:19,
+        C2020A00114:20,
+        C2020A00114:21,
+        C2020A00114:22,
+        C2020A00114:23,
+        C2020A00114:24,
+        C2020A00114:25,
+        C2020A00114:26,
+        C2020A00114:27,
+        C2020A00114:28,
+        C2020A00114:29,
+        C2020A00114:30,
+        C2020A00114:31,
+        C2020A00114:6,
+        C2020A00114:7,
+        C2020A00114:8,
+        C2020A00114:9 ;
+    skos:definition "5  Delegation"@en-AU ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83117951> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00114/2021-09-21/2021-09-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc83117951"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+

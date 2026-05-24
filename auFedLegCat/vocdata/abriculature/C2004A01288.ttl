@@ -1,0 +1,211 @@
+@prefix C2004A01288: <http://example.org/au/leg/dataset/C2004A01288/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A01288:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A01288: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892602> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892602"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01288:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A01288: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892603> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892603"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01288:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Pig Industry Act 2001"@en-AU ;
+    dct:isPartOf C2004A01288:9 ;
+    dct:isReferencedBy C2004A01288: ;
+    rdfs:comment "Pig Industry Act 2001 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Pig Industry Act 2001"@en-AU ;
+    skos:narrower C2004A01288:9 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892618> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892618"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01288:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Wool Services Privatisation Act 2000"@en-AU ;
+    dct:isPartOf C2004A01288:9 ;
+    dct:isReferencedBy C2004A01288: ;
+    rdfs:comment "Wool Services Privatisation Act 2000 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Wool Services Privatisation Act 2000"@en-AU ;
+    skos:narrower C2004A01288:9 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892619> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892619"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01288:12 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S12 Schedule 4 Amendment of the Quarantine Amendment Health Act 2003"@en-AU ;
+    dct:isPartOf C2004A01288:3 ;
+    dct:isReferencedBy C2004A01288: ;
+    rdfs:comment "Schedule 4 Amendment of the Quarantine Amendment Health Act 2003 - Abrievated Graph Key: S12"@en-AU ;
+    skos:definition "Schedule 4 Amendment of the Quarantine Amendment Health Act 2003"@en-AU ;
+    skos:narrower C2004A01288:3 ;
+    skos:prefLabel "Schedule S12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892620> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892620"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01288:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Extension of the Quarantine Act to Christmas Island"@en-AU ;
+    dct:isPartOf C2004A01288:4 ;
+    dct:isReferencedBy C2004A01288: ;
+    rdfs:comment "Part 1 Extension of the Quarantine Act to Christmas Island - Abrievated Graph Key: P5"@en-AU ;
+    skos:definition "Part 1 Extension of the Quarantine Act to Christmas Island"@en-AU ;
+    skos:narrower C2004A01288:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892606> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892606"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01288:6 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P6 Part 2 Quarantine expenses and fees"@en-AU ;
+    dct:isPartOf C2004A01288:4 ;
+    dct:isReferencedBy C2004A01288: ;
+    rdfs:comment "Part 2 Quarantine expenses and fees - Abrievated Graph Key: P6"@en-AU ;
+    skos:definition "Part 2 Quarantine expenses and fees"@en-AU ;
+    skos:narrower C2004A01288:4 ;
+    skos:prefLabel "Part P6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892609> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892609"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01288:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 3 Performance of quarantine officer functions"@en-AU ;
+    dct:isPartOf C2004A01288:4 ;
+    dct:isReferencedBy C2004A01288: ;
+    rdfs:comment "Part 3 Performance of quarantine officer functions - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 3 Performance of quarantine officer functions"@en-AU ;
+    skos:narrower C2004A01288:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892611> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892611"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01288:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 2 Amendment of the Imported Food Control Act 1992"@en-AU ;
+    dct:isPartOf C2004A01288:3 ;
+    dct:isReferencedBy C2004A01288: ;
+    rdfs:comment "Schedule 2 Amendment of the Imported Food Control Act 1992 - Abrievated Graph Key: S8"@en-AU ;
+    skos:definition "Schedule 2 Amendment of the Imported Food Control Act 1992"@en-AU ;
+    skos:narrower C2004A01288:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892613> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892613"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01288:9 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S9 Schedule 3 Carry forward of research and development expenditure"@en-AU ;
+    dct:hasPart C2004A01288:10,
+        C2004A01288:11 ;
+    dct:isPartOf C2004A01288:3 ;
+    dct:isReferencedBy C2004A01288: ;
+    rdfs:comment "Schedule 3 Carry forward of research and development expenditure - Abrievated Graph Key: S9"@en-AU ;
+    skos:broader C2004A01288:10,
+        C2004A01288:11 ;
+    skos:definition "Schedule 3 Carry forward of research and development expenditure"@en-AU ;
+    skos:narrower C2004A01288:3 ;
+    skos:prefLabel "Schedule S9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892617> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892617"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01288:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A01288:12,
+        C2004A01288:4,
+        C2004A01288:8,
+        C2004A01288:9 ;
+    dct:isReferencedBy C2004A01288: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A01288:12,
+        C2004A01288:4,
+        C2004A01288:8,
+        C2004A01288:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892604> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892604"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01288:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendment of the Quarantine Act 1908"@en-AU ;
+    dct:hasPart C2004A01288:5,
+        C2004A01288:6,
+        C2004A01288:7 ;
+    dct:isPartOf C2004A01288:3 ;
+    dct:isReferencedBy C2004A01288: ;
+    rdfs:comment "Schedule 1 Amendment of the Quarantine Act 1908 - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A01288:5,
+        C2004A01288:6,
+        C2004A01288:7 ;
+    skos:definition "Schedule 1 Amendment of the Quarantine Act 1908"@en-AU ;
+    skos:narrower C2004A01288:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892605> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01288/2004-10-27/2004-10-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc90892605"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01288: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Agriculture, Fisheries and Forestry Legislation Amendment Act (No. 1) 2004" ;
+    dct:Jurisdiction " Department of Agriculture, Fisheries and Forestry "@en-AU ;
+    dct:created "2026-05-23T13:52:10.803372"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2004-10-27T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Agriculture, Fisheries and Forestry Legislation Amendment Act (No. 1) 2004"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A01288/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Agriculture, Fisheries and Forestry Legislation Amendment Act (No. 1) 2004"@en-AU ;
+    dct:title "Agriculture, Fisheries and Forestry Legislation Amendment Act (No. 1) 2004"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2004C01405" .
+

@@ -1,0 +1,130 @@
+@prefix C2017A00034: <http://example.org/au/leg/dataset/C2017A00034/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2017A00034:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2017A00034: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2017A00034/asmade/2017-05-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc482973340> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2017A00034/asmade/2017-05-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc482973340"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2017A00034:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2017A00034: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2017A00034/asmade/2017-05-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc482973341> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2017A00034/asmade/2017-05-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc482973341"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2017A00034:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Biosecurity Act 2015"@en-AU ;
+    dct:isPartOf C2017A00034:4 ;
+    dct:isReferencedBy C2017A00034: ;
+    rdfs:comment "Biosecurity Act 2015 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Biosecurity Act 2015"@en-AU ;
+    skos:narrower C2017A00034:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2017A00034/asmade/2017-05-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc482973344> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2017A00034/asmade/2017-05-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc482973344"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2017A00034:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Biosecurity Act 2015"@en-AU ;
+    dct:isPartOf C2017A00034:6 ;
+    dct:isReferencedBy C2017A00034: ;
+    rdfs:comment "Biosecurity Act 2015 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Biosecurity Act 2015"@en-AU ;
+    skos:narrower C2017A00034:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2017A00034/asmade/2017-05-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc482973378> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2017A00034/asmade/2017-05-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc482973378"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2017A00034:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2017A00034:4,
+        C2017A00034:6 ;
+    dct:isReferencedBy C2017A00034: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2017A00034:4,
+        C2017A00034:6 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2017A00034/asmade/2017-05-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc482973342> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2017A00034/asmade/2017-05-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc482973342"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2017A00034:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments relating to the Ballast Water Convention"@en-AU ;
+    dct:hasPart C2017A00034:5 ;
+    dct:isPartOf C2017A00034:3 ;
+    dct:isReferencedBy C2017A00034: ;
+    rdfs:comment "Schedule 1 Amendments relating to the Ballast Water Convention - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2017A00034:5 ;
+    skos:definition "Schedule 1 Amendments relating to the Ballast Water Convention"@en-AU ;
+    skos:narrower C2017A00034:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2017A00034/asmade/2017-05-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc482973343> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2017A00034/asmade/2017-05-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc482973343"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2017A00034:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Amendments relating to human health"@en-AU ;
+    dct:hasPart C2017A00034:7 ;
+    dct:isPartOf C2017A00034:3 ;
+    dct:isReferencedBy C2017A00034: ;
+    rdfs:comment "Schedule 2 Amendments relating to human health - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2017A00034:7 ;
+    skos:definition "Schedule 2 Amendments relating to human health"@en-AU ;
+    skos:narrower C2017A00034:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2017A00034/asmade/2017-05-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc482973377> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2017A00034/asmade/2017-05-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc482973377"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2017A00034: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Biosecurity Amendment (Ballast Water and Other Measures) Act 2017" ;
+    dct:Jurisdiction " Department of Agriculture, Fisheries and Forestry "@en-AU ;
+    dct:created "2026-05-23T03:17:47.253104"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2017-05-17T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Biosecurity Amendment (Ballast Water and Other Measures) Act 2017"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2017A00034/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Biosecurity Amendment (Ballast Water and Other Measures) Act 2017"@en-AU ;
+    dct:title "Biosecurity Amendment (Ballast Water and Other Measures) Act 2017"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2017A00034" .
+

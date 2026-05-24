@@ -1,0 +1,973 @@
+@prefix C2004A00798: <http://example.org/au/leg/dataset/C2004A00798/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A00798:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 8  Functions of statutory authorities"@en-AU ;
+    dct:isPartOf C2004A00798:10 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "8  Functions of statutory authorities - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "8  Functions of statutory authorities"@en-AU ;
+    skos:narrower C2004A00798:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408502> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408502"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:12 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D12 Division 4 Transfer of assets etc of statutory authorities"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "Division 4 Transfer of assets etc of statutory authorities - Abrievated Graph Key: D12"@en-AU ;
+    skos:definition "Division 4 Transfer of assets etc of statutory authorities"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Division D12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408503> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408503"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2004A00798:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 13  Transfer time"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "13  Transfer time - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "13  Transfer time"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408504> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408504"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 14  Successor body"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "14  Successor body - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "14  Successor body"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408505> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408505"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 15  Transfer of assets of statutory authorities"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "15  Transfer of assets of statutory authorities - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "15  Transfer of assets of statutory authorities"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408506> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408506"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 16  Transfer of liabilities of statutory authorities"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "16  Transfer of liabilities of statutory authorities - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "16  Transfer of liabilities of statutory authorities"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408507> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408507"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 17  Adjustment payments by Commonwealth"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "17  Adjustment payments by Commonwealth - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "17  Adjustment payments by Commonwealth"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408508> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408508"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 18  Registration of land transfers"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "18  Registration of land transfers - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "18  Registration of land transfers"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408509> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408509"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 19  Certificates in relation to assets other than land"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "19  Certificates in relation to assets other than land - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "19  Certificates in relation to assets other than land"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408510> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408510"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 1  Short title"@en-AU ;
+    dct:isPartOf C2004A00798:1 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:narrower C2004A00798:1 ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408493> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408493"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 20  Exemption from stamp duty etc"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "20  Exemption from stamp duty etc - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "20  Exemption from stamp duty etc"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408511> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408511"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 21  Operation of GST Law"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "21  Operation of GST Law - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "21  Operation of GST Law"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408512> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408512"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:22 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D22 Division 5 Transferring employees of statutory authorities"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "Division 5 Transferring employees of statutory authorities - Abrievated Graph Key: D22"@en-AU ;
+    skos:definition "Division 5 Transferring employees of statutory authorities"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Division D22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408513> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408513"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2004A00798:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 22  Leave entitlements and continuity of service"@en-AU ;
+    dct:isPartOf C2004A00798:23 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "22  Leave entitlements and continuity of service - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "22  Leave entitlements and continuity of service"@en-AU ;
+    skos:narrower C2004A00798:23 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408515> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408515"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:25 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S25 Subdivision BSafety Rehabilitation and Compensation Act"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "Subdivision BSafety Rehabilitation and Compensation Act - Abrievated Graph Key: S25"@en-AU ;
+    skos:definition "Subdivision BSafety Rehabilitation and Compensation Act"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Subdivision S25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408516> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408516"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+C2004A00798:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 23  Expressions defined in SRC Act"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "23  Expressions defined in SRC Act - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "23  Expressions defined in SRC Act"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408517> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408517"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 24  Continued application of SRC Act"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "24  Continued application of SRC Act - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "24  Continued application of SRC Act"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408518> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408518"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 25  Commonwealth liability to meet certain SRC Act liabilities"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "25  Commonwealth liability to meet certain SRC Act liabilities - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "25  Commonwealth liability to meet certain SRC Act liabilities"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408519> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408519"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 26  Rehabilitation provisions"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "26  Rehabilitation provisions - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "26  Rehabilitation provisions"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408520> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408520"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 2  Commencement"@en-AU ;
+    dct:isPartOf C2004A00798:1 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:narrower C2004A00798:1 ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408494> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408494"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 27  Premiums under the SRC Act"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "27  Premiums under the SRC Act - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "27  Premiums under the SRC Act"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408521> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408521"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:31 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S31 Subdivision CDeferred DFRDB Act benefits"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "Subdivision CDeferred DFRDB Act benefits - Abrievated Graph Key: S31"@en-AU ;
+    skos:definition "Subdivision CDeferred DFRDB Act benefits"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Subdivision S31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408522> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408522"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+C2004A00798:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 28  Saving of deferred benefits"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "28  Saving of deferred benefits - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "28  Saving of deferred benefits"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408523> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408523"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:33 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S33 Subdivision DMaternity leave"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "Subdivision DMaternity leave - Abrievated Graph Key: S33"@en-AU ;
+    skos:definition "Subdivision DMaternity leave"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Subdivision S33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408524> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408524"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+C2004A00798:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 29  Maternity leave starting before transfer time"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "29  Maternity leave starting before transfer time - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "29  Maternity leave starting before transfer time"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408525> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408525"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 30  Maternity leave starting after transfer time"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "30  Maternity leave starting after transfer time - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "30  Maternity leave starting after transfer time"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408526> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408526"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:36 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S36 Subdivision ELong service leave"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "Subdivision ELong service leave - Abrievated Graph Key: S36"@en-AU ;
+    skos:definition "Subdivision ELong service leave"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Subdivision S36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408527> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408527"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+C2004A00798:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 31  Expressions defined in Long Service Leave Act"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "31  Expressions defined in Long Service Leave Act - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "31  Expressions defined in Long Service Leave Act"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408528> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408528"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 32  Long service leave for employees with less than 10 years service"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "32  Long service leave for employees with less than 10 years service - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "32  Long service leave for employees with less than 10 years service"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408529> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408529"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 33  Payments in lieu of long service leave for employees with less than 10 years service"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "33  Payments in lieu of long service leave for employees with less than 10 years service - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "33  Payments in lieu of long service leave for employees with less than 10 years service"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408530> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408530"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 4  Crown to be bound"@en-AU ;
+    dct:isPartOf C2004A00798:1 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "4  Crown to be bound - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "4  Crown to be bound"@en-AU ;
+    skos:narrower C2004A00798:1 ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408495> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408495"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 34  Payments on the death of an employee"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "34  Payments on the death of an employee - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "34  Payments on the death of an employee"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408531> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408531"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 35  Employees long service leave credit for the purposes of sections 32 and 33"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "35  Employees long service leave credit for the purposes of sections 32 and 33 - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "35  Employees long service leave credit for the purposes of sections 32 and 33"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408532> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408532"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 36  Employees with at least 10 years service"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "36  Employees with at least 10 years service - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "36  Employees with at least 10 years service"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408533> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408533"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:43 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I43 37  Division not to affect post commencement long service leave rights"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "37  Division not to affect post commencement long service leave rights - Abrievated Graph Key: I43"@en-AU ;
+    skos:definition "37  Division not to affect post commencement long service leave rights"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408534> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408534"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:44 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S44 Subdivision FMiscellaneous"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "Subdivision FMiscellaneous - Abrievated Graph Key: S44"@en-AU ;
+    skos:definition "Subdivision FMiscellaneous"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Subdivision S44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408535> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408535"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+C2004A00798:45 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I45 38  Cessation of mobility rights"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "38  Cessation of mobility rights - Abrievated Graph Key: I45"@en-AU ;
+    skos:definition "38  Cessation of mobility rights"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408536> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408536"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:46 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I46 39  Transferring employees who accept employment with equivalent terms and conditions"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "39  Transferring employees who accept employment with equivalent terms and conditions - Abrievated Graph Key: I46"@en-AU ;
+    skos:definition "39  Transferring employees who accept employment with equivalent terms and conditions"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408537> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408537"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:47 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D47 Division 6 Miscellaneous"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "Division 6 Miscellaneous - Abrievated Graph Key: D47"@en-AU ;
+    skos:definition "Division 6 Miscellaneous"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Division D47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408538> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408538"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2004A00798:48 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I48 40  Operation of Archives Act"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "40  Operation of Archives Act - Abrievated Graph Key: I48"@en-AU ;
+    skos:definition "40  Operation of Archives Act"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408539> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408539"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:49 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I49 41  Certificates declarations etc taken to be authentic etc"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "41  Certificates declarations etc taken to be authentic etc - Abrievated Graph Key: I49"@en-AU ;
+    skos:definition "41  Certificates declarations etc taken to be authentic etc"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408540> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408540"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 5  External Territories"@en-AU ;
+    dct:isPartOf C2004A00798:1 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "5  External Territories - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "5  External Territories"@en-AU ;
+    skos:narrower C2004A00798:1 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408496> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408496"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:50 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I50 42  Publication of declarations"@en-AU ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "42  Publication of declarations - Abrievated Graph Key: I50"@en-AU ;
+    skos:definition "42  Publication of declarations"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Item I50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408541> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408541"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:52 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I52 43  Delegation"@en-AU ;
+    dct:isPartOf C2004A00798:51 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "43  Delegation - Abrievated Graph Key: I52"@en-AU ;
+    skos:definition "43  Delegation"@en-AU ;
+    skos:narrower C2004A00798:51 ;
+    skos:prefLabel "Item I52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408543> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408543"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:53 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I53 44  Compensation for acquisition of property"@en-AU ;
+    dct:isPartOf C2004A00798:51 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "44  Compensation for acquisition of property - Abrievated Graph Key: I53"@en-AU ;
+    skos:definition "44  Compensation for acquisition of property"@en-AU ;
+    skos:narrower C2004A00798:51 ;
+    skos:prefLabel "Item I53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408544> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408544"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:54 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I54 45  Commonwealth expenses in connection with abolition of statutory bodies etc"@en-AU ;
+    dct:isPartOf C2004A00798:51 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "45  Commonwealth expenses in connection with abolition of statutory bodies etc - Abrievated Graph Key: I54"@en-AU ;
+    skos:definition "45  Commonwealth expenses in connection with abolition of statutory bodies etc"@en-AU ;
+    skos:narrower C2004A00798:51 ;
+    skos:prefLabel "Item I54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408545> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408545"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:55 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I55 46  Regulations"@en-AU ;
+    dct:isPartOf C2004A00798:51 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "46  Regulations - Abrievated Graph Key: I55"@en-AU ;
+    skos:definition "46  Regulations"@en-AU ;
+    skos:narrower C2004A00798:51 ;
+    skos:prefLabel "Item I55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408546> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408546"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:57 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I57 Endnote 1 About the endnotes"@en-AU ;
+    dct:isPartOf C2004A00798:56 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "Endnote 1 About the endnotes - Abrievated Graph Key: I57"@en-AU ;
+    skos:definition "Endnote 1 About the endnotes"@en-AU ;
+    skos:narrower C2004A00798:56 ;
+    skos:prefLabel "Item I57"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408548> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408548"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:58 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I58 Endnote 2 Abbreviation key"@en-AU ;
+    dct:isPartOf C2004A00798:56 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "Endnote 2 Abbreviation key - Abrievated Graph Key: I58"@en-AU ;
+    skos:definition "Endnote 2 Abbreviation key"@en-AU ;
+    skos:narrower C2004A00798:56 ;
+    skos:prefLabel "Item I58"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408549> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408549"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:59 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I59 Endnote 3 Legislation history"@en-AU ;
+    dct:isPartOf C2004A00798:56 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "Endnote 3 Legislation history - Abrievated Graph Key: I59"@en-AU ;
+    skos:definition "Endnote 3 Legislation history"@en-AU ;
+    skos:narrower C2004A00798:56 ;
+    skos:prefLabel "Item I59"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408550> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408550"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 6  Extraterritorial operation"@en-AU ;
+    dct:isPartOf C2004A00798:1 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "6  Extraterritorial operation - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "6  Extraterritorial operation"@en-AU ;
+    skos:narrower C2004A00798:1 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408497> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408497"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:60 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I60 Endnote 4 Amendment history"@en-AU ;
+    dct:isPartOf C2004A00798:56 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "Endnote 4 Amendment history - Abrievated Graph Key: I60"@en-AU ;
+    skos:definition "Endnote 4 Amendment history"@en-AU ;
+    skos:narrower C2004A00798:56 ;
+    skos:prefLabel "Item I60"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408551> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408551"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Interpretation"@en-AU ;
+    dct:hasPart C2004A00798:8 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "Part 2 Interpretation - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader C2004A00798:8 ;
+    skos:definition "Part 2 Interpretation"@en-AU ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408498> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408498"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00798:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 7  Definitions"@en-AU ;
+    dct:isPartOf C2004A00798:7 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "7  Definitions - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "7  Definitions"@en-AU ;
+    skos:narrower C2004A00798:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408499> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408499"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00798:10 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D10 Division 1 Transitional functions of statutory authorities"@en-AU ;
+    dct:hasPart C2004A00798:11 ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "Division 1 Transitional functions of statutory authorities - Abrievated Graph Key: D10"@en-AU ;
+    skos:broader C2004A00798:11 ;
+    skos:definition "Division 1 Transitional functions of statutory authorities"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Division D10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408501> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408501"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2004A00798:23 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S23 Subdivision ALeave entitlements and continuity of service"@en-AU ;
+    dct:hasPart C2004A00798:24 ;
+    dct:isPartOf C2004A00798:9 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "Subdivision ALeave entitlements and continuity of service - Abrievated Graph Key: S23"@en-AU ;
+    skos:broader C2004A00798:24 ;
+    skos:definition "Subdivision ALeave entitlements and continuity of service"@en-AU ;
+    skos:narrower C2004A00798:9 ;
+    skos:prefLabel "Subdivision S23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408514> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408514"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+C2004A00798:51 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P51 Part 4 Miscellaneous"@en-AU ;
+    dct:hasPart C2004A00798:52,
+        C2004A00798:53,
+        C2004A00798:54,
+        C2004A00798:55 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "Part 4 Miscellaneous - Abrievated Graph Key: P51"@en-AU ;
+    skos:broader C2004A00798:52,
+        C2004A00798:53,
+        C2004A00798:54,
+        C2004A00798:55 ;
+    skos:definition "Part 4 Miscellaneous"@en-AU ;
+    skos:prefLabel "Part P51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408542> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408542"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00798:56 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E56 Endnotes"@en-AU ;
+    dct:hasPart C2004A00798:57,
+        C2004A00798:58,
+        C2004A00798:59,
+        C2004A00798:60 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E56"@en-AU ;
+    skos:broader C2004A00798:57,
+        C2004A00798:58,
+        C2004A00798:59,
+        C2004A00798:60 ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:prefLabel "Endnotes E56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408547> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408547"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+
+C2004A00798:1 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P1 Part 1 Preliminary"@en-AU ;
+    dct:hasPart C2004A00798:2,
+        C2004A00798:3,
+        C2004A00798:4,
+        C2004A00798:5,
+        C2004A00798:6 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "Part 1 Preliminary - Abrievated Graph Key: P1"@en-AU ;
+    skos:broader C2004A00798:2,
+        C2004A00798:3,
+        C2004A00798:4,
+        C2004A00798:5,
+        C2004A00798:6 ;
+    skos:definition "Part 1 Preliminary"@en-AU ;
+    skos:prefLabel "Part P1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408492> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408492"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00798: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Pig Industry Act 2001" ;
+    dct:Jurisdiction " Department of Agriculture, Fisheries and Forestry "@en-AU ;
+    dct:created "2026-05-23T14:09:58.568161"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2025-01-01T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Pig Industry Act 2001"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A00798/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Pig Industry Act 2001"@en-AU ;
+    dct:title "Pig Industry Act 2001"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Endnotes,
+        legcons:Item,
+        legcons:Part,
+        legcons:Subdivision ;
+    schema:status "In force" ;
+    schema:version "C2025C00038 C09" .
+
+C2004A00798:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 3 Provision of pig industry services"@en-AU ;
+    dct:hasPart C2004A00798:10,
+        C2004A00798:12,
+        C2004A00798:13,
+        C2004A00798:14,
+        C2004A00798:15,
+        C2004A00798:16,
+        C2004A00798:17,
+        C2004A00798:18,
+        C2004A00798:19,
+        C2004A00798:20,
+        C2004A00798:21,
+        C2004A00798:22,
+        C2004A00798:23,
+        C2004A00798:25,
+        C2004A00798:26,
+        C2004A00798:27,
+        C2004A00798:28,
+        C2004A00798:29,
+        C2004A00798:30,
+        C2004A00798:31,
+        C2004A00798:32,
+        C2004A00798:33,
+        C2004A00798:34,
+        C2004A00798:35,
+        C2004A00798:36,
+        C2004A00798:37,
+        C2004A00798:38,
+        C2004A00798:39,
+        C2004A00798:40,
+        C2004A00798:41,
+        C2004A00798:42,
+        C2004A00798:43,
+        C2004A00798:44,
+        C2004A00798:45,
+        C2004A00798:46,
+        C2004A00798:47,
+        C2004A00798:48,
+        C2004A00798:49,
+        C2004A00798:50 ;
+    dct:isReferencedBy C2004A00798: ;
+    rdfs:comment "Part 3 Provision of pig industry services - Abrievated Graph Key: P9"@en-AU ;
+    skos:broader C2004A00798:10,
+        C2004A00798:12,
+        C2004A00798:13,
+        C2004A00798:14,
+        C2004A00798:15,
+        C2004A00798:16,
+        C2004A00798:17,
+        C2004A00798:18,
+        C2004A00798:19,
+        C2004A00798:20,
+        C2004A00798:21,
+        C2004A00798:22,
+        C2004A00798:23,
+        C2004A00798:25,
+        C2004A00798:26,
+        C2004A00798:27,
+        C2004A00798:28,
+        C2004A00798:29,
+        C2004A00798:30,
+        C2004A00798:31,
+        C2004A00798:32,
+        C2004A00798:33,
+        C2004A00798:34,
+        C2004A00798:35,
+        C2004A00798:36,
+        C2004A00798:37,
+        C2004A00798:38,
+        C2004A00798:39,
+        C2004A00798:40,
+        C2004A00798:41,
+        C2004A00798:42,
+        C2004A00798:43,
+        C2004A00798:44,
+        C2004A00798:45,
+        C2004A00798:46,
+        C2004A00798:47,
+        C2004A00798:48,
+        C2004A00798:49,
+        C2004A00798:50 ;
+    skos:definition "Part 3 Provision of pig industry services"@en-AU ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408500> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc187408500"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+

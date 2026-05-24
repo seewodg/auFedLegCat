@@ -1,0 +1,243 @@
+@prefix C2006A00166: <http://example.org/au/leg/dataset/C2006A00166/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2006A00166:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2006A00166: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861299> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861299"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00166:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2006A00166: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861300> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861300"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00166:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2006A00166:9 ;
+    dct:isReferencedBy C2006A00166: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2006A00166:9 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861333> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861333"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00166:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Customs Tariff Act 1995"@en-AU ;
+    dct:isPartOf C2006A00166:9 ;
+    dct:isReferencedBy C2006A00166: ;
+    rdfs:comment "Customs Tariff Act 1995 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Customs Tariff Act 1995"@en-AU ;
+    skos:narrower C2006A00166:9 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861335> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861335"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00166:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Customs Tariff AntiDumping Act 1975"@en-AU ;
+    dct:isPartOf C2006A00166:9 ;
+    dct:isReferencedBy C2006A00166: ;
+    rdfs:comment "Customs Tariff AntiDumping Act 1975 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Customs Tariff AntiDumping Act 1975"@en-AU ;
+    skos:narrower C2006A00166:9 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861337> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861337"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00166:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Legislative Instruments Act 2003"@en-AU ;
+    dct:isPartOf C2006A00166:9 ;
+    dct:isReferencedBy C2006A00166: ;
+    rdfs:comment "Legislative Instruments Act 2003 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Legislative Instruments Act 2003"@en-AU ;
+    skos:narrower C2006A00166:9 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861338> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861338"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00166:14 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P14 Part 4 Application and transitional provisions"@en-AU ;
+    dct:isPartOf C2006A00166:4 ;
+    dct:isReferencedBy C2006A00166: ;
+    rdfs:comment "Part 4 Application and transitional provisions - Abrievated Graph Key: P14"@en-AU ;
+    skos:definition "Part 4 Application and transitional provisions"@en-AU ;
+    skos:narrower C2006A00166:4 ;
+    skos:prefLabel "Part P14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861339> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861339"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00166:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2006A00166:4 ;
+    dct:isReferencedBy C2006A00166: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2006A00166:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861301> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861301"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00166:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2006A00166:5 ;
+    dct:isReferencedBy C2006A00166: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2006A00166:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861304> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861304"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00166:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2006A00166:7 ;
+    dct:isReferencedBy C2006A00166: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2006A00166:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861326> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861326"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00166:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 New Zealand originating goods"@en-AU ;
+    dct:hasPart C2006A00166:6 ;
+    dct:isPartOf C2006A00166:4 ;
+    dct:isReferencedBy C2006A00166: ;
+    rdfs:comment "Part 1 New Zealand originating goods - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2006A00166:6 ;
+    skos:definition "Part 1 New Zealand originating goods"@en-AU ;
+    skos:narrower C2006A00166:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861303> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861303"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00166:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Verification powers"@en-AU ;
+    dct:hasPart C2006A00166:8 ;
+    dct:isPartOf C2006A00166:4 ;
+    dct:isReferencedBy C2006A00166: ;
+    rdfs:comment "Part 2 Verification powers - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader C2006A00166:8 ;
+    skos:definition "Part 2 Verification powers"@en-AU ;
+    skos:narrower C2006A00166:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861325> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861325"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00166:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments"@en-AU ;
+    dct:hasPart C2006A00166:14,
+        C2006A00166:5,
+        C2006A00166:7,
+        C2006A00166:9 ;
+    dct:isPartOf C2006A00166:3 ;
+    dct:isReferencedBy C2006A00166: ;
+    rdfs:comment "Schedule 1 Amendments - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2006A00166:14,
+        C2006A00166:5,
+        C2006A00166:7,
+        C2006A00166:9 ;
+    skos:definition "Schedule 1 Amendments"@en-AU ;
+    skos:narrower C2006A00166:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861302> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861302"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00166:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 3 Other amendments"@en-AU ;
+    dct:hasPart C2006A00166:10,
+        C2006A00166:11,
+        C2006A00166:12,
+        C2006A00166:13 ;
+    dct:isPartOf C2006A00166:4 ;
+    dct:isReferencedBy C2006A00166: ;
+    rdfs:comment "Part 3 Other amendments - Abrievated Graph Key: P9"@en-AU ;
+    skos:broader C2006A00166:10,
+        C2006A00166:11,
+        C2006A00166:12,
+        C2006A00166:13 ;
+    skos:definition "Part 3 Other amendments"@en-AU ;
+    skos:narrower C2006A00166:4 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861332> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00166/asmade/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc153861332"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00166: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Customs Legislation Amendment (New Zealand Rules of Origin) Act 2006" ;
+    dct:Jurisdiction " Department of Home Affairs "@en-AU ;
+    dct:created "2026-05-23T03:23:04.396329"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2006-12-12T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Customs Legislation Amendment (New Zealand Rules of Origin) Act 2006"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2006A00166/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Customs Legislation Amendment (New Zealand Rules of Origin) Act 2006"@en-AU ;
+    dct:title "Customs Legislation Amendment (New Zealand Rules of Origin) Act 2006"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2006A00166" .
+

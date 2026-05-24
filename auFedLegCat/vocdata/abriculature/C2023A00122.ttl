@@ -1,0 +1,179 @@
+@prefix C2023A00122: <http://example.org/au/leg/dataset/C2023A00122/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2023A00122:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2023A00122: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00122/asmade/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc153552375> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00122/asmade/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc153552375"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00122:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2023A00122: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00122/asmade/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc153552376> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00122/asmade/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc153552376"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00122:10 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P10 Part 2 Application and transitional provisions"@en-AU ;
+    dct:isPartOf C2023A00122:3 ;
+    dct:isReferencedBy C2023A00122: ;
+    rdfs:comment "Part 2 Application and transitional provisions - Abrievated Graph Key: P10"@en-AU ;
+    skos:definition "Part 2 Application and transitional provisions"@en-AU ;
+    skos:narrower C2023A00122:3 ;
+    skos:prefLabel "Part P10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00122/asmade/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc153552385> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00122/asmade/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc153552385"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00122:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments"@en-AU ;
+    dct:isPartOf C2023A00122:3 ;
+    dct:isReferencedBy C2023A00122: ;
+    rdfs:comment "Schedule 1 Amendments - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Amendments"@en-AU ;
+    skos:narrower C2023A00122:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00122/asmade/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc153552378> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00122/asmade/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc153552378"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2023A00122:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Clean Energy Regulator Act 2011"@en-AU ;
+    dct:isPartOf C2023A00122:3 ;
+    dct:isReferencedBy C2023A00122: ;
+    rdfs:comment "Clean Energy Regulator Act 2011 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Clean Energy Regulator Act 2011"@en-AU ;
+    skos:narrower C2023A00122:3 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00122/asmade/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc153552379> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00122/asmade/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc153552379"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00122:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 National Greenhouse and Energy Reporting Act 2007"@en-AU ;
+    dct:isPartOf C2023A00122:3 ;
+    dct:isReferencedBy C2023A00122: ;
+    rdfs:comment "National Greenhouse and Energy Reporting Act 2007 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "National Greenhouse and Energy Reporting Act 2007"@en-AU ;
+    skos:narrower C2023A00122:3 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00122/asmade/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc153552381> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00122/asmade/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc153552381"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00122:7 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S7 Schedule 2 Protecting water resources from additional kinds of unconventional gas developments"@en-AU ;
+    dct:isPartOf C2023A00122:3 ;
+    dct:isReferencedBy C2023A00122: ;
+    rdfs:comment "Schedule 2 Protecting water resources from additional kinds of unconventional gas developments - Abrievated Graph Key: S7"@en-AU ;
+    skos:definition "Schedule 2 Protecting water resources from additional kinds of unconventional gas developments"@en-AU ;
+    skos:narrower C2023A00122:3 ;
+    skos:prefLabel "Schedule S7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00122/asmade/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc153552382> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00122/asmade/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc153552382"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2023A00122:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 1 Amendments"@en-AU ;
+    dct:isPartOf C2023A00122:3 ;
+    dct:isReferencedBy C2023A00122: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P8"@en-AU ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2023A00122:3 ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00122/asmade/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc153552383> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00122/asmade/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc153552383"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00122:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    dct:isPartOf C2023A00122:3 ;
+    dct:isReferencedBy C2023A00122: ;
+    rdfs:comment "Environment Protection and Biodiversity Conservation Act 1999 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    skos:narrower C2023A00122:3 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00122/asmade/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc153552384> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00122/asmade/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc153552384"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00122: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Nature Repair (Consequential Amendments) Act 2023" ;
+    dct:Jurisdiction " Department of Climate Change, Energy, the Environment and Water "@en-AU ;
+    dct:created "2026-05-23T14:08:13.036960"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2023-12-14T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Nature Repair (Consequential Amendments) Act 2023"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2023A00122/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Nature Repair (Consequential Amendments) Act 2023"@en-AU ;
+    dct:title "Nature Repair (Consequential Amendments) Act 2023"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2023A00122" .
+
+C2023A00122:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2023A00122:10,
+        C2023A00122:4,
+        C2023A00122:5,
+        C2023A00122:6,
+        C2023A00122:7,
+        C2023A00122:8,
+        C2023A00122:9 ;
+    dct:isReferencedBy C2023A00122: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2023A00122:10,
+        C2023A00122:4,
+        C2023A00122:5,
+        C2023A00122:6,
+        C2023A00122:7,
+        C2023A00122:8,
+        C2023A00122:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00122/asmade/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc153552377> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00122/asmade/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc153552377"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+

@@ -1,0 +1,226 @@
+@prefix C2004A00925: <http://example.org/au/leg/dataset/C2004A00925/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A00925:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A00925: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530693> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530693"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00925:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A00925: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530694> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530694"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00925:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Protection of the Sea Prevention of Pollution from Ships Act 1983"@en-AU ;
+    dct:isPartOf C2004A00925:10 ;
+    dct:isReferencedBy C2004A00925: ;
+    rdfs:comment "Protection of the Sea Prevention of Pollution from Ships Act 1983 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Protection of the Sea Prevention of Pollution from Ships Act 1983"@en-AU ;
+    skos:narrower C2004A00925:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530705> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530705"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00925:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Submarine Cables and Pipelines Protection Act 1963"@en-AU ;
+    dct:isPartOf C2004A00925:12 ;
+    dct:isReferencedBy C2004A00925: ;
+    rdfs:comment "Submarine Cables and Pipelines Protection Act 1963 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Submarine Cables and Pipelines Protection Act 1963"@en-AU ;
+    skos:narrower C2004A00925:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530718> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530718"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00925:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Admiralty Act 1988"@en-AU ;
+    dct:isPartOf C2004A00925:4 ;
+    dct:isReferencedBy C2004A00925: ;
+    rdfs:comment "Admiralty Act 1988 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Admiralty Act 1988"@en-AU ;
+    skos:narrower C2004A00925:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530697> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530697"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00925:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Limitation of Liability for Maritime Claims Act 1989"@en-AU ;
+    dct:isPartOf C2004A00925:4 ;
+    dct:isReferencedBy C2004A00925: ;
+    rdfs:comment "Limitation of Liability for Maritime Claims Act 1989 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Limitation of Liability for Maritime Claims Act 1989"@en-AU ;
+    skos:narrower C2004A00925:4 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530698> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530698"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00925:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Navigation Act 1912"@en-AU ;
+    dct:isPartOf C2004A00925:4 ;
+    dct:isReferencedBy C2004A00925: ;
+    rdfs:comment "Navigation Act 1912 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Navigation Act 1912"@en-AU ;
+    skos:narrower C2004A00925:4 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530700> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530700"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00925:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Protection of the Sea Powers of Intervention Act 1981"@en-AU ;
+    dct:isPartOf C2004A00925:8 ;
+    dct:isReferencedBy C2004A00925: ;
+    rdfs:comment "Protection of the Sea Powers of Intervention Act 1981 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Protection of the Sea Powers of Intervention Act 1981"@en-AU ;
+    skos:narrower C2004A00925:8 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530702> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530702"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00925:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 3 Prevention of pollution from ships"@en-AU ;
+    dct:hasPart C2004A00925:11 ;
+    dct:isPartOf C2004A00925:3 ;
+    dct:isReferencedBy C2004A00925: ;
+    rdfs:comment "Schedule 3 Prevention of pollution from ships - Abrievated Graph Key: S10"@en-AU ;
+    skos:broader C2004A00925:11 ;
+    skos:definition "Schedule 3 Prevention of pollution from ships"@en-AU ;
+    skos:narrower C2004A00925:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530704> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530704"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00925:12 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S12 Schedule 4 Protection of submarine cables and pipelines"@en-AU ;
+    dct:hasPart C2004A00925:13 ;
+    dct:isPartOf C2004A00925:3 ;
+    dct:isReferencedBy C2004A00925: ;
+    rdfs:comment "Schedule 4 Protection of submarine cables and pipelines - Abrievated Graph Key: S12"@en-AU ;
+    skos:broader C2004A00925:13 ;
+    skos:definition "Schedule 4 Protection of submarine cables and pipelines"@en-AU ;
+    skos:narrower C2004A00925:3 ;
+    skos:prefLabel "Schedule S12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530717> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530717"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00925:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 2 Taking of measures to protect the sea from pollution by substances discharged from ships"@en-AU ;
+    dct:hasPart C2004A00925:9 ;
+    dct:isPartOf C2004A00925:3 ;
+    dct:isReferencedBy C2004A00925: ;
+    rdfs:comment "Schedule 2 Taking of measures to protect the sea from pollution by substances discharged from ships - Abrievated Graph Key: S8"@en-AU ;
+    skos:broader C2004A00925:9 ;
+    skos:definition "Schedule 2 Taking of measures to protect the sea from pollution by substances discharged from ships"@en-AU ;
+    skos:narrower C2004A00925:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530701> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530701"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00925:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A00925:10,
+        C2004A00925:12,
+        C2004A00925:4,
+        C2004A00925:8 ;
+    dct:isReferencedBy C2004A00925: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A00925:10,
+        C2004A00925:12,
+        C2004A00925:4,
+        C2004A00925:8 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530695> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530695"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00925:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Limitation of liability for maritime claims"@en-AU ;
+    dct:hasPart C2004A00925:5,
+        C2004A00925:6,
+        C2004A00925:7 ;
+    dct:isPartOf C2004A00925:3 ;
+    dct:isReferencedBy C2004A00925: ;
+    rdfs:comment "Schedule 1 Limitation of liability for maritime claims - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A00925:5,
+        C2004A00925:6,
+        C2004A00925:7 ;
+    skos:definition "Schedule 1 Limitation of liability for maritime claims"@en-AU ;
+    skos:narrower C2004A00925:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530696> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00925/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc525530696"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00925: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "International Maritime Conventions Legislation Amendment Act 2001" ;
+    dct:Jurisdiction " Department of Infrastructure, Transport, Regional Development, Communications, Sport and the Arts "@en-AU ;
+    dct:created "2026-05-23T03:14:15.680945"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2001-10-01T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "International Maritime Conventions Legislation Amendment Act 2001"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A00925/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "International Maritime Conventions Legislation Amendment Act 2001"@en-AU ;
+    dct:title "International Maritime Conventions Legislation Amendment Act 2001"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2004A00925" .
+

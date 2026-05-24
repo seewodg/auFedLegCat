@@ -1,0 +1,195 @@
+@prefix C2017A00120: <http://example.org/au/leg/dataset/C2017A00120/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2017A00120:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2017A00120: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229519> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229519"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2017A00120:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2017A00120: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229520> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229520"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2017A00120:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2017A00120:10 ;
+    dct:isReferencedBy C2017A00120: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2017A00120:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229547> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229547"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2017A00120:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2017A00120:5 ;
+    dct:isReferencedBy C2017A00120: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2017A00120:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229524> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229524"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2017A00120:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2017A00120:7 ;
+    dct:isReferencedBy C2017A00120: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2017A00120:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229543> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229543"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2017A00120:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 3 Application and saving provisions"@en-AU ;
+    dct:isPartOf C2017A00120:4 ;
+    dct:isReferencedBy C2017A00120: ;
+    rdfs:comment "Part 3 Application and saving provisions - Abrievated Graph Key: P9"@en-AU ;
+    skos:definition "Part 3 Application and saving provisions"@en-AU ;
+    skos:narrower C2017A00120:4 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229545> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229545"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2017A00120:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 2 Other amendments"@en-AU ;
+    dct:hasPart C2017A00120:11 ;
+    dct:isPartOf C2017A00120:3 ;
+    dct:isReferencedBy C2017A00120: ;
+    rdfs:comment "Schedule 2 Other amendments - Abrievated Graph Key: S10"@en-AU ;
+    skos:broader C2017A00120:11 ;
+    skos:definition "Schedule 2 Other amendments"@en-AU ;
+    skos:narrower C2017A00120:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229546> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229546"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2017A00120:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2017A00120:10,
+        C2017A00120:4 ;
+    dct:isReferencedBy C2017A00120: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2017A00120:10,
+        C2017A00120:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229521> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229521"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2017A00120:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Singaporean originating goods"@en-AU ;
+    dct:hasPart C2017A00120:6 ;
+    dct:isPartOf C2017A00120:4 ;
+    dct:isReferencedBy C2017A00120: ;
+    rdfs:comment "Part 1 Singaporean originating goods - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2017A00120:6 ;
+    skos:definition "Part 1 Singaporean originating goods"@en-AU ;
+    skos:narrower C2017A00120:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229523> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229523"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2017A00120:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Verification powers"@en-AU ;
+    dct:hasPart C2017A00120:8 ;
+    dct:isPartOf C2017A00120:4 ;
+    dct:isReferencedBy C2017A00120: ;
+    rdfs:comment "Part 2 Verification powers - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader C2017A00120:8 ;
+    skos:definition "Part 2 Verification powers"@en-AU ;
+    skos:narrower C2017A00120:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229542> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229542"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2017A00120:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Main amendments"@en-AU ;
+    dct:hasPart C2017A00120:5,
+        C2017A00120:7,
+        C2017A00120:9 ;
+    dct:isPartOf C2017A00120:3 ;
+    dct:isReferencedBy C2017A00120: ;
+    rdfs:comment "Schedule 1 Main amendments - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2017A00120:5,
+        C2017A00120:7,
+        C2017A00120:9 ;
+    skos:definition "Schedule 1 Main amendments"@en-AU ;
+    skos:narrower C2017A00120:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229522> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2017A00120/asmade/2017-10-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc497229522"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2017A00120: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Customs Amendment (Singapore-Australia Free Trade Agreement Amendment Implementation) Act 2017" ;
+    dct:Jurisdiction " Department of Home Affairs "@en-AU ;
+    dct:created "2026-05-23T03:15:02.474609"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2017-10-30T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Customs Amendment (Singapore-Australia Free Trade Agreement Amendment Implementation) Act 2017"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2017A00120/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Customs Amendment (Singapore-Australia Free Trade Agreement Amendment Implementation) Act 2017"@en-AU ;
+    dct:title "Customs Amendment (Singapore-Australia Free Trade Agreement Amendment Implementation) Act 2017"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2017A00120" .
+

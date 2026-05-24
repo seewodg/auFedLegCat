@@ -1,0 +1,27 @@
+@prefix C2004A01035: <http://example.org/au/leg/dataset/C2004A01035/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A01035: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Research Agencies Legislation Amendment Act 2002" ;
+    dct:Jurisdiction " Department of Industry, Science and Resources "@en-AU ;
+    dct:created "2026-05-23T02:58:19.077160"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2002-11-10T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Research Agencies Legislation Amendment Act 2002"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A01035/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Research Agencies Legislation Amendment Act 2002"@en-AU ;
+    dct:title "Research Agencies Legislation Amendment Act 2002"@en-AU ;
+    owl:imports legcons: ;
+    schema:status "In force" ;
+    schema:version "C2004A01035" .
+

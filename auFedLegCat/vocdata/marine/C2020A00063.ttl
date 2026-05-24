@@ -1,0 +1,98 @@
+@prefix C2020A00063: <http://example.org/au/leg/dataset/C2020A00063/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2020A00063:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2020A00063: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00063/asmade/2020-06-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc43820807> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00063/asmade/2020-06-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc43820807"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00063:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2020A00063: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00063/asmade/2020-06-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc43820808> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00063/asmade/2020-06-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc43820808"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00063:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2020A00063:4 ;
+    dct:isReferencedBy C2020A00063: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2020A00063:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00063/asmade/2020-06-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc43820809> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00063/asmade/2020-06-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc43820809"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00063:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Great Barrier Reef Marine Park Act 1975"@en-AU ;
+    dct:isPartOf C2020A00063:4 ;
+    dct:isReferencedBy C2020A00063: ;
+    rdfs:comment "Great Barrier Reef Marine Park Act 1975 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Great Barrier Reef Marine Park Act 1975"@en-AU ;
+    skos:narrower C2020A00063:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00063/asmade/2020-06-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc43820811> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00063/asmade/2020-06-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc43820811"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00063:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments"@en-AU ;
+    dct:hasPart C2020A00063:5 ;
+    dct:isPartOf C2020A00063:3 ;
+    dct:isReferencedBy C2020A00063: ;
+    rdfs:comment "Schedule 1 Amendments - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2020A00063:5 ;
+    skos:definition "Schedule 1 Amendments"@en-AU ;
+    skos:narrower C2020A00063:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00063/asmade/2020-06-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc43820810> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00063/asmade/2020-06-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc43820810"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00063: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Great Barrier Reef Marine Park Amendment (Coronavirus Economic Response Package) Act 2020" ;
+    dct:Jurisdiction " Department of Climate Change, Energy, the Environment and Water "@en-AU ;
+    dct:created "2026-05-23T02:57:08.498922"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2020-06-19T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Great Barrier Reef Marine Park Amendment (Coronavirus Economic Response Package) Act 2020"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2020A00063/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Great Barrier Reef Marine Park Amendment (Coronavirus Economic Response Package) Act 2020"@en-AU ;
+    dct:title "Great Barrier Reef Marine Park Amendment (Coronavirus Economic Response Package) Act 2020"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2020A00063" .
+

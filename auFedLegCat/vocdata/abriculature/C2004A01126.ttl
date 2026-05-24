@@ -1,0 +1,819 @@
+@prefix C2004A01126: <http://example.org/au/leg/dataset/C2004A01126/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A01126:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675563> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675563"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675564> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675564"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Australian Crime Commission Establishment Act 2002"@en-AU ;
+    dct:isPartOf C2004A01126:10 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Australian Crime Commission Establishment Act 2002 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Australian Crime Commission Establishment Act 2002"@en-AU ;
+    skos:narrower C2004A01126:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675574> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675574"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Australian Federal Police Act 1979"@en-AU ;
+    dct:isPartOf C2004A01126:10 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Australian Federal Police Act 1979 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Australian Federal Police Act 1979"@en-AU ;
+    skos:narrower C2004A01126:10 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675575> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675575"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Australian Protective Service Act 1987"@en-AU ;
+    dct:isPartOf C2004A01126:10 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Australian Protective Service Act 1987 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Australian Protective Service Act 1987"@en-AU ;
+    skos:narrower C2004A01126:10 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675576> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675576"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Australian Securities and Investments Commission Act 2001"@en-AU ;
+    dct:isPartOf C2004A01126:10 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Australian Securities and Investments Commission Act 2001 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Australian Securities and Investments Commission Act 2001"@en-AU ;
+    skos:narrower C2004A01126:10 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675577> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675577"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2004A01126:10 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2004A01126:10 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675578> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675578"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Crimes at Sea Act 2000"@en-AU ;
+    dct:isPartOf C2004A01126:10 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Crimes at Sea Act 2000 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Crimes at Sea Act 2000"@en-AU ;
+    skos:narrower C2004A01126:10 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675579> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675579"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Crimes Aviation Act 1991"@en-AU ;
+    dct:isPartOf C2004A01126:10 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Crimes Aviation Act 1991 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Crimes Aviation Act 1991"@en-AU ;
+    skos:narrower C2004A01126:10 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675580> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675580"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Crimes Legislation Amendment Act No 2 1989"@en-AU ;
+    dct:isPartOf C2004A01126:10 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Crimes Legislation Amendment Act No 2 1989 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Crimes Legislation Amendment Act No 2 1989"@en-AU ;
+    skos:narrower C2004A01126:10 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675581> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675581"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Criminology Research Act 1971"@en-AU ;
+    dct:isPartOf C2004A01126:10 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Criminology Research Act 1971 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Criminology Research Act 1971"@en-AU ;
+    skos:narrower C2004A01126:10 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675582> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675582"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Foreign Evidence Act 1994"@en-AU ;
+    dct:isPartOf C2004A01126:10 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Foreign Evidence Act 1994 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Foreign Evidence Act 1994"@en-AU ;
+    skos:narrower C2004A01126:10 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675583> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675583"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 International War Crimes Tribunals Act 1995"@en-AU ;
+    dct:isPartOf C2004A01126:10 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "International War Crimes Tribunals Act 1995 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "International War Crimes Tribunals Act 1995"@en-AU ;
+    skos:narrower C2004A01126:10 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675584> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675584"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Law and Justice Legislation Amendment Act No 2 1994"@en-AU ;
+    dct:isPartOf C2004A01126:10 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Law and Justice Legislation Amendment Act No 2 1994 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Law and Justice Legislation Amendment Act No 2 1994"@en-AU ;
+    skos:narrower C2004A01126:10 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675585> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675585"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Mutual Assistance in Business Regulation Act 1992"@en-AU ;
+    dct:isPartOf C2004A01126:10 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Mutual Assistance in Business Regulation Act 1992 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Mutual Assistance in Business Regulation Act 1992"@en-AU ;
+    skos:narrower C2004A01126:10 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675586> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675586"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Proceeds of Crime Act 2002"@en-AU ;
+    dct:isPartOf C2004A01126:10 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Proceeds of Crime Act 2002 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Proceeds of Crime Act 2002"@en-AU ;
+    skos:narrower C2004A01126:10 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675587> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675587"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Retirement Savings Accounts Consequential Amendments Act 1997"@en-AU ;
+    dct:isPartOf C2004A01126:10 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Retirement Savings Accounts Consequential Amendments Act 1997 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Retirement Savings Accounts Consequential Amendments Act 1997"@en-AU ;
+    skos:narrower C2004A01126:10 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675589> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675589"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Service and Execution of Process Act 1992"@en-AU ;
+    dct:isPartOf C2004A01126:10 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Service and Execution of Process Act 1992 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Service and Execution of Process Act 1992"@en-AU ;
+    skos:narrower C2004A01126:10 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675590> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675590"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Commonwealth Places Application of Laws Act 1970"@en-AU ;
+    dct:isPartOf C2004A01126:28 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Commonwealth Places Application of Laws Act 1970 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Commonwealth Places Application of Laws Act 1970"@en-AU ;
+    skos:narrower C2004A01126:28 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675594> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675594"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Crimes Act 1914"@en-AU ;
+    dct:isPartOf C2004A01126:28 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Crimes Act 1914 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Crimes Act 1914"@en-AU ;
+    skos:narrower C2004A01126:28 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675595> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675595"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Crimes Search Warrants and Powers of Arrest Amendment Act 1994"@en-AU ;
+    dct:isPartOf C2004A01126:28 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Crimes Search Warrants and Powers of Arrest Amendment Act 1994 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Crimes Search Warrants and Powers of Arrest Amendment Act 1994"@en-AU ;
+    skos:narrower C2004A01126:28 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675597> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675597"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Crimes Amendment Controlled Operations Act 1996"@en-AU ;
+    dct:isPartOf C2004A01126:32 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Crimes Amendment Controlled Operations Act 1996 - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Crimes Amendment Controlled Operations Act 1996"@en-AU ;
+    skos:narrower C2004A01126:32 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675599> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675599"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Commonwealth Places Application of Laws Act 1970"@en-AU ;
+    dct:isPartOf C2004A01126:34 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Commonwealth Places Application of Laws Act 1970 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Commonwealth Places Application of Laws Act 1970"@en-AU ;
+    skos:narrower C2004A01126:34 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675601> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675601"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 Crimes Act 1914"@en-AU ;
+    dct:isPartOf C2004A01126:34 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Crimes Act 1914 - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "Crimes Act 1914"@en-AU ;
+    skos:narrower C2004A01126:34 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675602> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675602"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2004A01126:34 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2004A01126:34 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675604> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675604"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 Commonwealth Places Application of Laws Act 1970"@en-AU ;
+    dct:isPartOf C2004A01126:38 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Commonwealth Places Application of Laws Act 1970 - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "Commonwealth Places Application of Laws Act 1970"@en-AU ;
+    skos:narrower C2004A01126:38 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675606> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675606"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 Crimes Act 1914"@en-AU ;
+    dct:isPartOf C2004A01126:38 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Crimes Act 1914 - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "Crimes Act 1914"@en-AU ;
+    skos:narrower C2004A01126:38 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675607> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675607"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2004A01126:38 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2004A01126:38 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675608> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675608"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    dct:isPartOf C2004A01126:38 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Environment Protection and Biodiversity Conservation Act 1999 - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    skos:narrower C2004A01126:38 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675609> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675609"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:43 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I43 Excise Act 1901"@en-AU ;
+    dct:isPartOf C2004A01126:38 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Excise Act 1901 - Abrievated Graph Key: I43"@en-AU ;
+    skos:definition "Excise Act 1901"@en-AU ;
+    skos:narrower C2004A01126:38 ;
+    skos:prefLabel "Item I43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675610> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675610"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 Export Control Act 1982"@en-AU ;
+    dct:isPartOf C2004A01126:38 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Export Control Act 1982 - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "Export Control Act 1982"@en-AU ;
+    skos:narrower C2004A01126:38 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675611> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675611"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:45 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I45 Quarantine Act 1908"@en-AU ;
+    dct:isPartOf C2004A01126:38 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Quarantine Act 1908 - Abrievated Graph Key: I45"@en-AU ;
+    skos:definition "Quarantine Act 1908"@en-AU ;
+    skos:narrower C2004A01126:38 ;
+    skos:prefLabel "Item I45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675612> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675612"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:47 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I47 Commonwealth Places Application of Laws Act 1970"@en-AU ;
+    dct:isPartOf C2004A01126:46 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Commonwealth Places Application of Laws Act 1970 - Abrievated Graph Key: I47"@en-AU ;
+    skos:definition "Commonwealth Places Application of Laws Act 1970"@en-AU ;
+    skos:narrower C2004A01126:46 ;
+    skos:prefLabel "Item I47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675614> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675614"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:48 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I48 Crimes Act 1914"@en-AU ;
+    dct:isPartOf C2004A01126:46 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Crimes Act 1914 - Abrievated Graph Key: I48"@en-AU ;
+    skos:definition "Crimes Act 1914"@en-AU ;
+    skos:narrower C2004A01126:46 ;
+    skos:prefLabel "Item I48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675615> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675615"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:49 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I49 Crimes Amendment Forensic Procedures Act 1998"@en-AU ;
+    dct:isPartOf C2004A01126:46 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Crimes Amendment Forensic Procedures Act 1998 - Abrievated Graph Key: I49"@en-AU ;
+    skos:definition "Crimes Amendment Forensic Procedures Act 1998"@en-AU ;
+    skos:narrower C2004A01126:46 ;
+    skos:prefLabel "Item I49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675617> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675617"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Taking offenders fingerprints and photographs"@en-AU ;
+    dct:isPartOf C2004A01126:4 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Part 1 Taking offenders fingerprints and photographs - Abrievated Graph Key: P5"@en-AU ;
+    skos:definition "Part 1 Taking offenders fingerprints and photographs"@en-AU ;
+    skos:narrower C2004A01126:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675567> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675567"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01126:50 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P50 Part 6 Saving provision"@en-AU ;
+    dct:isPartOf C2004A01126:27 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Part 6 Saving provision - Abrievated Graph Key: P50"@en-AU ;
+    skos:definition "Part 6 Saving provision"@en-AU ;
+    skos:narrower C2004A01126:27 ;
+    skos:prefLabel "Part P50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675618> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675618"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01126:6 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P6 Part 2 Identification parades"@en-AU ;
+    dct:isPartOf C2004A01126:4 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Part 2 Identification parades - Abrievated Graph Key: P6"@en-AU ;
+    skos:definition "Part 2 Identification parades"@en-AU ;
+    skos:narrower C2004A01126:4 ;
+    skos:prefLabel "Part P6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675568> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675568"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01126:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 3 Dealing summarily with some indictable offences"@en-AU ;
+    dct:isPartOf C2004A01126:4 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Part 3 Dealing summarily with some indictable offences - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 3 Dealing summarily with some indictable offences"@en-AU ;
+    skos:narrower C2004A01126:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675569> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675569"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01126:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 3 AForensic procedures"@en-AU ;
+    dct:isPartOf C2004A01126:4 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Part 3 AForensic procedures - Abrievated Graph Key: P8"@en-AU ;
+    skos:definition "Part 3 AForensic procedures"@en-AU ;
+    skos:narrower C2004A01126:4 ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675571> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675571"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01126:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 4 Technical corrections of sentencing and parole provisions"@en-AU ;
+    dct:isPartOf C2004A01126:4 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Part 4 Technical corrections of sentencing and parole provisions - Abrievated Graph Key: P9"@en-AU ;
+    skos:definition "Part 4 Technical corrections of sentencing and parole provisions"@en-AU ;
+    skos:narrower C2004A01126:4 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675572> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675572"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01126:32 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P32 Part 2 Corrections relating to Part IA of the Crimes Act 1914"@en-AU ;
+    dct:hasPart C2004A01126:33 ;
+    dct:isPartOf C2004A01126:27 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Part 2 Corrections relating to Part IA of the Crimes Act 1914 - Abrievated Graph Key: P32"@en-AU ;
+    skos:broader C2004A01126:33 ;
+    skos:definition "Part 2 Corrections relating to Part IA of the Crimes Act 1914"@en-AU ;
+    skos:narrower C2004A01126:27 ;
+    skos:prefLabel "Part P32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675598> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675598"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01126:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A01126:10,
+        C2004A01126:27,
+        C2004A01126:4 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A01126:10,
+        C2004A01126:27,
+        C2004A01126:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675565> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675565"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01126:28 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P28 Part 1 Corrections relating to Part 1 AA of the Crimes Act 1914"@en-AU ;
+    dct:hasPart C2004A01126:29,
+        C2004A01126:30,
+        C2004A01126:31 ;
+    dct:isPartOf C2004A01126:27 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Part 1 Corrections relating to Part 1 AA of the Crimes Act 1914 - Abrievated Graph Key: P28"@en-AU ;
+    skos:broader C2004A01126:29,
+        C2004A01126:30,
+        C2004A01126:31 ;
+    skos:definition "Part 1 Corrections relating to Part 1 AA of the Crimes Act 1914"@en-AU ;
+    skos:narrower C2004A01126:27 ;
+    skos:prefLabel "Part P28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675593> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675593"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01126:34 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P34 Part 3 Corrections relating to Part 1 B of the Crimes Act 1914"@en-AU ;
+    dct:hasPart C2004A01126:35,
+        C2004A01126:36,
+        C2004A01126:37 ;
+    dct:isPartOf C2004A01126:27 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Part 3 Corrections relating to Part 1 B of the Crimes Act 1914 - Abrievated Graph Key: P34"@en-AU ;
+    skos:broader C2004A01126:35,
+        C2004A01126:36,
+        C2004A01126:37 ;
+    skos:definition "Part 3 Corrections relating to Part 1 B of the Crimes Act 1914"@en-AU ;
+    skos:narrower C2004A01126:27 ;
+    skos:prefLabel "Part P34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675600> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675600"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01126:46 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P46 Part 5 Corrections relating to Part 1 D of the Crimes Act 1914"@en-AU ;
+    dct:hasPart C2004A01126:47,
+        C2004A01126:48,
+        C2004A01126:49 ;
+    dct:isPartOf C2004A01126:27 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Part 5 Corrections relating to Part 1 D of the Crimes Act 1914 - Abrievated Graph Key: P46"@en-AU ;
+    skos:broader C2004A01126:47,
+        C2004A01126:48,
+        C2004A01126:49 ;
+    skos:definition "Part 5 Corrections relating to Part 1 D of the Crimes Act 1914"@en-AU ;
+    skos:narrower C2004A01126:27 ;
+    skos:prefLabel "Part P46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675613> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675613"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01126:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendment of the Crimes Act 1914"@en-AU ;
+    dct:hasPart C2004A01126:5,
+        C2004A01126:6,
+        C2004A01126:7,
+        C2004A01126:8,
+        C2004A01126:9 ;
+    dct:isPartOf C2004A01126:3 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Schedule 1 Amendment of the Crimes Act 1914 - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A01126:5,
+        C2004A01126:6,
+        C2004A01126:7,
+        C2004A01126:8,
+        C2004A01126:9 ;
+    skos:definition "Schedule 1 Amendment of the Crimes Act 1914"@en-AU ;
+    skos:narrower C2004A01126:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675566> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675566"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01126:27 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S27 Schedule 3 Technical corrections relating to Part numbering in the Crimes Act 1914"@en-AU ;
+    dct:hasPart C2004A01126:28,
+        C2004A01126:32,
+        C2004A01126:34,
+        C2004A01126:38,
+        C2004A01126:46,
+        C2004A01126:50 ;
+    dct:isPartOf C2004A01126:3 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Schedule 3 Technical corrections relating to Part numbering in the Crimes Act 1914 - Abrievated Graph Key: S27"@en-AU ;
+    skos:broader C2004A01126:28,
+        C2004A01126:32,
+        C2004A01126:34,
+        C2004A01126:38,
+        C2004A01126:46,
+        C2004A01126:50 ;
+    skos:definition "Schedule 3 Technical corrections relating to Part numbering in the Crimes Act 1914"@en-AU ;
+    skos:narrower C2004A01126:3 ;
+    skos:prefLabel "Schedule S27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675592> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675592"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01126:38 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P38 Part 4 Corrections relating to Part IC of the Crimes Act 1914"@en-AU ;
+    dct:hasPart C2004A01126:39,
+        C2004A01126:40,
+        C2004A01126:41,
+        C2004A01126:42,
+        C2004A01126:43,
+        C2004A01126:44,
+        C2004A01126:45 ;
+    dct:isPartOf C2004A01126:27 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Part 4 Corrections relating to Part IC of the Crimes Act 1914 - Abrievated Graph Key: P38"@en-AU ;
+    skos:broader C2004A01126:39,
+        C2004A01126:40,
+        C2004A01126:41,
+        C2004A01126:42,
+        C2004A01126:43,
+        C2004A01126:44,
+        C2004A01126:45 ;
+    skos:definition "Part 4 Corrections relating to Part IC of the Crimes Act 1914"@en-AU ;
+    skos:narrower C2004A01126:27 ;
+    skos:prefLabel "Part P38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675605> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675605"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01126:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 2 Amendment of other Acts"@en-AU ;
+    dct:hasPart C2004A01126:11,
+        C2004A01126:12,
+        C2004A01126:13,
+        C2004A01126:14,
+        C2004A01126:15,
+        C2004A01126:16,
+        C2004A01126:17,
+        C2004A01126:18,
+        C2004A01126:19,
+        C2004A01126:20,
+        C2004A01126:21,
+        C2004A01126:22,
+        C2004A01126:23,
+        C2004A01126:24,
+        C2004A01126:25,
+        C2004A01126:26 ;
+    dct:isPartOf C2004A01126:3 ;
+    dct:isReferencedBy C2004A01126: ;
+    rdfs:comment "Schedule 2 Amendment of other Acts - Abrievated Graph Key: S10"@en-AU ;
+    skos:broader C2004A01126:11,
+        C2004A01126:12,
+        C2004A01126:13,
+        C2004A01126:14,
+        C2004A01126:15,
+        C2004A01126:16,
+        C2004A01126:17,
+        C2004A01126:18,
+        C2004A01126:19,
+        C2004A01126:20,
+        C2004A01126:21,
+        C2004A01126:22,
+        C2004A01126:23,
+        C2004A01126:24,
+        C2004A01126:25,
+        C2004A01126:26 ;
+    skos:definition "Schedule 2 Amendment of other Acts"@en-AU ;
+    skos:narrower C2004A01126:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675573> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01126/2003-06-03/2003-06-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc40675573"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01126: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Crimes Legislation Enhancement Act 2003" ;
+    dct:Jurisdiction " Attorney-General's Department "@en-AU ;
+    dct:created "2026-05-23T14:08:01.338047"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2003-06-03T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Crimes Legislation Enhancement Act 2003"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A01126/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Crimes Legislation Enhancement Act 2003"@en-AU ;
+    dct:title "Crimes Legislation Enhancement Act 2003"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2006C00138 C01" .
+

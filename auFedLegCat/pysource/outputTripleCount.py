@@ -10,13 +10,13 @@ from rdflib import Graph
 
 def init():
     ttlfiles = []
-    for file in glob.glob("./output/*.ttl"):
+    for file in glob.glob("../output/*.ttl"):
         ttlfiles.append(file)
-    g = Graph()
     cnt = 0
     for file in ttlfiles:
-        g.parse(file)
-        cnt += len(g)
+        tempg = Graph()
+        tempg.parse(file)
+        cnt += len(tempg)
     print(f"Triples in generated dcat:Dataset and dcat:Catalog instances: {cnt}")
         
 if __name__ == "__main__":

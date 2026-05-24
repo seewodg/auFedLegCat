@@ -1,0 +1,611 @@
+@prefix C2022A00076: <http://example.org/au/leg/dataset/C2022A00076/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2022A00076:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222611> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222611"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00076:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222612> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222612"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00076:10 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P10 Part 1 Pratique"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Part 1 Pratique - Abrievated Graph Key: P10"@en-AU ;
+    skos:definition "Part 1 Pratique"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Part P10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222630> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222630"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2022A00076:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Biosecurity Act 2015"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Biosecurity Act 2015 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Biosecurity Act 2015"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222631> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222631"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00076:12 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P12 Part 2 Pre arrival reporting"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Part 2 Pre arrival reporting - Abrievated Graph Key: P12"@en-AU ;
+    skos:definition "Part 2 Pre arrival reporting"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Part P12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222632> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222632"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2022A00076:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Biosecurity Act 2015"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Biosecurity Act 2015 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Biosecurity Act 2015"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222633> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222633"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00076:14 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S14 Schedule 3 Information management"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Schedule 3 Information management - Abrievated Graph Key: S14"@en-AU ;
+    skos:definition "Schedule 3 Information management"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Schedule S14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222635> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222635"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2022A00076:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Biosecurity Act 2015"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Biosecurity Act 2015 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Biosecurity Act 2015"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222636> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222636"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00076:16 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S16 Schedule 4 Strengthening penalties"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Schedule 4 Strengthening penalties - Abrievated Graph Key: S16"@en-AU ;
+    skos:definition "Schedule 4 Strengthening penalties"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Schedule S16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222664> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222664"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2022A00076:17 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P17 Part 1 Managing biosecurity risks goods"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Part 1 Managing biosecurity risks goods - Abrievated Graph Key: P17"@en-AU ;
+    skos:definition "Part 1 Managing biosecurity risks goods"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Part P17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222665> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222665"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2022A00076:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Biosecurity Act 2015"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Biosecurity Act 2015 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Biosecurity Act 2015"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222666> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222666"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00076:19 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P19 Part 2 Managing biosecurity risks conveyances"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Part 2 Managing biosecurity risks conveyances - Abrievated Graph Key: P19"@en-AU ;
+    skos:definition "Part 2 Managing biosecurity risks conveyances"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Part P19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222667> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222667"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2022A00076:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Biosecurity Act 2015"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Biosecurity Act 2015 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Biosecurity Act 2015"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222668> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222668"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00076:21 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S21 Schedule 5 Risk assessment"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Schedule 5 Risk assessment - Abrievated Graph Key: S21"@en-AU ;
+    skos:definition "Schedule 5 Risk assessment"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Schedule S21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222669> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222669"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2022A00076:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Biosecurity Act 2015"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Biosecurity Act 2015 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Biosecurity Act 2015"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222670> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222670"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00076:23 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S23 Schedule 6 Arrangements and grants for dealing with risks posed by diseases or pests"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Schedule 6 Arrangements and grants for dealing with risks posed by diseases or pests - Abrievated Graph Key: S23"@en-AU ;
+    skos:definition "Schedule 6 Arrangements and grants for dealing with risks posed by diseases or pests"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Schedule S23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222672> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222672"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2022A00076:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Biosecurity Act 2015"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Biosecurity Act 2015 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Biosecurity Act 2015"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222673> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222673"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00076:25 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S25 Schedule 7 Approved arrangements and compensation"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Schedule 7 Approved arrangements and compensation - Abrievated Graph Key: S25"@en-AU ;
+    skos:definition "Schedule 7 Approved arrangements and compensation"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Schedule S25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222683> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222683"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2022A00076:26 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P26 Part 1 Release of goods from biosecurity control"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Part 1 Release of goods from biosecurity control - Abrievated Graph Key: P26"@en-AU ;
+    skos:definition "Part 1 Release of goods from biosecurity control"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Part P26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222684> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222684"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2022A00076:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Biosecurity Act 2015"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Biosecurity Act 2015 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Biosecurity Act 2015"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222685> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222685"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00076:28 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P28 Part 2 Duration of approved arrangements"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Part 2 Duration of approved arrangements - Abrievated Graph Key: P28"@en-AU ;
+    skos:definition "Part 2 Duration of approved arrangements"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Part P28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222686> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222686"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2022A00076:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Biosecurity Act 2015"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Biosecurity Act 2015 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Biosecurity Act 2015"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222687> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222687"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00076:30 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P30 Part 3 Directions to biosecurity industry participants after expiry of approved arrangements"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Part 3 Directions to biosecurity industry participants after expiry of approved arrangements - Abrievated Graph Key: P30"@en-AU ;
+    skos:definition "Part 3 Directions to biosecurity industry participants after expiry of approved arrangements"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Part P30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222689> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222689"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2022A00076:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Biosecurity Act 2015"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Biosecurity Act 2015 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Biosecurity Act 2015"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222690> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222690"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00076:32 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P32 Part 4 Audit powers for auditing of approved arrangements"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Part 4 Audit powers for auditing of approved arrangements - Abrievated Graph Key: P32"@en-AU ;
+    skos:definition "Part 4 Audit powers for auditing of approved arrangements"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Part P32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222694> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222694"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2022A00076:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Biosecurity Act 2015"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Biosecurity Act 2015 - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Biosecurity Act 2015"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222695> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222695"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00076:34 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P34 Part 5 Compensation for damaged goods or destroyed goods conveyances or other premises"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Part 5 Compensation for damaged goods or destroyed goods conveyances or other premises - Abrievated Graph Key: P34"@en-AU ;
+    skos:definition "Part 5 Compensation for damaged goods or destroyed goods conveyances or other premises"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Part P34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222696> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222696"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2022A00076:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Biosecurity Act 2015"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Biosecurity Act 2015 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Biosecurity Act 2015"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222697> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222697"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00076:36 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S36 Schedule 8 Concealment of goods"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Schedule 8 Concealment of goods - Abrievated Graph Key: S36"@en-AU ;
+    skos:definition "Schedule 8 Concealment of goods"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Schedule S36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222698> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222698"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2022A00076:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Biosecurity Act 2015"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Biosecurity Act 2015 - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Biosecurity Act 2015"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222699> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222699"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00076:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Increasing protection from diseases and pests"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Schedule 1 Increasing protection from diseases and pests - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Increasing protection from diseases and pests"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222614> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222614"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2022A00076:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Entry requirements"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Part 1 Entry requirements - Abrievated Graph Key: P5"@en-AU ;
+    skos:definition "Part 1 Entry requirements"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222615> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222615"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2022A00076:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Biosecurity Act 2015"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Biosecurity Act 2015 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Biosecurity Act 2015"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222616> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222616"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00076:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Preventative biosecurity measures"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Part 2 Preventative biosecurity measures - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 2 Preventative biosecurity measures"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222621> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222621"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2022A00076:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Biosecurity Act 2015"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Biosecurity Act 2015 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Biosecurity Act 2015"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222622> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222622"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00076:9 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S9 Schedule 2 Pratique and pre arrival reporting"@en-AU ;
+    dct:isPartOf C2022A00076:3 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "Schedule 2 Pratique and pre arrival reporting - Abrievated Graph Key: S9"@en-AU ;
+    skos:definition "Schedule 2 Pratique and pre arrival reporting"@en-AU ;
+    skos:narrower C2022A00076:3 ;
+    skos:prefLabel "Schedule S9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222629> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222629"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2022A00076: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Biosecurity Amendment (Strengthening Biosecurity) Act 2022" ;
+    dct:Jurisdiction " Department of Agriculture, Fisheries and Forestry "@en-AU ;
+    dct:created "2026-05-23T13:54:10.816357"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2022-12-05T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Biosecurity Amendment (Strengthening Biosecurity) Act 2022"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2022A00076/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Biosecurity Amendment (Strengthening Biosecurity) Act 2022"@en-AU ;
+    dct:title "Biosecurity Amendment (Strengthening Biosecurity) Act 2022"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2022A00076" .
+
+C2022A00076:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2022A00076:10,
+        C2022A00076:11,
+        C2022A00076:12,
+        C2022A00076:13,
+        C2022A00076:14,
+        C2022A00076:15,
+        C2022A00076:16,
+        C2022A00076:17,
+        C2022A00076:18,
+        C2022A00076:19,
+        C2022A00076:20,
+        C2022A00076:21,
+        C2022A00076:22,
+        C2022A00076:23,
+        C2022A00076:24,
+        C2022A00076:25,
+        C2022A00076:26,
+        C2022A00076:27,
+        C2022A00076:28,
+        C2022A00076:29,
+        C2022A00076:30,
+        C2022A00076:31,
+        C2022A00076:32,
+        C2022A00076:33,
+        C2022A00076:34,
+        C2022A00076:35,
+        C2022A00076:36,
+        C2022A00076:37,
+        C2022A00076:4,
+        C2022A00076:5,
+        C2022A00076:6,
+        C2022A00076:7,
+        C2022A00076:8,
+        C2022A00076:9 ;
+    dct:isReferencedBy C2022A00076: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2022A00076:10,
+        C2022A00076:11,
+        C2022A00076:12,
+        C2022A00076:13,
+        C2022A00076:14,
+        C2022A00076:15,
+        C2022A00076:16,
+        C2022A00076:17,
+        C2022A00076:18,
+        C2022A00076:19,
+        C2022A00076:20,
+        C2022A00076:21,
+        C2022A00076:22,
+        C2022A00076:23,
+        C2022A00076:24,
+        C2022A00076:25,
+        C2022A00076:26,
+        C2022A00076:27,
+        C2022A00076:28,
+        C2022A00076:29,
+        C2022A00076:30,
+        C2022A00076:31,
+        C2022A00076:32,
+        C2022A00076:33,
+        C2022A00076:34,
+        C2022A00076:35,
+        C2022A00076:36,
+        C2022A00076:37,
+        C2022A00076:4,
+        C2022A00076:5,
+        C2022A00076:6,
+        C2022A00076:7,
+        C2022A00076:8,
+        C2022A00076:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222613> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00076/asmade/2022-12-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc121222613"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+

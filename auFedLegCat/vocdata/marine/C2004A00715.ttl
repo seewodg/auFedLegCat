@@ -1,0 +1,147 @@
+@prefix C2004A00715: <http://example.org/au/leg/dataset/C2004A00715/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A00715:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A00715: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00715/asmade/2000-10-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc486387275> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00715/asmade/2000-10-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc486387275"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00715:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A00715: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00715/asmade/2000-10-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc486387276> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00715/asmade/2000-10-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc486387276"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00715:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A00715:4 ;
+    dct:isReferencedBy C2004A00715: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A00715:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00715/asmade/2000-10-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc486387277> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00715/asmade/2000-10-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc486387277"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00715:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Amendments relating to insurance cover by certain ships"@en-AU ;
+    dct:isPartOf C2004A00715:4 ;
+    dct:isReferencedBy C2004A00715: ;
+    rdfs:comment "Part 1 Amendments relating to insurance cover by certain ships - Abrievated Graph Key: P5"@en-AU ;
+    skos:definition "Part 1 Amendments relating to insurance cover by certain ships"@en-AU ;
+    skos:narrower C2004A00715:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00715/asmade/2000-10-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc486387279> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00715/asmade/2000-10-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc486387279"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00715:6 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P6 Part 2 Amendments relating to limitation of liability"@en-AU ;
+    dct:isPartOf C2004A00715:4 ;
+    dct:isReferencedBy C2004A00715: ;
+    rdfs:comment "Part 2 Amendments relating to limitation of liability - Abrievated Graph Key: P6"@en-AU ;
+    skos:definition "Part 2 Amendments relating to limitation of liability"@en-AU ;
+    skos:narrower C2004A00715:4 ;
+    skos:prefLabel "Part P6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00715/asmade/2000-10-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc486387284> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00715/asmade/2000-10-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc486387284"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00715:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 3 Amendments relating to threat of discharge or disposal"@en-AU ;
+    dct:isPartOf C2004A00715:4 ;
+    dct:isReferencedBy C2004A00715: ;
+    rdfs:comment "Part 3 Amendments relating to threat of discharge or disposal - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 3 Amendments relating to threat of discharge or disposal"@en-AU ;
+    skos:narrower C2004A00715:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00715/asmade/2000-10-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc486387285> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00715/asmade/2000-10-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc486387285"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00715:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 4 Amendments relating to conversion to penalty units"@en-AU ;
+    dct:isPartOf C2004A00715:4 ;
+    dct:isReferencedBy C2004A00715: ;
+    rdfs:comment "Part 4 Amendments relating to conversion to penalty units - Abrievated Graph Key: P8"@en-AU ;
+    skos:definition "Part 4 Amendments relating to conversion to penalty units"@en-AU ;
+    skos:narrower C2004A00715:4 ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00715/asmade/2000-10-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc486387287> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00715/asmade/2000-10-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc486387287"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00715: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Protection of the Sea (Civil Liability) Amendment Act 2000" ;
+    dct:Jurisdiction " Department of Infrastructure, Transport, Regional Development, Communications, Sport and the Arts "@en-AU ;
+    dct:created "2026-05-23T03:18:34.336385"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2000-10-05T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Protection of the Sea (Civil Liability) Amendment Act 2000"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A00715/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Protection of the Sea (Civil Liability) Amendment Act 2000"@en-AU ;
+    dct:title "Protection of the Sea (Civil Liability) Amendment Act 2000"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2004A00715" .
+
+C2004A00715:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendment of the Protection of the Sea Civil Liability Act 1981"@en-AU ;
+    dct:hasPart C2004A00715:5,
+        C2004A00715:6,
+        C2004A00715:7,
+        C2004A00715:8 ;
+    dct:isPartOf C2004A00715:3 ;
+    dct:isReferencedBy C2004A00715: ;
+    rdfs:comment "Schedule 1 Amendment of the Protection of the Sea Civil Liability Act 1981 - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A00715:5,
+        C2004A00715:6,
+        C2004A00715:7,
+        C2004A00715:8 ;
+    skos:definition "Schedule 1 Amendment of the Protection of the Sea Civil Liability Act 1981"@en-AU ;
+    skos:narrower C2004A00715:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00715/asmade/2000-10-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc486387278> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00715/asmade/2000-10-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc486387278"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+

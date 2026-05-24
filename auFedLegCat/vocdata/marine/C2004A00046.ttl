@@ -1,0 +1,685 @@
+@prefix C2004A00046: <http://example.org/au/leg/dataset/C2004A00046/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A00046:34 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S34 Schedule 1 Parts II V and VI of the United Nations Convention on the Law of the Sea"@en-AU ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "Schedule 1 Parts II V and VI of the United Nations Convention on the Law of the Sea - Abrievated Graph Key: S34"@en-AU ;
+    skos:definition "Schedule 1 Parts II V and VI of the United Nations Convention on the Law of the Sea"@en-AU ;
+    skos:prefLabel "Schedule S34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328128> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328128"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00046:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 7  Limits of territorial sea"@en-AU ;
+    dct:isPartOf C2004A00046:7 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "7  Limits of territorial sea - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "7  Limits of territorial sea"@en-AU ;
+    skos:narrower C2004A00046:7 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328104> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328104"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 8  Declaration of historic bays and historic waters"@en-AU ;
+    dct:isPartOf C2004A00046:7 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "8  Declaration of historic bays and historic waters - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "8  Declaration of historic bays and historic waters"@en-AU ;
+    skos:narrower C2004A00046:7 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328105> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328105"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 9  Charts of limits of territorial sea"@en-AU ;
+    dct:isPartOf C2004A00046:7 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "9  Charts of limits of territorial sea - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "9  Charts of limits of territorial sea"@en-AU ;
+    skos:narrower C2004A00046:7 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328106> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328106"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 10  Sovereignty in respect of internal waters"@en-AU ;
+    dct:isPartOf C2004A00046:7 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "10  Sovereignty in respect of internal waters - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "10  Sovereignty in respect of internal waters"@en-AU ;
+    skos:narrower C2004A00046:7 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328107> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328107"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 10 A  Sovereign rights in respect of exclusive economic zone"@en-AU ;
+    dct:isPartOf C2004A00046:14 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "10 A  Sovereign rights in respect of exclusive economic zone - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "10 A  Sovereign rights in respect of exclusive economic zone"@en-AU ;
+    skos:narrower C2004A00046:14 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328109> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328109"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 10 B  Limits of exclusive economic zone"@en-AU ;
+    dct:isPartOf C2004A00046:14 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "10 B  Limits of exclusive economic zone - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "10 B  Limits of exclusive economic zone"@en-AU ;
+    skos:narrower C2004A00046:14 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328110> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328110"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 10 C  Charts of limits of exclusive economic zone"@en-AU ;
+    dct:isPartOf C2004A00046:14 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "10 C  Charts of limits of exclusive economic zone - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "10 C  Charts of limits of exclusive economic zone"@en-AU ;
+    skos:narrower C2004A00046:14 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328111> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328111"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 11  Sovereign rights in respect of continental shelf"@en-AU ;
+    dct:isPartOf C2004A00046:18 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "11  Sovereign rights in respect of continental shelf - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "11  Sovereign rights in respect of continental shelf"@en-AU ;
+    skos:narrower C2004A00046:18 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328113> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328113"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 1  Short title"@en-AU ;
+    dct:isPartOf C2004A00046:1 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:narrower C2004A00046:1 ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328096> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328096"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 12  Limits of continental shelf"@en-AU ;
+    dct:isPartOf C2004A00046:18 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "12  Limits of continental shelf - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "12  Limits of continental shelf"@en-AU ;
+    skos:narrower C2004A00046:18 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328114> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328114"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 13  Charts of limits of continental shelf"@en-AU ;
+    dct:isPartOf C2004A00046:18 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "13  Charts of limits of continental shelf - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "13  Charts of limits of continental shelf"@en-AU ;
+    skos:narrower C2004A00046:18 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328115> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328115"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 13 AA  Joint exercise of rights in Greater Sunrise special regime area"@en-AU ;
+    dct:isPartOf C2004A00046:22 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "13 AA  Joint exercise of rights in Greater Sunrise special regime area - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "13 AA  Joint exercise of rights in Greater Sunrise special regime area"@en-AU ;
+    skos:narrower C2004A00046:22 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328117> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328117"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 13 AB  Operation of Commonwealth law in relation to Greater Sunrise special regime area"@en-AU ;
+    dct:isPartOf C2004A00046:22 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "13 AB  Operation of Commonwealth law in relation to Greater Sunrise special regime area - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "13 AB  Operation of Commonwealth law in relation to Greater Sunrise special regime area"@en-AU ;
+    skos:narrower C2004A00046:22 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328118> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328118"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 13 AC  Cessation of effect of this Division"@en-AU ;
+    dct:isPartOf C2004A00046:22 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "13 AC  Cessation of effect of this Division - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "13 AC  Cessation of effect of this Division"@en-AU ;
+    skos:narrower C2004A00046:22 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328119> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328119"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 13 A  Rights of control in respect of contiguous zone"@en-AU ;
+    dct:isPartOf C2004A00046:26 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "13 A  Rights of control in respect of contiguous zone - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "13 A  Rights of control in respect of contiguous zone"@en-AU ;
+    skos:narrower C2004A00046:26 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328121> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328121"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 13 B  Limits of contiguous zone"@en-AU ;
+    dct:isPartOf C2004A00046:26 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "13 B  Limits of contiguous zone - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "13 B  Limits of contiguous zone"@en-AU ;
+    skos:narrower C2004A00046:26 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328122> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328122"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 13 C  Charts of limits of contiguous zone"@en-AU ;
+    dct:isPartOf C2004A00046:26 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "13 C  Charts of limits of contiguous zone - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "13 C  Charts of limits of contiguous zone"@en-AU ;
+    skos:narrower C2004A00046:26 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328123> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328123"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 2  Commencement"@en-AU ;
+    dct:isPartOf C2004A00046:1 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:narrower C2004A00046:1 ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328097> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328097"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 14  Part II does not affect waters etc within State limits"@en-AU ;
+    dct:isPartOf C2004A00046:30 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "14  Part II does not affect waters etc within State limits - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "14  Part II does not affect waters etc within State limits"@en-AU ;
+    skos:narrower C2004A00046:30 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328125> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328125"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 15  Certain property not vested in Commonwealth"@en-AU ;
+    dct:isPartOf C2004A00046:30 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "15  Certain property not vested in Commonwealth - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "15  Certain property not vested in Commonwealth"@en-AU ;
+    skos:narrower C2004A00046:30 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328126> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328126"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 16  Saving of other laws"@en-AU ;
+    dct:isPartOf C2004A00046:30 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "16  Saving of other laws - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "16  Saving of other laws"@en-AU ;
+    skos:narrower C2004A00046:30 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328127> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328127"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 1  Greater Sunrise special regime area"@en-AU ;
+    dct:isPartOf C2004A00046:35 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "1  Greater Sunrise special regime area - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "1  Greater Sunrise special regime area"@en-AU ;
+    skos:narrower C2004A00046:35 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328130> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328130"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 2  Illustrative map of the Greater Sunrise special regime area"@en-AU ;
+    dct:isPartOf C2004A00046:35 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "2  Illustrative map of the Greater Sunrise special regime area - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "2  Illustrative map of the Greater Sunrise special regime area"@en-AU ;
+    skos:narrower C2004A00046:35 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328131> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328131"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 Endnote 1 About the endnotes"@en-AU ;
+    dct:isPartOf C2004A00046:38 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "Endnote 1 About the endnotes - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "Endnote 1 About the endnotes"@en-AU ;
+    skos:narrower C2004A00046:38 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328133> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328133"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 3  Interpretation"@en-AU ;
+    dct:isPartOf C2004A00046:1 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "3  Interpretation - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "3  Interpretation"@en-AU ;
+    skos:narrower C2004A00046:1 ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328098> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328098"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 Endnote 2 Abbreviation key"@en-AU ;
+    dct:isPartOf C2004A00046:38 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "Endnote 2 Abbreviation key - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "Endnote 2 Abbreviation key"@en-AU ;
+    skos:narrower C2004A00046:38 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328134> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328134"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 Endnote 3 Legislation history"@en-AU ;
+    dct:isPartOf C2004A00046:38 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "Endnote 3 Legislation history - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "Endnote 3 Legislation history"@en-AU ;
+    skos:narrower C2004A00046:38 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328135> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328135"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 Endnote 4 Amendment history"@en-AU ;
+    dct:isPartOf C2004A00046:38 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "Endnote 4 Amendment history - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "Endnote 4 Amendment history"@en-AU ;
+    skos:narrower C2004A00046:38 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328136> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328136"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 4  Extension to Territories"@en-AU ;
+    dct:isPartOf C2004A00046:1 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "4  Extension to Territories - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "4  Extension to Territories"@en-AU ;
+    skos:narrower C2004A00046:1 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328099> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328099"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 5  Interpretation"@en-AU ;
+    dct:isPartOf C2004A00046:7 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "5  Interpretation - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "5  Interpretation"@en-AU ;
+    skos:narrower C2004A00046:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328102> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328102"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 6  Sovereignty in respect of territorial sea"@en-AU ;
+    dct:isPartOf C2004A00046:7 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "6  Sovereignty in respect of territorial sea - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "6  Sovereignty in respect of territorial sea"@en-AU ;
+    skos:narrower C2004A00046:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328103> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328103"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00046:35 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S35 Schedule 2 Greater Sunrise special regime area"@en-AU ;
+    dct:hasPart C2004A00046:36,
+        C2004A00046:37 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "Schedule 2 Greater Sunrise special regime area - Abrievated Graph Key: S35"@en-AU ;
+    skos:broader C2004A00046:36,
+        C2004A00046:37 ;
+    skos:definition "Schedule 2 Greater Sunrise special regime area"@en-AU ;
+    skos:prefLabel "Schedule S35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328129> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328129"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00046:1 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P1 Part IPreliminary"@en-AU ;
+    dct:hasPart C2004A00046:2,
+        C2004A00046:3,
+        C2004A00046:4,
+        C2004A00046:5 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "Part IPreliminary - Abrievated Graph Key: P1"@en-AU ;
+    skos:broader C2004A00046:2,
+        C2004A00046:3,
+        C2004A00046:4,
+        C2004A00046:5 ;
+    skos:definition "Part IPreliminary"@en-AU ;
+    skos:prefLabel "Part P1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328095> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328095"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00046:14 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D14 Division 1 AThe exclusive economic zone"@en-AU ;
+    dct:hasPart C2004A00046:15,
+        C2004A00046:16,
+        C2004A00046:17 ;
+    dct:isPartOf C2004A00046:6 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "Division 1 AThe exclusive economic zone - Abrievated Graph Key: D14"@en-AU ;
+    skos:broader C2004A00046:15,
+        C2004A00046:16,
+        C2004A00046:17 ;
+    skos:definition "Division 1 AThe exclusive economic zone"@en-AU ;
+    skos:narrower C2004A00046:6 ;
+    skos:prefLabel "Division D14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328108> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328108"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2004A00046:18 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D18 Division 2 The continental shelf"@en-AU ;
+    dct:hasPart C2004A00046:19,
+        C2004A00046:20,
+        C2004A00046:21 ;
+    dct:isPartOf C2004A00046:6 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "Division 2 The continental shelf - Abrievated Graph Key: D18"@en-AU ;
+    skos:broader C2004A00046:19,
+        C2004A00046:20,
+        C2004A00046:21 ;
+    skos:definition "Division 2 The continental shelf"@en-AU ;
+    skos:narrower C2004A00046:6 ;
+    skos:prefLabel "Division D18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328112> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328112"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2004A00046:22 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D22 Division 2 AAGreater Sunrise special regime area"@en-AU ;
+    dct:hasPart C2004A00046:23,
+        C2004A00046:24,
+        C2004A00046:25 ;
+    dct:isPartOf C2004A00046:6 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "Division 2 AAGreater Sunrise special regime area - Abrievated Graph Key: D22"@en-AU ;
+    skos:broader C2004A00046:23,
+        C2004A00046:24,
+        C2004A00046:25 ;
+    skos:definition "Division 2 AAGreater Sunrise special regime area"@en-AU ;
+    skos:narrower C2004A00046:6 ;
+    skos:prefLabel "Division D22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328116> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328116"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2004A00046:26 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D26 Division 2 AThe contiguous zone"@en-AU ;
+    dct:hasPart C2004A00046:27,
+        C2004A00046:28,
+        C2004A00046:29 ;
+    dct:isPartOf C2004A00046:6 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "Division 2 AThe contiguous zone - Abrievated Graph Key: D26"@en-AU ;
+    skos:broader C2004A00046:27,
+        C2004A00046:28,
+        C2004A00046:29 ;
+    skos:definition "Division 2 AThe contiguous zone"@en-AU ;
+    skos:narrower C2004A00046:6 ;
+    skos:prefLabel "Division D26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328120> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328120"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2004A00046:30 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D30 Division 3 Savings"@en-AU ;
+    dct:hasPart C2004A00046:31,
+        C2004A00046:32,
+        C2004A00046:33 ;
+    dct:isPartOf C2004A00046:6 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "Division 3 Savings - Abrievated Graph Key: D30"@en-AU ;
+    skos:broader C2004A00046:31,
+        C2004A00046:32,
+        C2004A00046:33 ;
+    skos:definition "Division 3 Savings"@en-AU ;
+    skos:narrower C2004A00046:6 ;
+    skos:prefLabel "Division D30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328124> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328124"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2004A00046:38 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E38 Endnotes"@en-AU ;
+    dct:hasPart C2004A00046:39,
+        C2004A00046:40,
+        C2004A00046:41,
+        C2004A00046:42 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E38"@en-AU ;
+    skos:broader C2004A00046:39,
+        C2004A00046:40,
+        C2004A00046:41,
+        C2004A00046:42 ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:prefLabel "Endnotes E38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328132> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328132"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+
+C2004A00046:6 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P6 Part IISovereignty sovereign rights and rights of control"@en-AU ;
+    dct:hasPart C2004A00046:14,
+        C2004A00046:18,
+        C2004A00046:22,
+        C2004A00046:26,
+        C2004A00046:30,
+        C2004A00046:7 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "Part IISovereignty sovereign rights and rights of control - Abrievated Graph Key: P6"@en-AU ;
+    skos:broader C2004A00046:14,
+        C2004A00046:18,
+        C2004A00046:22,
+        C2004A00046:26,
+        C2004A00046:30,
+        C2004A00046:7 ;
+    skos:definition "Part IISovereignty sovereign rights and rights of control"@en-AU ;
+    skos:prefLabel "Part P6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328100> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328100"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00046:7 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D7 Division 1 The territorial sea"@en-AU ;
+    dct:hasPart C2004A00046:10,
+        C2004A00046:11,
+        C2004A00046:12,
+        C2004A00046:13,
+        C2004A00046:8,
+        C2004A00046:9 ;
+    dct:isPartOf C2004A00046:6 ;
+    dct:isReferencedBy C2004A00046: ;
+    rdfs:comment "Division 1 The territorial sea - Abrievated Graph Key: D7"@en-AU ;
+    skos:broader C2004A00046:10,
+        C2004A00046:11,
+        C2004A00046:12,
+        C2004A00046:13,
+        C2004A00046:8,
+        C2004A00046:9 ;
+    skos:definition "Division 1 The territorial sea"@en-AU ;
+    skos:narrower C2004A00046:6 ;
+    skos:prefLabel "Division D7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328101> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00046/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc18328101"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2004A00046: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Seas and Submerged Lands Act 1973" ;
+    dct:Jurisdiction " Attorney-General's Department "@en-AU ;
+    dct:created "2026-05-23T03:07:44.701825"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2019-08-30T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Seas and Submerged Lands Act 1973"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A00046/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Seas and Submerged Lands Act 1973"@en-AU ;
+    dct:title "Seas and Submerged Lands Act 1973"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Endnotes,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2019C00259 C04" .
+

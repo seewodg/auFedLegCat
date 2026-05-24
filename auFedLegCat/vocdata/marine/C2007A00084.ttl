@@ -1,0 +1,114 @@
+@prefix C2007A00084: <http://example.org/au/leg/dataset/C2007A00084/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2007A00084:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2007A00084: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00084/asmade/2007-06-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc170641380> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00084/asmade/2007-06-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc170641380"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00084:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2007A00084: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00084/asmade/2007-06-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc170641381> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00084/asmade/2007-06-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc170641381"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00084:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Australian Institute of Marine Science Act 1972"@en-AU ;
+    dct:isPartOf C2007A00084:3 ;
+    dct:isReferencedBy C2007A00084: ;
+    rdfs:comment "Schedule 1 Australian Institute of Marine Science Act 1972 - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Australian Institute of Marine Science Act 1972"@en-AU ;
+    skos:narrower C2007A00084:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00084/asmade/2007-06-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc170641383> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00084/asmade/2007-06-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc170641383"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00084:5 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S5 Schedule 2 Australian Nuclear Science and Technology Organisation Act 1987"@en-AU ;
+    dct:isPartOf C2007A00084:3 ;
+    dct:isReferencedBy C2007A00084: ;
+    rdfs:comment "Schedule 2 Australian Nuclear Science and Technology Organisation Act 1987 - Abrievated Graph Key: S5"@en-AU ;
+    skos:definition "Schedule 2 Australian Nuclear Science and Technology Organisation Act 1987"@en-AU ;
+    skos:narrower C2007A00084:3 ;
+    skos:prefLabel "Schedule S5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00084/asmade/2007-06-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc170641385> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00084/asmade/2007-06-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc170641385"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00084:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 3 Science and Industry Research Act 1949"@en-AU ;
+    dct:isPartOf C2007A00084:3 ;
+    dct:isReferencedBy C2007A00084: ;
+    rdfs:comment "Schedule 3 Science and Industry Research Act 1949 - Abrievated Graph Key: S6"@en-AU ;
+    skos:definition "Schedule 3 Science and Industry Research Act 1949"@en-AU ;
+    skos:narrower C2007A00084:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00084/asmade/2007-06-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc170641388> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00084/asmade/2007-06-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc170641388"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00084: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Governance Review Implementation (Science Research Agencies) Act 2007" ;
+    dct:Jurisdiction " Department of Industry, Science and Resources "@en-AU ;
+    dct:created "2026-05-23T03:01:52.297706"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2007-06-21T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Governance Review Implementation (Science Research Agencies) Act 2007"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2007A00084/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Governance Review Implementation (Science Research Agencies) Act 2007"@en-AU ;
+    dct:title "Governance Review Implementation (Science Research Agencies) Act 2007"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2007A00084" .
+
+C2007A00084:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2007A00084:4,
+        C2007A00084:5,
+        C2007A00084:6 ;
+    dct:isReferencedBy C2007A00084: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2007A00084:4,
+        C2007A00084:5,
+        C2007A00084:6 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00084/asmade/2007-06-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc170641382> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00084/asmade/2007-06-21/text/original/epub/OEBPS/document_1/document_1.html#_Toc170641382"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+

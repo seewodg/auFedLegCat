@@ -1,0 +1,367 @@
+@prefix C2009A00086: <http://example.org/au/leg/dataset/C2009A00086/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2009A00086:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846860> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846860"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00086:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846861> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846861"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00086:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2009A00086:10 ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2009A00086:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846870> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846870"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00086:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2009A00086:12 ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2009A00086:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846872> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846872"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00086:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2009A00086:14 ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2009A00086:14 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846874> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846874"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00086:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2009A00086:16 ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2009A00086:16 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846876> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846876"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00086:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Endnote 1 About the endnotes"@en-AU ;
+    dct:isPartOf C2009A00086:18 ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "Endnote 1 About the endnotes - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Endnote 1 About the endnotes"@en-AU ;
+    skos:narrower C2009A00086:18 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846878> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846878"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00086:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Endnote 2 Abbreviation key"@en-AU ;
+    dct:isPartOf C2009A00086:18 ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "Endnote 2 Abbreviation key - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Endnote 2 Abbreviation key"@en-AU ;
+    skos:narrower C2009A00086:18 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846879> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846879"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00086:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Endnote 3 Legislation history"@en-AU ;
+    dct:isPartOf C2009A00086:18 ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "Endnote 3 Legislation history - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Endnote 3 Legislation history"@en-AU ;
+    skos:narrower C2009A00086:18 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846880> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846880"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00086:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Endnote 4 Amendment history"@en-AU ;
+    dct:isPartOf C2009A00086:18 ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "Endnote 4 Amendment history - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Endnote 4 Amendment history"@en-AU ;
+    skos:narrower C2009A00086:18 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846881> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846881"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00086:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2009A00086:4 ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2009A00086:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846864> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846864"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00086:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2009A00086:6 ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2009A00086:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846866> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846866"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00086:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2009A00086:8 ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2009A00086:8 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846868> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846868"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00086:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 4 Other grants"@en-AU ;
+    dct:hasPart C2009A00086:11 ;
+    dct:isPartOf C2009A00086:3 ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "Schedule 4 Other grants - Abrievated Graph Key: S10"@en-AU ;
+    skos:broader C2009A00086:11 ;
+    skos:definition "Schedule 4 Other grants"@en-AU ;
+    skos:narrower C2009A00086:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846869> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846869"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00086:12 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S12 Schedule 5 Maximum student contribution amounts"@en-AU ;
+    dct:hasPart C2009A00086:13 ;
+    dct:isPartOf C2009A00086:3 ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "Schedule 5 Maximum student contribution amounts - Abrievated Graph Key: S12"@en-AU ;
+    skos:broader C2009A00086:13 ;
+    skos:definition "Schedule 5 Maximum student contribution amounts"@en-AU ;
+    skos:narrower C2009A00086:3 ;
+    skos:prefLabel "Schedule S12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846871> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846871"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00086:14 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S14 Schedule 6 OSHELP debts"@en-AU ;
+    dct:hasPart C2009A00086:15 ;
+    dct:isPartOf C2009A00086:3 ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "Schedule 6 OSHELP debts - Abrievated Graph Key: S14"@en-AU ;
+    skos:broader C2009A00086:15 ;
+    skos:definition "Schedule 6 OSHELP debts"@en-AU ;
+    skos:narrower C2009A00086:3 ;
+    skos:prefLabel "Schedule S14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846873> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846873"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00086:16 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S16 Schedule 7 Indexation"@en-AU ;
+    dct:hasPart C2009A00086:17 ;
+    dct:isPartOf C2009A00086:3 ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "Schedule 7 Indexation - Abrievated Graph Key: S16"@en-AU ;
+    skos:broader C2009A00086:17 ;
+    skos:definition "Schedule 7 Indexation"@en-AU ;
+    skos:narrower C2009A00086:3 ;
+    skos:prefLabel "Schedule S16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846875> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846875"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00086:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Grants"@en-AU ;
+    dct:hasPart C2009A00086:5 ;
+    dct:isPartOf C2009A00086:3 ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "Schedule 1 Grants - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2009A00086:5 ;
+    skos:definition "Schedule 1 Grants"@en-AU ;
+    skos:narrower C2009A00086:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846863> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846863"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00086:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Funding clusters"@en-AU ;
+    dct:hasPart C2009A00086:7 ;
+    dct:isPartOf C2009A00086:3 ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "Schedule 2 Funding clusters - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2009A00086:7 ;
+    skos:definition "Schedule 2 Funding clusters"@en-AU ;
+    skos:narrower C2009A00086:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846865> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846865"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00086:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 3 Adjustment of basic grant amounts"@en-AU ;
+    dct:hasPart C2009A00086:9 ;
+    dct:isPartOf C2009A00086:3 ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "Schedule 3 Adjustment of basic grant amounts - Abrievated Graph Key: S8"@en-AU ;
+    skos:broader C2009A00086:9 ;
+    skos:definition "Schedule 3 Adjustment of basic grant amounts"@en-AU ;
+    skos:narrower C2009A00086:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846867> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846867"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00086:18 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E18 Endnotes"@en-AU ;
+    dct:hasPart C2009A00086:19,
+        C2009A00086:20,
+        C2009A00086:21,
+        C2009A00086:22 ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E18"@en-AU ;
+    skos:broader C2009A00086:19,
+        C2009A00086:20,
+        C2009A00086:21,
+        C2009A00086:22 ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:prefLabel "Endnotes E18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846877> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846877"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+
+C2009A00086:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2009A00086:10,
+        C2009A00086:12,
+        C2009A00086:14,
+        C2009A00086:16,
+        C2009A00086:4,
+        C2009A00086:6,
+        C2009A00086:8 ;
+    dct:isReferencedBy C2009A00086: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2009A00086:10,
+        C2009A00086:12,
+        C2009A00086:14,
+        C2009A00086:16,
+        C2009A00086:4,
+        C2009A00086:6,
+        C2009A00086:8 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846862> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00086/2021-01-01/2021-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc63846862"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00086: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Higher Education Support Amendment (2009 Budget Measures) Act 2009" ;
+    dct:Jurisdiction " Department of Education "@en-AU ;
+    dct:created "2026-05-23T13:59:34.596657"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2021-01-01T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Higher Education Support Amendment (2009 Budget Measures) Act 2009"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2009A00086/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Higher Education Support Amendment (2009 Budget Measures) Act 2009"@en-AU ;
+    dct:title "Higher Education Support Amendment (2009 Budget Measures) Act 2009"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Endnotes,
+        legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2021C00094 C01" .
+

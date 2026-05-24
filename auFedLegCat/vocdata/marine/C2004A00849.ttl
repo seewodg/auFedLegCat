@@ -1,0 +1,195 @@
+@prefix C2004A00849: <http://example.org/au/leg/dataset/C2004A00849/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A00849:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A00849: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723341> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723341"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00849:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A00849: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723342> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723342"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00849:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Biological Control Act 1984"@en-AU ;
+    dct:isPartOf C2004A00849:10 ;
+    dct:isReferencedBy C2004A00849: ;
+    rdfs:comment "Biological Control Act 1984 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Biological Control Act 1984"@en-AU ;
+    skos:narrower C2004A00849:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723501> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723501"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00849:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Amendments relating to wildlife"@en-AU ;
+    dct:isPartOf C2004A00849:4 ;
+    dct:isReferencedBy C2004A00849: ;
+    rdfs:comment "Part 1 Amendments relating to wildlife - Abrievated Graph Key: P5"@en-AU ;
+    skos:definition "Part 1 Amendments relating to wildlife"@en-AU ;
+    skos:narrower C2004A00849:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723345> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723345"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00849:6 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P6 Part 2 Transitional provisions relating to wildlife"@en-AU ;
+    dct:isPartOf C2004A00849:4 ;
+    dct:isReferencedBy C2004A00849: ;
+    rdfs:comment "Part 2 Transitional provisions relating to wildlife - Abrievated Graph Key: P6"@en-AU ;
+    skos:definition "Part 2 Transitional provisions relating to wildlife"@en-AU ;
+    skos:narrower C2004A00849:4 ;
+    skos:prefLabel "Part P6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723483> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723483"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00849:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 3 Other amendments"@en-AU ;
+    dct:isPartOf C2004A00849:4 ;
+    dct:isReferencedBy C2004A00849: ;
+    rdfs:comment "Part 3 Other amendments - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 3 Other amendments"@en-AU ;
+    skos:narrower C2004A00849:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723484> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723484"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00849:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Wildlife Protection Regulation of Exports and Imports Act 1982"@en-AU ;
+    dct:isPartOf C2004A00849:8 ;
+    dct:isReferencedBy C2004A00849: ;
+    rdfs:comment "Wildlife Protection Regulation of Exports and Imports Act 1982 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Wildlife Protection Regulation of Exports and Imports Act 1982"@en-AU ;
+    skos:narrower C2004A00849:8 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723499> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723499"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00849:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 3 Amendment of other Acts"@en-AU ;
+    dct:hasPart C2004A00849:11 ;
+    dct:isPartOf C2004A00849:3 ;
+    dct:isReferencedBy C2004A00849: ;
+    rdfs:comment "Schedule 3 Amendment of other Acts - Abrievated Graph Key: S10"@en-AU ;
+    skos:broader C2004A00849:11 ;
+    skos:definition "Schedule 3 Amendment of other Acts"@en-AU ;
+    skos:narrower C2004A00849:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723500> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723500"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00849:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 2 Repeal of the Wildlife Protection Regulation of Exports and Imports Act 1982"@en-AU ;
+    dct:hasPart C2004A00849:9 ;
+    dct:isPartOf C2004A00849:3 ;
+    dct:isReferencedBy C2004A00849: ;
+    rdfs:comment "Schedule 2 Repeal of the Wildlife Protection Regulation of Exports and Imports Act 1982 - Abrievated Graph Key: S8"@en-AU ;
+    skos:broader C2004A00849:9 ;
+    skos:definition "Schedule 2 Repeal of the Wildlife Protection Regulation of Exports and Imports Act 1982"@en-AU ;
+    skos:narrower C2004A00849:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723498> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723498"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00849:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A00849:10,
+        C2004A00849:4,
+        C2004A00849:8 ;
+    dct:isReferencedBy C2004A00849: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A00849:10,
+        C2004A00849:4,
+        C2004A00849:8 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723343> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723343"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00849:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendment of the Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    dct:hasPart C2004A00849:5,
+        C2004A00849:6,
+        C2004A00849:7 ;
+    dct:isPartOf C2004A00849:3 ;
+    dct:isReferencedBy C2004A00849: ;
+    rdfs:comment "Schedule 1 Amendment of the Environment Protection and Biodiversity Conservation Act 1999 - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A00849:5,
+        C2004A00849:6,
+        C2004A00849:7 ;
+    skos:definition "Schedule 1 Amendment of the Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    skos:narrower C2004A00849:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723344> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00849/asmade/2001-07-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc518723344"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00849: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Environment Protection and Biodiversity Conservation Amendment (Wildlife Protection) Act 2001" ;
+    dct:Jurisdiction " Department of Climate Change, Energy, the Environment and Water "@en-AU ;
+    dct:created "2026-05-23T03:13:17.160092"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2001-07-11T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Environment Protection and Biodiversity Conservation Amendment (Wildlife Protection) Act 2001"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A00849/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Environment Protection and Biodiversity Conservation Amendment (Wildlife Protection) Act 2001"@en-AU ;
+    dct:title "Environment Protection and Biodiversity Conservation Amendment (Wildlife Protection) Act 2001"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2004A00849" .
+

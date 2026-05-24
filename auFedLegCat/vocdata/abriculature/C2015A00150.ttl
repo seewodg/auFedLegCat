@@ -1,0 +1,242 @@
+@prefix C2015A00150: <http://example.org/au/leg/dataset/C2015A00150/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2015A00150:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2015A00150: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303247> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303247"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00150:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2015A00150: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303248> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303248"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00150:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 AntiMoney Laundering and CounterTerrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2015A00150:9 ;
+    dct:isReferencedBy C2015A00150: ;
+    rdfs:comment "AntiMoney Laundering and CounterTerrorism Financing Act 2006 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "AntiMoney Laundering and CounterTerrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2015A00150:9 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303435> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303435"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00150:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2015A00150:9 ;
+    dct:isReferencedBy C2015A00150: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2015A00150:9 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303436> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303436"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00150:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2015A00150:9 ;
+    dct:isReferencedBy C2015A00150: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2015A00150:9 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303437> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303437"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00150:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Register of Foreign Ownership of Agricultural Land Act 2015"@en-AU ;
+    dct:isPartOf C2015A00150:13 ;
+    dct:isReferencedBy C2015A00150: ;
+    rdfs:comment "Register of Foreign Ownership of Agricultural Land Act 2015 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Register of Foreign Ownership of Agricultural Land Act 2015"@en-AU ;
+    skos:narrower C2015A00150:13 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303443> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303443"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00150:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    dct:isPartOf C2015A00150:4 ;
+    dct:isReferencedBy C2015A00150: ;
+    rdfs:comment "Foreign Acquisitions and Takeovers Act 1975 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    skos:narrower C2015A00150:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303251> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303251"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00150:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    dct:isPartOf C2015A00150:6 ;
+    dct:isReferencedBy C2015A00150: ;
+    rdfs:comment "Foreign Acquisitions and Takeovers Act 1975 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    skos:narrower C2015A00150:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303431> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303431"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00150:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 3 Application and transitional provisions for Schedules 1 and 2 and Fees Imposition Act"@en-AU ;
+    dct:isPartOf C2015A00150:3 ;
+    dct:isReferencedBy C2015A00150: ;
+    rdfs:comment "Schedule 3 Application and transitional provisions for Schedules 1 and 2 and Fees Imposition Act - Abrievated Graph Key: S8"@en-AU ;
+    skos:definition "Schedule 3 Application and transitional provisions for Schedules 1 and 2 and Fees Imposition Act"@en-AU ;
+    skos:narrower C2015A00150:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303433> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303433"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2015A00150:13 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S13 Schedule 5 Sunset provision for the Register of Foreign Ownership of Agricultural Land Act 2015"@en-AU ;
+    dct:hasPart C2015A00150:14 ;
+    dct:isPartOf C2015A00150:3 ;
+    dct:isReferencedBy C2015A00150: ;
+    rdfs:comment "Schedule 5 Sunset provision for the Register of Foreign Ownership of Agricultural Land Act 2015 - Abrievated Graph Key: S13"@en-AU ;
+    skos:broader C2015A00150:14 ;
+    skos:definition "Schedule 5 Sunset provision for the Register of Foreign Ownership of Agricultural Land Act 2015"@en-AU ;
+    skos:narrower C2015A00150:3 ;
+    skos:prefLabel "Schedule S13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303442> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303442"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2015A00150:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Main amendments"@en-AU ;
+    dct:hasPart C2015A00150:5 ;
+    dct:isPartOf C2015A00150:3 ;
+    dct:isReferencedBy C2015A00150: ;
+    rdfs:comment "Schedule 1 Main amendments - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2015A00150:5 ;
+    skos:definition "Schedule 1 Main amendments"@en-AU ;
+    skos:narrower C2015A00150:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303250> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303250"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2015A00150:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Amendments contingent on the Acts and Instruments Framework Reform Act 2015"@en-AU ;
+    dct:hasPart C2015A00150:7 ;
+    dct:isPartOf C2015A00150:3 ;
+    dct:isReferencedBy C2015A00150: ;
+    rdfs:comment "Schedule 2 Amendments contingent on the Acts and Instruments Framework Reform Act 2015 - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2015A00150:7 ;
+    skos:definition "Schedule 2 Amendments contingent on the Acts and Instruments Framework Reform Act 2015"@en-AU ;
+    skos:narrower C2015A00150:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303430> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303430"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2015A00150:9 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S9 Schedule 4 Amendments of confidentiality provisions"@en-AU ;
+    dct:hasPart C2015A00150:10,
+        C2015A00150:11,
+        C2015A00150:12 ;
+    dct:isPartOf C2015A00150:3 ;
+    dct:isReferencedBy C2015A00150: ;
+    rdfs:comment "Schedule 4 Amendments of confidentiality provisions - Abrievated Graph Key: S9"@en-AU ;
+    skos:broader C2015A00150:10,
+        C2015A00150:11,
+        C2015A00150:12 ;
+    skos:definition "Schedule 4 Amendments of confidentiality provisions"@en-AU ;
+    skos:narrower C2015A00150:3 ;
+    skos:prefLabel "Schedule S9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303434> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303434"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2015A00150:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2015A00150:13,
+        C2015A00150:4,
+        C2015A00150:6,
+        C2015A00150:8,
+        C2015A00150:9 ;
+    dct:isReferencedBy C2015A00150: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2015A00150:13,
+        C2015A00150:4,
+        C2015A00150:6,
+        C2015A00150:8,
+        C2015A00150:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303249> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00150/asmade/2015-11-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc436303249"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00150: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Foreign Acquisitions and Takeovers Legislation Amendment Act 2015" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-23T14:07:25.962504"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2015-11-25T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Foreign Acquisitions and Takeovers Legislation Amendment Act 2015"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2015A00150/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Foreign Acquisitions and Takeovers Legislation Amendment Act 2015"@en-AU ;
+    dct:title "Foreign Acquisitions and Takeovers Legislation Amendment Act 2015"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2015A00150" .
+
