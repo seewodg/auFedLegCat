@@ -1,0 +1,66 @@
+@prefix F2012L02540: <http://example.org/au/leg/dataset/F2012L02540/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2012L02540:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 Determination of Financial Stability Standards"@en-AU ;
+    dct:isReferencedBy F2012L02540: ;
+    rdfs:comment "Determination of Financial Stability Standards - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "Determination of Financial Stability Standards"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2012L02540/2024-06-24/2024-06-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc169793838> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2012L02540/2024-06-24/2024-06-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc169793838"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2012L02540:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 ANNEXURE A  CCP Standards"@en-AU ;
+    dct:isReferencedBy F2012L02540: ;
+    rdfs:comment "ANNEXURE A  CCP Standards - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "ANNEXURE A  CCP Standards"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2012L02540/2024-06-24/2024-06-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc169793839> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2012L02540/2024-06-24/2024-06-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc169793839"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2012L02540:3 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E3 Endnotes"@en-AU ;
+    dct:isReferencedBy F2012L02540: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E3"@en-AU ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:prefLabel "Endnotes E3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2012L02540/2024-06-24/2024-06-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc169793840> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2012L02540/2024-06-24/2024-06-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc169793840"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+
+F2012L02540: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Corporations Act 2001 - Determination of Financial Stability Standards" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-26T21:09:40.796434"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2024-06-24T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Corporations Act 2001 - Determination of Financial Stability Standards"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2012L02540/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Corporations Act 2001 - Determination of Financial Stability Standards"@en-AU ;
+    dct:title "Corporations Act 2001 - Determination of Financial Stability Standards"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Endnotes,
+        legcons:Item ;
+    schema:status "In force" ;
+    schema:version "F2024C00507 C03" .
+

@@ -1,0 +1,1930 @@
+@prefix F2023L00457: <http://example.org/au/leg/dataset/F2023L00457/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2023L00457:121 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E121 Endnotes"@en-AU ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E121"@en-AU ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:prefLabel "Endnotes E121"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219342> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219342"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+
+F2023L00457:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 118	References to rules in other instruments"@en-AU ;
+    dct:isPartOf F2023L00457:1 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "118	References to rules in other instruments - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "118	References to rules in other instruments"@en-AU ;
+    skos:narrower F2023L00457:1 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219231> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219231"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:100 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I100 732	Time limit on review"@en-AU ;
+    dct:isPartOf F2023L00457:98 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "732	Time limit on review - Abrievated Graph Key: I100"@en-AU ;
+    skos:definition "732	Time limit on review"@en-AU ;
+    skos:narrower F2023L00457:98 ;
+    skos:prefLabel "Item I100"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219321> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219321"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:101 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I101 733	CDF must notify applicant of review"@en-AU ;
+    dct:isPartOf F2023L00457:98 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "733	CDF must notify applicant of review - Abrievated Graph Key: I101"@en-AU ;
+    skos:definition "733	CDF must notify applicant of review"@en-AU ;
+    skos:narrower F2023L00457:98 ;
+    skos:prefLabel "Item I101"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219322> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219322"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:102 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I102 734	CDF may require further information"@en-AU ;
+    dct:isPartOf F2023L00457:98 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "734	CDF may require further information - Abrievated Graph Key: I102"@en-AU ;
+    skos:definition "734	CDF may require further information"@en-AU ;
+    skos:narrower F2023L00457:98 ;
+    skos:prefLabel "Item I102"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219323> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219323"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:103 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I103 735	Decision made after review"@en-AU ;
+    dct:isPartOf F2023L00457:98 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "735	Decision made after review - Abrievated Graph Key: I103"@en-AU ;
+    skos:definition "735	Decision made after review"@en-AU ;
+    skos:narrower F2023L00457:98 ;
+    skos:prefLabel "Item I103"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219324> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219324"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:104 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I104 736	Notice of review outcome"@en-AU ;
+    dct:isPartOf F2023L00457:98 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "736	Notice of review outcome - Abrievated Graph Key: I104"@en-AU ;
+    skos:definition "736	Notice of review outcome"@en-AU ;
+    skos:narrower F2023L00457:98 ;
+    skos:prefLabel "Item I104"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219325> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219325"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:105 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I105 737	Operation of decisions subject to review"@en-AU ;
+    dct:isPartOf F2023L00457:98 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "737	Operation of decisions subject to review - Abrievated Graph Key: I105"@en-AU ;
+    skos:definition "737	Operation of decisions subject to review"@en-AU ;
+    skos:narrower F2023L00457:98 ;
+    skos:prefLabel "Item I105"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219326> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219326"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:107 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I107 741	Review of decisions"@en-AU ;
+    dct:isPartOf F2023L00457:106 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "741	Review of decisions - Abrievated Graph Key: I107"@en-AU ;
+    skos:definition "741	Review of decisions"@en-AU ;
+    skos:narrower F2023L00457:106 ;
+    skos:prefLabel "Item I107"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219328> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219328"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:109 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I109 811	Purpose"@en-AU ;
+    dct:isPartOf F2023L00457:108 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "811	Purpose - Abrievated Graph Key: I109"@en-AU ;
+    skos:definition "811	Purpose"@en-AU ;
+    skos:narrower F2023L00457:108 ;
+    skos:prefLabel "Item I109"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219330> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219330"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:110 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I110 812	Obligation to provide accurate information"@en-AU ;
+    dct:isPartOf F2023L00457:108 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "812	Obligation to provide accurate information - Abrievated Graph Key: I110"@en-AU ;
+    skos:definition "812	Obligation to provide accurate information"@en-AU ;
+    skos:narrower F2023L00457:108 ;
+    skos:prefLabel "Item I110"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219331> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219331"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:111 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I111 813	Collection use and disclosure of personal information"@en-AU ;
+    dct:isPartOf F2023L00457:108 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "813	Collection use and disclosure of personal information - Abrievated Graph Key: I111"@en-AU ;
+    skos:definition "813	Collection use and disclosure of personal information"@en-AU ;
+    skos:narrower F2023L00457:108 ;
+    skos:prefLabel "Item I111"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219332> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219332"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:112 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I112 814	CDF may authorise persons to exercise certain powers or functions"@en-AU ;
+    dct:isPartOf F2023L00457:108 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "814	CDF may authorise persons to exercise certain powers or functions - Abrievated Graph Key: I112"@en-AU ;
+    skos:definition "814	CDF may authorise persons to exercise certain powers or functions"@en-AU ;
+    skos:narrower F2023L00457:108 ;
+    skos:prefLabel "Item I112"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219333> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219333"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:114 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I114 1	Definitions"@en-AU ;
+    dct:isPartOf F2023L00457:113 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "1	Definitions - Abrievated Graph Key: I114"@en-AU ;
+    skos:definition "1	Definitions"@en-AU ;
+    skos:narrower F2023L00457:113 ;
+    skos:prefLabel "Item I114"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219335> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219335"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:115 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I115 2	Determination applies to defence service rendered on or after 1 July 2023"@en-AU ;
+    dct:isPartOf F2023L00457:113 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "2	Determination applies to defence service rendered on or after 1 July 2023 - Abrievated Graph Key: I115"@en-AU ;
+    skos:definition "2	Determination applies to defence service rendered on or after 1 July 2023"@en-AU ;
+    skos:narrower F2023L00457:113 ;
+    skos:prefLabel "Item I115"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219336> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219336"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:116 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I116 3	Review of decisions made under the former determination before 1 July 2023"@en-AU ;
+    dct:isPartOf F2023L00457:113 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "3	Review of decisions made under the former determination before 1 July 2023 - Abrievated Graph Key: I116"@en-AU ;
+    skos:definition "3	Review of decisions made under the former determination before 1 July 2023"@en-AU ;
+    skos:narrower F2023L00457:113 ;
+    skos:prefLabel "Item I116"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219337> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219337"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:117 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I117 4	Applications under the former determination that were pending on 1 July 2023"@en-AU ;
+    dct:isPartOf F2023L00457:113 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "4	Applications under the former determination that were pending on 1 July 2023 - Abrievated Graph Key: I117"@en-AU ;
+    skos:definition "4	Applications under the former determination that were pending on 1 July 2023"@en-AU ;
+    skos:narrower F2023L00457:113 ;
+    skos:prefLabel "Item I117"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219338> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219338"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:118 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I118 5	Applications that apply to defence service completed before 1 July 2023"@en-AU ;
+    dct:isPartOf F2023L00457:113 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "5	Applications that apply to defence service completed before 1 July 2023 - Abrievated Graph Key: I118"@en-AU ;
+    skos:definition "5	Applications that apply to defence service completed before 1 July 2023"@en-AU ;
+    skos:narrower F2023L00457:113 ;
+    skos:prefLabel "Item I118"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219339> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219339"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:119 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I119 6	Applications that relate to defence service commenced before 1 July 2023 but completed on or after that date"@en-AU ;
+    dct:isPartOf F2023L00457:113 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "6	Applications that relate to defence service commenced before 1 July 2023 but completed on or after that date - Abrievated Graph Key: I119"@en-AU ;
+    skos:definition "6	Applications that relate to defence service commenced before 1 July 2023 but completed on or after that date"@en-AU ;
+    skos:narrower F2023L00457:113 ;
+    skos:prefLabel "Item I119"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219340> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219340"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 211	Purpose"@en-AU ;
+    dct:isPartOf F2023L00457:11 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "211	Purpose - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "211	Purpose"@en-AU ;
+    skos:narrower F2023L00457:11 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219233> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219233"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:120 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I120 8	Operation of limit on eligibility relating to continuous fulltime service"@en-AU ;
+    dct:isPartOf F2023L00457:113 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "8	Operation of limit on eligibility relating to continuous fulltime service - Abrievated Graph Key: I120"@en-AU ;
+    skos:definition "8	Operation of limit on eligibility relating to continuous fulltime service"@en-AU ;
+    skos:narrower F2023L00457:113 ;
+    skos:prefLabel "Item I120"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219341> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219341"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 212	Definitions"@en-AU ;
+    dct:isPartOf F2023L00457:11 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "212	Definitions - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "212	Definitions"@en-AU ;
+    skos:narrower F2023L00457:11 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219234> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219234"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 213	Days that are included in a period of continuous defence service"@en-AU ;
+    dct:isPartOf F2023L00457:11 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "213	Days that are included in a period of continuous defence service - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "213	Days that are included in a period of continuous defence service"@en-AU ;
+    skos:narrower F2023L00457:11 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219235> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219235"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 214	When is a member employed in fulltime work parttime work or is a regular casual employee"@en-AU ;
+    dct:isPartOf F2023L00457:11 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "214	When is a member employed in fulltime work parttime work or is a regular casual employee - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "214	When is a member employed in fulltime work parttime work or is a regular casual employee"@en-AU ;
+    skos:narrower F2023L00457:11 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219236> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219236"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 215	When is a business related to a member"@en-AU ;
+    dct:isPartOf F2023L00457:11 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "215	When is a business related to a member - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "215	When is a business related to a member"@en-AU ;
+    skos:narrower F2023L00457:11 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219237> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219237"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 311	Purpose"@en-AU ;
+    dct:isPartOf F2023L00457:18 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "311	Purpose - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "311	Purpose"@en-AU ;
+    skos:narrower F2023L00457:18 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219240> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219240"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:2 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D2 Division 1 Introduction"@en-AU ;
+    dct:isPartOf F2023L00457:1 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 1 Introduction - Abrievated Graph Key: D2"@en-AU ;
+    skos:definition "Division 1 Introduction"@en-AU ;
+    skos:narrower F2023L00457:1 ;
+    skos:prefLabel "Division D2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219223> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219223"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 321	How to apply"@en-AU ;
+    dct:isPartOf F2023L00457:20 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "321	How to apply - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "321	How to apply"@en-AU ;
+    skos:narrower F2023L00457:20 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219242> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219242"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 322	When to apply"@en-AU ;
+    dct:isPartOf F2023L00457:20 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "322	When to apply - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "322	When to apply"@en-AU ;
+    skos:narrower F2023L00457:20 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219243> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219243"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 323	Member applicant with more than one business"@en-AU ;
+    dct:isPartOf F2023L00457:20 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "323	Member applicant with more than one business - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "323	Member applicant with more than one business"@en-AU ;
+    skos:narrower F2023L00457:20 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219244> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219244"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 331	When can a support payment be made to an employer applicant"@en-AU ;
+    dct:isPartOf F2023L00457:24 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "331	When can a support payment be made to an employer applicant - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "331	When can a support payment be made to an employer applicant"@en-AU ;
+    skos:narrower F2023L00457:24 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219246> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219246"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 332	Information that must be provided  employer applicant"@en-AU ;
+    dct:isPartOf F2023L00457:24 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "332	Information that must be provided  employer applicant - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "332	Information that must be provided  employer applicant"@en-AU ;
+    skos:narrower F2023L00457:24 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219247> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219247"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 341	When can a support payment be made to a member applicant"@en-AU ;
+    dct:isPartOf F2023L00457:28 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "341	When can a support payment be made to a member applicant - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "341	When can a support payment be made to a member applicant"@en-AU ;
+    skos:narrower F2023L00457:28 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219250> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219250"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 111	Name"@en-AU ;
+    dct:isPartOf F2023L00457:1 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "111	Name - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "111	Name"@en-AU ;
+    skos:narrower F2023L00457:1 ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219224> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219224"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 342	Establishing principal source of income"@en-AU ;
+    dct:isPartOf F2023L00457:28 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "342	Establishing principal source of income - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "342	Establishing principal source of income"@en-AU ;
+    skos:narrower F2023L00457:28 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219251> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219251"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 343	Establishing principal source of employment"@en-AU ;
+    dct:isPartOf F2023L00457:28 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "343	Establishing principal source of employment - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "343	Establishing principal source of employment"@en-AU ;
+    skos:narrower F2023L00457:28 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219252> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219252"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 344	Information that must be provided  member applicant"@en-AU ;
+    dct:isPartOf F2023L00457:28 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "344	Information that must be provided  member applicant - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "344	Information that must be provided  member applicant"@en-AU ;
+    skos:narrower F2023L00457:28 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219253> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219253"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:33 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S33 Subdivision 2 Working out the income a member applicant receives from a business"@en-AU ;
+    dct:isPartOf F2023L00457:27 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Subdivision 2 Working out the income a member applicant receives from a business - Abrievated Graph Key: S33"@en-AU ;
+    skos:definition "Subdivision 2 Working out the income a member applicant receives from a business"@en-AU ;
+    skos:narrower F2023L00457:27 ;
+    skos:prefLabel "Subdivision S33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219254> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219254"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F2023L00457:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 345	Meaning of income"@en-AU ;
+    dct:isPartOf F2023L00457:27 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "345	Meaning of income - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "345	Meaning of income"@en-AU ;
+    skos:narrower F2023L00457:27 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219255> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219255"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 346	When income is received"@en-AU ;
+    dct:isPartOf F2023L00457:27 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "346	When income is received - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "346	When income is received"@en-AU ;
+    skos:narrower F2023L00457:27 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219256> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219256"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:36 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D36 Division 5 Which absences can be counted when determining amount of payment"@en-AU ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 5 Which absences can be counted when determining amount of payment - Abrievated Graph Key: D36"@en-AU ;
+    skos:definition "Division 5 Which absences can be counted when determining amount of payment"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Division D36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219257> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219257"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 351	Working out if an absence can be counted when determining amount of payment"@en-AU ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "351	Working out if an absence can be counted when determining amount of payment - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "351	Working out if an absence can be counted when determining amount of payment"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219258> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219258"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 352	Absences that are not counted when determining payment"@en-AU ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "352	Absences that are not counted when determining payment - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "352	Absences that are not counted when determining payment"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219259> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219259"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:39 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D39 Division 6 Working out the amount of support payment"@en-AU ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 6 Working out the amount of support payment - Abrievated Graph Key: D39"@en-AU ;
+    skos:definition "Division 6 Working out the amount of support payment"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Division D39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219260> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219260"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 113	Authority"@en-AU ;
+    dct:isPartOf F2023L00457:1 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "113	Authority - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "113	Authority"@en-AU ;
+    skos:narrower F2023L00457:1 ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219225> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219225"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 361	Amount payable where member is employed by one employer"@en-AU ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "361	Amount payable where member is employed by one employer - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "361	Amount payable where member is employed by one employer"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219261> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219261"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 362	Amount payable where member is employed by more than one employer"@en-AU ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "362	Amount payable where member is employed by more than one employer - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "362	Amount payable where member is employed by more than one employer"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219262> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219262"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 363	Maximum support payments payable"@en-AU ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "363	Maximum support payments payable - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "363	Maximum support payments payable"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219263> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219263"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:43 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I43 364	Payment when member has not worked 3 months in the applicants business"@en-AU ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "364	Payment when member has not worked 3 months in the applicants business - Abrievated Graph Key: I43"@en-AU ;
+    skos:definition "364	Payment when member has not worked 3 months in the applicants business"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Item I43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219264> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219264"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 365	Amount payable  member who is a medical officer"@en-AU ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "365	Amount payable  member who is a medical officer - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "365	Amount payable  member who is a medical officer"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219265> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219265"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:45 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D45 Division 7 When support payments are made for specified capabilities"@en-AU ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 7 When support payments are made for specified capabilities - Abrievated Graph Key: D45"@en-AU ;
+    skos:definition "Division 7 When support payments are made for specified capabilities"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Division D45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219266> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219266"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:46 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I46 371	Purpose"@en-AU ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "371	Purpose - Abrievated Graph Key: I46"@en-AU ;
+    skos:definition "371	Purpose"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Item I46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219267> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219267"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:47 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I47 372	Payment rate for specified capabilities"@en-AU ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "372	Payment rate for specified capabilities - Abrievated Graph Key: I47"@en-AU ;
+    skos:definition "372	Payment rate for specified capabilities"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Item I47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219268> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219268"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:48 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I48 373	Support payment in modified circumstances"@en-AU ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "373	Support payment in modified circumstances - Abrievated Graph Key: I48"@en-AU ;
+    skos:definition "373	Support payment in modified circumstances"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Item I48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219269> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219269"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:49 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I49 374	Change of criteria or limits for specified payment"@en-AU ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "374	Change of criteria or limits for specified payment - Abrievated Graph Key: I49"@en-AU ;
+    skos:definition "374	Change of criteria or limits for specified payment"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Item I49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219270> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219270"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 114	Schedules"@en-AU ;
+    dct:isPartOf F2023L00457:1 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "114	Schedules - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "114	Schedules"@en-AU ;
+    skos:narrower F2023L00457:1 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219226> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219226"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:50 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D50 Division 8 Finalising applications"@en-AU ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 8 Finalising applications - Abrievated Graph Key: D50"@en-AU ;
+    skos:definition "Division 8 Finalising applications"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Division D50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219271> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219271"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:51 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I51 381	Deciding on an application for a support payment"@en-AU ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "381	Deciding on an application for a support payment - Abrievated Graph Key: I51"@en-AU ;
+    skos:definition "381	Deciding on an application for a support payment"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Item I51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219272> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219272"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:52 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I52 382	Applicant must be given notice of decision on an application"@en-AU ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "382	Applicant must be given notice of decision on an application - Abrievated Graph Key: I52"@en-AU ;
+    skos:definition "382	Applicant must be given notice of decision on an application"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Item I52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219273> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219273"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:53 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I53 383	When a support payment is to be made"@en-AU ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "383	When a support payment is to be made - Abrievated Graph Key: I53"@en-AU ;
+    skos:definition "383	When a support payment is to be made"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Item I53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219274> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219274"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:56 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I56 411	Overview"@en-AU ;
+    dct:isPartOf F2023L00457:55 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "411	Overview - Abrievated Graph Key: I56"@en-AU ;
+    skos:definition "411	Overview"@en-AU ;
+    skos:narrower F2023L00457:55 ;
+    skos:prefLabel "Item I56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219277> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219277"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:58 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I58 421	How and when to apply"@en-AU ;
+    dct:isPartOf F2023L00457:57 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "421	How and when to apply - Abrievated Graph Key: I58"@en-AU ;
+    skos:definition "421	How and when to apply"@en-AU ;
+    skos:narrower F2023L00457:57 ;
+    skos:prefLabel "Item I58"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219279> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219279"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:6 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D6 Division 2 General"@en-AU ;
+    dct:isPartOf F2023L00457:1 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 2 General - Abrievated Graph Key: D6"@en-AU ;
+    skos:definition "Division 2 General"@en-AU ;
+    skos:narrower F2023L00457:1 ;
+    skos:prefLabel "Division D6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219227> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219227"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:60 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I60 431	Member suffers illness or injury resulting from defence service"@en-AU ;
+    dct:isPartOf F2023L00457:59 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "431	Member suffers illness or injury resulting from defence service - Abrievated Graph Key: I60"@en-AU ;
+    skos:definition "431	Member suffers illness or injury resulting from defence service"@en-AU ;
+    skos:narrower F2023L00457:59 ;
+    skos:prefLabel "Item I60"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219281> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219281"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:61 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I61 432	Approval of extended support payment being made to an employer applicant"@en-AU ;
+    dct:isPartOf F2023L00457:59 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "432	Approval of extended support payment being made to an employer applicant - Abrievated Graph Key: I61"@en-AU ;
+    skos:definition "432	Approval of extended support payment being made to an employer applicant"@en-AU ;
+    skos:narrower F2023L00457:59 ;
+    skos:prefLabel "Item I61"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219282> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219282"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:62 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I62 433	Approval of extended support payment being made to a member applicant"@en-AU ;
+    dct:isPartOf F2023L00457:59 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "433	Approval of extended support payment being made to a member applicant - Abrievated Graph Key: I62"@en-AU ;
+    skos:definition "433	Approval of extended support payment being made to a member applicant"@en-AU ;
+    skos:narrower F2023L00457:59 ;
+    skos:prefLabel "Item I62"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219283> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219283"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:63 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I63 434	Working out the amount of extended support payment"@en-AU ;
+    dct:isPartOf F2023L00457:59 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "434	Working out the amount of extended support payment - Abrievated Graph Key: I63"@en-AU ;
+    skos:definition "434	Working out the amount of extended support payment"@en-AU ;
+    skos:narrower F2023L00457:59 ;
+    skos:prefLabel "Item I63"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219284> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219284"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:65 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I65 441	When can extended support payment be made in relation to a member who died"@en-AU ;
+    dct:isPartOf F2023L00457:64 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "441	When can extended support payment be made in relation to a member who died - Abrievated Graph Key: I65"@en-AU ;
+    skos:definition "441	When can extended support payment be made in relation to a member who died"@en-AU ;
+    skos:narrower F2023L00457:64 ;
+    skos:prefLabel "Item I65"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219286> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219286"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:67 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I67 451	Deciding on an application for extended support payment"@en-AU ;
+    dct:isPartOf F2023L00457:66 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "451	Deciding on an application for extended support payment - Abrievated Graph Key: I67"@en-AU ;
+    skos:definition "451	Deciding on an application for extended support payment"@en-AU ;
+    skos:narrower F2023L00457:66 ;
+    skos:prefLabel "Item I67"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219288> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219288"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:68 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I68 452	Applicant must be given notice of decision on application"@en-AU ;
+    dct:isPartOf F2023L00457:66 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "452	Applicant must be given notice of decision on application - Abrievated Graph Key: I68"@en-AU ;
+    skos:definition "452	Applicant must be given notice of decision on application"@en-AU ;
+    skos:narrower F2023L00457:66 ;
+    skos:prefLabel "Item I68"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219289> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219289"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:69 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I69 453	When an extended support payment is to be made"@en-AU ;
+    dct:isPartOf F2023L00457:66 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "453	When an extended support payment is to be made - Abrievated Graph Key: I69"@en-AU ;
+    skos:definition "453	When an extended support payment is to be made"@en-AU ;
+    skos:narrower F2023L00457:66 ;
+    skos:prefLabel "Item I69"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219290> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219290"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 115	Purpose"@en-AU ;
+    dct:isPartOf F2023L00457:1 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "115	Purpose - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "115	Purpose"@en-AU ;
+    skos:narrower F2023L00457:1 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219228> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219228"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:72 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I72 511	Overview"@en-AU ;
+    dct:isPartOf F2023L00457:71 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "511	Overview - Abrievated Graph Key: I72"@en-AU ;
+    skos:definition "511	Overview"@en-AU ;
+    skos:narrower F2023L00457:71 ;
+    skos:prefLabel "Item I72"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219293> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219293"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:74 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I74 521	How and when to apply"@en-AU ;
+    dct:isPartOf F2023L00457:73 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "521	How and when to apply - Abrievated Graph Key: I74"@en-AU ;
+    skos:definition "521	How and when to apply"@en-AU ;
+    skos:narrower F2023L00457:73 ;
+    skos:prefLabel "Item I74"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219295> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219295"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:76 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I76 531	Financial loss that can be recovered"@en-AU ;
+    dct:isPartOf F2023L00457:75 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "531	Financial loss that can be recovered - Abrievated Graph Key: I76"@en-AU ;
+    skos:definition "531	Financial loss that can be recovered"@en-AU ;
+    skos:narrower F2023L00457:75 ;
+    skos:prefLabel "Item I76"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219297> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219297"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:77 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I77 532	When can additional support payment be made"@en-AU ;
+    dct:isPartOf F2023L00457:75 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "532	When can additional support payment be made - Abrievated Graph Key: I77"@en-AU ;
+    skos:definition "532	When can additional support payment be made"@en-AU ;
+    skos:narrower F2023L00457:75 ;
+    skos:prefLabel "Item I77"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219298> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219298"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:78 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I78 533	Additional support payment not payable if legal officer sessional fee payable"@en-AU ;
+    dct:isPartOf F2023L00457:75 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "533	Additional support payment not payable if legal officer sessional fee payable - Abrievated Graph Key: I78"@en-AU ;
+    skos:definition "533	Additional support payment not payable if legal officer sessional fee payable"@en-AU ;
+    skos:narrower F2023L00457:75 ;
+    skos:prefLabel "Item I78"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219299> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219299"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 116	Persons this Determination applies to"@en-AU ;
+    dct:isPartOf F2023L00457:1 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "116	Persons this Determination applies to - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "116	Persons this Determination applies to"@en-AU ;
+    skos:narrower F2023L00457:1 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219229> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219229"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:80 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I80 541	Deciding on an application for an additional support payment"@en-AU ;
+    dct:isPartOf F2023L00457:79 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "541	Deciding on an application for an additional support payment - Abrievated Graph Key: I80"@en-AU ;
+    skos:definition "541	Deciding on an application for an additional support payment"@en-AU ;
+    skos:narrower F2023L00457:79 ;
+    skos:prefLabel "Item I80"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219301> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219301"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:81 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I81 542	When any additional support payments are to be made"@en-AU ;
+    dct:isPartOf F2023L00457:79 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "542	When any additional support payments are to be made - Abrievated Graph Key: I81"@en-AU ;
+    skos:definition "542	When any additional support payments are to be made"@en-AU ;
+    skos:narrower F2023L00457:79 ;
+    skos:prefLabel "Item I81"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219302> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219302"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:83 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I83 611	Purpose"@en-AU ;
+    dct:isPartOf F2023L00457:82 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "611	Purpose - Abrievated Graph Key: I83"@en-AU ;
+    skos:definition "611	Purpose"@en-AU ;
+    skos:narrower F2023L00457:82 ;
+    skos:prefLabel "Item I83"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219304> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219304"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:84 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I84 612	Applicants to whom this Part applies"@en-AU ;
+    dct:isPartOf F2023L00457:82 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "612	Applicants to whom this Part applies - Abrievated Graph Key: I84"@en-AU ;
+    skos:definition "612	Applicants to whom this Part applies"@en-AU ;
+    skos:narrower F2023L00457:82 ;
+    skos:prefLabel "Item I84"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219305> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219305"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:85 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I85 613	Applicant must notify certain changes"@en-AU ;
+    dct:isPartOf F2023L00457:82 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "613	Applicant must notify certain changes - Abrievated Graph Key: I85"@en-AU ;
+    skos:definition "613	Applicant must notify certain changes"@en-AU ;
+    skos:narrower F2023L00457:82 ;
+    skos:prefLabel "Item I85"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219306> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219306"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:86 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I86 614	Support payment may be increased because of change in circumstances"@en-AU ;
+    dct:isPartOf F2023L00457:82 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "614	Support payment may be increased because of change in circumstances - Abrievated Graph Key: I86"@en-AU ;
+    skos:definition "614	Support payment may be increased because of change in circumstances"@en-AU ;
+    skos:narrower F2023L00457:82 ;
+    skos:prefLabel "Item I86"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219307> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219307"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:87 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I87 615	Repayment if support payment is decreased because of change in circumstances"@en-AU ;
+    dct:isPartOf F2023L00457:82 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "615	Repayment if support payment is decreased because of change in circumstances - Abrievated Graph Key: I87"@en-AU ;
+    skos:definition "615	Repayment if support payment is decreased because of change in circumstances"@en-AU ;
+    skos:narrower F2023L00457:82 ;
+    skos:prefLabel "Item I87"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219308> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219308"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 117	Forms"@en-AU ;
+    dct:isPartOf F2023L00457:1 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "117	Forms - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "117	Forms"@en-AU ;
+    skos:narrower F2023L00457:1 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219230> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219230"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:90 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I90 711	Purpose"@en-AU ;
+    dct:isPartOf F2023L00457:89 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "711	Purpose - Abrievated Graph Key: I90"@en-AU ;
+    skos:definition "711	Purpose"@en-AU ;
+    skos:narrower F2023L00457:89 ;
+    skos:prefLabel "Item I90"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219311> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219311"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:91 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I91 712	Reviewable decisions"@en-AU ;
+    dct:isPartOf F2023L00457:89 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "712	Reviewable decisions - Abrievated Graph Key: I91"@en-AU ;
+    skos:definition "712	Reviewable decisions"@en-AU ;
+    skos:narrower F2023L00457:89 ;
+    skos:prefLabel "Item I91"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219312> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219312"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:93 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I93 721	Applicant may request a review"@en-AU ;
+    dct:isPartOf F2023L00457:92 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "721	Applicant may request a review - Abrievated Graph Key: I93"@en-AU ;
+    skos:definition "721	Applicant may request a review"@en-AU ;
+    skos:narrower F2023L00457:92 ;
+    skos:prefLabel "Item I93"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219314> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219314"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:94 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I94 722	How to request a review"@en-AU ;
+    dct:isPartOf F2023L00457:92 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "722	How to request a review - Abrievated Graph Key: I94"@en-AU ;
+    skos:definition "722	How to request a review"@en-AU ;
+    skos:narrower F2023L00457:92 ;
+    skos:prefLabel "Item I94"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219315> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219315"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:95 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I95 723	Decision made after review"@en-AU ;
+    dct:isPartOf F2023L00457:92 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "723	Decision made after review - Abrievated Graph Key: I95"@en-AU ;
+    skos:definition "723	Decision made after review"@en-AU ;
+    skos:narrower F2023L00457:92 ;
+    skos:prefLabel "Item I95"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219316> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219316"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:96 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I96 724	Notice of review outcome"@en-AU ;
+    dct:isPartOf F2023L00457:92 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "724	Notice of review outcome - Abrievated Graph Key: I96"@en-AU ;
+    skos:definition "724	Notice of review outcome"@en-AU ;
+    skos:narrower F2023L00457:92 ;
+    skos:prefLabel "Item I96"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219317> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219317"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:97 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I97 725	Operation of decisions subject to review"@en-AU ;
+    dct:isPartOf F2023L00457:92 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "725	Operation of decisions subject to review - Abrievated Graph Key: I97"@en-AU ;
+    skos:definition "725	Operation of decisions subject to review"@en-AU ;
+    skos:narrower F2023L00457:92 ;
+    skos:prefLabel "Item I97"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219318> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219318"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:99 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I99 731	CDFinitiated review"@en-AU ;
+    dct:isPartOf F2023L00457:98 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "731	CDFinitiated review - Abrievated Graph Key: I99"@en-AU ;
+    skos:definition "731	CDFinitiated review"@en-AU ;
+    skos:narrower F2023L00457:98 ;
+    skos:prefLabel "Item I99"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219320> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219320"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L00457:106 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D106 Division 4 Administrative Review Tribunal right to review"@en-AU ;
+    dct:hasPart F2023L00457:107 ;
+    dct:isPartOf F2023L00457:88 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 4 Administrative Review Tribunal right to review - Abrievated Graph Key: D106"@en-AU ;
+    skos:broader F2023L00457:107 ;
+    skos:definition "Division 4 Administrative Review Tribunal right to review"@en-AU ;
+    skos:narrower F2023L00457:88 ;
+    skos:prefLabel "Division D106"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219327> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219327"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:18 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D18 Division 1 General"@en-AU ;
+    dct:hasPart F2023L00457:19 ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 1 General - Abrievated Graph Key: D18"@en-AU ;
+    skos:broader F2023L00457:19 ;
+    skos:definition "Division 1 General"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Division D18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219239> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219239"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:55 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D55 Division 1 General"@en-AU ;
+    dct:hasPart F2023L00457:56 ;
+    dct:isPartOf F2023L00457:54 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 1 General - Abrievated Graph Key: D55"@en-AU ;
+    skos:broader F2023L00457:56 ;
+    skos:definition "Division 1 General"@en-AU ;
+    skos:narrower F2023L00457:54 ;
+    skos:prefLabel "Division D55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219276> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219276"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:57 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D57 Division 2 Applying for extended support payment"@en-AU ;
+    dct:hasPart F2023L00457:58 ;
+    dct:isPartOf F2023L00457:54 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 2 Applying for extended support payment - Abrievated Graph Key: D57"@en-AU ;
+    skos:broader F2023L00457:58 ;
+    skos:definition "Division 2 Applying for extended support payment"@en-AU ;
+    skos:narrower F2023L00457:54 ;
+    skos:prefLabel "Division D57"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219278> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219278"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:64 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D64 Division 4 Death of member"@en-AU ;
+    dct:hasPart F2023L00457:65 ;
+    dct:isPartOf F2023L00457:54 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 4 Death of member - Abrievated Graph Key: D64"@en-AU ;
+    skos:broader F2023L00457:65 ;
+    skos:definition "Division 4 Death of member"@en-AU ;
+    skos:narrower F2023L00457:54 ;
+    skos:prefLabel "Division D64"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219285> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219285"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:71 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D71 Division 1 General"@en-AU ;
+    dct:hasPart F2023L00457:72 ;
+    dct:isPartOf F2023L00457:70 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 1 General - Abrievated Graph Key: D71"@en-AU ;
+    skos:broader F2023L00457:72 ;
+    skos:definition "Division 1 General"@en-AU ;
+    skos:narrower F2023L00457:70 ;
+    skos:prefLabel "Division D71"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219292> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219292"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:73 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D73 Division 2 Applying for additional support payment"@en-AU ;
+    dct:hasPart F2023L00457:74 ;
+    dct:isPartOf F2023L00457:70 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 2 Applying for additional support payment - Abrievated Graph Key: D73"@en-AU ;
+    skos:broader F2023L00457:74 ;
+    skos:definition "Division 2 Applying for additional support payment"@en-AU ;
+    skos:narrower F2023L00457:70 ;
+    skos:prefLabel "Division D73"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219294> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219294"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:24 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D24 Division 3 When can a support payment be made to an employer applicant"@en-AU ;
+    dct:hasPart F2023L00457:25,
+        F2023L00457:26 ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 3 When can a support payment be made to an employer applicant - Abrievated Graph Key: D24"@en-AU ;
+    skos:broader F2023L00457:25,
+        F2023L00457:26 ;
+    skos:definition "Division 3 When can a support payment be made to an employer applicant"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Division D24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219245> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219245"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:79 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D79 Division 4 Finalising applications"@en-AU ;
+    dct:hasPart F2023L00457:80,
+        F2023L00457:81 ;
+    dct:isPartOf F2023L00457:70 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 4 Finalising applications - Abrievated Graph Key: D79"@en-AU ;
+    skos:broader F2023L00457:80,
+        F2023L00457:81 ;
+    skos:definition "Division 4 Finalising applications"@en-AU ;
+    skos:narrower F2023L00457:70 ;
+    skos:prefLabel "Division D79"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219300> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219300"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:89 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D89 Division 1 General"@en-AU ;
+    dct:hasPart F2023L00457:90,
+        F2023L00457:91 ;
+    dct:isPartOf F2023L00457:88 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 1 General - Abrievated Graph Key: D89"@en-AU ;
+    skos:broader F2023L00457:90,
+        F2023L00457:91 ;
+    skos:definition "Division 1 General"@en-AU ;
+    skos:narrower F2023L00457:88 ;
+    skos:prefLabel "Division D89"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219310> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219310"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:108 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P108 Part 8 Miscellaneous"@en-AU ;
+    dct:hasPart F2023L00457:109,
+        F2023L00457:110,
+        F2023L00457:111,
+        F2023L00457:112 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Part 8 Miscellaneous - Abrievated Graph Key: P108"@en-AU ;
+    skos:broader F2023L00457:109,
+        F2023L00457:110,
+        F2023L00457:111,
+        F2023L00457:112 ;
+    skos:definition "Part 8 Miscellaneous"@en-AU ;
+    skos:prefLabel "Part P108"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219329> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219329"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2023L00457:20 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D20 Division 2 Applying for support payments"@en-AU ;
+    dct:hasPart F2023L00457:21,
+        F2023L00457:22,
+        F2023L00457:23 ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 2 Applying for support payments - Abrievated Graph Key: D20"@en-AU ;
+    skos:broader F2023L00457:21,
+        F2023L00457:22,
+        F2023L00457:23 ;
+    skos:definition "Division 2 Applying for support payments"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Division D20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219241> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219241"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:66 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D66 Division 5 Finalising applications"@en-AU ;
+    dct:hasPart F2023L00457:67,
+        F2023L00457:68,
+        F2023L00457:69 ;
+    dct:isPartOf F2023L00457:54 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 5 Finalising applications - Abrievated Graph Key: D66"@en-AU ;
+    skos:broader F2023L00457:67,
+        F2023L00457:68,
+        F2023L00457:69 ;
+    skos:definition "Division 5 Finalising applications"@en-AU ;
+    skos:narrower F2023L00457:54 ;
+    skos:prefLabel "Division D66"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219287> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219287"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:70 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P70 Part 5 Additional support payments for financial loss"@en-AU ;
+    dct:hasPart F2023L00457:71,
+        F2023L00457:73,
+        F2023L00457:75,
+        F2023L00457:79 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Part 5 Additional support payments for financial loss - Abrievated Graph Key: P70"@en-AU ;
+    skos:broader F2023L00457:71,
+        F2023L00457:73,
+        F2023L00457:75,
+        F2023L00457:79 ;
+    skos:definition "Part 5 Additional support payments for financial loss"@en-AU ;
+    skos:prefLabel "Part P70"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219291> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219291"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2023L00457:75 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D75 Division 3 When can additional support payment be made"@en-AU ;
+    dct:hasPart F2023L00457:76,
+        F2023L00457:77,
+        F2023L00457:78 ;
+    dct:isPartOf F2023L00457:70 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 3 When can additional support payment be made - Abrievated Graph Key: D75"@en-AU ;
+    skos:broader F2023L00457:76,
+        F2023L00457:77,
+        F2023L00457:78 ;
+    skos:definition "Division 3 When can additional support payment be made"@en-AU ;
+    skos:narrower F2023L00457:70 ;
+    skos:prefLabel "Division D75"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219296> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219296"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:88 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P88 Part 7 Review of decisions"@en-AU ;
+    dct:hasPart F2023L00457:106,
+        F2023L00457:89,
+        F2023L00457:92,
+        F2023L00457:98 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Part 7 Review of decisions - Abrievated Graph Key: P88"@en-AU ;
+    skos:broader F2023L00457:106,
+        F2023L00457:89,
+        F2023L00457:92,
+        F2023L00457:98 ;
+    skos:definition "Part 7 Review of decisions"@en-AU ;
+    skos:prefLabel "Part P88"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219309> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219309"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2023L00457:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 2 Definitions"@en-AU ;
+    dct:hasPart F2023L00457:12,
+        F2023L00457:13,
+        F2023L00457:14,
+        F2023L00457:15,
+        F2023L00457:16 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Part 2 Definitions - Abrievated Graph Key: P11"@en-AU ;
+    skos:broader F2023L00457:12,
+        F2023L00457:13,
+        F2023L00457:14,
+        F2023L00457:15,
+        F2023L00457:16 ;
+    skos:definition "Part 2 Definitions"@en-AU ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219232> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219232"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2023L00457:27 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D27 Division 4 When can a support payment be made to a member applicant"@en-AU ;
+    dct:hasPart F2023L00457:28,
+        F2023L00457:33,
+        F2023L00457:34,
+        F2023L00457:35 ;
+    dct:isPartOf F2023L00457:17 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 4 When can a support payment be made to a member applicant - Abrievated Graph Key: D27"@en-AU ;
+    skos:broader F2023L00457:28,
+        F2023L00457:33,
+        F2023L00457:34,
+        F2023L00457:35 ;
+    skos:definition "Division 4 When can a support payment be made to a member applicant"@en-AU ;
+    skos:narrower F2023L00457:17 ;
+    skos:prefLabel "Division D27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219248> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219248"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:28 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S28 Subdivision 1 General"@en-AU ;
+    dct:hasPart F2023L00457:29,
+        F2023L00457:30,
+        F2023L00457:31,
+        F2023L00457:32 ;
+    dct:isPartOf F2023L00457:27 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Subdivision 1 General - Abrievated Graph Key: S28"@en-AU ;
+    skos:broader F2023L00457:29,
+        F2023L00457:30,
+        F2023L00457:31,
+        F2023L00457:32 ;
+    skos:definition "Subdivision 1 General"@en-AU ;
+    skos:narrower F2023L00457:27 ;
+    skos:prefLabel "Subdivision S28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219249> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219249"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F2023L00457:54 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P54 Part 4 Extended support payments"@en-AU ;
+    dct:hasPart F2023L00457:55,
+        F2023L00457:57,
+        F2023L00457:59,
+        F2023L00457:64,
+        F2023L00457:66 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Part 4 Extended support payments - Abrievated Graph Key: P54"@en-AU ;
+    skos:broader F2023L00457:55,
+        F2023L00457:57,
+        F2023L00457:59,
+        F2023L00457:64,
+        F2023L00457:66 ;
+    skos:definition "Part 4 Extended support payments"@en-AU ;
+    skos:prefLabel "Part P54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219275> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219275"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2023L00457:59 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D59 Division 3 Illness or injury of member"@en-AU ;
+    dct:hasPart F2023L00457:60,
+        F2023L00457:61,
+        F2023L00457:62,
+        F2023L00457:63 ;
+    dct:isPartOf F2023L00457:54 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 3 Illness or injury of member - Abrievated Graph Key: D59"@en-AU ;
+    skos:broader F2023L00457:60,
+        F2023L00457:61,
+        F2023L00457:62,
+        F2023L00457:63 ;
+    skos:definition "Division 3 Illness or injury of member"@en-AU ;
+    skos:narrower F2023L00457:54 ;
+    skos:prefLabel "Division D59"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219280> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219280"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:82 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P82 Part 6 Changes in circumstances"@en-AU ;
+    dct:hasPart F2023L00457:83,
+        F2023L00457:84,
+        F2023L00457:85,
+        F2023L00457:86,
+        F2023L00457:87 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Part 6 Changes in circumstances - Abrievated Graph Key: P82"@en-AU ;
+    skos:broader F2023L00457:83,
+        F2023L00457:84,
+        F2023L00457:85,
+        F2023L00457:86,
+        F2023L00457:87 ;
+    skos:definition "Part 6 Changes in circumstances"@en-AU ;
+    skos:prefLabel "Part P82"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219303> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219303"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2023L00457:92 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D92 Division 2 Applicant may request a review"@en-AU ;
+    dct:hasPart F2023L00457:93,
+        F2023L00457:94,
+        F2023L00457:95,
+        F2023L00457:96,
+        F2023L00457:97 ;
+    dct:isPartOf F2023L00457:88 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 2 Applicant may request a review - Abrievated Graph Key: D92"@en-AU ;
+    skos:broader F2023L00457:93,
+        F2023L00457:94,
+        F2023L00457:95,
+        F2023L00457:96,
+        F2023L00457:97 ;
+    skos:definition "Division 2 Applicant may request a review"@en-AU ;
+    skos:narrower F2023L00457:88 ;
+    skos:prefLabel "Division D92"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219313> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219313"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:113 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S113 Schedule 2  Savings and transitional provisions"@en-AU ;
+    dct:hasPart F2023L00457:114,
+        F2023L00457:115,
+        F2023L00457:116,
+        F2023L00457:117,
+        F2023L00457:118,
+        F2023L00457:119,
+        F2023L00457:120 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Schedule 2  Savings and transitional provisions - Abrievated Graph Key: S113"@en-AU ;
+    skos:broader F2023L00457:114,
+        F2023L00457:115,
+        F2023L00457:116,
+        F2023L00457:117,
+        F2023L00457:118,
+        F2023L00457:119,
+        F2023L00457:120 ;
+    skos:definition "Schedule 2  Savings and transitional provisions"@en-AU ;
+    skos:prefLabel "Schedule S113"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219334> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219334"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F2023L00457:98 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D98 Division 3 CDFinitiated review"@en-AU ;
+    dct:hasPart F2023L00457:100,
+        F2023L00457:101,
+        F2023L00457:102,
+        F2023L00457:103,
+        F2023L00457:104,
+        F2023L00457:105,
+        F2023L00457:99 ;
+    dct:isPartOf F2023L00457:88 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Division 3 CDFinitiated review - Abrievated Graph Key: D98"@en-AU ;
+    skos:broader F2023L00457:100,
+        F2023L00457:101,
+        F2023L00457:102,
+        F2023L00457:103,
+        F2023L00457:104,
+        F2023L00457:105,
+        F2023L00457:99 ;
+    skos:definition "Division 3 CDFinitiated review"@en-AU ;
+    skos:narrower F2023L00457:88 ;
+    skos:prefLabel "Division D98"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219319> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219319"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L00457:1 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P1 Part 1 Preliminary"@en-AU ;
+    dct:hasPart F2023L00457:10,
+        F2023L00457:2,
+        F2023L00457:3,
+        F2023L00457:4,
+        F2023L00457:5,
+        F2023L00457:6,
+        F2023L00457:7,
+        F2023L00457:8,
+        F2023L00457:9 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Part 1 Preliminary - Abrievated Graph Key: P1"@en-AU ;
+    skos:broader F2023L00457:10,
+        F2023L00457:2,
+        F2023L00457:3,
+        F2023L00457:4,
+        F2023L00457:5,
+        F2023L00457:6,
+        F2023L00457:7,
+        F2023L00457:8,
+        F2023L00457:9 ;
+    skos:definition "Part 1 Preliminary"@en-AU ;
+    skos:prefLabel "Part P1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219222> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219222"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2023L00457:17 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P17 Part 3 Support payments"@en-AU ;
+    dct:hasPart F2023L00457:18,
+        F2023L00457:20,
+        F2023L00457:24,
+        F2023L00457:27,
+        F2023L00457:36,
+        F2023L00457:37,
+        F2023L00457:38,
+        F2023L00457:39,
+        F2023L00457:40,
+        F2023L00457:41,
+        F2023L00457:42,
+        F2023L00457:43,
+        F2023L00457:44,
+        F2023L00457:45,
+        F2023L00457:46,
+        F2023L00457:47,
+        F2023L00457:48,
+        F2023L00457:49,
+        F2023L00457:50,
+        F2023L00457:51,
+        F2023L00457:52,
+        F2023L00457:53 ;
+    dct:isReferencedBy F2023L00457: ;
+    rdfs:comment "Part 3 Support payments - Abrievated Graph Key: P17"@en-AU ;
+    skos:broader F2023L00457:18,
+        F2023L00457:20,
+        F2023L00457:24,
+        F2023L00457:27,
+        F2023L00457:36,
+        F2023L00457:37,
+        F2023L00457:38,
+        F2023L00457:39,
+        F2023L00457:40,
+        F2023L00457:41,
+        F2023L00457:42,
+        F2023L00457:43,
+        F2023L00457:44,
+        F2023L00457:45,
+        F2023L00457:46,
+        F2023L00457:47,
+        F2023L00457:48,
+        F2023L00457:49,
+        F2023L00457:50,
+        F2023L00457:51,
+        F2023L00457:52,
+        F2023L00457:53 ;
+    skos:definition "Part 3 Support payments"@en-AU ;
+    skos:prefLabel "Part P17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219238> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L00457/2024-10-24/2024-10-24/text/1/epub/OEBPS/document_1/document_1.html#_Toc182219238"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2023L00457: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Defence (Employer Support Payment Scheme) Determination 2023" ;
+    dct:Jurisdiction " Department of Defence "@en-AU ;
+    dct:created "2026-05-27T19:49:44.314960"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2024-10-24T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Defence (Employer Support Payment Scheme) Determination 2023"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2023L00457/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Defence (Employer Support Payment Scheme) Determination 2023"@en-AU ;
+    dct:title "Defence (Employer Support Payment Scheme) Determination 2023"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Endnotes,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule,
+        legcons:Subdivision ;
+    schema:status "In force" ;
+    schema:version "F2024C01079 C01" .
+

@@ -1,0 +1,239 @@
+@prefix C2012A00068: <http://example.org/au/leg/dataset/C2012A00068/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2012A00068:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2012A00068: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104765> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104765"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00068:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2012A00068: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104766> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104766"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00068:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Endnote 4 Amendment history"@en-AU ;
+    dct:isPartOf C2012A00068:6 ;
+    dct:isReferencedBy C2012A00068: ;
+    rdfs:comment "Endnote 4 Amendment history - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Endnote 4 Amendment history"@en-AU ;
+    skos:narrower C2012A00068:6 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104834> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104834"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00068:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Endnote 5 Uncommenced amendments none"@en-AU ;
+    dct:isPartOf C2012A00068:6 ;
+    dct:isReferencedBy C2012A00068: ;
+    rdfs:comment "Endnote 5 Uncommenced amendments none - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Endnote 5 Uncommenced amendments none"@en-AU ;
+    skos:narrower C2012A00068:6 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104835> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104835"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00068:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Endnote 6 Modifications none"@en-AU ;
+    dct:isPartOf C2012A00068:6 ;
+    dct:isReferencedBy C2012A00068: ;
+    rdfs:comment "Endnote 6 Modifications none - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Endnote 6 Modifications none"@en-AU ;
+    skos:narrower C2012A00068:6 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104836> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104836"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00068:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Endnote 7 Misdescribed amendments none"@en-AU ;
+    dct:isPartOf C2012A00068:6 ;
+    dct:isReferencedBy C2012A00068: ;
+    rdfs:comment "Endnote 7 Misdescribed amendments none - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Endnote 7 Misdescribed amendments none"@en-AU ;
+    skos:narrower C2012A00068:6 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104837> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104837"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00068:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Endnote 8 Miscellaneous none"@en-AU ;
+    dct:isPartOf C2012A00068:6 ;
+    dct:isReferencedBy C2012A00068: ;
+    rdfs:comment "Endnote 8 Miscellaneous none - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Endnote 8 Miscellaneous none"@en-AU ;
+    skos:narrower C2012A00068:6 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104838> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104838"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00068:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2012A00068:4 ;
+    dct:isReferencedBy C2012A00068: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2012A00068:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104767> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104767"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00068:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2012A00068:4 ;
+    dct:isReferencedBy C2012A00068: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2012A00068:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104769> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104769"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00068:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Endnote 1 About the endnotes"@en-AU ;
+    dct:isPartOf C2012A00068:6 ;
+    dct:isReferencedBy C2012A00068: ;
+    rdfs:comment "Endnote 1 About the endnotes - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Endnote 1 About the endnotes"@en-AU ;
+    skos:narrower C2012A00068:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104831> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104831"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00068:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Endnote 2 Abbreviation key"@en-AU ;
+    dct:isPartOf C2012A00068:6 ;
+    dct:isReferencedBy C2012A00068: ;
+    rdfs:comment "Endnote 2 Abbreviation key - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Endnote 2 Abbreviation key"@en-AU ;
+    skos:narrower C2012A00068:6 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104832> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104832"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00068:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Endnote 3 Legislation history"@en-AU ;
+    dct:isPartOf C2012A00068:6 ;
+    dct:isReferencedBy C2012A00068: ;
+    rdfs:comment "Endnote 3 Legislation history - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Endnote 3 Legislation history"@en-AU ;
+    skos:narrower C2012A00068:6 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104833> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104833"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00068:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments"@en-AU ;
+    dct:hasPart C2012A00068:5 ;
+    dct:isPartOf C2012A00068:3 ;
+    dct:isReferencedBy C2012A00068: ;
+    rdfs:comment "Schedule 1 Amendments - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2012A00068:5 ;
+    skos:definition "Schedule 1 Amendments"@en-AU ;
+    skos:narrower C2012A00068:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104768> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104768"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00068: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Corporations Amendment (Further Future of Financial Advice Measures) Act 2012" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-26T20:53:40.691461"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2012-07-01T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Corporations Amendment (Further Future of Financial Advice Measures) Act 2012"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2012A00068/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Corporations Amendment (Further Future of Financial Advice Measures) Act 2012"@en-AU ;
+    dct:title "Corporations Amendment (Further Future of Financial Advice Measures) Act 2012"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Endnotes,
+        legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2013C00529 C01" .
+
+C2012A00068:6 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E6 Endnotes"@en-AU ;
+    dct:hasPart C2012A00068:10,
+        C2012A00068:11,
+        C2012A00068:12,
+        C2012A00068:13,
+        C2012A00068:14,
+        C2012A00068:7,
+        C2012A00068:8,
+        C2012A00068:9 ;
+    dct:isReferencedBy C2012A00068: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E6"@en-AU ;
+    skos:broader C2012A00068:10,
+        C2012A00068:11,
+        C2012A00068:12,
+        C2012A00068:13,
+        C2012A00068:14,
+        C2012A00068:7,
+        C2012A00068:8,
+        C2012A00068:9 ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:prefLabel "Endnotes E6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104830> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00068/2012-07-01/2012-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc367104830"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+

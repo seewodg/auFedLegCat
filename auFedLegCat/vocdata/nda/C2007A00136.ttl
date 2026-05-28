@@ -1,0 +1,130 @@
+@prefix C2007A00136: <http://example.org/au/leg/dataset/C2007A00136/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2007A00136:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2007A00136: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00136/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc176676368> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00136/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc176676368"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00136:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2007A00136: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00136/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc176676369> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00136/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc176676369"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00136:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 International Tax Agreements Act 1953"@en-AU ;
+    dct:isPartOf C2007A00136:4 ;
+    dct:isReferencedBy C2007A00136: ;
+    rdfs:comment "International Tax Agreements Act 1953 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "International Tax Agreements Act 1953"@en-AU ;
+    skos:narrower C2007A00136:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00136/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc176676372> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00136/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc176676372"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00136:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 International Tax Agreements Act 1953"@en-AU ;
+    dct:isPartOf C2007A00136:6 ;
+    dct:isReferencedBy C2007A00136: ;
+    rdfs:comment "International Tax Agreements Act 1953 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "International Tax Agreements Act 1953"@en-AU ;
+    skos:narrower C2007A00136:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00136/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc176676377> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00136/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc176676377"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00136:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2007A00136:4,
+        C2007A00136:6 ;
+    dct:isReferencedBy C2007A00136: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2007A00136:4,
+        C2007A00136:6 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00136/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc176676370> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00136/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc176676370"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00136:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 The 2006 French convention"@en-AU ;
+    dct:hasPart C2007A00136:5 ;
+    dct:isPartOf C2007A00136:3 ;
+    dct:isReferencedBy C2007A00136: ;
+    rdfs:comment "Schedule 1 The 2006 French convention - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2007A00136:5 ;
+    skos:definition "Schedule 1 The 2006 French convention"@en-AU ;
+    skos:narrower C2007A00136:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00136/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc176676371> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00136/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc176676371"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00136:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 The 2006 Norwegian convention"@en-AU ;
+    dct:hasPart C2007A00136:7 ;
+    dct:isPartOf C2007A00136:3 ;
+    dct:isReferencedBy C2007A00136: ;
+    rdfs:comment "Schedule 2 The 2006 Norwegian convention - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2007A00136:7 ;
+    skos:definition "Schedule 2 The 2006 Norwegian convention"@en-AU ;
+    skos:narrower C2007A00136:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00136/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc176676376> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00136/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc176676376"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00136: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "International Tax Agreements Amendment Act (No. 1) 2007" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-27T17:20:01.577262"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2007-08-20T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "International Tax Agreements Amendment Act (No. 1) 2007"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2007A00136/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "International Tax Agreements Amendment Act (No. 1) 2007"@en-AU ;
+    dct:title "International Tax Agreements Amendment Act (No. 1) 2007"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2007A00136" .
+

@@ -1,0 +1,151 @@
+@prefix F2005B01198: <http://example.org/au/leg/dataset/F2005B01198/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2005B01198:1 a legcons:Volume,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Volume - V1 Volume 1"@en-AU ;
+    dct:isReferencedBy F2005B01198: ;
+    rdfs:comment "Volume 1 - Abrievated Graph Key: V1"@en-AU ;
+    skos:definition "Volume 1"@en-AU ;
+    skos:prefLabel "Volume V1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2005B01198/2024-03-13/2024-03-13/text/original/epub/OEBPS/document_1/document_1.html> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2005B01198/2024-03-13/2024-03-13/text/original/epub/OEBPS/document_1/document_1.html"^^xsd:anyURI ;
+    dcat:theme legcons:Volume .
+
+F2005B01198:2 a legcons:Volume,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Volume - V2 Volume 2"@en-AU ;
+    dct:hasPart F2005B01198:3 ;
+    dct:isReferencedBy F2005B01198: ;
+    rdfs:comment "Volume 2 - Abrievated Graph Key: V2"@en-AU ;
+    skos:broader F2005B01198:3 ;
+    skos:definition "Volume 2"@en-AU ;
+    skos:prefLabel "Volume V2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2005B01198/2024-03-13/2024-03-13/text/original/epub/OEBPS/document_2/document_2.html> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2005B01198/2024-03-13/2024-03-13/text/original/epub/OEBPS/document_2/document_2.html"^^xsd:anyURI ;
+    dcat:theme legcons:Volume .
+
+F2005B01198:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 Endnote 1 About the endnotes"@en-AU ;
+    dct:isPartOf F2005B01198:3 ;
+    dct:isReferencedBy F2005B01198: ;
+    rdfs:comment "Endnote 1 About the endnotes - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "Endnote 1 About the endnotes"@en-AU ;
+    skos:narrower F2005B01198:3 ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2005B01198/2024-03-13/2024-03-13/text/original/epub/OEBPS/document_2/document_2.html#_Toc163541642> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2005B01198/2024-03-13/2024-03-13/text/original/epub/OEBPS/document_2/document_2.html#_Toc163541642"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2005B01198:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Endnote 2 Abbreviation key"@en-AU ;
+    dct:isPartOf F2005B01198:3 ;
+    dct:isReferencedBy F2005B01198: ;
+    rdfs:comment "Endnote 2 Abbreviation key - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Endnote 2 Abbreviation key"@en-AU ;
+    skos:narrower F2005B01198:3 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2005B01198/2024-03-13/2024-03-13/text/original/epub/OEBPS/document_2/document_2.html#_Toc163541643> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2005B01198/2024-03-13/2024-03-13/text/original/epub/OEBPS/document_2/document_2.html#_Toc163541643"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2005B01198:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Endnote 3 Legislation history"@en-AU ;
+    dct:isPartOf F2005B01198:3 ;
+    dct:isReferencedBy F2005B01198: ;
+    rdfs:comment "Endnote 3 Legislation history - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Endnote 3 Legislation history"@en-AU ;
+    skos:narrower F2005B01198:3 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2005B01198/2024-03-13/2024-03-13/text/original/epub/OEBPS/document_2/document_2.html#_Toc163541644> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2005B01198/2024-03-13/2024-03-13/text/original/epub/OEBPS/document_2/document_2.html#_Toc163541644"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2005B01198:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Endnote 4 Amendment history"@en-AU ;
+    dct:isPartOf F2005B01198:3 ;
+    dct:isReferencedBy F2005B01198: ;
+    rdfs:comment "Endnote 4 Amendment history - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Endnote 4 Amendment history"@en-AU ;
+    skos:narrower F2005B01198:3 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2005B01198/2024-03-13/2024-03-13/text/original/epub/OEBPS/document_2/document_2.html#_Toc163541645> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2005B01198/2024-03-13/2024-03-13/text/original/epub/OEBPS/document_2/document_2.html#_Toc163541645"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2005B01198:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Endnote 5 Renumbering Table"@en-AU ;
+    dct:isPartOf F2005B01198:3 ;
+    dct:isReferencedBy F2005B01198: ;
+    rdfs:comment "Endnote 5 Renumbering Table - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Endnote 5 Renumbering Table"@en-AU ;
+    skos:narrower F2005B01198:3 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2005B01198/2024-03-13/2024-03-13/text/original/epub/OEBPS/document_2/document_2.html#_Toc163541646> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2005B01198/2024-03-13/2024-03-13/text/original/epub/OEBPS/document_2/document_2.html#_Toc163541646"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2005B01198: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Public Sector Superannuation Scheme Trust Deed" ;
+    dct:Jurisdiction " Department of Finance "@en-AU ;
+    dct:created "2026-05-27T18:15:54.965116"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2024-03-13T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Public Sector Superannuation Scheme Trust Deed"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2005B01198/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Public Sector Superannuation Scheme Trust Deed"@en-AU ;
+    dct:title "Public Sector Superannuation Scheme Trust Deed"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Endnotes,
+        legcons:Item,
+        legcons:Volume ;
+    schema:status "In force" ;
+    schema:version "F2024C00321 C29" .
+
+F2005B01198:3 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E3 Endnotes"@en-AU ;
+    dct:hasPart F2005B01198:4,
+        F2005B01198:5,
+        F2005B01198:6,
+        F2005B01198:7,
+        F2005B01198:8 ;
+    dct:isPartOf F2005B01198:2 ;
+    dct:isReferencedBy F2005B01198: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E3"@en-AU ;
+    skos:broader F2005B01198:4,
+        F2005B01198:5,
+        F2005B01198:6,
+        F2005B01198:7,
+        F2005B01198:8 ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:narrower F2005B01198:2 ;
+    skos:prefLabel "Endnotes E3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2005B01198/2024-03-13/2024-03-13/text/original/epub/OEBPS/document_2/document_2.html#_Toc163541641> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2005B01198/2024-03-13/2024-03-13/text/original/epub/OEBPS/document_2/document_2.html#_Toc163541641"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+

@@ -1,0 +1,420 @@
+@prefix C2006A00165: <http://example.org/au/leg/dataset/C2006A00165/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2006A00165:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205345931> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205345931"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00165:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205345932> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205345932"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00165:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Environment Protection Northern Territory Supreme Court Act 1978"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Environment Protection Northern Territory Supreme Court Act 1978 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Environment Protection Northern Territory Supreme Court Act 1978"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346317> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346317"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00165:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Environment Protection Sea Dumping Act 1981"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Environment Protection Sea Dumping Act 1981 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Environment Protection Sea Dumping Act 1981"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346318> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346318"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00165:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346319> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346319"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00165:13 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S13 Schedule 2 Application saving and transitional provisions"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Schedule 2 Application saving and transitional provisions - Abrievated Graph Key: S13"@en-AU ;
+    skos:definition "Schedule 2 Application saving and transitional provisions"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Schedule S13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346321> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346321"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00165:14 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P14 Part 1 Preliminary"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Part 1 Preliminary - Abrievated Graph Key: P14"@en-AU ;
+    skos:definition "Part 1 Preliminary"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Part P14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346322> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346322"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00165:15 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P15 Part 2 Provisions relating to assessments and approvals"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Part 2 Provisions relating to assessments and approvals - Abrievated Graph Key: P15"@en-AU ;
+    skos:definition "Part 2 Provisions relating to assessments and approvals"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Part P15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346323> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346323"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00165:16 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D16 Division 1 Main provisions"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Division 1 Main provisions - Abrievated Graph Key: D16"@en-AU ;
+    skos:definition "Division 1 Main provisions"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Division D16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346324> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346324"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00165:17 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D17 Division 2 Other provisions"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Division 2 Other provisions - Abrievated Graph Key: D17"@en-AU ;
+    skos:definition "Division 2 Other provisions"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Division D17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346325> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346325"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00165:18 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P18 Part 3 Provisions relating to recovery plans and conservation advice"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Part 3 Provisions relating to recovery plans and conservation advice - Abrievated Graph Key: P18"@en-AU ;
+    skos:definition "Part 3 Provisions relating to recovery plans and conservation advice"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Part P18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346326> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346326"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00165:19 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P19 Part 4 Provisions relating to fisheries"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Part 4 Provisions relating to fisheries - Abrievated Graph Key: P19"@en-AU ;
+    skos:definition "Part 4 Provisions relating to fisheries"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Part P19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346327> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346327"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00165:20 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P20 Part 5 Other provisions relating to protected species"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Part 5 Other provisions relating to protected species - Abrievated Graph Key: P20"@en-AU ;
+    skos:definition "Part 5 Other provisions relating to protected species"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Part P20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346328> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346328"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00165:21 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P21 Part 6 Provisions related to wildlife trade"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Part 6 Provisions related to wildlife trade - Abrievated Graph Key: P21"@en-AU ;
+    skos:definition "Part 6 Provisions related to wildlife trade"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Part P21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346329> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346329"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00165:22 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P22 Part 7 Provisions related to listing processes"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Part 7 Provisions related to listing processes - Abrievated Graph Key: P22"@en-AU ;
+    skos:definition "Part 7 Provisions related to listing processes"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Part P22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346330> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346330"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00165:23 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P23 Part 8 Provisions relating to Commonwealth reserves"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Part 8 Provisions relating to Commonwealth reserves - Abrievated Graph Key: P23"@en-AU ;
+    skos:definition "Part 8 Provisions relating to Commonwealth reserves"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Part P23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346331> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346331"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00165:24 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P24 Part 9 Provisions relating to compliance and enforcement"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Part 9 Provisions relating to compliance and enforcement - Abrievated Graph Key: P24"@en-AU ;
+    skos:definition "Part 9 Provisions relating to compliance and enforcement"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Part P24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346332> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346332"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00165:25 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P25 Part 10 Other provisions"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Part 10 Other provisions - Abrievated Graph Key: P25"@en-AU ;
+    skos:definition "Part 10 Other provisions"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Part P25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346333> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346333"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00165:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendment of Acts"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Schedule 1 Amendment of Acts - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Amendment of Acts"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205345934> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205345934"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00165:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Amendment of the Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Part 1 Amendment of the Environment Protection and Biodiversity Conservation Act 1999 - Abrievated Graph Key: P5"@en-AU ;
+    skos:definition "Part 1 Amendment of the Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205345935> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205345935"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00165:6 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P6 Part 2 Amendment of other Acts"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Part 2 Amendment of other Acts - Abrievated Graph Key: P6"@en-AU ;
+    skos:definition "Part 2 Amendment of other Acts"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Part P6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346311> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346311"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00165:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Australian Heritage Council Act 2003"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Australian Heritage Council Act 2003 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Australian Heritage Council Act 2003"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346312> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346312"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00165:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Environment and Heritage Legislation Amendment Act No 1 2003"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Environment and Heritage Legislation Amendment Act No 1 2003 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Environment and Heritage Legislation Amendment Act No 1 2003"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346315> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346315"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00165:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Environment Protection Alligator Rivers Region Act 1978"@en-AU ;
+    dct:isPartOf C2006A00165:3 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "Environment Protection Alligator Rivers Region Act 1978 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Environment Protection Alligator Rivers Region Act 1978"@en-AU ;
+    skos:narrower C2006A00165:3 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346316> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205346316"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00165: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Environment and Heritage Legislation Amendment Act (No. 1) 2006" ;
+    dct:Jurisdiction " Department of Climate Change, Energy, the Environment and Water "@en-AU ;
+    dct:created "2026-05-27T17:01:57.476699"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2007-02-19T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Environment and Heritage Legislation Amendment Act (No. 1) 2006"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2006A00165/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Environment and Heritage Legislation Amendment Act (No. 1) 2006"@en-AU ;
+    dct:title "Environment and Heritage Legislation Amendment Act (No. 1) 2006"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2008C00459" .
+
+C2006A00165:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2006A00165:10,
+        C2006A00165:11,
+        C2006A00165:12,
+        C2006A00165:13,
+        C2006A00165:14,
+        C2006A00165:15,
+        C2006A00165:16,
+        C2006A00165:17,
+        C2006A00165:18,
+        C2006A00165:19,
+        C2006A00165:20,
+        C2006A00165:21,
+        C2006A00165:22,
+        C2006A00165:23,
+        C2006A00165:24,
+        C2006A00165:25,
+        C2006A00165:4,
+        C2006A00165:5,
+        C2006A00165:6,
+        C2006A00165:7,
+        C2006A00165:8,
+        C2006A00165:9 ;
+    dct:isReferencedBy C2006A00165: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2006A00165:10,
+        C2006A00165:11,
+        C2006A00165:12,
+        C2006A00165:13,
+        C2006A00165:14,
+        C2006A00165:15,
+        C2006A00165:16,
+        C2006A00165:17,
+        C2006A00165:18,
+        C2006A00165:19,
+        C2006A00165:20,
+        C2006A00165:21,
+        C2006A00165:22,
+        C2006A00165:23,
+        C2006A00165:24,
+        C2006A00165:25,
+        C2006A00165:4,
+        C2006A00165:5,
+        C2006A00165:6,
+        C2006A00165:7,
+        C2006A00165:8,
+        C2006A00165:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205345933> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00165/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc205345933"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+

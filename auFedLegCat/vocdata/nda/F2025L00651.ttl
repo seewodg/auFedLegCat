@@ -1,0 +1,41 @@
+@prefix F2025L00651: <http://example.org/au/leg/dataset/F2025L00651/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2025L00651:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 Text"@en-AU ;
+    dct:isReferencedBy F2025L00651: ;
+    rdfs:comment "Text - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "Text"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00651/asmade/2025-06-06/text/original/epub/OEBPS/document_1/document_1.html> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00651/asmade/2025-06-06/text/original/epub/OEBPS/document_1/document_1.html"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00651: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Banking (prudential standard) determination No. 1 of 2025" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-27T18:11:18.979282"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2025-06-06T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Banking (prudential standard) determination No. 1 of 2025"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2025L00651/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Banking (prudential standard) determination No. 1 of 2025"@en-AU ;
+    dct:title "Banking (prudential standard) determination No. 1 of 2025"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item ;
+    schema:status "In force" ;
+    schema:version "F2025L00651" .
+

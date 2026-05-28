@@ -1,0 +1,307 @@
+@prefix C2007A00177: <http://example.org/au/leg/dataset/C2007A00177/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2007A00177:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2007A00177: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257828> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257828"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00177:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2007A00177: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257829> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257829"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00177:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Intelligence Services Act 2001"@en-AU ;
+    dct:isPartOf C2007A00177:7 ;
+    dct:isReferencedBy C2007A00177: ;
+    rdfs:comment "Intelligence Services Act 2001 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Intelligence Services Act 2001"@en-AU ;
+    skos:narrower C2007A00177:7 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257901> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257901"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00177:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Telecommunications Act 1997"@en-AU ;
+    dct:isPartOf C2007A00177:7 ;
+    dct:isReferencedBy C2007A00177: ;
+    rdfs:comment "Telecommunications Act 1997 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Telecommunications Act 1997"@en-AU ;
+    skos:narrower C2007A00177:7 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257902> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257902"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00177:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Telecommunications Interception and Access Act 1979"@en-AU ;
+    dct:isPartOf C2007A00177:7 ;
+    dct:isReferencedBy C2007A00177: ;
+    rdfs:comment "Telecommunications Interception and Access Act 1979 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Telecommunications Interception and Access Act 1979"@en-AU ;
+    skos:narrower C2007A00177:7 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257905> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257905"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00177:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 3 Application saving and transitional provisions"@en-AU ;
+    dct:isPartOf C2007A00177:4 ;
+    dct:isReferencedBy C2007A00177: ;
+    rdfs:comment "Part 3 Application saving and transitional provisions - Abrievated Graph Key: P13"@en-AU ;
+    skos:definition "Part 3 Application saving and transitional provisions"@en-AU ;
+    skos:narrower C2007A00177:4 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257908> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257908"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00177:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Telecommunications Interception Amendment Act 2006"@en-AU ;
+    dct:isPartOf C2007A00177:15 ;
+    dct:isReferencedBy C2007A00177: ;
+    rdfs:comment "Telecommunications Interception Amendment Act 2006 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Telecommunications Interception Amendment Act 2006"@en-AU ;
+    skos:narrower C2007A00177:15 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257911> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257911"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00177:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Telecommunications Interception and Access Act 1979"@en-AU ;
+    dct:isPartOf C2007A00177:15 ;
+    dct:isReferencedBy C2007A00177: ;
+    rdfs:comment "Telecommunications Interception and Access Act 1979 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Telecommunications Interception and Access Act 1979"@en-AU ;
+    skos:narrower C2007A00177:15 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257912> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257912"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00177:18 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P18 Part 2 Application and transitional provisions"@en-AU ;
+    dct:isPartOf C2007A00177:14 ;
+    dct:isReferencedBy C2007A00177: ;
+    rdfs:comment "Part 2 Application and transitional provisions - Abrievated Graph Key: P18"@en-AU ;
+    skos:definition "Part 2 Application and transitional provisions"@en-AU ;
+    skos:narrower C2007A00177:14 ;
+    skos:prefLabel "Part P18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257919> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257919"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00177:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Telecommunications Interception and Access Act 1979"@en-AU ;
+    dct:isPartOf C2007A00177:5 ;
+    dct:isReferencedBy C2007A00177: ;
+    rdfs:comment "Telecommunications Interception and Access Act 1979 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Telecommunications Interception and Access Act 1979"@en-AU ;
+    skos:narrower C2007A00177:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257833> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257833"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00177:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Australian Communications and Media Authority Act 2005"@en-AU ;
+    dct:isPartOf C2007A00177:7 ;
+    dct:isReferencedBy C2007A00177: ;
+    rdfs:comment "Australian Communications and Media Authority Act 2005 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Australian Communications and Media Authority Act 2005"@en-AU ;
+    skos:narrower C2007A00177:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257899> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257899"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00177:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Criminal Code Act 1995"@en-AU ;
+    dct:isPartOf C2007A00177:7 ;
+    dct:isReferencedBy C2007A00177: ;
+    rdfs:comment "Criminal Code Act 1995 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Criminal Code Act 1995"@en-AU ;
+    skos:narrower C2007A00177:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257900> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257900"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00177:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2007A00177:14,
+        C2007A00177:4 ;
+    dct:isReferencedBy C2007A00177: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2007A00177:14,
+        C2007A00177:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257830> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257830"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00177:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Main amendments"@en-AU ;
+    dct:hasPart C2007A00177:6 ;
+    dct:isPartOf C2007A00177:4 ;
+    dct:isReferencedBy C2007A00177: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2007A00177:6 ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2007A00177:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257832> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257832"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00177:14 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S14 Schedule 2 Other amendments"@en-AU ;
+    dct:hasPart C2007A00177:15,
+        C2007A00177:18 ;
+    dct:isPartOf C2007A00177:3 ;
+    dct:isReferencedBy C2007A00177: ;
+    rdfs:comment "Schedule 2 Other amendments - Abrievated Graph Key: S14"@en-AU ;
+    skos:broader C2007A00177:15,
+        C2007A00177:18 ;
+    skos:definition "Schedule 2 Other amendments"@en-AU ;
+    skos:narrower C2007A00177:3 ;
+    skos:prefLabel "Schedule S14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257909> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257909"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00177:15 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P15 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2007A00177:16,
+        C2007A00177:17 ;
+    dct:isPartOf C2007A00177:14 ;
+    dct:isReferencedBy C2007A00177: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P15"@en-AU ;
+    skos:broader C2007A00177:16,
+        C2007A00177:17 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2007A00177:14 ;
+    skos:prefLabel "Part P15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257910> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257910"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00177:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Access to telecommunications data and cooperation with interception agencies"@en-AU ;
+    dct:hasPart C2007A00177:13,
+        C2007A00177:5,
+        C2007A00177:7 ;
+    dct:isPartOf C2007A00177:3 ;
+    dct:isReferencedBy C2007A00177: ;
+    rdfs:comment "Schedule 1 Access to telecommunications data and cooperation with interception agencies - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2007A00177:13,
+        C2007A00177:5,
+        C2007A00177:7 ;
+    skos:definition "Schedule 1 Access to telecommunications data and cooperation with interception agencies"@en-AU ;
+    skos:narrower C2007A00177:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257831> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257831"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00177:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Consequential amendments"@en-AU ;
+    dct:hasPart C2007A00177:10,
+        C2007A00177:11,
+        C2007A00177:12,
+        C2007A00177:8,
+        C2007A00177:9 ;
+    dct:isPartOf C2007A00177:4 ;
+    dct:isReferencedBy C2007A00177: ;
+    rdfs:comment "Part 2 Consequential amendments - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader C2007A00177:10,
+        C2007A00177:11,
+        C2007A00177:12,
+        C2007A00177:8,
+        C2007A00177:9 ;
+    skos:definition "Part 2 Consequential amendments"@en-AU ;
+    skos:narrower C2007A00177:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257898> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00177/asmade/2006-11-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc179257898"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00177: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Telecommunications (Interception and Access) Amendment Act 2007" ;
+    dct:Jurisdiction " Department of Home Affairs "@en-AU ;
+    dct:created "2026-05-27T17:10:24.665353"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2006-11-03T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Telecommunications (Interception and Access) Amendment Act 2007"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2007A00177/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Telecommunications (Interception and Access) Amendment Act 2007"@en-AU ;
+    dct:title "Telecommunications (Interception and Access) Amendment Act 2007"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2007A00177" .
+

@@ -1,0 +1,2102 @@
+@prefix F2020L01031: <http://example.org/au/leg/dataset/F2020L01031/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2020L01031:130 a legcons:Volume,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Volume - V130 Volume 2"@en-AU ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Volume 2 - Abrievated Graph Key: V130"@en-AU ;
+    skos:definition "Volume 2"@en-AU ;
+    skos:prefLabel "Volume V130"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_2/document_2.html> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_2/document_2.html"^^xsd:anyURI ;
+    dcat:theme legcons:Volume .
+
+F2020L01031:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Terminology"@en-AU ;
+    dct:isPartOf F2020L01031:5 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Terminology - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Terminology"@en-AU ;
+    skos:narrower F2020L01031:5 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375877> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375877"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:100 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I100 Figure   SEQ Figure  ARABIC  28   View of the ground floor vestibule and museum entrance area c 2002 showing the surviving original finishes and the wall mural by Mr Bim Hilder"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  28   View of the ground floor vestibule and museum entrance area c 2002 showing the surviving original finishes and the wall mural by Mr Bim Hilder - Abrievated Graph Key: I100"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  28   View of the ground floor vestibule and museum entrance area c 2002 showing the surviving original finishes and the wall mural by Mr Bim Hilder"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I100"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323773> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323773"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:101 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I101 Figure   SEQ Figure  ARABIC  29   Typical finishes installed in 2014 in the corridor and reception area located at the Mezzanine Level"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  29   Typical finishes installed in 2014 in the corridor and reception area located at the Mezzanine Level - Abrievated Graph Key: I101"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  29   Typical finishes installed in 2014 in the corridor and reception area located at the Mezzanine Level"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I101"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323774> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323774"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:102 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I102 Figure   SEQ Figure  ARABIC  30    Typical Mezzanine office fit out Note the fullheight textured glass forming the north wall of the mezzanine level is visible from within the ground floor vestibule"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  30    Typical Mezzanine office fit out Note the fullheight textured glass forming the north wall of the mezzanine level is visible from within the ground floor vestibule - Abrievated Graph Key: I102"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  30    Typical Mezzanine office fit out Note the fullheight textured glass forming the north wall of the mezzanine level is visible from within the ground floor vestibule"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I102"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323775> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323775"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:103 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I103 Figure   SEQ Figure  ARABIC  31   Example of ceiling wall and floor finishes at Level 6 installed in 2016"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  31   Example of ceiling wall and floor finishes at Level 6 installed in 2016 - Abrievated Graph Key: I103"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  31   Example of ceiling wall and floor finishes at Level 6 installed in 2016"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I103"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323776> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323776"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:104 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I104 Figure   SEQ Figure  ARABIC  32   Level 16 lift lobby showing the original marble wall finishes"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  32   Level 16 lift lobby showing the original marble wall finishes - Abrievated Graph Key: I104"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  32   Level 16 lift lobby showing the original marble wall finishes"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I104"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323777> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323777"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:105 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I105 Figure   SEQ Figure  ARABIC  33   Level 16 service corridor looking east to kitchen"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  33   Level 16 service corridor looking east to kitchen - Abrievated Graph Key: I105"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  33   Level 16 service corridor looking east to kitchen"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I105"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323778> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323778"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:106 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I106 Figure   SEQ Figure  ARABIC  34   Staff cafeteria fit out Level 16"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  34   Staff cafeteria fit out Level 16 - Abrievated Graph Key: I106"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  34   Staff cafeteria fit out Level 16"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I106"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323779> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323779"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:107 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I107 Figure   SEQ Figure  ARABIC  35   Main eastwest corridor located at Level 18 looking west"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  35   Main eastwest corridor located at Level 18 looking west - Abrievated Graph Key: I107"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  35   Main eastwest corridor located at Level 18 looking west"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I107"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323780> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323780"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:108 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I108 Figure   SEQ Figure  ARABIC  36   Typical finishes to the office area located at the western section of Level 20"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  36   Typical finishes to the office area located at the western section of Level 20 - Abrievated Graph Key: I108"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  36   Typical finishes to the office area located at the western section of Level 20"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I108"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323781> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323781"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:109 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I109 Figure   SEQ Figure  ARABIC  37   General view showing the concrete pavers and access equipment for servicing the exterior of the RBA building"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  37   General view showing the concrete pavers and access equipment for servicing the exterior of the RBA building - Abrievated Graph Key: I109"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  37   General view showing the concrete pavers and access equipment for servicing the exterior of the RBA building"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I109"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323782> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323782"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Limitations"@en-AU ;
+    dct:isPartOf F2020L01031:5 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Limitations - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Limitations"@en-AU ;
+    skos:narrower F2020L01031:5 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375878> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375878"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:110 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I110 Figure   SEQ Figure  ARABIC  38   Diagrams showing previous changes to the exterior of the RBA Head Office building c 2004  Source RBA Archives"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  38   Diagrams showing previous changes to the exterior of the RBA Head Office building c 2004  Source RBA Archives - Abrievated Graph Key: I110"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  38   Diagrams showing previous changes to the exterior of the RBA Head Office building c 2004  Source RBA Archives"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I110"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323783> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323783"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:111 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I111 Figure   SEQ Figure  ARABIC  39   View looking southeast from the corner of Elizabeth Street and Martin Place July 2019"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  39   View looking southeast from the corner of Elizabeth Street and Martin Place July 2019 - Abrievated Graph Key: I111"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  39   View looking southeast from the corner of Elizabeth Street and Martin Place July 2019"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I111"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323784> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323784"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:112 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I112 Figure   SEQ Figure  ARABIC  40   View of the northeast section of the RBA building from Macquarie Street July 2019"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  40   View of the northeast section of the RBA building from Macquarie Street July 2019 - Abrievated Graph Key: I112"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  40   View of the northeast section of the RBA building from Macquarie Street July 2019"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I112"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323785> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323785"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:113 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I113 Figure   SEQ Figure  ARABIC  41   View of the northwest section of the RBA building from the corner of Phillip Street and Martin Place"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  41   View of the northwest section of the RBA building from the corner of Phillip Street and Martin Place - Abrievated Graph Key: I113"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  41   View of the northwest section of the RBA building from the corner of Phillip Street and Martin Place"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I113"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323786> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323786"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:114 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I114 Figure   SEQ Figure  ARABIC  42   Looking north to the RBA building Marked by an arrow from the entrance to Hyde Park Barrack site July 2019"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  42   Looking north to the RBA building Marked by an arrow from the entrance to Hyde Park Barrack site July 2019 - Abrievated Graph Key: I114"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  42   Looking north to the RBA building Marked by an arrow from the entrance to Hyde Park Barrack site July 2019"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I114"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323787> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323787"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:115 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I115 Figure   SEQ Figure  ARABIC  43   View of the custombuilt furniture located in the Governors Office of the Head Office of the Commonwealth Banking Corporation of Australia 1916"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  43   View of the custombuilt furniture located in the Governors Office of the Head Office of the Commonwealth Banking Corporation of Australia 1916 - Abrievated Graph Key: I115"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  43   View of the custombuilt furniture located in the Governors Office of the Head Office of the Commonwealth Banking Corporation of Australia 1916"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I115"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323788> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323788"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:116 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I116 Figure   SEQ Figure  ARABIC  44   The original furniture has been relocated from the RBA Archives Unit to the Museum"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  44   The original furniture has been relocated from the RBA Archives Unit to the Museum - Abrievated Graph Key: I116"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  44   The original furniture has been relocated from the RBA Archives Unit to the Museum"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I116"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323789> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323789"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:117 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I117 Figure   SEQ Figure  ARABIC  45   General view of the Banking Chamber located at the ground floor level of the Head Office building"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  45   General view of the Banking Chamber located at the ground floor level of the Head Office building - Abrievated Graph Key: I117"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  45   General view of the Banking Chamber located at the ground floor level of the Head Office building"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I117"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323790> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323790"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:118 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I118 Figure   SEQ Figure  ARABIC  46   View of the ground floor lobby showing security barriers installed c 2015 Source Sydney Living Museums 2019"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  46   View of the ground floor lobby showing security barriers installed c 2015 Source Sydney Living Museums 2019 - Abrievated Graph Key: I118"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  46   View of the ground floor lobby showing security barriers installed c 2015 Source Sydney Living Museums 2019"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I118"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323791> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323791"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:119 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I119 Figure   SEQ Figure  ARABIC  47   Typical office level lift lobby showing original 1964 marble wall finishes and timber wall panelling  The original ceiling was replaced c 2000"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  47   Typical office level lift lobby showing original 1964 marble wall finishes and timber wall panelling  The original ceiling was replaced c 2000 - Abrievated Graph Key: I119"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  47   Typical office level lift lobby showing original 1964 marble wall finishes and timber wall panelling  The original ceiling was replaced c 2000"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I119"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323792> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323792"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Authorship"@en-AU ;
+    dct:isPartOf F2020L01031:5 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Authorship - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Authorship"@en-AU ;
+    skos:narrower F2020L01031:5 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375879> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375879"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:120 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I120 Figure   SEQ Figure  ARABIC  48   Plan showing the extent of the Reserve Bank of Australia Head Office building in relation to Martin Place and surrounding buildings  Source ARCHITECTUS February 2020"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  48   Plan showing the extent of the Reserve Bank of Australia Head Office building in relation to Martin Place and surrounding buildings  Source ARCHITECTUS February 2020 - Abrievated Graph Key: I120"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  48   Plan showing the extent of the Reserve Bank of Australia Head Office building in relation to Martin Place and surrounding buildings  Source ARCHITECTUS February 2020"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I120"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323793> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323793"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:121 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I121 Figure   SEQ Figure  ARABIC  49   Diagram summarising the selfassessment process  Source Department of the Environment and Energy   HYPERLINK httpswwwenvironmentgovau  httpswwwenvironmentgovau"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  49   Diagram summarising the selfassessment process  Source Department of the Environment and Energy   HYPERLINK httpswwwenvironmentgovau  httpswwwenvironmentgovau - Abrievated Graph Key: I121"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  49   Diagram summarising the selfassessment process  Source Department of the Environment and Energy   HYPERLINK httpswwwenvironmentgovau  httpswwwenvironmentgovau"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I121"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323794> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323794"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:122 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I122 Figure   SEQ Figure  ARABIC  50   General view of Macquarie Street c 1871 photographer unknown  Note the site of St Stephens Church in Phillip Street is now occupied by the Reserve Bank of Australia Head office building"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  50   General view of Macquarie Street c 1871 photographer unknown  Note the site of St Stephens Church in Phillip Street is now occupied by the Reserve Bank of Australia Head office building - Abrievated Graph Key: I122"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  50   General view of Macquarie Street c 1871 photographer unknown  Note the site of St Stephens Church in Phillip Street is now occupied by the Reserve Bank of Australia Head office building"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I122"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323795> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323795"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:123 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I123 Figure   SEQ Figure  ARABIC  51   View of Phillip Street Sydney looking south c 1885 photographed by Charles Bayliss The spire of St Stephens Church Phillip Street is visible to the left of St James Anglican Church spire"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  51   View of Phillip Street Sydney looking south c 1885 photographed by Charles Bayliss The spire of St Stephens Church Phillip Street is visible to the left of St James Anglican Church spire - Abrievated Graph Key: I123"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  51   View of Phillip Street Sydney looking south c 1885 photographed by Charles Bayliss The spire of St Stephens Church Phillip Street is visible to the left of St James Anglican Church spire"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I123"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323796> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323796"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:124 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I124 Figure   SEQ Figure  ARABIC  52   Diagram showing the areas resumed by the Council of the City of Sydney in the 1920 s to facilitate the eastern extension of Martin Place  The site purchased for the RBA in 1957 is shown shaded"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  52   Diagram showing the areas resumed by the Council of the City of Sydney in the 1920 s to facilitate the eastern extension of Martin Place  The site purchased for the RBA in 1957 is shown shaded - Abrievated Graph Key: I124"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  52   Diagram showing the areas resumed by the Council of the City of Sydney in the 1920 s to facilitate the eastern extension of Martin Place  The site purchased for the RBA in 1957 is shown shaded"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I124"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323797> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323797"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:125 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I125 Figure   SEQ Figure  ARABIC  53   Percy Doves 1880 map of the subject site showing area later occupied by the Reserve Bank dotted"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  53   Percy Doves 1880 map of the subject site showing area later occupied by the Reserve Bank dotted - Abrievated Graph Key: I125"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  53   Percy Doves 1880 map of the subject site showing area later occupied by the Reserve Bank dotted"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I125"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323798> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323798"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:126 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I126 Figure   SEQ Figure  ARABIC  54   View of the houses located at 219215 Macquarie Street Sydney which were demolished for the construction of the Reserve Bank in 1959"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  54   View of the houses located at 219215 Macquarie Street Sydney which were demolished for the construction of the Reserve Bank in 1959 - Abrievated Graph Key: I126"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  54   View of the houses located at 219215 Macquarie Street Sydney which were demolished for the construction of the Reserve Bank in 1959"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I126"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323799> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323799"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:127 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I127 Figure   SEQ Figure  ARABIC  55   1910 map of the City of Sydney compiled and published by Roberts  Moffat Ltd"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  55   1910 map of the City of Sydney compiled and published by Roberts  Moffat Ltd - Abrievated Graph Key: I127"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  55   1910 map of the City of Sydney compiled and published by Roberts  Moffat Ltd"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I127"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323800> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323800"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:128 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I128 Figure   SEQ Figure  ARABIC  56   Phillip Street buildings demolished to form the eastern extension of Martin Place photographed by EG Shaw 1935  St Stephens Church and the building to its right St James Parsonage were subsequently acquired by the Commonwealth of Australia for the RBA Head Office building"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  56   Phillip Street buildings demolished to form the eastern extension of Martin Place photographed by EG Shaw 1935  St Stephens Church and the building to its right St James Parsonage were subsequently acquired by the Commonwealth of Australia for the RBA Head Office building - Abrievated Graph Key: I128"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  56   Phillip Street buildings demolished to form the eastern extension of Martin Place photographed by EG Shaw 1935  St Stephens Church and the building to its right St James Parsonage were subsequently acquired by the Commonwealth of Australia for the RBA Head Office building"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I128"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323801> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323801"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:129 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I129 Figure   SEQ Figure  ARABIC  57   General view of St Stephens Presbyterian Church Phillip Street Sydney c 1934 by Herbert H Fishwick  The church was demolished in 1935"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  57   General view of St Stephens Presbyterian Church Phillip Street Sydney c 1934 by Herbert H Fishwick  The church was demolished in 1935 - Abrievated Graph Key: I129"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  57   General view of St Stephens Presbyterian Church Phillip Street Sydney c 1934 by Herbert H Fishwick  The church was demolished in 1935"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I129"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323802> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323802"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Sources"@en-AU ;
+    dct:isPartOf F2020L01031:5 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Sources - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Sources"@en-AU ;
+    skos:narrower F2020L01031:5 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375880> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375880"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Acknowledgments"@en-AU ;
+    dct:isPartOf F2020L01031:5 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Acknowledgments - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Acknowledgments"@en-AU ;
+    skos:narrower F2020L01031:5 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375881> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375881"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Introduction"@en-AU ;
+    dct:isPartOf F2020L01031:15 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Introduction - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Introduction"@en-AU ;
+    skos:narrower F2020L01031:15 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375883> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375883"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 A Central Banking System and the Reserve Bank of Australia"@en-AU ;
+    dct:isPartOf F2020L01031:15 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "A Central Banking System and the Reserve Bank of Australia - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "A Central Banking System and the Reserve Bank of Australia"@en-AU ;
+    skos:narrower F2020L01031:15 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375884> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375884"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Construction of the Head Office Building"@en-AU ;
+    dct:isPartOf F2020L01031:15 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Construction of the Head Office Building - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Construction of the Head Office Building"@en-AU ;
+    skos:narrower F2020L01031:15 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375885> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375885"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Architectural Design Intent"@en-AU ;
+    dct:isPartOf F2020L01031:15 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Architectural Design Intent - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Architectural Design Intent"@en-AU ;
+    skos:narrower F2020L01031:15 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375886> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375886"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Consolidation of Banking Services and additions to the Building"@en-AU ;
+    dct:isPartOf F2020L01031:15 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Consolidation of Banking Services and additions to the Building - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Consolidation of Banking Services and additions to the Building"@en-AU ;
+    skos:narrower F2020L01031:15 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375887> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375887"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Building Refurbishment"@en-AU ;
+    dct:isPartOf F2020L01031:15 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Building Refurbishment - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Building Refurbishment"@en-AU ;
+    skos:narrower F2020L01031:15 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375888> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375888"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Associated Individuals"@en-AU ;
+    dct:isPartOf F2020L01031:15 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Associated Individuals - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Associated Individuals"@en-AU ;
+    skos:narrower F2020L01031:15 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375889> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375889"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Stylistic Context"@en-AU ;
+    dct:isPartOf F2020L01031:15 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Stylistic Context - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Stylistic Context"@en-AU ;
+    skos:narrower F2020L01031:15 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375890> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375890"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Urban Context and Setting"@en-AU ;
+    dct:isPartOf F2020L01031:24 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Urban Context and Setting - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Urban Context and Setting"@en-AU ;
+    skos:narrower F2020L01031:24 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375892> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375892"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Description of the Reserve Bank of Australia Head Offices"@en-AU ;
+    dct:isPartOf F2020L01031:24 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Description of the Reserve Bank of Australia Head Offices - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Description of the Reserve Bank of Australia Head Offices"@en-AU ;
+    skos:narrower F2020L01031:24 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375893> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375893"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Interior Description"@en-AU ;
+    dct:isPartOf F2020L01031:24 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Interior Description - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Interior Description"@en-AU ;
+    skos:narrower F2020L01031:24 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375894> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375894"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Previous modifications"@en-AU ;
+    dct:isPartOf F2020L01031:24 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Previous modifications - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Previous modifications"@en-AU ;
+    skos:narrower F2020L01031:24 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375895> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375895"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Archaeological Potential"@en-AU ;
+    dct:isPartOf F2020L01031:24 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Archaeological Potential - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Archaeological Potential"@en-AU ;
+    skos:narrower F2020L01031:24 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375896> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375896"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 Major Recommendations"@en-AU ;
+    dct:isPartOf F2020L01031:2 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Major Recommendations - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "Major Recommendations"@en-AU ;
+    skos:narrower F2020L01031:2 ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375870> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375870"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Significant Views"@en-AU ;
+    dct:isPartOf F2020L01031:24 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Significant Views - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Significant Views"@en-AU ;
+    skos:narrower F2020L01031:24 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375897> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375897"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Commonwealth Heritage Criteria"@en-AU ;
+    dct:isPartOf F2020L01031:31 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Commonwealth Heritage Criteria - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Commonwealth Heritage Criteria"@en-AU ;
+    skos:narrower F2020L01031:31 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375899> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375899"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Methodology adopted for Assessing commonwealth Heritage Values"@en-AU ;
+    dct:isPartOf F2020L01031:31 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Methodology adopted for Assessing commonwealth Heritage Values - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Methodology adopted for Assessing commonwealth Heritage Values"@en-AU ;
+    skos:narrower F2020L01031:31 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375900> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375900"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Application of Commonwealth Heritage criteria"@en-AU ;
+    dct:isPartOf F2020L01031:31 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Application of Commonwealth Heritage criteria - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Application of Commonwealth Heritage criteria"@en-AU ;
+    skos:narrower F2020L01031:31 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375901> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375901"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Statement of Significance"@en-AU ;
+    dct:isPartOf F2020L01031:31 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Statement of Significance - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Statement of Significance"@en-AU ;
+    skos:narrower F2020L01031:31 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375902> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375902"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 Identified National Historical Themes"@en-AU ;
+    dct:isPartOf F2020L01031:31 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Identified National Historical Themes - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "Identified National Historical Themes"@en-AU ;
+    skos:narrower F2020L01031:31 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375903> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375903"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Significance of Elements"@en-AU ;
+    dct:isPartOf F2020L01031:31 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Significance of Elements - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Significance of Elements"@en-AU ;
+    skos:narrower F2020L01031:31 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375904> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375904"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 Curtilage"@en-AU ;
+    dct:isPartOf F2020L01031:31 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Curtilage - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "Curtilage"@en-AU ;
+    skos:narrower F2020L01031:31 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375905> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375905"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 Summary Description"@en-AU ;
+    dct:isPartOf F2020L01031:1 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Summary Description - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "Summary Description"@en-AU ;
+    skos:narrower F2020L01031:1 ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375871> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375871"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 Legislative Framework Generally"@en-AU ;
+    dct:isPartOf F2020L01031:39 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Legislative Framework Generally - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "Legislative Framework Generally"@en-AU ;
+    skos:narrower F2020L01031:39 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375907> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375907"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 Relevant Commonwealth Legislation"@en-AU ;
+    dct:isPartOf F2020L01031:39 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Relevant Commonwealth Legislation - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "Relevant Commonwealth Legislation"@en-AU ;
+    skos:narrower F2020L01031:39 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375908> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375908"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 Heritage Protection in New South Wales"@en-AU ;
+    dct:isPartOf F2020L01031:39 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Heritage Protection in New South Wales - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "Heritage Protection in New South Wales"@en-AU ;
+    skos:narrower F2020L01031:39 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375909> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375909"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:43 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I43 Nonstatutory Heritage Listings"@en-AU ;
+    dct:isPartOf F2020L01031:39 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Nonstatutory Heritage Listings - Abrievated Graph Key: I43"@en-AU ;
+    skos:definition "Nonstatutory Heritage Listings"@en-AU ;
+    skos:narrower F2020L01031:39 ;
+    skos:prefLabel "Item I43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375910> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375910"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 Best Practice Guidance"@en-AU ;
+    dct:isPartOf F2020L01031:39 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Best Practice Guidance - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "Best Practice Guidance"@en-AU ;
+    skos:narrower F2020L01031:39 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375911> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375911"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:45 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I45 Other Statutory Requirements"@en-AU ;
+    dct:isPartOf F2020L01031:39 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Other Statutory Requirements - Abrievated Graph Key: I45"@en-AU ;
+    skos:definition "Other Statutory Requirements"@en-AU ;
+    skos:narrower F2020L01031:39 ;
+    skos:prefLabel "Item I45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375912> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375912"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:46 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I46 Key Conservation Issues"@en-AU ;
+    dct:isPartOf F2020L01031:39 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Key Conservation Issues - Abrievated Graph Key: I46"@en-AU ;
+    skos:definition "Key Conservation Issues"@en-AU ;
+    skos:narrower F2020L01031:39 ;
+    skos:prefLabel "Item I46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375913> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375913"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:47 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I47 Future Development"@en-AU ;
+    dct:isPartOf F2020L01031:39 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Future Development - Abrievated Graph Key: I47"@en-AU ;
+    skos:definition "Future Development"@en-AU ;
+    skos:narrower F2020L01031:39 ;
+    skos:prefLabel "Item I47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375914> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375914"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:49 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I49 Generally"@en-AU ;
+    dct:isPartOf F2020L01031:48 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Generally - Abrievated Graph Key: I49"@en-AU ;
+    skos:definition "Generally"@en-AU ;
+    skos:narrower F2020L01031:48 ;
+    skos:prefLabel "Item I49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375916> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375916"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:50 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I50 Commonwealth Heritage Management Principles"@en-AU ;
+    dct:isPartOf F2020L01031:48 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Commonwealth Heritage Management Principles - Abrievated Graph Key: I50"@en-AU ;
+    skos:definition "Commonwealth Heritage Management Principles"@en-AU ;
+    skos:narrower F2020L01031:48 ;
+    skos:prefLabel "Item I50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375917> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375917"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:52 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I52 Policy Recommendations"@en-AU ;
+    dct:isPartOf F2020L01031:51 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Policy Recommendations - Abrievated Graph Key: I52"@en-AU ;
+    skos:definition "Policy Recommendations"@en-AU ;
+    skos:narrower F2020L01031:51 ;
+    skos:prefLabel "Item I52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375919> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375919"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:53 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I53 Additions to the RBA Head Office building"@en-AU ;
+    dct:isPartOf F2020L01031:51 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Additions to the RBA Head Office building - Abrievated Graph Key: I53"@en-AU ;
+    skos:definition "Additions to the RBA Head Office building"@en-AU ;
+    skos:narrower F2020L01031:51 ;
+    skos:prefLabel "Item I53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375920> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375920"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:55 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I55 Responsibility for Implementation of Policies"@en-AU ;
+    dct:isPartOf F2020L01031:54 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Responsibility for Implementation of Policies - Abrievated Graph Key: I55"@en-AU ;
+    skos:definition "Responsibility for Implementation of Policies"@en-AU ;
+    skos:narrower F2020L01031:54 ;
+    skos:prefLabel "Item I55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375922> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375922"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:56 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I56 Funding"@en-AU ;
+    dct:isPartOf F2020L01031:54 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Funding - Abrievated Graph Key: I56"@en-AU ;
+    skos:definition "Funding"@en-AU ;
+    skos:narrower F2020L01031:54 ;
+    skos:prefLabel "Item I56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375923> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375923"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:57 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I57 Review and Monitoring the Heritage Management Plan"@en-AU ;
+    dct:isPartOf F2020L01031:54 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Review and Monitoring the Heritage Management Plan - Abrievated Graph Key: I57"@en-AU ;
+    skos:definition "Review and Monitoring the Heritage Management Plan"@en-AU ;
+    skos:narrower F2020L01031:54 ;
+    skos:prefLabel "Item I57"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375924> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375924"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:58 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I58 Resolution of Conflict between User Needs and Heritage Significance"@en-AU ;
+    dct:isPartOf F2020L01031:54 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Resolution of Conflict between User Needs and Heritage Significance - Abrievated Graph Key: I58"@en-AU ;
+    skos:definition "Resolution of Conflict between User Needs and Heritage Significance"@en-AU ;
+    skos:narrower F2020L01031:54 ;
+    skos:prefLabel "Item I58"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375925> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375925"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:59 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I59 Recommended Ongoing Maintenance Works"@en-AU ;
+    dct:isPartOf F2020L01031:54 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Recommended Ongoing Maintenance Works - Abrievated Graph Key: I59"@en-AU ;
+    skos:definition "Recommended Ongoing Maintenance Works"@en-AU ;
+    skos:narrower F2020L01031:54 ;
+    skos:prefLabel "Item I59"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375926> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375926"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Background"@en-AU ;
+    dct:isPartOf F2020L01031:5 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Background - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Background"@en-AU ;
+    skos:narrower F2020L01031:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375873> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375873"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:60 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I60 Planned Maintenance"@en-AU ;
+    dct:isPartOf F2020L01031:54 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Planned Maintenance - Abrievated Graph Key: I60"@en-AU ;
+    skos:definition "Planned Maintenance"@en-AU ;
+    skos:narrower F2020L01031:54 ;
+    skos:prefLabel "Item I60"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375927> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375927"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:62 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I62 Primary Sources"@en-AU ;
+    dct:isPartOf F2020L01031:61 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Primary Sources - Abrievated Graph Key: I62"@en-AU ;
+    skos:definition "Primary Sources"@en-AU ;
+    skos:narrower F2020L01031:61 ;
+    skos:prefLabel "Item I62"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375929> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375929"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:63 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I63 Published Sources"@en-AU ;
+    dct:isPartOf F2020L01031:61 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Published Sources - Abrievated Graph Key: I63"@en-AU ;
+    skos:definition "Published Sources"@en-AU ;
+    skos:narrower F2020L01031:61 ;
+    skos:prefLabel "Item I63"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375930> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375930"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:64 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I64 Websites and Online Databases"@en-AU ;
+    dct:isPartOf F2020L01031:61 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Websites and Online Databases - Abrievated Graph Key: I64"@en-AU ;
+    skos:definition "Websites and Online Databases"@en-AU ;
+    skos:narrower F2020L01031:61 ;
+    skos:prefLabel "Item I64"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375931> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375931"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:66 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I66 EPBC Act Compliance Checklist"@en-AU ;
+    dct:isPartOf F2020L01031:65 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "EPBC Act Compliance Checklist - Abrievated Graph Key: I66"@en-AU ;
+    skos:definition "EPBC Act Compliance Checklist"@en-AU ;
+    skos:narrower F2020L01031:65 ;
+    skos:prefLabel "Item I66"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375933> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375933"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:67 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I67 Commonwealth Heritage List Citation"@en-AU ;
+    dct:isPartOf F2020L01031:65 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Commonwealth Heritage List Citation - Abrievated Graph Key: I67"@en-AU ;
+    skos:definition "Commonwealth Heritage List Citation"@en-AU ;
+    skos:narrower F2020L01031:65 ;
+    skos:prefLabel "Item I67"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375934> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375934"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:68 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I68 Outline Historical background of Site Prior to 1959"@en-AU ;
+    dct:isPartOf F2020L01031:65 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Outline Historical background of Site Prior to 1959 - Abrievated Graph Key: I68"@en-AU ;
+    skos:definition "Outline Historical background of Site Prior to 1959"@en-AU ;
+    skos:narrower F2020L01031:65 ;
+    skos:prefLabel "Item I68"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375935> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375935"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:69 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I69 Plans Sections and Elevations showing the proposed RBA Head Office Consolidation project c 1975"@en-AU ;
+    dct:isPartOf F2020L01031:65 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Plans Sections and Elevations showing the proposed RBA Head Office Consolidation project c 1975 - Abrievated Graph Key: I69"@en-AU ;
+    skos:definition "Plans Sections and Elevations showing the proposed RBA Head Office Consolidation project c 1975"@en-AU ;
+    skos:narrower F2020L01031:65 ;
+    skos:prefLabel "Item I69"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375936> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375936"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 The Site"@en-AU ;
+    dct:isPartOf F2020L01031:5 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "The Site - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "The Site"@en-AU ;
+    skos:narrower F2020L01031:5 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375874> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375874"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:70 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I70 Land Titles Information"@en-AU ;
+    dct:isPartOf F2020L01031:65 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Land Titles Information - Abrievated Graph Key: I70"@en-AU ;
+    skos:definition "Land Titles Information"@en-AU ;
+    skos:narrower F2020L01031:65 ;
+    skos:prefLabel "Item I70"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375937> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375937"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:71 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I71 Sands Directory Listings"@en-AU ;
+    dct:isPartOf F2020L01031:65 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Sands Directory Listings - Abrievated Graph Key: I71"@en-AU ;
+    skos:definition "Sands Directory Listings"@en-AU ;
+    skos:narrower F2020L01031:65 ;
+    skos:prefLabel "Item I71"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375938> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375938"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:73 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I73 Figure   SEQ Figure  ARABIC  1   Plan showing the location of the Reserve Bank of Australia Head Office building located at 65 Martin Place Sydney"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  1   Plan showing the location of the Reserve Bank of Australia Head Office building located at 65 Martin Place Sydney - Abrievated Graph Key: I73"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  1   Plan showing the location of the Reserve Bank of Australia Head Office building located at 65 Martin Place Sydney"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I73"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323746> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323746"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:74 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I74 Figure   SEQ Figure  ARABIC  2   Aerial photograph showing the three parcels of land comprising the current site of the Reserve Bank of Australia Head office building"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  2   Aerial photograph showing the three parcels of land comprising the current site of the Reserve Bank of Australia Head office building - Abrievated Graph Key: I74"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  2   Aerial photograph showing the three parcels of land comprising the current site of the Reserve Bank of Australia Head office building"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I74"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323747> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323747"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:75 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I75 Figure   SEQ Figure  ARABIC  3   Diagram showing the sequence of steps in planning and managing a place of cultural significance contained in The Burra Charter and underpinning this Conservation Management Plan methodology"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  3   Diagram showing the sequence of steps in planning and managing a place of cultural significance contained in The Burra Charter and underpinning this Conservation Management Plan methodology - Abrievated Graph Key: I75"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  3   Diagram showing the sequence of steps in planning and managing a place of cultural significance contained in The Burra Charter and underpinning this Conservation Management Plan methodology"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I75"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323748> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323748"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:76 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I76 Figure   SEQ Figure  ARABIC  4   View of the steel framed construction of the Reserve Bank of Australia Head office building c 1962  Source National Archives of Australia"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  4   View of the steel framed construction of the Reserve Bank of Australia Head office building c 1962  Source National Archives of Australia - Abrievated Graph Key: I76"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  4   View of the steel framed construction of the Reserve Bank of Australia Head office building c 1962  Source National Archives of Australia"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I76"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323749> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323749"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:77 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I77 Figure   SEQ Figure  ARABIC  5   View of the south and west elevations during construction c 1962  Source National Archives of Australia"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  5   View of the south and west elevations during construction c 1962  Source National Archives of Australia - Abrievated Graph Key: I77"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  5   View of the south and west elevations during construction c 1962  Source National Archives of Australia"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I77"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323750> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323750"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:78 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I78 Figure   SEQ Figure  ARABIC  6  View of the northwest corner of the RBA Head Office showing the original marble panels being installed to the north and west elevations c 1962  Source National Archives of Australia"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  6  View of the northwest corner of the RBA Head Office showing the original marble panels being installed to the north and west elevations c 1962  Source National Archives of Australia - Abrievated Graph Key: I78"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  6  View of the northwest corner of the RBA Head Office showing the original marble panels being installed to the north and west elevations c 1962  Source National Archives of Australia"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I78"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323751> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323751"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:79 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I79 Figure   SEQ Figure  ARABIC  7   View of the Reserve Bank of Australia Head Office Sydney looking south east from the Phillip Street corner c 1964"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  7   View of the Reserve Bank of Australia Head Office Sydney looking south east from the Phillip Street corner c 1964 - Abrievated Graph Key: I79"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  7   View of the Reserve Bank of Australia Head Office Sydney looking south east from the Phillip Street corner c 1964"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I79"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323752> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323752"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Study Objectives"@en-AU ;
+    dct:isPartOf F2020L01031:5 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Study Objectives - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Study Objectives"@en-AU ;
+    skos:narrower F2020L01031:5 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375875> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375875"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:80 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I80 Figure   SEQ Figure  ARABIC  8   Diagram showing the Phillip Street elevation  The shaded area indicates the location of the addition constructed in the late 1970 s and the dedicated servicesplant spaces   Note the addition accommodating the services finished at Level 7"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  8   Diagram showing the Phillip Street elevation  The shaded area indicates the location of the addition constructed in the late 1970 s and the dedicated servicesplant spaces   Note the addition accommodating the services finished at Level 7 - Abrievated Graph Key: I80"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  8   Diagram showing the Phillip Street elevation  The shaded area indicates the location of the addition constructed in the late 1970 s and the dedicated servicesplant spaces   Note the addition accommodating the services finished at Level 7"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I80"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323753> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323753"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:81 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I81 Figure   SEQ Figure  ARABIC  9  View of the wall enrichment designed by Bim Hilder located in the ground floor foyer of the RBA building c 1964"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  9  View of the wall enrichment designed by Bim Hilder located in the ground floor foyer of the RBA building c 1964 - Abrievated Graph Key: I81"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  9  View of the wall enrichment designed by Bim Hilder located in the ground floor foyer of the RBA building c 1964"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I81"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323754> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323754"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:82 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I82 Figure   SEQ Figure  ARABIC  10   Podium Sculpture by Margel Hinder located in the Martin Place forecourt NBRSARCHITECTURE July 2019"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  10   Podium Sculpture by Margel Hinder located in the Martin Place forecourt NBRSARCHITECTURE July 2019 - Abrievated Graph Key: I82"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  10   Podium Sculpture by Margel Hinder located in the Martin Place forecourt NBRSARCHITECTURE July 2019"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I82"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323755> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323755"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:83 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I83 Figure   SEQ Figure  ARABIC  11   The Head Office of the RBA located at 65 Martin Place Sydney NSW  Source RBA Archives"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  11   The Head Office of the RBA located at 65 Martin Place Sydney NSW  Source RBA Archives - Abrievated Graph Key: I83"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  11   The Head Office of the RBA located at 65 Martin Place Sydney NSW  Source RBA Archives"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I83"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323756> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323756"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:84 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I84 Figure   SEQ Figure  ARABIC  12   RBA building Adelaide  Source NAA"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  12   RBA building Adelaide  Source NAA - Abrievated Graph Key: I84"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  12   RBA building Adelaide  Source NAA"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I84"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323757> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323757"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:85 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I85 Figure   SEQ Figure  ARABIC  13   RBA building Brisbane  Source NAA"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  13   RBA building Brisbane  Source NAA - Abrievated Graph Key: I85"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  13   RBA building Brisbane  Source NAA"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I85"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323758> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323758"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:86 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I86 Figure   SEQ Figure  ARABIC  14   The Reserve Bank of Australia Canberra c 1964 Source State Library of Victoria Image No a 21826"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  14   The Reserve Bank of Australia Canberra c 1964 Source State Library of Victoria Image No a 21826 - Abrievated Graph Key: I86"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  14   The Reserve Bank of Australia Canberra c 1964 Source State Library of Victoria Image No a 21826"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I86"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323759> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323759"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:87 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I87 Figure   SEQ Figure  ARABIC  15   The Reserve Bank of Australia Melbourne c 1967 Source State Library of Victoria"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  15   The Reserve Bank of Australia Melbourne c 1967 Source State Library of Victoria - Abrievated Graph Key: I87"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  15   The Reserve Bank of Australia Melbourne c 1967 Source State Library of Victoria"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I87"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323760> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323760"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:88 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I88 Figure   SEQ Figure  ARABIC  16   The Reserve Bank of Australia building Darwin Source Northern Territory Library"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  16   The Reserve Bank of Australia building Darwin Source Northern Territory Library - Abrievated Graph Key: I88"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  16   The Reserve Bank of Australia building Darwin Source Northern Territory Library"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I88"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323761> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323761"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:89 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I89 Figure   SEQ Figure  ARABIC  17   RBA building  Perth formerly located at 45 St Georges Terrace  Source State Library of Western Australia httpwwwslwawagovauimagespd 224224034 PDjpg Fritz Kos"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  17   RBA building  Perth formerly located at 45 St Georges Terrace  Source State Library of Western Australia httpwwwslwawagovauimagespd 224224034 PDjpg Fritz Kos - Abrievated Graph Key: I89"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  17   RBA building  Perth formerly located at 45 St Georges Terrace  Source State Library of Western Australia httpwwwslwawagovauimagespd 224224034 PDjpg Fritz Kos"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I89"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323762> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323762"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Methodology"@en-AU ;
+    dct:isPartOf F2020L01031:5 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Methodology - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Methodology"@en-AU ;
+    skos:narrower F2020L01031:5 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375876> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375876"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:90 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I90 Figure   SEQ Figure  ARABIC  18   RBA building Hobart  Source Trove"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  18   RBA building Hobart  Source Trove - Abrievated Graph Key: I90"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  18   RBA building Hobart  Source Trove"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I90"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323763> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323763"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:91 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I91 Figure   SEQ Figure  ARABIC  19   View of the landscaped native garden  in c 1968"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  19   View of the landscaped native garden  in c 1968 - Abrievated Graph Key: I91"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  19   View of the landscaped native garden  in c 1968"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I91"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323764> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323764"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:92 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I92 Figure   SEQ Figure  ARABIC  20   General view of the northwest corner of the Head Office building"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  20   General view of the northwest corner of the Head Office building - Abrievated Graph Key: I92"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  20   General view of the northwest corner of the Head Office building"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I92"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323765> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323765"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:93 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I93 Figure   SEQ Figure  ARABIC  21   General view of the podium soffit adjacent to the north side of the RBA Head Office entry  Note the original suspended marble soffit was replaced in c 2001"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  21   General view of the podium soffit adjacent to the north side of the RBA Head Office entry  Note the original suspended marble soffit was replaced in c 2001 - Abrievated Graph Key: I93"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  21   General view of the podium soffit adjacent to the north side of the RBA Head Office entry  Note the original suspended marble soffit was replaced in c 2001"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I93"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323766> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323766"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:94 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I94 Figure   SEQ Figure  ARABIC  22   Oblique view of the south elevation of the RBA Head office building"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  22   Oblique view of the south elevation of the RBA Head office building - Abrievated Graph Key: I94"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  22   Oblique view of the south elevation of the RBA Head office building"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I94"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323767> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323767"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:95 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I95 Figure   SEQ Figure  ARABIC  23   Oblique view looking northeast along Phillip Street  The RBA building is indicate by an arrow"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  23   Oblique view looking northeast along Phillip Street  The RBA building is indicate by an arrow - Abrievated Graph Key: I95"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  23   Oblique view looking northeast along Phillip Street  The RBA building is indicate by an arrow"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I95"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323768> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323768"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:96 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I96 Figure   SEQ Figure  ARABIC  24   Example of fire stair finishes and painted steel balustrades within the RBA Head office building"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  24   Example of fire stair finishes and painted steel balustrades within the RBA Head office building - Abrievated Graph Key: I96"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  24   Example of fire stair finishes and painted steel balustrades within the RBA Head office building"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I96"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323769> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323769"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:97 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I97 Figure   SEQ Figure  ARABIC  25   Photograph of typical refurbished lavatory areas throughout the RBA building"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  25   Photograph of typical refurbished lavatory areas throughout the RBA building - Abrievated Graph Key: I97"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  25   Photograph of typical refurbished lavatory areas throughout the RBA building"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I97"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323770> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323770"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:98 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I98 Figure   SEQ Figure  ARABIC  26   Typical basement finishes"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  26   Typical basement finishes - Abrievated Graph Key: I98"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  26   Typical basement finishes"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I98"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323771> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323771"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:99 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I99 Figure   SEQ Figure  ARABIC  27   Typical painted rendered finishes at Basement Levels 1 and 2"@en-AU ;
+    dct:isPartOf F2020L01031:72 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Figure   SEQ Figure  ARABIC  27   Typical painted rendered finishes at Basement Levels 1 and 2 - Abrievated Graph Key: I99"@en-AU ;
+    skos:definition "Figure   SEQ Figure  ARABIC  27   Typical painted rendered finishes at Basement Levels 1 and 2"@en-AU ;
+    skos:narrower F2020L01031:72 ;
+    skos:prefLabel "Item I99"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323772> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34323772"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 executive summary"@en-AU ;
+    dct:hasPart F2020L01031:3 ;
+    dct:isPartOf F2020L01031:1 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "executive summary - Abrievated Graph Key: I2"@en-AU ;
+    skos:broader F2020L01031:3 ;
+    skos:definition "executive summary"@en-AU ;
+    skos:narrower F2020L01031:1 ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375869> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375869"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:48 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I48 Management of Commonwealth Heritage Values"@en-AU ;
+    dct:hasPart F2020L01031:49,
+        F2020L01031:50 ;
+    dct:isPartOf F2020L01031:1 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Management of Commonwealth Heritage Values - Abrievated Graph Key: I48"@en-AU ;
+    skos:broader F2020L01031:49,
+        F2020L01031:50 ;
+    skos:definition "Management of Commonwealth Heritage Values"@en-AU ;
+    skos:narrower F2020L01031:1 ;
+    skos:prefLabel "Item I48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375915> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375915"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:51 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I51 Specific Conservation Policies"@en-AU ;
+    dct:hasPart F2020L01031:52,
+        F2020L01031:53 ;
+    dct:isPartOf F2020L01031:1 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Specific Conservation Policies - Abrievated Graph Key: I51"@en-AU ;
+    skos:broader F2020L01031:52,
+        F2020L01031:53 ;
+    skos:definition "Specific Conservation Policies"@en-AU ;
+    skos:narrower F2020L01031:1 ;
+    skos:prefLabel "Item I51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375918> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375918"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:61 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I61 Bibliography"@en-AU ;
+    dct:hasPart F2020L01031:62,
+        F2020L01031:63,
+        F2020L01031:64 ;
+    dct:isPartOf F2020L01031:1 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Bibliography - Abrievated Graph Key: I61"@en-AU ;
+    skos:broader F2020L01031:62,
+        F2020L01031:63,
+        F2020L01031:64 ;
+    skos:definition "Bibliography"@en-AU ;
+    skos:narrower F2020L01031:1 ;
+    skos:prefLabel "Item I61"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375928> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375928"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Place Description"@en-AU ;
+    dct:hasPart F2020L01031:25,
+        F2020L01031:26,
+        F2020L01031:27,
+        F2020L01031:28,
+        F2020L01031:29,
+        F2020L01031:30 ;
+    dct:isPartOf F2020L01031:1 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Place Description - Abrievated Graph Key: I24"@en-AU ;
+    skos:broader F2020L01031:25,
+        F2020L01031:26,
+        F2020L01031:27,
+        F2020L01031:28,
+        F2020L01031:29,
+        F2020L01031:30 ;
+    skos:definition "Place Description"@en-AU ;
+    skos:narrower F2020L01031:1 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375891> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375891"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:54 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I54 policy implemenTation"@en-AU ;
+    dct:hasPart F2020L01031:55,
+        F2020L01031:56,
+        F2020L01031:57,
+        F2020L01031:58,
+        F2020L01031:59,
+        F2020L01031:60 ;
+    dct:isPartOf F2020L01031:1 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "policy implemenTation - Abrievated Graph Key: I54"@en-AU ;
+    skos:broader F2020L01031:55,
+        F2020L01031:56,
+        F2020L01031:57,
+        F2020L01031:58,
+        F2020L01031:59,
+        F2020L01031:60 ;
+    skos:definition "policy implemenTation"@en-AU ;
+    skos:narrower F2020L01031:1 ;
+    skos:prefLabel "Item I54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375921> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375921"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Heritage Values"@en-AU ;
+    dct:hasPart F2020L01031:32,
+        F2020L01031:33,
+        F2020L01031:34,
+        F2020L01031:35,
+        F2020L01031:36,
+        F2020L01031:37,
+        F2020L01031:38 ;
+    dct:isPartOf F2020L01031:1 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Heritage Values - Abrievated Graph Key: I31"@en-AU ;
+    skos:broader F2020L01031:32,
+        F2020L01031:33,
+        F2020L01031:34,
+        F2020L01031:35,
+        F2020L01031:36,
+        F2020L01031:37,
+        F2020L01031:38 ;
+    skos:definition "Heritage Values"@en-AU ;
+    skos:narrower F2020L01031:1 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375898> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375898"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:65 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I65 Appendices"@en-AU ;
+    dct:hasPart F2020L01031:66,
+        F2020L01031:67,
+        F2020L01031:68,
+        F2020L01031:69,
+        F2020L01031:70,
+        F2020L01031:71,
+        F2020L01031:72 ;
+    dct:isPartOf F2020L01031:1 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Appendices - Abrievated Graph Key: I65"@en-AU ;
+    skos:broader F2020L01031:66,
+        F2020L01031:67,
+        F2020L01031:68,
+        F2020L01031:69,
+        F2020L01031:70,
+        F2020L01031:71,
+        F2020L01031:72 ;
+    skos:definition "Appendices"@en-AU ;
+    skos:narrower F2020L01031:1 ;
+    skos:prefLabel "Item I65"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375932> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375932"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Historical Context"@en-AU ;
+    dct:hasPart F2020L01031:16,
+        F2020L01031:17,
+        F2020L01031:18,
+        F2020L01031:19,
+        F2020L01031:20,
+        F2020L01031:21,
+        F2020L01031:22,
+        F2020L01031:23 ;
+    dct:isPartOf F2020L01031:1 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Historical Context - Abrievated Graph Key: I15"@en-AU ;
+    skos:broader F2020L01031:16,
+        F2020L01031:17,
+        F2020L01031:18,
+        F2020L01031:19,
+        F2020L01031:20,
+        F2020L01031:21,
+        F2020L01031:22,
+        F2020L01031:23 ;
+    skos:definition "Historical Context"@en-AU ;
+    skos:narrower F2020L01031:1 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375882> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375882"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 Heritage Legislation and Management Framework"@en-AU ;
+    dct:hasPart F2020L01031:40,
+        F2020L01031:41,
+        F2020L01031:42,
+        F2020L01031:43,
+        F2020L01031:44,
+        F2020L01031:45,
+        F2020L01031:46,
+        F2020L01031:47 ;
+    dct:isPartOf F2020L01031:1 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Heritage Legislation and Management Framework - Abrievated Graph Key: I39"@en-AU ;
+    skos:broader F2020L01031:40,
+        F2020L01031:41,
+        F2020L01031:42,
+        F2020L01031:43,
+        F2020L01031:44,
+        F2020L01031:45,
+        F2020L01031:46,
+        F2020L01031:47 ;
+    skos:definition "Heritage Legislation and Management Framework"@en-AU ;
+    skos:narrower F2020L01031:1 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375906> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375906"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Introduction"@en-AU ;
+    dct:hasPart F2020L01031:10,
+        F2020L01031:11,
+        F2020L01031:12,
+        F2020L01031:13,
+        F2020L01031:14,
+        F2020L01031:6,
+        F2020L01031:7,
+        F2020L01031:8,
+        F2020L01031:9 ;
+    dct:isPartOf F2020L01031:1 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Introduction - Abrievated Graph Key: I5"@en-AU ;
+    skos:broader F2020L01031:10,
+        F2020L01031:11,
+        F2020L01031:12,
+        F2020L01031:13,
+        F2020L01031:14,
+        F2020L01031:6,
+        F2020L01031:7,
+        F2020L01031:8,
+        F2020L01031:9 ;
+    skos:definition "Introduction"@en-AU ;
+    skos:narrower F2020L01031:1 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375872> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375872"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031:1 a legcons:Volume,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Volume - V1 Volume 1"@en-AU ;
+    dct:hasPart F2020L01031:15,
+        F2020L01031:2,
+        F2020L01031:24,
+        F2020L01031:31,
+        F2020L01031:39,
+        F2020L01031:4,
+        F2020L01031:48,
+        F2020L01031:5,
+        F2020L01031:51,
+        F2020L01031:54,
+        F2020L01031:61,
+        F2020L01031:65 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Volume 1 - Abrievated Graph Key: V1"@en-AU ;
+    skos:broader F2020L01031:15,
+        F2020L01031:2,
+        F2020L01031:24,
+        F2020L01031:31,
+        F2020L01031:39,
+        F2020L01031:4,
+        F2020L01031:48,
+        F2020L01031:5,
+        F2020L01031:51,
+        F2020L01031:54,
+        F2020L01031:61,
+        F2020L01031:65 ;
+    skos:definition "Volume 1"@en-AU ;
+    skos:prefLabel "Volume V1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html"^^xsd:anyURI ;
+    dcat:theme legcons:Volume .
+
+F2020L01031:72 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I72 Sydney City Council Rate Book Search"@en-AU ;
+    dct:hasPart F2020L01031:100,
+        F2020L01031:101,
+        F2020L01031:102,
+        F2020L01031:103,
+        F2020L01031:104,
+        F2020L01031:105,
+        F2020L01031:106,
+        F2020L01031:107,
+        F2020L01031:108,
+        F2020L01031:109,
+        F2020L01031:110,
+        F2020L01031:111,
+        F2020L01031:112,
+        F2020L01031:113,
+        F2020L01031:114,
+        F2020L01031:115,
+        F2020L01031:116,
+        F2020L01031:117,
+        F2020L01031:118,
+        F2020L01031:119,
+        F2020L01031:120,
+        F2020L01031:121,
+        F2020L01031:122,
+        F2020L01031:123,
+        F2020L01031:124,
+        F2020L01031:125,
+        F2020L01031:126,
+        F2020L01031:127,
+        F2020L01031:128,
+        F2020L01031:129,
+        F2020L01031:73,
+        F2020L01031:74,
+        F2020L01031:75,
+        F2020L01031:76,
+        F2020L01031:77,
+        F2020L01031:78,
+        F2020L01031:79,
+        F2020L01031:80,
+        F2020L01031:81,
+        F2020L01031:82,
+        F2020L01031:83,
+        F2020L01031:84,
+        F2020L01031:85,
+        F2020L01031:86,
+        F2020L01031:87,
+        F2020L01031:88,
+        F2020L01031:89,
+        F2020L01031:90,
+        F2020L01031:91,
+        F2020L01031:92,
+        F2020L01031:93,
+        F2020L01031:94,
+        F2020L01031:95,
+        F2020L01031:96,
+        F2020L01031:97,
+        F2020L01031:98,
+        F2020L01031:99 ;
+    dct:isPartOf F2020L01031:65 ;
+    dct:isReferencedBy F2020L01031: ;
+    rdfs:comment "Sydney City Council Rate Book Search - Abrievated Graph Key: I72"@en-AU ;
+    skos:broader F2020L01031:100,
+        F2020L01031:101,
+        F2020L01031:102,
+        F2020L01031:103,
+        F2020L01031:104,
+        F2020L01031:105,
+        F2020L01031:106,
+        F2020L01031:107,
+        F2020L01031:108,
+        F2020L01031:109,
+        F2020L01031:110,
+        F2020L01031:111,
+        F2020L01031:112,
+        F2020L01031:113,
+        F2020L01031:114,
+        F2020L01031:115,
+        F2020L01031:116,
+        F2020L01031:117,
+        F2020L01031:118,
+        F2020L01031:119,
+        F2020L01031:120,
+        F2020L01031:121,
+        F2020L01031:122,
+        F2020L01031:123,
+        F2020L01031:124,
+        F2020L01031:125,
+        F2020L01031:126,
+        F2020L01031:127,
+        F2020L01031:128,
+        F2020L01031:129,
+        F2020L01031:73,
+        F2020L01031:74,
+        F2020L01031:75,
+        F2020L01031:76,
+        F2020L01031:77,
+        F2020L01031:78,
+        F2020L01031:79,
+        F2020L01031:80,
+        F2020L01031:81,
+        F2020L01031:82,
+        F2020L01031:83,
+        F2020L01031:84,
+        F2020L01031:85,
+        F2020L01031:86,
+        F2020L01031:87,
+        F2020L01031:88,
+        F2020L01031:89,
+        F2020L01031:90,
+        F2020L01031:91,
+        F2020L01031:92,
+        F2020L01031:93,
+        F2020L01031:94,
+        F2020L01031:95,
+        F2020L01031:96,
+        F2020L01031:97,
+        F2020L01031:98,
+        F2020L01031:99 ;
+    skos:definition "Sydney City Council Rate Book Search"@en-AU ;
+    skos:narrower F2020L01031:65 ;
+    skos:prefLabel "Item I72"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375939> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L01031/2021-11-05/2021-11-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc34375939"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L01031: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Reserve Bank of Australia Head Office, 65 Martin Place, Sydney Heritage Management Plan 2020" ;
+    dct:Jurisdiction " Department of Climate Change, Energy, the Environment and Water "@en-AU ;
+    dct:created "2026-05-26T11:02:01.637502"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2021-11-05T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Reserve Bank of Australia Head Office, 65 Martin Place, Sydney Heritage Management Plan 2020"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2020L01031/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Reserve Bank of Australia Head Office, 65 Martin Place, Sydney Heritage Management Plan 2020"@en-AU ;
+    dct:title "Reserve Bank of Australia Head Office, 65 Martin Place, Sydney Heritage Management Plan 2020"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Volume ;
+    schema:status "In force" ;
+    schema:version "F2021C01223 C01" .
+

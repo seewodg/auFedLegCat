@@ -1,0 +1,339 @@
+@prefix C2004A01095: <http://example.org/au/leg/dataset/C2004A01095/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A01095:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title see Note 1"@en-AU ;
+    dct:isReferencedBy C2004A01095: ;
+    rdfs:comment "1  Short title see Note 1 - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title see Note 1"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283937> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283937"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01095:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A01095: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283938> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283938"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01095:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 International Organisations Privileges and Immunities Act 1963"@en-AU ;
+    dct:isPartOf C2004A01095:5 ;
+    dct:isReferencedBy C2004A01095: ;
+    rdfs:comment "International Organisations Privileges and Immunities Act 1963 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "International Organisations Privileges and Immunities Act 1963"@en-AU ;
+    skos:narrower C2004A01095:5 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283947> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283947"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01095:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2004A01095:5 ;
+    dct:isReferencedBy C2004A01095: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2004A01095:5 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283949> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283949"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01095:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Passenger Movement Charge Collection Act 1978"@en-AU ;
+    dct:isPartOf C2004A01095:5 ;
+    dct:isReferencedBy C2004A01095: ;
+    rdfs:comment "Passenger Movement Charge Collection Act 1978 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Passenger Movement Charge Collection Act 1978"@en-AU ;
+    skos:narrower C2004A01095:5 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283950> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283950"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01095:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Petroleum Submerged Lands Act 1967"@en-AU ;
+    dct:isPartOf C2004A01095:5 ;
+    dct:isReferencedBy C2004A01095: ;
+    rdfs:comment "Petroleum Submerged Lands Act 1967 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Petroleum Submerged Lands Act 1967"@en-AU ;
+    skos:narrower C2004A01095:5 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283951> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283951"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01095:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Petroleum Timor Gap Zone of Cooperation Act 1990"@en-AU ;
+    dct:isPartOf C2004A01095:5 ;
+    dct:isReferencedBy C2004A01095: ;
+    rdfs:comment "Petroleum Timor Gap Zone of Cooperation Act 1990 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Petroleum Timor Gap Zone of Cooperation Act 1990"@en-AU ;
+    skos:narrower C2004A01095:5 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283952> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283952"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01095:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Quarantine Act 1908"@en-AU ;
+    dct:isPartOf C2004A01095:5 ;
+    dct:isReferencedBy C2004A01095: ;
+    rdfs:comment "Quarantine Act 1908 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Quarantine Act 1908"@en-AU ;
+    skos:narrower C2004A01095:5 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283953> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283953"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01095:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Superannuation Guarantee Administration Act 1992"@en-AU ;
+    dct:isPartOf C2004A01095:5 ;
+    dct:isReferencedBy C2004A01095: ;
+    rdfs:comment "Superannuation Guarantee Administration Act 1992 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Superannuation Guarantee Administration Act 1992"@en-AU ;
+    skos:narrower C2004A01095:5 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283954> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283954"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01095:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2004A01095:5 ;
+    dct:isReferencedBy C2004A01095: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2004A01095:5 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283956> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283956"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01095:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Workplace Relations Act 1996"@en-AU ;
+    dct:isPartOf C2004A01095:5 ;
+    dct:isReferencedBy C2004A01095: ;
+    rdfs:comment "Workplace Relations Act 1996 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2004A01095:5 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283957> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283957"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01095:19 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P19 Part 2 Application saving and transitional provisions"@en-AU ;
+    dct:isPartOf C2004A01095:4 ;
+    dct:isReferencedBy C2004A01095: ;
+    rdfs:comment "Part 2 Application saving and transitional provisions - Abrievated Graph Key: P19"@en-AU ;
+    skos:definition "Part 2 Application saving and transitional provisions"@en-AU ;
+    skos:narrower C2004A01095:4 ;
+    skos:prefLabel "Part P19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283958> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283958"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01095:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Notes to the   STYLEREF ShortT  MERGEFORMAT  Petroleum Timor Sea Treaty Consequential Amendments Act 2003"@en-AU ;
+    dct:isPartOf C2004A01095:3 ;
+    dct:isReferencedBy C2004A01095: ;
+    rdfs:comment "Notes to the   STYLEREF ShortT  MERGEFORMAT  Petroleum Timor Sea Treaty Consequential Amendments Act 2003 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Notes to the   STYLEREF ShortT  MERGEFORMAT  Petroleum Timor Sea Treaty Consequential Amendments Act 2003"@en-AU ;
+    skos:narrower C2004A01095:3 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283959> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283959"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01095:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Crimes at Sea Act 2000"@en-AU ;
+    dct:isPartOf C2004A01095:5 ;
+    dct:isReferencedBy C2004A01095: ;
+    rdfs:comment "Crimes at Sea Act 2000 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Crimes at Sea Act 2000"@en-AU ;
+    skos:narrower C2004A01095:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283942> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283942"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01095:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2004A01095:5 ;
+    dct:isReferencedBy C2004A01095: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2004A01095:5 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283943> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283943"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01095:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    dct:isPartOf C2004A01095:5 ;
+    dct:isReferencedBy C2004A01095: ;
+    rdfs:comment "Fringe Benefits Tax Assessment Act 1986 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    skos:narrower C2004A01095:5 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283945> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283945"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01095:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2004A01095:5 ;
+    dct:isReferencedBy C2004A01095: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2004A01095:5 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283946> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283946"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01095:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A01095:20,
+        C2004A01095:4 ;
+    dct:isReferencedBy C2004A01095: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A01095:20,
+        C2004A01095:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283939> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283939"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01095:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Consequential amendments"@en-AU ;
+    dct:hasPart C2004A01095:19,
+        C2004A01095:5 ;
+    dct:isPartOf C2004A01095:3 ;
+    dct:isReferencedBy C2004A01095: ;
+    rdfs:comment "Schedule 1 Consequential amendments - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A01095:19,
+        C2004A01095:5 ;
+    skos:definition "Schedule 1 Consequential amendments"@en-AU ;
+    skos:narrower C2004A01095:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283940> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283940"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01095: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Petroleum (Timor Sea Treaty) (Consequential Amendments) Act 2003" ;
+    dct:Jurisdiction " Department of Industry, Science and Resources "@en-AU ;
+    dct:created "2026-05-27T17:07:39.349366"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2010-06-29T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Petroleum (Timor Sea Treaty) (Consequential Amendments) Act 2003"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A01095/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Petroleum (Timor Sea Treaty) (Consequential Amendments) Act 2003"@en-AU ;
+    dct:title "Petroleum (Timor Sea Treaty) (Consequential Amendments) Act 2003"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2010C00645 C01" .
+
+C2004A01095:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2004A01095:10,
+        C2004A01095:11,
+        C2004A01095:12,
+        C2004A01095:13,
+        C2004A01095:14,
+        C2004A01095:15,
+        C2004A01095:16,
+        C2004A01095:17,
+        C2004A01095:18,
+        C2004A01095:6,
+        C2004A01095:7,
+        C2004A01095:8,
+        C2004A01095:9 ;
+    dct:isPartOf C2004A01095:4 ;
+    dct:isReferencedBy C2004A01095: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2004A01095:10,
+        C2004A01095:11,
+        C2004A01095:12,
+        C2004A01095:13,
+        C2004A01095:14,
+        C2004A01095:15,
+        C2004A01095:16,
+        C2004A01095:17,
+        C2004A01095:18,
+        C2004A01095:6,
+        C2004A01095:7,
+        C2004A01095:8,
+        C2004A01095:9 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2004A01095:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283941> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01095/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc271283941"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+

@@ -1,0 +1,925 @@
+@prefix F2009L00505: <http://example.org/au/leg/dataset/F2009L00505/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2009L00505:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 18	Persons to whom this Plan does not apply"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "18	Persons to whom this Plan does not apply - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "18	Persons to whom this Plan does not apply"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762985> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762985"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 2	Fishing in the fishery"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "Part 2	Fishing in the fishery - Abrievated Graph Key: P11"@en-AU ;
+    skos:definition "Part 2	Fishing in the fishery"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762986> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762986"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2009L00505:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 21	Who may fish in the fishery"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "21	Who may fish in the fishery - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "21	Who may fish in the fishery"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762987> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762987"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 22	Fishing methods"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "22	Fishing methods - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "22	Fishing methods"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762988> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762988"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 23	Fishing season"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "23	Fishing season - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "23	Fishing season"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762989> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762989"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 24	Determination of reference points"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "24	Determination of reference points - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "24	Determination of reference points"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762990> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762990"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 25	Determination of total allowable effort TAE"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "25	Determination of total allowable effort TAE - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "25	Determination of total allowable effort TAE"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762991> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762991"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 26	Changing the total allowable effort TAE"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "26	Changing the total allowable effort TAE - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "26	Changing the total allowable effort TAE"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762992> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762992"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 27	Total allowable catch TAC for byproduct"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "27	Total allowable catch TAC for byproduct - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "27	Total allowable catch TAC for byproduct"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762993> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762993"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 28	Changing the total allowable catch TAC"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "28	Changing the total allowable catch TAC - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "28	Changing the total allowable catch TAC"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762994> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762994"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:2 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P2 Part 1  Preliminary"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "Part 1  Preliminary - Abrievated Graph Key: P2"@en-AU ;
+    skos:definition "Part 1  Preliminary"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Part P2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762977> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762977"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2009L00505:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 29	Instruments under s 16 of the Act"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "29	Instruments under s 16 of the Act - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "29	Instruments under s 16 of the Act"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762995> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762995"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:21 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P21 Part 3	Fishing licences"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "Part 3	Fishing licences - Abrievated Graph Key: P21"@en-AU ;
+    skos:definition "Part 3	Fishing licences"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Part P21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762996> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762996"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2009L00505:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 31	Grant of licences"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "31	Grant of licences - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "31	Grant of licences"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762997> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762997"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 32	TSPF boat licences"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "32	TSPF boat licences - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "32	TSPF boat licences"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762998> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762998"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 33	Transfer of TSPF boat licence"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "33	Transfer of TSPF boat licence - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "33	Transfer of TSPF boat licence"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762999> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762999"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 34	TSPF TPC licence"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "34	TSPF TPC licence - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "34	TSPF TPC licence"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763000> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763000"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 35	TSPF Treaty Endorsements"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "35	TSPF Treaty Endorsements - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "35	TSPF Treaty Endorsements"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763001> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763001"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 36	Scientific and developmental permits"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "36	Scientific and developmental permits - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "36	Scientific and developmental permits"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763002> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763002"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 37	Variation of TSPF boat licence  nominated boat"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "37	Variation of TSPF boat licence  nominated boat - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "37	Variation of TSPF boat licence  nominated boat"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763003> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763003"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 38	Other PZJA powers under the Act"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "38	Other PZJA powers under the Act - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "38	Other PZJA powers under the Act"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763004> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763004"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 11	Name of Plan"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "11	Name of Plan - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "11	Name of Plan"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762978> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762978"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:30 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P30 Part 4	Units of fishing capacity"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "Part 4	Units of fishing capacity - Abrievated Graph Key: P30"@en-AU ;
+    skos:definition "Part 4	Units of fishing capacity"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Part P30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763005> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763005"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2009L00505:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 41	Division of fishing capacity into units"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "41	Division of fishing capacity into units - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "41	Division of fishing capacity into units"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763006> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763006"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 42	Number and types of units"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "42	Number and types of units - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "42	Number and types of units"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763007> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763007"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 43	Conversion of units into use entitlement"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "43	Conversion of units into use entitlement - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "43	Conversion of units into use entitlement"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763008> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763008"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 44	Initial allocation of Australian units"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "44	Initial allocation of Australian units - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "44	Initial allocation of Australian units"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763009> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763009"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 45	Certificate of allocation"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "45	Certificate of allocation - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "45	Certificate of allocation"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763010> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763010"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 46	Transfer of Australian units"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "46	Transfer of Australian units - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "46	Transfer of Australian units"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763011> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763011"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 47	Temporary transfer of Australian units"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "47	Temporary transfer of Australian units - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "47	Temporary transfer of Australian units"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763012> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763012"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 48	PNG units"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "48	PNG units - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "48	PNG units"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763013> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763013"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 49	Temporary transfer of PNG units"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "49	Temporary transfer of PNG units - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "49	Temporary transfer of PNG units"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763014> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763014"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 12	Commencement"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "12	Commencement - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "12	Commencement"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762979> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762979"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:40 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P40 Part 5	TSPF Licences and TSPF Treaty endorsements subject to conditions"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "Part 5	TSPF Licences and TSPF Treaty endorsements subject to conditions - Abrievated Graph Key: P40"@en-AU ;
+    skos:definition "Part 5	TSPF Licences and TSPF Treaty endorsements subject to conditions"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Part P40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763015> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763015"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2009L00505:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 51	Licence and endorsement conditions  general"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "51	Licence and endorsement conditions  general - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "51	Licence and endorsement conditions  general"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763016> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763016"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 53 	Licence conditions  TAE and TAC"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "53 	Licence conditions  TAE and TAC - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "53 	Licence conditions  TAE and TAC"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763018> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763018"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:43 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I43 54 	Licence conditions  Other obligations of licence and endorsement holders"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "54 	Licence conditions  Other obligations of licence and endorsement holders - Abrievated Graph Key: I43"@en-AU ;
+    skos:definition "54 	Licence conditions  Other obligations of licence and endorsement holders"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763019> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763019"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 55	Licence and endorsement conditions  observers"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "55	Licence and endorsement conditions  observers - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "55	Licence and endorsement conditions  observers"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763020> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763020"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:45 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I45 56	Licence and endorsement conditions  vessel monitoring systems"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "56	Licence and endorsement conditions  vessel monitoring systems - Abrievated Graph Key: I45"@en-AU ;
+    skos:definition "56	Licence and endorsement conditions  vessel monitoring systems"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763021> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763021"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:46 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I46 57	Licence and endorsement conditions  obligations about interactions with certain species and communities"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "57	Licence and endorsement conditions  obligations about interactions with certain species and communities - Abrievated Graph Key: I46"@en-AU ;
+    skos:definition "57	Licence and endorsement conditions  obligations about interactions with certain species and communities"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763022> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763022"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:47 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I47 Additional conditions for TSPF Treaty endorsements"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "Additional conditions for TSPF Treaty endorsements - Abrievated Graph Key: I47"@en-AU ;
+    skos:definition "Additional conditions for TSPF Treaty endorsements"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763023> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763023"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:48 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P48 Part 6	Miscellaneous"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "Part 6	Miscellaneous - Abrievated Graph Key: P48"@en-AU ;
+    skos:definition "Part 6	Miscellaneous"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Part P48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763024> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763024"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2009L00505:49 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I49 61	Register"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "61	Register - Abrievated Graph Key: I49"@en-AU ;
+    skos:definition "61	Register"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763025> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763025"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 13	Interpretation"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "13	Interpretation - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "13	Interpretation"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762980> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762980"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:50 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I50 62	Reconsideration of decisions"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "62	Reconsideration of decisions - Abrievated Graph Key: I50"@en-AU ;
+    skos:definition "62	Reconsideration of decisions"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763026> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763026"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:51 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I51 63	Notices"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "63	Notices - Abrievated Graph Key: I51"@en-AU ;
+    skos:definition "63	Notices"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763027> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763027"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:52 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I52 64	Transitional"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "64	Transitional - Abrievated Graph Key: I52"@en-AU ;
+    skos:definition "64	Transitional"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763028> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763028"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:53 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I53 SCHEDULE 1  Area of the fishery"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "SCHEDULE 1  Area of the fishery - Abrievated Graph Key: I53"@en-AU ;
+    skos:definition "SCHEDULE 1  Area of the fishery"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763029> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763029"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:54 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I54 SCHEDULE 2  Area of the fishery expressed using coordinates based on WGS 84"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "SCHEDULE 2  Area of the fishery expressed using coordinates based on WGS 84 - Abrievated Graph Key: I54"@en-AU ;
+    skos:definition "SCHEDULE 2  Area of the fishery expressed using coordinates based on WGS 84"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763030> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763030"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:55 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label """Item - I55 
+SCHEDULE 3  Species"""@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment """
+SCHEDULE 3  Species - Abrievated Graph Key: I55"""@en-AU ;
+    skos:definition """
+SCHEDULE 3  Species"""@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763031> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763031"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:56 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I56 SCHEDULE 4  Size limits"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "SCHEDULE 4  Size limits - Abrievated Graph Key: I56"@en-AU ;
+    skos:definition "SCHEDULE 4  Size limits"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763032> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204763032"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 14	Area of the fishery"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "14	Area of the fishery - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "14	Area of the fishery"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762981> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762981"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 15	Objectives of this Plan Act s 15 A 2"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "15	Objectives of this Plan Act s 15 A 2 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "15	Objectives of this Plan Act s 15 A 2"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762982> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762982"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 16	Measures and performance criteria"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "16	Measures and performance criteria - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "16	Measures and performance criteria"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762983> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762983"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 17	Persons to whom this Plan applies"@en-AU ;
+    dct:isPartOf F2009L00505:1 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "17	Persons to whom this Plan applies - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "17	Persons to whom this Plan applies"@en-AU ;
+    skos:narrower F2009L00505:1 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762984> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762984"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2009L00505: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Torres Strait Prawn Fishery Management Plan 2009" ;
+    dct:Jurisdiction " Department of Agriculture, Fisheries and Forestry "@en-AU ;
+    dct:created "2026-05-26T10:52:31.757972"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2017-02-16T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Torres Strait Prawn Fishery Management Plan 2009"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2009L00505/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Torres Strait Prawn Fishery Management Plan 2009"@en-AU ;
+    dct:title "Torres Strait Prawn Fishery Management Plan 2009"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part ;
+    schema:status "In force" ;
+    schema:version "F2017C00118 C01" .
+
+F2009L00505:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 Torres Strait Prawn Fishery Management Plan"@en-AU ;
+    dct:hasPart F2009L00505:10,
+        F2009L00505:11,
+        F2009L00505:12,
+        F2009L00505:13,
+        F2009L00505:14,
+        F2009L00505:15,
+        F2009L00505:16,
+        F2009L00505:17,
+        F2009L00505:18,
+        F2009L00505:19,
+        F2009L00505:2,
+        F2009L00505:20,
+        F2009L00505:21,
+        F2009L00505:22,
+        F2009L00505:23,
+        F2009L00505:24,
+        F2009L00505:25,
+        F2009L00505:26,
+        F2009L00505:27,
+        F2009L00505:28,
+        F2009L00505:29,
+        F2009L00505:3,
+        F2009L00505:30,
+        F2009L00505:31,
+        F2009L00505:32,
+        F2009L00505:33,
+        F2009L00505:34,
+        F2009L00505:35,
+        F2009L00505:36,
+        F2009L00505:37,
+        F2009L00505:38,
+        F2009L00505:39,
+        F2009L00505:4,
+        F2009L00505:40,
+        F2009L00505:41,
+        F2009L00505:42,
+        F2009L00505:43,
+        F2009L00505:44,
+        F2009L00505:45,
+        F2009L00505:46,
+        F2009L00505:47,
+        F2009L00505:48,
+        F2009L00505:49,
+        F2009L00505:5,
+        F2009L00505:50,
+        F2009L00505:51,
+        F2009L00505:52,
+        F2009L00505:53,
+        F2009L00505:54,
+        F2009L00505:55,
+        F2009L00505:56,
+        F2009L00505:6,
+        F2009L00505:7,
+        F2009L00505:8,
+        F2009L00505:9 ;
+    dct:isReferencedBy F2009L00505: ;
+    rdfs:comment "Torres Strait Prawn Fishery Management Plan - Abrievated Graph Key: I1"@en-AU ;
+    skos:broader F2009L00505:10,
+        F2009L00505:11,
+        F2009L00505:12,
+        F2009L00505:13,
+        F2009L00505:14,
+        F2009L00505:15,
+        F2009L00505:16,
+        F2009L00505:17,
+        F2009L00505:18,
+        F2009L00505:19,
+        F2009L00505:2,
+        F2009L00505:20,
+        F2009L00505:21,
+        F2009L00505:22,
+        F2009L00505:23,
+        F2009L00505:24,
+        F2009L00505:25,
+        F2009L00505:26,
+        F2009L00505:27,
+        F2009L00505:28,
+        F2009L00505:29,
+        F2009L00505:3,
+        F2009L00505:30,
+        F2009L00505:31,
+        F2009L00505:32,
+        F2009L00505:33,
+        F2009L00505:34,
+        F2009L00505:35,
+        F2009L00505:36,
+        F2009L00505:37,
+        F2009L00505:38,
+        F2009L00505:39,
+        F2009L00505:4,
+        F2009L00505:40,
+        F2009L00505:41,
+        F2009L00505:42,
+        F2009L00505:43,
+        F2009L00505:44,
+        F2009L00505:45,
+        F2009L00505:46,
+        F2009L00505:47,
+        F2009L00505:48,
+        F2009L00505:49,
+        F2009L00505:5,
+        F2009L00505:50,
+        F2009L00505:51,
+        F2009L00505:52,
+        F2009L00505:53,
+        F2009L00505:54,
+        F2009L00505:55,
+        F2009L00505:56,
+        F2009L00505:6,
+        F2009L00505:7,
+        F2009L00505:8,
+        F2009L00505:9 ;
+    skos:definition "Torres Strait Prawn Fishery Management Plan"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762976> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2009L00505/2017-02-16/2017-02-16/text/1/epub/OEBPS/document_1/document_1.html#_Toc204762976"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+

@@ -1,0 +1,174 @@
+@prefix F2024L00374: <http://example.org/au/leg/dataset/F2024L00374/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2024L00374:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 6	Repeal"@en-AU ;
+    dct:isPartOf F2024L00374:9 ;
+    dct:isReferencedBy F2024L00374: ;
+    rdfs:comment "6	Repeal - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "6	Repeal"@en-AU ;
+    skos:narrower F2024L00374:9 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L00374/asmade/2024-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc161911366> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L00374/asmade/2024-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc161911366"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L00374:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 1	Name of legislative instrument"@en-AU ;
+    dct:isPartOf F2024L00374:1 ;
+    dct:isReferencedBy F2024L00374: ;
+    rdfs:comment "1	Name of legislative instrument - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "1	Name of legislative instrument"@en-AU ;
+    skos:narrower F2024L00374:1 ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L00374/asmade/2024-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc161911358> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L00374/asmade/2024-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc161911358"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L00374:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 2	Commencement"@en-AU ;
+    dct:isPartOf F2024L00374:1 ;
+    dct:isReferencedBy F2024L00374: ;
+    rdfs:comment "2	Commencement - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "2	Commencement"@en-AU ;
+    skos:narrower F2024L00374:1 ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L00374/asmade/2024-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc161911359> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L00374/asmade/2024-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc161911359"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L00374:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 3	Authority"@en-AU ;
+    dct:isPartOf F2024L00374:1 ;
+    dct:isReferencedBy F2024L00374: ;
+    rdfs:comment "3	Authority - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "3	Authority"@en-AU ;
+    skos:narrower F2024L00374:1 ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L00374/asmade/2024-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc161911360> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L00374/asmade/2024-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc161911360"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L00374:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 2 Declaration"@en-AU ;
+    dct:hasPart F2024L00374:6 ;
+    dct:isReferencedBy F2024L00374: ;
+    rdfs:comment "Part 2 Declaration - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader F2024L00374:6 ;
+    skos:definition "Part 2 Declaration"@en-AU ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L00374/asmade/2024-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc161911361> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L00374/asmade/2024-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc161911361"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2024L00374:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 4	Minimum standards for holding scheme property or assets"@en-AU ;
+    dct:isPartOf F2024L00374:5 ;
+    dct:isReferencedBy F2024L00374: ;
+    rdfs:comment "4	Minimum standards for holding scheme property or assets - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "4	Minimum standards for holding scheme property or assets"@en-AU ;
+    skos:narrower F2024L00374:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L00374/asmade/2024-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc161911362> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L00374/asmade/2024-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc161911362"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L00374:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 3 Exemption"@en-AU ;
+    dct:hasPart F2024L00374:8 ;
+    dct:isReferencedBy F2024L00374: ;
+    rdfs:comment "Part 3 Exemption - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader F2024L00374:8 ;
+    skos:definition "Part 3 Exemption"@en-AU ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L00374/asmade/2024-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc161911363> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L00374/asmade/2024-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc161911363"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2024L00374:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 5	Omnibus accounts"@en-AU ;
+    dct:isPartOf F2024L00374:7 ;
+    dct:isReferencedBy F2024L00374: ;
+    rdfs:comment "5	Omnibus accounts - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "5	Omnibus accounts"@en-AU ;
+    skos:narrower F2024L00374:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L00374/asmade/2024-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc161911364> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L00374/asmade/2024-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc161911364"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L00374:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 4 Repeal"@en-AU ;
+    dct:hasPart F2024L00374:10 ;
+    dct:isReferencedBy F2024L00374: ;
+    rdfs:comment "Part 4 Repeal - Abrievated Graph Key: P9"@en-AU ;
+    skos:broader F2024L00374:10 ;
+    skos:definition "Part 4 Repeal"@en-AU ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L00374/asmade/2024-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc161911365> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L00374/asmade/2024-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc161911365"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2024L00374:1 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P1 Part 1 Preliminary"@en-AU ;
+    dct:hasPart F2024L00374:2,
+        F2024L00374:3,
+        F2024L00374:4 ;
+    dct:isReferencedBy F2024L00374: ;
+    rdfs:comment "Part 1 Preliminary - Abrievated Graph Key: P1"@en-AU ;
+    skos:broader F2024L00374:2,
+        F2024L00374:3,
+        F2024L00374:4 ;
+    skos:definition "Part 1 Preliminary"@en-AU ;
+    skos:prefLabel "Part P1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L00374/asmade/2024-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc161911357> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L00374/asmade/2024-03-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc161911357"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2024L00374: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "ASIC Corporations (Asset Holding Standards for Responsible Entities) Instrument 2024/16" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-27T17:51:59.237192"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2024-03-25T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "ASIC Corporations (Asset Holding Standards for Responsible Entities) Instrument 2024/16"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2024L00374/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "ASIC Corporations (Asset Holding Standards for Responsible Entities) Instrument 2024/16"@en-AU ;
+    dct:title "ASIC Corporations (Asset Holding Standards for Responsible Entities) Instrument 2024/16"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part ;
+    schema:status "In force" ;
+    schema:version "F2024L00374" .
+

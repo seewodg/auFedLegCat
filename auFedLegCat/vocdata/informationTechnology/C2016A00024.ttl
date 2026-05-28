@@ -1,0 +1,771 @@
+@prefix C2016A00024: <http://example.org/au/leg/dataset/C2016A00024/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2016A00024:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417508> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417508"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417509> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417509"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2016A00024:10 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2016A00024:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417550> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417550"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2016A00024:12 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2016A00024:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417557> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417557"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Federal Circuit Court of Australia Act 1999"@en-AU ;
+    dct:isPartOf C2016A00024:14 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Federal Circuit Court of Australia Act 1999 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Federal Circuit Court of Australia Act 1999"@en-AU ;
+    skos:narrower C2016A00024:14 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417560> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417560"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Native Title Act 1993"@en-AU ;
+    dct:isPartOf C2016A00024:16 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Native Title Act 1993 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Native Title Act 1993"@en-AU ;
+    skos:narrower C2016A00024:16 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417573> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417573"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Administrative Decisions Judicial Review Act 1977"@en-AU ;
+    dct:isPartOf C2016A00024:19 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Administrative Decisions Judicial Review Act 1977 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Administrative Decisions Judicial Review Act 1977"@en-AU ;
+    skos:narrower C2016A00024:19 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417581> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417581"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Australian Securities and Investments Commission Act 2001"@en-AU ;
+    dct:isPartOf C2016A00024:19 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Australian Securities and Investments Commission Act 2001 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Australian Securities and Investments Commission Act 2001"@en-AU ;
+    skos:narrower C2016A00024:19 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417582> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417582"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Bankruptcy Act 1966"@en-AU ;
+    dct:isPartOf C2016A00024:19 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Bankruptcy Act 1966 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Bankruptcy Act 1966"@en-AU ;
+    skos:narrower C2016A00024:19 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417583> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417583"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Child Support Assessment Act 1989"@en-AU ;
+    dct:isPartOf C2016A00024:19 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Child Support Assessment Act 1989 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Child Support Assessment Act 1989"@en-AU ;
+    skos:narrower C2016A00024:19 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417584> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417584"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Child Support Registration and Collection Act 1988"@en-AU ;
+    dct:isPartOf C2016A00024:19 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Child Support Registration and Collection Act 1988 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Child Support Registration and Collection Act 1988"@en-AU ;
+    skos:narrower C2016A00024:19 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417585> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417585"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Competition and Consumer Act 2010"@en-AU ;
+    dct:isPartOf C2016A00024:19 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Competition and Consumer Act 2010 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Competition and Consumer Act 2010"@en-AU ;
+    skos:narrower C2016A00024:19 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417586> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417586"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Court Security Act 2013"@en-AU ;
+    dct:isPartOf C2016A00024:19 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Court Security Act 2013 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Court Security Act 2013"@en-AU ;
+    skos:narrower C2016A00024:19 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417587> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417587"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Judicial and Statutory Officers Remuneration and Allowances Act 1984"@en-AU ;
+    dct:isPartOf C2016A00024:19 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Judicial and Statutory Officers Remuneration and Allowances Act 1984 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Judicial and Statutory Officers Remuneration and Allowances Act 1984"@en-AU ;
+    skos:narrower C2016A00024:19 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417588> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417588"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Remuneration and Allowances Act 1990"@en-AU ;
+    dct:isPartOf C2016A00024:19 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Remuneration and Allowances Act 1990 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Remuneration and Allowances Act 1990"@en-AU ;
+    skos:narrower C2016A00024:19 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417589> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417589"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2016A00024:19 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2016A00024:19 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417590> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417590"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Aboriginal and Torres Strait Islander Act 2005"@en-AU ;
+    dct:isPartOf C2016A00024:30 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Aboriginal and Torres Strait Islander Act 2005 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Aboriginal and Torres Strait Islander Act 2005"@en-AU ;
+    skos:narrower C2016A00024:30 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417592> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417592"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Bankruptcy Act 1966"@en-AU ;
+    dct:isPartOf C2016A00024:30 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Bankruptcy Act 1966 - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Bankruptcy Act 1966"@en-AU ;
+    skos:narrower C2016A00024:30 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417593> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417593"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Copyright Act 1968"@en-AU ;
+    dct:isPartOf C2016A00024:30 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Copyright Act 1968 - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Copyright Act 1968"@en-AU ;
+    skos:narrower C2016A00024:30 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417594> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417594"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Court Security Act 2013"@en-AU ;
+    dct:isPartOf C2016A00024:30 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Court Security Act 2013 - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Court Security Act 2013"@en-AU ;
+    skos:narrower C2016A00024:30 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417595> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417595"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Ombudsman Act 1976"@en-AU ;
+    dct:isPartOf C2016A00024:30 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Ombudsman Act 1976 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Ombudsman Act 1976"@en-AU ;
+    skos:narrower C2016A00024:30 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417596> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417596"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 Privacy Act 1988"@en-AU ;
+    dct:isPartOf C2016A00024:30 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Privacy Act 1988 - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "Privacy Act 1988"@en-AU ;
+    skos:narrower C2016A00024:30 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417597> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417597"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Public Interest Disclosure Act 2013"@en-AU ;
+    dct:isPartOf C2016A00024:30 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Public Interest Disclosure Act 2013 - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Public Interest Disclosure Act 2013"@en-AU ;
+    skos:narrower C2016A00024:30 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417598> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417598"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 Court Security Act 2013"@en-AU ;
+    dct:isPartOf C2016A00024:38 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Court Security Act 2013 - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "Court Security Act 2013"@en-AU ;
+    skos:narrower C2016A00024:38 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417600> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417600"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 Ombudsman Act 1976"@en-AU ;
+    dct:isPartOf C2016A00024:38 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Ombudsman Act 1976 - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "Ombudsman Act 1976"@en-AU ;
+    skos:narrower C2016A00024:38 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417601> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417601"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 Public Interest Disclosure Act 2013"@en-AU ;
+    dct:isPartOf C2016A00024:38 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Public Interest Disclosure Act 2013 - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "Public Interest Disclosure Act 2013"@en-AU ;
+    skos:narrower C2016A00024:38 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417602> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417602"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:43 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P43 Part 1 Definitions"@en-AU ;
+    dct:isPartOf C2016A00024:42 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Part 1 Definitions - Abrievated Graph Key: P43"@en-AU ;
+    skos:definition "Part 1 Definitions"@en-AU ;
+    skos:narrower C2016A00024:42 ;
+    skos:prefLabel "Part P43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417604> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417604"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00024:44 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P44 Part 2 Names of offices appointments etc"@en-AU ;
+    dct:isPartOf C2016A00024:42 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Part 2 Names of offices appointments etc - Abrievated Graph Key: P44"@en-AU ;
+    skos:definition "Part 2 Names of offices appointments etc"@en-AU ;
+    skos:narrower C2016A00024:42 ;
+    skos:prefLabel "Part P44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417605> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417605"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00024:45 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P45 Part 3 Matters relating to the finance law"@en-AU ;
+    dct:isPartOf C2016A00024:42 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Part 3 Matters relating to the finance law - Abrievated Graph Key: P45"@en-AU ;
+    skos:definition "Part 3 Matters relating to the finance law"@en-AU ;
+    skos:narrower C2016A00024:42 ;
+    skos:prefLabel "Part P45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417606> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417606"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00024:46 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P46 Part 4 Matters relating to APS employment"@en-AU ;
+    dct:isPartOf C2016A00024:42 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Part 4 Matters relating to APS employment - Abrievated Graph Key: P46"@en-AU ;
+    skos:definition "Part 4 Matters relating to APS employment"@en-AU ;
+    skos:narrower C2016A00024:42 ;
+    skos:prefLabel "Part P46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417607> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417607"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00024:47 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P47 Part 5 Transitional rules"@en-AU ;
+    dct:isPartOf C2016A00024:42 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Part 5 Transitional rules - Abrievated Graph Key: P47"@en-AU ;
+    skos:definition "Part 5 Transitional rules"@en-AU ;
+    skos:narrower C2016A00024:42 ;
+    skos:prefLabel "Part P47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417608> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417608"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00024:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Federal Court of Australia Act 1976"@en-AU ;
+    dct:isPartOf C2016A00024:5 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Federal Court of Australia Act 1976 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Federal Court of Australia Act 1976"@en-AU ;
+    skos:narrower C2016A00024:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417513> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417513"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Federal Court of Australia Act 1976"@en-AU ;
+    dct:isPartOf C2016A00024:7 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Federal Court of Australia Act 1976 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Federal Court of Australia Act 1976"@en-AU ;
+    skos:narrower C2016A00024:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417547> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417547"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:10 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P10 Part 1 Amendments commencing 1 July 2016"@en-AU ;
+    dct:hasPart C2016A00024:11 ;
+    dct:isPartOf C2016A00024:9 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Part 1 Amendments commencing 1 July 2016 - Abrievated Graph Key: P10"@en-AU ;
+    skos:broader C2016A00024:11 ;
+    skos:definition "Part 1 Amendments commencing 1 July 2016"@en-AU ;
+    skos:narrower C2016A00024:9 ;
+    skos:prefLabel "Part P10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417549> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417549"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00024:12 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P12 Part 2 Amendments commencing 1 January 2018"@en-AU ;
+    dct:hasPart C2016A00024:13 ;
+    dct:isPartOf C2016A00024:9 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Part 2 Amendments commencing 1 January 2018 - Abrievated Graph Key: P12"@en-AU ;
+    skos:broader C2016A00024:13 ;
+    skos:definition "Part 2 Amendments commencing 1 January 2018"@en-AU ;
+    skos:narrower C2016A00024:9 ;
+    skos:prefLabel "Part P12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417556> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417556"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00024:14 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S14 Schedule 3 Amendments relating to the Federal Circuit Court of Australia"@en-AU ;
+    dct:hasPart C2016A00024:15 ;
+    dct:isPartOf C2016A00024:3 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Schedule 3 Amendments relating to the Federal Circuit Court of Australia - Abrievated Graph Key: S14"@en-AU ;
+    skos:broader C2016A00024:15 ;
+    skos:definition "Schedule 3 Amendments relating to the Federal Circuit Court of Australia"@en-AU ;
+    skos:narrower C2016A00024:3 ;
+    skos:prefLabel "Schedule S14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417559> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417559"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00024:16 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S16 Schedule 4 Amendments relating to the National Native Title Tribunal"@en-AU ;
+    dct:hasPart C2016A00024:17 ;
+    dct:isPartOf C2016A00024:3 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Schedule 4 Amendments relating to the National Native Title Tribunal - Abrievated Graph Key: S16"@en-AU ;
+    skos:broader C2016A00024:17 ;
+    skos:definition "Schedule 4 Amendments relating to the National Native Title Tribunal"@en-AU ;
+    skos:narrower C2016A00024:3 ;
+    skos:prefLabel "Schedule S16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417572> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417572"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00024:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Amendments commencing 1 July 2016"@en-AU ;
+    dct:hasPart C2016A00024:6 ;
+    dct:isPartOf C2016A00024:4 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Part 1 Amendments commencing 1 July 2016 - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2016A00024:6 ;
+    skos:definition "Part 1 Amendments commencing 1 July 2016"@en-AU ;
+    skos:narrower C2016A00024:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417512> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417512"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00024:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Amendments commencing 1 January 2018"@en-AU ;
+    dct:hasPart C2016A00024:8 ;
+    dct:isPartOf C2016A00024:4 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Part 2 Amendments commencing 1 January 2018 - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader C2016A00024:8 ;
+    skos:definition "Part 2 Amendments commencing 1 January 2018"@en-AU ;
+    skos:narrower C2016A00024:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417546> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417546"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00024:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments relating to the Federal Court of Australia"@en-AU ;
+    dct:hasPart C2016A00024:5,
+        C2016A00024:7 ;
+    dct:isPartOf C2016A00024:3 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Schedule 1 Amendments relating to the Federal Court of Australia - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2016A00024:5,
+        C2016A00024:7 ;
+    skos:definition "Schedule 1 Amendments relating to the Federal Court of Australia"@en-AU ;
+    skos:narrower C2016A00024:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417511> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417511"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00024:9 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S9 Schedule 2 Amendments relating to the Family Court of Australia"@en-AU ;
+    dct:hasPart C2016A00024:10,
+        C2016A00024:12 ;
+    dct:isPartOf C2016A00024:3 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Schedule 2 Amendments relating to the Family Court of Australia - Abrievated Graph Key: S9"@en-AU ;
+    skos:broader C2016A00024:10,
+        C2016A00024:12 ;
+    skos:definition "Schedule 2 Amendments relating to the Family Court of Australia"@en-AU ;
+    skos:narrower C2016A00024:3 ;
+    skos:prefLabel "Schedule S9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417548> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417548"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00024:18 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S18 Schedule 5 Consequential amendments"@en-AU ;
+    dct:hasPart C2016A00024:19,
+        C2016A00024:30,
+        C2016A00024:38 ;
+    dct:isPartOf C2016A00024:3 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Schedule 5 Consequential amendments - Abrievated Graph Key: S18"@en-AU ;
+    skos:broader C2016A00024:19,
+        C2016A00024:30,
+        C2016A00024:38 ;
+    skos:definition "Schedule 5 Consequential amendments"@en-AU ;
+    skos:narrower C2016A00024:3 ;
+    skos:prefLabel "Schedule S18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417579> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417579"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00024:38 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P38 Part 3 Chief Executive Officersamendments commencing 1 January 2018"@en-AU ;
+    dct:hasPart C2016A00024:39,
+        C2016A00024:40,
+        C2016A00024:41 ;
+    dct:isPartOf C2016A00024:18 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Part 3 Chief Executive Officersamendments commencing 1 January 2018 - Abrievated Graph Key: P38"@en-AU ;
+    skos:broader C2016A00024:39,
+        C2016A00024:40,
+        C2016A00024:41 ;
+    skos:definition "Part 3 Chief Executive Officersamendments commencing 1 January 2018"@en-AU ;
+    skos:narrower C2016A00024:18 ;
+    skos:prefLabel "Part P38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417599> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417599"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00024:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2016A00024:14,
+        C2016A00024:16,
+        C2016A00024:18,
+        C2016A00024:4,
+        C2016A00024:42,
+        C2016A00024:9 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2016A00024:14,
+        C2016A00024:16,
+        C2016A00024:18,
+        C2016A00024:4,
+        C2016A00024:42,
+        C2016A00024:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417510> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417510"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00024:42 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S42 Schedule 6 Application and transitional provisions"@en-AU ;
+    dct:hasPart C2016A00024:43,
+        C2016A00024:44,
+        C2016A00024:45,
+        C2016A00024:46,
+        C2016A00024:47 ;
+    dct:isPartOf C2016A00024:3 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Schedule 6 Application and transitional provisions - Abrievated Graph Key: S42"@en-AU ;
+    skos:broader C2016A00024:43,
+        C2016A00024:44,
+        C2016A00024:45,
+        C2016A00024:46,
+        C2016A00024:47 ;
+    skos:definition "Schedule 6 Application and transitional provisions"@en-AU ;
+    skos:narrower C2016A00024:3 ;
+    skos:prefLabel "Schedule S42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417603> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417603"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00024:30 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P30 Part 2 Chief Executive Officersamendments commencing 1 July 2016"@en-AU ;
+    dct:hasPart C2016A00024:31,
+        C2016A00024:32,
+        C2016A00024:33,
+        C2016A00024:34,
+        C2016A00024:35,
+        C2016A00024:36,
+        C2016A00024:37 ;
+    dct:isPartOf C2016A00024:18 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Part 2 Chief Executive Officersamendments commencing 1 July 2016 - Abrievated Graph Key: P30"@en-AU ;
+    skos:broader C2016A00024:31,
+        C2016A00024:32,
+        C2016A00024:33,
+        C2016A00024:34,
+        C2016A00024:35,
+        C2016A00024:36,
+        C2016A00024:37 ;
+    skos:definition "Part 2 Chief Executive Officersamendments commencing 1 July 2016"@en-AU ;
+    skos:narrower C2016A00024:18 ;
+    skos:prefLabel "Part P30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417591> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417591"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00024:19 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P19 Part 1 Family Court Chief Justice Deputy Chief Justice and Judge Administrators"@en-AU ;
+    dct:hasPart C2016A00024:20,
+        C2016A00024:21,
+        C2016A00024:22,
+        C2016A00024:23,
+        C2016A00024:24,
+        C2016A00024:25,
+        C2016A00024:26,
+        C2016A00024:27,
+        C2016A00024:28,
+        C2016A00024:29 ;
+    dct:isPartOf C2016A00024:18 ;
+    dct:isReferencedBy C2016A00024: ;
+    rdfs:comment "Part 1 Family Court Chief Justice Deputy Chief Justice and Judge Administrators - Abrievated Graph Key: P19"@en-AU ;
+    skos:broader C2016A00024:20,
+        C2016A00024:21,
+        C2016A00024:22,
+        C2016A00024:23,
+        C2016A00024:24,
+        C2016A00024:25,
+        C2016A00024:26,
+        C2016A00024:27,
+        C2016A00024:28,
+        C2016A00024:29 ;
+    skos:definition "Part 1 Family Court Chief Justice Deputy Chief Justice and Judge Administrators"@en-AU ;
+    skos:narrower C2016A00024:18 ;
+    skos:prefLabel "Part P19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417580> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00024/asmade/2016-03-18/text/original/epub/OEBPS/document_1/document_1.html#_Toc446417580"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00024: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Courts Administration Legislation Amendment Act 2016" ;
+    dct:Jurisdiction " Attorney-General's Department "@en-AU ;
+    dct:created "2026-05-26T20:38:23.815771"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2016-03-18T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Courts Administration Legislation Amendment Act 2016"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2016A00024/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Courts Administration Legislation Amendment Act 2016"@en-AU ;
+    dct:title "Courts Administration Legislation Amendment Act 2016"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2016A00024" .
+

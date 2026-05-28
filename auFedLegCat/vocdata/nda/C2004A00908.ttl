@@ -1,0 +1,354 @@
+@prefix C2004A00908: <http://example.org/au/leg/dataset/C2004A00908/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A00908:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A00908: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582527> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582527"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00908:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A00908: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582528> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582528"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00908:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Crimes Act 1914"@en-AU ;
+    dct:isPartOf C2004A00908:10 ;
+    dct:isReferencedBy C2004A00908: ;
+    rdfs:comment "Crimes Act 1914 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Crimes Act 1914"@en-AU ;
+    skos:narrower C2004A00908:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582591> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582591"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00908:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Crimes Act 1914"@en-AU ;
+    dct:isPartOf C2004A00908:12 ;
+    dct:isReferencedBy C2004A00908: ;
+    rdfs:comment "Crimes Act 1914 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Crimes Act 1914"@en-AU ;
+    skos:narrower C2004A00908:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582621> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582621"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00908:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2004A00908:12 ;
+    dct:isReferencedBy C2004A00908: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2004A00908:12 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582629> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582629"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00908:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Fisheries Management Act 1991"@en-AU ;
+    dct:isPartOf C2004A00908:12 ;
+    dct:isReferencedBy C2004A00908: ;
+    rdfs:comment "Fisheries Management Act 1991 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Fisheries Management Act 1991"@en-AU ;
+    skos:narrower C2004A00908:12 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582630> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582630"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00908:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Australian Federal Police Act 1979"@en-AU ;
+    dct:isPartOf C2004A00908:16 ;
+    dct:isReferencedBy C2004A00908: ;
+    rdfs:comment "Australian Federal Police Act 1979 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Australian Federal Police Act 1979"@en-AU ;
+    skos:narrower C2004A00908:16 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582632> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582632"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00908:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2004A00908:16 ;
+    dct:isReferencedBy C2004A00908: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2004A00908:16 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582633> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582633"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00908:19 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S19 Schedule 6 Amendment of the Financial Transaction Reports Act 1988"@en-AU ;
+    dct:isPartOf C2004A00908:3 ;
+    dct:isReferencedBy C2004A00908: ;
+    rdfs:comment "Schedule 6 Amendment of the Financial Transaction Reports Act 1988 - Abrievated Graph Key: S19"@en-AU ;
+    skos:definition "Schedule 6 Amendment of the Financial Transaction Reports Act 1988"@en-AU ;
+    skos:narrower C2004A00908:3 ;
+    skos:prefLabel "Schedule S19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582634> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582634"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00908:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Crimes Act 1914"@en-AU ;
+    dct:isPartOf C2004A00908:20 ;
+    dct:isReferencedBy C2004A00908: ;
+    rdfs:comment "Crimes Act 1914 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Crimes Act 1914"@en-AU ;
+    skos:narrower C2004A00908:20 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582637> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582637"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00908:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Crimes Act 1914"@en-AU ;
+    dct:isPartOf C2004A00908:4 ;
+    dct:isReferencedBy C2004A00908: ;
+    rdfs:comment "Crimes Act 1914 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Crimes Act 1914"@en-AU ;
+    skos:narrower C2004A00908:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582531> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582531"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00908:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2004A00908:4 ;
+    dct:isReferencedBy C2004A00908: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2004A00908:4 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582554> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582554"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00908:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 National Crime Authority Act 1984"@en-AU ;
+    dct:isPartOf C2004A00908:4 ;
+    dct:isReferencedBy C2004A00908: ;
+    rdfs:comment "National Crime Authority Act 1984 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "National Crime Authority Act 1984"@en-AU ;
+    skos:narrower C2004A00908:4 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582555> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582555"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00908:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Crimes Act 1914"@en-AU ;
+    dct:isPartOf C2004A00908:8 ;
+    dct:isReferencedBy C2004A00908: ;
+    rdfs:comment "Crimes Act 1914 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Crimes Act 1914"@en-AU ;
+    skos:narrower C2004A00908:8 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582558> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582558"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00908:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 3 Protection of children in proceedings for sexual offences"@en-AU ;
+    dct:hasPart C2004A00908:11 ;
+    dct:isPartOf C2004A00908:3 ;
+    dct:isReferencedBy C2004A00908: ;
+    rdfs:comment "Schedule 3 Protection of children in proceedings for sexual offences - Abrievated Graph Key: S10"@en-AU ;
+    skos:broader C2004A00908:11 ;
+    skos:definition "Schedule 3 Protection of children in proceedings for sexual offences"@en-AU ;
+    skos:narrower C2004A00908:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582590> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582590"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00908:20 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S20 Schedule 7 Pardons quashed convictions and spent convictions"@en-AU ;
+    dct:hasPart C2004A00908:21 ;
+    dct:isPartOf C2004A00908:3 ;
+    dct:isReferencedBy C2004A00908: ;
+    rdfs:comment "Schedule 7 Pardons quashed convictions and spent convictions - Abrievated Graph Key: S20"@en-AU ;
+    skos:broader C2004A00908:21 ;
+    skos:definition "Schedule 7 Pardons quashed convictions and spent convictions"@en-AU ;
+    skos:narrower C2004A00908:3 ;
+    skos:prefLabel "Schedule S20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582636> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582636"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00908:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 2 Assumed identities"@en-AU ;
+    dct:hasPart C2004A00908:9 ;
+    dct:isPartOf C2004A00908:3 ;
+    dct:isReferencedBy C2004A00908: ;
+    rdfs:comment "Schedule 2 Assumed identities - Abrievated Graph Key: S8"@en-AU ;
+    skos:broader C2004A00908:9 ;
+    skos:definition "Schedule 2 Assumed identities"@en-AU ;
+    skos:narrower C2004A00908:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582557> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582557"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00908:16 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S16 Schedule 5 Listening device warrants"@en-AU ;
+    dct:hasPart C2004A00908:17,
+        C2004A00908:18 ;
+    dct:isPartOf C2004A00908:3 ;
+    dct:isReferencedBy C2004A00908: ;
+    rdfs:comment "Schedule 5 Listening device warrants - Abrievated Graph Key: S16"@en-AU ;
+    skos:broader C2004A00908:17,
+        C2004A00908:18 ;
+    skos:definition "Schedule 5 Listening device warrants"@en-AU ;
+    skos:narrower C2004A00908:3 ;
+    skos:prefLabel "Schedule S16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582631> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582631"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00908:12 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S12 Schedule 4 Investigation of Commonwealth offences"@en-AU ;
+    dct:hasPart C2004A00908:13,
+        C2004A00908:14,
+        C2004A00908:15 ;
+    dct:isPartOf C2004A00908:3 ;
+    dct:isReferencedBy C2004A00908: ;
+    rdfs:comment "Schedule 4 Investigation of Commonwealth offences - Abrievated Graph Key: S12"@en-AU ;
+    skos:broader C2004A00908:13,
+        C2004A00908:14,
+        C2004A00908:15 ;
+    skos:definition "Schedule 4 Investigation of Commonwealth offences"@en-AU ;
+    skos:narrower C2004A00908:3 ;
+    skos:prefLabel "Schedule S12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582620> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582620"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00908:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Controlled operations"@en-AU ;
+    dct:hasPart C2004A00908:5,
+        C2004A00908:6,
+        C2004A00908:7 ;
+    dct:isPartOf C2004A00908:3 ;
+    dct:isReferencedBy C2004A00908: ;
+    rdfs:comment "Schedule 1 Controlled operations - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A00908:5,
+        C2004A00908:6,
+        C2004A00908:7 ;
+    skos:definition "Schedule 1 Controlled operations"@en-AU ;
+    skos:narrower C2004A00908:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582530> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582530"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00908:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A00908:10,
+        C2004A00908:12,
+        C2004A00908:16,
+        C2004A00908:19,
+        C2004A00908:20,
+        C2004A00908:4,
+        C2004A00908:8 ;
+    dct:isReferencedBy C2004A00908: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A00908:10,
+        C2004A00908:12,
+        C2004A00908:16,
+        C2004A00908:19,
+        C2004A00908:20,
+        C2004A00908:4,
+        C2004A00908:8 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582529> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00908/asmade/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc523582529"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00908: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Measures to Combat Serious and Organised Crime Act 2001" ;
+    dct:Jurisdiction " Attorney-General's Department "@en-AU ;
+    dct:created "2026-05-27T17:38:15.785781"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2001-10-01T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Measures to Combat Serious and Organised Crime Act 2001"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A00908/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Measures to Combat Serious and Organised Crime Act 2001"@en-AU ;
+    dct:title "Measures to Combat Serious and Organised Crime Act 2001"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2004A00908" .
+

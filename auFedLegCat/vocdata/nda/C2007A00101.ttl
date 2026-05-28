@@ -1,0 +1,307 @@
+@prefix C2007A00101: <http://example.org/au/leg/dataset/C2007A00101/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2007A00101:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2007A00101: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359772> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359772"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00101:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2007A00101: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359773> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359773"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00101:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2007A00101:9 ;
+    dct:isReferencedBy C2007A00101: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2007A00101:9 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359799> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359799"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00101:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2007A00101:11 ;
+    dct:isReferencedBy C2007A00101: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2007A00101:11 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359802> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359802"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00101:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2007A00101:11 ;
+    dct:isReferencedBy C2007A00101: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2007A00101:11 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359804> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359804"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00101:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2007A00101:14 ;
+    dct:isReferencedBy C2007A00101: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2007A00101:14 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359806> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359806"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00101:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2007A00101:16 ;
+    dct:isReferencedBy C2007A00101: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2007A00101:16 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359808> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359808"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00101:18 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P18 Part 6 Application and saving provisions"@en-AU ;
+    dct:isPartOf C2007A00101:4 ;
+    dct:isReferencedBy C2007A00101: ;
+    rdfs:comment "Part 6 Application and saving provisions - Abrievated Graph Key: P18"@en-AU ;
+    skos:definition "Part 6 Application and saving provisions"@en-AU ;
+    skos:narrower C2007A00101:4 ;
+    skos:prefLabel "Part P18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359809> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359809"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00101:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2007A00101:4 ;
+    dct:isReferencedBy C2007A00101: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2007A00101:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359774> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359774"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00101:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2007A00101:5 ;
+    dct:isReferencedBy C2007A00101: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2007A00101:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359777> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359777"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00101:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2007A00101:5 ;
+    dct:isReferencedBy C2007A00101: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2007A00101:5 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359796> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359796"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00101:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Veterans Entitlements Act 1986"@en-AU ;
+    dct:isPartOf C2007A00101:5 ;
+    dct:isReferencedBy C2007A00101: ;
+    rdfs:comment "Veterans Entitlements Act 1986 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Veterans Entitlements Act 1986"@en-AU ;
+    skos:narrower C2007A00101:5 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359797> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359797"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00101:14 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P14 Part 4 Amendment commencing on 1 July 2008"@en-AU ;
+    dct:hasPart C2007A00101:15 ;
+    dct:isPartOf C2007A00101:4 ;
+    dct:isReferencedBy C2007A00101: ;
+    rdfs:comment "Part 4 Amendment commencing on 1 July 2008 - Abrievated Graph Key: P14"@en-AU ;
+    skos:broader C2007A00101:15 ;
+    skos:definition "Part 4 Amendment commencing on 1 July 2008"@en-AU ;
+    skos:narrower C2007A00101:4 ;
+    skos:prefLabel "Part P14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359805> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359805"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00101:16 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P16 Part 5 Amendments commencing on 1 January 2009"@en-AU ;
+    dct:hasPart C2007A00101:17 ;
+    dct:isPartOf C2007A00101:4 ;
+    dct:isReferencedBy C2007A00101: ;
+    rdfs:comment "Part 5 Amendments commencing on 1 January 2009 - Abrievated Graph Key: P16"@en-AU ;
+    skos:broader C2007A00101:17 ;
+    skos:definition "Part 5 Amendments commencing on 1 January 2009"@en-AU ;
+    skos:narrower C2007A00101:4 ;
+    skos:prefLabel "Part P16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359807> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359807"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00101:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 2 Amendments commencing on 1 July 2007"@en-AU ;
+    dct:hasPart C2007A00101:10 ;
+    dct:isPartOf C2007A00101:4 ;
+    dct:isReferencedBy C2007A00101: ;
+    rdfs:comment "Part 2 Amendments commencing on 1 July 2007 - Abrievated Graph Key: P9"@en-AU ;
+    skos:broader C2007A00101:10 ;
+    skos:definition "Part 2 Amendments commencing on 1 July 2007"@en-AU ;
+    skos:narrower C2007A00101:4 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359798> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359798"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00101:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 3 Amendments commencing on Proclamation"@en-AU ;
+    dct:hasPart C2007A00101:12,
+        C2007A00101:13 ;
+    dct:isPartOf C2007A00101:4 ;
+    dct:isReferencedBy C2007A00101: ;
+    rdfs:comment "Part 3 Amendments commencing on Proclamation - Abrievated Graph Key: P11"@en-AU ;
+    skos:broader C2007A00101:12,
+        C2007A00101:13 ;
+    skos:definition "Part 3 Amendments commencing on Proclamation"@en-AU ;
+    skos:narrower C2007A00101:4 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359801> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359801"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00101:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Amendments commencing on Royal Assent"@en-AU ;
+    dct:hasPart C2007A00101:6,
+        C2007A00101:7,
+        C2007A00101:8 ;
+    dct:isPartOf C2007A00101:4 ;
+    dct:isReferencedBy C2007A00101: ;
+    rdfs:comment "Part 1 Amendments commencing on Royal Assent - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2007A00101:6,
+        C2007A00101:7,
+        C2007A00101:8 ;
+    skos:definition "Part 1 Amendments commencing on Royal Assent"@en-AU ;
+    skos:narrower C2007A00101:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359776> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359776"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00101:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments"@en-AU ;
+    dct:hasPart C2007A00101:11,
+        C2007A00101:14,
+        C2007A00101:16,
+        C2007A00101:18,
+        C2007A00101:5,
+        C2007A00101:9 ;
+    dct:isPartOf C2007A00101:3 ;
+    dct:isReferencedBy C2007A00101: ;
+    rdfs:comment "Schedule 1 Amendments - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2007A00101:11,
+        C2007A00101:14,
+        C2007A00101:16,
+        C2007A00101:18,
+        C2007A00101:5,
+        C2007A00101:9 ;
+    skos:definition "Schedule 1 Amendments"@en-AU ;
+    skos:narrower C2007A00101:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359775> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00101/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc205359775"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00101: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Corporations Legislation Amendment (Simpler Regulatory System) Act 2007" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-27T17:12:45.432713"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2007-06-28T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Corporations Legislation Amendment (Simpler Regulatory System) Act 2007"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2007A00101/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Corporations Legislation Amendment (Simpler Regulatory System) Act 2007"@en-AU ;
+    dct:title "Corporations Legislation Amendment (Simpler Regulatory System) Act 2007"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2008C00460 C01" .
+

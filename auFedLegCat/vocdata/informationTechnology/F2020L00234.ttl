@@ -1,0 +1,41 @@
+@prefix F2020L00234: <http://example.org/au/leg/dataset/F2020L00234/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2020L00234:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 Text"@en-AU ;
+    dct:isReferencedBy F2020L00234: ;
+    rdfs:comment "Text - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "Text"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2020L00234/2023-12-14/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2020L00234/2023-12-14/2023-12-14/text/original/epub/OEBPS/document_1/document_1.html"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2020L00234: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Auditing Standard ASA 315 Identifying and Assessing the Risks of Material Misstatement" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-26T20:51:54.438109"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2023-12-14T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Auditing Standard ASA 315 Identifying and Assessing the Risks of Material Misstatement"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2020L00234/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Auditing Standard ASA 315 Identifying and Assessing the Risks of Material Misstatement"@en-AU ;
+    dct:title "Auditing Standard ASA 315 Identifying and Assessing the Risks of Material Misstatement"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item ;
+    schema:status "In force" ;
+    schema:version "F2023C01130 C02" .
+

@@ -1,0 +1,499 @@
+@prefix C2007A00132: <http://example.org/au/leg/dataset/C2007A00132/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2007A00132:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641718> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641718"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00132:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641719> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641719"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00132:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2007A00132:10 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2007A00132:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641736> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641736"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00132:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2007A00132:12 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2007A00132:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641751> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641751"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00132:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Australian Securities and Investments Commission Act 2001"@en-AU ;
+    dct:isPartOf C2007A00132:14 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Australian Securities and Investments Commission Act 2001 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Australian Securities and Investments Commission Act 2001"@en-AU ;
+    skos:narrower C2007A00132:14 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641782> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641782"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00132:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2007A00132:14 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2007A00132:14 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641783> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641783"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00132:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2007A00132:17 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2007A00132:17 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641793> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641793"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00132:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2007A00132:20 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2007A00132:20 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641800> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641800"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00132:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2007A00132:22 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2007A00132:22 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641810> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641810"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00132:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2007A00132:24 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2007A00132:24 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641820> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641820"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00132:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Australian Securities and Investments Commission Act 2001"@en-AU ;
+    dct:isPartOf C2007A00132:26 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Australian Securities and Investments Commission Act 2001 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Australian Securities and Investments Commission Act 2001"@en-AU ;
+    skos:narrower C2007A00132:26 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641823> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641823"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00132:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2007A00132:26 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2007A00132:26 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641824> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641824"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00132:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2007A00132:29 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2007A00132:29 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641826> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641826"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00132:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2007A00132:5 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2007A00132:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641723> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641723"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00132:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Superannuation Guarantee Administration Act 1992"@en-AU ;
+    dct:isPartOf C2007A00132:5 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Superannuation Guarantee Administration Act 1992 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Superannuation Guarantee Administration Act 1992"@en-AU ;
+    skos:narrower C2007A00132:5 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641728> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641728"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00132:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2007A00132:8 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2007A00132:8 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641730> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641730"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00132:10 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P10 Part 3 Streamlining external administration"@en-AU ;
+    dct:hasPart C2007A00132:11 ;
+    dct:isPartOf C2007A00132:4 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Part 3 Streamlining external administration - Abrievated Graph Key: P10"@en-AU ;
+    skos:broader C2007A00132:11 ;
+    skos:definition "Part 3 Streamlining external administration"@en-AU ;
+    skos:narrower C2007A00132:4 ;
+    skos:prefLabel "Part P10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641735> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641735"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00132:12 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P12 Part 4 Facilitating pooling in external administration"@en-AU ;
+    dct:hasPart C2007A00132:13 ;
+    dct:isPartOf C2007A00132:4 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Part 4 Facilitating pooling in external administration - Abrievated Graph Key: P12"@en-AU ;
+    skos:broader C2007A00132:13 ;
+    skos:definition "Part 4 Facilitating pooling in external administration"@en-AU ;
+    skos:narrower C2007A00132:4 ;
+    skos:prefLabel "Part P12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641750> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641750"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00132:17 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S17 Schedule 3 Improving regulation of insolvency practitioners"@en-AU ;
+    dct:hasPart C2007A00132:18 ;
+    dct:isPartOf C2007A00132:3 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Schedule 3 Improving regulation of insolvency practitioners - Abrievated Graph Key: S17"@en-AU ;
+    skos:broader C2007A00132:18 ;
+    skos:definition "Schedule 3 Improving regulation of insolvency practitioners"@en-AU ;
+    skos:narrower C2007A00132:3 ;
+    skos:prefLabel "Schedule S17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641792> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641792"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00132:20 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P20 Part 1 General"@en-AU ;
+    dct:hasPart C2007A00132:21 ;
+    dct:isPartOf C2007A00132:19 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Part 1 General - Abrievated Graph Key: P20"@en-AU ;
+    skos:broader C2007A00132:21 ;
+    skos:definition "Part 1 General"@en-AU ;
+    skos:narrower C2007A00132:19 ;
+    skos:prefLabel "Part P20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641799> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641799"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00132:22 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P22 Part 2 Rights to property during administration"@en-AU ;
+    dct:hasPart C2007A00132:23 ;
+    dct:isPartOf C2007A00132:19 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Part 2 Rights to property during administration - Abrievated Graph Key: P22"@en-AU ;
+    skos:broader C2007A00132:23 ;
+    skos:definition "Part 2 Rights to property during administration"@en-AU ;
+    skos:narrower C2007A00132:19 ;
+    skos:prefLabel "Part P22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641809> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641809"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00132:24 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P24 Part 3 Liquidation following administration"@en-AU ;
+    dct:hasPart C2007A00132:25 ;
+    dct:isPartOf C2007A00132:19 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Part 3 Liquidation following administration - Abrievated Graph Key: P24"@en-AU ;
+    skos:broader C2007A00132:25 ;
+    skos:definition "Part 3 Liquidation following administration"@en-AU ;
+    skos:narrower C2007A00132:19 ;
+    skos:prefLabel "Part P24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641819> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641819"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00132:29 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S29 Schedule 6 Transitional"@en-AU ;
+    dct:hasPart C2007A00132:30 ;
+    dct:isPartOf C2007A00132:3 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Schedule 6 Transitional - Abrievated Graph Key: S29"@en-AU ;
+    skos:broader C2007A00132:30 ;
+    skos:definition "Schedule 6 Transitional"@en-AU ;
+    skos:narrower C2007A00132:3 ;
+    skos:prefLabel "Schedule S29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641825> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641825"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00132:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 2 Better informing creditor decisions"@en-AU ;
+    dct:hasPart C2007A00132:9 ;
+    dct:isPartOf C2007A00132:4 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Part 2 Better informing creditor decisions - Abrievated Graph Key: P8"@en-AU ;
+    skos:broader C2007A00132:9 ;
+    skos:definition "Part 2 Better informing creditor decisions"@en-AU ;
+    skos:narrower C2007A00132:4 ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641729> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641729"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00132:14 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S14 Schedule 2 Deterring corporate misconduct"@en-AU ;
+    dct:hasPart C2007A00132:15,
+        C2007A00132:16 ;
+    dct:isPartOf C2007A00132:3 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Schedule 2 Deterring corporate misconduct - Abrievated Graph Key: S14"@en-AU ;
+    skos:broader C2007A00132:15,
+        C2007A00132:16 ;
+    skos:definition "Schedule 2 Deterring corporate misconduct"@en-AU ;
+    skos:narrower C2007A00132:3 ;
+    skos:prefLabel "Schedule S14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641781> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641781"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00132:26 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S26 Schedule 5 Miscellaneous"@en-AU ;
+    dct:hasPart C2007A00132:27,
+        C2007A00132:28 ;
+    dct:isPartOf C2007A00132:3 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Schedule 5 Miscellaneous - Abrievated Graph Key: S26"@en-AU ;
+    skos:broader C2007A00132:27,
+        C2007A00132:28 ;
+    skos:definition "Schedule 5 Miscellaneous"@en-AU ;
+    skos:narrower C2007A00132:3 ;
+    skos:prefLabel "Schedule S26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641822> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641822"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00132:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Enhancing protection of employee entitlements"@en-AU ;
+    dct:hasPart C2007A00132:6,
+        C2007A00132:7 ;
+    dct:isPartOf C2007A00132:4 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Part 1 Enhancing protection of employee entitlements - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2007A00132:6,
+        C2007A00132:7 ;
+    skos:definition "Part 1 Enhancing protection of employee entitlements"@en-AU ;
+    skos:narrower C2007A00132:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641722> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641722"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00132:19 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S19 Schedule 4 Finetuning voluntary administration"@en-AU ;
+    dct:hasPart C2007A00132:20,
+        C2007A00132:22,
+        C2007A00132:24 ;
+    dct:isPartOf C2007A00132:3 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Schedule 4 Finetuning voluntary administration - Abrievated Graph Key: S19"@en-AU ;
+    skos:broader C2007A00132:20,
+        C2007A00132:22,
+        C2007A00132:24 ;
+    skos:definition "Schedule 4 Finetuning voluntary administration"@en-AU ;
+    skos:narrower C2007A00132:3 ;
+    skos:prefLabel "Schedule S19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641798> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641798"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00132:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Improving outcomes for creditors"@en-AU ;
+    dct:hasPart C2007A00132:10,
+        C2007A00132:12,
+        C2007A00132:5,
+        C2007A00132:8 ;
+    dct:isPartOf C2007A00132:3 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "Schedule 1 Improving outcomes for creditors - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2007A00132:10,
+        C2007A00132:12,
+        C2007A00132:5,
+        C2007A00132:8 ;
+    skos:definition "Schedule 1 Improving outcomes for creditors"@en-AU ;
+    skos:narrower C2007A00132:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641721> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641721"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00132:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2007A00132:14,
+        C2007A00132:17,
+        C2007A00132:19,
+        C2007A00132:26,
+        C2007A00132:29,
+        C2007A00132:4 ;
+    dct:isReferencedBy C2007A00132: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2007A00132:14,
+        C2007A00132:17,
+        C2007A00132:19,
+        C2007A00132:26,
+        C2007A00132:29,
+        C2007A00132:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641720> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00132/asmade/2007-08-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc175641720"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00132: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Corporations Amendment (Insolvency) Act 2007" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-27T18:04:48.579160"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2007-08-20T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Corporations Amendment (Insolvency) Act 2007"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2007A00132/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Corporations Amendment (Insolvency) Act 2007"@en-AU ;
+    dct:title "Corporations Amendment (Insolvency) Act 2007"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2007A00132" .
+

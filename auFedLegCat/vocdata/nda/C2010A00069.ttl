@@ -1,0 +1,259 @@
+@prefix C2010A00069: <http://example.org/au/leg/dataset/C2010A00069/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2010A00069:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title see Note 1"@en-AU ;
+    dct:isReferencedBy C2010A00069: ;
+    rdfs:comment "1  Short title see Note 1 - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title see Note 1"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705329> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705329"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00069:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2010A00069: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705330> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705330"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00069:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 1 Provisions relating to main amendments"@en-AU ;
+    dct:isPartOf C2010A00069:10 ;
+    dct:isReferencedBy C2010A00069: ;
+    rdfs:comment "Part 1 Provisions relating to main amendments - Abrievated Graph Key: P11"@en-AU ;
+    skos:definition "Part 1 Provisions relating to main amendments"@en-AU ;
+    skos:narrower C2010A00069:10 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705455> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705455"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00069:12 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P12 Part 2 Provisions relating to other amendments"@en-AU ;
+    dct:isPartOf C2010A00069:10 ;
+    dct:isReferencedBy C2010A00069: ;
+    rdfs:comment "Part 2 Provisions relating to other amendments - Abrievated Graph Key: P12"@en-AU ;
+    skos:definition "Part 2 Provisions relating to other amendments"@en-AU ;
+    skos:narrower C2010A00069:10 ;
+    skos:prefLabel "Part P12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705456> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705456"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00069:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 3 Regulations"@en-AU ;
+    dct:isPartOf C2010A00069:10 ;
+    dct:isReferencedBy C2010A00069: ;
+    rdfs:comment "Part 3 Regulations - Abrievated Graph Key: P13"@en-AU ;
+    skos:definition "Part 3 Regulations"@en-AU ;
+    skos:narrower C2010A00069:10 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705457> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705457"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00069:14 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P14 Part 4 Other matters"@en-AU ;
+    dct:isPartOf C2010A00069:10 ;
+    dct:isReferencedBy C2010A00069: ;
+    rdfs:comment "Part 4 Other matters - Abrievated Graph Key: P14"@en-AU ;
+    skos:definition "Part 4 Other matters"@en-AU ;
+    skos:narrower C2010A00069:10 ;
+    skos:prefLabel "Part P14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705458> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705458"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00069:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Notes to the   STYLEREF ShortT  MERGEFORMAT  Renewable Energy Electricity Amendment Act 2010"@en-AU ;
+    dct:isPartOf C2010A00069:3 ;
+    dct:isReferencedBy C2010A00069: ;
+    rdfs:comment "Notes to the   STYLEREF ShortT  MERGEFORMAT  Renewable Energy Electricity Amendment Act 2010 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Notes to the   STYLEREF ShortT  MERGEFORMAT  Renewable Energy Electricity Amendment Act 2010"@en-AU ;
+    skos:narrower C2010A00069:3 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705459> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705459"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00069:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Renewable Energy Electricity Act 2000"@en-AU ;
+    dct:isPartOf C2010A00069:5 ;
+    dct:isReferencedBy C2010A00069: ;
+    rdfs:comment "Renewable Energy Electricity Act 2000 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Renewable Energy Electricity Act 2000"@en-AU ;
+    skos:narrower C2010A00069:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705334> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705334"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00069:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Renewable Energy Electricity Act 2000"@en-AU ;
+    dct:isPartOf C2010A00069:7 ;
+    dct:isReferencedBy C2010A00069: ;
+    rdfs:comment "Renewable Energy Electricity Act 2000 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Renewable Energy Electricity Act 2000"@en-AU ;
+    skos:narrower C2010A00069:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705419> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705419"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00069:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Renewable Energy Electricity Regulations 2001"@en-AU ;
+    dct:isPartOf C2010A00069:7 ;
+    dct:isReferencedBy C2010A00069: ;
+    rdfs:comment "Renewable Energy Electricity Regulations 2001 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Renewable Energy Electricity Regulations 2001"@en-AU ;
+    skos:narrower C2010A00069:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705453> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705453"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00069:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Main amendments"@en-AU ;
+    dct:hasPart C2010A00069:6 ;
+    dct:isPartOf C2010A00069:4 ;
+    dct:isReferencedBy C2010A00069: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2010A00069:6 ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2010A00069:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705333> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705333"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00069:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2010A00069:10,
+        C2010A00069:15,
+        C2010A00069:4 ;
+    dct:isReferencedBy C2010A00069: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2010A00069:10,
+        C2010A00069:15,
+        C2010A00069:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705331> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705331"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00069:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments"@en-AU ;
+    dct:hasPart C2010A00069:5,
+        C2010A00069:7 ;
+    dct:isPartOf C2010A00069:3 ;
+    dct:isReferencedBy C2010A00069: ;
+    rdfs:comment "Schedule 1 Amendments - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2010A00069:5,
+        C2010A00069:7 ;
+    skos:definition "Schedule 1 Amendments"@en-AU ;
+    skos:narrower C2010A00069:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705332> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705332"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2010A00069:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Other amendments"@en-AU ;
+    dct:hasPart C2010A00069:8,
+        C2010A00069:9 ;
+    dct:isPartOf C2010A00069:4 ;
+    dct:isReferencedBy C2010A00069: ;
+    rdfs:comment "Part 2 Other amendments - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader C2010A00069:8,
+        C2010A00069:9 ;
+    skos:definition "Part 2 Other amendments"@en-AU ;
+    skos:narrower C2010A00069:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705418> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705418"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00069:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 2 Application saving and transitional provisions"@en-AU ;
+    dct:hasPart C2010A00069:11,
+        C2010A00069:12,
+        C2010A00069:13,
+        C2010A00069:14 ;
+    dct:isPartOf C2010A00069:3 ;
+    dct:isReferencedBy C2010A00069: ;
+    rdfs:comment "Schedule 2 Application saving and transitional provisions - Abrievated Graph Key: S10"@en-AU ;
+    skos:broader C2010A00069:11,
+        C2010A00069:12,
+        C2010A00069:13,
+        C2010A00069:14 ;
+    skos:definition "Schedule 2 Application saving and transitional provisions"@en-AU ;
+    skos:narrower C2010A00069:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705454> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00069/2011-01-01/2011-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc341705454"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2010A00069: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Renewable Energy (Electricity) Amendment Act 2010" ;
+    dct:Jurisdiction " Department of Climate Change, Energy, the Environment and Water "@en-AU ;
+    dct:created "2026-05-27T18:10:31.284248"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2011-01-01T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Renewable Energy (Electricity) Amendment Act 2010"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2010A00069/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Renewable Energy (Electricity) Amendment Act 2010"@en-AU ;
+    dct:title "Renewable Energy (Electricity) Amendment Act 2010"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2012C00857 C01" .
+

@@ -1,0 +1,479 @@
+@prefix C2004A01019: <http://example.org/au/leg/dataset/C2004A01019/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A01019:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332164> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332164"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01019:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332165> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332165"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01019:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332166> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332166"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01019:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2004A01019:10 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2004A01019:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332174> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332174"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01019:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    dct:isPartOf C2004A01019:12 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "A New Tax System Goods and Services Tax Act 1999 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    skos:narrower C2004A01019:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332177> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332177"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01019:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 A New Tax System Wine Equalisation Tax Act 1999"@en-AU ;
+    dct:isPartOf C2004A01019:12 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "A New Tax System Wine Equalisation Tax Act 1999 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "A New Tax System Wine Equalisation Tax Act 1999"@en-AU ;
+    skos:narrower C2004A01019:12 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332178> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332178"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01019:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2004A01019:12 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2004A01019:12 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332179> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332179"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01019:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2004A01019:16 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2004A01019:16 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332184> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332184"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01019:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2004A01019:18 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2004A01019:18 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332189> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332189"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01019:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Customs Legislation Amendment and Repeal International Trade Modernisation Act 2001"@en-AU ;
+    dct:isPartOf C2004A01019:18 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Customs Legislation Amendment and Repeal International Trade Modernisation Act 2001 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Customs Legislation Amendment and Repeal International Trade Modernisation Act 2001"@en-AU ;
+    skos:narrower C2004A01019:18 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332190> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332190"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01019:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2004A01019:21 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2004A01019:21 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332193> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332193"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01019:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2004A01019:24 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2004A01019:24 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332200> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332200"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01019:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2004A01019:26 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2004A01019:26 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332209> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332209"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01019:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Passenger Movement Charge Collection Act 1978"@en-AU ;
+    dct:isPartOf C2004A01019:28 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Passenger Movement Charge Collection Act 1978 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Passenger Movement Charge Collection Act 1978"@en-AU ;
+    skos:narrower C2004A01019:28 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332211> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332211"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01019:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2004A01019:5 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2004A01019:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332169> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332169"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01019:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2004A01019:7 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2004A01019:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332171> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332171"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01019:10 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P10 Part 1 Reporting requirements"@en-AU ;
+    dct:hasPart C2004A01019:11 ;
+    dct:isPartOf C2004A01019:9 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Part 1 Reporting requirements - Abrievated Graph Key: P10"@en-AU ;
+    skos:broader C2004A01019:11 ;
+    skos:definition "Part 1 Reporting requirements"@en-AU ;
+    skos:narrower C2004A01019:9 ;
+    skos:prefLabel "Part P10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332173> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332173"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01019:16 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P16 Part 3 Exportation of goods"@en-AU ;
+    dct:hasPart C2004A01019:17 ;
+    dct:isPartOf C2004A01019:9 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Part 3 Exportation of goods - Abrievated Graph Key: P16"@en-AU ;
+    skos:broader C2004A01019:17 ;
+    skos:definition "Part 3 Exportation of goods"@en-AU ;
+    skos:narrower C2004A01019:9 ;
+    skos:prefLabel "Part P16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332183> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332183"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01019:21 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S21 Schedule 4 Seizure of goods in the Protected Zone"@en-AU ;
+    dct:hasPart C2004A01019:22 ;
+    dct:isPartOf C2004A01019:4 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Schedule 4 Seizure of goods in the Protected Zone - Abrievated Graph Key: S21"@en-AU ;
+    skos:broader C2004A01019:22 ;
+    skos:definition "Schedule 4 Seizure of goods in the Protected Zone"@en-AU ;
+    skos:narrower C2004A01019:4 ;
+    skos:prefLabel "Schedule S21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332192> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332192"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01019:24 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P24 Part 1 Amendments commencing first"@en-AU ;
+    dct:hasPart C2004A01019:25 ;
+    dct:isPartOf C2004A01019:23 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Part 1 Amendments commencing first - Abrievated Graph Key: P24"@en-AU ;
+    skos:broader C2004A01019:25 ;
+    skos:definition "Part 1 Amendments commencing first"@en-AU ;
+    skos:narrower C2004A01019:23 ;
+    skos:prefLabel "Part P24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332199> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332199"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01019:26 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P26 Part 2 Amendments commencing second"@en-AU ;
+    dct:hasPart C2004A01019:27 ;
+    dct:isPartOf C2004A01019:23 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Part 2 Amendments commencing second - Abrievated Graph Key: P26"@en-AU ;
+    skos:broader C2004A01019:27 ;
+    skos:definition "Part 2 Amendments commencing second"@en-AU ;
+    skos:narrower C2004A01019:23 ;
+    skos:prefLabel "Part P26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332208> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332208"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01019:28 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S28 Schedule 6 Passenger movement charge"@en-AU ;
+    dct:hasPart C2004A01019:29 ;
+    dct:isPartOf C2004A01019:4 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Schedule 6 Passenger movement charge - Abrievated Graph Key: S28"@en-AU ;
+    skos:broader C2004A01019:29 ;
+    skos:definition "Schedule 6 Passenger movement charge"@en-AU ;
+    skos:narrower C2004A01019:4 ;
+    skos:prefLabel "Schedule S28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332210> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332210"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01019:5 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S5 Schedule 1 Harmonisation of Customs offences"@en-AU ;
+    dct:hasPart C2004A01019:6 ;
+    dct:isPartOf C2004A01019:4 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Schedule 1 Harmonisation of Customs offences - Abrievated Graph Key: S5"@en-AU ;
+    skos:broader C2004A01019:6 ;
+    skos:definition "Schedule 1 Harmonisation of Customs offences"@en-AU ;
+    skos:narrower C2004A01019:4 ;
+    skos:prefLabel "Schedule S5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332168> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332168"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01019:7 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S7 Schedule 2 The valuation of imported goods"@en-AU ;
+    dct:hasPart C2004A01019:8 ;
+    dct:isPartOf C2004A01019:4 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Schedule 2 The valuation of imported goods - Abrievated Graph Key: S7"@en-AU ;
+    skos:broader C2004A01019:8 ;
+    skos:definition "Schedule 2 The valuation of imported goods"@en-AU ;
+    skos:narrower C2004A01019:4 ;
+    skos:prefLabel "Schedule S7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332170> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332170"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01019:18 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P18 Part 4 Other amendments"@en-AU ;
+    dct:hasPart C2004A01019:19,
+        C2004A01019:20 ;
+    dct:isPartOf C2004A01019:9 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Part 4 Other amendments - Abrievated Graph Key: P18"@en-AU ;
+    skos:broader C2004A01019:19,
+        C2004A01019:20 ;
+    skos:definition "Part 4 Other amendments"@en-AU ;
+    skos:narrower C2004A01019:9 ;
+    skos:prefLabel "Part P18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332188> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332188"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01019:23 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S23 Schedule 5 Reporting remail items"@en-AU ;
+    dct:hasPart C2004A01019:24,
+        C2004A01019:26 ;
+    dct:isPartOf C2004A01019:4 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Schedule 5 Reporting remail items - Abrievated Graph Key: S23"@en-AU ;
+    skos:broader C2004A01019:24,
+        C2004A01019:26 ;
+    skos:definition "Schedule 5 Reporting remail items"@en-AU ;
+    skos:narrower C2004A01019:4 ;
+    skos:prefLabel "Schedule S23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332198> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332198"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01019:12 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P12 Part 2 Importation of goods"@en-AU ;
+    dct:hasPart C2004A01019:13,
+        C2004A01019:14,
+        C2004A01019:15 ;
+    dct:isPartOf C2004A01019:9 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Part 2 Importation of goods - Abrievated Graph Key: P12"@en-AU ;
+    skos:broader C2004A01019:13,
+        C2004A01019:14,
+        C2004A01019:15 ;
+    skos:definition "Part 2 Importation of goods"@en-AU ;
+    skos:narrower C2004A01019:9 ;
+    skos:prefLabel "Part P12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332176> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332176"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01019:9 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S9 Schedule 3 International trade modernisation"@en-AU ;
+    dct:hasPart C2004A01019:10,
+        C2004A01019:12,
+        C2004A01019:16,
+        C2004A01019:18 ;
+    dct:isPartOf C2004A01019:4 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "Schedule 3 International trade modernisation - Abrievated Graph Key: S9"@en-AU ;
+    skos:broader C2004A01019:10,
+        C2004A01019:12,
+        C2004A01019:16,
+        C2004A01019:18 ;
+    skos:definition "Schedule 3 International trade modernisation"@en-AU ;
+    skos:narrower C2004A01019:4 ;
+    skos:prefLabel "Schedule S9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332172> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332172"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01019:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 4  Application of certain amendments"@en-AU ;
+    dct:hasPart C2004A01019:21,
+        C2004A01019:23,
+        C2004A01019:28,
+        C2004A01019:5,
+        C2004A01019:7,
+        C2004A01019:9 ;
+    dct:isReferencedBy C2004A01019: ;
+    rdfs:comment "4  Application of certain amendments - Abrievated Graph Key: I4"@en-AU ;
+    skos:broader C2004A01019:21,
+        C2004A01019:23,
+        C2004A01019:28,
+        C2004A01019:5,
+        C2004A01019:7,
+        C2004A01019:9 ;
+    skos:definition "4  Application of certain amendments"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332167> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01019/2003-01-05/2003-01-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc61332167"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01019: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Customs Legislation Amendment Act (No. 1) 2002" ;
+    dct:Jurisdiction " Department of Home Affairs "@en-AU ;
+    dct:created "2026-05-26T20:37:01.091448"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2003-01-05T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Customs Legislation Amendment Act (No. 1) 2002"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A01019/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Customs Legislation Amendment Act (No. 1) 2002"@en-AU ;
+    dct:title "Customs Legislation Amendment Act (No. 1) 2002"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2004C01357" .
+

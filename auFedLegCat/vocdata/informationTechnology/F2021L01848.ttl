@@ -1,0 +1,268 @@
+@prefix F2021L01848: <http://example.org/au/leg/dataset/F2021L01848/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2021L01848:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 1 Degrees and qualifications"@en-AU ;
+    dct:isReferencedBy F2021L01848: ;
+    rdfs:comment "Schedule 1 Degrees and qualifications - Abrievated Graph Key: S10"@en-AU ;
+    skos:definition "Schedule 1 Degrees and qualifications"@en-AU ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208556> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208556"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F2021L01848:11 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S11 Schedule 2 Courses and units of study"@en-AU ;
+    dct:hasPart F2021L01848:12 ;
+    dct:isReferencedBy F2021L01848: ;
+    rdfs:comment "Schedule 2 Courses and units of study - Abrievated Graph Key: S11"@en-AU ;
+    skos:broader F2021L01848:12 ;
+    skos:definition "Schedule 2 Courses and units of study"@en-AU ;
+    skos:prefLabel "Schedule S11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208557> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208557"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F2021L01848:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Endnote 1 About the endnotes"@en-AU ;
+    dct:isPartOf F2021L01848:12 ;
+    dct:isReferencedBy F2021L01848: ;
+    rdfs:comment "Endnote 1 About the endnotes - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Endnote 1 About the endnotes"@en-AU ;
+    skos:narrower F2021L01848:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208559> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208559"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2021L01848:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Endnote 2 Abbreviation key"@en-AU ;
+    dct:isPartOf F2021L01848:12 ;
+    dct:isReferencedBy F2021L01848: ;
+    rdfs:comment "Endnote 2 Abbreviation key - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Endnote 2 Abbreviation key"@en-AU ;
+    skos:narrower F2021L01848:12 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208560> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208560"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2021L01848:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Endnote 3 Legislation history"@en-AU ;
+    dct:isPartOf F2021L01848:12 ;
+    dct:isReferencedBy F2021L01848: ;
+    rdfs:comment "Endnote 3 Legislation history - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Endnote 3 Legislation history"@en-AU ;
+    skos:narrower F2021L01848:12 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208561> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208561"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2021L01848:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Endnote 4 Amendment history"@en-AU ;
+    dct:isPartOf F2021L01848:12 ;
+    dct:isReferencedBy F2021L01848: ;
+    rdfs:comment "Endnote 4 Amendment history - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Endnote 4 Amendment history"@en-AU ;
+    skos:narrower F2021L01848:12 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208562> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208562"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2021L01848:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 1  Name"@en-AU ;
+    dct:isPartOf F2021L01848:1 ;
+    dct:isReferencedBy F2021L01848: ;
+    rdfs:comment "1  Name - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "1  Name"@en-AU ;
+    skos:narrower F2021L01848:1 ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208548> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208548"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2021L01848:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Authority"@en-AU ;
+    dct:isPartOf F2021L01848:1 ;
+    dct:isReferencedBy F2021L01848: ;
+    rdfs:comment "3  Authority - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "3  Authority"@en-AU ;
+    skos:narrower F2021L01848:1 ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208549> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208549"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2021L01848:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 5  Definitions"@en-AU ;
+    dct:isPartOf F2021L01848:1 ;
+    dct:isReferencedBy F2021L01848: ;
+    rdfs:comment "5  Definitions - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "5  Definitions"@en-AU ;
+    skos:narrower F2021L01848:1 ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208550> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208550"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2021L01848:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 2 Approvals of degrees and qualifications"@en-AU ;
+    dct:hasPart F2021L01848:6 ;
+    dct:isReferencedBy F2021L01848: ;
+    rdfs:comment "Part 2 Approvals of degrees and qualifications - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader F2021L01848:6 ;
+    skos:definition "Part 2 Approvals of degrees and qualifications"@en-AU ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208551> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208551"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2021L01848:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 6  Approvals of degrees and qualifications"@en-AU ;
+    dct:isPartOf F2021L01848:5 ;
+    dct:isReferencedBy F2021L01848: ;
+    rdfs:comment "6  Approvals of degrees and qualifications - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "6  Approvals of degrees and qualifications"@en-AU ;
+    skos:narrower F2021L01848:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208552> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208552"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2021L01848:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 7  Summary of requirements"@en-AU ;
+    dct:isPartOf F2021L01848:7 ;
+    dct:isReferencedBy F2021L01848: ;
+    rdfs:comment "7  Summary of requirements - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "7  Summary of requirements"@en-AU ;
+    skos:narrower F2021L01848:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208554> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208554"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2021L01848:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 8  Determination"@en-AU ;
+    dct:isPartOf F2021L01848:7 ;
+    dct:isReferencedBy F2021L01848: ;
+    rdfs:comment "8  Determination - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "8  Determination"@en-AU ;
+    skos:narrower F2021L01848:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208555> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208555"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2021L01848:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 3 Existing providers qualifications equivalent to the education and training standard"@en-AU ;
+    dct:hasPart F2021L01848:8,
+        F2021L01848:9 ;
+    dct:isReferencedBy F2021L01848: ;
+    rdfs:comment "Part 3 Existing providers qualifications equivalent to the education and training standard - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader F2021L01848:8,
+        F2021L01848:9 ;
+    skos:definition "Part 3 Existing providers qualifications equivalent to the education and training standard"@en-AU ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208553> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208553"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2021L01848:1 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P1 Part 1 Preliminary"@en-AU ;
+    dct:hasPart F2021L01848:2,
+        F2021L01848:3,
+        F2021L01848:4 ;
+    dct:isReferencedBy F2021L01848: ;
+    rdfs:comment "Part 1 Preliminary - Abrievated Graph Key: P1"@en-AU ;
+    skos:broader F2021L01848:2,
+        F2021L01848:3,
+        F2021L01848:4 ;
+    skos:definition "Part 1 Preliminary"@en-AU ;
+    skos:prefLabel "Part P1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208547> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208547"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2021L01848:12 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E12 Endnotes"@en-AU ;
+    dct:hasPart F2021L01848:13,
+        F2021L01848:14,
+        F2021L01848:15,
+        F2021L01848:16 ;
+    dct:isPartOf F2021L01848:11 ;
+    dct:isReferencedBy F2021L01848: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E12"@en-AU ;
+    skos:broader F2021L01848:13,
+        F2021L01848:14,
+        F2021L01848:15,
+        F2021L01848:16 ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:narrower F2021L01848:11 ;
+    skos:prefLabel "Endnotes E12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208558> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2021L01848/2025-12-17/2025-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc170208558"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+
+F2021L01848: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Corporations (Relevant Providers Degrees, Qualifications and Courses Standard) Determination 2021" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-26T21:09:52.487346"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2025-12-17T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Corporations (Relevant Providers Degrees, Qualifications and Courses Standard) Determination 2021"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2021L01848/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Corporations (Relevant Providers Degrees, Qualifications and Courses Standard) Determination 2021"@en-AU ;
+    dct:title "Corporations (Relevant Providers Degrees, Qualifications and Courses Standard) Determination 2021"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Endnotes,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "F2025C01257 C08" .
+

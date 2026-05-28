@@ -1,0 +1,307 @@
+@prefix C2008A00139: <http://example.org/au/leg/dataset/C2008A00139/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2008A00139:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2008A00139: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166796> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166796"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00139:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2008A00139: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166797> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166797"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00139:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Legislative Instruments Act 2003"@en-AU ;
+    dct:isPartOf C2008A00139:9 ;
+    dct:isReferencedBy C2008A00139: ;
+    rdfs:comment "Legislative Instruments Act 2003 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Legislative Instruments Act 2003"@en-AU ;
+    skos:narrower C2008A00139:9 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166881> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166881"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00139:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Trade Practices Act 1974"@en-AU ;
+    dct:isPartOf C2008A00139:9 ;
+    dct:isReferencedBy C2008A00139: ;
+    rdfs:comment "Trade Practices Act 1974 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Trade Practices Act 1974"@en-AU ;
+    skos:narrower C2008A00139:9 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166882> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166882"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00139:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Water Act 2007"@en-AU ;
+    dct:isPartOf C2008A00139:9 ;
+    dct:isReferencedBy C2008A00139: ;
+    rdfs:comment "Water Act 2007 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Water Act 2007"@en-AU ;
+    skos:narrower C2008A00139:9 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166883> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166883"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00139:14 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P14 Part 1 Staff"@en-AU ;
+    dct:isPartOf C2008A00139:13 ;
+    dct:isReferencedBy C2008A00139: ;
+    rdfs:comment "Part 1 Staff - Abrievated Graph Key: P14"@en-AU ;
+    skos:definition "Part 1 Staff"@en-AU ;
+    skos:narrower C2008A00139:13 ;
+    skos:prefLabel "Part P14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166909> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166909"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2008A00139:15 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P15 Part 2 Appointments etc"@en-AU ;
+    dct:isPartOf C2008A00139:13 ;
+    dct:isReferencedBy C2008A00139: ;
+    rdfs:comment "Part 2 Appointments etc - Abrievated Graph Key: P15"@en-AU ;
+    skos:definition "Part 2 Appointments etc"@en-AU ;
+    skos:narrower C2008A00139:13 ;
+    skos:prefLabel "Part P15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166910> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166910"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2008A00139:16 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P16 Part 3 Miscellaneous"@en-AU ;
+    dct:isPartOf C2008A00139:13 ;
+    dct:isReferencedBy C2008A00139: ;
+    rdfs:comment "Part 3 Miscellaneous - Abrievated Graph Key: P16"@en-AU ;
+    skos:definition "Part 3 Miscellaneous"@en-AU ;
+    skos:narrower C2008A00139:13 ;
+    skos:prefLabel "Part P16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166911> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166911"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2008A00139:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Water Act 2007"@en-AU ;
+    dct:isPartOf C2008A00139:17 ;
+    dct:isReferencedBy C2008A00139: ;
+    rdfs:comment "Water Act 2007 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Water Act 2007"@en-AU ;
+    skos:narrower C2008A00139:17 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166913> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166913"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00139:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Water Act 2007"@en-AU ;
+    dct:isPartOf C2008A00139:4 ;
+    dct:isReferencedBy C2008A00139: ;
+    rdfs:comment "Water Act 2007 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Water Act 2007"@en-AU ;
+    skos:narrower C2008A00139:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166800> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166800"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00139:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 MurrayDarling Basin Act 1993"@en-AU ;
+    dct:isPartOf C2008A00139:7 ;
+    dct:isReferencedBy C2008A00139: ;
+    rdfs:comment "MurrayDarling Basin Act 1993 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "MurrayDarling Basin Act 1993"@en-AU ;
+    skos:narrower C2008A00139:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166879> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166879"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00139:17 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S17 Schedule 4 Amendments related to Indigenous representation on the Basin Community Committee"@en-AU ;
+    dct:hasPart C2008A00139:18 ;
+    dct:isPartOf C2008A00139:3 ;
+    dct:isReferencedBy C2008A00139: ;
+    rdfs:comment "Schedule 4 Amendments related to Indigenous representation on the Basin Community Committee - Abrievated Graph Key: S17"@en-AU ;
+    skos:broader C2008A00139:18 ;
+    skos:definition "Schedule 4 Amendments related to Indigenous representation on the Basin Community Committee"@en-AU ;
+    skos:narrower C2008A00139:3 ;
+    skos:prefLabel "Schedule S17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166912> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166912"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2008A00139:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments based on referrals of power"@en-AU ;
+    dct:hasPart C2008A00139:5 ;
+    dct:isPartOf C2008A00139:3 ;
+    dct:isReferencedBy C2008A00139: ;
+    rdfs:comment "Schedule 1 Amendments based on referrals of power - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2008A00139:5 ;
+    skos:definition "Schedule 1 Amendments based on referrals of power"@en-AU ;
+    skos:narrower C2008A00139:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166799> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166799"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2008A00139:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 1 Repeal"@en-AU ;
+    dct:hasPart C2008A00139:8 ;
+    dct:isPartOf C2008A00139:6 ;
+    dct:isReferencedBy C2008A00139: ;
+    rdfs:comment "Part 1 Repeal - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader C2008A00139:8 ;
+    skos:definition "Part 1 Repeal"@en-AU ;
+    skos:narrower C2008A00139:6 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166878> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166878"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2008A00139:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Other amendments"@en-AU ;
+    dct:hasPart C2008A00139:7,
+        C2008A00139:9 ;
+    dct:isPartOf C2008A00139:3 ;
+    dct:isReferencedBy C2008A00139: ;
+    rdfs:comment "Schedule 2 Other amendments - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2008A00139:7,
+        C2008A00139:9 ;
+    skos:definition "Schedule 2 Other amendments"@en-AU ;
+    skos:narrower C2008A00139:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166877> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166877"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2008A00139:13 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S13 Schedule 3 Transitional provisions"@en-AU ;
+    dct:hasPart C2008A00139:14,
+        C2008A00139:15,
+        C2008A00139:16 ;
+    dct:isPartOf C2008A00139:3 ;
+    dct:isReferencedBy C2008A00139: ;
+    rdfs:comment "Schedule 3 Transitional provisions - Abrievated Graph Key: S13"@en-AU ;
+    skos:broader C2008A00139:14,
+        C2008A00139:15,
+        C2008A00139:16 ;
+    skos:definition "Schedule 3 Transitional provisions"@en-AU ;
+    skos:narrower C2008A00139:3 ;
+    skos:prefLabel "Schedule S13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166908> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166908"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2008A00139:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2008A00139:13,
+        C2008A00139:17,
+        C2008A00139:4,
+        C2008A00139:6 ;
+    dct:isReferencedBy C2008A00139: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2008A00139:13,
+        C2008A00139:17,
+        C2008A00139:4,
+        C2008A00139:6 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166798> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166798"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00139:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 2 Amendments"@en-AU ;
+    dct:hasPart C2008A00139:10,
+        C2008A00139:11,
+        C2008A00139:12 ;
+    dct:isPartOf C2008A00139:6 ;
+    dct:isReferencedBy C2008A00139: ;
+    rdfs:comment "Part 2 Amendments - Abrievated Graph Key: P9"@en-AU ;
+    skos:broader C2008A00139:10,
+        C2008A00139:11,
+        C2008A00139:12 ;
+    skos:definition "Part 2 Amendments"@en-AU ;
+    skos:narrower C2008A00139:6 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166880> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00139/asmade/2008-12-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc216166880"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2008A00139: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Water Amendment Act 2008" ;
+    dct:Jurisdiction " Department of Climate Change, Energy, the Environment and Water "@en-AU ;
+    dct:created "2026-05-27T17:23:59.706621"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2008-12-08T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Water Amendment Act 2008"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2008A00139/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Water Amendment Act 2008"@en-AU ;
+    dct:title "Water Amendment Act 2008"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2008A00139" .
+

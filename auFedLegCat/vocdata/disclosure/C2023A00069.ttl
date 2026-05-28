@@ -1,0 +1,2196 @@
+@prefix C2023A00069: <http://example.org/au/leg/dataset/C2023A00069/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2023A00069:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664437> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664437"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664438> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664438"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Competition and Consumer Act 2010"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Competition and Consumer Act 2010 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Competition and Consumer Act 2010"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664468> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664468"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:100 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I100 Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: I100"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I100"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664582> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664582"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:101 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D101 Division 9 Declarations for fringe benefits tax assessment"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 9 Declarations for fringe benefits tax assessment - Abrievated Graph Key: D101"@en-AU ;
+    skos:definition "Division 9 Declarations for fringe benefits tax assessment"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D101"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664583> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664583"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:102 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I102 Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Fringe Benefits Tax Assessment Act 1986 - Abrievated Graph Key: I102"@en-AU ;
+    skos:definition "Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I102"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664584> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664584"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:103 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D103 Division 10 Cross reference update"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 10 Cross reference update - Abrievated Graph Key: D103"@en-AU ;
+    skos:definition "Division 10 Cross reference update"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D103"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664585> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664585"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:104 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I104 Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: I104"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I104"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664586> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664586"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:105 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D105 Division 11 Exempt core Part 3 actions"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 11 Exempt core Part 3 actions - Abrievated Graph Key: D105"@en-AU ;
+    skos:definition "Division 11 Exempt core Part 3 actions"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D105"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664587> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664587"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:106 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I106 Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Foreign Acquisitions and Takeovers Act 1975 - Abrievated Graph Key: I106"@en-AU ;
+    skos:definition "Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I106"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664588> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664588"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:107 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D107 Division 12 Application provisions relating to financial advisers"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 12 Application provisions relating to financial advisers - Abrievated Graph Key: D107"@en-AU ;
+    skos:definition "Division 12 Application provisions relating to financial advisers"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D107"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664589> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664589"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:108 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I108 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I108"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I108"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664590> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664590"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:109 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D109 Division 13 Renumbering"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 13 Renumbering - Abrievated Graph Key: D109"@en-AU ;
+    skos:definition "Division 13 Renumbering"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D109"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664591> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664591"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 National Consumer Credit Protection Act 2009"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "National Consumer Credit Protection Act 2009 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "National Consumer Credit Protection Act 2009"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664471> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664471"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:110 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I110 Australian Securities and Investments Commission Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Australian Securities and Investments Commission Act 2001 - Abrievated Graph Key: I110"@en-AU ;
+    skos:definition "Australian Securities and Investments Commission Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I110"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664592> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664592"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:111 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I111 Financial Sector Reform Hayne Royal Commission ResponseProtecting Consumers 2019 Measures Act 2020"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Financial Sector Reform Hayne Royal Commission ResponseProtecting Consumers 2019 Measures Act 2020 - Abrievated Graph Key: I111"@en-AU ;
+    skos:definition "Financial Sector Reform Hayne Royal Commission ResponseProtecting Consumers 2019 Measures Act 2020"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I111"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664593> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664593"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:112 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D112 Division 14 Virtual RSE annual members meetings"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 14 Virtual RSE annual members meetings - Abrievated Graph Key: D112"@en-AU ;
+    skos:definition "Division 14 Virtual RSE annual members meetings"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D112"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664594> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664594"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:113 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I113 Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: I113"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I113"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664595> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664595"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:114 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D114 Division 15 Repeal of redundant appropriation"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 15 Repeal of redundant appropriation - Abrievated Graph Key: D114"@en-AU ;
+    skos:definition "Division 15 Repeal of redundant appropriation"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D114"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664596> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664596"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:115 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I115 Treasury Laws Amendment North Queensland Flood Recovery Act 2019"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Treasury Laws Amendment North Queensland Flood Recovery Act 2019 - Abrievated Graph Key: I115"@en-AU ;
+    skos:definition "Treasury Laws Amendment North Queensland Flood Recovery Act 2019"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I115"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664597> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664597"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:116 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D116 Division 16 CCIV technical amendments"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 16 CCIV technical amendments - Abrievated Graph Key: D116"@en-AU ;
+    skos:definition "Division 16 CCIV technical amendments"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D116"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664598> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664598"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:117 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I117 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I117"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I117"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664599> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664599"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:118 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D118 Division 17 Recognised tax advisers"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 17 Recognised tax advisers - Abrievated Graph Key: D118"@en-AU ;
+    skos:definition "Division 17 Recognised tax advisers"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D118"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664601> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664601"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:119 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I119 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I119"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I119"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664602> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664602"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Tax Agent Services Act 2009"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Tax Agent Services Act 2009 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Tax Agent Services Act 2009"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664474> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664474"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:120 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D120 Division 18 Reference Checking and Information Sharing Protocol"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 18 Reference Checking and Information Sharing Protocol - Abrievated Graph Key: D120"@en-AU ;
+    skos:definition "Division 18 Reference Checking and Information Sharing Protocol"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D120"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664603> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664603"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:121 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I121 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I121"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I121"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664604> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664604"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:122 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I122 National Consumer Credit Protection Act 2009"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "National Consumer Credit Protection Act 2009 - Abrievated Graph Key: I122"@en-AU ;
+    skos:definition "National Consumer Credit Protection Act 2009"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I122"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664606> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664606"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:123 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I123 National Consumer Credit Protection Transitional and Consequential Provisions Act 2009"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "National Consumer Credit Protection Transitional and Consequential Provisions Act 2009 - Abrievated Graph Key: I123"@en-AU ;
+    skos:definition "National Consumer Credit Protection Transitional and Consequential Provisions Act 2009"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I123"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664607> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664607"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:124 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D124 Division 19 Disclosure documents for offers in a MIS"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 19 Disclosure documents for offers in a MIS - Abrievated Graph Key: D124"@en-AU ;
+    skos:definition "Division 19 Disclosure documents for offers in a MIS"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D124"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664608> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664608"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:125 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I125 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I125"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I125"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664609> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664609"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:126 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D126 Division 20 Elections under section 110 E of the Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 20 Elections under section 110 E of the Corporations Act 2001 - Abrievated Graph Key: D126"@en-AU ;
+    skos:definition "Division 20 Elections under section 110 E of the Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D126"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664610> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664610"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:127 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I127 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I127"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I127"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664611> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664611"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:128 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D128 Division 21 Continuing credit contracts exemption"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 21 Continuing credit contracts exemption - Abrievated Graph Key: D128"@en-AU ;
+    skos:definition "Division 21 Continuing credit contracts exemption"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D128"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664612> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664612"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:129 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I129 National Consumer Credit Protection Regulations 2010"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "National Consumer Credit Protection Regulations 2010 - Abrievated Graph Key: I129"@en-AU ;
+    skos:definition "National Consumer Credit Protection Regulations 2010"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I129"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664613> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664613"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 3 Payment methods"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Part 3 Payment methods - Abrievated Graph Key: P13"@en-AU ;
+    skos:definition "Part 3 Payment methods"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664475> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664475"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00069:130 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P130 Part 2 Amendments commencing first day of next quarter"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Part 2 Amendments commencing first day of next quarter - Abrievated Graph Key: P130"@en-AU ;
+    skos:definition "Part 2 Amendments commencing first day of next quarter"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Part P130"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664617> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664617"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00069:131 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D131 Division 1 Asterisking"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 1 Asterisking - Abrievated Graph Key: D131"@en-AU ;
+    skos:definition "Division 1 Asterisking"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D131"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664618> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664618"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:132 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I132 A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "A New Tax System Goods and Services Tax Act 1999 - Abrievated Graph Key: I132"@en-AU ;
+    skos:definition "A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I132"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664619> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664619"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:133 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D133 Division 2 Equal representation rules"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 2 Equal representation rules - Abrievated Graph Key: D133"@en-AU ;
+    skos:definition "Division 2 Equal representation rules"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D133"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664620> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664620"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:134 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I134 Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: I134"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I134"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664621> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664621"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:135 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D135 Division 3 Registration requirements for GST"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 3 Registration requirements for GST - Abrievated Graph Key: D135"@en-AU ;
+    skos:definition "Division 3 Registration requirements for GST"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D135"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664622> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664622"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:136 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I136 A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "A New Tax System Goods and Services Tax Act 1999 - Abrievated Graph Key: I136"@en-AU ;
+    skos:definition "A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I136"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664623> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664623"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664476> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664476"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Excise Act 1901"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Excise Act 1901 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Excise Act 1901"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664477> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664477"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Small Superannuation Accounts Act 1995"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Small Superannuation Accounts Act 1995 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Small Superannuation Accounts Act 1995"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664478> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664478"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:17 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P17 Part 4 Publication requirements and other amendments"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Part 4 Publication requirements and other amendments - Abrievated Graph Key: P17"@en-AU ;
+    skos:definition "Part 4 Publication requirements and other amendments"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Part P17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664479> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664479"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00069:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Competition and Consumer Act 2010"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Competition and Consumer Act 2010 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Competition and Consumer Act 2010"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664480> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664480"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664481> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664481"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664484> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664484"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664485> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664485"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Insurance Act 1973"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Insurance Act 1973 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Insurance Act 1973"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664486> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664486"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Life Insurance Act 1995"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Life Insurance Act 1995 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Life Insurance Act 1995"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664487> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664487"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 National Consumer Credit Protection Act 2009"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "National Consumer Credit Protection Act 2009 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "National Consumer Credit Protection Act 2009"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664489> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664489"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Private Health Insurance Prudential Supervision Act 2015"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Private Health Insurance Prudential Supervision Act 2015 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Private Health Insurance Prudential Supervision Act 2015"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664490> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664490"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Productivity Commission Act 1998"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Productivity Commission Act 1998 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Productivity Commission Act 1998"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664491> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664491"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664492> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664492"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664493> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664493"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:29 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S29 Schedule 2 ALRC Financial Services Interim Report"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Schedule 2 ALRC Financial Services Interim Report - Abrievated Graph Key: S29"@en-AU ;
+    skos:definition "Schedule 2 ALRC Financial Services Interim Report"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Schedule S29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664494> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664494"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2023A00069:30 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P30 Part 1 Removal of erroneous references and redundant definitions"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Part 1 Removal of erroneous references and redundant definitions - Abrievated Graph Key: P30"@en-AU ;
+    skos:definition "Part 1 Removal of erroneous references and redundant definitions"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Part P30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664495> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664495"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00069:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Australian Securities and Investments Commission Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Australian Securities and Investments Commission Act 2001 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Australian Securities and Investments Commission Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664496> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664496"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664497> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664497"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:33 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P33 Part 2 Consistent headings for sections defining terms"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Part 2 Consistent headings for sections defining terms - Abrievated Graph Key: P33"@en-AU ;
+    skos:definition "Part 2 Consistent headings for sections defining terms"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Part P33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664498> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664498"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00069:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664499> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664499"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:35 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P35 Part 3 Other amendments"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Part 3 Other amendments - Abrievated Graph Key: P35"@en-AU ;
+    skos:definition "Part 3 Other amendments"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Part P35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664500> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664500"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00069:36 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D36 Division 1 Single use definitions"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 1 Single use definitions - Abrievated Graph Key: D36"@en-AU ;
+    skos:definition "Division 1 Single use definitions"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664501> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664501"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Australian Securities and Investments Commission Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Australian Securities and Investments Commission Act 2001 - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Australian Securities and Investments Commission Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664502> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664502"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664503> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664503"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:39 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D39 Division 2 Definitions about resolutions"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 2 Definitions about resolutions - Abrievated Graph Key: D39"@en-AU ;
+    skos:definition "Division 2 Definitions about resolutions"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664504> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664504"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Modernising business communications"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Schedule 1 Modernising business communications - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Modernising business communications"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664440> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664440"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2023A00069:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664505> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664505"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:41 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D41 Division 3 Certain inclusive and relational definitions"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 3 Certain inclusive and relational definitions - Abrievated Graph Key: D41"@en-AU ;
+    skos:definition "Division 3 Certain inclusive and relational definitions"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664508> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664508"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664509> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664509"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:43 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D43 Division 4 Review fee"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 4 Review fee - Abrievated Graph Key: D43"@en-AU ;
+    skos:definition "Division 4 Review fee"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664510> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664510"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664511> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664511"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:45 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D45 Division 5 Rules of Court"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 5 Rules of Court - Abrievated Graph Key: D45"@en-AU ;
+    skos:definition "Division 5 Rules of Court"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664512> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664512"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:46 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I46 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I46"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664513> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664513"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:47 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D47 Division 6 Other amendments"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 6 Other amendments - Abrievated Graph Key: D47"@en-AU ;
+    skos:definition "Division 6 Other amendments"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664514> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664514"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:48 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I48 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I48"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664515> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664515"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:49 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P49 Part 4 Application and transitional provisions"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Part 4 Application and transitional provisions - Abrievated Graph Key: P49"@en-AU ;
+    skos:definition "Part 4 Application and transitional provisions"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Part P49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664517> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664517"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00069:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Documents and meetings under the Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Part 1 Documents and meetings under the Corporations Act 2001 - Abrievated Graph Key: P5"@en-AU ;
+    skos:definition "Part 1 Documents and meetings under the Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664441> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664441"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00069:50 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I50 Australian Securities and Investments Commission Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Australian Securities and Investments Commission Act 2001 - Abrievated Graph Key: I50"@en-AU ;
+    skos:definition "Australian Securities and Investments Commission Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664518> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664518"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:51 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I51 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I51"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664523> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664523"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:52 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P52 Part 5 Consequential amendments of other Acts"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Part 5 Consequential amendments of other Acts - Abrievated Graph Key: P52"@en-AU ;
+    skos:definition "Part 5 Consequential amendments of other Acts"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Part P52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664528> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664528"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00069:53 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I53 ASIC Supervisory Cost Recovery Levy Act 2017"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "ASIC Supervisory Cost Recovery Levy Act 2017 - Abrievated Graph Key: I53"@en-AU ;
+    skos:definition "ASIC Supervisory Cost Recovery Levy Act 2017"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664529> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664529"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:54 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I54 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I54"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664530> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664530"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:55 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S55 Schedule 3 Rationalisation of ending ASIC instruments"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Schedule 3 Rationalisation of ending ASIC instruments - Abrievated Graph Key: S55"@en-AU ;
+    skos:definition "Schedule 3 Rationalisation of ending ASIC instruments"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Schedule S55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664531> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664531"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2023A00069:56 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P56 Part 1 Voting control limits for proposed licensed trustee companies"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Part 1 Voting control limits for proposed licensed trustee companies - Abrievated Graph Key: P56"@en-AU ;
+    skos:definition "Part 1 Voting control limits for proposed licensed trustee companies"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Part P56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664532> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664532"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00069:57 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D57 Division 1 Amendments"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 1 Amendments - Abrievated Graph Key: D57"@en-AU ;
+    skos:definition "Division 1 Amendments"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D57"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664533> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664533"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:58 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I58 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I58"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I58"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664534> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664534"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:59 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D59 Division 2 Repeals"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 2 Repeals - Abrievated Graph Key: D59"@en-AU ;
+    skos:definition "Division 2 Repeals"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D59"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664536> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664536"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664442> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664442"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:60 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I60 ASIC Class Order CO 12340"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "ASIC Class Order CO 12340 - Abrievated Graph Key: I60"@en-AU ;
+    skos:definition "ASIC Class Order CO 12340"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I60"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664537> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664537"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:61 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P61 Part 2 Information in a Financial Services Guide given in a time critical situation"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Part 2 Information in a Financial Services Guide given in a time critical situation - Abrievated Graph Key: P61"@en-AU ;
+    skos:definition "Part 2 Information in a Financial Services Guide given in a time critical situation"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Part P61"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664538> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664538"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00069:62 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D62 Division 1 Amendments"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 1 Amendments - Abrievated Graph Key: D62"@en-AU ;
+    skos:definition "Division 1 Amendments"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D62"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664539> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664539"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:63 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I63 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I63"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I63"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664540> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664540"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:64 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D64 Division 2 Repeals"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 2 Repeals - Abrievated Graph Key: D64"@en-AU ;
+    skos:definition "Division 2 Repeals"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D64"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664542> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664542"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:65 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I65 ASIC Corporations Financial Services Guide Given in a Time Critical Situation Instrument 2022498"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "ASIC Corporations Financial Services Guide Given in a Time Critical Situation Instrument 2022498 - Abrievated Graph Key: I65"@en-AU ;
+    skos:definition "ASIC Corporations Financial Services Guide Given in a Time Critical Situation Instrument 2022498"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I65"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664543> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664543"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:66 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P66 Part 3 Product Disclosure Statement requirements for general insurance quotes"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Part 3 Product Disclosure Statement requirements for general insurance quotes - Abrievated Graph Key: P66"@en-AU ;
+    skos:definition "Part 3 Product Disclosure Statement requirements for general insurance quotes"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Part P66"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664544> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664544"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00069:67 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D67 Division 1 Amendments"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 1 Amendments - Abrievated Graph Key: D67"@en-AU ;
+    skos:definition "Division 1 Amendments"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D67"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664545> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664545"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:68 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I68 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I68"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I68"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664546> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664546"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:69 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D69 Division 2 Repeals"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 2 Repeals - Abrievated Graph Key: D69"@en-AU ;
+    skos:definition "Division 2 Repeals"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D69"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664548> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664548"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Virtual hearings and examinations"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Part 2 Virtual hearings and examinations - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 2 Virtual hearings and examinations"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664460> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664460"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00069:70 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I70 ASIC Corporations PDS Requirements for General Insurance Quotes Instrument 202266"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "ASIC Corporations PDS Requirements for General Insurance Quotes Instrument 202266 - Abrievated Graph Key: I70"@en-AU ;
+    skos:definition "ASIC Corporations PDS Requirements for General Insurance Quotes Instrument 202266"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I70"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664549> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664549"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:71 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P71 Part 4 Describing debentures as secured notes"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Part 4 Describing debentures as secured notes - Abrievated Graph Key: P71"@en-AU ;
+    skos:definition "Part 4 Describing debentures as secured notes"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Part P71"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664550> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664550"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00069:72 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D72 Division 1 Amendments"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 1 Amendments - Abrievated Graph Key: D72"@en-AU ;
+    skos:definition "Division 1 Amendments"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D72"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664551> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664551"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:73 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I73 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I73"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I73"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664552> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664552"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:74 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D74 Division 2 Repeals"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 2 Repeals - Abrievated Graph Key: D74"@en-AU ;
+    skos:definition "Division 2 Repeals"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D74"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664554> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664554"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:75 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I75 ASIC Corporations Describing DebenturesSecured Notes Instrument 202261"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "ASIC Corporations Describing DebenturesSecured Notes Instrument 202261 - Abrievated Graph Key: I75"@en-AU ;
+    skos:definition "ASIC Corporations Describing DebenturesSecured Notes Instrument 202261"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I75"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664555> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664555"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:76 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P76 Part 5 Notice requirements in the hardship provisions of the National Credit Code"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Part 5 Notice requirements in the hardship provisions of the National Credit Code - Abrievated Graph Key: P76"@en-AU ;
+    skos:definition "Part 5 Notice requirements in the hardship provisions of the National Credit Code"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Part P76"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664556> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664556"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00069:77 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D77 Division 1 Amendments"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 1 Amendments - Abrievated Graph Key: D77"@en-AU ;
+    skos:definition "Division 1 Amendments"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D77"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664557> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664557"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:78 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I78 National Consumer Credit Protection Act 2009"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "National Consumer Credit Protection Act 2009 - Abrievated Graph Key: I78"@en-AU ;
+    skos:definition "National Consumer Credit Protection Act 2009"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I78"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664558> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664558"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:79 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I79 National Consumer Credit Protection Transitional and Consequential Provisions Act 2009"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "National Consumer Credit Protection Transitional and Consequential Provisions Act 2009 - Abrievated Graph Key: I79"@en-AU ;
+    skos:definition "National Consumer Credit Protection Transitional and Consequential Provisions Act 2009"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I79"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664559> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664559"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Australian Prudential Regulation Authority Act 1998"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Australian Prudential Regulation Authority Act 1998 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Australian Prudential Regulation Authority Act 1998"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664461> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664461"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:80 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D80 Division 2 Repeals"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 2 Repeals - Abrievated Graph Key: D80"@en-AU ;
+    skos:definition "Division 2 Repeals"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D80"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664560> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664560"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:81 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I81 ASIC Class Order CO 1441"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "ASIC Class Order CO 1441 - Abrievated Graph Key: I81"@en-AU ;
+    skos:definition "ASIC Class Order CO 1441"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I81"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664561> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664561"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:82 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S82 Schedule 4 Miscellaneous and technical amendments"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Schedule 4 Miscellaneous and technical amendments - Abrievated Graph Key: S82"@en-AU ;
+    skos:definition "Schedule 4 Miscellaneous and technical amendments"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Schedule S82"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664562> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664562"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2023A00069:83 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P83 Part 1 Amendments commencing day after Royal Assent"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Part 1 Amendments commencing day after Royal Assent - Abrievated Graph Key: P83"@en-AU ;
+    skos:definition "Part 1 Amendments commencing day after Royal Assent"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Part P83"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664563> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664563"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00069:84 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D84 Division 1 Foreign ownership register notices"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 1 Foreign ownership register notices - Abrievated Graph Key: D84"@en-AU ;
+    skos:definition "Division 1 Foreign ownership register notices"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D84"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664564> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664564"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:85 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I85 Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Foreign Acquisitions and Takeovers Act 1975 - Abrievated Graph Key: I85"@en-AU ;
+    skos:definition "Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I85"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664565> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664565"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:86 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D86 Division 2 Infringement notices"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 2 Infringement notices - Abrievated Graph Key: D86"@en-AU ;
+    skos:definition "Division 2 Infringement notices"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D86"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664566> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664566"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:87 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I87 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I87"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I87"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664567> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664567"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:88 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D88 Division 3 Motor vehicle service and repair information scheme adviser"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 3 Motor vehicle service and repair information scheme adviser - Abrievated Graph Key: D88"@en-AU ;
+    skos:definition "Division 3 Motor vehicle service and repair information scheme adviser"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D88"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664570> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664570"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:89 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I89 Competition and Consumer Act 2010"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Competition and Consumer Act 2010 - Abrievated Graph Key: I89"@en-AU ;
+    skos:definition "Competition and Consumer Act 2010"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I89"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664571> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664571"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Australian Securities and Investments Commission Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Australian Securities and Investments Commission Act 2001 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Australian Securities and Investments Commission Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664463> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664463"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:90 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D90 Division 4 Fringe Benefits technical amendment"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 4 Fringe Benefits technical amendment - Abrievated Graph Key: D90"@en-AU ;
+    skos:definition "Division 4 Fringe Benefits technical amendment"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D90"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664572> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664572"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:91 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I91 Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Fringe Benefits Tax Assessment Act 1986 - Abrievated Graph Key: I91"@en-AU ;
+    skos:definition "Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I91"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664573> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664573"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:92 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D92 Division 5 Disclosure of protected information"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 5 Disclosure of protected information - Abrievated Graph Key: D92"@en-AU ;
+    skos:definition "Division 5 Disclosure of protected information"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D92"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664574> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664574"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:93 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I93 Commonwealth Registers Act 2020"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Commonwealth Registers Act 2020 - Abrievated Graph Key: I93"@en-AU ;
+    skos:definition "Commonwealth Registers Act 2020"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I93"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664575> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664575"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:94 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D94 Division 6 Giving TFNs under corporations legislation"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 6 Giving TFNs under corporations legislation - Abrievated Graph Key: D94"@en-AU ;
+    skos:definition "Division 6 Giving TFNs under corporations legislation"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D94"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664576> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664576"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:95 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I95 Corporations Aboriginal and Torres Strait Islander Act 2006"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Aboriginal and Torres Strait Islander Act 2006 - Abrievated Graph Key: I95"@en-AU ;
+    skos:definition "Corporations Aboriginal and Torres Strait Islander Act 2006"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I95"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664577> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664577"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:96 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I96 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I96"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I96"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664578> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664578"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:97 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D97 Division 7 Consumers"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 7 Consumers - Abrievated Graph Key: D97"@en-AU ;
+    skos:definition "Division 7 Consumers"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D97"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664579> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664579"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069:98 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I98 Competition and Consumer Act 2010"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Competition and Consumer Act 2010 - Abrievated Graph Key: I98"@en-AU ;
+    skos:definition "Competition and Consumer Act 2010"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Item I98"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664580> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664580"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00069:99 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D99 Division 8 Giving notices under the Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2023A00069:3 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "Division 8 Giving notices under the Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: D99"@en-AU ;
+    skos:definition "Division 8 Giving notices under the Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2023A00069:3 ;
+    skos:prefLabel "Division D99"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664581> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664581"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2023A00069: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Treasury Laws Amendment (Modernising Business Communications and Other Measures) Act 2023" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-27T19:38:29.008147"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2023-09-14T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Treasury Laws Amendment (Modernising Business Communications and Other Measures) Act 2023"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2023A00069/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Treasury Laws Amendment (Modernising Business Communications and Other Measures) Act 2023"@en-AU ;
+    dct:title "Treasury Laws Amendment (Modernising Business Communications and Other Measures) Act 2023"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2023A00069" .
+
+C2023A00069:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2023A00069:10,
+        C2023A00069:100,
+        C2023A00069:101,
+        C2023A00069:102,
+        C2023A00069:103,
+        C2023A00069:104,
+        C2023A00069:105,
+        C2023A00069:106,
+        C2023A00069:107,
+        C2023A00069:108,
+        C2023A00069:109,
+        C2023A00069:11,
+        C2023A00069:110,
+        C2023A00069:111,
+        C2023A00069:112,
+        C2023A00069:113,
+        C2023A00069:114,
+        C2023A00069:115,
+        C2023A00069:116,
+        C2023A00069:117,
+        C2023A00069:118,
+        C2023A00069:119,
+        C2023A00069:12,
+        C2023A00069:120,
+        C2023A00069:121,
+        C2023A00069:122,
+        C2023A00069:123,
+        C2023A00069:124,
+        C2023A00069:125,
+        C2023A00069:126,
+        C2023A00069:127,
+        C2023A00069:128,
+        C2023A00069:129,
+        C2023A00069:13,
+        C2023A00069:130,
+        C2023A00069:131,
+        C2023A00069:132,
+        C2023A00069:133,
+        C2023A00069:134,
+        C2023A00069:135,
+        C2023A00069:136,
+        C2023A00069:14,
+        C2023A00069:15,
+        C2023A00069:16,
+        C2023A00069:17,
+        C2023A00069:18,
+        C2023A00069:19,
+        C2023A00069:20,
+        C2023A00069:21,
+        C2023A00069:22,
+        C2023A00069:23,
+        C2023A00069:24,
+        C2023A00069:25,
+        C2023A00069:26,
+        C2023A00069:27,
+        C2023A00069:28,
+        C2023A00069:29,
+        C2023A00069:30,
+        C2023A00069:31,
+        C2023A00069:32,
+        C2023A00069:33,
+        C2023A00069:34,
+        C2023A00069:35,
+        C2023A00069:36,
+        C2023A00069:37,
+        C2023A00069:38,
+        C2023A00069:39,
+        C2023A00069:4,
+        C2023A00069:40,
+        C2023A00069:41,
+        C2023A00069:42,
+        C2023A00069:43,
+        C2023A00069:44,
+        C2023A00069:45,
+        C2023A00069:46,
+        C2023A00069:47,
+        C2023A00069:48,
+        C2023A00069:49,
+        C2023A00069:5,
+        C2023A00069:50,
+        C2023A00069:51,
+        C2023A00069:52,
+        C2023A00069:53,
+        C2023A00069:54,
+        C2023A00069:55,
+        C2023A00069:56,
+        C2023A00069:57,
+        C2023A00069:58,
+        C2023A00069:59,
+        C2023A00069:6,
+        C2023A00069:60,
+        C2023A00069:61,
+        C2023A00069:62,
+        C2023A00069:63,
+        C2023A00069:64,
+        C2023A00069:65,
+        C2023A00069:66,
+        C2023A00069:67,
+        C2023A00069:68,
+        C2023A00069:69,
+        C2023A00069:7,
+        C2023A00069:70,
+        C2023A00069:71,
+        C2023A00069:72,
+        C2023A00069:73,
+        C2023A00069:74,
+        C2023A00069:75,
+        C2023A00069:76,
+        C2023A00069:77,
+        C2023A00069:78,
+        C2023A00069:79,
+        C2023A00069:8,
+        C2023A00069:80,
+        C2023A00069:81,
+        C2023A00069:82,
+        C2023A00069:83,
+        C2023A00069:84,
+        C2023A00069:85,
+        C2023A00069:86,
+        C2023A00069:87,
+        C2023A00069:88,
+        C2023A00069:89,
+        C2023A00069:9,
+        C2023A00069:90,
+        C2023A00069:91,
+        C2023A00069:92,
+        C2023A00069:93,
+        C2023A00069:94,
+        C2023A00069:95,
+        C2023A00069:96,
+        C2023A00069:97,
+        C2023A00069:98,
+        C2023A00069:99 ;
+    dct:isReferencedBy C2023A00069: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2023A00069:10,
+        C2023A00069:100,
+        C2023A00069:101,
+        C2023A00069:102,
+        C2023A00069:103,
+        C2023A00069:104,
+        C2023A00069:105,
+        C2023A00069:106,
+        C2023A00069:107,
+        C2023A00069:108,
+        C2023A00069:109,
+        C2023A00069:11,
+        C2023A00069:110,
+        C2023A00069:111,
+        C2023A00069:112,
+        C2023A00069:113,
+        C2023A00069:114,
+        C2023A00069:115,
+        C2023A00069:116,
+        C2023A00069:117,
+        C2023A00069:118,
+        C2023A00069:119,
+        C2023A00069:12,
+        C2023A00069:120,
+        C2023A00069:121,
+        C2023A00069:122,
+        C2023A00069:123,
+        C2023A00069:124,
+        C2023A00069:125,
+        C2023A00069:126,
+        C2023A00069:127,
+        C2023A00069:128,
+        C2023A00069:129,
+        C2023A00069:13,
+        C2023A00069:130,
+        C2023A00069:131,
+        C2023A00069:132,
+        C2023A00069:133,
+        C2023A00069:134,
+        C2023A00069:135,
+        C2023A00069:136,
+        C2023A00069:14,
+        C2023A00069:15,
+        C2023A00069:16,
+        C2023A00069:17,
+        C2023A00069:18,
+        C2023A00069:19,
+        C2023A00069:20,
+        C2023A00069:21,
+        C2023A00069:22,
+        C2023A00069:23,
+        C2023A00069:24,
+        C2023A00069:25,
+        C2023A00069:26,
+        C2023A00069:27,
+        C2023A00069:28,
+        C2023A00069:29,
+        C2023A00069:30,
+        C2023A00069:31,
+        C2023A00069:32,
+        C2023A00069:33,
+        C2023A00069:34,
+        C2023A00069:35,
+        C2023A00069:36,
+        C2023A00069:37,
+        C2023A00069:38,
+        C2023A00069:39,
+        C2023A00069:4,
+        C2023A00069:40,
+        C2023A00069:41,
+        C2023A00069:42,
+        C2023A00069:43,
+        C2023A00069:44,
+        C2023A00069:45,
+        C2023A00069:46,
+        C2023A00069:47,
+        C2023A00069:48,
+        C2023A00069:49,
+        C2023A00069:5,
+        C2023A00069:50,
+        C2023A00069:51,
+        C2023A00069:52,
+        C2023A00069:53,
+        C2023A00069:54,
+        C2023A00069:55,
+        C2023A00069:56,
+        C2023A00069:57,
+        C2023A00069:58,
+        C2023A00069:59,
+        C2023A00069:6,
+        C2023A00069:60,
+        C2023A00069:61,
+        C2023A00069:62,
+        C2023A00069:63,
+        C2023A00069:64,
+        C2023A00069:65,
+        C2023A00069:66,
+        C2023A00069:67,
+        C2023A00069:68,
+        C2023A00069:69,
+        C2023A00069:7,
+        C2023A00069:70,
+        C2023A00069:71,
+        C2023A00069:72,
+        C2023A00069:73,
+        C2023A00069:74,
+        C2023A00069:75,
+        C2023A00069:76,
+        C2023A00069:77,
+        C2023A00069:78,
+        C2023A00069:79,
+        C2023A00069:8,
+        C2023A00069:80,
+        C2023A00069:81,
+        C2023A00069:82,
+        C2023A00069:83,
+        C2023A00069:84,
+        C2023A00069:85,
+        C2023A00069:86,
+        C2023A00069:87,
+        C2023A00069:88,
+        C2023A00069:89,
+        C2023A00069:9,
+        C2023A00069:90,
+        C2023A00069:91,
+        C2023A00069:92,
+        C2023A00069:93,
+        C2023A00069:94,
+        C2023A00069:95,
+        C2023A00069:96,
+        C2023A00069:97,
+        C2023A00069:98,
+        C2023A00069:99 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664439> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00069/asmade/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc145664439"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+

@@ -1,0 +1,191 @@
+@prefix F2025L00983: <http://example.org/au/leg/dataset/F2025L00983/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2025L00983:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Name"@en-AU ;
+    dct:isReferencedBy F2025L00983: ;
+    rdfs:comment "1  Name - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Name"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866761> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866761"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00983:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy F2025L00983: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866762> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866762"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00983:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Authority"@en-AU ;
+    dct:isReferencedBy F2025L00983: ;
+    rdfs:comment "3  Authority - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "3  Authority"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866763> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866763"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00983:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Health Insurance Regulations 2018"@en-AU ;
+    dct:isPartOf F2025L00983:10 ;
+    dct:isReferencedBy F2025L00983: ;
+    rdfs:comment "Health Insurance Regulations 2018 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Health Insurance Regulations 2018"@en-AU ;
+    skos:narrower F2025L00983:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866789> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866789"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00983:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 4  Schedules"@en-AU ;
+    dct:hasPart F2025L00983:5 ;
+    dct:isReferencedBy F2025L00983: ;
+    rdfs:comment "4  Schedules - Abrievated Graph Key: I4"@en-AU ;
+    skos:broader F2025L00983:5 ;
+    skos:definition "4  Schedules"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866764> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866764"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00983:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Health Insurance Regulations 2018"@en-AU ;
+    dct:isPartOf F2025L00983:6 ;
+    dct:isReferencedBy F2025L00983: ;
+    rdfs:comment "Health Insurance Regulations 2018 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Health Insurance Regulations 2018"@en-AU ;
+    skos:narrower F2025L00983:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866767> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866767"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00983:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Health Insurance Regulations 2018"@en-AU ;
+    dct:isPartOf F2025L00983:8 ;
+    dct:isReferencedBy F2025L00983: ;
+    rdfs:comment "Health Insurance Regulations 2018 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Health Insurance Regulations 2018"@en-AU ;
+    skos:narrower F2025L00983:8 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866786> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866786"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00983:10 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P10 Part 3 Application saving and transitional provisions"@en-AU ;
+    dct:hasPart F2025L00983:11 ;
+    dct:isPartOf F2025L00983:5 ;
+    dct:isReferencedBy F2025L00983: ;
+    rdfs:comment "Part 3 Application saving and transitional provisions - Abrievated Graph Key: P10"@en-AU ;
+    skos:broader F2025L00983:11 ;
+    skos:definition "Part 3 Application saving and transitional provisions"@en-AU ;
+    skos:narrower F2025L00983:5 ;
+    skos:prefLabel "Part P10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866788> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866788"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2025L00983:6 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P6 Part 1 Main amendments"@en-AU ;
+    dct:hasPart F2025L00983:7 ;
+    dct:isPartOf F2025L00983:5 ;
+    dct:isReferencedBy F2025L00983: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P6"@en-AU ;
+    skos:broader F2025L00983:7 ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower F2025L00983:5 ;
+    skos:prefLabel "Part P6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866766> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866766"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2025L00983:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 2 Other amendments"@en-AU ;
+    dct:hasPart F2025L00983:9 ;
+    dct:isPartOf F2025L00983:5 ;
+    dct:isReferencedBy F2025L00983: ;
+    rdfs:comment "Part 2 Other amendments - Abrievated Graph Key: P8"@en-AU ;
+    skos:broader F2025L00983:9 ;
+    skos:definition "Part 2 Other amendments"@en-AU ;
+    skos:narrower F2025L00983:5 ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866785> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866785"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2025L00983:5 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S5 Schedule 1 Amendments"@en-AU ;
+    dct:hasPart F2025L00983:10,
+        F2025L00983:6,
+        F2025L00983:8 ;
+    dct:isPartOf F2025L00983:4 ;
+    dct:isReferencedBy F2025L00983: ;
+    rdfs:comment "Schedule 1 Amendments - Abrievated Graph Key: S5"@en-AU ;
+    skos:broader F2025L00983:10,
+        F2025L00983:6,
+        F2025L00983:8 ;
+    skos:definition "Schedule 1 Amendments"@en-AU ;
+    skos:narrower F2025L00983:4 ;
+    skos:prefLabel "Schedule S5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866765> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00983/asmade/2025-08-25/text/1/epub/OEBPS/document_1/document_1.html#_Toc204866765"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F2025L00983: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Health Insurance Amendment (Assignment of Medicare Benefits and Other Measures) Regulations 2025" ;
+    dct:Jurisdiction " Department of Health, Disability and Ageing "@en-AU ;
+    dct:created "2026-05-27T17:39:26.826320"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2025-08-25T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Health Insurance Amendment (Assignment of Medicare Benefits and Other Measures) Regulations 2025"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2025L00983/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Health Insurance Amendment (Assignment of Medicare Benefits and Other Measures) Regulations 2025"@en-AU ;
+    dct:title "Health Insurance Amendment (Assignment of Medicare Benefits and Other Measures) Regulations 2025"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "F2025L00983" .
+

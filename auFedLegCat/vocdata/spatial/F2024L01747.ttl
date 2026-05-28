@@ -1,0 +1,41 @@
+@prefix F2024L01747: <http://example.org/au/leg/dataset/F2024L01747/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2024L01747:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 Text"@en-AU ;
+    dct:isReferencedBy F2024L01747: ;
+    rdfs:comment "Text - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "Text"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01747/asmade/2024-12-23/text/original/epub/OEBPS/document_1/document_1.html> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01747/asmade/2024-12-23/text/original/epub/OEBPS/document_1/document_1.html"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01747: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Environment Protection and Biodiversity Conservation (Threat Abatement Plan for Predation by Feral Cats 2024) Instrument 2024" ;
+    dct:Jurisdiction " Department of Climate Change, Energy, the Environment and Water "@en-AU ;
+    dct:created "2026-05-26T10:55:41.883388"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2024-12-23T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Environment Protection and Biodiversity Conservation (Threat Abatement Plan for Predation by Feral Cats 2024) Instrument 2024"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2024L01747/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Environment Protection and Biodiversity Conservation (Threat Abatement Plan for Predation by Feral Cats 2024) Instrument 2024"@en-AU ;
+    dct:title "Environment Protection and Biodiversity Conservation (Threat Abatement Plan for Predation by Feral Cats 2024) Instrument 2024"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item ;
+    schema:status "In force" ;
+    schema:version "F2024L01747" .
+

@@ -1,0 +1,163 @@
+@prefix C2005A00067: <http://example.org/au/leg/dataset/C2005A00067/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2005A00067:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2005A00067: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00067/2005-09-30/2005-09-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc162763312> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00067/2005-09-30/2005-09-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc162763312"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00067:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2005A00067: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00067/2005-09-30/2005-09-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc162763313> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00067/2005-09-30/2005-09-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc162763313"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00067:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Maritime Transport Security Act 2003"@en-AU ;
+    dct:isPartOf C2005A00067:5 ;
+    dct:isReferencedBy C2005A00067: ;
+    rdfs:comment "Maritime Transport Security Act 2003 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Maritime Transport Security Act 2003"@en-AU ;
+    skos:narrower C2005A00067:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00067/2005-09-30/2005-09-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc162763317> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00067/2005-09-30/2005-09-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc162763317"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00067:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Application and transitional provisions relating to offshore facilities"@en-AU ;
+    dct:isPartOf C2005A00067:4 ;
+    dct:isReferencedBy C2005A00067: ;
+    rdfs:comment "Part 2 Application and transitional provisions relating to offshore facilities - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 2 Application and transitional provisions relating to offshore facilities"@en-AU ;
+    skos:narrower C2005A00067:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00067/2005-09-30/2005-09-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc162763401> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00067/2005-09-30/2005-09-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc162763401"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2005A00067:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Maritime Transport and Offshore Facilities Security Act 2003"@en-AU ;
+    dct:isPartOf C2005A00067:8 ;
+    dct:isReferencedBy C2005A00067: ;
+    rdfs:comment "Maritime Transport and Offshore Facilities Security Act 2003 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Maritime Transport and Offshore Facilities Security Act 2003"@en-AU ;
+    skos:narrower C2005A00067:8 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00067/2005-09-30/2005-09-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc162763403> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00067/2005-09-30/2005-09-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc162763403"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00067:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2005A00067:4,
+        C2005A00067:8 ;
+    dct:isReferencedBy C2005A00067: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2005A00067:4,
+        C2005A00067:8 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00067/2005-09-30/2005-09-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc162763314> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00067/2005-09-30/2005-09-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc162763314"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00067:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Amendments relating to offshore facilities"@en-AU ;
+    dct:hasPart C2005A00067:6 ;
+    dct:isPartOf C2005A00067:4 ;
+    dct:isReferencedBy C2005A00067: ;
+    rdfs:comment "Part 1 Amendments relating to offshore facilities - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2005A00067:6 ;
+    skos:definition "Part 1 Amendments relating to offshore facilities"@en-AU ;
+    skos:narrower C2005A00067:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00067/2005-09-30/2005-09-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc162763316> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00067/2005-09-30/2005-09-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc162763316"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2005A00067:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 2 Amendments relating to maritime security identification cards"@en-AU ;
+    dct:hasPart C2005A00067:9 ;
+    dct:isPartOf C2005A00067:3 ;
+    dct:isReferencedBy C2005A00067: ;
+    rdfs:comment "Schedule 2 Amendments relating to maritime security identification cards - Abrievated Graph Key: S8"@en-AU ;
+    skos:broader C2005A00067:9 ;
+    skos:definition "Schedule 2 Amendments relating to maritime security identification cards"@en-AU ;
+    skos:narrower C2005A00067:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00067/2005-09-30/2005-09-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc162763402> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00067/2005-09-30/2005-09-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc162763402"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00067:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Offshore facilities"@en-AU ;
+    dct:hasPart C2005A00067:5,
+        C2005A00067:7 ;
+    dct:isPartOf C2005A00067:3 ;
+    dct:isReferencedBy C2005A00067: ;
+    rdfs:comment "Schedule 1 Offshore facilities - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2005A00067:5,
+        C2005A00067:7 ;
+    skos:definition "Schedule 1 Offshore facilities"@en-AU ;
+    skos:narrower C2005A00067:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00067/2005-09-30/2005-09-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc162763315> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00067/2005-09-30/2005-09-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc162763315"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00067: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Maritime Transport Security Amendment Act 2005" ;
+    dct:Jurisdiction " Department of Home Affairs "@en-AU ;
+    dct:created "2026-05-27T17:30:27.010661"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2005-09-30T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Maritime Transport Security Amendment Act 2005"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2005A00067/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Maritime Transport Security Amendment Act 2005"@en-AU ;
+    dct:title "Maritime Transport Security Amendment Act 2005"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2007C00185 C01" .
+

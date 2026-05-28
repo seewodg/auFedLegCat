@@ -1,0 +1,119 @@
+@prefix F2025L01418: <http://example.org/au/leg/dataset/F2025L01418/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2025L01418:1 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P1 Part 1 Preliminary"@en-AU ;
+    dct:isReferencedBy F2025L01418: ;
+    rdfs:comment "Part 1 Preliminary - Abrievated Graph Key: P1"@en-AU ;
+    skos:definition "Part 1 Preliminary"@en-AU ;
+    skos:prefLabel "Part P1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01418/asmade/2025-11-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc214873708> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01418/asmade/2025-11-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc214873708"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2025L01418:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 1  Name"@en-AU ;
+    dct:isReferencedBy F2025L01418: ;
+    rdfs:comment "1  Name - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "1  Name"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01418/asmade/2025-11-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc214873709> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01418/asmade/2025-11-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc214873709"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01418:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 2  Commencement"@en-AU ;
+    dct:isReferencedBy F2025L01418: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01418/asmade/2025-11-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc214873710> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01418/asmade/2025-11-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc214873710"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01418:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 3  Authority"@en-AU ;
+    dct:isReferencedBy F2025L01418: ;
+    rdfs:comment "3  Authority - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "3  Authority"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01418/asmade/2025-11-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc214873711> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01418/asmade/2025-11-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc214873711"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01418:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 4  Repeal"@en-AU ;
+    dct:isReferencedBy F2025L01418: ;
+    rdfs:comment "4  Repeal - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "4  Repeal"@en-AU ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01418/asmade/2025-11-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc214873712> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01418/asmade/2025-11-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc214873712"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01418:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 5  Schedule"@en-AU ;
+    dct:hasPart F2025L01418:7 ;
+    dct:isReferencedBy F2025L01418: ;
+    rdfs:comment "5  Schedule - Abrievated Graph Key: I6"@en-AU ;
+    skos:broader F2025L01418:7 ;
+    skos:definition "5  Schedule"@en-AU ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01418/asmade/2025-11-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc214873713> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01418/asmade/2025-11-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc214873713"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01418:7 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S7 Schedule 1 Description of quality assurance activity"@en-AU ;
+    dct:isPartOf F2025L01418:6 ;
+    dct:isReferencedBy F2025L01418: ;
+    rdfs:comment "Schedule 1 Description of quality assurance activity - Abrievated Graph Key: S7"@en-AU ;
+    skos:definition "Schedule 1 Description of quality assurance activity"@en-AU ;
+    skos:narrower F2025L01418:6 ;
+    skos:prefLabel "Schedule S7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01418/asmade/2025-11-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc214873714> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01418/asmade/2025-11-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc214873714"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F2025L01418: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Health Insurance (Quality Assurance Activity – Australian Corneal Graft Registry) Declaration 2025" ;
+    dct:Jurisdiction " Department of Health, Disability and Ageing "@en-AU ;
+    dct:created "2026-05-26T20:56:53.195000"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2025-11-24T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Health Insurance (Quality Assurance Activity – Australian Corneal Graft Registry) Declaration 2025"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2025L01418/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Health Insurance (Quality Assurance Activity – Australian Corneal Graft Registry) Declaration 2025"@en-AU ;
+    dct:title "Health Insurance (Quality Assurance Activity – Australian Corneal Graft Registry) Declaration 2025"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "F2025L01418" .
+

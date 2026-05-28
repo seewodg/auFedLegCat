@@ -1,0 +1,739 @@
+@prefix C2004A01207: <http://example.org/au/leg/dataset/C2004A01207/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A01207:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716731> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716731"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716732> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716732"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    dct:isPartOf C2004A01207:7 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Fringe Benefits Tax Assessment Act 1986 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    skos:narrower C2004A01207:7 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716740> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716740"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2004A01207:7 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2004A01207:7 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716741> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716741"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Product Grants and Benefits Administration Act 2000"@en-AU ;
+    dct:isPartOf C2004A01207:7 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Product Grants and Benefits Administration Act 2000 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Product Grants and Benefits Administration Act 2000"@en-AU ;
+    skos:narrower C2004A01207:7 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716742> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716742"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2004A01207:7 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2004A01207:7 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716743> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716743"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Social Security Administration Act 1999"@en-AU ;
+    dct:isPartOf C2004A01207:7 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Social Security Administration Act 1999 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Social Security Administration Act 1999"@en-AU ;
+    skos:narrower C2004A01207:7 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716744> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716744"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2004A01207:7 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2004A01207:7 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716746> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716746"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2004A01207:17 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2004A01207:17 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716749> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716749"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2004A01207:19 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2004A01207:19 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716766> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716766"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2004A01207:19 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2004A01207:19 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716767> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716767"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Social Security Administration Act 1999"@en-AU ;
+    dct:isPartOf C2004A01207:19 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Social Security Administration Act 1999 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Social Security Administration Act 1999"@en-AU ;
+    skos:narrower C2004A01207:19 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716769> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716769"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:23 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P23 Part 3 Application and transitional provisions"@en-AU ;
+    dct:isPartOf C2004A01207:16 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Part 3 Application and transitional provisions - Abrievated Graph Key: P23"@en-AU ;
+    skos:definition "Part 3 Application and transitional provisions"@en-AU ;
+    skos:narrower C2004A01207:16 ;
+    skos:prefLabel "Part P23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716770> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716770"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01207:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    dct:isPartOf C2004A01207:24 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "A New Tax System Family Assistance Administration Act 1999 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    skos:narrower C2004A01207:24 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716772> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716772"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Social Security Administration Act 1999"@en-AU ;
+    dct:isPartOf C2004A01207:24 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Social Security Administration Act 1999 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Social Security Administration Act 1999"@en-AU ;
+    skos:narrower C2004A01207:24 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716775> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716775"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2004A01207:27 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2004A01207:27 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716777> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716777"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 A New Tax System Family Assistance Act 1999"@en-AU ;
+    dct:isPartOf C2004A01207:29 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "A New Tax System Family Assistance Act 1999 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Act 1999"@en-AU ;
+    skos:narrower C2004A01207:29 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716780> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716780"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2004A01207:29 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2004A01207:29 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716781> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716781"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Social Security Administration Act 1999"@en-AU ;
+    dct:isPartOf C2004A01207:33 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Social Security Administration Act 1999 - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Social Security Administration Act 1999"@en-AU ;
+    skos:narrower C2004A01207:33 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716786> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716786"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 Family and Community Services Legislation Amendment Australians Working Together and other 2001 Budget Measures Act 2003"@en-AU ;
+    dct:isPartOf C2004A01207:35 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Family and Community Services Legislation Amendment Australians Working Together and other 2001 Budget Measures Act 2003 - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "Family and Community Services Legislation Amendment Australians Working Together and other 2001 Budget Measures Act 2003"@en-AU ;
+    skos:narrower C2004A01207:35 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716788> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716788"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Family and Community Services Legislation Amendment Special Benefit Activity Test Act 2002"@en-AU ;
+    dct:isPartOf C2004A01207:35 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Family and Community Services Legislation Amendment Special Benefit Activity Test Act 2002 - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Family and Community Services Legislation Amendment Special Benefit Activity Test Act 2002"@en-AU ;
+    skos:narrower C2004A01207:35 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716789> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716789"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 Family and Community Services Legislation Amendment Australians Working Together and other 2001 Budget Measures Act 2003"@en-AU ;
+    dct:isPartOf C2004A01207:38 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Family and Community Services Legislation Amendment Australians Working Together and other 2001 Budget Measures Act 2003 - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "Family and Community Services Legislation Amendment Australians Working Together and other 2001 Budget Measures Act 2003"@en-AU ;
+    skos:narrower C2004A01207:38 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716791> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716791"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2004A01207:38 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2004A01207:38 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716792> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716792"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 Social Security Administration Act 1999"@en-AU ;
+    dct:isPartOf C2004A01207:38 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Social Security Administration Act 1999 - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "Social Security Administration Act 1999"@en-AU ;
+    skos:narrower C2004A01207:38 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716793> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716793"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:43 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I43 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2004A01207:42 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I43"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2004A01207:42 ;
+    skos:prefLabel "Item I43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716795> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716795"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:45 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I45 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2004A01207:44 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I45"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2004A01207:44 ;
+    skos:prefLabel "Item I45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716797> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716797"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2004A01207:4 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2004A01207:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716735> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716735"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Veterans Entitlements Act 1986"@en-AU ;
+    dct:isPartOf C2004A01207:4 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Veterans Entitlements Act 1986 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Veterans Entitlements Act 1986"@en-AU ;
+    skos:narrower C2004A01207:4 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716736> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716736"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Excise Act 1901"@en-AU ;
+    dct:isPartOf C2004A01207:7 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Excise Act 1901 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Excise Act 1901"@en-AU ;
+    skos:narrower C2004A01207:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716738> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716738"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Financial Transaction Reports Act 1988"@en-AU ;
+    dct:isPartOf C2004A01207:7 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Financial Transaction Reports Act 1988 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Financial Transaction Reports Act 1988"@en-AU ;
+    skos:narrower C2004A01207:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716739> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716739"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:17 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P17 Part 1 Main amendment"@en-AU ;
+    dct:hasPart C2004A01207:18 ;
+    dct:isPartOf C2004A01207:16 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Part 1 Main amendment - Abrievated Graph Key: P17"@en-AU ;
+    skos:broader C2004A01207:18 ;
+    skos:definition "Part 1 Main amendment"@en-AU ;
+    skos:narrower C2004A01207:16 ;
+    skos:prefLabel "Part P17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716748> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716748"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01207:27 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S27 Schedule 5 Comparable foreign payment debt recovery"@en-AU ;
+    dct:hasPart C2004A01207:28 ;
+    dct:isPartOf C2004A01207:3 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Schedule 5 Comparable foreign payment debt recovery - Abrievated Graph Key: S27"@en-AU ;
+    skos:broader C2004A01207:28 ;
+    skos:definition "Schedule 5 Comparable foreign payment debt recovery"@en-AU ;
+    skos:narrower C2004A01207:3 ;
+    skos:prefLabel "Schedule S27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716776> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716776"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01207:33 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P33 Part 1 Amendment commencing on 22 May 2003"@en-AU ;
+    dct:hasPart C2004A01207:34 ;
+    dct:isPartOf C2004A01207:32 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Part 1 Amendment commencing on 22 May 2003 - Abrievated Graph Key: P33"@en-AU ;
+    skos:broader C2004A01207:34 ;
+    skos:definition "Part 1 Amendment commencing on 22 May 2003"@en-AU ;
+    skos:narrower C2004A01207:32 ;
+    skos:prefLabel "Part P33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716785> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716785"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01207:42 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P42 Part 4 Amendments commencing later on 20 September 2003"@en-AU ;
+    dct:hasPart C2004A01207:43 ;
+    dct:isPartOf C2004A01207:32 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Part 4 Amendments commencing later on 20 September 2003 - Abrievated Graph Key: P42"@en-AU ;
+    skos:broader C2004A01207:43 ;
+    skos:definition "Part 4 Amendments commencing later on 20 September 2003"@en-AU ;
+    skos:narrower C2004A01207:32 ;
+    skos:prefLabel "Part P42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716794> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716794"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01207:44 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P44 Part 5 Amendment commencing on Royal Assent"@en-AU ;
+    dct:hasPart C2004A01207:45 ;
+    dct:isPartOf C2004A01207:32 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Part 5 Amendment commencing on Royal Assent - Abrievated Graph Key: P44"@en-AU ;
+    skos:broader C2004A01207:45 ;
+    skos:definition "Part 5 Amendment commencing on Royal Assent"@en-AU ;
+    skos:narrower C2004A01207:32 ;
+    skos:prefLabel "Part P44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716796> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716796"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01207:24 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S24 Schedule 4 Stopping payment for people absent from Australia without notice"@en-AU ;
+    dct:hasPart C2004A01207:25,
+        C2004A01207:26 ;
+    dct:isPartOf C2004A01207:3 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Schedule 4 Stopping payment for people absent from Australia without notice - Abrievated Graph Key: S24"@en-AU ;
+    skos:broader C2004A01207:25,
+        C2004A01207:26 ;
+    skos:definition "Schedule 4 Stopping payment for people absent from Australia without notice"@en-AU ;
+    skos:narrower C2004A01207:3 ;
+    skos:prefLabel "Schedule S24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716771> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716771"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01207:29 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S29 Schedule 6 Reducing portability period"@en-AU ;
+    dct:hasPart C2004A01207:30,
+        C2004A01207:31 ;
+    dct:isPartOf C2004A01207:3 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Schedule 6 Reducing portability period - Abrievated Graph Key: S29"@en-AU ;
+    skos:broader C2004A01207:30,
+        C2004A01207:31 ;
+    skos:definition "Schedule 6 Reducing portability period"@en-AU ;
+    skos:narrower C2004A01207:3 ;
+    skos:prefLabel "Schedule S29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716779> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716779"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01207:35 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P35 Part 2 Amendments commencing on 19 September 2003"@en-AU ;
+    dct:hasPart C2004A01207:36,
+        C2004A01207:37 ;
+    dct:isPartOf C2004A01207:32 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Part 2 Amendments commencing on 19 September 2003 - Abrievated Graph Key: P35"@en-AU ;
+    skos:broader C2004A01207:36,
+        C2004A01207:37 ;
+    skos:definition "Part 2 Amendments commencing on 19 September 2003"@en-AU ;
+    skos:narrower C2004A01207:32 ;
+    skos:prefLabel "Part P35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716787> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716787"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01207:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Excluding payments for National Socialist persecution from income"@en-AU ;
+    dct:hasPart C2004A01207:5,
+        C2004A01207:6 ;
+    dct:isPartOf C2004A01207:3 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Schedule 1 Excluding payments for National Socialist persecution from income - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A01207:5,
+        C2004A01207:6 ;
+    skos:definition "Schedule 1 Excluding payments for National Socialist persecution from income"@en-AU ;
+    skos:narrower C2004A01207:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716734> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716734"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01207:16 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S16 Schedule 3 Assurances of support"@en-AU ;
+    dct:hasPart C2004A01207:17,
+        C2004A01207:19,
+        C2004A01207:23 ;
+    dct:isPartOf C2004A01207:3 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Schedule 3 Assurances of support - Abrievated Graph Key: S16"@en-AU ;
+    skos:broader C2004A01207:17,
+        C2004A01207:19,
+        C2004A01207:23 ;
+    skos:definition "Schedule 3 Assurances of support"@en-AU ;
+    skos:narrower C2004A01207:3 ;
+    skos:prefLabel "Schedule S16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716747> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716747"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01207:19 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P19 Part 2 Consequential amendments"@en-AU ;
+    dct:hasPart C2004A01207:20,
+        C2004A01207:21,
+        C2004A01207:22 ;
+    dct:isPartOf C2004A01207:16 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Part 2 Consequential amendments - Abrievated Graph Key: P19"@en-AU ;
+    skos:broader C2004A01207:20,
+        C2004A01207:21,
+        C2004A01207:22 ;
+    skos:definition "Part 2 Consequential amendments"@en-AU ;
+    skos:narrower C2004A01207:16 ;
+    skos:prefLabel "Part P19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716765> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716765"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01207:38 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P38 Part 3 Amendments commencing just after the start of 20 September 2003"@en-AU ;
+    dct:hasPart C2004A01207:39,
+        C2004A01207:40,
+        C2004A01207:41 ;
+    dct:isPartOf C2004A01207:32 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Part 3 Amendments commencing just after the start of 20 September 2003 - Abrievated Graph Key: P38"@en-AU ;
+    skos:broader C2004A01207:39,
+        C2004A01207:40,
+        C2004A01207:41 ;
+    skos:definition "Part 3 Amendments commencing just after the start of 20 September 2003"@en-AU ;
+    skos:narrower C2004A01207:32 ;
+    skos:prefLabel "Part P38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716790> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716790"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01207:32 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S32 Schedule 7 Technical corrections"@en-AU ;
+    dct:hasPart C2004A01207:33,
+        C2004A01207:35,
+        C2004A01207:38,
+        C2004A01207:42,
+        C2004A01207:44 ;
+    dct:isPartOf C2004A01207:3 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Schedule 7 Technical corrections - Abrievated Graph Key: S32"@en-AU ;
+    skos:broader C2004A01207:33,
+        C2004A01207:35,
+        C2004A01207:38,
+        C2004A01207:42,
+        C2004A01207:44 ;
+    skos:definition "Schedule 7 Technical corrections"@en-AU ;
+    skos:narrower C2004A01207:3 ;
+    skos:prefLabel "Schedule S32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716784> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716784"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01207:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A01207:16,
+        C2004A01207:24,
+        C2004A01207:27,
+        C2004A01207:29,
+        C2004A01207:32,
+        C2004A01207:4,
+        C2004A01207:7 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A01207:16,
+        C2004A01207:24,
+        C2004A01207:27,
+        C2004A01207:29,
+        C2004A01207:32,
+        C2004A01207:4,
+        C2004A01207:7 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716733> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716733"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01207:7 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S7 Schedule 2 Access to information"@en-AU ;
+    dct:hasPart C2004A01207:10,
+        C2004A01207:11,
+        C2004A01207:12,
+        C2004A01207:13,
+        C2004A01207:14,
+        C2004A01207:15,
+        C2004A01207:8,
+        C2004A01207:9 ;
+    dct:isPartOf C2004A01207:3 ;
+    dct:isReferencedBy C2004A01207: ;
+    rdfs:comment "Schedule 2 Access to information - Abrievated Graph Key: S7"@en-AU ;
+    skos:broader C2004A01207:10,
+        C2004A01207:11,
+        C2004A01207:12,
+        C2004A01207:13,
+        C2004A01207:14,
+        C2004A01207:15,
+        C2004A01207:8,
+        C2004A01207:9 ;
+    skos:definition "Schedule 2 Access to information"@en-AU ;
+    skos:narrower C2004A01207:3 ;
+    skos:prefLabel "Schedule S7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716737> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01207/asmade/2003-05-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc57716737"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01207: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Family and Community Services and Veterans' Affairs Legislation Amendment (2003 Budget and Other Measures) Act 2003" ;
+    dct:Jurisdiction " Department of Social Services "@en-AU ;
+    dct:created "2026-05-27T18:00:41.619230"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2003-05-22T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Family and Community Services and Veterans' Affairs Legislation Amendment (2003 Budget and Other Measures) Act 2003"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A01207/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Family and Community Services and Veterans' Affairs Legislation Amendment (2003 Budget and Other Measures) Act 2003"@en-AU ;
+    dct:title "Family and Community Services and Veterans' Affairs Legislation Amendment (2003 Budget and Other Measures) Act 2003"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2004A01207" .
+

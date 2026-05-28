@@ -1,0 +1,435 @@
+@prefix C2004A00616: <http://example.org/au/leg/dataset/C2004A00616/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A00616:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942762> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942762"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00616:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942763> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942763"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00616:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 7 Amendment of the Reserve Bank Act 1959"@en-AU ;
+    dct:isPartOf C2004A00616:3 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Schedule 7 Amendment of the Reserve Bank Act 1959 - Abrievated Graph Key: S10"@en-AU ;
+    skos:definition "Schedule 7 Amendment of the Reserve Bank Act 1959"@en-AU ;
+    skos:narrower C2004A00616:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942778> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942778"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00616:11 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S11 Schedule 8 Amendment of the Retirement Savings Accounts Act 1997"@en-AU ;
+    dct:isPartOf C2004A00616:3 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Schedule 8 Amendment of the Retirement Savings Accounts Act 1997 - Abrievated Graph Key: S11"@en-AU ;
+    skos:definition "Schedule 8 Amendment of the Retirement Savings Accounts Act 1997"@en-AU ;
+    skos:narrower C2004A00616:3 ;
+    skos:prefLabel "Schedule S11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942779> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942779"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00616:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Financial Institutions Supervisory Levies Collection Act 1998"@en-AU ;
+    dct:isPartOf C2004A00616:12 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Financial Institutions Supervisory Levies Collection Act 1998 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Financial Institutions Supervisory Levies Collection Act 1998"@en-AU ;
+    skos:narrower C2004A00616:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942781> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942781"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00616:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Superannuation Financial Assistance Funding Levy Act 1993"@en-AU ;
+    dct:isPartOf C2004A00616:12 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Superannuation Financial Assistance Funding Levy Act 1993 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Superannuation Financial Assistance Funding Levy Act 1993"@en-AU ;
+    skos:narrower C2004A00616:12 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942782> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942782"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00616:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2004A00616:12 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2004A00616:12 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942783> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942783"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00616:16 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S16 Schedule 10 Other amendments of the Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2004A00616:3 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Schedule 10 Other amendments of the Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: S16"@en-AU ;
+    skos:definition "Schedule 10 Other amendments of the Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2004A00616:3 ;
+    skos:prefLabel "Schedule S16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942785> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942785"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00616:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Financial Sector Reform Amendments and Transitional Provisions Act 1998"@en-AU ;
+    dct:isPartOf C2004A00616:17 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Financial Sector Reform Amendments and Transitional Provisions Act 1998 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Financial Sector Reform Amendments and Transitional Provisions Act 1998"@en-AU ;
+    skos:narrower C2004A00616:17 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942791> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942791"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00616:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Financial Sector Reform Amendments and Transitional Provisions Act No 1 1999"@en-AU ;
+    dct:isPartOf C2004A00616:17 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Financial Sector Reform Amendments and Transitional Provisions Act No 1 1999 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Financial Sector Reform Amendments and Transitional Provisions Act No 1 1999"@en-AU ;
+    skos:narrower C2004A00616:17 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942792> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942792"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00616:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2004A00616:17 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2004A00616:17 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942793> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942793"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00616:22 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P22 Part 1 Transitional provisions for validation of determinations relating to financial sector supervisory levies"@en-AU ;
+    dct:isPartOf C2004A00616:21 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Part 1 Transitional provisions for validation of determinations relating to financial sector supervisory levies - Abrievated Graph Key: P22"@en-AU ;
+    skos:definition "Part 1 Transitional provisions for validation of determinations relating to financial sector supervisory levies"@en-AU ;
+    skos:narrower C2004A00616:21 ;
+    skos:prefLabel "Part P22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942795> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942795"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00616:23 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P23 Part 2 Transitional provisions relating to amendments of the Financial Corporations Act 1974"@en-AU ;
+    dct:isPartOf C2004A00616:21 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Part 2 Transitional provisions relating to amendments of the Financial Corporations Act 1974 - Abrievated Graph Key: P23"@en-AU ;
+    skos:definition "Part 2 Transitional provisions relating to amendments of the Financial Corporations Act 1974"@en-AU ;
+    skos:narrower C2004A00616:21 ;
+    skos:prefLabel "Part P23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942796> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942796"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00616:24 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P24 Part 3 Transitional provision relating to amendment of the Life Insurance Act 1995"@en-AU ;
+    dct:isPartOf C2004A00616:21 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Part 3 Transitional provision relating to amendment of the Life Insurance Act 1995 - Abrievated Graph Key: P24"@en-AU ;
+    skos:definition "Part 3 Transitional provision relating to amendment of the Life Insurance Act 1995"@en-AU ;
+    skos:narrower C2004A00616:21 ;
+    skos:prefLabel "Part P24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942797> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942797"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00616:25 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P25 Part 4 Transitional provisions relating to amendments of the Reserve Bank Act 1959"@en-AU ;
+    dct:isPartOf C2004A00616:21 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Part 4 Transitional provisions relating to amendments of the Reserve Bank Act 1959 - Abrievated Graph Key: P25"@en-AU ;
+    skos:definition "Part 4 Transitional provisions relating to amendments of the Reserve Bank Act 1959"@en-AU ;
+    skos:narrower C2004A00616:21 ;
+    skos:prefLabel "Part P25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942798> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942798"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00616:26 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P26 Part 5 Application of amendments of superannuation legislation relating to financial assistance to funds"@en-AU ;
+    dct:isPartOf C2004A00616:21 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Part 5 Application of amendments of superannuation legislation relating to financial assistance to funds - Abrievated Graph Key: P26"@en-AU ;
+    skos:definition "Part 5 Application of amendments of superannuation legislation relating to financial assistance to funds"@en-AU ;
+    skos:narrower C2004A00616:21 ;
+    skos:prefLabel "Part P26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942799> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942799"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00616:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendment of the Australian Prudential Regulation Authority Act 1998"@en-AU ;
+    dct:isPartOf C2004A00616:3 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Schedule 1 Amendment of the Australian Prudential Regulation Authority Act 1998 - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Amendment of the Australian Prudential Regulation Authority Act 1998"@en-AU ;
+    skos:narrower C2004A00616:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942765> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942765"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00616:5 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S5 Schedule 2 Amendment of the Banking Act 1959"@en-AU ;
+    dct:isPartOf C2004A00616:3 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Schedule 2 Amendment of the Banking Act 1959 - Abrievated Graph Key: S5"@en-AU ;
+    skos:definition "Schedule 2 Amendment of the Banking Act 1959"@en-AU ;
+    skos:narrower C2004A00616:3 ;
+    skos:prefLabel "Schedule S5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942766> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942766"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00616:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 3 Amendment of the Financial Corporations Act 1974"@en-AU ;
+    dct:isPartOf C2004A00616:3 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Schedule 3 Amendment of the Financial Corporations Act 1974 - Abrievated Graph Key: S6"@en-AU ;
+    skos:definition "Schedule 3 Amendment of the Financial Corporations Act 1974"@en-AU ;
+    skos:narrower C2004A00616:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942767> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942767"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00616:7 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S7 Schedule 4 Amendment of the Financial Corporations Transfer of Assets and Liabilities Act 1993"@en-AU ;
+    dct:isPartOf C2004A00616:3 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Schedule 4 Amendment of the Financial Corporations Transfer of Assets and Liabilities Act 1993 - Abrievated Graph Key: S7"@en-AU ;
+    skos:definition "Schedule 4 Amendment of the Financial Corporations Transfer of Assets and Liabilities Act 1993"@en-AU ;
+    skos:narrower C2004A00616:3 ;
+    skos:prefLabel "Schedule S7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942775> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942775"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00616:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 5 Amendment of the Financial Laws Amendment Act 1997"@en-AU ;
+    dct:isPartOf C2004A00616:3 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Schedule 5 Amendment of the Financial Laws Amendment Act 1997 - Abrievated Graph Key: S8"@en-AU ;
+    skos:definition "Schedule 5 Amendment of the Financial Laws Amendment Act 1997"@en-AU ;
+    skos:narrower C2004A00616:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942776> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942776"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00616:9 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S9 Schedule 6 Amendment of the Life Insurance Act 1995"@en-AU ;
+    dct:isPartOf C2004A00616:3 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Schedule 6 Amendment of the Life Insurance Act 1995 - Abrievated Graph Key: S9"@en-AU ;
+    skos:definition "Schedule 6 Amendment of the Life Insurance Act 1995"@en-AU ;
+    skos:narrower C2004A00616:3 ;
+    skos:prefLabel "Schedule S9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942777> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942777"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00616:12 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S12 Schedule 9 Amendment of superannuation legislation relating to financial assistance to funds"@en-AU ;
+    dct:hasPart C2004A00616:13,
+        C2004A00616:14,
+        C2004A00616:15 ;
+    dct:isPartOf C2004A00616:3 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Schedule 9 Amendment of superannuation legislation relating to financial assistance to funds - Abrievated Graph Key: S12"@en-AU ;
+    skos:broader C2004A00616:13,
+        C2004A00616:14,
+        C2004A00616:15 ;
+    skos:definition "Schedule 9 Amendment of superannuation legislation relating to financial assistance to funds"@en-AU ;
+    skos:narrower C2004A00616:3 ;
+    skos:prefLabel "Schedule S12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942780> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942780"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00616:17 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S17 Schedule 11 Other miscellaneous minor technical amendments"@en-AU ;
+    dct:hasPart C2004A00616:18,
+        C2004A00616:19,
+        C2004A00616:20 ;
+    dct:isPartOf C2004A00616:3 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Schedule 11 Other miscellaneous minor technical amendments - Abrievated Graph Key: S17"@en-AU ;
+    skos:broader C2004A00616:18,
+        C2004A00616:19,
+        C2004A00616:20 ;
+    skos:definition "Schedule 11 Other miscellaneous minor technical amendments"@en-AU ;
+    skos:narrower C2004A00616:3 ;
+    skos:prefLabel "Schedule S17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942790> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942790"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00616:21 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S21 Schedule 12 Transitional saving and application provisions"@en-AU ;
+    dct:hasPart C2004A00616:22,
+        C2004A00616:23,
+        C2004A00616:24,
+        C2004A00616:25,
+        C2004A00616:26 ;
+    dct:isPartOf C2004A00616:3 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "Schedule 12 Transitional saving and application provisions - Abrievated Graph Key: S21"@en-AU ;
+    skos:broader C2004A00616:22,
+        C2004A00616:23,
+        C2004A00616:24,
+        C2004A00616:25,
+        C2004A00616:26 ;
+    skos:definition "Schedule 12 Transitional saving and application provisions"@en-AU ;
+    skos:narrower C2004A00616:3 ;
+    skos:prefLabel "Schedule S21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942794> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942794"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00616:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A00616:10,
+        C2004A00616:11,
+        C2004A00616:12,
+        C2004A00616:16,
+        C2004A00616:17,
+        C2004A00616:21,
+        C2004A00616:4,
+        C2004A00616:5,
+        C2004A00616:6,
+        C2004A00616:7,
+        C2004A00616:8,
+        C2004A00616:9 ;
+    dct:isReferencedBy C2004A00616: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A00616:10,
+        C2004A00616:11,
+        C2004A00616:12,
+        C2004A00616:16,
+        C2004A00616:17,
+        C2004A00616:21,
+        C2004A00616:4,
+        C2004A00616:5,
+        C2004A00616:6,
+        C2004A00616:7,
+        C2004A00616:8,
+        C2004A00616:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942764> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00616/asmade/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc477942764"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00616: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Financial Sector Reform (Amendments and Transitional Provisions) Act (No. 1) 2000" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-27T17:36:53.895301"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "1997-06-30T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Financial Sector Reform (Amendments and Transitional Provisions) Act (No. 1) 2000"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A00616/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Financial Sector Reform (Amendments and Transitional Provisions) Act (No. 1) 2000"@en-AU ;
+    dct:title "Financial Sector Reform (Amendments and Transitional Provisions) Act (No. 1) 2000"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2004A00616" .
+

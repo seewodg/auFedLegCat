@@ -1,0 +1,194 @@
+@prefix C2004A01226: <http://example.org/au/leg/dataset/C2004A01226/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A01226:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A01226: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851918> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851918"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01226:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A01226: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851919> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851919"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01226:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2004A01226:10 ;
+    dct:isReferencedBy C2004A01226: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2004A01226:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851953> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851953"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01226:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendment of the Corporations Act 2001 relating to unsolicited offers to purchase financial products offmarket"@en-AU ;
+    dct:isPartOf C2004A01226:3 ;
+    dct:isReferencedBy C2004A01226: ;
+    rdfs:comment "Schedule 1 Amendment of the Corporations Act 2001 relating to unsolicited offers to purchase financial products offmarket - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Amendment of the Corporations Act 2001 relating to unsolicited offers to purchase financial products offmarket"@en-AU ;
+    skos:narrower C2004A01226:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851921> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851921"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01226:5 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S5 Schedule 2 Other amendments of the Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2004A01226:3 ;
+    dct:isReferencedBy C2004A01226: ;
+    rdfs:comment "Schedule 2 Other amendments of the Corporations Act 2001 - Abrievated Graph Key: S5"@en-AU ;
+    skos:definition "Schedule 2 Other amendments of the Corporations Act 2001"@en-AU ;
+    skos:narrower C2004A01226:3 ;
+    skos:prefLabel "Schedule S5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851934> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851934"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01226:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Australian Securities and Investments Commission Act 2001"@en-AU ;
+    dct:isPartOf C2004A01226:6 ;
+    dct:isReferencedBy C2004A01226: ;
+    rdfs:comment "Australian Securities and Investments Commission Act 2001 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Australian Securities and Investments Commission Act 2001"@en-AU ;
+    skos:narrower C2004A01226:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851949> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851949"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01226:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2004A01226:6 ;
+    dct:isReferencedBy C2004A01226: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2004A01226:6 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851950> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851950"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01226:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Retirement Savings Accounts Act 1997"@en-AU ;
+    dct:isPartOf C2004A01226:6 ;
+    dct:isReferencedBy C2004A01226: ;
+    rdfs:comment "Retirement Savings Accounts Act 1997 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Retirement Savings Accounts Act 1997"@en-AU ;
+    skos:narrower C2004A01226:6 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851951> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851951"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01226:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 4 Transitional provisions"@en-AU ;
+    dct:hasPart C2004A01226:11 ;
+    dct:isPartOf C2004A01226:3 ;
+    dct:isReferencedBy C2004A01226: ;
+    rdfs:comment "Schedule 4 Transitional provisions - Abrievated Graph Key: S10"@en-AU ;
+    skos:broader C2004A01226:11 ;
+    skos:definition "Schedule 4 Transitional provisions"@en-AU ;
+    skos:narrower C2004A01226:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851952> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851952"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01226:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A01226:10,
+        C2004A01226:4,
+        C2004A01226:5,
+        C2004A01226:6 ;
+    dct:isReferencedBy C2004A01226: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A01226:10,
+        C2004A01226:4,
+        C2004A01226:5,
+        C2004A01226:6 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851920> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851920"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01226:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 3 Amendment of other Acts"@en-AU ;
+    dct:hasPart C2004A01226:7,
+        C2004A01226:8,
+        C2004A01226:9 ;
+    dct:isPartOf C2004A01226:3 ;
+    dct:isReferencedBy C2004A01226: ;
+    rdfs:comment "Schedule 3 Amendment of other Acts - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2004A01226:7,
+        C2004A01226:8,
+        C2004A01226:9 ;
+    skos:definition "Schedule 3 Amendment of other Acts"@en-AU ;
+    skos:narrower C2004A01226:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851948> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01226/asmade/2003-12-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc59851948"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01226: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Financial Services Reform Amendment Act 2003" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-27T17:05:06.147168"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2003-12-17T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Financial Services Reform Amendment Act 2003"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A01226/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Financial Services Reform Amendment Act 2003"@en-AU ;
+    dct:title "Financial Services Reform Amendment Act 2003"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2004A01226" .
+

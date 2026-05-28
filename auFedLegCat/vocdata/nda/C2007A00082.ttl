@@ -1,0 +1,1504 @@
+@prefix C2007A00082: <http://example.org/au/leg/dataset/C2007A00082/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2007A00082:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366789> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366789"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366790> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366790"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366791> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366791"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Child Support Assessment Act 1989"@en-AU ;
+    dct:isPartOf C2007A00082:9 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Assessment Act 1989 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Child Support Assessment Act 1989"@en-AU ;
+    skos:narrower C2007A00082:9 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366798> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366798"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Child Support Legislation Amendment Reform of the Child Support SchemeNew Formula and Other Measures Act 2006"@en-AU ;
+    dct:isPartOf C2007A00082:9 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Legislation Amendment Reform of the Child Support SchemeNew Formula and Other Measures Act 2006 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Child Support Legislation Amendment Reform of the Child Support SchemeNew Formula and Other Measures Act 2006"@en-AU ;
+    skos:narrower C2007A00082:9 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366802> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366802"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Child Support Registration and Collection Act 1988"@en-AU ;
+    dct:isPartOf C2007A00082:9 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Registration and Collection Act 1988 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Child Support Registration and Collection Act 1988"@en-AU ;
+    skos:narrower C2007A00082:9 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366803> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366803"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:13 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D13 Division 2 Application provisions"@en-AU ;
+    dct:isPartOf C2007A00082:8 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Division 2 Application provisions - Abrievated Graph Key: D13"@en-AU ;
+    skos:definition "Division 2 Application provisions"@en-AU ;
+    skos:narrower C2007A00082:8 ;
+    skos:prefLabel "Division D13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366812> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366812"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2007A00082:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Child Support Assessment Act 1989"@en-AU ;
+    dct:isPartOf C2007A00082:14 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Assessment Act 1989 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Child Support Assessment Act 1989"@en-AU ;
+    skos:narrower C2007A00082:14 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366814> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366814"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Child Support Legislation Amendment Reform of the Child Support SchemeNew Formula and Other Measures Act 2006"@en-AU ;
+    dct:isPartOf C2007A00082:14 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Legislation Amendment Reform of the Child Support SchemeNew Formula and Other Measures Act 2006 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Child Support Legislation Amendment Reform of the Child Support SchemeNew Formula and Other Measures Act 2006"@en-AU ;
+    skos:narrower C2007A00082:14 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366815> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366815"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Child Support Registration and Collection Act 1988"@en-AU ;
+    dct:isPartOf C2007A00082:14 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Registration and Collection Act 1988 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Child Support Registration and Collection Act 1988"@en-AU ;
+    skos:narrower C2007A00082:14 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366816> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366816"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 A New Tax System Family Assistance Act 1999"@en-AU ;
+    dct:isPartOf C2007A00082:19 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "A New Tax System Family Assistance Act 1999 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Act 1999"@en-AU ;
+    skos:narrower C2007A00082:19 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366819> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366819"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Child Support Assessment Act 1989"@en-AU ;
+    dct:isPartOf C2007A00082:19 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Assessment Act 1989 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Child Support Assessment Act 1989"@en-AU ;
+    skos:narrower C2007A00082:19 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366820> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366820"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Child Support Registration and Collection Act 1988"@en-AU ;
+    dct:isPartOf C2007A00082:19 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Registration and Collection Act 1988 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Child Support Registration and Collection Act 1988"@en-AU ;
+    skos:narrower C2007A00082:19 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366826> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366826"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Child Support Legislation Amendment Reform of the Child Support SchemeNew Formula and Other Measures Act 2006"@en-AU ;
+    dct:isPartOf C2007A00082:23 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Legislation Amendment Reform of the Child Support SchemeNew Formula and Other Measures Act 2006 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Child Support Legislation Amendment Reform of the Child Support SchemeNew Formula and Other Measures Act 2006"@en-AU ;
+    skos:narrower C2007A00082:23 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366828> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366828"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Child Support Assessment Act 1989"@en-AU ;
+    dct:isPartOf C2007A00082:26 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Assessment Act 1989 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Child Support Assessment Act 1989"@en-AU ;
+    skos:narrower C2007A00082:26 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366831> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366831"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Child Support Registration and Collection Act 1988"@en-AU ;
+    dct:isPartOf C2007A00082:26 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Registration and Collection Act 1988 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Child Support Registration and Collection Act 1988"@en-AU ;
+    skos:narrower C2007A00082:26 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366841> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366841"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2007A00082:26 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2007A00082:26 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366853> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366853"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Child Support Assessment Act 1989"@en-AU ;
+    dct:isPartOf C2007A00082:30 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Assessment Act 1989 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Child Support Assessment Act 1989"@en-AU ;
+    skos:narrower C2007A00082:30 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366859> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366859"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Child Support Registration and Collection Act 1988"@en-AU ;
+    dct:isPartOf C2007A00082:30 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Registration and Collection Act 1988 - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Child Support Registration and Collection Act 1988"@en-AU ;
+    skos:narrower C2007A00082:30 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366866> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366866"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Child Support Assessment Act 1989"@en-AU ;
+    dct:isPartOf C2007A00082:34 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Assessment Act 1989 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Child Support Assessment Act 1989"@en-AU ;
+    skos:narrower C2007A00082:34 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366869> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366869"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 Child Support Registration and Collection Act 1988"@en-AU ;
+    dct:isPartOf C2007A00082:34 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Registration and Collection Act 1988 - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "Child Support Registration and Collection Act 1988"@en-AU ;
+    skos:narrower C2007A00082:34 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366872> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366872"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 Child Support Assessment Act 1989"@en-AU ;
+    dct:isPartOf C2007A00082:37 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Assessment Act 1989 - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "Child Support Assessment Act 1989"@en-AU ;
+    skos:narrower C2007A00082:37 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366874> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366874"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 Child Support Registration and Collection Act 1988"@en-AU ;
+    dct:isPartOf C2007A00082:37 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Registration and Collection Act 1988 - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "Child Support Registration and Collection Act 1988"@en-AU ;
+    skos:narrower C2007A00082:37 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366877> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366877"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 Child Support Assessment Act 1989"@en-AU ;
+    dct:isPartOf C2007A00082:41 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Assessment Act 1989 - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "Child Support Assessment Act 1989"@en-AU ;
+    skos:narrower C2007A00082:41 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366880> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366880"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:43 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I43 Child Support Registration and Collection Act 1988"@en-AU ;
+    dct:isPartOf C2007A00082:41 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Registration and Collection Act 1988 - Abrievated Graph Key: I43"@en-AU ;
+    skos:definition "Child Support Registration and Collection Act 1988"@en-AU ;
+    skos:narrower C2007A00082:41 ;
+    skos:prefLabel "Item I43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366882> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366882"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:45 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I45 Child Support Assessment Act 1989"@en-AU ;
+    dct:isPartOf C2007A00082:44 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Assessment Act 1989 - Abrievated Graph Key: I45"@en-AU ;
+    skos:definition "Child Support Assessment Act 1989"@en-AU ;
+    skos:narrower C2007A00082:44 ;
+    skos:prefLabel "Item I45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366885> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366885"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:46 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I46 Child Support Registration and Collection Act 1988"@en-AU ;
+    dct:isPartOf C2007A00082:44 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Registration and Collection Act 1988 - Abrievated Graph Key: I46"@en-AU ;
+    skos:definition "Child Support Registration and Collection Act 1988"@en-AU ;
+    skos:narrower C2007A00082:44 ;
+    skos:prefLabel "Item I46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366886> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366886"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:48 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I48 Child Support Assessment Act 1989"@en-AU ;
+    dct:isPartOf C2007A00082:47 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Assessment Act 1989 - Abrievated Graph Key: I48"@en-AU ;
+    skos:definition "Child Support Assessment Act 1989"@en-AU ;
+    skos:narrower C2007A00082:47 ;
+    skos:prefLabel "Item I48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366888> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366888"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:51 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I51 A New Tax System Family Assistance Act 1999"@en-AU ;
+    dct:isPartOf C2007A00082:50 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "A New Tax System Family Assistance Act 1999 - Abrievated Graph Key: I51"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Act 1999"@en-AU ;
+    skos:narrower C2007A00082:50 ;
+    skos:prefLabel "Item I51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366891> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366891"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:53 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I53 A New Tax System Family Assistance Act 1999"@en-AU ;
+    dct:isPartOf C2007A00082:52 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "A New Tax System Family Assistance Act 1999 - Abrievated Graph Key: I53"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Act 1999"@en-AU ;
+    skos:narrower C2007A00082:52 ;
+    skos:prefLabel "Item I53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366893> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366893"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:56 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I56 A New Tax System Family Assistance Act 1999"@en-AU ;
+    dct:isPartOf C2007A00082:55 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "A New Tax System Family Assistance Act 1999 - Abrievated Graph Key: I56"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Act 1999"@en-AU ;
+    skos:narrower C2007A00082:55 ;
+    skos:prefLabel "Item I56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366898> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366898"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:58 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I58 A New Tax System Family Assistance Act 1999"@en-AU ;
+    dct:isPartOf C2007A00082:57 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "A New Tax System Family Assistance Act 1999 - Abrievated Graph Key: I58"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Act 1999"@en-AU ;
+    skos:narrower C2007A00082:57 ;
+    skos:prefLabel "Item I58"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366900> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366900"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:60 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I60 A New Tax System Family Assistance Act 1999"@en-AU ;
+    dct:isPartOf C2007A00082:59 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "A New Tax System Family Assistance Act 1999 - Abrievated Graph Key: I60"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Act 1999"@en-AU ;
+    skos:narrower C2007A00082:59 ;
+    skos:prefLabel "Item I60"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366902> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366902"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:63 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I63 A New Tax System Family Assistance Act 1999"@en-AU ;
+    dct:isPartOf C2007A00082:62 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "A New Tax System Family Assistance Act 1999 - Abrievated Graph Key: I63"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Act 1999"@en-AU ;
+    skos:narrower C2007A00082:62 ;
+    skos:prefLabel "Item I63"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366906> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366906"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:64 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I64 A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    dct:isPartOf C2007A00082:62 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "A New Tax System Family Assistance Administration Act 1999 - Abrievated Graph Key: I64"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    skos:narrower C2007A00082:62 ;
+    skos:prefLabel "Item I64"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366907> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366907"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:66 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I66 A New Tax System Family Assistance Act 1999"@en-AU ;
+    dct:isPartOf C2007A00082:65 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "A New Tax System Family Assistance Act 1999 - Abrievated Graph Key: I66"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Act 1999"@en-AU ;
+    skos:narrower C2007A00082:65 ;
+    skos:prefLabel "Item I66"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366909> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366909"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:68 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I68 A New Tax System Family Assistance Act 1999"@en-AU ;
+    dct:isPartOf C2007A00082:67 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "A New Tax System Family Assistance Act 1999 - Abrievated Graph Key: I68"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Act 1999"@en-AU ;
+    skos:narrower C2007A00082:67 ;
+    skos:prefLabel "Item I68"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366911> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366911"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:69 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I69 A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    dct:isPartOf C2007A00082:67 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "A New Tax System Family Assistance Administration Act 1999 - Abrievated Graph Key: I69"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    skos:narrower C2007A00082:67 ;
+    skos:prefLabel "Item I69"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366916> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366916"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Child Support Legislation Amendment Reform of the Child Support SchemeNew Formula and Other Measures Act 2006"@en-AU ;
+    dct:isPartOf C2007A00082:6 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Legislation Amendment Reform of the Child Support SchemeNew Formula and Other Measures Act 2006 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Child Support Legislation Amendment Reform of the Child Support SchemeNew Formula and Other Measures Act 2006"@en-AU ;
+    skos:narrower C2007A00082:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366795> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366795"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:70 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I70 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2007A00082:67 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I70"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2007A00082:67 ;
+    skos:prefLabel "Item I70"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366918> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366918"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:71 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I71 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2007A00082:67 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I71"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2007A00082:67 ;
+    skos:prefLabel "Item I71"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366919> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366919"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:73 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I73 A New Tax System Family Assistance Act 1999"@en-AU ;
+    dct:isPartOf C2007A00082:72 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "A New Tax System Family Assistance Act 1999 - Abrievated Graph Key: I73"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Act 1999"@en-AU ;
+    skos:narrower C2007A00082:72 ;
+    skos:prefLabel "Item I73"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366921> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366921"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:75 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I75 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2007A00082:74 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I75"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2007A00082:74 ;
+    skos:prefLabel "Item I75"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366923> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366923"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:76 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I76 Veterans Entitlements Act 1986"@en-AU ;
+    dct:isPartOf C2007A00082:74 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Veterans Entitlements Act 1986 - Abrievated Graph Key: I76"@en-AU ;
+    skos:definition "Veterans Entitlements Act 1986"@en-AU ;
+    skos:narrower C2007A00082:74 ;
+    skos:prefLabel "Item I76"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366924> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366924"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:78 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I78 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2007A00082:77 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I78"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2007A00082:77 ;
+    skos:prefLabel "Item I78"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366926> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366926"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:80 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I80 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2007A00082:79 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I80"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2007A00082:79 ;
+    skos:prefLabel "Item I80"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366928> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366928"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:81 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I81 Veterans Entitlements Act 1986"@en-AU ;
+    dct:isPartOf C2007A00082:79 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Veterans Entitlements Act 1986 - Abrievated Graph Key: I81"@en-AU ;
+    skos:definition "Veterans Entitlements Act 1986"@en-AU ;
+    skos:narrower C2007A00082:79 ;
+    skos:prefLabel "Item I81"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366929> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366929"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:83 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I83 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2007A00082:82 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I83"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2007A00082:82 ;
+    skos:prefLabel "Item I83"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366931> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366931"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:84 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I84 Veterans Entitlements Act 1986"@en-AU ;
+    dct:isPartOf C2007A00082:82 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Veterans Entitlements Act 1986 - Abrievated Graph Key: I84"@en-AU ;
+    skos:definition "Veterans Entitlements Act 1986"@en-AU ;
+    skos:narrower C2007A00082:82 ;
+    skos:prefLabel "Item I84"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366934> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366934"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:87 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I87 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2007A00082:86 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I87"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2007A00082:86 ;
+    skos:prefLabel "Item I87"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366939> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366939"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:89 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I89 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2007A00082:88 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I89"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2007A00082:88 ;
+    skos:prefLabel "Item I89"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366941> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366941"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:90 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I90 Social Security Administration Act 1999"@en-AU ;
+    dct:isPartOf C2007A00082:88 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Social Security Administration Act 1999 - Abrievated Graph Key: I90"@en-AU ;
+    skos:definition "Social Security Administration Act 1999"@en-AU ;
+    skos:narrower C2007A00082:88 ;
+    skos:prefLabel "Item I90"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366942> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366942"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:92 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I92 Child Support Assessment Act 1989"@en-AU ;
+    dct:isPartOf C2007A00082:91 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Assessment Act 1989 - Abrievated Graph Key: I92"@en-AU ;
+    skos:definition "Child Support Assessment Act 1989"@en-AU ;
+    skos:narrower C2007A00082:91 ;
+    skos:prefLabel "Item I92"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366944> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366944"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:93 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I93 Child Support Registration and Collection Act 1988"@en-AU ;
+    dct:isPartOf C2007A00082:91 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Child Support Registration and Collection Act 1988 - Abrievated Graph Key: I93"@en-AU ;
+    skos:definition "Child Support Registration and Collection Act 1988"@en-AU ;
+    skos:narrower C2007A00082:91 ;
+    skos:prefLabel "Item I93"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366945> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366945"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082:23 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D23 Division 2 Amendment of the New Formula Act"@en-AU ;
+    dct:hasPart C2007A00082:24 ;
+    dct:isPartOf C2007A00082:18 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Division 2 Amendment of the New Formula Act - Abrievated Graph Key: D23"@en-AU ;
+    skos:broader C2007A00082:24 ;
+    skos:definition "Division 2 Amendment of the New Formula Act"@en-AU ;
+    skos:narrower C2007A00082:18 ;
+    skos:prefLabel "Division D23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366827> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366827"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2007A00082:47 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P47 Part 3 Amendments commencing on 1 July 2008"@en-AU ;
+    dct:hasPart C2007A00082:48 ;
+    dct:isPartOf C2007A00082:40 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Part 3 Amendments commencing on 1 July 2008 - Abrievated Graph Key: P47"@en-AU ;
+    skos:broader C2007A00082:48 ;
+    skos:definition "Part 3 Amendments commencing on 1 July 2008"@en-AU ;
+    skos:narrower C2007A00082:40 ;
+    skos:prefLabel "Part P47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366887> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366887"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00082:50 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P50 Part 1 Notional assessments"@en-AU ;
+    dct:hasPart C2007A00082:51 ;
+    dct:isPartOf C2007A00082:49 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Part 1 Notional assessments - Abrievated Graph Key: P50"@en-AU ;
+    skos:broader C2007A00082:51 ;
+    skos:definition "Part 1 Notional assessments"@en-AU ;
+    skos:narrower C2007A00082:49 ;
+    skos:prefLabel "Part P50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366890> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366890"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00082:52 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P52 Part 2 Maintenance income ceiling"@en-AU ;
+    dct:hasPart C2007A00082:53 ;
+    dct:isPartOf C2007A00082:49 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Part 2 Maintenance income ceiling - Abrievated Graph Key: P52"@en-AU ;
+    skos:broader C2007A00082:53 ;
+    skos:definition "Part 2 Maintenance income ceiling"@en-AU ;
+    skos:narrower C2007A00082:49 ;
+    skos:prefLabel "Part P52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366892> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366892"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00082:55 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D55 Division 1 Amendments commencing on 1 July 2006"@en-AU ;
+    dct:hasPart C2007A00082:56 ;
+    dct:isPartOf C2007A00082:54 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Division 1 Amendments commencing on 1 July 2006 - Abrievated Graph Key: D55"@en-AU ;
+    skos:broader C2007A00082:56 ;
+    skos:definition "Division 1 Amendments commencing on 1 July 2006"@en-AU ;
+    skos:narrower C2007A00082:54 ;
+    skos:prefLabel "Division D55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366897> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366897"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2007A00082:57 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D57 Division 2 Amendments commencing on 1 July 2007"@en-AU ;
+    dct:hasPart C2007A00082:58 ;
+    dct:isPartOf C2007A00082:54 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Division 2 Amendments commencing on 1 July 2007 - Abrievated Graph Key: D57"@en-AU ;
+    skos:broader C2007A00082:58 ;
+    skos:definition "Division 2 Amendments commencing on 1 July 2007"@en-AU ;
+    skos:narrower C2007A00082:54 ;
+    skos:prefLabel "Division D57"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366899> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366899"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2007A00082:59 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D59 Division 3 Amendment commencing on 1 July 2008"@en-AU ;
+    dct:hasPart C2007A00082:60 ;
+    dct:isPartOf C2007A00082:54 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Division 3 Amendment commencing on 1 July 2008 - Abrievated Graph Key: D59"@en-AU ;
+    skos:broader C2007A00082:60 ;
+    skos:definition "Division 3 Amendment commencing on 1 July 2008"@en-AU ;
+    skos:narrower C2007A00082:54 ;
+    skos:prefLabel "Division D59"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366901> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366901"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2007A00082:6 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P6 Part 1 Amendments commencing on 6 December 2006"@en-AU ;
+    dct:hasPart C2007A00082:7 ;
+    dct:isPartOf C2007A00082:5 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Part 1 Amendments commencing on 6 December 2006 - Abrievated Graph Key: P6"@en-AU ;
+    skos:broader C2007A00082:7 ;
+    skos:definition "Part 1 Amendments commencing on 6 December 2006"@en-AU ;
+    skos:narrower C2007A00082:5 ;
+    skos:prefLabel "Part P6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366794> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366794"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00082:65 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P65 Part 2 Registration of birth"@en-AU ;
+    dct:hasPart C2007A00082:66 ;
+    dct:isPartOf C2007A00082:61 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Part 2 Registration of birth - Abrievated Graph Key: P65"@en-AU ;
+    skos:broader C2007A00082:66 ;
+    skos:definition "Part 2 Registration of birth"@en-AU ;
+    skos:narrower C2007A00082:61 ;
+    skos:prefLabel "Part P65"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366908> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366908"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00082:72 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S72 Schedule 7 Portability of family tax benefit"@en-AU ;
+    dct:hasPart C2007A00082:73 ;
+    dct:isPartOf C2007A00082:4 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Schedule 7 Portability of family tax benefit - Abrievated Graph Key: S72"@en-AU ;
+    skos:broader C2007A00082:73 ;
+    skos:definition "Schedule 7 Portability of family tax benefit"@en-AU ;
+    skos:narrower C2007A00082:4 ;
+    skos:prefLabel "Schedule S72"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366920> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366920"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00082:77 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S77 Schedule 9 Dependant and housekeeper rebates and Medicare levy"@en-AU ;
+    dct:hasPart C2007A00082:78 ;
+    dct:isPartOf C2007A00082:4 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Schedule 9 Dependant and housekeeper rebates and Medicare levy - Abrievated Graph Key: S77"@en-AU ;
+    skos:broader C2007A00082:78 ;
+    skos:definition "Schedule 9 Dependant and housekeeper rebates and Medicare levy"@en-AU ;
+    skos:narrower C2007A00082:4 ;
+    skos:prefLabel "Schedule S77"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366925> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366925"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00082:86 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P86 Part 1 Amendments relating to the Social Security Administration Act 1999"@en-AU ;
+    dct:hasPart C2007A00082:87 ;
+    dct:isPartOf C2007A00082:85 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Part 1 Amendments relating to the Social Security Administration Act 1999 - Abrievated Graph Key: P86"@en-AU ;
+    skos:broader C2007A00082:87 ;
+    skos:definition "Part 1 Amendments relating to the Social Security Administration Act 1999"@en-AU ;
+    skos:narrower C2007A00082:85 ;
+    skos:prefLabel "Part P86"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366938> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366938"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00082:18 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P18 Part 4 Amendments commencing on 1 July 2008"@en-AU ;
+    dct:hasPart C2007A00082:19,
+        C2007A00082:23 ;
+    dct:isPartOf C2007A00082:5 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Part 4 Amendments commencing on 1 July 2008 - Abrievated Graph Key: P18"@en-AU ;
+    skos:broader C2007A00082:19,
+        C2007A00082:23 ;
+    skos:definition "Part 4 Amendments commencing on 1 July 2008"@en-AU ;
+    skos:narrower C2007A00082:5 ;
+    skos:prefLabel "Part P18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366817> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366817"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00082:25 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S25 Schedule 2 Incorporation in primary legislation of matters dealt with by regulation"@en-AU ;
+    dct:hasPart C2007A00082:26,
+        C2007A00082:30 ;
+    dct:isPartOf C2007A00082:4 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Schedule 2 Incorporation in primary legislation of matters dealt with by regulation - Abrievated Graph Key: S25"@en-AU ;
+    skos:broader C2007A00082:26,
+        C2007A00082:30 ;
+    skos:definition "Schedule 2 Incorporation in primary legislation of matters dealt with by regulation"@en-AU ;
+    skos:narrower C2007A00082:4 ;
+    skos:prefLabel "Schedule S25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366829> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366829"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00082:30 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P30 Part 2 Amendments commencing on 1 July 2008"@en-AU ;
+    dct:hasPart C2007A00082:31,
+        C2007A00082:32 ;
+    dct:isPartOf C2007A00082:25 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Part 2 Amendments commencing on 1 July 2008 - Abrievated Graph Key: P30"@en-AU ;
+    skos:broader C2007A00082:31,
+        C2007A00082:32 ;
+    skos:definition "Part 2 Amendments commencing on 1 July 2008"@en-AU ;
+    skos:narrower C2007A00082:25 ;
+    skos:prefLabel "Part P30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366858> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366858"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00082:33 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S33 Schedule 3 Amendments relating to access to courts and review process"@en-AU ;
+    dct:hasPart C2007A00082:34,
+        C2007A00082:37 ;
+    dct:isPartOf C2007A00082:4 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Schedule 3 Amendments relating to access to courts and review process - Abrievated Graph Key: S33"@en-AU ;
+    skos:broader C2007A00082:34,
+        C2007A00082:37 ;
+    skos:definition "Schedule 3 Amendments relating to access to courts and review process"@en-AU ;
+    skos:narrower C2007A00082:4 ;
+    skos:prefLabel "Schedule S33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366867> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366867"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00082:34 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P34 Part 1 Amendments commencing on 1 January 2008"@en-AU ;
+    dct:hasPart C2007A00082:35,
+        C2007A00082:36 ;
+    dct:isPartOf C2007A00082:33 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Part 1 Amendments commencing on 1 January 2008 - Abrievated Graph Key: P34"@en-AU ;
+    skos:broader C2007A00082:35,
+        C2007A00082:36 ;
+    skos:definition "Part 1 Amendments commencing on 1 January 2008"@en-AU ;
+    skos:narrower C2007A00082:33 ;
+    skos:prefLabel "Part P34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366868> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366868"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00082:37 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P37 Part 2 Amendments commencing on 1 July 2008"@en-AU ;
+    dct:hasPart C2007A00082:38,
+        C2007A00082:39 ;
+    dct:isPartOf C2007A00082:33 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Part 2 Amendments commencing on 1 July 2008 - Abrievated Graph Key: P37"@en-AU ;
+    skos:broader C2007A00082:38,
+        C2007A00082:39 ;
+    skos:definition "Part 2 Amendments commencing on 1 July 2008"@en-AU ;
+    skos:narrower C2007A00082:33 ;
+    skos:prefLabel "Part P37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366873> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366873"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00082:41 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P41 Part 1 Amendments commencing the day after Royal Assent"@en-AU ;
+    dct:hasPart C2007A00082:42,
+        C2007A00082:43 ;
+    dct:isPartOf C2007A00082:40 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Part 1 Amendments commencing the day after Royal Assent - Abrievated Graph Key: P41"@en-AU ;
+    skos:broader C2007A00082:42,
+        C2007A00082:43 ;
+    skos:definition "Part 1 Amendments commencing the day after Royal Assent"@en-AU ;
+    skos:narrower C2007A00082:40 ;
+    skos:prefLabel "Part P41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366879> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366879"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00082:44 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P44 Part 2 Amendments commencing on 1 January 2008"@en-AU ;
+    dct:hasPart C2007A00082:45,
+        C2007A00082:46 ;
+    dct:isPartOf C2007A00082:40 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Part 2 Amendments commencing on 1 January 2008 - Abrievated Graph Key: P44"@en-AU ;
+    skos:broader C2007A00082:45,
+        C2007A00082:46 ;
+    skos:definition "Part 2 Amendments commencing on 1 January 2008"@en-AU ;
+    skos:narrower C2007A00082:40 ;
+    skos:prefLabel "Part P44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366884> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366884"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00082:62 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P62 Part 1 Baby bonus payments to those under 18"@en-AU ;
+    dct:hasPart C2007A00082:63,
+        C2007A00082:64 ;
+    dct:isPartOf C2007A00082:61 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Part 1 Baby bonus payments to those under 18 - Abrievated Graph Key: P62"@en-AU ;
+    skos:broader C2007A00082:63,
+        C2007A00082:64 ;
+    skos:definition "Part 1 Baby bonus payments to those under 18"@en-AU ;
+    skos:narrower C2007A00082:61 ;
+    skos:prefLabel "Part P62"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366905> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366905"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00082:74 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S74 Schedule 8 Remote area allowance"@en-AU ;
+    dct:hasPart C2007A00082:75,
+        C2007A00082:76 ;
+    dct:isPartOf C2007A00082:4 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Schedule 8 Remote area allowance - Abrievated Graph Key: S74"@en-AU ;
+    skos:broader C2007A00082:75,
+        C2007A00082:76 ;
+    skos:definition "Schedule 8 Remote area allowance"@en-AU ;
+    skos:narrower C2007A00082:4 ;
+    skos:prefLabel "Schedule S74"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366922> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366922"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00082:79 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S79 Schedule 10 Extension of the assets test exemption period"@en-AU ;
+    dct:hasPart C2007A00082:80,
+        C2007A00082:81 ;
+    dct:isPartOf C2007A00082:4 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Schedule 10 Extension of the assets test exemption period - Abrievated Graph Key: S79"@en-AU ;
+    skos:broader C2007A00082:80,
+        C2007A00082:81 ;
+    skos:definition "Schedule 10 Extension of the assets test exemption period"@en-AU ;
+    skos:narrower C2007A00082:4 ;
+    skos:prefLabel "Schedule S79"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366927> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366927"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00082:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 2 Amendments commencing the day after Royal Assent"@en-AU ;
+    dct:hasPart C2007A00082:13,
+        C2007A00082:9 ;
+    dct:isPartOf C2007A00082:5 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Part 2 Amendments commencing the day after Royal Assent - Abrievated Graph Key: P8"@en-AU ;
+    skos:broader C2007A00082:13,
+        C2007A00082:9 ;
+    skos:definition "Part 2 Amendments commencing the day after Royal Assent"@en-AU ;
+    skos:narrower C2007A00082:5 ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366796> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366796"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00082:82 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S82 Schedule 11 Amendments relating to income streams"@en-AU ;
+    dct:hasPart C2007A00082:83,
+        C2007A00082:84 ;
+    dct:isPartOf C2007A00082:4 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Schedule 11 Amendments relating to income streams - Abrievated Graph Key: S82"@en-AU ;
+    skos:broader C2007A00082:83,
+        C2007A00082:84 ;
+    skos:definition "Schedule 11 Amendments relating to income streams"@en-AU ;
+    skos:narrower C2007A00082:4 ;
+    skos:prefLabel "Schedule S82"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366930> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366930"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00082:88 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P88 Part 2 Other minor and technical amendments"@en-AU ;
+    dct:hasPart C2007A00082:89,
+        C2007A00082:90 ;
+    dct:isPartOf C2007A00082:85 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Part 2 Other minor and technical amendments - Abrievated Graph Key: P88"@en-AU ;
+    skos:broader C2007A00082:89,
+        C2007A00082:90 ;
+    skos:definition "Part 2 Other minor and technical amendments"@en-AU ;
+    skos:narrower C2007A00082:85 ;
+    skos:prefLabel "Part P88"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366940> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366940"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00082:91 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P91 Part 3 Changing references to Act titles"@en-AU ;
+    dct:hasPart C2007A00082:92,
+        C2007A00082:93 ;
+    dct:isPartOf C2007A00082:85 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Part 3 Changing references to Act titles - Abrievated Graph Key: P91"@en-AU ;
+    skos:broader C2007A00082:92,
+        C2007A00082:93 ;
+    skos:definition "Part 3 Changing references to Act titles"@en-AU ;
+    skos:narrower C2007A00082:85 ;
+    skos:prefLabel "Part P91"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366943> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366943"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00082:14 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P14 Part 3 Amendments commencing on 1 January 2008"@en-AU ;
+    dct:hasPart C2007A00082:15,
+        C2007A00082:16,
+        C2007A00082:17 ;
+    dct:isPartOf C2007A00082:5 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Part 3 Amendments commencing on 1 January 2008 - Abrievated Graph Key: P14"@en-AU ;
+    skos:broader C2007A00082:15,
+        C2007A00082:16,
+        C2007A00082:17 ;
+    skos:definition "Part 3 Amendments commencing on 1 January 2008"@en-AU ;
+    skos:narrower C2007A00082:5 ;
+    skos:prefLabel "Part P14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366813> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366813"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00082:19 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D19 Division 1 Amendment of principal Acts"@en-AU ;
+    dct:hasPart C2007A00082:20,
+        C2007A00082:21,
+        C2007A00082:22 ;
+    dct:isPartOf C2007A00082:18 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Division 1 Amendment of principal Acts - Abrievated Graph Key: D19"@en-AU ;
+    skos:broader C2007A00082:20,
+        C2007A00082:21,
+        C2007A00082:22 ;
+    skos:definition "Division 1 Amendment of principal Acts"@en-AU ;
+    skos:narrower C2007A00082:18 ;
+    skos:prefLabel "Division D19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366818> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366818"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2007A00082:26 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P26 Part 1 Amendments commencing 28 days after Royal Assent"@en-AU ;
+    dct:hasPart C2007A00082:27,
+        C2007A00082:28,
+        C2007A00082:29 ;
+    dct:isPartOf C2007A00082:25 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Part 1 Amendments commencing 28 days after Royal Assent - Abrievated Graph Key: P26"@en-AU ;
+    skos:broader C2007A00082:27,
+        C2007A00082:28,
+        C2007A00082:29 ;
+    skos:definition "Part 1 Amendments commencing 28 days after Royal Assent"@en-AU ;
+    skos:narrower C2007A00082:25 ;
+    skos:prefLabel "Part P26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366830> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366830"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00082:40 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S40 Schedule 4 Miscellaneous amendments"@en-AU ;
+    dct:hasPart C2007A00082:41,
+        C2007A00082:44,
+        C2007A00082:47 ;
+    dct:isPartOf C2007A00082:4 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Schedule 4 Miscellaneous amendments - Abrievated Graph Key: S40"@en-AU ;
+    skos:broader C2007A00082:41,
+        C2007A00082:44,
+        C2007A00082:47 ;
+    skos:definition "Schedule 4 Miscellaneous amendments"@en-AU ;
+    skos:narrower C2007A00082:4 ;
+    skos:prefLabel "Schedule S40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366878> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366878"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00082:49 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S49 Schedule 5 Maintenance income test"@en-AU ;
+    dct:hasPart C2007A00082:50,
+        C2007A00082:52,
+        C2007A00082:54 ;
+    dct:isPartOf C2007A00082:4 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Schedule 5 Maintenance income test - Abrievated Graph Key: S49"@en-AU ;
+    skos:broader C2007A00082:50,
+        C2007A00082:52,
+        C2007A00082:54 ;
+    skos:definition "Schedule 5 Maintenance income test"@en-AU ;
+    skos:narrower C2007A00082:4 ;
+    skos:prefLabel "Schedule S49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366889> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366889"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00082:54 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P54 Part 3 Maintenance income credit"@en-AU ;
+    dct:hasPart C2007A00082:55,
+        C2007A00082:57,
+        C2007A00082:59 ;
+    dct:isPartOf C2007A00082:49 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Part 3 Maintenance income credit - Abrievated Graph Key: P54"@en-AU ;
+    skos:broader C2007A00082:55,
+        C2007A00082:57,
+        C2007A00082:59 ;
+    skos:definition "Part 3 Maintenance income credit"@en-AU ;
+    skos:narrower C2007A00082:49 ;
+    skos:prefLabel "Part P54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366896> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366896"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00082:61 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S61 Schedule 6 Baby bonus amendments"@en-AU ;
+    dct:hasPart C2007A00082:62,
+        C2007A00082:65,
+        C2007A00082:67 ;
+    dct:isPartOf C2007A00082:4 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Schedule 6 Baby bonus amendments - Abrievated Graph Key: S61"@en-AU ;
+    skos:broader C2007A00082:62,
+        C2007A00082:65,
+        C2007A00082:67 ;
+    skos:definition "Schedule 6 Baby bonus amendments"@en-AU ;
+    skos:narrower C2007A00082:4 ;
+    skos:prefLabel "Schedule S61"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366904> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366904"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00082:85 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S85 Schedule 12 Other minor and technical amendments"@en-AU ;
+    dct:hasPart C2007A00082:86,
+        C2007A00082:88,
+        C2007A00082:91 ;
+    dct:isPartOf C2007A00082:4 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Schedule 12 Other minor and technical amendments - Abrievated Graph Key: S85"@en-AU ;
+    skos:broader C2007A00082:86,
+        C2007A00082:88,
+        C2007A00082:91 ;
+    skos:definition "Schedule 12 Other minor and technical amendments"@en-AU ;
+    skos:narrower C2007A00082:4 ;
+    skos:prefLabel "Schedule S85"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366937> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366937"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00082:9 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D9 Division 1 Amendments"@en-AU ;
+    dct:hasPart C2007A00082:10,
+        C2007A00082:11,
+        C2007A00082:12 ;
+    dct:isPartOf C2007A00082:8 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Division 1 Amendments - Abrievated Graph Key: D9"@en-AU ;
+    skos:broader C2007A00082:10,
+        C2007A00082:11,
+        C2007A00082:12 ;
+    skos:definition "Division 1 Amendments"@en-AU ;
+    skos:narrower C2007A00082:8 ;
+    skos:prefLabel "Division D9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366797> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366797"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2007A00082:5 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S5 Schedule 1 Main amendments"@en-AU ;
+    dct:hasPart C2007A00082:14,
+        C2007A00082:18,
+        C2007A00082:6,
+        C2007A00082:8 ;
+    dct:isPartOf C2007A00082:4 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Schedule 1 Main amendments - Abrievated Graph Key: S5"@en-AU ;
+    skos:broader C2007A00082:14,
+        C2007A00082:18,
+        C2007A00082:6,
+        C2007A00082:8 ;
+    skos:definition "Schedule 1 Main amendments"@en-AU ;
+    skos:narrower C2007A00082:4 ;
+    skos:prefLabel "Schedule S5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366793> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366793"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00082:67 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P67 Part 3 Name change to baby bonus"@en-AU ;
+    dct:hasPart C2007A00082:68,
+        C2007A00082:69,
+        C2007A00082:70,
+        C2007A00082:71 ;
+    dct:isPartOf C2007A00082:61 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "Part 3 Name change to baby bonus - Abrievated Graph Key: P67"@en-AU ;
+    skos:broader C2007A00082:68,
+        C2007A00082:69,
+        C2007A00082:70,
+        C2007A00082:71 ;
+    skos:definition "Part 3 Name change to baby bonus"@en-AU ;
+    skos:narrower C2007A00082:61 ;
+    skos:prefLabel "Part P67"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366910> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366910"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00082:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 4  Application saving and transitional provisions"@en-AU ;
+    dct:hasPart C2007A00082:25,
+        C2007A00082:33,
+        C2007A00082:40,
+        C2007A00082:49,
+        C2007A00082:5,
+        C2007A00082:61,
+        C2007A00082:72,
+        C2007A00082:74,
+        C2007A00082:77,
+        C2007A00082:79,
+        C2007A00082:82,
+        C2007A00082:85 ;
+    dct:isReferencedBy C2007A00082: ;
+    rdfs:comment "4  Application saving and transitional provisions - Abrievated Graph Key: I4"@en-AU ;
+    skos:broader C2007A00082:25,
+        C2007A00082:33,
+        C2007A00082:40,
+        C2007A00082:49,
+        C2007A00082:5,
+        C2007A00082:61,
+        C2007A00082:72,
+        C2007A00082:74,
+        C2007A00082:77,
+        C2007A00082:79,
+        C2007A00082:82,
+        C2007A00082:85 ;
+    skos:definition "4  Application saving and transitional provisions"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366792> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00082/2008-07-01/2008-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257366792"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00082: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Families, Community Services and Indigenous Affairs Legislation Amendment (Child Support Reform Consolidation and Other Measures) Act 2007" ;
+    dct:Jurisdiction " Department of Social Services "@en-AU ;
+    dct:created "2026-05-27T17:46:06.292457"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2008-07-01T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Families, Community Services and Indigenous Affairs Legislation Amendment (Child Support Reform Consolidation and Other Measures) Act 2007"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2007A00082/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Families, Community Services and Indigenous Affairs Legislation Amendment (Child Support Reform Consolidation and Other Measures) Act 2007"@en-AU ;
+    dct:title "Families, Community Services and Indigenous Affairs Legislation Amendment (Child Support Reform Consolidation and Other Measures) Act 2007"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2010C00233" .
+

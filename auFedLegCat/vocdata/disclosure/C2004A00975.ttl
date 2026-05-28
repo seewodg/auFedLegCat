@@ -1,0 +1,210 @@
+@prefix C2004A00975: <http://example.org/au/leg/dataset/C2004A00975/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A00975:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A00975: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862614> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862614"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00975:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A00975: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862615> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862615"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00975:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2004A00975:10 ;
+    dct:isReferencedBy C2004A00975: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2004A00975:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862794> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862794"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00975:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2004A00975:10 ;
+    dct:isReferencedBy C2004A00975: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2004A00975:10 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862795> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862795"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00975:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2004A00975:4 ;
+    dct:isReferencedBy C2004A00975: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2004A00975:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862618> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862618"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00975:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Consequential amendments of Chapter 6 the Dictionary of the Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2004A00975:3 ;
+    dct:isReferencedBy C2004A00975: ;
+    rdfs:comment "Schedule 2 Consequential amendments of Chapter 6 the Dictionary of the Income Tax Assessment Act 1997 - Abrievated Graph Key: S6"@en-AU ;
+    skos:definition "Schedule 2 Consequential amendments of Chapter 6 the Dictionary of the Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2004A00975:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862785> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862785"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00975:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2004A00975:7 ;
+    dct:isReferencedBy C2004A00975: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2004A00975:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862787> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862787"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00975:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2004A00975:7 ;
+    dct:isReferencedBy C2004A00975: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2004A00975:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862789> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862789"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00975:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 The simplified imputation system"@en-AU ;
+    dct:hasPart C2004A00975:5 ;
+    dct:isPartOf C2004A00975:3 ;
+    dct:isReferencedBy C2004A00975: ;
+    rdfs:comment "Schedule 1 The simplified imputation system - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A00975:5 ;
+    skos:definition "Schedule 1 The simplified imputation system"@en-AU ;
+    skos:narrower C2004A00975:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862617> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862617"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00975:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 4 Transitional provisions dealing with the conversion of the franking account"@en-AU ;
+    dct:hasPart C2004A00975:11,
+        C2004A00975:12 ;
+    dct:isPartOf C2004A00975:3 ;
+    dct:isReferencedBy C2004A00975: ;
+    rdfs:comment "Schedule 4 Transitional provisions dealing with the conversion of the franking account - Abrievated Graph Key: S10"@en-AU ;
+    skos:broader C2004A00975:11,
+        C2004A00975:12 ;
+    skos:definition "Schedule 4 Transitional provisions dealing with the conversion of the franking account"@en-AU ;
+    skos:narrower C2004A00975:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862793> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862793"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00975:7 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S7 Schedule 3 Transitional provisions dealing with the application of Part IIIAA of the Income Tax Assessment Act 1936"@en-AU ;
+    dct:hasPart C2004A00975:8,
+        C2004A00975:9 ;
+    dct:isPartOf C2004A00975:3 ;
+    dct:isReferencedBy C2004A00975: ;
+    rdfs:comment "Schedule 3 Transitional provisions dealing with the application of Part IIIAA of the Income Tax Assessment Act 1936 - Abrievated Graph Key: S7"@en-AU ;
+    skos:broader C2004A00975:8,
+        C2004A00975:9 ;
+    skos:definition "Schedule 3 Transitional provisions dealing with the application of Part IIIAA of the Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2004A00975:3 ;
+    skos:prefLabel "Schedule S7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862786> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862786"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00975:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A00975:10,
+        C2004A00975:4,
+        C2004A00975:6,
+        C2004A00975:7 ;
+    dct:isReferencedBy C2004A00975: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A00975:10,
+        C2004A00975:4,
+        C2004A00975:6,
+        C2004A00975:7 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862616> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00975/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12862616"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00975: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "New Business Tax System (Imputation) Act 2002" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-27T19:49:20.732069"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2002-06-29T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "New Business Tax System (Imputation) Act 2002"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A00975/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "New Business Tax System (Imputation) Act 2002"@en-AU ;
+    dct:title "New Business Tax System (Imputation) Act 2002"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2004A00975" .
+

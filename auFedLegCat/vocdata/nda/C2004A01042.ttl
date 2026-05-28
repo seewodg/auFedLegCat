@@ -1,0 +1,627 @@
+@prefix C2004A01042: <http://example.org/au/leg/dataset/C2004A01042/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A01042:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504109> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504109"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504110> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504110"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:10 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P10 Part 6 Records and accounts"@en-AU ;
+    dct:isPartOf C2004A01042:4 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Part 6 Records and accounts - Abrievated Graph Key: P10"@en-AU ;
+    skos:definition "Part 6 Records and accounts"@en-AU ;
+    skos:narrower C2004A01042:4 ;
+    skos:prefLabel "Part P10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504118> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504118"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01042:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 8 Miscellaneous"@en-AU ;
+    dct:isPartOf C2004A01042:4 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Part 8 Miscellaneous - Abrievated Graph Key: P11"@en-AU ;
+    skos:definition "Part 8 Miscellaneous"@en-AU ;
+    skos:narrower C2004A01042:4 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504119> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504119"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01042:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Workplace Relations Act 1996"@en-AU ;
+    dct:isPartOf C2004A01042:13 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Workplace Relations Act 1996 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2004A01042:13 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504122> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504122"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:15 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P15 Part 2 Transitional and saving provisions"@en-AU ;
+    dct:isPartOf C2004A01042:12 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Part 2 Transitional and saving provisions - Abrievated Graph Key: P15"@en-AU ;
+    skos:definition "Part 2 Transitional and saving provisions"@en-AU ;
+    skos:narrower C2004A01042:12 ;
+    skos:prefLabel "Part P15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504130> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504130"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01042:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Builders Labourers Federation Cancellation of RegistrationConsequential Provisions Act 1986"@en-AU ;
+    dct:isPartOf C2004A01042:16 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Builders Labourers Federation Cancellation of RegistrationConsequential Provisions Act 1986 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Builders Labourers Federation Cancellation of RegistrationConsequential Provisions Act 1986"@en-AU ;
+    skos:narrower C2004A01042:16 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504132> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504132"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Commonwealth Authorities and Companies Act 1997"@en-AU ;
+    dct:isPartOf C2004A01042:16 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Commonwealth Authorities and Companies Act 1997 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Commonwealth Authorities and Companies Act 1997"@en-AU ;
+    skos:narrower C2004A01042:16 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504133> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504133"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Commonwealth Electoral Act 1918"@en-AU ;
+    dct:isPartOf C2004A01042:16 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Commonwealth Electoral Act 1918 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Commonwealth Electoral Act 1918"@en-AU ;
+    skos:narrower C2004A01042:16 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504134> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504134"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Crimes Act 1914"@en-AU ;
+    dct:isPartOf C2004A01042:16 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Crimes Act 1914 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Crimes Act 1914"@en-AU ;
+    skos:narrower C2004A01042:16 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504135> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504135"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Criminal Code Act 1995"@en-AU ;
+    dct:isPartOf C2004A01042:16 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Criminal Code Act 1995 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Criminal Code Act 1995"@en-AU ;
+    skos:narrower C2004A01042:16 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504136> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504136"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Disability Discrimination Act 1992"@en-AU ;
+    dct:isPartOf C2004A01042:16 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Disability Discrimination Act 1992 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Disability Discrimination Act 1992"@en-AU ;
+    skos:narrower C2004A01042:16 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504137> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504137"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Employment Workplace Relations and Small Business Legislation Amendment Application of Criminal Code Act 2001"@en-AU ;
+    dct:isPartOf C2004A01042:16 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Employment Workplace Relations and Small Business Legislation Amendment Application of Criminal Code Act 2001 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Employment Workplace Relations and Small Business Legislation Amendment Application of Criminal Code Act 2001"@en-AU ;
+    skos:narrower C2004A01042:16 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504138> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504138"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Equal Opportunity for Women in the Workplace Act 1999"@en-AU ;
+    dct:isPartOf C2004A01042:16 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Equal Opportunity for Women in the Workplace Act 1999 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Equal Opportunity for Women in the Workplace Act 1999"@en-AU ;
+    skos:narrower C2004A01042:16 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504139> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504139"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Human Rights and Equal Opportunity Commission Act 1986"@en-AU ;
+    dct:isPartOf C2004A01042:16 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Human Rights and Equal Opportunity Commission Act 1986 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Human Rights and Equal Opportunity Commission Act 1986"@en-AU ;
+    skos:narrower C2004A01042:16 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504140> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504140"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2004A01042:16 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2004A01042:16 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504141> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504141"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Insurance Act 1973"@en-AU ;
+    dct:isPartOf C2004A01042:16 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Insurance Act 1973 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Insurance Act 1973"@en-AU ;
+    skos:narrower C2004A01042:16 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504142> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504142"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Life Insurance Act 1995"@en-AU ;
+    dct:isPartOf C2004A01042:16 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Life Insurance Act 1995 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Life Insurance Act 1995"@en-AU ;
+    skos:narrower C2004A01042:16 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504143> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504143"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 National Crime Authority Act 1984"@en-AU ;
+    dct:isPartOf C2004A01042:16 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "National Crime Authority Act 1984 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "National Crime Authority Act 1984"@en-AU ;
+    skos:narrower C2004A01042:16 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504144> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504144"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Navigation Act 1912"@en-AU ;
+    dct:isPartOf C2004A01042:16 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Navigation Act 1912 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Navigation Act 1912"@en-AU ;
+    skos:narrower C2004A01042:16 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504145> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504145"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Occupational Health and Safety Commonwealth Employment Act 1991"@en-AU ;
+    dct:isPartOf C2004A01042:16 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Occupational Health and Safety Commonwealth Employment Act 1991 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Occupational Health and Safety Commonwealth Employment Act 1991"@en-AU ;
+    skos:narrower C2004A01042:16 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504146> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504146"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Petroleum Submerged Lands Act 1967"@en-AU ;
+    dct:isPartOf C2004A01042:16 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Petroleum Submerged Lands Act 1967 - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Petroleum Submerged Lands Act 1967"@en-AU ;
+    skos:narrower C2004A01042:16 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504147> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504147"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Sex Discrimination Act 1984"@en-AU ;
+    dct:isPartOf C2004A01042:16 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Sex Discrimination Act 1984 - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Sex Discrimination Act 1984"@en-AU ;
+    skos:narrower C2004A01042:16 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504148> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504148"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Superannuation Act 1976"@en-AU ;
+    dct:isPartOf C2004A01042:16 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Superannuation Act 1976 - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Superannuation Act 1976"@en-AU ;
+    skos:narrower C2004A01042:16 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504149> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504149"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2004A01042:16 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2004A01042:16 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504150> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504150"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 United States Naval Communication Station Civilian Employees Act 1968"@en-AU ;
+    dct:isPartOf C2004A01042:16 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "United States Naval Communication Station Civilian Employees Act 1968 - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "United States Naval Communication Station Civilian Employees Act 1968"@en-AU ;
+    skos:narrower C2004A01042:16 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504151> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504151"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 Workplace Relations Act 1996"@en-AU ;
+    dct:isPartOf C2004A01042:37 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Workplace Relations Act 1996 - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2004A01042:37 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504153> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504153"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 General"@en-AU ;
+    dct:isPartOf C2004A01042:4 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Part 1 General - Abrievated Graph Key: P5"@en-AU ;
+    skos:definition "Part 1 General"@en-AU ;
+    skos:narrower C2004A01042:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504113> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504113"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01042:6 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P6 Part 2 Registered organisations"@en-AU ;
+    dct:isPartOf C2004A01042:4 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Part 2 Registered organisations - Abrievated Graph Key: P6"@en-AU ;
+    skos:definition "Part 2 Registered organisations"@en-AU ;
+    skos:narrower C2004A01042:4 ;
+    skos:prefLabel "Part P6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504114> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504114"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01042:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 3 Rules of organisations"@en-AU ;
+    dct:isPartOf C2004A01042:4 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Part 3 Rules of organisations - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 3 Rules of organisations"@en-AU ;
+    skos:narrower C2004A01042:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504115> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504115"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01042:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 4 Membership of organisations"@en-AU ;
+    dct:isPartOf C2004A01042:4 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Part 4 Membership of organisations - Abrievated Graph Key: P8"@en-AU ;
+    skos:definition "Part 4 Membership of organisations"@en-AU ;
+    skos:narrower C2004A01042:4 ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504116> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504116"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01042:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 5 Democratic control"@en-AU ;
+    dct:isPartOf C2004A01042:4 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Part 5 Democratic control - Abrievated Graph Key: P9"@en-AU ;
+    skos:definition "Part 5 Democratic control"@en-AU ;
+    skos:narrower C2004A01042:4 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504117> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504117"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01042:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2004A01042:14 ;
+    dct:isPartOf C2004A01042:12 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P13"@en-AU ;
+    skos:broader C2004A01042:14 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2004A01042:12 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504121> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504121"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A01042:37 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S37 Schedule 4 Amendments about entry to premises"@en-AU ;
+    dct:hasPart C2004A01042:38 ;
+    dct:isPartOf C2004A01042:3 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Schedule 4 Amendments about entry to premises - Abrievated Graph Key: S37"@en-AU ;
+    skos:broader C2004A01042:38 ;
+    skos:definition "Schedule 4 Amendments about entry to premises"@en-AU ;
+    skos:narrower C2004A01042:3 ;
+    skos:prefLabel "Schedule S37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504152> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504152"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01042:12 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S12 Schedule 2 Amendment of the Workplace Relations Act 1996"@en-AU ;
+    dct:hasPart C2004A01042:13,
+        C2004A01042:15 ;
+    dct:isPartOf C2004A01042:3 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Schedule 2 Amendment of the Workplace Relations Act 1996 - Abrievated Graph Key: S12"@en-AU ;
+    skos:broader C2004A01042:13,
+        C2004A01042:15 ;
+    skos:definition "Schedule 2 Amendment of the Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2004A01042:3 ;
+    skos:prefLabel "Schedule S12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504120> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504120"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01042:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A01042:12,
+        C2004A01042:16,
+        C2004A01042:37,
+        C2004A01042:4 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A01042:12,
+        C2004A01042:16,
+        C2004A01042:37,
+        C2004A01042:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504111> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504111"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01042:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Transitional provisions"@en-AU ;
+    dct:hasPart C2004A01042:10,
+        C2004A01042:11,
+        C2004A01042:5,
+        C2004A01042:6,
+        C2004A01042:7,
+        C2004A01042:8,
+        C2004A01042:9 ;
+    dct:isPartOf C2004A01042:3 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Schedule 1 Transitional provisions - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A01042:10,
+        C2004A01042:11,
+        C2004A01042:5,
+        C2004A01042:6,
+        C2004A01042:7,
+        C2004A01042:8,
+        C2004A01042:9 ;
+    skos:definition "Schedule 1 Transitional provisions"@en-AU ;
+    skos:narrower C2004A01042:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504112> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504112"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01042: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Workplace Relations Legislation Amendment (Registration and Accountability of Organisations) (Consequential Provisions) Act 2002" ;
+    dct:Jurisdiction " Department of Employment and Workplace Relations "@en-AU ;
+    dct:created "2026-05-27T17:49:49.620942"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2003-05-12T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Workplace Relations Legislation Amendment (Registration and Accountability of Organisations) (Consequential Provisions) Act 2002"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A01042/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Workplace Relations Legislation Amendment (Registration and Accountability of Organisations) (Consequential Provisions) Act 2002"@en-AU ;
+    dct:title "Workplace Relations Legislation Amendment (Registration and Accountability of Organisations) (Consequential Provisions) Act 2002"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2004C01296 C01" .
+
+C2004A01042:16 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S16 Schedule 3 Amendment of other Acts"@en-AU ;
+    dct:hasPart C2004A01042:17,
+        C2004A01042:18,
+        C2004A01042:19,
+        C2004A01042:20,
+        C2004A01042:21,
+        C2004A01042:22,
+        C2004A01042:23,
+        C2004A01042:24,
+        C2004A01042:25,
+        C2004A01042:26,
+        C2004A01042:27,
+        C2004A01042:28,
+        C2004A01042:29,
+        C2004A01042:30,
+        C2004A01042:31,
+        C2004A01042:32,
+        C2004A01042:33,
+        C2004A01042:34,
+        C2004A01042:35,
+        C2004A01042:36 ;
+    dct:isPartOf C2004A01042:3 ;
+    dct:isReferencedBy C2004A01042: ;
+    rdfs:comment "Schedule 3 Amendment of other Acts - Abrievated Graph Key: S16"@en-AU ;
+    skos:broader C2004A01042:17,
+        C2004A01042:18,
+        C2004A01042:19,
+        C2004A01042:20,
+        C2004A01042:21,
+        C2004A01042:22,
+        C2004A01042:23,
+        C2004A01042:24,
+        C2004A01042:25,
+        C2004A01042:26,
+        C2004A01042:27,
+        C2004A01042:28,
+        C2004A01042:29,
+        C2004A01042:30,
+        C2004A01042:31,
+        C2004A01042:32,
+        C2004A01042:33,
+        C2004A01042:34,
+        C2004A01042:35,
+        C2004A01042:36 ;
+    skos:definition "Schedule 3 Amendment of other Acts"@en-AU ;
+    skos:narrower C2004A01042:3 ;
+    skos:prefLabel "Schedule S16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504131> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01042/2003-05-12/2003-05-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc31504131"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+

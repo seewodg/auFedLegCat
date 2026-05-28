@@ -1,0 +1,386 @@
+@prefix C2005A00038: <http://example.org/au/leg/dataset/C2005A00038/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2005A00038:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833766> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833766"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833767> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833767"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Freedom of Information Act 1982"@en-AU ;
+    dct:isPartOf C2005A00038:4 ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "Freedom of Information Act 1982 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Freedom of Information Act 1982"@en-AU ;
+    skos:narrower C2005A00038:4 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833816> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833816"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Insurance Acquisitions and Takeovers Act 1991"@en-AU ;
+    dct:isPartOf C2005A00038:4 ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "Insurance Acquisitions and Takeovers Act 1991 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Insurance Acquisitions and Takeovers Act 1991"@en-AU ;
+    skos:narrower C2005A00038:4 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833817> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833817"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Insurance Act 1973"@en-AU ;
+    dct:isPartOf C2005A00038:4 ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "Insurance Act 1973 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Insurance Act 1973"@en-AU ;
+    skos:narrower C2005A00038:4 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833818> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833818"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Judges Pensions Act 1968"@en-AU ;
+    dct:isPartOf C2005A00038:4 ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "Judges Pensions Act 1968 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Judges Pensions Act 1968"@en-AU ;
+    skos:narrower C2005A00038:4 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833819> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833819"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Lands Acquisition Act 1989"@en-AU ;
+    dct:isPartOf C2005A00038:4 ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "Lands Acquisition Act 1989 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Lands Acquisition Act 1989"@en-AU ;
+    skos:narrower C2005A00038:4 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833820> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833820"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Life Insurance Act 1995"@en-AU ;
+    dct:isPartOf C2005A00038:4 ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "Life Insurance Act 1995 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Life Insurance Act 1995"@en-AU ;
+    skos:narrower C2005A00038:4 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833821> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833821"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2005A00038:4 ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2005A00038:4 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833822> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833822"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Military Rehabilitation and Compensation Act 2004"@en-AU ;
+    dct:isPartOf C2005A00038:4 ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "Military Rehabilitation and Compensation Act 2004 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Military Rehabilitation and Compensation Act 2004"@en-AU ;
+    skos:narrower C2005A00038:4 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833823> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833823"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Narcotic Drugs Act 1967"@en-AU ;
+    dct:isPartOf C2005A00038:4 ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "Narcotic Drugs Act 1967 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Narcotic Drugs Act 1967"@en-AU ;
+    skos:narrower C2005A00038:4 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833824> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833824"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Privacy Act 1988"@en-AU ;
+    dct:isPartOf C2005A00038:4 ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "Privacy Act 1988 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Privacy Act 1988"@en-AU ;
+    skos:narrower C2005A00038:4 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833825> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833825"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Safety Rehabilitation and Compensation Act 1988"@en-AU ;
+    dct:isPartOf C2005A00038:4 ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "Safety Rehabilitation and Compensation Act 1988 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Safety Rehabilitation and Compensation Act 1988"@en-AU ;
+    skos:narrower C2005A00038:4 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833826> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833826"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Seafarers Rehabilitation and Compensation Act 1992"@en-AU ;
+    dct:isPartOf C2005A00038:4 ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "Seafarers Rehabilitation and Compensation Act 1992 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Seafarers Rehabilitation and Compensation Act 1992"@en-AU ;
+    skos:narrower C2005A00038:4 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833827> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833827"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Superannuation Act 1976"@en-AU ;
+    dct:isPartOf C2005A00038:4 ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "Superannuation Act 1976 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Superannuation Act 1976"@en-AU ;
+    skos:narrower C2005A00038:4 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833828> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833828"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 TransTasman Mutual Recognition Act 1997"@en-AU ;
+    dct:isPartOf C2005A00038:4 ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "TransTasman Mutual Recognition Act 1997 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "TransTasman Mutual Recognition Act 1997"@en-AU ;
+    skos:narrower C2005A00038:4 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833829> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833829"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2005A00038:4 ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2005A00038:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833768> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833768"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Administrative Appeals Tribunal Act 1975"@en-AU ;
+    dct:isPartOf C2005A00038:4 ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "Administrative Appeals Tribunal Act 1975 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Administrative Appeals Tribunal Act 1975"@en-AU ;
+    skos:narrower C2005A00038:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833770> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833770"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Archives Act 1983"@en-AU ;
+    dct:isPartOf C2005A00038:4 ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "Archives Act 1983 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Archives Act 1983"@en-AU ;
+    skos:narrower C2005A00038:4 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833812> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833812"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Commonwealth Electoral Act 1918"@en-AU ;
+    dct:isPartOf C2005A00038:4 ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "Commonwealth Electoral Act 1918 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Commonwealth Electoral Act 1918"@en-AU ;
+    skos:narrower C2005A00038:4 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833813> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833813"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    dct:isPartOf C2005A00038:4 ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "Environment Protection and Biodiversity Conservation Act 1999 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    skos:narrower C2005A00038:4 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833814> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833814"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Federal Proceedings Costs Act 1981"@en-AU ;
+    dct:isPartOf C2005A00038:4 ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "Federal Proceedings Costs Act 1981 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Federal Proceedings Costs Act 1981"@en-AU ;
+    skos:narrower C2005A00038:4 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833815> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833815"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00038: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Administrative Appeals Tribunal Amendment Act 2005" ;
+    dct:Jurisdiction " Attorney-General's Department "@en-AU ;
+    dct:created "2026-05-27T17:03:08.690419"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2005-04-01T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Administrative Appeals Tribunal Amendment Act 2005"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2005A00038/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Administrative Appeals Tribunal Amendment Act 2005"@en-AU ;
+    dct:title "Administrative Appeals Tribunal Amendment Act 2005"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2005A00038" .
+
+C2005A00038:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments"@en-AU ;
+    dct:hasPart C2005A00038:10,
+        C2005A00038:11,
+        C2005A00038:12,
+        C2005A00038:13,
+        C2005A00038:14,
+        C2005A00038:15,
+        C2005A00038:16,
+        C2005A00038:17,
+        C2005A00038:18,
+        C2005A00038:19,
+        C2005A00038:20,
+        C2005A00038:21,
+        C2005A00038:22,
+        C2005A00038:23,
+        C2005A00038:5,
+        C2005A00038:6,
+        C2005A00038:7,
+        C2005A00038:8,
+        C2005A00038:9 ;
+    dct:isPartOf C2005A00038:3 ;
+    dct:isReferencedBy C2005A00038: ;
+    rdfs:comment "Schedule 1 Amendments - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2005A00038:10,
+        C2005A00038:11,
+        C2005A00038:12,
+        C2005A00038:13,
+        C2005A00038:14,
+        C2005A00038:15,
+        C2005A00038:16,
+        C2005A00038:17,
+        C2005A00038:18,
+        C2005A00038:19,
+        C2005A00038:20,
+        C2005A00038:21,
+        C2005A00038:22,
+        C2005A00038:23,
+        C2005A00038:5,
+        C2005A00038:6,
+        C2005A00038:7,
+        C2005A00038:8,
+        C2005A00038:9 ;
+    skos:definition "Schedule 1 Amendments"@en-AU ;
+    skos:narrower C2005A00038:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833769> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00038/asmade/2005-04-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc98833769"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+

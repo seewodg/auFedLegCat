@@ -1,0 +1,195 @@
+@prefix C2016A00045: <http://example.org/au/leg/dataset/C2016A00045/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2016A00045:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2016A00045: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293966> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293966"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00045:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2016A00045: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293967> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293967"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00045:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Privacy Act 1988"@en-AU ;
+    dct:isPartOf C2016A00045:7 ;
+    dct:isReferencedBy C2016A00045: ;
+    rdfs:comment "Privacy Act 1988 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Privacy Act 1988"@en-AU ;
+    skos:narrower C2016A00045:7 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293987> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293987"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00045:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 2 Transitional provisions"@en-AU ;
+    dct:isPartOf C2016A00045:6 ;
+    dct:isReferencedBy C2016A00045: ;
+    rdfs:comment "Part 2 Transitional provisions - Abrievated Graph Key: P11"@en-AU ;
+    skos:definition "Part 2 Transitional provisions"@en-AU ;
+    skos:narrower C2016A00045:6 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293988> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293988"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00045:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Australian Crime Commission Act 2002"@en-AU ;
+    dct:isPartOf C2016A00045:4 ;
+    dct:isReferencedBy C2016A00045: ;
+    rdfs:comment "Australian Crime Commission Act 2002 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Australian Crime Commission Act 2002"@en-AU ;
+    skos:narrower C2016A00045:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293970> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293970"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00045:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Crimes Act 1914"@en-AU ;
+    dct:isPartOf C2016A00045:7 ;
+    dct:isReferencedBy C2016A00045: ;
+    rdfs:comment "Crimes Act 1914 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Crimes Act 1914"@en-AU ;
+    skos:narrower C2016A00045:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293985> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293985"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00045:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Law Enforcement Integrity Commissioner Act 2006"@en-AU ;
+    dct:isPartOf C2016A00045:7 ;
+    dct:isReferencedBy C2016A00045: ;
+    rdfs:comment "Law Enforcement Integrity Commissioner Act 2006 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Law Enforcement Integrity Commissioner Act 2006"@en-AU ;
+    skos:narrower C2016A00045:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293986> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293986"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00045:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2016A00045:4,
+        C2016A00045:6 ;
+    dct:isReferencedBy C2016A00045: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2016A00045:4,
+        C2016A00045:6 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293968> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293968"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00045:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendment of the Australian Crime Commission Act 2002"@en-AU ;
+    dct:hasPart C2016A00045:5 ;
+    dct:isPartOf C2016A00045:3 ;
+    dct:isReferencedBy C2016A00045: ;
+    rdfs:comment "Schedule 1 Amendment of the Australian Crime Commission Act 2002 - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2016A00045:5 ;
+    skos:definition "Schedule 1 Amendment of the Australian Crime Commission Act 2002"@en-AU ;
+    skos:narrower C2016A00045:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293969> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293969"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00045:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Amendments of other Acts"@en-AU ;
+    dct:hasPart C2016A00045:11,
+        C2016A00045:7 ;
+    dct:isPartOf C2016A00045:3 ;
+    dct:isReferencedBy C2016A00045: ;
+    rdfs:comment "Schedule 2 Amendments of other Acts - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2016A00045:11,
+        C2016A00045:7 ;
+    skos:definition "Schedule 2 Amendments of other Acts"@en-AU ;
+    skos:narrower C2016A00045:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293983> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293983"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00045:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2016A00045:10,
+        C2016A00045:8,
+        C2016A00045:9 ;
+    dct:isPartOf C2016A00045:6 ;
+    dct:isReferencedBy C2016A00045: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader C2016A00045:10,
+        C2016A00045:8,
+        C2016A00045:9 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2016A00045:6 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293984> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00045/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450293984"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00045: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Australian Crime Commission Amendment (National Policing Information) Act 2016" ;
+    dct:Jurisdiction " Department of Home Affairs "@en-AU ;
+    dct:created "2026-05-26T20:45:06.672423"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2016-05-05T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Australian Crime Commission Amendment (National Policing Information) Act 2016"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2016A00045/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Australian Crime Commission Amendment (National Policing Information) Act 2016"@en-AU ;
+    dct:title "Australian Crime Commission Amendment (National Policing Information) Act 2016"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2016A00045" .
+

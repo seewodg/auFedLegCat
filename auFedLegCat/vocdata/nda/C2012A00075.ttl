@@ -1,0 +1,451 @@
+@prefix C2012A00075: <http://example.org/au/leg/dataset/C2012A00075/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2012A00075:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182077> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182077"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00075:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182078> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182078"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00075:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2012A00075:11 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2012A00075:11 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182091> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182091"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00075:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2012A00075:13 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2012A00075:13 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182099> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182099"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00075:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Superannuation Government Cocontribution for Low Income Earners Act 2003"@en-AU ;
+    dct:isPartOf C2012A00075:13 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Superannuation Government Cocontribution for Low Income Earners Act 2003 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Superannuation Government Cocontribution for Low Income Earners Act 2003"@en-AU ;
+    skos:narrower C2012A00075:13 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182100> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182100"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00075:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2012A00075:13 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2012A00075:13 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182101> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182101"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00075:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Taxation Interest on Overpayments and Early Payments Act 1983"@en-AU ;
+    dct:isPartOf C2012A00075:13 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Taxation Interest on Overpayments and Early Payments Act 1983 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Taxation Interest on Overpayments and Early Payments Act 1983"@en-AU ;
+    skos:narrower C2012A00075:13 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182102> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182102"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00075:18 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P18 Part 3 Application of amendments"@en-AU ;
+    dct:isPartOf C2012A00075:10 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Part 3 Application of amendments - Abrievated Graph Key: P18"@en-AU ;
+    skos:definition "Part 3 Application of amendments"@en-AU ;
+    skos:narrower C2012A00075:10 ;
+    skos:prefLabel "Part P18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182103> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182103"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00075:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2012A00075:19 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2012A00075:19 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182105> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182105"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00075:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2012A00075:22 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2012A00075:22 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182108> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182108"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00075:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2012A00075:24 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2012A00075:24 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182118> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182118"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00075:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2012A00075:26 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2012A00075:26 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182120> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182120"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00075:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    dct:isPartOf C2012A00075:4 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "A New Tax System Goods and Services Tax Act 1999 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    skos:narrower C2012A00075:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182081> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182081"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00075:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    dct:isPartOf C2012A00075:6 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "A New Tax System Goods and Services Tax Act 1999 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    skos:narrower C2012A00075:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182084> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182084"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00075:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2012A00075:8 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2012A00075:8 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182088> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182088"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00075:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 1 Main amendments"@en-AU ;
+    dct:hasPart C2012A00075:12 ;
+    dct:isPartOf C2012A00075:10 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P11"@en-AU ;
+    skos:broader C2012A00075:12 ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2012A00075:10 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182090> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182090"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00075:19 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S19 Schedule 5 Disclosure of superannuation information"@en-AU ;
+    dct:hasPart C2012A00075:20 ;
+    dct:isPartOf C2012A00075:3 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Schedule 5 Disclosure of superannuation information - Abrievated Graph Key: S19"@en-AU ;
+    skos:broader C2012A00075:20 ;
+    skos:definition "Schedule 5 Disclosure of superannuation information"@en-AU ;
+    skos:narrower C2012A00075:3 ;
+    skos:prefLabel "Schedule S19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182104> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182104"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00075:22 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P22 Part 1 Main amendments"@en-AU ;
+    dct:hasPart C2012A00075:23 ;
+    dct:isPartOf C2012A00075:21 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P22"@en-AU ;
+    skos:broader C2012A00075:23 ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2012A00075:21 ;
+    skos:prefLabel "Part P22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182107> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182107"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00075:24 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P24 Part 2 Other amendments"@en-AU ;
+    dct:hasPart C2012A00075:25 ;
+    dct:isPartOf C2012A00075:21 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Part 2 Other amendments - Abrievated Graph Key: P24"@en-AU ;
+    skos:broader C2012A00075:25 ;
+    skos:definition "Part 2 Other amendments"@en-AU ;
+    skos:narrower C2012A00075:21 ;
+    skos:prefLabel "Part P24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182117> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182117"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00075:26 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S26 Schedule 7 Refunds"@en-AU ;
+    dct:hasPart C2012A00075:27 ;
+    dct:isPartOf C2012A00075:3 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Schedule 7 Refunds - Abrievated Graph Key: S26"@en-AU ;
+    skos:broader C2012A00075:27 ;
+    skos:definition "Schedule 7 Refunds"@en-AU ;
+    skos:narrower C2012A00075:3 ;
+    skos:prefLabel "Schedule S26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182119> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182119"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00075:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 GSTfree health supplies"@en-AU ;
+    dct:hasPart C2012A00075:5 ;
+    dct:isPartOf C2012A00075:3 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Schedule 1 GSTfree health supplies - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2012A00075:5 ;
+    skos:definition "Schedule 1 GSTfree health supplies"@en-AU ;
+    skos:narrower C2012A00075:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182080> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182080"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00075:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 GST treatment of appropriations"@en-AU ;
+    dct:hasPart C2012A00075:7 ;
+    dct:isPartOf C2012A00075:3 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Schedule 2 GST treatment of appropriations - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2012A00075:7 ;
+    skos:definition "Schedule 2 GST treatment of appropriations"@en-AU ;
+    skos:narrower C2012A00075:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182083> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182083"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00075:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 3 Indexation of superannuation concessional contributions cap"@en-AU ;
+    dct:hasPart C2012A00075:9 ;
+    dct:isPartOf C2012A00075:3 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Schedule 3 Indexation of superannuation concessional contributions cap - Abrievated Graph Key: S8"@en-AU ;
+    skos:broader C2012A00075:9 ;
+    skos:definition "Schedule 3 Indexation of superannuation concessional contributions cap"@en-AU ;
+    skos:narrower C2012A00075:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182087> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182087"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00075:21 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S21 Schedule 6 Giving information about superannuation contributions"@en-AU ;
+    dct:hasPart C2012A00075:22,
+        C2012A00075:24 ;
+    dct:isPartOf C2012A00075:3 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Schedule 6 Giving information about superannuation contributions - Abrievated Graph Key: S21"@en-AU ;
+    skos:broader C2012A00075:22,
+        C2012A00075:24 ;
+    skos:definition "Schedule 6 Giving information about superannuation contributions"@en-AU ;
+    skos:narrower C2012A00075:3 ;
+    skos:prefLabel "Schedule S21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182106> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182106"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00075:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 4 Refund of excess concessional contributions"@en-AU ;
+    dct:hasPart C2012A00075:11,
+        C2012A00075:13,
+        C2012A00075:18 ;
+    dct:isPartOf C2012A00075:3 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Schedule 4 Refund of excess concessional contributions - Abrievated Graph Key: S10"@en-AU ;
+    skos:broader C2012A00075:11,
+        C2012A00075:13,
+        C2012A00075:18 ;
+    skos:definition "Schedule 4 Refund of excess concessional contributions"@en-AU ;
+    skos:narrower C2012A00075:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182089> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182089"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00075:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 2 Other amendments"@en-AU ;
+    dct:hasPart C2012A00075:14,
+        C2012A00075:15,
+        C2012A00075:16,
+        C2012A00075:17 ;
+    dct:isPartOf C2012A00075:10 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "Part 2 Other amendments - Abrievated Graph Key: P13"@en-AU ;
+    skos:broader C2012A00075:14,
+        C2012A00075:15,
+        C2012A00075:16,
+        C2012A00075:17 ;
+    skos:definition "Part 2 Other amendments"@en-AU ;
+    skos:narrower C2012A00075:10 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182098> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182098"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00075:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2012A00075:10,
+        C2012A00075:19,
+        C2012A00075:21,
+        C2012A00075:26,
+        C2012A00075:4,
+        C2012A00075:6,
+        C2012A00075:8 ;
+    dct:isReferencedBy C2012A00075: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2012A00075:10,
+        C2012A00075:19,
+        C2012A00075:21,
+        C2012A00075:26,
+        C2012A00075:4,
+        C2012A00075:6,
+        C2012A00075:8 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182079> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00075/asmade/2012-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc329182079"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00075: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Tax and Superannuation Laws Amendment (2012 Measures No. 1) Act 2012" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-27T17:17:52.076422"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2012-06-27T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Tax and Superannuation Laws Amendment (2012 Measures No. 1) Act 2012"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2012A00075/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Tax and Superannuation Laws Amendment (2012 Measures No. 1) Act 2012"@en-AU ;
+    dct:title "Tax and Superannuation Laws Amendment (2012 Measures No. 1) Act 2012"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2012A00075" .
+

@@ -1,0 +1,2811 @@
+@prefix F2019L00417: <http://example.org/au/leg/dataset/F2019L00417/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2019L00417:1 a legcons:Chapter,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Chapter - C1 Chapter 1 Introduction"@en-AU ;
+    dct:hasPart F2019L00417:2 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Chapter 1 Introduction - Abrievated Graph Key: C1"@en-AU ;
+    skos:broader F2019L00417:2 ;
+    skos:definition "Chapter 1 Introduction"@en-AU ;
+    skos:prefLabel "Chapter C1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299026> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299026"^^xsd:anyURI ;
+    dcat:theme legcons:Chapter .
+
+F2019L00417:100 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I100 168511  Cash payment"@en-AU ;
+    dct:isPartOf F2019L00417:99 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "168511  Cash payment - Abrievated Graph Key: I100"@en-AU ;
+    skos:definition "168511  Cash payment"@en-AU ;
+    skos:narrower F2019L00417:99 ;
+    skos:prefLabel "Item I100"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299125> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299125"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:102 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I102 168512  Payment authority"@en-AU ;
+    dct:isPartOf F2019L00417:101 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "168512  Payment authority - Abrievated Graph Key: I102"@en-AU ;
+    skos:definition "168512  Payment authority"@en-AU ;
+    skos:narrower F2019L00417:101 ;
+    skos:prefLabel "Item I102"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299127> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299127"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:104 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I104 168514  Processing payment authority given to officer of Customs at airport"@en-AU ;
+    dct:isPartOf F2019L00417:103 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "168514  Processing payment authority given to officer of Customs at airport - Abrievated Graph Key: I104"@en-AU ;
+    skos:definition "168514  Processing payment authority given to officer of Customs at airport"@en-AU ;
+    skos:narrower F2019L00417:103 ;
+    skos:prefLabel "Item I104"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299129> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299129"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:105 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I105 168515  Processing payment authority lodged at a TRS verification facility"@en-AU ;
+    dct:isPartOf F2019L00417:103 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "168515  Processing payment authority lodged at a TRS verification facility - Abrievated Graph Key: I105"@en-AU ;
+    skos:definition "168515  Processing payment authority lodged at a TRS verification facility"@en-AU ;
+    skos:narrower F2019L00417:103 ;
+    skos:prefLabel "Item I105"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299130> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299130"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:106 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I106 168516  Processing payment authority given to ComptrollerGeneral of Customs"@en-AU ;
+    dct:isPartOf F2019L00417:103 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "168516  Processing payment authority given to ComptrollerGeneral of Customs - Abrievated Graph Key: I106"@en-AU ;
+    skos:definition "168516  Processing payment authority given to ComptrollerGeneral of Customs"@en-AU ;
+    skos:narrower F2019L00417:103 ;
+    skos:prefLabel "Item I106"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299131> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299131"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:107 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I107 168517  Processing claim for payment"@en-AU ;
+    dct:isPartOf F2019L00417:103 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "168517  Processing claim for payment - Abrievated Graph Key: I107"@en-AU ;
+    skos:definition "168517  Processing claim for payment"@en-AU ;
+    skos:narrower F2019L00417:103 ;
+    skos:prefLabel "Item I107"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299132> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299132"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:111 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I111 195101  Compulsory third party schemes"@en-AU ;
+    dct:isPartOf F2019L00417:110 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "195101  Compulsory third party schemes - Abrievated Graph Key: I111"@en-AU ;
+    skos:definition "195101  Compulsory third party schemes"@en-AU ;
+    skos:narrower F2019L00417:110 ;
+    skos:prefLabel "Item I111"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299136> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299136"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:112 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I112 195102  First aid or life saving course"@en-AU ;
+    dct:isPartOf F2019L00417:110 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "195102  First aid or life saving course - Abrievated Graph Key: I112"@en-AU ;
+    skos:definition "195102  First aid or life saving course"@en-AU ;
+    skos:narrower F2019L00417:110 ;
+    skos:prefLabel "Item I112"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299137> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299137"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:113 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I113 195103  Serviced apartments"@en-AU ;
+    dct:isPartOf F2019L00417:110 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "195103  Serviced apartments - Abrievated Graph Key: I113"@en-AU ;
+    skos:definition "195103  Serviced apartments"@en-AU ;
+    skos:narrower F2019L00417:110 ;
+    skos:prefLabel "Item I113"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299138> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299138"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:115 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I115 196101  Definitions"@en-AU ;
+    dct:isPartOf F2019L00417:114 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "196101  Definitions - Abrievated Graph Key: I115"@en-AU ;
+    skos:definition "196101  Definitions"@en-AU ;
+    skos:narrower F2019L00417:114 ;
+    skos:prefLabel "Item I115"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299140> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299140"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:119 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I119 197101  Definitions"@en-AU ;
+    dct:isPartOf F2019L00417:118 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "197101  Definitions - Abrievated Graph Key: I119"@en-AU ;
+    skos:definition "197101  Definitions"@en-AU ;
+    skos:narrower F2019L00417:118 ;
+    skos:prefLabel "Item I119"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299144> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299144"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:120 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I120 197102  Old regulations continue to apply to tax periods starting before commencement time"@en-AU ;
+    dct:isPartOf F2019L00417:118 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "197102  Old regulations continue to apply to tax periods starting before commencement time - Abrievated Graph Key: I120"@en-AU ;
+    skos:definition "197102  Old regulations continue to apply to tax periods starting before commencement time"@en-AU ;
+    skos:narrower F2019L00417:118 ;
+    skos:prefLabel "Item I120"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299145> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299145"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:121 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I121 197103  Approved forms"@en-AU ;
+    dct:isPartOf F2019L00417:118 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "197103  Approved forms - Abrievated Graph Key: I121"@en-AU ;
+    skos:definition "197103  Approved forms"@en-AU ;
+    skos:narrower F2019L00417:118 ;
+    skos:prefLabel "Item I121"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299146> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299146"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:122 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I122 197104  Deferred payments of assessed GST on taxable importations"@en-AU ;
+    dct:isPartOf F2019L00417:118 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "197104  Deferred payments of assessed GST on taxable importations - Abrievated Graph Key: I122"@en-AU ;
+    skos:definition "197104  Deferred payments of assessed GST on taxable importations"@en-AU ;
+    skos:narrower F2019L00417:118 ;
+    skos:prefLabel "Item I122"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299147> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299147"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:123 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I123 197105  Tourist refund scheme"@en-AU ;
+    dct:isPartOf F2019L00417:118 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "197105  Tourist refund scheme - Abrievated Graph Key: I123"@en-AU ;
+    skos:definition "197105  Tourist refund scheme"@en-AU ;
+    skos:narrower F2019L00417:118 ;
+    skos:prefLabel "Item I123"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299148> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299148"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:127 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I127 220101  Specified bodies and persons for definition of arbitrator"@en-AU ;
+    dct:isPartOf F2019L00417:126 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "220101  Specified bodies and persons for definition of arbitrator - Abrievated Graph Key: I127"@en-AU ;
+    skos:definition "220101  Specified bodies and persons for definition of arbitrator"@en-AU ;
+    skos:narrower F2019L00417:126 ;
+    skos:prefLabel "Item I127"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299152> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299152"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:129 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I129 220501  Purpose of this Subdivision"@en-AU ;
+    dct:isPartOf F2019L00417:128 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "220501  Purpose of this Subdivision - Abrievated Graph Key: I129"@en-AU ;
+    skos:definition "220501  Purpose of this Subdivision"@en-AU ;
+    skos:narrower F2019L00417:128 ;
+    skos:prefLabel "Item I129"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299154> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299154"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 298001  Value of taxable supply for which tax invoice not required"@en-AU ;
+    dct:isPartOf F2019L00417:12 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "298001  Value of taxable supply for which tax invoice not required - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "298001  Value of taxable supply for which tax invoice not required"@en-AU ;
+    skos:narrower F2019L00417:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299038> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299038"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:130 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I130 220502  Tobacco excise duty and tobacco customs duty"@en-AU ;
+    dct:isPartOf F2019L00417:128 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "220502  Tobacco excise duty and tobacco customs duty - Abrievated Graph Key: I130"@en-AU ;
+    skos:definition "220502  Tobacco excise duty and tobacco customs duty"@en-AU ;
+    skos:narrower F2019L00417:128 ;
+    skos:prefLabel "Item I130"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299155> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299155"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:131 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I131 220503  Luxury car tax"@en-AU ;
+    dct:isPartOf F2019L00417:128 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "220503  Luxury car tax - Abrievated Graph Key: I131"@en-AU ;
+    skos:definition "220503  Luxury car tax"@en-AU ;
+    skos:narrower F2019L00417:128 ;
+    skos:prefLabel "Item I131"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299156> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299156"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:132 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I132 220504  Wine equalisation tax"@en-AU ;
+    dct:isPartOf F2019L00417:128 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "220504  Wine equalisation tax - Abrievated Graph Key: I132"@en-AU ;
+    skos:definition "220504  Wine equalisation tax"@en-AU ;
+    skos:narrower F2019L00417:128 ;
+    skos:prefLabel "Item I132"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299157> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299157"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:133 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I133 220505  Abolition of accommodation levy in NSW"@en-AU ;
+    dct:isPartOf F2019L00417:128 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "220505  Abolition of accommodation levy in NSW - Abrievated Graph Key: I133"@en-AU ;
+    skos:definition "220505  Abolition of accommodation levy in NSW"@en-AU ;
+    skos:narrower F2019L00417:128 ;
+    skos:prefLabel "Item I133"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299158> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299158"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:134 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I134 220506  Alcohol excise alcohol customs duty and alcohol excise duty"@en-AU ;
+    dct:isPartOf F2019L00417:128 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "220506  Alcohol excise alcohol customs duty and alcohol excise duty - Abrievated Graph Key: I134"@en-AU ;
+    skos:definition "220506  Alcohol excise alcohol customs duty and alcohol excise duty"@en-AU ;
+    skos:narrower F2019L00417:128 ;
+    skos:prefLabel "Item I134"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299159> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299159"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:135 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I135 220507  Petroleum products excise and petroleum excise duty"@en-AU ;
+    dct:isPartOf F2019L00417:128 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "220507  Petroleum products excise and petroleum excise duty - Abrievated Graph Key: I135"@en-AU ;
+    skos:definition "220507  Petroleum products excise and petroleum excise duty"@en-AU ;
+    skos:narrower F2019L00417:128 ;
+    skos:prefLabel "Item I135"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299160> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299160"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:136 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I136 220508  Diesel fuel rebatechange in declared rate"@en-AU ;
+    dct:isPartOf F2019L00417:128 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "220508  Diesel fuel rebatechange in declared rate - Abrievated Graph Key: I136"@en-AU ;
+    skos:definition "220508  Diesel fuel rebatechange in declared rate"@en-AU ;
+    skos:narrower F2019L00417:128 ;
+    skos:prefLabel "Item I136"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299161> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299161"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:137 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I137 220509  Diesel and alternative fuels grants scheme"@en-AU ;
+    dct:isPartOf F2019L00417:128 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "220509  Diesel and alternative fuels grants scheme - Abrievated Graph Key: I137"@en-AU ;
+    skos:definition "220509  Diesel and alternative fuels grants scheme"@en-AU ;
+    skos:narrower F2019L00417:128 ;
+    skos:prefLabel "Item I137"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299162> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299162"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:138 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I138 220510  Fuel sales grants"@en-AU ;
+    dct:isPartOf F2019L00417:128 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "220510  Fuel sales grants - Abrievated Graph Key: I138"@en-AU ;
+    skos:definition "220510  Fuel sales grants"@en-AU ;
+    skos:narrower F2019L00417:128 ;
+    skos:prefLabel "Item I138"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299163> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299163"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:139 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I139 220511  Wholesale sales tax equivalency paymentsliability to pay abolished for certain government business enterprises"@en-AU ;
+    dct:isPartOf F2019L00417:128 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "220511  Wholesale sales tax equivalency paymentsliability to pay abolished for certain government business enterprises - Abrievated Graph Key: I139"@en-AU ;
+    skos:definition "220511  Wholesale sales tax equivalency paymentsliability to pay abolished for certain government business enterprises"@en-AU ;
+    skos:narrower F2019L00417:128 ;
+    skos:prefLabel "Item I139"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299164> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299164"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 298002  Amount for which adjustment note not required"@en-AU ;
+    dct:isPartOf F2019L00417:12 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "298002  Amount for which adjustment note not required - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "298002  Amount for which adjustment note not required"@en-AU ;
+    skos:narrower F2019L00417:12 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299039> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299039"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:140 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I140 220512  Tourism marketing dutyabolition in Northern Territory"@en-AU ;
+    dct:isPartOf F2019L00417:128 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "220512  Tourism marketing dutyabolition in Northern Territory - Abrievated Graph Key: I140"@en-AU ;
+    skos:definition "220512  Tourism marketing dutyabolition in Northern Territory"@en-AU ;
+    skos:narrower F2019L00417:128 ;
+    skos:prefLabel "Item I140"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299165> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299165"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:141 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I141 220513  Abolition of liability to pay financial institutions duty"@en-AU ;
+    dct:isPartOf F2019L00417:128 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "220513  Abolition of liability to pay financial institutions duty - Abrievated Graph Key: I141"@en-AU ;
+    skos:definition "220513  Abolition of liability to pay financial institutions duty"@en-AU ;
+    skos:narrower F2019L00417:128 ;
+    skos:prefLabel "Item I141"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299166> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299166"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:142 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I142 220514  Abolition of liability to pay stamp duty on quoted marketable securities"@en-AU ;
+    dct:isPartOf F2019L00417:128 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "220514  Abolition of liability to pay stamp duty on quoted marketable securities - Abrievated Graph Key: I142"@en-AU ;
+    skos:definition "220514  Abolition of liability to pay stamp duty on quoted marketable securities"@en-AU ;
+    skos:narrower F2019L00417:128 ;
+    skos:prefLabel "Item I142"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299167> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299167"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:145 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I145 225101  Application of amendments"@en-AU ;
+    dct:isPartOf F2019L00417:144 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "225101  Application of amendments - Abrievated Graph Key: I145"@en-AU ;
+    skos:definition "225101  Application of amendments"@en-AU ;
+    skos:narrower F2019L00417:144 ;
+    skos:prefLabel "Item I145"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299170> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299170"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:147 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I147 1  Purpose of this Schedule"@en-AU ;
+    dct:isPartOf F2019L00417:146 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "1  Purpose of this Schedule - Abrievated Graph Key: I147"@en-AU ;
+    skos:definition "1  Purpose of this Schedule"@en-AU ;
+    skos:narrower F2019L00417:146 ;
+    skos:prefLabel "Item I147"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299172> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299172"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:148 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I148 2  Sealed bag rules"@en-AU ;
+    dct:isPartOf F2019L00417:146 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "2  Sealed bag rules - Abrievated Graph Key: I148"@en-AU ;
+    skos:definition "2  Sealed bag rules"@en-AU ;
+    skos:narrower F2019L00417:146 ;
+    skos:prefLabel "Item I148"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299173> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299173"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:149 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I149 3  Sealed bag rules for liquids aerosols gels creams and pastes"@en-AU ;
+    dct:isPartOf F2019L00417:146 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "3  Sealed bag rules for liquids aerosols gels creams and pastes - Abrievated Graph Key: I149"@en-AU ;
+    skos:definition "3  Sealed bag rules for liquids aerosols gels creams and pastes"@en-AU ;
+    skos:narrower F2019L00417:146 ;
+    skos:prefLabel "Item I149"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299174> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299174"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:150 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I150 4  Customs barrier rules"@en-AU ;
+    dct:isPartOf F2019L00417:146 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "4  Customs barrier rules - Abrievated Graph Key: I150"@en-AU ;
+    skos:definition "4  Customs barrier rules"@en-AU ;
+    skos:narrower F2019L00417:146 ;
+    skos:prefLabel "Item I150"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299175> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299175"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:151 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I151 5  Forms of invoice and receipt"@en-AU ;
+    dct:isPartOf F2019L00417:146 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "5  Forms of invoice and receipt - Abrievated Graph Key: I151"@en-AU ;
+    skos:definition "5  Forms of invoice and receipt"@en-AU ;
+    skos:narrower F2019L00417:146 ;
+    skos:prefLabel "Item I151"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299176> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299176"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:152 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I152 6  Employees or agents may meet requirements"@en-AU ;
+    dct:isPartOf F2019L00417:146 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "6  Employees or agents may meet requirements - Abrievated Graph Key: I152"@en-AU ;
+    skos:definition "6  Employees or agents may meet requirements"@en-AU ;
+    skos:narrower F2019L00417:146 ;
+    skos:prefLabel "Item I152"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299177> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299177"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:154 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I154 1  Examples for item 1 of the table in subsection 405093 accounts"@en-AU ;
+    dct:isPartOf F2019L00417:153 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "1  Examples for item 1 of the table in subsection 405093 accounts - Abrievated Graph Key: I154"@en-AU ;
+    skos:definition "1  Examples for item 1 of the table in subsection 405093 accounts"@en-AU ;
+    skos:narrower F2019L00417:153 ;
+    skos:prefLabel "Item I154"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299179> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299179"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:155 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I155 2  Examples for item 2 of the table in subsection 405093 debt and credit"@en-AU ;
+    dct:isPartOf F2019L00417:153 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "2  Examples for item 2 of the table in subsection 405093 debt and credit - Abrievated Graph Key: I155"@en-AU ;
+    skos:definition "2  Examples for item 2 of the table in subsection 405093 debt and credit"@en-AU ;
+    skos:narrower F2019L00417:153 ;
+    skos:prefLabel "Item I155"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299180> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299180"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:156 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I156 3  Examples for item 3 of the table in subsection 405093 charges and mortgages"@en-AU ;
+    dct:isPartOf F2019L00417:153 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "3  Examples for item 3 of the table in subsection 405093 charges and mortgages - Abrievated Graph Key: I156"@en-AU ;
+    skos:definition "3  Examples for item 3 of the table in subsection 405093 charges and mortgages"@en-AU ;
+    skos:narrower F2019L00417:153 ;
+    skos:prefLabel "Item I156"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299181> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299181"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:157 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I157 4  Examples for item 6 of the table in subsection 405093 life insurance business"@en-AU ;
+    dct:isPartOf F2019L00417:153 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "4  Examples for item 6 of the table in subsection 405093 life insurance business - Abrievated Graph Key: I157"@en-AU ;
+    skos:definition "4  Examples for item 6 of the table in subsection 405093 life insurance business"@en-AU ;
+    skos:narrower F2019L00417:153 ;
+    skos:prefLabel "Item I157"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299182> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299182"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:158 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I158 5  Examples for item 7 of the table in subsection 405093 guarantees"@en-AU ;
+    dct:isPartOf F2019L00417:153 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "5  Examples for item 7 of the table in subsection 405093 guarantees - Abrievated Graph Key: I158"@en-AU ;
+    skos:definition "5  Examples for item 7 of the table in subsection 405093 guarantees"@en-AU ;
+    skos:narrower F2019L00417:153 ;
+    skos:prefLabel "Item I158"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299183> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299183"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:159 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I159 6  Examples for item 7 A of the table in subsection 405093 indemnities"@en-AU ;
+    dct:isPartOf F2019L00417:153 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "6  Examples for item 7 A of the table in subsection 405093 indemnities - Abrievated Graph Key: I159"@en-AU ;
+    skos:definition "6  Examples for item 7 A of the table in subsection 405093 indemnities"@en-AU ;
+    skos:narrower F2019L00417:153 ;
+    skos:prefLabel "Item I159"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299184> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299184"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:160 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I160 7  Examples for item 8 of the table in subsection 405093 hire purchase"@en-AU ;
+    dct:isPartOf F2019L00417:153 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "7  Examples for item 8 of the table in subsection 405093 hire purchase - Abrievated Graph Key: I160"@en-AU ;
+    skos:definition "7  Examples for item 8 of the table in subsection 405093 hire purchase"@en-AU ;
+    skos:narrower F2019L00417:153 ;
+    skos:prefLabel "Item I160"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299185> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299185"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:161 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I161 8  Examples for item 9 of the table in subsection 405093 currency"@en-AU ;
+    dct:isPartOf F2019L00417:153 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "8  Examples for item 9 of the table in subsection 405093 currency - Abrievated Graph Key: I161"@en-AU ;
+    skos:definition "8  Examples for item 9 of the table in subsection 405093 currency"@en-AU ;
+    skos:narrower F2019L00417:153 ;
+    skos:prefLabel "Item I161"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299186> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299186"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:162 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I162 9  Examples for item 10 of the table in subsection 405093 securities"@en-AU ;
+    dct:isPartOf F2019L00417:153 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "9  Examples for item 10 of the table in subsection 405093 securities - Abrievated Graph Key: I162"@en-AU ;
+    skos:definition "9  Examples for item 10 of the table in subsection 405093 securities"@en-AU ;
+    skos:narrower F2019L00417:153 ;
+    skos:prefLabel "Item I162"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299187> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299187"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:163 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I163 10  Examples for item 11 of the table in subsection 405093 derivatives"@en-AU ;
+    dct:isPartOf F2019L00417:153 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "10  Examples for item 11 of the table in subsection 405093 derivatives - Abrievated Graph Key: I163"@en-AU ;
+    skos:definition "10  Examples for item 11 of the table in subsection 405093 derivatives"@en-AU ;
+    skos:narrower F2019L00417:153 ;
+    skos:prefLabel "Item I163"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299188> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299188"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:165 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I165 1  Examples for item 3 of the table in section 40512 professional services"@en-AU ;
+    dct:isPartOf F2019L00417:164 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "1  Examples for item 3 of the table in section 40512 professional services - Abrievated Graph Key: I165"@en-AU ;
+    skos:definition "1  Examples for item 3 of the table in section 40512 professional services"@en-AU ;
+    skos:narrower F2019L00417:164 ;
+    skos:prefLabel "Item I165"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299190> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299190"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:166 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I166 2  Examples for item 4 of the table in section 40512 payment systems"@en-AU ;
+    dct:isPartOf F2019L00417:164 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "2  Examples for item 4 of the table in section 40512 payment systems - Abrievated Graph Key: I166"@en-AU ;
+    skos:definition "2  Examples for item 4 of the table in section 40512 payment systems"@en-AU ;
+    skos:narrower F2019L00417:164 ;
+    skos:prefLabel "Item I166"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299191> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299191"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:167 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I167 3  Examples for item 7 of the table in section 40512 options rights and obligations"@en-AU ;
+    dct:isPartOf F2019L00417:164 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "3  Examples for item 7 of the table in section 40512 options rights and obligations - Abrievated Graph Key: I167"@en-AU ;
+    skos:definition "3  Examples for item 7 of the table in section 40512 options rights and obligations"@en-AU ;
+    skos:narrower F2019L00417:164 ;
+    skos:prefLabel "Item I167"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299192> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299192"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:168 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I168 4  Examples for item 10 of the table in section 40512 insurance and reinsurance"@en-AU ;
+    dct:isPartOf F2019L00417:164 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "4  Examples for item 10 of the table in section 40512 insurance and reinsurance - Abrievated Graph Key: I168"@en-AU ;
+    skos:definition "4  Examples for item 10 of the table in section 40512 insurance and reinsurance"@en-AU ;
+    skos:narrower F2019L00417:164 ;
+    skos:prefLabel "Item I168"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299193> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299193"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:169 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I169 5  Examples for item 12 of the table in section 40512 managing assets or liabilities"@en-AU ;
+    dct:isPartOf F2019L00417:164 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "5  Examples for item 12 of the table in section 40512 managing assets or liabilities - Abrievated Graph Key: I169"@en-AU ;
+    skos:definition "5  Examples for item 12 of the table in section 40512 managing assets or liabilities"@en-AU ;
+    skos:narrower F2019L00417:164 ;
+    skos:prefLabel "Item I169"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299194> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299194"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 331501  Object of this Division"@en-AU ;
+    dct:isPartOf F2019L00417:16 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "331501  Object of this Division - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "331501  Object of this Division"@en-AU ;
+    skos:narrower F2019L00417:16 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299042> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299042"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:170 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I170 6  Examples for item 15 of the table in section 40512 trustee services"@en-AU ;
+    dct:isPartOf F2019L00417:164 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "6  Examples for item 15 of the table in section 40512 trustee services - Abrievated Graph Key: I170"@en-AU ;
+    skos:definition "6  Examples for item 15 of the table in section 40512 trustee services"@en-AU ;
+    skos:narrower F2019L00417:164 ;
+    skos:prefLabel "Item I170"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299195> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299195"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:171 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I171 7  Examples for item 20 of the table in section 40512 hire purchase"@en-AU ;
+    dct:isPartOf F2019L00417:164 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "7  Examples for item 20 of the table in section 40512 hire purchase - Abrievated Graph Key: I171"@en-AU ;
+    skos:definition "7  Examples for item 20 of the table in section 40512 hire purchase"@en-AU ;
+    skos:narrower F2019L00417:164 ;
+    skos:prefLabel "Item I171"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299196> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299196"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:173 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I173 Endnote 1 About the endnotes"@en-AU ;
+    dct:isPartOf F2019L00417:172 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Endnote 1 About the endnotes - Abrievated Graph Key: I173"@en-AU ;
+    skos:definition "Endnote 1 About the endnotes"@en-AU ;
+    skos:narrower F2019L00417:172 ;
+    skos:prefLabel "Item I173"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299198> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299198"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:174 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I174 Endnote 2 Abbreviation key"@en-AU ;
+    dct:isPartOf F2019L00417:172 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Endnote 2 Abbreviation key - Abrievated Graph Key: I174"@en-AU ;
+    skos:definition "Endnote 2 Abbreviation key"@en-AU ;
+    skos:narrower F2019L00417:172 ;
+    skos:prefLabel "Item I174"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299199> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299199"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:175 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I175 Endnote 3 Legislation history"@en-AU ;
+    dct:isPartOf F2019L00417:172 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Endnote 3 Legislation history - Abrievated Graph Key: I175"@en-AU ;
+    skos:definition "Endnote 3 Legislation history"@en-AU ;
+    skos:narrower F2019L00417:172 ;
+    skos:prefLabel "Item I175"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299200> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299200"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:176 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I176 Endnote 4 Amendment history"@en-AU ;
+    dct:isPartOf F2019L00417:172 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Endnote 4 Amendment history - Abrievated Graph Key: I176"@en-AU ;
+    skos:definition "Endnote 4 Amendment history"@en-AU ;
+    skos:narrower F2019L00417:172 ;
+    skos:prefLabel "Item I176"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299201> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299201"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 331501 A  Circumstances in which payments of assessed GST on taxable importations are deferred"@en-AU ;
+    dct:isPartOf F2019L00417:16 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "331501 A  Circumstances in which payments of assessed GST on taxable importations are deferred - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "331501 A  Circumstances in which payments of assessed GST on taxable importations are deferred"@en-AU ;
+    skos:narrower F2019L00417:16 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299043> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299043"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 331501 B  Payment"@en-AU ;
+    dct:isPartOf F2019L00417:16 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "331501 B  Payment - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "331501 B  Payment"@en-AU ;
+    skos:narrower F2019L00417:16 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299044> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299044"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 331502  Application for approval"@en-AU ;
+    dct:isPartOf F2019L00417:16 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "331502  Application for approval - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "331502  Application for approval"@en-AU ;
+    skos:narrower F2019L00417:16 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299045> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299045"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 331503  Requirements for approval"@en-AU ;
+    dct:isPartOf F2019L00417:16 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "331503  Requirements for approval - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "331503  Requirements for approval"@en-AU ;
+    skos:narrower F2019L00417:16 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299046> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299046"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 331504  Bank guarantee requirement"@en-AU ;
+    dct:isPartOf F2019L00417:16 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "331504  Bank guarantee requirement - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "331504  Bank guarantee requirement"@en-AU ;
+    skos:narrower F2019L00417:16 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299047> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299047"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 331505  Decision on applicationnotice and date of effect"@en-AU ;
+    dct:isPartOf F2019L00417:16 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "331505  Decision on applicationnotice and date of effect - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "331505  Decision on applicationnotice and date of effect"@en-AU ;
+    skos:narrower F2019L00417:16 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299048> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299048"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 331508  Revocation of approval"@en-AU ;
+    dct:isPartOf F2019L00417:16 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "331508  Revocation of approval - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "331508  Revocation of approval"@en-AU ;
+    skos:narrower F2019L00417:16 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299049> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299049"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 331509  Review of decisions"@en-AU ;
+    dct:isPartOf F2019L00417:16 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "331509  Review of decisions - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "331509  Review of decisions"@en-AU ;
+    skos:narrower F2019L00417:16 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299050> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299050"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:26 a legcons:Chapter,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Chapter - C26 Chapter 3 The exemptions"@en-AU ;
+    dct:hasPart F2019L00417:27 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Chapter 3 The exemptions - Abrievated Graph Key: C26"@en-AU ;
+    skos:broader F2019L00417:27 ;
+    skos:definition "Chapter 3 The exemptions"@en-AU ;
+    skos:prefLabel "Chapter C26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299051> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299051"^^xsd:anyURI ;
+    dcat:theme legcons:Chapter .
+
+F2019L00417:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 1  Name"@en-AU ;
+    dct:isPartOf F2019L00417:2 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "1  Name - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "1  Name"@en-AU ;
+    skos:narrower F2019L00417:2 ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299028> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299028"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 38301  Food additives"@en-AU ;
+    dct:isPartOf F2019L00417:29 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "38301  Food additives - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "38301  Food additives"@en-AU ;
+    skos:narrower F2019L00417:29 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299055> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299055"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 38302  GSTfree beverages supplied from vending machines"@en-AU ;
+    dct:isPartOf F2019L00417:29 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "38302  GSTfree beverages supplied from vending machines - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "38302  GSTfree beverages supplied from vending machines"@en-AU ;
+    skos:narrower F2019L00417:29 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299056> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299056"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 38701  Medical services"@en-AU ;
+    dct:isPartOf F2019L00417:32 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "38701  Medical services - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "38701  Medical services"@en-AU ;
+    skos:narrower F2019L00417:32 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299058> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299058"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 382501  Residential care etc"@en-AU ;
+    dct:isPartOf F2019L00417:32 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "382501  Residential care etc - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "382501  Residential care etc"@en-AU ;
+    skos:narrower F2019L00417:32 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299059> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299059"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 383001  Home care etc"@en-AU ;
+    dct:isPartOf F2019L00417:32 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "383001  Home care etc - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "383001  Home care etc"@en-AU ;
+    skos:narrower F2019L00417:32 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299060> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299060"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 384501  Medical aids and appliances"@en-AU ;
+    dct:isPartOf F2019L00417:32 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "384501  Medical aids and appliances - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "384501  Medical aids and appliances"@en-AU ;
+    skos:narrower F2019L00417:32 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299061> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299061"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 3818501  Export of goods by travellers as accompanied baggage"@en-AU ;
+    dct:isPartOf F2019L00417:37 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "3818501  Export of goods by travellers as accompanied baggage - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "3818501  Export of goods by travellers as accompanied baggage"@en-AU ;
+    skos:narrower F2019L00417:37 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299063> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299063"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 3  Authority"@en-AU ;
+    dct:isPartOf F2019L00417:2 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "3  Authority - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "3  Authority"@en-AU ;
+    skos:narrower F2019L00417:2 ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299029> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299029"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 40501  Object of Subdivision 40 A"@en-AU ;
+    dct:isPartOf F2019L00417:40 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "40501  Object of Subdivision 40 A - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "40501  Object of Subdivision 40 A"@en-AU ;
+    skos:narrower F2019L00417:40 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299066> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299066"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 40505  Acquisition"@en-AU ;
+    dct:isPartOf F2019L00417:40 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "40505  Acquisition - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "40505  Acquisition"@en-AU ;
+    skos:narrower F2019L00417:40 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299067> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299067"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:43 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I43 40506  Financial supply providers"@en-AU ;
+    dct:isPartOf F2019L00417:40 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "40506  Financial supply providers - Abrievated Graph Key: I43"@en-AU ;
+    skos:definition "40506  Financial supply providers"@en-AU ;
+    skos:narrower F2019L00417:40 ;
+    skos:prefLabel "Item I43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299068> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299068"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 40507  Financial supply facilitators"@en-AU ;
+    dct:isPartOf F2019L00417:40 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "40507  Financial supply facilitators - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "40507  Financial supply facilitators"@en-AU ;
+    skos:narrower F2019L00417:40 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299069> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299069"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:45 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I45 40508  When supply may be financial supply"@en-AU ;
+    dct:isPartOf F2019L00417:40 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "40508  When supply may be financial supply - Abrievated Graph Key: I45"@en-AU ;
+    skos:definition "40508  When supply may be financial supply"@en-AU ;
+    skos:narrower F2019L00417:40 ;
+    skos:prefLabel "Item I45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299070> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299070"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:46 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I46 40509  What supplies are financial supplies"@en-AU ;
+    dct:isPartOf F2019L00417:40 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "40509  What supplies are financial supplies - Abrievated Graph Key: I46"@en-AU ;
+    skos:definition "40509  What supplies are financial supplies"@en-AU ;
+    skos:narrower F2019L00417:40 ;
+    skos:prefLabel "Item I46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299071> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299071"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:47 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I47 40510  Incidental financial supplies"@en-AU ;
+    dct:isPartOf F2019L00417:40 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "40510  Incidental financial supplies - Abrievated Graph Key: I47"@en-AU ;
+    skos:definition "40510  Incidental financial supplies"@en-AU ;
+    skos:narrower F2019L00417:40 ;
+    skos:prefLabel "Item I47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299072> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299072"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:48 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I48 40511  Examples of supplies that are financial supplies"@en-AU ;
+    dct:isPartOf F2019L00417:40 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "40511  Examples of supplies that are financial supplies - Abrievated Graph Key: I48"@en-AU ;
+    skos:definition "40511  Examples of supplies that are financial supplies"@en-AU ;
+    skos:narrower F2019L00417:40 ;
+    skos:prefLabel "Item I48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299073> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299073"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:49 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I49 40512  What supplies are not financial supplies"@en-AU ;
+    dct:isPartOf F2019L00417:40 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "40512  What supplies are not financial supplies - Abrievated Graph Key: I49"@en-AU ;
+    skos:definition "40512  What supplies are not financial supplies"@en-AU ;
+    skos:narrower F2019L00417:40 ;
+    skos:prefLabel "Item I49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299074> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299074"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:50 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I50 40513  Examples of supplies that are not financial supplies"@en-AU ;
+    dct:isPartOf F2019L00417:40 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "40513  Examples of supplies that are not financial supplies - Abrievated Graph Key: I50"@en-AU ;
+    skos:definition "40513  Examples of supplies that are not financial supplies"@en-AU ;
+    skos:narrower F2019L00417:40 ;
+    skos:prefLabel "Item I50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299075> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299075"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:55 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I55 481001  Trust distribution and beneficiaries"@en-AU ;
+    dct:isPartOf F2019L00417:54 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "481001  Trust distribution and beneficiaries - Abrievated Graph Key: I55"@en-AU ;
+    skos:definition "481001  Trust distribution and beneficiaries"@en-AU ;
+    skos:narrower F2019L00417:54 ;
+    skos:prefLabel "Item I55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299080> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299080"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:56 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I56 481002  Membership requirements for partnerships"@en-AU ;
+    dct:isPartOf F2019L00417:54 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "481002  Membership requirements for partnerships - Abrievated Graph Key: I56"@en-AU ;
+    skos:definition "481002  Membership requirements for partnerships"@en-AU ;
+    skos:narrower F2019L00417:54 ;
+    skos:prefLabel "Item I56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299081> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299081"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:57 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I57 481003  Membership requirements for trusts"@en-AU ;
+    dct:isPartOf F2019L00417:54 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "481003  Membership requirements for trusts - Abrievated Graph Key: I57"@en-AU ;
+    skos:definition "481003  Membership requirements for trusts"@en-AU ;
+    skos:narrower F2019L00417:54 ;
+    skos:prefLabel "Item I57"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299082> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299082"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:58 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I58 481003 A  Alternative membership requirements for groups of fixed trusts"@en-AU ;
+    dct:isPartOf F2019L00417:54 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "481003 A  Alternative membership requirements for groups of fixed trusts - Abrievated Graph Key: I58"@en-AU ;
+    skos:definition "481003 A  Alternative membership requirements for groups of fixed trusts"@en-AU ;
+    skos:narrower F2019L00417:54 ;
+    skos:prefLabel "Item I58"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299083> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299083"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:59 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I59 481004  Membership requirements for individuals"@en-AU ;
+    dct:isPartOf F2019L00417:54 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "481004  Membership requirements for individuals - Abrievated Graph Key: I59"@en-AU ;
+    skos:definition "481004  Membership requirements for individuals"@en-AU ;
+    skos:narrower F2019L00417:54 ;
+    skos:prefLabel "Item I59"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299084> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299084"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:62 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I62 51501  Specified purposes for GST joint ventures"@en-AU ;
+    dct:isPartOf F2019L00417:61 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "51501  Specified purposes for GST joint ventures - Abrievated Graph Key: I62"@en-AU ;
+    skos:definition "51501  Specified purposes for GST joint ventures"@en-AU ;
+    skos:narrower F2019L00417:61 ;
+    skos:prefLabel "Item I62"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299087> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299087"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:65 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I65 70501  Objects of this Division"@en-AU ;
+    dct:isPartOf F2019L00417:64 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "70501  Objects of this Division - Abrievated Graph Key: I65"@en-AU ;
+    skos:definition "70501  Objects of this Division"@en-AU ;
+    skos:narrower F2019L00417:64 ;
+    skos:prefLabel "Item I65"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299090> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299090"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:66 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I66 70501 A  Meaning of closely related"@en-AU ;
+    dct:isPartOf F2019L00417:64 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "70501 A  Meaning of closely related - Abrievated Graph Key: I66"@en-AU ;
+    skos:definition "70501 A  Meaning of closely related"@en-AU ;
+    skos:narrower F2019L00417:64 ;
+    skos:prefLabel "Item I66"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299091> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299091"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:67 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I67 70502  Acquisitions that attract reduced input tax credits general"@en-AU ;
+    dct:isPartOf F2019L00417:64 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "70502  Acquisitions that attract reduced input tax credits general - Abrievated Graph Key: I67"@en-AU ;
+    skos:definition "70502  Acquisitions that attract reduced input tax credits general"@en-AU ;
+    skos:narrower F2019L00417:64 ;
+    skos:prefLabel "Item I67"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299092> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299092"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:68 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I68 70502 A  Acquisitions that attract reduced input tax credits certain offshore supplies"@en-AU ;
+    dct:isPartOf F2019L00417:64 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "70502 A  Acquisitions that attract reduced input tax credits certain offshore supplies - Abrievated Graph Key: I68"@en-AU ;
+    skos:definition "70502 A  Acquisitions that attract reduced input tax credits certain offshore supplies"@en-AU ;
+    skos:narrower F2019L00417:64 ;
+    skos:prefLabel "Item I68"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299093> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299093"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:69 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I69 70502 D  Prohibition against claiming twice"@en-AU ;
+    dct:isPartOf F2019L00417:64 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "70502 D  Prohibition against claiming twice - Abrievated Graph Key: I69"@en-AU ;
+    skos:definition "70502 D  Prohibition against claiming twice"@en-AU ;
+    skos:narrower F2019L00417:64 ;
+    skos:prefLabel "Item I69"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299094> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299094"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:70 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I70 70503  Percentage to which input tax credits are reduced"@en-AU ;
+    dct:isPartOf F2019L00417:64 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "70503  Percentage to which input tax credits are reduced - Abrievated Graph Key: I70"@en-AU ;
+    skos:definition "70503  Percentage to which input tax credits are reduced"@en-AU ;
+    skos:narrower F2019L00417:64 ;
+    skos:prefLabel "Item I70"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299095> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299095"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:72 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I72 7810501  Statutory compensation schemes"@en-AU ;
+    dct:isPartOf F2019L00417:71 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "7810501  Statutory compensation schemes - Abrievated Graph Key: I72"@en-AU ;
+    skos:definition "7810501  Statutory compensation schemes"@en-AU ;
+    skos:narrower F2019L00417:71 ;
+    skos:prefLabel "Item I72"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299097> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299097"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:74 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I74 793501  CTP ancillary payment or supply"@en-AU ;
+    dct:isPartOf F2019L00417:73 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "793501  CTP ancillary payment or supply - Abrievated Graph Key: I74"@en-AU ;
+    skos:definition "793501  CTP ancillary payment or supply"@en-AU ;
+    skos:narrower F2019L00417:73 ;
+    skos:prefLabel "Item I74"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299099> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299099"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:76 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I76 811001  Fees and charges which constitute consideration"@en-AU ;
+    dct:isPartOf F2019L00417:75 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "811001  Fees and charges which constitute consideration - Abrievated Graph Key: I76"@en-AU ;
+    skos:definition "811001  Fees and charges which constitute consideration"@en-AU ;
+    skos:narrower F2019L00417:75 ;
+    skos:prefLabel "Item I76"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299101> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299101"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:77 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I77 811501  Fees and charges which do not constitute consideration"@en-AU ;
+    dct:isPartOf F2019L00417:75 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "811501  Fees and charges which do not constitute consideration - Abrievated Graph Key: I77"@en-AU ;
+    skos:definition "811501  Fees and charges which do not constitute consideration"@en-AU ;
+    skos:narrower F2019L00417:75 ;
+    skos:prefLabel "Item I77"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299102> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299102"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:78 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I78 811502  Fees and charges covered by sections 811001 and 811501"@en-AU ;
+    dct:isPartOf F2019L00417:75 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "811502  Fees and charges covered by sections 811001 and 811501 - Abrievated Graph Key: I78"@en-AU ;
+    skos:definition "811502  Fees and charges covered by sections 811001 and 811501"@en-AU ;
+    skos:narrower F2019L00417:75 ;
+    skos:prefLabel "Item I78"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299103> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299103"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 231501  Registration turnover threshold other than for nonprofit bodies"@en-AU ;
+    dct:isPartOf F2019L00417:7 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "231501  Registration turnover threshold other than for nonprofit bodies - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "231501  Registration turnover threshold other than for nonprofit bodies"@en-AU ;
+    skos:narrower F2019L00417:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299033> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299033"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:82 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I82 168501  Acquisition"@en-AU ;
+    dct:isPartOf F2019L00417:81 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "168501  Acquisition - Abrievated Graph Key: I82"@en-AU ;
+    skos:definition "168501  Acquisition"@en-AU ;
+    skos:narrower F2019L00417:81 ;
+    skos:prefLabel "Item I82"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299107> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299107"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:83 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I83 168502  Goods to which this Subdivision applies"@en-AU ;
+    dct:isPartOf F2019L00417:81 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "168502  Goods to which this Subdivision applies - Abrievated Graph Key: I83"@en-AU ;
+    skos:definition "168502  Goods to which this Subdivision applies"@en-AU ;
+    skos:narrower F2019L00417:81 ;
+    skos:prefLabel "Item I83"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299108> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299108"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:84 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I84 168503  Registered entity"@en-AU ;
+    dct:isPartOf F2019L00417:81 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "168503  Registered entity - Abrievated Graph Key: I84"@en-AU ;
+    skos:definition "168503  Registered entity"@en-AU ;
+    skos:narrower F2019L00417:81 ;
+    skos:prefLabel "Item I84"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299109> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299109"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:85 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I85 168504  Purchase price"@en-AU ;
+    dct:isPartOf F2019L00417:81 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "168504  Purchase price - Abrievated Graph Key: I85"@en-AU ;
+    skos:definition "168504  Purchase price"@en-AU ;
+    skos:narrower F2019L00417:81 ;
+    skos:prefLabel "Item I85"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299110> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299110"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:86 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I86 168505  Tax invoice"@en-AU ;
+    dct:isPartOf F2019L00417:81 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "168505  Tax invoice - Abrievated Graph Key: I86"@en-AU ;
+    skos:definition "168505  Tax invoice"@en-AU ;
+    skos:narrower F2019L00417:81 ;
+    skos:prefLabel "Item I86"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299111> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299111"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:88 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I88 168505 A  Leaving the indirect tax zone"@en-AU ;
+    dct:isPartOf F2019L00417:87 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "168505 A  Leaving the indirect tax zone - Abrievated Graph Key: I88"@en-AU ;
+    skos:definition "168505 A  Leaving the indirect tax zone"@en-AU ;
+    skos:narrower F2019L00417:87 ;
+    skos:prefLabel "Item I88"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299113> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299113"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:89 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I89 168506  Departure"@en-AU ;
+    dct:isPartOf F2019L00417:87 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "168506  Departure - Abrievated Graph Key: I89"@en-AU ;
+    skos:definition "168506  Departure"@en-AU ;
+    skos:narrower F2019L00417:87 ;
+    skos:prefLabel "Item I89"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299114> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299114"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 231502  Registration turnover threshold for nonprofit bodies"@en-AU ;
+    dct:isPartOf F2019L00417:7 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "231502  Registration turnover threshold for nonprofit bodies - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "231502  Registration turnover threshold for nonprofit bodies"@en-AU ;
+    skos:narrower F2019L00417:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299034> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299034"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:90 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I90 168507  Place of departure"@en-AU ;
+    dct:isPartOf F2019L00417:87 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "168507  Place of departure - Abrievated Graph Key: I90"@en-AU ;
+    skos:definition "168507  Place of departure"@en-AU ;
+    skos:narrower F2019L00417:87 ;
+    skos:prefLabel "Item I90"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299115> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299115"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:92 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I92 168508  Accompanied baggage"@en-AU ;
+    dct:isPartOf F2019L00417:91 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "168508  Accompanied baggage - Abrievated Graph Key: I92"@en-AU ;
+    skos:definition "168508  Accompanied baggage"@en-AU ;
+    skos:narrower F2019L00417:91 ;
+    skos:prefLabel "Item I92"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299117> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299117"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:93 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I93 168509  Time of export"@en-AU ;
+    dct:isPartOf F2019L00417:91 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "168509  Time of export - Abrievated Graph Key: I93"@en-AU ;
+    skos:definition "168509  Time of export"@en-AU ;
+    skos:narrower F2019L00417:91 ;
+    skos:prefLabel "Item I93"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299118> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299118"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:94 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I94 168510  Verification of export"@en-AU ;
+    dct:isPartOf F2019L00417:91 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "168510  Verification of export - Abrievated Graph Key: I94"@en-AU ;
+    skos:definition "168510  Verification of export"@en-AU ;
+    skos:narrower F2019L00417:91 ;
+    skos:prefLabel "Item I94"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299119> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299119"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:96 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I96 168510 A  Export of goods to an external Territory"@en-AU ;
+    dct:isPartOf F2019L00417:95 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "168510 A  Export of goods to an external Territory - Abrievated Graph Key: I96"@en-AU ;
+    skos:definition "168510 A  Export of goods to an external Territory"@en-AU ;
+    skos:narrower F2019L00417:95 ;
+    skos:prefLabel "Item I96"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299121> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299121"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:97 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I97 168510 B  Time of export"@en-AU ;
+    dct:isPartOf F2019L00417:95 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "168510 B  Time of export - Abrievated Graph Key: I97"@en-AU ;
+    skos:definition "168510 B  Time of export"@en-AU ;
+    skos:narrower F2019L00417:95 ;
+    skos:prefLabel "Item I97"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299122> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299122"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:98 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I98 168510 C  Verification of export"@en-AU ;
+    dct:isPartOf F2019L00417:95 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "168510 C  Verification of export - Abrievated Graph Key: I98"@en-AU ;
+    skos:definition "168510 C  Verification of export"@en-AU ;
+    skos:narrower F2019L00417:95 ;
+    skos:prefLabel "Item I98"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299123> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299123"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00417:10 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P10 Part 26 Tax periods"@en-AU ;
+    dct:hasPart F2019L00417:11 ;
+    dct:isPartOf F2019L00417:5 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Part 26 Tax periods - Abrievated Graph Key: P10"@en-AU ;
+    skos:broader F2019L00417:11 ;
+    skos:definition "Part 26 Tax periods"@en-AU ;
+    skos:narrower F2019L00417:5 ;
+    skos:prefLabel "Part P10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299035> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299035"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2019L00417:101 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S101 Subdivision 168 FDocumentation relating to entitlement to payment"@en-AU ;
+    dct:hasPart F2019L00417:102 ;
+    dct:isPartOf F2019L00417:80 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Subdivision 168 FDocumentation relating to entitlement to payment - Abrievated Graph Key: S101"@en-AU ;
+    skos:broader F2019L00417:102 ;
+    skos:definition "Subdivision 168 FDocumentation relating to entitlement to payment"@en-AU ;
+    skos:narrower F2019L00417:80 ;
+    skos:prefLabel "Subdivision S101"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299126> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299126"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F2019L00417:108 a legcons:Chapter,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Chapter - C108 Chapter 6 Interpretation"@en-AU ;
+    dct:hasPart F2019L00417:109,
+        F2019L00417:114 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Chapter 6 Interpretation - Abrievated Graph Key: C108"@en-AU ;
+    skos:broader F2019L00417:109,
+        F2019L00417:114 ;
+    skos:definition "Chapter 6 Interpretation"@en-AU ;
+    skos:prefLabel "Chapter C108"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299133> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299133"^^xsd:anyURI ;
+    dcat:theme legcons:Chapter .
+
+F2019L00417:109 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P109 Part 63 Dictionary in the Act"@en-AU ;
+    dct:hasPart F2019L00417:110 ;
+    dct:isPartOf F2019L00417:108 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Part 63 Dictionary in the Act - Abrievated Graph Key: P109"@en-AU ;
+    skos:broader F2019L00417:110 ;
+    skos:definition "Part 63 Dictionary in the Act"@en-AU ;
+    skos:narrower F2019L00417:108 ;
+    skos:prefLabel "Part P109"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299134> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299134"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2019L00417:11 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D11 Division 29 What is attributable to tax periods"@en-AU ;
+    dct:hasPart F2019L00417:12 ;
+    dct:isPartOf F2019L00417:10 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Division 29 What is attributable to tax periods - Abrievated Graph Key: D11"@en-AU ;
+    skos:broader F2019L00417:12 ;
+    skos:definition "Division 29 What is attributable to tax periods"@en-AU ;
+    skos:narrower F2019L00417:10 ;
+    skos:prefLabel "Division D11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299036> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299036"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2019L00417:114 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P114 Part 64 Dictionary"@en-AU ;
+    dct:hasPart F2019L00417:115 ;
+    dct:isPartOf F2019L00417:108 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Part 64 Dictionary - Abrievated Graph Key: P114"@en-AU ;
+    skos:broader F2019L00417:115 ;
+    skos:definition "Part 64 Dictionary"@en-AU ;
+    skos:narrower F2019L00417:108 ;
+    skos:prefLabel "Part P114"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299139> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299139"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2019L00417:117 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P117 Part 71 Transitional matters"@en-AU ;
+    dct:hasPart F2019L00417:118 ;
+    dct:isPartOf F2019L00417:116 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Part 71 Transitional matters - Abrievated Graph Key: P117"@en-AU ;
+    skos:broader F2019L00417:118 ;
+    skos:definition "Part 71 Transitional matters"@en-AU ;
+    skos:narrower F2019L00417:116 ;
+    skos:prefLabel "Part P117"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299142> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299142"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2019L00417:124 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P124 Part 72 Matters relating to the A New Tax System Goods and Services Tax Transition Act 1999"@en-AU ;
+    dct:hasPart F2019L00417:125 ;
+    dct:isPartOf F2019L00417:116 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Part 72 Matters relating to the A New Tax System Goods and Services Tax Transition Act 1999 - Abrievated Graph Key: P124"@en-AU ;
+    skos:broader F2019L00417:125 ;
+    skos:definition "Part 72 Matters relating to the A New Tax System Goods and Services Tax Transition Act 1999"@en-AU ;
+    skos:narrower F2019L00417:116 ;
+    skos:prefLabel "Part P124"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299149> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299149"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2019L00417:126 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S126 Subdivision 220 AMeaning of arbitrator"@en-AU ;
+    dct:hasPart F2019L00417:127 ;
+    dct:isPartOf F2019L00417:125 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Subdivision 220 AMeaning of arbitrator - Abrievated Graph Key: S126"@en-AU ;
+    skos:broader F2019L00417:127 ;
+    skos:definition "Subdivision 220 AMeaning of arbitrator"@en-AU ;
+    skos:narrower F2019L00417:125 ;
+    skos:prefLabel "Subdivision S126"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299151> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299151"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F2019L00417:143 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P143 Part 73 Matters relating to the Treasury Laws Amendment 2022 Measures No 4 Act 2023"@en-AU ;
+    dct:hasPart F2019L00417:144 ;
+    dct:isPartOf F2019L00417:116 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Part 73 Matters relating to the Treasury Laws Amendment 2022 Measures No 4 Act 2023 - Abrievated Graph Key: P143"@en-AU ;
+    skos:broader F2019L00417:144 ;
+    skos:definition "Part 73 Matters relating to the Treasury Laws Amendment 2022 Measures No 4 Act 2023"@en-AU ;
+    skos:narrower F2019L00417:116 ;
+    skos:prefLabel "Part P143"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299168> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299168"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2019L00417:144 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D144 Division 225 Application of amendments"@en-AU ;
+    dct:hasPart F2019L00417:145 ;
+    dct:isPartOf F2019L00417:143 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Division 225 Application of amendments - Abrievated Graph Key: D144"@en-AU ;
+    skos:broader F2019L00417:145 ;
+    skos:definition "Division 225 Application of amendments"@en-AU ;
+    skos:narrower F2019L00417:143 ;
+    skos:prefLabel "Division D144"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299169> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299169"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2019L00417:15 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P15 Part 27 Returns payments and refunds"@en-AU ;
+    dct:hasPart F2019L00417:16 ;
+    dct:isPartOf F2019L00417:5 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Part 27 Returns payments and refunds - Abrievated Graph Key: P15"@en-AU ;
+    skos:broader F2019L00417:16 ;
+    skos:definition "Part 27 Returns payments and refunds"@en-AU ;
+    skos:narrower F2019L00417:5 ;
+    skos:prefLabel "Part P15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299040> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299040"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2019L00417:37 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S37 Subdivision 38 EExports and other crossborder supplies"@en-AU ;
+    dct:hasPart F2019L00417:38 ;
+    dct:isPartOf F2019L00417:28 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Subdivision 38 EExports and other crossborder supplies - Abrievated Graph Key: S37"@en-AU ;
+    skos:broader F2019L00417:38 ;
+    skos:definition "Subdivision 38 EExports and other crossborder supplies"@en-AU ;
+    skos:narrower F2019L00417:28 ;
+    skos:prefLabel "Subdivision S37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299062> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299062"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F2019L00417:39 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D39 Division 40 Input taxed supplies"@en-AU ;
+    dct:hasPart F2019L00417:40 ;
+    dct:isPartOf F2019L00417:27 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Division 40 Input taxed supplies - Abrievated Graph Key: D39"@en-AU ;
+    skos:broader F2019L00417:40 ;
+    skos:definition "Division 40 Input taxed supplies"@en-AU ;
+    skos:narrower F2019L00417:27 ;
+    skos:prefLabel "Division D39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299064> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299064"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2019L00417:53 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D53 Division 48 GST groups"@en-AU ;
+    dct:hasPart F2019L00417:54 ;
+    dct:isPartOf F2019L00417:52 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Division 48 GST groups - Abrievated Graph Key: D53"@en-AU ;
+    skos:broader F2019L00417:54 ;
+    skos:definition "Division 48 GST groups"@en-AU ;
+    skos:narrower F2019L00417:52 ;
+    skos:prefLabel "Division D53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299078> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299078"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2019L00417:6 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P6 Part 25 Registration"@en-AU ;
+    dct:hasPart F2019L00417:7 ;
+    dct:isPartOf F2019L00417:5 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Part 25 Registration - Abrievated Graph Key: P6"@en-AU ;
+    skos:broader F2019L00417:7 ;
+    skos:definition "Part 25 Registration"@en-AU ;
+    skos:narrower F2019L00417:5 ;
+    skos:prefLabel "Part P6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299031> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299031"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2019L00417:60 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D60 Division 51 GST joint ventures"@en-AU ;
+    dct:hasPart F2019L00417:61 ;
+    dct:isPartOf F2019L00417:52 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Division 51 GST joint ventures - Abrievated Graph Key: D60"@en-AU ;
+    skos:broader F2019L00417:61 ;
+    skos:definition "Division 51 GST joint ventures"@en-AU ;
+    skos:narrower F2019L00417:52 ;
+    skos:prefLabel "Division D60"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299085> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299085"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2019L00417:61 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S61 Subdivision 51 AFormation of and participation in GST joint ventures"@en-AU ;
+    dct:hasPart F2019L00417:62 ;
+    dct:isPartOf F2019L00417:60 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Subdivision 51 AFormation of and participation in GST joint ventures - Abrievated Graph Key: S61"@en-AU ;
+    skos:broader F2019L00417:62 ;
+    skos:definition "Subdivision 51 AFormation of and participation in GST joint ventures"@en-AU ;
+    skos:narrower F2019L00417:60 ;
+    skos:prefLabel "Subdivision S61"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299086> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299086"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F2019L00417:71 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D71 Division 78 Insurance"@en-AU ;
+    dct:hasPart F2019L00417:72 ;
+    dct:isPartOf F2019L00417:63 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Division 78 Insurance - Abrievated Graph Key: D71"@en-AU ;
+    skos:broader F2019L00417:72 ;
+    skos:definition "Division 78 Insurance"@en-AU ;
+    skos:narrower F2019L00417:63 ;
+    skos:prefLabel "Division D71"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299096> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299096"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2019L00417:73 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D73 Division 79 Compulsory third party schemes"@en-AU ;
+    dct:hasPart F2019L00417:74 ;
+    dct:isPartOf F2019L00417:63 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Division 79 Compulsory third party schemes - Abrievated Graph Key: D73"@en-AU ;
+    skos:broader F2019L00417:74 ;
+    skos:definition "Division 79 Compulsory third party schemes"@en-AU ;
+    skos:narrower F2019L00417:63 ;
+    skos:prefLabel "Division D73"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299098> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299098"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2019L00417:79 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P79 Part 47 Special rules mainly about returns payments and refunds"@en-AU ;
+    dct:hasPart F2019L00417:80 ;
+    dct:isPartOf F2019L00417:51 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Part 47 Special rules mainly about returns payments and refunds - Abrievated Graph Key: P79"@en-AU ;
+    skos:broader F2019L00417:80 ;
+    skos:definition "Part 47 Special rules mainly about returns payments and refunds"@en-AU ;
+    skos:narrower F2019L00417:51 ;
+    skos:prefLabel "Part P79"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299104> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299104"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2019L00417:99 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S99 Subdivision 168 EProportion of amount of GST for payment in cash"@en-AU ;
+    dct:hasPart F2019L00417:100 ;
+    dct:isPartOf F2019L00417:80 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Subdivision 168 EProportion of amount of GST for payment in cash - Abrievated Graph Key: S99"@en-AU ;
+    skos:broader F2019L00417:100 ;
+    skos:definition "Subdivision 168 EProportion of amount of GST for payment in cash"@en-AU ;
+    skos:narrower F2019L00417:80 ;
+    skos:prefLabel "Subdivision S99"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299124> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299124"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F2019L00417:116 a legcons:Chapter,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Chapter - C116 Chapter 7 Transitional"@en-AU ;
+    dct:hasPart F2019L00417:117,
+        F2019L00417:124,
+        F2019L00417:143 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Chapter 7 Transitional - Abrievated Graph Key: C116"@en-AU ;
+    skos:broader F2019L00417:117,
+        F2019L00417:124,
+        F2019L00417:143 ;
+    skos:definition "Chapter 7 Transitional"@en-AU ;
+    skos:prefLabel "Chapter C116"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299141> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299141"^^xsd:anyURI ;
+    dcat:theme legcons:Chapter .
+
+F2019L00417:12 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S12 Subdivision 29 CTax invoices and adjustment notes"@en-AU ;
+    dct:hasPart F2019L00417:13,
+        F2019L00417:14 ;
+    dct:isPartOf F2019L00417:11 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Subdivision 29 CTax invoices and adjustment notes - Abrievated Graph Key: S12"@en-AU ;
+    skos:broader F2019L00417:13,
+        F2019L00417:14 ;
+    skos:definition "Subdivision 29 CTax invoices and adjustment notes"@en-AU ;
+    skos:narrower F2019L00417:11 ;
+    skos:prefLabel "Subdivision S12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299037> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299037"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F2019L00417:125 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D125 Division 220 Agreements spanning 1 July 2000"@en-AU ;
+    dct:hasPart F2019L00417:126,
+        F2019L00417:128 ;
+    dct:isPartOf F2019L00417:124 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Division 220 Agreements spanning 1 July 2000 - Abrievated Graph Key: D125"@en-AU ;
+    skos:broader F2019L00417:126,
+        F2019L00417:128 ;
+    skos:definition "Division 220 Agreements spanning 1 July 2000"@en-AU ;
+    skos:narrower F2019L00417:124 ;
+    skos:prefLabel "Division D125"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299150> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299150"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2019L00417:2 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P2 Part 1 Preliminary"@en-AU ;
+    dct:hasPart F2019L00417:3,
+        F2019L00417:4 ;
+    dct:isPartOf F2019L00417:1 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Part 1 Preliminary - Abrievated Graph Key: P2"@en-AU ;
+    skos:broader F2019L00417:3,
+        F2019L00417:4 ;
+    skos:definition "Part 1 Preliminary"@en-AU ;
+    skos:narrower F2019L00417:1 ;
+    skos:prefLabel "Part P2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299027> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299027"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2019L00417:27 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P27 Part 31 Supplies that are not taxable supplies"@en-AU ;
+    dct:hasPart F2019L00417:28,
+        F2019L00417:39 ;
+    dct:isPartOf F2019L00417:26 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Part 31 Supplies that are not taxable supplies - Abrievated Graph Key: P27"@en-AU ;
+    skos:broader F2019L00417:28,
+        F2019L00417:39 ;
+    skos:definition "Part 31 Supplies that are not taxable supplies"@en-AU ;
+    skos:narrower F2019L00417:26 ;
+    skos:prefLabel "Part P27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299052> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299052"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2019L00417:29 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S29 Subdivision 38 AFood"@en-AU ;
+    dct:hasPart F2019L00417:30,
+        F2019L00417:31 ;
+    dct:isPartOf F2019L00417:28 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Subdivision 38 AFood - Abrievated Graph Key: S29"@en-AU ;
+    skos:broader F2019L00417:30,
+        F2019L00417:31 ;
+    skos:definition "Subdivision 38 AFood"@en-AU ;
+    skos:narrower F2019L00417:28 ;
+    skos:prefLabel "Subdivision S29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299054> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299054"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F2019L00417:5 a legcons:Chapter,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Chapter - C5 Chapter 2 The basic rules"@en-AU ;
+    dct:hasPart F2019L00417:10,
+        F2019L00417:15,
+        F2019L00417:6 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Chapter 2 The basic rules - Abrievated Graph Key: C5"@en-AU ;
+    skos:broader F2019L00417:10,
+        F2019L00417:15,
+        F2019L00417:6 ;
+    skos:definition "Chapter 2 The basic rules"@en-AU ;
+    skos:prefLabel "Chapter C5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299030> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299030"^^xsd:anyURI ;
+    dcat:theme legcons:Chapter .
+
+F2019L00417:51 a legcons:Chapter,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Chapter - C51 Chapter 4 The special rules"@en-AU ;
+    dct:hasPart F2019L00417:52,
+        F2019L00417:63,
+        F2019L00417:79 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Chapter 4 The special rules - Abrievated Graph Key: C51"@en-AU ;
+    skos:broader F2019L00417:52,
+        F2019L00417:63,
+        F2019L00417:79 ;
+    skos:definition "Chapter 4 The special rules"@en-AU ;
+    skos:prefLabel "Chapter C51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299076> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299076"^^xsd:anyURI ;
+    dcat:theme legcons:Chapter .
+
+F2019L00417:52 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P52 Part 41 Special rules mainly about particular ways entities are organised"@en-AU ;
+    dct:hasPart F2019L00417:53,
+        F2019L00417:60 ;
+    dct:isPartOf F2019L00417:51 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Part 41 Special rules mainly about particular ways entities are organised - Abrievated Graph Key: P52"@en-AU ;
+    skos:broader F2019L00417:53,
+        F2019L00417:60 ;
+    skos:definition "Part 41 Special rules mainly about particular ways entities are organised"@en-AU ;
+    skos:narrower F2019L00417:51 ;
+    skos:prefLabel "Part P52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299077> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299077"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2019L00417:7 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D7 Division 23 Who is required to be registered and who may be registered"@en-AU ;
+    dct:hasPart F2019L00417:8,
+        F2019L00417:9 ;
+    dct:isPartOf F2019L00417:6 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Division 23 Who is required to be registered and who may be registered - Abrievated Graph Key: D7"@en-AU ;
+    skos:broader F2019L00417:8,
+        F2019L00417:9 ;
+    skos:definition "Division 23 Who is required to be registered and who may be registered"@en-AU ;
+    skos:narrower F2019L00417:6 ;
+    skos:prefLabel "Division D7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299032> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299032"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2019L00417:110 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D110 Division 195 Dictionary in the Act"@en-AU ;
+    dct:hasPart F2019L00417:111,
+        F2019L00417:112,
+        F2019L00417:113 ;
+    dct:isPartOf F2019L00417:109 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Division 195 Dictionary in the Act - Abrievated Graph Key: D110"@en-AU ;
+    skos:broader F2019L00417:111,
+        F2019L00417:112,
+        F2019L00417:113 ;
+    skos:definition "Division 195 Dictionary in the Act"@en-AU ;
+    skos:narrower F2019L00417:109 ;
+    skos:prefLabel "Division D110"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299135> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299135"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2019L00417:172 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E172 Endnotes"@en-AU ;
+    dct:hasPart F2019L00417:173,
+        F2019L00417:174,
+        F2019L00417:175,
+        F2019L00417:176 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E172"@en-AU ;
+    skos:broader F2019L00417:173,
+        F2019L00417:174,
+        F2019L00417:175,
+        F2019L00417:176 ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:prefLabel "Endnotes E172"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299197> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299197"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+
+F2019L00417:28 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D28 Division 38 GSTfree supplies"@en-AU ;
+    dct:hasPart F2019L00417:29,
+        F2019L00417:32,
+        F2019L00417:37 ;
+    dct:isPartOf F2019L00417:27 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Division 38 GSTfree supplies - Abrievated Graph Key: D28"@en-AU ;
+    skos:broader F2019L00417:29,
+        F2019L00417:32,
+        F2019L00417:37 ;
+    skos:definition "Division 38 GSTfree supplies"@en-AU ;
+    skos:narrower F2019L00417:27 ;
+    skos:prefLabel "Division D28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299053> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299053"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2019L00417:75 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D75 Division 81 Payment of taxes fees and charges"@en-AU ;
+    dct:hasPart F2019L00417:76,
+        F2019L00417:77,
+        F2019L00417:78 ;
+    dct:isPartOf F2019L00417:63 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Division 81 Payment of taxes fees and charges - Abrievated Graph Key: D75"@en-AU ;
+    skos:broader F2019L00417:76,
+        F2019L00417:77,
+        F2019L00417:78 ;
+    skos:definition "Division 81 Payment of taxes fees and charges"@en-AU ;
+    skos:narrower F2019L00417:63 ;
+    skos:prefLabel "Division D75"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299100> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299100"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2019L00417:87 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S87 Subdivision 168 BDeparture from the indirect tax zone"@en-AU ;
+    dct:hasPart F2019L00417:88,
+        F2019L00417:89,
+        F2019L00417:90 ;
+    dct:isPartOf F2019L00417:80 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Subdivision 168 BDeparture from the indirect tax zone - Abrievated Graph Key: S87"@en-AU ;
+    skos:broader F2019L00417:88,
+        F2019L00417:89,
+        F2019L00417:90 ;
+    skos:definition "Subdivision 168 BDeparture from the indirect tax zone"@en-AU ;
+    skos:narrower F2019L00417:80 ;
+    skos:prefLabel "Subdivision S87"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299112> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299112"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F2019L00417:91 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S91 Subdivision 168 CExport as accompanied baggage"@en-AU ;
+    dct:hasPart F2019L00417:92,
+        F2019L00417:93,
+        F2019L00417:94 ;
+    dct:isPartOf F2019L00417:80 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Subdivision 168 CExport as accompanied baggage - Abrievated Graph Key: S91"@en-AU ;
+    skos:broader F2019L00417:92,
+        F2019L00417:93,
+        F2019L00417:94 ;
+    skos:definition "Subdivision 168 CExport as accompanied baggage"@en-AU ;
+    skos:narrower F2019L00417:80 ;
+    skos:prefLabel "Subdivision S91"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299116> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299116"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F2019L00417:95 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S95 Subdivision 168 DExport by resident of an external Territory as unaccompanied baggage"@en-AU ;
+    dct:hasPart F2019L00417:96,
+        F2019L00417:97,
+        F2019L00417:98 ;
+    dct:isPartOf F2019L00417:80 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Subdivision 168 DExport by resident of an external Territory as unaccompanied baggage - Abrievated Graph Key: S95"@en-AU ;
+    skos:broader F2019L00417:96,
+        F2019L00417:97,
+        F2019L00417:98 ;
+    skos:definition "Subdivision 168 DExport by resident of an external Territory as unaccompanied baggage"@en-AU ;
+    skos:narrower F2019L00417:80 ;
+    skos:prefLabel "Subdivision S95"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299120> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299120"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F2019L00417:103 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S103 Subdivision 168 GPeriod and manner of payment"@en-AU ;
+    dct:hasPart F2019L00417:104,
+        F2019L00417:105,
+        F2019L00417:106,
+        F2019L00417:107 ;
+    dct:isPartOf F2019L00417:80 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Subdivision 168 GPeriod and manner of payment - Abrievated Graph Key: S103"@en-AU ;
+    skos:broader F2019L00417:104,
+        F2019L00417:105,
+        F2019L00417:106,
+        F2019L00417:107 ;
+    skos:definition "Subdivision 168 GPeriod and manner of payment"@en-AU ;
+    skos:narrower F2019L00417:80 ;
+    skos:prefLabel "Subdivision S103"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299128> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299128"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F2019L00417:32 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S32 Subdivision 38 BHealth"@en-AU ;
+    dct:hasPart F2019L00417:33,
+        F2019L00417:34,
+        F2019L00417:35,
+        F2019L00417:36 ;
+    dct:isPartOf F2019L00417:28 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Subdivision 38 BHealth - Abrievated Graph Key: S32"@en-AU ;
+    skos:broader F2019L00417:33,
+        F2019L00417:34,
+        F2019L00417:35,
+        F2019L00417:36 ;
+    skos:definition "Subdivision 38 BHealth"@en-AU ;
+    skos:narrower F2019L00417:28 ;
+    skos:prefLabel "Subdivision S32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299057> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299057"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F2019L00417:63 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P63 Part 42 Special rules mainly about supplies and acquisitions"@en-AU ;
+    dct:hasPart F2019L00417:64,
+        F2019L00417:71,
+        F2019L00417:73,
+        F2019L00417:75 ;
+    dct:isPartOf F2019L00417:51 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Part 42 Special rules mainly about supplies and acquisitions - Abrievated Graph Key: P63"@en-AU ;
+    skos:broader F2019L00417:64,
+        F2019L00417:71,
+        F2019L00417:73,
+        F2019L00417:75 ;
+    skos:definition "Part 42 Special rules mainly about supplies and acquisitions"@en-AU ;
+    skos:narrower F2019L00417:51 ;
+    skos:prefLabel "Part P63"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299088> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299088"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2019L00417:118 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D118 Division 197 Transitional matters relating to the repeal of the A New Tax System Goods and Services Tax Regulations 1999"@en-AU ;
+    dct:hasPart F2019L00417:119,
+        F2019L00417:120,
+        F2019L00417:121,
+        F2019L00417:122,
+        F2019L00417:123 ;
+    dct:isPartOf F2019L00417:117 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Division 197 Transitional matters relating to the repeal of the A New Tax System Goods and Services Tax Regulations 1999 - Abrievated Graph Key: D118"@en-AU ;
+    skos:broader F2019L00417:119,
+        F2019L00417:120,
+        F2019L00417:121,
+        F2019L00417:122,
+        F2019L00417:123 ;
+    skos:definition "Division 197 Transitional matters relating to the repeal of the A New Tax System Goods and Services Tax Regulations 1999"@en-AU ;
+    skos:narrower F2019L00417:117 ;
+    skos:prefLabel "Division D118"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299143> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299143"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2019L00417:146 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S146 Schedule 1 Rules for the supply of goods to a relevant traveller"@en-AU ;
+    dct:hasPart F2019L00417:147,
+        F2019L00417:148,
+        F2019L00417:149,
+        F2019L00417:150,
+        F2019L00417:151,
+        F2019L00417:152 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Schedule 1 Rules for the supply of goods to a relevant traveller - Abrievated Graph Key: S146"@en-AU ;
+    skos:broader F2019L00417:147,
+        F2019L00417:148,
+        F2019L00417:149,
+        F2019L00417:150,
+        F2019L00417:151,
+        F2019L00417:152 ;
+    skos:definition "Schedule 1 Rules for the supply of goods to a relevant traveller"@en-AU ;
+    skos:prefLabel "Schedule S146"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299171> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299171"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F2019L00417:54 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S54 Subdivision 48 AFormation and membership of GST groups"@en-AU ;
+    dct:hasPart F2019L00417:55,
+        F2019L00417:56,
+        F2019L00417:57,
+        F2019L00417:58,
+        F2019L00417:59 ;
+    dct:isPartOf F2019L00417:53 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Subdivision 48 AFormation and membership of GST groups - Abrievated Graph Key: S54"@en-AU ;
+    skos:broader F2019L00417:55,
+        F2019L00417:56,
+        F2019L00417:57,
+        F2019L00417:58,
+        F2019L00417:59 ;
+    skos:definition "Subdivision 48 AFormation and membership of GST groups"@en-AU ;
+    skos:narrower F2019L00417:53 ;
+    skos:prefLabel "Subdivision S54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299079> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299079"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F2019L00417:81 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S81 Subdivision 168 AKinds of acquisitions"@en-AU ;
+    dct:hasPart F2019L00417:82,
+        F2019L00417:83,
+        F2019L00417:84,
+        F2019L00417:85,
+        F2019L00417:86 ;
+    dct:isPartOf F2019L00417:80 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Subdivision 168 AKinds of acquisitions - Abrievated Graph Key: S81"@en-AU ;
+    skos:broader F2019L00417:82,
+        F2019L00417:83,
+        F2019L00417:84,
+        F2019L00417:85,
+        F2019L00417:86 ;
+    skos:definition "Subdivision 168 AKinds of acquisitions"@en-AU ;
+    skos:narrower F2019L00417:80 ;
+    skos:prefLabel "Subdivision S81"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299106> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299106"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F2019L00417:164 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S164 Schedule 3 Examples of supply that is not financial supply"@en-AU ;
+    dct:hasPart F2019L00417:165,
+        F2019L00417:166,
+        F2019L00417:167,
+        F2019L00417:168,
+        F2019L00417:169,
+        F2019L00417:170,
+        F2019L00417:171 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Schedule 3 Examples of supply that is not financial supply - Abrievated Graph Key: S164"@en-AU ;
+    skos:broader F2019L00417:165,
+        F2019L00417:166,
+        F2019L00417:167,
+        F2019L00417:168,
+        F2019L00417:169,
+        F2019L00417:170,
+        F2019L00417:171 ;
+    skos:definition "Schedule 3 Examples of supply that is not financial supply"@en-AU ;
+    skos:prefLabel "Schedule S164"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299189> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299189"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F2019L00417:64 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D64 Division 70 Financial supplies reduced credit acquisitions"@en-AU ;
+    dct:hasPart F2019L00417:65,
+        F2019L00417:66,
+        F2019L00417:67,
+        F2019L00417:68,
+        F2019L00417:69,
+        F2019L00417:70 ;
+    dct:isPartOf F2019L00417:63 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Division 70 Financial supplies reduced credit acquisitions - Abrievated Graph Key: D64"@en-AU ;
+    skos:broader F2019L00417:65,
+        F2019L00417:66,
+        F2019L00417:67,
+        F2019L00417:68,
+        F2019L00417:69,
+        F2019L00417:70 ;
+    skos:definition "Division 70 Financial supplies reduced credit acquisitions"@en-AU ;
+    skos:narrower F2019L00417:63 ;
+    skos:prefLabel "Division D64"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299089> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299089"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2019L00417:80 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D80 Division 168 Tourist refund scheme"@en-AU ;
+    dct:hasPart F2019L00417:101,
+        F2019L00417:103,
+        F2019L00417:81,
+        F2019L00417:87,
+        F2019L00417:91,
+        F2019L00417:95,
+        F2019L00417:99 ;
+    dct:isPartOf F2019L00417:79 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Division 168 Tourist refund scheme - Abrievated Graph Key: D80"@en-AU ;
+    skos:broader F2019L00417:101,
+        F2019L00417:103,
+        F2019L00417:81,
+        F2019L00417:87,
+        F2019L00417:91,
+        F2019L00417:95,
+        F2019L00417:99 ;
+    skos:definition "Division 168 Tourist refund scheme"@en-AU ;
+    skos:narrower F2019L00417:79 ;
+    skos:prefLabel "Division D80"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299105> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299105"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2019L00417:153 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S153 Schedule 2 Examples of financial supply"@en-AU ;
+    dct:hasPart F2019L00417:154,
+        F2019L00417:155,
+        F2019L00417:156,
+        F2019L00417:157,
+        F2019L00417:158,
+        F2019L00417:159,
+        F2019L00417:160,
+        F2019L00417:161,
+        F2019L00417:162,
+        F2019L00417:163 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Schedule 2 Examples of financial supply - Abrievated Graph Key: S153"@en-AU ;
+    skos:broader F2019L00417:154,
+        F2019L00417:155,
+        F2019L00417:156,
+        F2019L00417:157,
+        F2019L00417:158,
+        F2019L00417:159,
+        F2019L00417:160,
+        F2019L00417:161,
+        F2019L00417:162,
+        F2019L00417:163 ;
+    skos:definition "Schedule 2 Examples of financial supply"@en-AU ;
+    skos:prefLabel "Schedule S153"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299178> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299178"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F2019L00417:16 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D16 Division 33 Payments of GST"@en-AU ;
+    dct:hasPart F2019L00417:17,
+        F2019L00417:18,
+        F2019L00417:19,
+        F2019L00417:20,
+        F2019L00417:21,
+        F2019L00417:22,
+        F2019L00417:23,
+        F2019L00417:24,
+        F2019L00417:25 ;
+    dct:isPartOf F2019L00417:15 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Division 33 Payments of GST - Abrievated Graph Key: D16"@en-AU ;
+    skos:broader F2019L00417:17,
+        F2019L00417:18,
+        F2019L00417:19,
+        F2019L00417:20,
+        F2019L00417:21,
+        F2019L00417:22,
+        F2019L00417:23,
+        F2019L00417:24,
+        F2019L00417:25 ;
+    skos:definition "Division 33 Payments of GST"@en-AU ;
+    skos:narrower F2019L00417:15 ;
+    skos:prefLabel "Division D16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299041> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299041"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2019L00417:40 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S40 Subdivision 40 AFinancial supplies"@en-AU ;
+    dct:hasPart F2019L00417:41,
+        F2019L00417:42,
+        F2019L00417:43,
+        F2019L00417:44,
+        F2019L00417:45,
+        F2019L00417:46,
+        F2019L00417:47,
+        F2019L00417:48,
+        F2019L00417:49,
+        F2019L00417:50 ;
+    dct:isPartOf F2019L00417:39 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Subdivision 40 AFinancial supplies - Abrievated Graph Key: S40"@en-AU ;
+    skos:broader F2019L00417:41,
+        F2019L00417:42,
+        F2019L00417:43,
+        F2019L00417:44,
+        F2019L00417:45,
+        F2019L00417:46,
+        F2019L00417:47,
+        F2019L00417:48,
+        F2019L00417:49,
+        F2019L00417:50 ;
+    skos:definition "Subdivision 40 AFinancial supplies"@en-AU ;
+    skos:narrower F2019L00417:39 ;
+    skos:prefLabel "Subdivision S40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299065> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299065"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F2019L00417:128 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S128 Subdivision 220 BMeaning of New Tax System changes"@en-AU ;
+    dct:hasPart F2019L00417:129,
+        F2019L00417:130,
+        F2019L00417:131,
+        F2019L00417:132,
+        F2019L00417:133,
+        F2019L00417:134,
+        F2019L00417:135,
+        F2019L00417:136,
+        F2019L00417:137,
+        F2019L00417:138,
+        F2019L00417:139,
+        F2019L00417:140,
+        F2019L00417:141,
+        F2019L00417:142 ;
+    dct:isPartOf F2019L00417:125 ;
+    dct:isReferencedBy F2019L00417: ;
+    rdfs:comment "Subdivision 220 BMeaning of New Tax System changes - Abrievated Graph Key: S128"@en-AU ;
+    skos:broader F2019L00417:129,
+        F2019L00417:130,
+        F2019L00417:131,
+        F2019L00417:132,
+        F2019L00417:133,
+        F2019L00417:134,
+        F2019L00417:135,
+        F2019L00417:136,
+        F2019L00417:137,
+        F2019L00417:138,
+        F2019L00417:139,
+        F2019L00417:140,
+        F2019L00417:141,
+        F2019L00417:142 ;
+    skos:definition "Subdivision 220 BMeaning of New Tax System changes"@en-AU ;
+    skos:narrower F2019L00417:125 ;
+    skos:prefLabel "Subdivision S128"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299153> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00417/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc212299153"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+F2019L00417: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "A New Tax System (Goods and Services Tax) Regulations 2019" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-26T21:14:40.619905"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2025-11-01T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "A New Tax System (Goods and Services Tax) Regulations 2019"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2019L00417/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "A New Tax System (Goods and Services Tax) Regulations 2019"@en-AU ;
+    dct:title "A New Tax System (Goods and Services Tax) Regulations 2019"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Chapter,
+        legcons:Division,
+        legcons:Endnotes,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule,
+        legcons:Subdivision ;
+    schema:status "In force" ;
+    schema:version "F2025C01015 C05" .
+

@@ -1,0 +1,628 @@
+@prefix F2024L01024: <http://example.org/au/leg/dataset/F2024L01024/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2024L01024:23 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P23 Part 1 Munitions list"@en-AU ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Part 1 Munitions list - Abrievated Graph Key: P23"@en-AU ;
+    skos:definition "Part 1 Munitions list"@en-AU ;
+    skos:prefLabel "Part P23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140486> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140486"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2024L01024:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 32	Notes"@en-AU ;
+    dct:isPartOf F2024L01024:1 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "32	Notes - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "32	Notes"@en-AU ;
+    skos:narrower F2024L01024:1 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140473> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140473"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 33	Incorporated goods"@en-AU ;
+    dct:isPartOf F2024L01024:1 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "33	Incorporated goods - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "33	Incorporated goods"@en-AU ;
+    skos:narrower F2024L01024:1 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140474> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140474"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 34	New and used goods"@en-AU ;
+    dct:isPartOf F2024L01024:1 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "34	New and used goods - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "34	New and used goods"@en-AU ;
+    skos:narrower F2024L01024:1 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140475> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140475"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 35	CAS numbers"@en-AU ;
+    dct:isPartOf F2024L01024:1 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "35	CAS numbers - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "35	CAS numbers"@en-AU ;
+    skos:narrower F2024L01024:1 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140476> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140476"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 36	Source code"@en-AU ;
+    dct:isPartOf F2024L01024:1 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "36	Source code - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "36	Source code"@en-AU ;
+    skos:narrower F2024L01024:1 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140477> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140477"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 37	Medical equipment"@en-AU ;
+    dct:isPartOf F2024L01024:1 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "37	Medical equipment - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "37	Medical equipment"@en-AU ;
+    skos:narrower F2024L01024:1 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140478> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140478"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 38	Nuclear technology note NTN"@en-AU ;
+    dct:isPartOf F2024L01024:1 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "38	Nuclear technology note NTN - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "38	Nuclear technology note NTN"@en-AU ;
+    skos:narrower F2024L01024:1 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140479> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140479"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 39	General technology note GTN"@en-AU ;
+    dct:isPartOf F2024L01024:1 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "39	General technology note GTN - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "39	General technology note GTN"@en-AU ;
+    skos:narrower F2024L01024:1 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140480> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140480"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 310	General software note GSN"@en-AU ;
+    dct:isPartOf F2024L01024:1 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "310	General software note GSN - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "310	General software note GSN"@en-AU ;
+    skos:narrower F2024L01024:1 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140481> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140481"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 311	General information security note GISN"@en-AU ;
+    dct:isPartOf F2024L01024:1 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "311	General information security note GISN - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "311	General information security note GISN"@en-AU ;
+    skos:narrower F2024L01024:1 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140482> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140482"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:2 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D2 Division 1 Preliminary"@en-AU ;
+    dct:isPartOf F2024L01024:1 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Division 1 Preliminary - Abrievated Graph Key: D2"@en-AU ;
+    skos:definition "Division 1 Preliminary"@en-AU ;
+    skos:narrower F2024L01024:1 ;
+    skos:prefLabel "Division D2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140465> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140465"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2024L01024:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 312	Clinical trials note"@en-AU ;
+    dct:isPartOf F2024L01024:1 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "312	Clinical trials note - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "312	Clinical trials note"@en-AU ;
+    skos:narrower F2024L01024:1 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140483> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140483"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:21 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D21 Division 4 Definitions"@en-AU ;
+    dct:isPartOf F2024L01024:1 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Division 4 Definitions - Abrievated Graph Key: D21"@en-AU ;
+    skos:definition "Division 4 Definitions"@en-AU ;
+    skos:narrower F2024L01024:1 ;
+    skos:prefLabel "Division D21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140484> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140484"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2024L01024:22 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D22 Division 5 Acronyms and abbreviations"@en-AU ;
+    dct:isPartOf F2024L01024:1 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Division 5 Acronyms and abbreviations - Abrievated Graph Key: D22"@en-AU ;
+    skos:definition "Division 5 Acronyms and abbreviations"@en-AU ;
+    skos:narrower F2024L01024:1 ;
+    skos:prefLabel "Division D22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140485> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140485"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2024L01024:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Category 0 Nuclear materials facilities and equipment"@en-AU ;
+    dct:isPartOf F2024L01024:24 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Category 0 Nuclear materials facilities and equipment - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Category 0 Nuclear materials facilities and equipment"@en-AU ;
+    skos:narrower F2024L01024:24 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140488> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140488"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Category 1 Materials chemicals microorganisms and toxins"@en-AU ;
+    dct:isPartOf F2024L01024:24 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Category 1 Materials chemicals microorganisms and toxins - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Category 1 Materials chemicals microorganisms and toxins"@en-AU ;
+    skos:narrower F2024L01024:24 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140489> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140489"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Category 2 Materials processing"@en-AU ;
+    dct:isPartOf F2024L01024:24 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Category 2 Materials processing - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Category 2 Materials processing"@en-AU ;
+    skos:narrower F2024L01024:24 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140490> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140490"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Category 3 Electronics"@en-AU ;
+    dct:isPartOf F2024L01024:24 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Category 3 Electronics - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Category 3 Electronics"@en-AU ;
+    skos:narrower F2024L01024:24 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140491> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140491"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Category 4 Computers"@en-AU ;
+    dct:isPartOf F2024L01024:24 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Category 4 Computers - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Category 4 Computers"@en-AU ;
+    skos:narrower F2024L01024:24 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140492> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140492"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 11  Name"@en-AU ;
+    dct:isPartOf F2024L01024:1 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "11  Name - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "11  Name"@en-AU ;
+    skos:narrower F2024L01024:1 ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140466> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140466"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Category 5 Telecommunications and information security"@en-AU ;
+    dct:isPartOf F2024L01024:24 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Category 5 Telecommunications and information security - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Category 5 Telecommunications and information security"@en-AU ;
+    skos:narrower F2024L01024:24 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140493> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140493"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Category 6 Sensors and lasers"@en-AU ;
+    dct:isPartOf F2024L01024:24 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Category 6 Sensors and lasers - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Category 6 Sensors and lasers"@en-AU ;
+    skos:narrower F2024L01024:24 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140494> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140494"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Category 7 Navigation and avionics"@en-AU ;
+    dct:isPartOf F2024L01024:24 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Category 7 Navigation and avionics - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Category 7 Navigation and avionics"@en-AU ;
+    skos:narrower F2024L01024:24 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140495> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140495"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Category 8 Marine"@en-AU ;
+    dct:isPartOf F2024L01024:24 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Category 8 Marine - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Category 8 Marine"@en-AU ;
+    skos:narrower F2024L01024:24 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140496> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140496"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Category 9 Aerospace and propulsion"@en-AU ;
+    dct:isPartOf F2024L01024:24 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Category 9 Aerospace and propulsion - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Category 9 Aerospace and propulsion"@en-AU ;
+    skos:narrower F2024L01024:24 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140497> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140497"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Sensitive list of dual use goods and technologies"@en-AU ;
+    dct:isPartOf F2024L01024:24 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Sensitive list of dual use goods and technologies - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Sensitive list of dual use goods and technologies"@en-AU ;
+    skos:narrower F2024L01024:24 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140498> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140498"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:37 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S37 Schedule 1 Repeals"@en-AU ;
+    dct:isPartOf F2024L01024:36 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Schedule 1 Repeals - Abrievated Graph Key: S37"@en-AU ;
+    skos:definition "Schedule 1 Repeals"@en-AU ;
+    skos:narrower F2024L01024:36 ;
+    skos:prefLabel "Schedule S37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140500> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140500"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F2024L01024:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 Defence and Strategic Goods List 2021"@en-AU ;
+    dct:isPartOf F2024L01024:36 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Defence and Strategic Goods List 2021 - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "Defence and Strategic Goods List 2021"@en-AU ;
+    skos:narrower F2024L01024:36 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140501> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140501"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 12  Commencement"@en-AU ;
+    dct:isPartOf F2024L01024:1 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "12  Commencement - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "12  Commencement"@en-AU ;
+    skos:narrower F2024L01024:1 ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140467> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140467"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 13  Authority"@en-AU ;
+    dct:isPartOf F2024L01024:1 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "13  Authority - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "13  Authority"@en-AU ;
+    skos:narrower F2024L01024:1 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140468> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140468"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 14  Schedules"@en-AU ;
+    dct:isPartOf F2024L01024:1 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "14  Schedules - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "14  Schedules"@en-AU ;
+    skos:narrower F2024L01024:1 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140469> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140469"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:7 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D7 Division 2 Simplified outline of the Defence and Strategic Goods List"@en-AU ;
+    dct:isPartOf F2024L01024:1 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Division 2 Simplified outline of the Defence and Strategic Goods List - Abrievated Graph Key: D7"@en-AU ;
+    skos:definition "Division 2 Simplified outline of the Defence and Strategic Goods List"@en-AU ;
+    skos:narrower F2024L01024:1 ;
+    skos:prefLabel "Division D7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140470> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140470"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2024L01024:8 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D8 Division 3 Interpretation"@en-AU ;
+    dct:isPartOf F2024L01024:1 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Division 3 Interpretation - Abrievated Graph Key: D8"@en-AU ;
+    skos:definition "Division 3 Interpretation"@en-AU ;
+    skos:narrower F2024L01024:1 ;
+    skos:prefLabel "Division D8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140471> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140471"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2024L01024:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 31	Definitions"@en-AU ;
+    dct:isPartOf F2024L01024:1 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "31	Definitions - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "31	Definitions"@en-AU ;
+    skos:narrower F2024L01024:1 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140472> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140472"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 Very sensitive list of dual use goods and technologies"@en-AU ;
+    dct:hasPart F2024L01024:37,
+        F2024L01024:38 ;
+    dct:isPartOf F2024L01024:24 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Very sensitive list of dual use goods and technologies - Abrievated Graph Key: I36"@en-AU ;
+    skos:broader F2024L01024:37,
+        F2024L01024:38 ;
+    skos:definition "Very sensitive list of dual use goods and technologies"@en-AU ;
+    skos:narrower F2024L01024:24 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140499> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140499"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01024:24 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P24 Part 2 Dual use list"@en-AU ;
+    dct:hasPart F2024L01024:25,
+        F2024L01024:26,
+        F2024L01024:27,
+        F2024L01024:28,
+        F2024L01024:29,
+        F2024L01024:30,
+        F2024L01024:31,
+        F2024L01024:32,
+        F2024L01024:33,
+        F2024L01024:34,
+        F2024L01024:35,
+        F2024L01024:36 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Part 2 Dual use list - Abrievated Graph Key: P24"@en-AU ;
+    skos:broader F2024L01024:25,
+        F2024L01024:26,
+        F2024L01024:27,
+        F2024L01024:28,
+        F2024L01024:29,
+        F2024L01024:30,
+        F2024L01024:31,
+        F2024L01024:32,
+        F2024L01024:33,
+        F2024L01024:34,
+        F2024L01024:35,
+        F2024L01024:36 ;
+    skos:definition "Part 2 Dual use list"@en-AU ;
+    skos:prefLabel "Part P24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140487> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140487"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2024L01024: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Defence and Strategic Goods List 2024" ;
+    dct:Jurisdiction " Department of Home Affairs "@en-AU ;
+    dct:created "2026-05-26T11:05:46.162625"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2024-08-16T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Defence and Strategic Goods List 2024"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2024L01024/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Defence and Strategic Goods List 2024"@en-AU ;
+    dct:title "Defence and Strategic Goods List 2024"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "F2024L01024" .
+
+F2024L01024:1 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P1 Part 1 APreliminary"@en-AU ;
+    dct:hasPart F2024L01024:10,
+        F2024L01024:11,
+        F2024L01024:12,
+        F2024L01024:13,
+        F2024L01024:14,
+        F2024L01024:15,
+        F2024L01024:16,
+        F2024L01024:17,
+        F2024L01024:18,
+        F2024L01024:19,
+        F2024L01024:2,
+        F2024L01024:20,
+        F2024L01024:21,
+        F2024L01024:22,
+        F2024L01024:3,
+        F2024L01024:4,
+        F2024L01024:5,
+        F2024L01024:6,
+        F2024L01024:7,
+        F2024L01024:8,
+        F2024L01024:9 ;
+    dct:isReferencedBy F2024L01024: ;
+    rdfs:comment "Part 1 APreliminary - Abrievated Graph Key: P1"@en-AU ;
+    skos:broader F2024L01024:10,
+        F2024L01024:11,
+        F2024L01024:12,
+        F2024L01024:13,
+        F2024L01024:14,
+        F2024L01024:15,
+        F2024L01024:16,
+        F2024L01024:17,
+        F2024L01024:18,
+        F2024L01024:19,
+        F2024L01024:2,
+        F2024L01024:20,
+        F2024L01024:21,
+        F2024L01024:22,
+        F2024L01024:3,
+        F2024L01024:4,
+        F2024L01024:5,
+        F2024L01024:6,
+        F2024L01024:7,
+        F2024L01024:8,
+        F2024L01024:9 ;
+    skos:definition "Part 1 APreliminary"@en-AU ;
+    skos:prefLabel "Part P1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140464> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01024/asmade/2024-08-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc173140464"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+

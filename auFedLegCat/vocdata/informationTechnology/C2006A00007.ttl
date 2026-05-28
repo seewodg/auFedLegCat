@@ -1,0 +1,323 @@
+@prefix C2006A00007: <http://example.org/au/leg/dataset/C2006A00007/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2006A00007:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2006A00007: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079708> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079708"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00007:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2006A00007: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079709> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079709"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00007:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Olympic Insignia Protection Act 1987"@en-AU ;
+    dct:isPartOf C2006A00007:4 ;
+    dct:isReferencedBy C2006A00007: ;
+    rdfs:comment "Olympic Insignia Protection Act 1987 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Olympic Insignia Protection Act 1987"@en-AU ;
+    skos:narrower C2006A00007:4 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079718> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079718"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00007:12 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P12 Part 1 Introduction"@en-AU ;
+    dct:isPartOf C2006A00007:11 ;
+    dct:isReferencedBy C2006A00007: ;
+    rdfs:comment "Part 1 Introduction - Abrievated Graph Key: P12"@en-AU ;
+    skos:definition "Part 1 Introduction"@en-AU ;
+    skos:narrower C2006A00007:11 ;
+    skos:prefLabel "Part P12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079720> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079720"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00007:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 2 Assets liabilities and legal proceedings"@en-AU ;
+    dct:isPartOf C2006A00007:11 ;
+    dct:isReferencedBy C2006A00007: ;
+    rdfs:comment "Part 2 Assets liabilities and legal proceedings - Abrievated Graph Key: P13"@en-AU ;
+    skos:definition "Part 2 Assets liabilities and legal proceedings"@en-AU ;
+    skos:narrower C2006A00007:11 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079721> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079721"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00007:14 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P14 Part 3 References to ASDA etc"@en-AU ;
+    dct:isPartOf C2006A00007:11 ;
+    dct:isReferencedBy C2006A00007: ;
+    rdfs:comment "Part 3 References to ASDA etc - Abrievated Graph Key: P14"@en-AU ;
+    skos:definition "Part 3 References to ASDA etc"@en-AU ;
+    skos:narrower C2006A00007:11 ;
+    skos:prefLabel "Part P14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079722> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079722"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00007:15 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P15 Part 4 Appointments of officeholders"@en-AU ;
+    dct:isPartOf C2006A00007:11 ;
+    dct:isReferencedBy C2006A00007: ;
+    rdfs:comment "Part 4 Appointments of officeholders - Abrievated Graph Key: P15"@en-AU ;
+    skos:definition "Part 4 Appointments of officeholders"@en-AU ;
+    skos:narrower C2006A00007:11 ;
+    skos:prefLabel "Part P15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079723> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079723"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00007:16 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P16 Part 5 Continued application of ASDA Act etc"@en-AU ;
+    dct:isPartOf C2006A00007:11 ;
+    dct:isReferencedBy C2006A00007: ;
+    rdfs:comment "Part 5 Continued application of ASDA Act etc - Abrievated Graph Key: P16"@en-AU ;
+    skos:definition "Part 5 Continued application of ASDA Act etc"@en-AU ;
+    skos:narrower C2006A00007:11 ;
+    skos:prefLabel "Part P16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079724> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079724"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00007:17 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P17 Part 6 Continued application of ASC nondisclosure provisions etc"@en-AU ;
+    dct:isPartOf C2006A00007:11 ;
+    dct:isReferencedBy C2006A00007: ;
+    rdfs:comment "Part 6 Continued application of ASC nondisclosure provisions etc - Abrievated Graph Key: P17"@en-AU ;
+    skos:definition "Part 6 Continued application of ASC nondisclosure provisions etc"@en-AU ;
+    skos:narrower C2006A00007:11 ;
+    skos:prefLabel "Part P17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079725> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079725"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00007:18 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P18 Part 7 Reporting obligations"@en-AU ;
+    dct:isPartOf C2006A00007:11 ;
+    dct:isReferencedBy C2006A00007: ;
+    rdfs:comment "Part 7 Reporting obligations - Abrievated Graph Key: P18"@en-AU ;
+    skos:definition "Part 7 Reporting obligations"@en-AU ;
+    skos:narrower C2006A00007:11 ;
+    skos:prefLabel "Part P18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079726> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079726"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00007:19 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P19 Part 8 Miscellaneous"@en-AU ;
+    dct:isPartOf C2006A00007:11 ;
+    dct:isReferencedBy C2006A00007: ;
+    rdfs:comment "Part 8 Miscellaneous - Abrievated Graph Key: P19"@en-AU ;
+    skos:definition "Part 8 Miscellaneous"@en-AU ;
+    skos:narrower C2006A00007:11 ;
+    skos:prefLabel "Part P19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079727> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079727"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00007:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Administrative Decisions Judicial Review Act 1977"@en-AU ;
+    dct:isPartOf C2006A00007:4 ;
+    dct:isReferencedBy C2006A00007: ;
+    rdfs:comment "Administrative Decisions Judicial Review Act 1977 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Administrative Decisions Judicial Review Act 1977"@en-AU ;
+    skos:narrower C2006A00007:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079712> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079712"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00007:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Age Discrimination Act 2004"@en-AU ;
+    dct:isPartOf C2006A00007:4 ;
+    dct:isReferencedBy C2006A00007: ;
+    rdfs:comment "Age Discrimination Act 2004 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Age Discrimination Act 2004"@en-AU ;
+    skos:narrower C2006A00007:4 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079713> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079713"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00007:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Australian Sports Commission Act 1989"@en-AU ;
+    dct:isPartOf C2006A00007:4 ;
+    dct:isReferencedBy C2006A00007: ;
+    rdfs:comment "Australian Sports Commission Act 1989 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Australian Sports Commission Act 1989"@en-AU ;
+    skos:narrower C2006A00007:4 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079714> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079714"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00007:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Australian Sports Drug Agency Act 1990"@en-AU ;
+    dct:isPartOf C2006A00007:4 ;
+    dct:isReferencedBy C2006A00007: ;
+    rdfs:comment "Australian Sports Drug Agency Act 1990 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Australian Sports Drug Agency Act 1990"@en-AU ;
+    skos:narrower C2006A00007:4 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079716> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079716"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00007:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Financial Management and Accountability Regulations 1997"@en-AU ;
+    dct:isPartOf C2006A00007:4 ;
+    dct:isReferencedBy C2006A00007: ;
+    rdfs:comment "Financial Management and Accountability Regulations 1997 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Financial Management and Accountability Regulations 1997"@en-AU ;
+    skos:narrower C2006A00007:4 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079717> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079717"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00007:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2006A00007:11,
+        C2006A00007:4 ;
+    dct:isReferencedBy C2006A00007: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2006A00007:11,
+        C2006A00007:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079710> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079710"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00007:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Consequential amendments"@en-AU ;
+    dct:hasPart C2006A00007:10,
+        C2006A00007:5,
+        C2006A00007:6,
+        C2006A00007:7,
+        C2006A00007:8,
+        C2006A00007:9 ;
+    dct:isPartOf C2006A00007:3 ;
+    dct:isReferencedBy C2006A00007: ;
+    rdfs:comment "Schedule 1 Consequential amendments - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2006A00007:10,
+        C2006A00007:5,
+        C2006A00007:6,
+        C2006A00007:7,
+        C2006A00007:8,
+        C2006A00007:9 ;
+    skos:definition "Schedule 1 Consequential amendments"@en-AU ;
+    skos:narrower C2006A00007:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079711> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079711"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00007:11 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S11 Schedule 2 Transitional provisions"@en-AU ;
+    dct:hasPart C2006A00007:12,
+        C2006A00007:13,
+        C2006A00007:14,
+        C2006A00007:15,
+        C2006A00007:16,
+        C2006A00007:17,
+        C2006A00007:18,
+        C2006A00007:19 ;
+    dct:isPartOf C2006A00007:3 ;
+    dct:isReferencedBy C2006A00007: ;
+    rdfs:comment "Schedule 2 Transitional provisions - Abrievated Graph Key: S11"@en-AU ;
+    skos:broader C2006A00007:12,
+        C2006A00007:13,
+        C2006A00007:14,
+        C2006A00007:15,
+        C2006A00007:16,
+        C2006A00007:17,
+        C2006A00007:18,
+        C2006A00007:19 ;
+    skos:definition "Schedule 2 Transitional provisions"@en-AU ;
+    skos:narrower C2006A00007:3 ;
+    skos:prefLabel "Schedule S11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079719> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00007/asmade/2006-03-07/text/original/epub/OEBPS/document_1/document_1.html#_Toc129079719"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00007: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Australian Sports Anti-Doping Authority (Consequential and Transitional Provisions) Act 2006" ;
+    dct:Jurisdiction " Department of Infrastructure, Transport, Regional Development, Communications, Sport and the Arts "@en-AU ;
+    dct:created "2026-05-26T20:35:38.588832"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2006-03-07T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Australian Sports Anti-Doping Authority (Consequential and Transitional Provisions) Act 2006"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2006A00007/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Australian Sports Anti-Doping Authority (Consequential and Transitional Provisions) Act 2006"@en-AU ;
+    dct:title "Australian Sports Anti-Doping Authority (Consequential and Transitional Provisions) Act 2006"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2006A00007" .
+

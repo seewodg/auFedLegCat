@@ -1,0 +1,265 @@
+@prefix F2013L01183: <http://example.org/au/leg/dataset/F2013L01183/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2013L01183:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Reviews of risk management framework"@en-AU ;
+    dct:isPartOf F2013L01183:7 ;
+    dct:isReferencedBy F2013L01183: ;
+    rdfs:comment "Reviews of risk management framework - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Reviews of risk management framework"@en-AU ;
+    skos:narrower F2013L01183:7 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847988> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847988"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2013L01183:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Risk management strategy"@en-AU ;
+    dct:isPartOf F2013L01183:7 ;
+    dct:isReferencedBy F2013L01183: ;
+    rdfs:comment "Risk management strategy - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Risk management strategy"@en-AU ;
+    skos:narrower F2013L01183:7 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847989> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847989"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2013L01183:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Risk management function"@en-AU ;
+    dct:hasPart F2013L01183:13 ;
+    dct:isReferencedBy F2013L01183: ;
+    rdfs:comment "Risk management function - Abrievated Graph Key: I12"@en-AU ;
+    skos:broader F2013L01183:13 ;
+    skos:definition "Risk management function"@en-AU ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847990> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847990"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2013L01183:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Risk management function"@en-AU ;
+    dct:isPartOf F2013L01183:12 ;
+    dct:isReferencedBy F2013L01183: ;
+    rdfs:comment "Risk management function - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Risk management function"@en-AU ;
+    skos:narrower F2013L01183:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847991> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847991"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2013L01183:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Preparation and content of risk management declaration"@en-AU ;
+    dct:isPartOf F2013L01183:14 ;
+    dct:isReferencedBy F2013L01183: ;
+    rdfs:comment "Preparation and content of risk management declaration - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Preparation and content of risk management declaration"@en-AU ;
+    skos:narrower F2013L01183:14 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847993> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847993"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2013L01183:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Qualifications to risk management declaration"@en-AU ;
+    dct:isPartOf F2013L01183:14 ;
+    dct:isReferencedBy F2013L01183: ;
+    rdfs:comment "Qualifications to risk management declaration - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Qualifications to risk management declaration"@en-AU ;
+    skos:narrower F2013L01183:14 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847994> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847994"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2013L01183:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 Name of instrument"@en-AU ;
+    dct:isPartOf F2013L01183:1 ;
+    dct:isReferencedBy F2013L01183: ;
+    rdfs:comment "Name of instrument - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "Name of instrument"@en-AU ;
+    skos:narrower F2013L01183:1 ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847980> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847980"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2013L01183:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 Commencement"@en-AU ;
+    dct:isPartOf F2013L01183:1 ;
+    dct:isReferencedBy F2013L01183: ;
+    rdfs:comment "Commencement - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "Commencement"@en-AU ;
+    skos:narrower F2013L01183:1 ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847981> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847981"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2013L01183:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 Interpretation"@en-AU ;
+    dct:isPartOf F2013L01183:1 ;
+    dct:isReferencedBy F2013L01183: ;
+    rdfs:comment "Interpretation - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "Interpretation"@en-AU ;
+    skos:narrower F2013L01183:1 ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847982> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847982"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2013L01183:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 General responsibilities of the Board"@en-AU ;
+    dct:hasPart F2013L01183:6 ;
+    dct:isReferencedBy F2013L01183: ;
+    rdfs:comment "General responsibilities of the Board - Abrievated Graph Key: I5"@en-AU ;
+    skos:broader F2013L01183:6 ;
+    skos:definition "General responsibilities of the Board"@en-AU ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847983> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847983"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2013L01183:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 General responsibilities of the Board"@en-AU ;
+    dct:isPartOf F2013L01183:5 ;
+    dct:isReferencedBy F2013L01183: ;
+    rdfs:comment "General responsibilities of the Board - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "General responsibilities of the Board"@en-AU ;
+    skos:narrower F2013L01183:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847984> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847984"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2013L01183:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Establishment maintenance and content of risk management framework"@en-AU ;
+    dct:isPartOf F2013L01183:7 ;
+    dct:isReferencedBy F2013L01183: ;
+    rdfs:comment "Establishment maintenance and content of risk management framework - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Establishment maintenance and content of risk management framework"@en-AU ;
+    skos:narrower F2013L01183:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847986> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847986"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2013L01183:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Kinds of material risks"@en-AU ;
+    dct:isPartOf F2013L01183:7 ;
+    dct:isReferencedBy F2013L01183: ;
+    rdfs:comment "Kinds of material risks - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Kinds of material risks"@en-AU ;
+    skos:narrower F2013L01183:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847987> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847987"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2013L01183:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Risk management declaration"@en-AU ;
+    dct:hasPart F2013L01183:15,
+        F2013L01183:16 ;
+    dct:isReferencedBy F2013L01183: ;
+    rdfs:comment "Risk management declaration - Abrievated Graph Key: I14"@en-AU ;
+    skos:broader F2013L01183:15,
+        F2013L01183:16 ;
+    skos:definition "Risk management declaration"@en-AU ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847992> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847992"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2013L01183:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 Preliminary"@en-AU ;
+    dct:hasPart F2013L01183:2,
+        F2013L01183:3,
+        F2013L01183:4 ;
+    dct:isReferencedBy F2013L01183: ;
+    rdfs:comment "Preliminary - Abrievated Graph Key: I1"@en-AU ;
+    skos:broader F2013L01183:2,
+        F2013L01183:3,
+        F2013L01183:4 ;
+    skos:definition "Preliminary"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847979> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847979"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2013L01183:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Risk management framework and risk management strategy"@en-AU ;
+    dct:hasPart F2013L01183:10,
+        F2013L01183:11,
+        F2013L01183:8,
+        F2013L01183:9 ;
+    dct:isReferencedBy F2013L01183: ;
+    rdfs:comment "Risk management framework and risk management strategy - Abrievated Graph Key: I7"@en-AU ;
+    skos:broader F2013L01183:10,
+        F2013L01183:11,
+        F2013L01183:8,
+        F2013L01183:9 ;
+    skos:definition "Risk management framework and risk management strategy"@en-AU ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847985> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2013L01183/asmade/2013-06-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc359847985"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2013L01183: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "National Disability Insurance Scheme—Risk Management Rules 2013" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-26T20:54:55.186643"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2013-06-27T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "National Disability Insurance Scheme—Risk Management Rules 2013"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2013L01183/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "National Disability Insurance Scheme—Risk Management Rules 2013"@en-AU ;
+    dct:title "National Disability Insurance Scheme—Risk Management Rules 2013"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item ;
+    schema:status "In force" ;
+    schema:version "F2013L01183" .
+

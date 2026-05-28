@@ -1,0 +1,467 @@
+@prefix C2022A00014: <http://example.org/au/leg/dataset/C2022A00014/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2022A00014:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981949> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981949"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00014:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981950> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981950"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00014:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981959> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981959"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00014:11 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S11 Schedule 4 Employee Share Schemes"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Schedule 4 Employee Share Schemes - Abrievated Graph Key: S11"@en-AU ;
+    skos:definition "Schedule 4 Employee Share Schemes"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Schedule S11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981960> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981960"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2022A00014:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981961> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981961"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00014:13 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S13 Schedule 5 Varying the GDP uplift factor for tax instalments"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Schedule 5 Varying the GDP uplift factor for tax instalments - Abrievated Graph Key: S13"@en-AU ;
+    skos:definition "Schedule 5 Varying the GDP uplift factor for tax instalments"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Schedule S13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982005> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982005"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2022A00014:14 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P14 Part 1 Amendments"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P14"@en-AU ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Part P14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982006> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982006"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2022A00014:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982007> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982007"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00014:16 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P16 Part 2 Sunsetting"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Part 2 Sunsetting - Abrievated Graph Key: P16"@en-AU ;
+    skos:definition "Part 2 Sunsetting"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Part P16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982008> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982008"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2022A00014:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982009> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982009"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00014:18 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S18 Schedule 6 Low and Middle Income tax offset"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Schedule 6 Low and Middle Income tax offset - Abrievated Graph Key: S18"@en-AU ;
+    skos:definition "Schedule 6 Low and Middle Income tax offset"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Schedule S18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982010> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982010"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2022A00014:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982011> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982011"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00014:20 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S20 Schedule 7 Safety net thresholds"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Schedule 7 Safety net thresholds - Abrievated Graph Key: S20"@en-AU ;
+    skos:definition "Schedule 7 Safety net thresholds"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Schedule S20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982012> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982012"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2022A00014:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 National Health Act 1953"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "National Health Act 1953 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "National Health Act 1953"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982013> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982013"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00014:22 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S22 Schedule 82022 cost of living payment"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Schedule 82022 cost of living payment - Abrievated Graph Key: S22"@en-AU ;
+    skos:definition "Schedule 82022 cost of living payment"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Schedule S22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982014> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982014"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2022A00014:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982015> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982015"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00014:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982016> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982016"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00014:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Social Security Administration Act 1999"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Social Security Administration Act 1999 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Social Security Administration Act 1999"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982024> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982024"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00014:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Veterans Entitlements Act 1986"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Veterans Entitlements Act 1986 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Veterans Entitlements Act 1986"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982028> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982028"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00014:27 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S27 Schedule 9 Fuel duty consequential amendments"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Schedule 9 Fuel duty consequential amendments - Abrievated Graph Key: S27"@en-AU ;
+    skos:definition "Schedule 9 Fuel duty consequential amendments"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Schedule S27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982044> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982044"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2022A00014:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Product Stewardship Oil Regulations 2000"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Product Stewardship Oil Regulations 2000 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Product Stewardship Oil Regulations 2000"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982045> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99982045"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00014:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Medicare Levy and Medicare Levy Surcharge Income Thresholds"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Schedule 1 Medicare Levy and Medicare Levy Surcharge Income Thresholds - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Medicare Levy and Medicare Levy Surcharge Income Thresholds"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981952> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981952"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2022A00014:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 A New Tax System Medicare Levy SurchargeFringe Benefits Act 1999"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "A New Tax System Medicare Levy SurchargeFringe Benefits Act 1999 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "A New Tax System Medicare Levy SurchargeFringe Benefits Act 1999"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981953> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981953"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00014:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Medicare Levy Act 1986"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Medicare Levy Act 1986 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Medicare Levy Act 1986"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981954> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981954"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00014:7 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S7 Schedule 2 Deductibility of COVID 19 tests"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Schedule 2 Deductibility of COVID 19 tests - Abrievated Graph Key: S7"@en-AU ;
+    skos:definition "Schedule 2 Deductibility of COVID 19 tests"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Schedule S7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981955> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981955"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2022A00014:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981956> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981956"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2022A00014:9 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S9 Schedule 3 Deductible gift recipientsnew specific recipients"@en-AU ;
+    dct:isPartOf C2022A00014:3 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "Schedule 3 Deductible gift recipientsnew specific recipients - Abrievated Graph Key: S9"@en-AU ;
+    skos:definition "Schedule 3 Deductible gift recipientsnew specific recipients"@en-AU ;
+    skos:narrower C2022A00014:3 ;
+    skos:prefLabel "Schedule S9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981958> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981958"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2022A00014: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Treasury Laws Amendment (Cost of Living Support and Other Measures) Act 2022" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-27T19:43:59.400244"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2022-03-31T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Treasury Laws Amendment (Cost of Living Support and Other Measures) Act 2022"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2022A00014/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Treasury Laws Amendment (Cost of Living Support and Other Measures) Act 2022"@en-AU ;
+    dct:title "Treasury Laws Amendment (Cost of Living Support and Other Measures) Act 2022"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2022A00014" .
+
+C2022A00014:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2022A00014:10,
+        C2022A00014:11,
+        C2022A00014:12,
+        C2022A00014:13,
+        C2022A00014:14,
+        C2022A00014:15,
+        C2022A00014:16,
+        C2022A00014:17,
+        C2022A00014:18,
+        C2022A00014:19,
+        C2022A00014:20,
+        C2022A00014:21,
+        C2022A00014:22,
+        C2022A00014:23,
+        C2022A00014:24,
+        C2022A00014:25,
+        C2022A00014:26,
+        C2022A00014:27,
+        C2022A00014:28,
+        C2022A00014:4,
+        C2022A00014:5,
+        C2022A00014:6,
+        C2022A00014:7,
+        C2022A00014:8,
+        C2022A00014:9 ;
+    dct:isReferencedBy C2022A00014: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2022A00014:10,
+        C2022A00014:11,
+        C2022A00014:12,
+        C2022A00014:13,
+        C2022A00014:14,
+        C2022A00014:15,
+        C2022A00014:16,
+        C2022A00014:17,
+        C2022A00014:18,
+        C2022A00014:19,
+        C2022A00014:20,
+        C2022A00014:21,
+        C2022A00014:22,
+        C2022A00014:23,
+        C2022A00014:24,
+        C2022A00014:25,
+        C2022A00014:26,
+        C2022A00014:27,
+        C2022A00014:28,
+        C2022A00014:4,
+        C2022A00014:5,
+        C2022A00014:6,
+        C2022A00014:7,
+        C2022A00014:8,
+        C2022A00014:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981951> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2022A00014/asmade/2022-03-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc99981951"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+

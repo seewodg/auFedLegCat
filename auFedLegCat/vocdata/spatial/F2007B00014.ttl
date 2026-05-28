@@ -1,0 +1,77 @@
+@prefix F2007B00014: <http://example.org/au/leg/dataset/F2007B00014/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2007B00014:1 a legcons:Volume,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Volume - V1 Volume 1"@en-AU ;
+    dct:isReferencedBy F2007B00014: ;
+    rdfs:comment "Volume 1 - Abrievated Graph Key: V1"@en-AU ;
+    skos:definition "Volume 1"@en-AU ;
+    skos:prefLabel "Volume V1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00014/2025-12-16/2025-12-16/text/original/epub/OEBPS/document_1/document_1.html> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00014/2025-12-16/2025-12-16/text/original/epub/OEBPS/document_1/document_1.html"^^xsd:anyURI ;
+    dcat:theme legcons:Volume .
+
+F2007B00014:2 a legcons:Volume,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Volume - V2 Volume 2"@en-AU ;
+    dct:isReferencedBy F2007B00014: ;
+    rdfs:comment "Volume 2 - Abrievated Graph Key: V2"@en-AU ;
+    skos:definition "Volume 2"@en-AU ;
+    skos:prefLabel "Volume V2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00014/2025-12-16/2025-12-16/text/original/epub/OEBPS/document_2/document_2.html> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00014/2025-12-16/2025-12-16/text/original/epub/OEBPS/document_2/document_2.html"^^xsd:anyURI ;
+    dcat:theme legcons:Volume .
+
+F2007B00014:3 a legcons:Volume,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Volume - V3 Volume 3"@en-AU ;
+    dct:isReferencedBy F2007B00014: ;
+    rdfs:comment "Volume 3 - Abrievated Graph Key: V3"@en-AU ;
+    skos:definition "Volume 3"@en-AU ;
+    skos:prefLabel "Volume V3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00014/2025-12-16/2025-12-16/text/original/epub/OEBPS/document_3/document_3.html> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00014/2025-12-16/2025-12-16/text/original/epub/OEBPS/document_3/document_3.html"^^xsd:anyURI ;
+    dcat:theme legcons:Volume .
+
+F2007B00014:4 a legcons:Volume,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Volume - V4 Volume 4"@en-AU ;
+    dct:isReferencedBy F2007B00014: ;
+    rdfs:comment "Volume 4 - Abrievated Graph Key: V4"@en-AU ;
+    skos:definition "Volume 4"@en-AU ;
+    skos:prefLabel "Volume V4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00014/2025-12-16/2025-12-16/text/original/epub/OEBPS/document_4/document_4.html> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00014/2025-12-16/2025-12-16/text/original/epub/OEBPS/document_4/document_4.html"^^xsd:anyURI ;
+    dcat:theme legcons:Volume .
+
+F2007B00014: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "National Capital Plan (December 1990)" ;
+    dct:Jurisdiction " Department of Infrastructure, Transport, Regional Development, Communications, Sport and the Arts "@en-AU ;
+    dct:created "2026-05-26T10:50:45.645301"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2025-12-16T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "National Capital Plan (December 1990)"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2007B00014/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "National Capital Plan (December 1990)"@en-AU ;
+    dct:title "National Capital Plan (December 1990)"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Volume ;
+    schema:status "In force" ;
+    schema:version "F2026C00120 C34" .
+

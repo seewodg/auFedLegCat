@@ -1,0 +1,274 @@
+@prefix C2007A00130: <http://example.org/au/leg/dataset/C2007A00130/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2007A00130:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title see Note 1"@en-AU ;
+    dct:isReferencedBy C2007A00130: ;
+    rdfs:comment "1  Short title see Note 1 - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title see Note 1"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527488> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527488"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00130:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement see Note 1"@en-AU ;
+    dct:isReferencedBy C2007A00130: ;
+    rdfs:comment "2  Commencement see Note 1 - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement see Note 1"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527489> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527489"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00130:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 A New Tax System Family Assistance Act 1999"@en-AU ;
+    dct:isPartOf C2007A00130:9 ;
+    dct:isReferencedBy C2007A00130: ;
+    rdfs:comment "A New Tax System Family Assistance Act 1999 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Act 1999"@en-AU ;
+    skos:narrower C2007A00130:9 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527614> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527614"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00130:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    dct:isPartOf C2007A00130:9 ;
+    dct:isReferencedBy C2007A00130: ;
+    rdfs:comment "A New Tax System Family Assistance Administration Act 1999 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    skos:narrower C2007A00130:9 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527615> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527615"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00130:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2007A00130:12 ;
+    dct:isReferencedBy C2007A00130: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2007A00130:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527617> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527617"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00130:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2007A00130:12 ;
+    dct:isReferencedBy C2007A00130: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2007A00130:12 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527618> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527618"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00130:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Social Security Administration Act 1999"@en-AU ;
+    dct:isPartOf C2007A00130:12 ;
+    dct:isReferencedBy C2007A00130: ;
+    rdfs:comment "Social Security Administration Act 1999 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Social Security Administration Act 1999"@en-AU ;
+    skos:narrower C2007A00130:12 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527639> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527639"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00130:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Notes to the   STYLEREF ShortT  MERGEFORMAT  Social Security and Other Legislation Amendment Welfare Payment Reform Act 2007"@en-AU ;
+    dct:isPartOf C2007A00130:3 ;
+    dct:isReferencedBy C2007A00130: ;
+    rdfs:comment "Notes to the   STYLEREF ShortT  MERGEFORMAT  Social Security and Other Legislation Amendment Welfare Payment Reform Act 2007 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Notes to the   STYLEREF ShortT  MERGEFORMAT  Social Security and Other Legislation Amendment Welfare Payment Reform Act 2007"@en-AU ;
+    skos:narrower C2007A00130:3 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527640> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527640"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00130:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    dct:isPartOf C2007A00130:4 ;
+    dct:isReferencedBy C2007A00130: ;
+    rdfs:comment "A New Tax System Family Assistance Administration Act 1999 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    skos:narrower C2007A00130:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527492> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527492"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00130:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2007A00130:4 ;
+    dct:isReferencedBy C2007A00130: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2007A00130:4 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527493> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527493"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00130:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Social Security Administration Act 1999"@en-AU ;
+    dct:isPartOf C2007A00130:4 ;
+    dct:isReferencedBy C2007A00130: ;
+    rdfs:comment "Social Security Administration Act 1999 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Social Security Administration Act 1999"@en-AU ;
+    skos:narrower C2007A00130:4 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527494> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527494"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00130:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Veterans Entitlements Act 1986"@en-AU ;
+    dct:isPartOf C2007A00130:4 ;
+    dct:isReferencedBy C2007A00130: ;
+    rdfs:comment "Veterans Entitlements Act 1986 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Veterans Entitlements Act 1986"@en-AU ;
+    skos:narrower C2007A00130:4 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527612> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527612"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00130:9 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S9 Schedule 2 Baby bonus"@en-AU ;
+    dct:hasPart C2007A00130:10,
+        C2007A00130:11 ;
+    dct:isPartOf C2007A00130:3 ;
+    dct:isReferencedBy C2007A00130: ;
+    rdfs:comment "Schedule 2 Baby bonus - Abrievated Graph Key: S9"@en-AU ;
+    skos:broader C2007A00130:10,
+        C2007A00130:11 ;
+    skos:definition "Schedule 2 Baby bonus"@en-AU ;
+    skos:narrower C2007A00130:3 ;
+    skos:prefLabel "Schedule S9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527613> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527613"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00130:12 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S12 Schedule 3 Northern Territory CDEP transition payment"@en-AU ;
+    dct:hasPart C2007A00130:13,
+        C2007A00130:14,
+        C2007A00130:15 ;
+    dct:isPartOf C2007A00130:3 ;
+    dct:isReferencedBy C2007A00130: ;
+    rdfs:comment "Schedule 3 Northern Territory CDEP transition payment - Abrievated Graph Key: S12"@en-AU ;
+    skos:broader C2007A00130:13,
+        C2007A00130:14,
+        C2007A00130:15 ;
+    skos:definition "Schedule 3 Northern Territory CDEP transition payment"@en-AU ;
+    skos:narrower C2007A00130:3 ;
+    skos:prefLabel "Schedule S12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527616> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527616"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00130:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2007A00130:12,
+        C2007A00130:16,
+        C2007A00130:4,
+        C2007A00130:9 ;
+    dct:isReferencedBy C2007A00130: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2007A00130:12,
+        C2007A00130:16,
+        C2007A00130:4,
+        C2007A00130:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527490> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527490"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00130:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Income management regime"@en-AU ;
+    dct:hasPart C2007A00130:5,
+        C2007A00130:6,
+        C2007A00130:7,
+        C2007A00130:8 ;
+    dct:isPartOf C2007A00130:3 ;
+    dct:isReferencedBy C2007A00130: ;
+    rdfs:comment "Schedule 1 Income management regime - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2007A00130:5,
+        C2007A00130:6,
+        C2007A00130:7,
+        C2007A00130:8 ;
+    skos:definition "Schedule 1 Income management regime"@en-AU ;
+    skos:narrower C2007A00130:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527491> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00130/2010-12-31/2010-12-31/text/original/epub/OEBPS/document_1/document_1.html#_Toc282527491"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00130: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Social Security and Other Legislation Amendment (Welfare Payment Reform) Act 2007" ;
+    dct:Jurisdiction " Department of Social Services "@en-AU ;
+    dct:created "2026-05-27T17:28:05.985159"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2010-12-31T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Social Security and Other Legislation Amendment (Welfare Payment Reform) Act 2007"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2007A00130/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Social Security and Other Legislation Amendment (Welfare Payment Reform) Act 2007"@en-AU ;
+    dct:title "Social Security and Other Legislation Amendment (Welfare Payment Reform) Act 2007"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2011C00056 C01" .
+

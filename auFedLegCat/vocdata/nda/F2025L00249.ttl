@@ -1,0 +1,331 @@
+@prefix F2025L00249: <http://example.org/au/leg/dataset/F2025L00249/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2025L00249:1 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P1 Part 1 Preliminary"@en-AU ;
+    dct:isReferencedBy F2025L00249: ;
+    rdfs:comment "Part 1 Preliminary - Abrievated Graph Key: P1"@en-AU ;
+    skos:definition "Part 1 Preliminary"@en-AU ;
+    skos:prefLabel "Part P1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023766> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023766"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2025L00249:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 1  Name"@en-AU ;
+    dct:isReferencedBy F2025L00249: ;
+    rdfs:comment "1  Name - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "1  Name"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023767> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023767"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00249:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 2  Commencement"@en-AU ;
+    dct:isReferencedBy F2025L00249: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023768> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023768"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00249:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 3  Authority"@en-AU ;
+    dct:isReferencedBy F2025L00249: ;
+    rdfs:comment "3  Authority - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "3  Authority"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023769> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023769"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00249:10 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D10 Division 2 Country to which visa pre application process relates"@en-AU ;
+    dct:hasPart F2025L00249:11 ;
+    dct:isReferencedBy F2025L00249: ;
+    rdfs:comment "Division 2 Country to which visa pre application process relates - Abrievated Graph Key: D10"@en-AU ;
+    skos:broader F2025L00249:11 ;
+    skos:definition "Division 2 Country to which visa pre application process relates"@en-AU ;
+    skos:prefLabel "Division D10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023775> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023775"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2025L00249:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 7  Visa pre application process must be in relation to a country"@en-AU ;
+    dct:isPartOf F2025L00249:10 ;
+    dct:isReferencedBy F2025L00249: ;
+    rdfs:comment "7  Visa pre application process must be in relation to a country - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "7  Visa pre application process must be in relation to a country"@en-AU ;
+    skos:narrower F2025L00249:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023776> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023776"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00249:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 8  Registered participants"@en-AU ;
+    dct:isPartOf F2025L00249:12 ;
+    dct:isReferencedBy F2025L00249: ;
+    rdfs:comment "8  Registered participants - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "8  Registered participants"@en-AU ;
+    skos:narrower F2025L00249:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023778> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023778"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00249:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 9  Eligibility requirements"@en-AU ;
+    dct:isPartOf F2025L00249:12 ;
+    dct:isReferencedBy F2025L00249: ;
+    rdfs:comment "9  Eligibility requirements - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "9  Eligibility requirements"@en-AU ;
+    skos:narrower F2025L00249:12 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023779> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023779"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00249:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 10  Registration open period"@en-AU ;
+    dct:isPartOf F2025L00249:12 ;
+    dct:isReferencedBy F2025L00249: ;
+    rdfs:comment "10  Registration open period - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "10  Registration open period"@en-AU ;
+    skos:narrower F2025L00249:12 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023780> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023780"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00249:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 11  Withdrawal of registration"@en-AU ;
+    dct:isPartOf F2025L00249:12 ;
+    dct:isReferencedBy F2025L00249: ;
+    rdfs:comment "11  Withdrawal of registration - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "11  Withdrawal of registration"@en-AU ;
+    skos:narrower F2025L00249:12 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023781> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023781"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00249:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 12  Duration of registration"@en-AU ;
+    dct:isPartOf F2025L00249:12 ;
+    dct:isReferencedBy F2025L00249: ;
+    rdfs:comment "12  Duration of registration - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "12  Duration of registration"@en-AU ;
+    skos:narrower F2025L00249:12 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023782> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023782"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00249:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 13  Selected participants"@en-AU ;
+    dct:isPartOf F2025L00249:18 ;
+    dct:isReferencedBy F2025L00249: ;
+    rdfs:comment "13  Selected participants - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "13  Selected participants"@en-AU ;
+    skos:narrower F2025L00249:18 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023784> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023784"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00249:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 14  Selection open period"@en-AU ;
+    dct:isPartOf F2025L00249:18 ;
+    dct:isReferencedBy F2025L00249: ;
+    rdfs:comment "14  Selection open period - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "14  Selection open period"@en-AU ;
+    skos:narrower F2025L00249:18 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023785> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023785"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00249:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 15  Notice of selection"@en-AU ;
+    dct:isPartOf F2025L00249:18 ;
+    dct:isReferencedBy F2025L00249: ;
+    rdfs:comment "15  Notice of selection - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "15  Notice of selection"@en-AU ;
+    skos:narrower F2025L00249:18 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023786> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023786"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00249:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 4  Definitions"@en-AU ;
+    dct:hasPart F2025L00249:6 ;
+    dct:isReferencedBy F2025L00249: ;
+    rdfs:comment "4  Definitions - Abrievated Graph Key: I5"@en-AU ;
+    skos:broader F2025L00249:6 ;
+    skos:definition "4  Definitions"@en-AU ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023770> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023770"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00249:6 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P6 Part 2 Rules for the conduct of visa preapplication process"@en-AU ;
+    dct:isPartOf F2025L00249:5 ;
+    dct:isReferencedBy F2025L00249: ;
+    rdfs:comment "Part 2 Rules for the conduct of visa preapplication process - Abrievated Graph Key: P6"@en-AU ;
+    skos:definition "Part 2 Rules for the conduct of visa preapplication process"@en-AU ;
+    skos:narrower F2025L00249:5 ;
+    skos:prefLabel "Part P6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023771> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023771"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2025L00249:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 5  Purpose of this Part"@en-AU ;
+    dct:isPartOf F2025L00249:7 ;
+    dct:isReferencedBy F2025L00249: ;
+    rdfs:comment "5  Purpose of this Part - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "5  Purpose of this Part"@en-AU ;
+    skos:narrower F2025L00249:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023773> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023773"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00249:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 6  Specified visa pre application process to which rules apply"@en-AU ;
+    dct:isPartOf F2025L00249:7 ;
+    dct:isReferencedBy F2025L00249: ;
+    rdfs:comment "6  Specified visa pre application process to which rules apply - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "6  Specified visa pre application process to which rules apply"@en-AU ;
+    skos:narrower F2025L00249:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023774> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023774"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L00249:7 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D7 Division 1 Introduction"@en-AU ;
+    dct:hasPart F2025L00249:8,
+        F2025L00249:9 ;
+    dct:isReferencedBy F2025L00249: ;
+    rdfs:comment "Division 1 Introduction - Abrievated Graph Key: D7"@en-AU ;
+    skos:broader F2025L00249:8,
+        F2025L00249:9 ;
+    skos:definition "Division 1 Introduction"@en-AU ;
+    skos:prefLabel "Division D7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023772> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023772"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2025L00249:18 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D18 Division 4 Selection of registered participants"@en-AU ;
+    dct:hasPart F2025L00249:19,
+        F2025L00249:20,
+        F2025L00249:21 ;
+    dct:isReferencedBy F2025L00249: ;
+    rdfs:comment "Division 4 Selection of registered participants - Abrievated Graph Key: D18"@en-AU ;
+    skos:broader F2025L00249:19,
+        F2025L00249:20,
+        F2025L00249:21 ;
+    skos:definition "Division 4 Selection of registered participants"@en-AU ;
+    skos:prefLabel "Division D18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023783> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023783"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2025L00249:12 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D12 Division 3 Registration of participants"@en-AU ;
+    dct:hasPart F2025L00249:13,
+        F2025L00249:14,
+        F2025L00249:15,
+        F2025L00249:16,
+        F2025L00249:17 ;
+    dct:isReferencedBy F2025L00249: ;
+    rdfs:comment "Division 3 Registration of participants - Abrievated Graph Key: D12"@en-AU ;
+    skos:broader F2025L00249:13,
+        F2025L00249:14,
+        F2025L00249:15,
+        F2025L00249:16,
+        F2025L00249:17 ;
+    skos:definition "Division 3 Registration of participants"@en-AU ;
+    skos:prefLabel "Division D12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023777> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L00249/asmade/2025-03-03/text/original/epub/OEBPS/document_1/document_1.html#_Toc191023777"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2025L00249: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Migration (Subclass 192 (Pacific Engagement) Visa Pre application Process—Treaty Stream) Determination 2025" ;
+    dct:Jurisdiction " Department of Home Affairs "@en-AU ;
+    dct:created "2026-05-27T17:59:02.139166"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2025-03-03T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Migration (Subclass 192 (Pacific Engagement) Visa Pre application Process—Treaty Stream) Determination 2025"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2025L00249/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Migration (Subclass 192 (Pacific Engagement) Visa Pre application Process—Treaty Stream) Determination 2025"@en-AU ;
+    dct:title "Migration (Subclass 192 (Pacific Engagement) Visa Pre application Process—Treaty Stream) Determination 2025"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part ;
+    schema:status "In force" ;
+    schema:version "F2025L00249" .
+

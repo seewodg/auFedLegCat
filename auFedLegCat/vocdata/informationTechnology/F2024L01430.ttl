@@ -1,0 +1,825 @@
+@prefix F2024L01430: <http://example.org/au/leg/dataset/F2024L01430/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2024L01430:47 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S47 Schedule 1 Digital ID trustmark"@en-AU ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "Schedule 1 Digital ID trustmark - Abrievated Graph Key: S47"@en-AU ;
+    skos:definition "Schedule 1 Digital ID trustmark"@en-AU ;
+    skos:prefLabel "Schedule S47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708902> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708902"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F2024L01430:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 31  Application of this Part"@en-AU ;
+    dct:isPartOf F2024L01430:11 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "31  Application of this Part - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "31  Application of this Part"@en-AU ;
+    skos:narrower F2024L01430:11 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708867> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708867"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 32  Applications for approval to participateall entities"@en-AU ;
+    dct:isPartOf F2024L01430:11 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "32  Applications for approval to participateall entities - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "32  Applications for approval to participateall entities"@en-AU ;
+    skos:narrower F2024L01430:11 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708868> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708868"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 33  Applications for approval to participaterelying parties"@en-AU ;
+    dct:isPartOf F2024L01430:11 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "33  Applications for approval to participaterelying parties - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "33  Applications for approval to participaterelying parties"@en-AU ;
+    skos:narrower F2024L01430:11 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708869> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708869"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 34  Conditions on approval to participate"@en-AU ;
+    dct:isPartOf F2024L01430:15 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "34  Conditions on approval to participate - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "34  Conditions on approval to participate"@en-AU ;
+    skos:narrower F2024L01430:15 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708871> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708871"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 41  Application of this Chapter"@en-AU ;
+    dct:isPartOf F2024L01430:17 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "41  Application of this Chapter - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "41  Application of this Chapter"@en-AU ;
+    skos:narrower F2024L01430:17 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708873> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708873"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 42  Cyber security incidents and digital ID fraud incidents"@en-AU ;
+    dct:isPartOf F2024L01430:17 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "42  Cyber security incidents and digital ID fraud incidents - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "42  Cyber security incidents and digital ID fraud incidents"@en-AU ;
+    skos:narrower F2024L01430:17 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708874> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708874"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 11  Name"@en-AU ;
+    dct:isPartOf F2024L01430:1 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "11  Name - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "11  Name"@en-AU ;
+    skos:narrower F2024L01430:1 ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708857> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708857"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 43  Other incidents"@en-AU ;
+    dct:isPartOf F2024L01430:17 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "43  Other incidents - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "43  Other incidents"@en-AU ;
+    skos:narrower F2024L01430:17 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708875> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708875"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 44  Other digital ID systems"@en-AU ;
+    dct:isPartOf F2024L01430:17 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "44  Other digital ID systems - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "44  Other digital ID systems"@en-AU ;
+    skos:narrower F2024L01430:17 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708876> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708876"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 45  System Administrator may give information"@en-AU ;
+    dct:isPartOf F2024L01430:17 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "45  System Administrator may give information - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "45  System Administrator may give information"@en-AU ;
+    skos:narrower F2024L01430:17 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708877> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708877"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 4 A 1  Application of this Chapter"@en-AU ;
+    dct:isPartOf F2024L01430:24 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "4 A 1  Application of this Chapter - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "4 A 1  Application of this Chapter"@en-AU ;
+    skos:narrower F2024L01430:24 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708880> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708880"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 4 A 2  Notifying affected individuals of incidents"@en-AU ;
+    dct:isPartOf F2024L01430:26 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "4 A 2  Notifying affected individuals of incidents - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "4 A 2  Notifying affected individuals of incidents"@en-AU ;
+    skos:narrower F2024L01430:26 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708882> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708882"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 4 A 3  Unresolved technical issues must be referred to the System Administrator"@en-AU ;
+    dct:isPartOf F2024L01430:28 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "4 A 3  Unresolved technical issues must be referred to the System Administrator - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "4 A 3  Unresolved technical issues must be referred to the System Administrator"@en-AU ;
+    skos:narrower F2024L01430:28 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708884> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708884"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 13  Authority"@en-AU ;
+    dct:isPartOf F2024L01430:1 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "13  Authority - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "13  Authority"@en-AU ;
+    skos:narrower F2024L01430:1 ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708858> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708858"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 4 A 4  System Administrator may recommend a resolution"@en-AU ;
+    dct:isPartOf F2024L01430:28 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "4 A 4  System Administrator may recommend a resolution - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "4 A 4  System Administrator may recommend a resolution"@en-AU ;
+    skos:narrower F2024L01430:28 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708885> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708885"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 4 A 5  Providing information support and assistance to individuals affected by incidents"@en-AU ;
+    dct:isPartOf F2024L01430:31 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "4 A 5  Providing information support and assistance to individuals affected by incidents - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "4 A 5  Providing information support and assistance to individuals affected by incidents"@en-AU ;
+    skos:narrower F2024L01430:31 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708887> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708887"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 4 A 6  Application of this Part"@en-AU ;
+    dct:isPartOf F2024L01430:33 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "4 A 6  Application of this Part - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "4 A 6  Application of this Part"@en-AU ;
+    skos:narrower F2024L01430:33 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708889> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708889"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 4 A 7  Policies relating to the identification etc of incidents"@en-AU ;
+    dct:isPartOf F2024L01430:33 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "4 A 7  Policies relating to the identification etc of incidents - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "4 A 7  Policies relating to the identification etc of incidents"@en-AU ;
+    skos:narrower F2024L01430:33 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708890> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708890"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 4 A 8  Policies relating to complaints by individuals"@en-AU ;
+    dct:isPartOf F2024L01430:33 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "4 A 8  Policies relating to complaints by individuals - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "4 A 8  Policies relating to complaints by individuals"@en-AU ;
+    skos:narrower F2024L01430:33 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708891> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708891"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 51  Application of this Chapter"@en-AU ;
+    dct:isPartOf F2024L01430:37 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "51  Application of this Chapter - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "51  Application of this Chapter"@en-AU ;
+    skos:narrower F2024L01430:37 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708893> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708893"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 52  Digital ID trustmark"@en-AU ;
+    dct:isPartOf F2024L01430:37 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "52  Digital ID trustmark - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "52  Digital ID trustmark"@en-AU ;
+    skos:narrower F2024L01430:37 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708894> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708894"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 14  Definitions"@en-AU ;
+    dct:isPartOf F2024L01430:1 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "14  Definitions - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "14  Definitions"@en-AU ;
+    skos:narrower F2024L01430:1 ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708859> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708859"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 53  Use or display of digital ID trustmarkaccredited entities"@en-AU ;
+    dct:isPartOf F2024L01430:37 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "53  Use or display of digital ID trustmarkaccredited entities - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "53  Use or display of digital ID trustmarkaccredited entities"@en-AU ;
+    skos:narrower F2024L01430:37 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708895> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708895"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 54  Use or display of digital ID trustmarkauthorised entities"@en-AU ;
+    dct:isPartOf F2024L01430:37 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "54  Use or display of digital ID trustmarkauthorised entities - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "54  Use or display of digital ID trustmarkauthorised entities"@en-AU ;
+    skos:narrower F2024L01430:37 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708896> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708896"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:43 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I43 61  Application of this Chapter"@en-AU ;
+    dct:isPartOf F2024L01430:42 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "61  Application of this Chapter - Abrievated Graph Key: I43"@en-AU ;
+    skos:definition "61  Application of this Chapter"@en-AU ;
+    skos:narrower F2024L01430:42 ;
+    skos:prefLabel "Item I43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708898> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708898"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 62  Record keeping requirements"@en-AU ;
+    dct:isPartOf F2024L01430:42 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "62  Record keeping requirements - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "62  Record keeping requirements"@en-AU ;
+    skos:narrower F2024L01430:42 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708899> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708899"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:45 a legcons:Chapter,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Chapter - C45 Chapter 7 Application saving and transitional provisions"@en-AU ;
+    dct:hasPart F2024L01430:46 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "Chapter 7 Application saving and transitional provisions - Abrievated Graph Key: C45"@en-AU ;
+    skos:broader F2024L01430:46 ;
+    skos:definition "Chapter 7 Application saving and transitional provisions"@en-AU ;
+    skos:prefLabel "Chapter C45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708900> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708900"^^xsd:anyURI ;
+    dcat:theme legcons:Chapter .
+
+F2024L01430:46 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I46 71  Application of amendments made by the"@en-AU ;
+    dct:isPartOf F2024L01430:45 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "71  Application of amendments made by the - Abrievated Graph Key: I46"@en-AU ;
+    skos:definition "71  Application of amendments made by the"@en-AU ;
+    skos:narrower F2024L01430:45 ;
+    skos:prefLabel "Item I46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708901> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708901"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:49 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I49 Endnote 1 About the endnotes"@en-AU ;
+    dct:isPartOf F2024L01430:48 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "Endnote 1 About the endnotes - Abrievated Graph Key: I49"@en-AU ;
+    skos:definition "Endnote 1 About the endnotes"@en-AU ;
+    skos:narrower F2024L01430:48 ;
+    skos:prefLabel "Item I49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708904> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708904"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 15  Meaning of"@en-AU ;
+    dct:isPartOf F2024L01430:1 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "15  Meaning of - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "15  Meaning of"@en-AU ;
+    skos:narrower F2024L01430:1 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708860> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708860"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:50 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I50 Endnote 2 Abbreviation key"@en-AU ;
+    dct:isPartOf F2024L01430:48 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "Endnote 2 Abbreviation key - Abrievated Graph Key: I50"@en-AU ;
+    skos:definition "Endnote 2 Abbreviation key"@en-AU ;
+    skos:narrower F2024L01430:48 ;
+    skos:prefLabel "Item I50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708905> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708905"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:51 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I51 Endnote 3 Legislation history"@en-AU ;
+    dct:isPartOf F2024L01430:48 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "Endnote 3 Legislation history - Abrievated Graph Key: I51"@en-AU ;
+    skos:definition "Endnote 3 Legislation history"@en-AU ;
+    skos:narrower F2024L01430:48 ;
+    skos:prefLabel "Item I51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708906> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708906"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:52 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I52 Endnote 4 Amendment history"@en-AU ;
+    dct:isPartOf F2024L01430:48 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "Endnote 4 Amendment history - Abrievated Graph Key: I52"@en-AU ;
+    skos:definition "Endnote 4 Amendment history"@en-AU ;
+    skos:narrower F2024L01430:48 ;
+    skos:prefLabel "Item I52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708907> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708907"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 21  Application of this Chapter"@en-AU ;
+    dct:isPartOf F2024L01430:6 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "21  Application of this Chapter - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "21  Application of this Chapter"@en-AU ;
+    skos:narrower F2024L01430:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708862> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708862"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 22  Mandatory relevant matters"@en-AU ;
+    dct:isPartOf F2024L01430:6 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "22  Mandatory relevant matters - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "22  Mandatory relevant matters"@en-AU ;
+    skos:narrower F2024L01430:6 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708863> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708863"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 23  Mandatory relevant mattersgovernment entities affected by a machinery of government change"@en-AU ;
+    dct:isPartOf F2024L01430:6 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "23  Mandatory relevant mattersgovernment entities affected by a machinery of government change - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "23  Mandatory relevant mattersgovernment entities affected by a machinery of government change"@en-AU ;
+    skos:narrower F2024L01430:6 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708864> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708864"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01430:10 a legcons:Chapter,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Chapter - C10 Chapter 3 Participation in the Australian Government Digital ID System"@en-AU ;
+    dct:hasPart F2024L01430:11,
+        F2024L01430:15 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "Chapter 3 Participation in the Australian Government Digital ID System - Abrievated Graph Key: C10"@en-AU ;
+    skos:broader F2024L01430:11,
+        F2024L01430:15 ;
+    skos:definition "Chapter 3 Participation in the Australian Government Digital ID System"@en-AU ;
+    skos:prefLabel "Chapter C10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708865> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708865"^^xsd:anyURI ;
+    dcat:theme legcons:Chapter .
+
+F2024L01430:15 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P15 Part 2 Approval to participate"@en-AU ;
+    dct:hasPart F2024L01430:16 ;
+    dct:isPartOf F2024L01430:10 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "Part 2 Approval to participate - Abrievated Graph Key: P15"@en-AU ;
+    skos:broader F2024L01430:16 ;
+    skos:definition "Part 2 Approval to participate"@en-AU ;
+    skos:narrower F2024L01430:10 ;
+    skos:prefLabel "Part P15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708870> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708870"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2024L01430:24 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P24 Part 1 Preliminary"@en-AU ;
+    dct:hasPart F2024L01430:25 ;
+    dct:isPartOf F2024L01430:23 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "Part 1 Preliminary - Abrievated Graph Key: P24"@en-AU ;
+    skos:broader F2024L01430:25 ;
+    skos:definition "Part 1 Preliminary"@en-AU ;
+    skos:narrower F2024L01430:23 ;
+    skos:prefLabel "Part P24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708879> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708879"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2024L01430:26 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P26 Part 2 Notifying affected individuals of incidents"@en-AU ;
+    dct:hasPart F2024L01430:27 ;
+    dct:isPartOf F2024L01430:23 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "Part 2 Notifying affected individuals of incidents - Abrievated Graph Key: P26"@en-AU ;
+    skos:broader F2024L01430:27 ;
+    skos:definition "Part 2 Notifying affected individuals of incidents"@en-AU ;
+    skos:narrower F2024L01430:23 ;
+    skos:prefLabel "Part P26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708881> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708881"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2024L01430:31 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P31 Part 4 Providing information support and assistance to individuals affected by incidents"@en-AU ;
+    dct:hasPart F2024L01430:32 ;
+    dct:isPartOf F2024L01430:23 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "Part 4 Providing information support and assistance to individuals affected by incidents - Abrievated Graph Key: P31"@en-AU ;
+    skos:broader F2024L01430:32 ;
+    skos:definition "Part 4 Providing information support and assistance to individuals affected by incidents"@en-AU ;
+    skos:narrower F2024L01430:23 ;
+    skos:prefLabel "Part P31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708886> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708886"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2024L01430:42 a legcons:Chapter,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Chapter - C42 Chapter 6 Recordkeeping"@en-AU ;
+    dct:hasPart F2024L01430:43,
+        F2024L01430:44 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "Chapter 6 Recordkeeping - Abrievated Graph Key: C42"@en-AU ;
+    skos:broader F2024L01430:43,
+        F2024L01430:44 ;
+    skos:definition "Chapter 6 Recordkeeping"@en-AU ;
+    skos:prefLabel "Chapter C42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708897> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708897"^^xsd:anyURI ;
+    dcat:theme legcons:Chapter .
+
+F2024L01430:28 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P28 Part 3 Referring unresolved technical issues to the System Administrator"@en-AU ;
+    dct:hasPart F2024L01430:29,
+        F2024L01430:30 ;
+    dct:isPartOf F2024L01430:23 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "Part 3 Referring unresolved technical issues to the System Administrator - Abrievated Graph Key: P28"@en-AU ;
+    skos:broader F2024L01430:29,
+        F2024L01430:30 ;
+    skos:definition "Part 3 Referring unresolved technical issues to the System Administrator"@en-AU ;
+    skos:narrower F2024L01430:23 ;
+    skos:prefLabel "Part P28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708883> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708883"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2024L01430:6 a legcons:Chapter,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Chapter - C6 Chapter 2 Fit and proper person considerations"@en-AU ;
+    dct:hasPart F2024L01430:7,
+        F2024L01430:8,
+        F2024L01430:9 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "Chapter 2 Fit and proper person considerations - Abrievated Graph Key: C6"@en-AU ;
+    skos:broader F2024L01430:7,
+        F2024L01430:8,
+        F2024L01430:9 ;
+    skos:definition "Chapter 2 Fit and proper person considerations"@en-AU ;
+    skos:prefLabel "Chapter C6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708861> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708861"^^xsd:anyURI ;
+    dcat:theme legcons:Chapter .
+
+F2024L01430:1 a legcons:Chapter,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Chapter - C1 Chapter 1 Preliminary"@en-AU ;
+    dct:hasPart F2024L01430:2,
+        F2024L01430:3,
+        F2024L01430:4,
+        F2024L01430:5 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "Chapter 1 Preliminary - Abrievated Graph Key: C1"@en-AU ;
+    skos:broader F2024L01430:2,
+        F2024L01430:3,
+        F2024L01430:4,
+        F2024L01430:5 ;
+    skos:definition "Chapter 1 Preliminary"@en-AU ;
+    skos:prefLabel "Chapter C1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708856> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708856"^^xsd:anyURI ;
+    dcat:theme legcons:Chapter .
+
+F2024L01430:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 1 Applications for approval to participate"@en-AU ;
+    dct:hasPart F2024L01430:12,
+        F2024L01430:13,
+        F2024L01430:14 ;
+    dct:isPartOf F2024L01430:10 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "Part 1 Applications for approval to participate - Abrievated Graph Key: P11"@en-AU ;
+    skos:broader F2024L01430:12,
+        F2024L01430:13,
+        F2024L01430:14 ;
+    skos:definition "Part 1 Applications for approval to participate"@en-AU ;
+    skos:narrower F2024L01430:10 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708866> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708866"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2024L01430:33 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P33 Part 5 Policies relating to incidents and complaints"@en-AU ;
+    dct:hasPart F2024L01430:34,
+        F2024L01430:35,
+        F2024L01430:36 ;
+    dct:isPartOf F2024L01430:23 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "Part 5 Policies relating to incidents and complaints - Abrievated Graph Key: P33"@en-AU ;
+    skos:broader F2024L01430:34,
+        F2024L01430:35,
+        F2024L01430:36 ;
+    skos:definition "Part 5 Policies relating to incidents and complaints"@en-AU ;
+    skos:narrower F2024L01430:23 ;
+    skos:prefLabel "Part P33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708888> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708888"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2024L01430:37 a legcons:Chapter,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Chapter - C37 Chapter 5 Trustmarks"@en-AU ;
+    dct:hasPart F2024L01430:38,
+        F2024L01430:39,
+        F2024L01430:40,
+        F2024L01430:41 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "Chapter 5 Trustmarks - Abrievated Graph Key: C37"@en-AU ;
+    skos:broader F2024L01430:38,
+        F2024L01430:39,
+        F2024L01430:40,
+        F2024L01430:41 ;
+    skos:definition "Chapter 5 Trustmarks"@en-AU ;
+    skos:prefLabel "Chapter C37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708892> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708892"^^xsd:anyURI ;
+    dcat:theme legcons:Chapter .
+
+F2024L01430:48 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E48 Endnotes"@en-AU ;
+    dct:hasPart F2024L01430:49,
+        F2024L01430:50,
+        F2024L01430:51,
+        F2024L01430:52 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E48"@en-AU ;
+    skos:broader F2024L01430:49,
+        F2024L01430:50,
+        F2024L01430:51,
+        F2024L01430:52 ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:prefLabel "Endnotes E48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708903> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708903"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+
+F2024L01430:17 a legcons:Chapter,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Chapter - C17 Chapter 4 Reportable incidents"@en-AU ;
+    dct:hasPart F2024L01430:18,
+        F2024L01430:19,
+        F2024L01430:20,
+        F2024L01430:21,
+        F2024L01430:22 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "Chapter 4 Reportable incidents - Abrievated Graph Key: C17"@en-AU ;
+    skos:broader F2024L01430:18,
+        F2024L01430:19,
+        F2024L01430:20,
+        F2024L01430:21,
+        F2024L01430:22 ;
+    skos:definition "Chapter 4 Reportable incidents"@en-AU ;
+    skos:prefLabel "Chapter C17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708872> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708872"^^xsd:anyURI ;
+    dcat:theme legcons:Chapter .
+
+F2024L01430:23 a legcons:Chapter,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Chapter - C23 Chapter 4 ARedress framework"@en-AU ;
+    dct:hasPart F2024L01430:24,
+        F2024L01430:26,
+        F2024L01430:28,
+        F2024L01430:31,
+        F2024L01430:33 ;
+    dct:isReferencedBy F2024L01430: ;
+    rdfs:comment "Chapter 4 ARedress framework - Abrievated Graph Key: C23"@en-AU ;
+    skos:broader F2024L01430:24,
+        F2024L01430:26,
+        F2024L01430:28,
+        F2024L01430:31,
+        F2024L01430:33 ;
+    skos:definition "Chapter 4 ARedress framework"@en-AU ;
+    skos:prefLabel "Chapter C23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708878> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01430/2025-11-19/2025-11-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc216708878"^^xsd:anyURI ;
+    dcat:theme legcons:Chapter .
+
+F2024L01430: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Digital ID Rules 2024" ;
+    dct:Jurisdiction " Department of Finance "@en-AU ;
+    dct:created "2026-05-26T20:38:59.076254"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2025-11-19T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Digital ID Rules 2024"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2024L01430/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Digital ID Rules 2024"@en-AU ;
+    dct:title "Digital ID Rules 2024"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Chapter,
+        legcons:Endnotes,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "F2025C01220 C01" .
+

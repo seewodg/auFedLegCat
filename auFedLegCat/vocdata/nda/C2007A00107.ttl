@@ -1,0 +1,596 @@
+@prefix C2007A00107: <http://example.org/au/leg/dataset/C2007A00107/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2007A00107:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237340> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237340"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00107:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237341> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237341"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00107:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Workplace Relations Act 1996"@en-AU ;
+    dct:isPartOf C2007A00107:10 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Workplace Relations Act 1996 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2007A00107:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237396> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237396"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00107:13 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D13 Division 1 Workplace Relations Act 1996"@en-AU ;
+    dct:isPartOf C2007A00107:12 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Division 1 Workplace Relations Act 1996 - Abrievated Graph Key: D13"@en-AU ;
+    skos:definition "Division 1 Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2007A00107:12 ;
+    skos:prefLabel "Division D13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237440> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237440"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2007A00107:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Coal Mining Industry Long Service Leave Funding Act 1992"@en-AU ;
+    dct:isPartOf C2007A00107:14 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Coal Mining Industry Long Service Leave Funding Act 1992 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Coal Mining Industry Long Service Leave Funding Act 1992"@en-AU ;
+    skos:narrower C2007A00107:14 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237442> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237442"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00107:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Financial Management and Accountability Regulations 1997"@en-AU ;
+    dct:isPartOf C2007A00107:14 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Financial Management and Accountability Regulations 1997 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Financial Management and Accountability Regulations 1997"@en-AU ;
+    skos:narrower C2007A00107:14 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237443> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237443"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00107:17 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P17 Part 3 Transitional provisions"@en-AU ;
+    dct:isPartOf C2007A00107:9 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Part 3 Transitional provisions - Abrievated Graph Key: P17"@en-AU ;
+    skos:definition "Part 3 Transitional provisions"@en-AU ;
+    skos:narrower C2007A00107:9 ;
+    skos:prefLabel "Part P17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237444> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237444"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00107:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Workplace Relations Act 1996"@en-AU ;
+    dct:isPartOf C2007A00107:20 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Workplace Relations Act 1996 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2007A00107:20 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237448> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237448"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00107:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Financial Management and Accountability Regulations 1997"@en-AU ;
+    dct:isPartOf C2007A00107:22 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Financial Management and Accountability Regulations 1997 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Financial Management and Accountability Regulations 1997"@en-AU ;
+    skos:narrower C2007A00107:22 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237477> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237477"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00107:24 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P24 Part 2 Transitional and application provisions"@en-AU ;
+    dct:isPartOf C2007A00107:18 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Part 2 Transitional and application provisions - Abrievated Graph Key: P24"@en-AU ;
+    skos:definition "Part 2 Transitional and application provisions"@en-AU ;
+    skos:narrower C2007A00107:18 ;
+    skos:prefLabel "Part P24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237478> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237478"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00107:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Workplace Relations Act 1996"@en-AU ;
+    dct:isPartOf C2007A00107:25 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Workplace Relations Act 1996 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2007A00107:25 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237480> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237480"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00107:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Workplace Relations Act 1996"@en-AU ;
+    dct:isPartOf C2007A00107:27 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Workplace Relations Act 1996 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2007A00107:27 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237483> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237483"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00107:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Workplace Relations Act 1996"@en-AU ;
+    dct:isPartOf C2007A00107:29 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Workplace Relations Act 1996 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2007A00107:29 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237485> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237485"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00107:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Workplace Relations Act 1996"@en-AU ;
+    dct:isPartOf C2007A00107:32 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Workplace Relations Act 1996 - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2007A00107:32 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237488> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237488"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00107:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Workplace Relations Act 1996"@en-AU ;
+    dct:isPartOf C2007A00107:34 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Workplace Relations Act 1996 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2007A00107:34 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237490> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237490"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00107:36 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P36 Part 3 Contingent amendments"@en-AU ;
+    dct:isPartOf C2007A00107:31 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Part 3 Contingent amendments - Abrievated Graph Key: P36"@en-AU ;
+    skos:definition "Part 3 Contingent amendments"@en-AU ;
+    skos:narrower C2007A00107:31 ;
+    skos:prefLabel "Part P36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237491> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237491"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00107:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Workplace Relations Act 1996"@en-AU ;
+    dct:isPartOf C2007A00107:5 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Workplace Relations Act 1996 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2007A00107:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237345> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237345"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00107:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Workplace Relations Act 1996"@en-AU ;
+    dct:isPartOf C2007A00107:7 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Workplace Relations Act 1996 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2007A00107:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237391> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237391"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00107:10 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P10 Part 1 Main amendments"@en-AU ;
+    dct:hasPart C2007A00107:11 ;
+    dct:isPartOf C2007A00107:9 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P10"@en-AU ;
+    skos:broader C2007A00107:11 ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2007A00107:9 ;
+    skos:prefLabel "Part P10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237395> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237395"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00107:20 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D20 Division 1 Main amendments"@en-AU ;
+    dct:hasPart C2007A00107:21 ;
+    dct:isPartOf C2007A00107:19 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Division 1 Main amendments - Abrievated Graph Key: D20"@en-AU ;
+    skos:broader C2007A00107:21 ;
+    skos:definition "Division 1 Main amendments"@en-AU ;
+    skos:narrower C2007A00107:19 ;
+    skos:prefLabel "Division D20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237447> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237447"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2007A00107:22 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D22 Division 2 Consequential amendment"@en-AU ;
+    dct:hasPart C2007A00107:23 ;
+    dct:isPartOf C2007A00107:19 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Division 2 Consequential amendment - Abrievated Graph Key: D22"@en-AU ;
+    skos:broader C2007A00107:23 ;
+    skos:definition "Division 2 Consequential amendment"@en-AU ;
+    skos:narrower C2007A00107:19 ;
+    skos:prefLabel "Division D22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237476> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237476"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2007A00107:25 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S25 Schedule 4 Prohibited content"@en-AU ;
+    dct:hasPart C2007A00107:26 ;
+    dct:isPartOf C2007A00107:3 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Schedule 4 Prohibited content - Abrievated Graph Key: S25"@en-AU ;
+    skos:broader C2007A00107:26 ;
+    skos:definition "Schedule 4 Prohibited content"@en-AU ;
+    skos:narrower C2007A00107:3 ;
+    skos:prefLabel "Schedule S25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237479> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237479"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00107:27 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S27 Schedule 5 Membership requirements for registered organisations"@en-AU ;
+    dct:hasPart C2007A00107:28 ;
+    dct:isPartOf C2007A00107:3 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Schedule 5 Membership requirements for registered organisations - Abrievated Graph Key: S27"@en-AU ;
+    skos:broader C2007A00107:28 ;
+    skos:definition "Schedule 5 Membership requirements for registered organisations"@en-AU ;
+    skos:narrower C2007A00107:3 ;
+    skos:prefLabel "Schedule S27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237482> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237482"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00107:29 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S29 Schedule 6 Minor technical amendments"@en-AU ;
+    dct:hasPart C2007A00107:30 ;
+    dct:isPartOf C2007A00107:3 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Schedule 6 Minor technical amendments - Abrievated Graph Key: S29"@en-AU ;
+    skos:broader C2007A00107:30 ;
+    skos:definition "Schedule 6 Minor technical amendments"@en-AU ;
+    skos:narrower C2007A00107:3 ;
+    skos:prefLabel "Schedule S29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237484> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237484"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00107:32 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P32 Part 1 Length of period of preservation"@en-AU ;
+    dct:hasPart C2007A00107:33 ;
+    dct:isPartOf C2007A00107:31 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Part 1 Length of period of preservation - Abrievated Graph Key: P32"@en-AU ;
+    skos:broader C2007A00107:33 ;
+    skos:definition "Part 1 Length of period of preservation"@en-AU ;
+    skos:narrower C2007A00107:31 ;
+    skos:prefLabel "Part P32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237487> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237487"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00107:34 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P34 Part 2 Notice requirements"@en-AU ;
+    dct:hasPart C2007A00107:35 ;
+    dct:isPartOf C2007A00107:31 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Part 2 Notice requirements - Abrievated Graph Key: P34"@en-AU ;
+    skos:broader C2007A00107:35 ;
+    skos:definition "Part 2 Notice requirements"@en-AU ;
+    skos:narrower C2007A00107:31 ;
+    skos:prefLabel "Part P34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237489> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237489"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00107:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Main amendments"@en-AU ;
+    dct:hasPart C2007A00107:6 ;
+    dct:isPartOf C2007A00107:4 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2007A00107:6 ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2007A00107:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237344> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237344"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00107:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Consequential amendments"@en-AU ;
+    dct:hasPart C2007A00107:8 ;
+    dct:isPartOf C2007A00107:4 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Part 2 Consequential amendments - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader C2007A00107:8 ;
+    skos:definition "Part 2 Consequential amendments"@en-AU ;
+    skos:narrower C2007A00107:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237390> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237390"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00107:12 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P12 Part 2 Consequential amendments"@en-AU ;
+    dct:hasPart C2007A00107:13,
+        C2007A00107:14 ;
+    dct:isPartOf C2007A00107:9 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Part 2 Consequential amendments - Abrievated Graph Key: P12"@en-AU ;
+    skos:broader C2007A00107:13,
+        C2007A00107:14 ;
+    skos:definition "Part 2 Consequential amendments"@en-AU ;
+    skos:narrower C2007A00107:9 ;
+    skos:prefLabel "Part P12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237439> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237439"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00107:14 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D14 Division 2 Other legislation"@en-AU ;
+    dct:hasPart C2007A00107:15,
+        C2007A00107:16 ;
+    dct:isPartOf C2007A00107:12 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Division 2 Other legislation - Abrievated Graph Key: D14"@en-AU ;
+    skos:broader C2007A00107:15,
+        C2007A00107:16 ;
+    skos:definition "Division 2 Other legislation"@en-AU ;
+    skos:narrower C2007A00107:12 ;
+    skos:prefLabel "Division D14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237441> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237441"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2007A00107:18 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S18 Schedule 3 Workplace Ombudsman"@en-AU ;
+    dct:hasPart C2007A00107:19,
+        C2007A00107:24 ;
+    dct:isPartOf C2007A00107:3 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Schedule 3 Workplace Ombudsman - Abrievated Graph Key: S18"@en-AU ;
+    skos:broader C2007A00107:19,
+        C2007A00107:24 ;
+    skos:definition "Schedule 3 Workplace Ombudsman"@en-AU ;
+    skos:narrower C2007A00107:3 ;
+    skos:prefLabel "Schedule S18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237445> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237445"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00107:19 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P19 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2007A00107:20,
+        C2007A00107:22 ;
+    dct:isPartOf C2007A00107:18 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P19"@en-AU ;
+    skos:broader C2007A00107:20,
+        C2007A00107:22 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2007A00107:18 ;
+    skos:prefLabel "Part P19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237446> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237446"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00107:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 The Fairness Test"@en-AU ;
+    dct:hasPart C2007A00107:5,
+        C2007A00107:7 ;
+    dct:isPartOf C2007A00107:3 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Schedule 1 The Fairness Test - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2007A00107:5,
+        C2007A00107:7 ;
+    skos:definition "Schedule 1 The Fairness Test"@en-AU ;
+    skos:narrower C2007A00107:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237343> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237343"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00107:31 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S31 Schedule 7 Preserved redundancy provisions"@en-AU ;
+    dct:hasPart C2007A00107:32,
+        C2007A00107:34,
+        C2007A00107:36 ;
+    dct:isPartOf C2007A00107:3 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Schedule 7 Preserved redundancy provisions - Abrievated Graph Key: S31"@en-AU ;
+    skos:broader C2007A00107:32,
+        C2007A00107:34,
+        C2007A00107:36 ;
+    skos:definition "Schedule 7 Preserved redundancy provisions"@en-AU ;
+    skos:narrower C2007A00107:3 ;
+    skos:prefLabel "Schedule S31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237486> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237486"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00107:9 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S9 Schedule 2 Workplace Authority"@en-AU ;
+    dct:hasPart C2007A00107:10,
+        C2007A00107:12,
+        C2007A00107:17 ;
+    dct:isPartOf C2007A00107:3 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "Schedule 2 Workplace Authority - Abrievated Graph Key: S9"@en-AU ;
+    skos:broader C2007A00107:10,
+        C2007A00107:12,
+        C2007A00107:17 ;
+    skos:definition "Schedule 2 Workplace Authority"@en-AU ;
+    skos:narrower C2007A00107:3 ;
+    skos:prefLabel "Schedule S9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237394> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237394"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00107:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2007A00107:18,
+        C2007A00107:25,
+        C2007A00107:27,
+        C2007A00107:29,
+        C2007A00107:31,
+        C2007A00107:4,
+        C2007A00107:9 ;
+    dct:isReferencedBy C2007A00107: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2007A00107:18,
+        C2007A00107:25,
+        C2007A00107:27,
+        C2007A00107:29,
+        C2007A00107:31,
+        C2007A00107:4,
+        C2007A00107:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237342> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00107/asmade/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc171237342"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00107: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Workplace Relations Amendment (A Stronger Safety Net) Act 2007" ;
+    dct:Jurisdiction " Attorney-General's Department "@en-AU ;
+    dct:created "2026-05-27T17:02:45.297843"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2007-06-28T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Workplace Relations Amendment (A Stronger Safety Net) Act 2007"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2007A00107/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Workplace Relations Amendment (A Stronger Safety Net) Act 2007"@en-AU ;
+    dct:title "Workplace Relations Amendment (A Stronger Safety Net) Act 2007"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2007A00107" .
+

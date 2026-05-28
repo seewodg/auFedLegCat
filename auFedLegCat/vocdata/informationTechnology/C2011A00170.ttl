@@ -1,0 +1,194 @@
+@prefix C2011A00170: <http://example.org/au/leg/dataset/C2011A00170/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2011A00170:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2011A00170: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908407> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908407"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00170:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2011A00170: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908408> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908408"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00170:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Long Service Leave Commonwealth Employees Act 1976"@en-AU ;
+    dct:isPartOf C2011A00170:8 ;
+    dct:isReferencedBy C2011A00170: ;
+    rdfs:comment "Long Service Leave Commonwealth Employees Act 1976 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Long Service Leave Commonwealth Employees Act 1976"@en-AU ;
+    skos:narrower C2011A00170:8 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908453> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908453"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00170:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Remuneration Tribunal Act 1973"@en-AU ;
+    dct:isPartOf C2011A00170:8 ;
+    dct:isReferencedBy C2011A00170: ;
+    rdfs:comment "Remuneration Tribunal Act 1973 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Remuneration Tribunal Act 1973"@en-AU ;
+    skos:narrower C2011A00170:8 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908454> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908454"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00170:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Parliamentary Service Act 1999"@en-AU ;
+    dct:isPartOf C2011A00170:4 ;
+    dct:isReferencedBy C2011A00170: ;
+    rdfs:comment "Parliamentary Service Act 1999 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Parliamentary Service Act 1999"@en-AU ;
+    skos:narrower C2011A00170:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908411> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908411"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00170:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Charter of Budget Honesty Act 1998"@en-AU ;
+    dct:isPartOf C2011A00170:6 ;
+    dct:isReferencedBy C2011A00170: ;
+    rdfs:comment "Charter of Budget Honesty Act 1998 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Charter of Budget Honesty Act 1998"@en-AU ;
+    skos:narrower C2011A00170:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908447> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908447"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00170:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Freedom of Information Act 1982"@en-AU ;
+    dct:isPartOf C2011A00170:8 ;
+    dct:isReferencedBy C2011A00170: ;
+    rdfs:comment "Freedom of Information Act 1982 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Freedom of Information Act 1982"@en-AU ;
+    skos:narrower C2011A00170:8 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908452> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908452"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00170:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendment of the Parliamentary Service Act 1999"@en-AU ;
+    dct:hasPart C2011A00170:5 ;
+    dct:isPartOf C2011A00170:3 ;
+    dct:isReferencedBy C2011A00170: ;
+    rdfs:comment "Schedule 1 Amendment of the Parliamentary Service Act 1999 - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2011A00170:5 ;
+    skos:definition "Schedule 1 Amendment of the Parliamentary Service Act 1999"@en-AU ;
+    skos:narrower C2011A00170:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908410> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908410"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2011A00170:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Amendment of the Charter of Budget Honesty Act 1998"@en-AU ;
+    dct:hasPart C2011A00170:7 ;
+    dct:isPartOf C2011A00170:3 ;
+    dct:isReferencedBy C2011A00170: ;
+    rdfs:comment "Schedule 2 Amendment of the Charter of Budget Honesty Act 1998 - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2011A00170:7 ;
+    skos:definition "Schedule 2 Amendment of the Charter of Budget Honesty Act 1998"@en-AU ;
+    skos:narrower C2011A00170:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908446> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908446"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2011A00170:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2011A00170:4,
+        C2011A00170:6,
+        C2011A00170:8 ;
+    dct:isReferencedBy C2011A00170: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2011A00170:4,
+        C2011A00170:6,
+        C2011A00170:8 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908409> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908409"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00170:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 3 Amendment of other Acts"@en-AU ;
+    dct:hasPart C2011A00170:10,
+        C2011A00170:11,
+        C2011A00170:9 ;
+    dct:isPartOf C2011A00170:3 ;
+    dct:isReferencedBy C2011A00170: ;
+    rdfs:comment "Schedule 3 Amendment of other Acts - Abrievated Graph Key: S8"@en-AU ;
+    skos:broader C2011A00170:10,
+        C2011A00170:11,
+        C2011A00170:9 ;
+    skos:definition "Schedule 3 Amendment of other Acts"@en-AU ;
+    skos:narrower C2011A00170:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908451> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00170/asmade/2011-12-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc309908451"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2011A00170: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Parliamentary Service Amendment (Parliamentary Budget Officer) Act 2011" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-26T20:48:30.956816"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2011-12-04T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Parliamentary Service Amendment (Parliamentary Budget Officer) Act 2011"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2011A00170/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Parliamentary Service Amendment (Parliamentary Budget Officer) Act 2011"@en-AU ;
+    dct:title "Parliamentary Service Amendment (Parliamentary Budget Officer) Act 2011"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2011A00170" .
+

@@ -1,0 +1,226 @@
+@prefix C2016A00089: <http://example.org/au/leg/dataset/C2016A00089/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2016A00089:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2016A00089: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868437> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868437"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00089:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2016A00089: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868438> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868438"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00089:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2016A00089:10 ;
+    dct:isReferencedBy C2016A00089: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2016A00089:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868453> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868453"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00089:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2016A00089:12 ;
+    dct:isReferencedBy C2016A00089: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2016A00089:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868458> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868458"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00089:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Migration Regulations 1994"@en-AU ;
+    dct:isPartOf C2016A00089:4 ;
+    dct:isReferencedBy C2016A00089: ;
+    rdfs:comment "Migration Regulations 1994 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Migration Regulations 1994"@en-AU ;
+    skos:narrower C2016A00089:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868441> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868441"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00089:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 A New Tax System Australian Business Number Act 1999"@en-AU ;
+    dct:isPartOf C2016A00089:6 ;
+    dct:isReferencedBy C2016A00089: ;
+    rdfs:comment "A New Tax System Australian Business Number Act 1999 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "A New Tax System Australian Business Number Act 1999"@en-AU ;
+    skos:narrower C2016A00089:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868445> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868445"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00089:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2016A00089:6 ;
+    dct:isReferencedBy C2016A00089: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2016A00089:6 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868446> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868446"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00089:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2016A00089:6 ;
+    dct:isReferencedBy C2016A00089: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2016A00089:6 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868447> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868447"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00089:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 3 Reporting on working holiday makers"@en-AU ;
+    dct:hasPart C2016A00089:11 ;
+    dct:isPartOf C2016A00089:3 ;
+    dct:isReferencedBy C2016A00089: ;
+    rdfs:comment "Schedule 3 Reporting on working holiday makers - Abrievated Graph Key: S10"@en-AU ;
+    skos:broader C2016A00089:11 ;
+    skos:definition "Schedule 3 Reporting on working holiday makers"@en-AU ;
+    skos:narrower C2016A00089:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868452> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868452"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00089:12 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S12 Schedule 4 Protected information"@en-AU ;
+    dct:hasPart C2016A00089:13 ;
+    dct:isPartOf C2016A00089:3 ;
+    dct:isReferencedBy C2016A00089: ;
+    rdfs:comment "Schedule 4 Protected information - Abrievated Graph Key: S12"@en-AU ;
+    skos:broader C2016A00089:13 ;
+    skos:definition "Schedule 4 Protected information"@en-AU ;
+    skos:narrower C2016A00089:3 ;
+    skos:prefLabel "Schedule S12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868457> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868457"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00089:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Visa application charges"@en-AU ;
+    dct:hasPart C2016A00089:5 ;
+    dct:isPartOf C2016A00089:3 ;
+    dct:isReferencedBy C2016A00089: ;
+    rdfs:comment "Schedule 1 Visa application charges - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2016A00089:5 ;
+    skos:definition "Schedule 1 Visa application charges"@en-AU ;
+    skos:narrower C2016A00089:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868440> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868440"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00089:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2016A00089:10,
+        C2016A00089:12,
+        C2016A00089:4,
+        C2016A00089:6 ;
+    dct:isReferencedBy C2016A00089: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2016A00089:10,
+        C2016A00089:12,
+        C2016A00089:4,
+        C2016A00089:6 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868439> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868439"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00089:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Registration of employers of working holiday makers"@en-AU ;
+    dct:hasPart C2016A00089:7,
+        C2016A00089:8,
+        C2016A00089:9 ;
+    dct:isPartOf C2016A00089:3 ;
+    dct:isReferencedBy C2016A00089: ;
+    rdfs:comment "Schedule 2 Registration of employers of working holiday makers - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2016A00089:7,
+        C2016A00089:8,
+        C2016A00089:9 ;
+    skos:definition "Schedule 2 Registration of employers of working holiday makers"@en-AU ;
+    skos:narrower C2016A00089:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868444> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00089/asmade/2016-12-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc468868444"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00089: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Treasury Laws Amendment (Working Holiday Maker Reform) Act 2016" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-27T19:40:49.992272"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2016-12-02T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Treasury Laws Amendment (Working Holiday Maker Reform) Act 2016"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2016A00089/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Treasury Laws Amendment (Working Holiday Maker Reform) Act 2016"@en-AU ;
+    dct:title "Treasury Laws Amendment (Working Holiday Maker Reform) Act 2016"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2016A00089" .
+

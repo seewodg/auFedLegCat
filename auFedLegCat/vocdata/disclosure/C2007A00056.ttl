@@ -1,0 +1,307 @@
+@prefix C2007A00056: <http://example.org/au/leg/dataset/C2007A00056/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2007A00056:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2007A00056: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654166> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654166"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00056:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2007A00056: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654167> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654167"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00056:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2007A00056:11 ;
+    dct:isReferencedBy C2007A00056: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2007A00056:11 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654180> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654180"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00056:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    dct:isPartOf C2007A00056:13 ;
+    dct:isReferencedBy C2007A00056: ;
+    rdfs:comment "A New Tax System Goods and Services Tax Act 1999 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    skos:narrower C2007A00056:13 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654193> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654193"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00056:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    dct:isPartOf C2007A00056:13 ;
+    dct:isReferencedBy C2007A00056: ;
+    rdfs:comment "Fringe Benefits Tax Assessment Act 1986 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    skos:narrower C2007A00056:13 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654194> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654194"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00056:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2007A00056:13 ;
+    dct:isReferencedBy C2007A00056: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2007A00056:13 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654195> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654195"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00056:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2007A00056:13 ;
+    dct:isReferencedBy C2007A00056: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2007A00056:13 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654196> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654196"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00056:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2007A00056:13 ;
+    dct:isReferencedBy C2007A00056: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2007A00056:13 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654198> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654198"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00056:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Administrative Decisions Judicial Review Act 1977"@en-AU ;
+    dct:isPartOf C2007A00056:4 ;
+    dct:isReferencedBy C2007A00056: ;
+    rdfs:comment "Administrative Decisions Judicial Review Act 1977 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Administrative Decisions Judicial Review Act 1977"@en-AU ;
+    skos:narrower C2007A00056:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654170> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654170"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00056:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Freedom of Information Act 1982"@en-AU ;
+    dct:isPartOf C2007A00056:4 ;
+    dct:isReferencedBy C2007A00056: ;
+    rdfs:comment "Freedom of Information Act 1982 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Freedom of Information Act 1982"@en-AU ;
+    skos:narrower C2007A00056:4 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654171> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654171"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00056:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2007A00056:4 ;
+    dct:isReferencedBy C2007A00056: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2007A00056:4 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654172> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654172"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00056:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Superannuation Guarantee Administration Act 1992"@en-AU ;
+    dct:isPartOf C2007A00056:8 ;
+    dct:isReferencedBy C2007A00056: ;
+    rdfs:comment "Superannuation Guarantee Administration Act 1992 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Superannuation Guarantee Administration Act 1992"@en-AU ;
+    skos:narrower C2007A00056:8 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654176> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654176"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00056:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 1 Main amendments"@en-AU ;
+    dct:hasPart C2007A00056:12 ;
+    dct:isPartOf C2007A00056:10 ;
+    dct:isReferencedBy C2007A00056: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P11"@en-AU ;
+    skos:broader C2007A00056:12 ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2007A00056:10 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654179> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654179"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00056:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 2 Disclosure of information relating to superannuation guarantee complaints"@en-AU ;
+    dct:hasPart C2007A00056:9 ;
+    dct:isPartOf C2007A00056:3 ;
+    dct:isReferencedBy C2007A00056: ;
+    rdfs:comment "Schedule 2 Disclosure of information relating to superannuation guarantee complaints - Abrievated Graph Key: S8"@en-AU ;
+    skos:broader C2007A00056:9 ;
+    skos:definition "Schedule 2 Disclosure of information relating to superannuation guarantee complaints"@en-AU ;
+    skos:narrower C2007A00056:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654175> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654175"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00056:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 3 Employee share schemes and stapled securities"@en-AU ;
+    dct:hasPart C2007A00056:11,
+        C2007A00056:13 ;
+    dct:isPartOf C2007A00056:3 ;
+    dct:isReferencedBy C2007A00056: ;
+    rdfs:comment "Schedule 3 Employee share schemes and stapled securities - Abrievated Graph Key: S10"@en-AU ;
+    skos:broader C2007A00056:11,
+        C2007A00056:13 ;
+    skos:definition "Schedule 3 Employee share schemes and stapled securities"@en-AU ;
+    skos:narrower C2007A00056:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654178> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654178"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00056:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2007A00056:10,
+        C2007A00056:4,
+        C2007A00056:8 ;
+    dct:isReferencedBy C2007A00056: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2007A00056:10,
+        C2007A00056:4,
+        C2007A00056:8 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654168> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654168"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00056:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Project Wickenby taskforce"@en-AU ;
+    dct:hasPart C2007A00056:5,
+        C2007A00056:6,
+        C2007A00056:7 ;
+    dct:isPartOf C2007A00056:3 ;
+    dct:isReferencedBy C2007A00056: ;
+    rdfs:comment "Schedule 1 Project Wickenby taskforce - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2007A00056:5,
+        C2007A00056:6,
+        C2007A00056:7 ;
+    skos:definition "Schedule 1 Project Wickenby taskforce"@en-AU ;
+    skos:narrower C2007A00056:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654169> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654169"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00056:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 2 Consequential amendments"@en-AU ;
+    dct:hasPart C2007A00056:14,
+        C2007A00056:15,
+        C2007A00056:16,
+        C2007A00056:17,
+        C2007A00056:18 ;
+    dct:isPartOf C2007A00056:10 ;
+    dct:isReferencedBy C2007A00056: ;
+    rdfs:comment "Part 2 Consequential amendments - Abrievated Graph Key: P13"@en-AU ;
+    skos:broader C2007A00056:14,
+        C2007A00056:15,
+        C2007A00056:16,
+        C2007A00056:17,
+        C2007A00056:18 ;
+    skos:definition "Part 2 Consequential amendments"@en-AU ;
+    skos:narrower C2007A00056:10 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654192> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00056/asmade/2007-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc164654192"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00056: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Tax Laws Amendment (2007 Measures No. 1) Act 2007" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-27T19:37:24.166005"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2007-04-12T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Tax Laws Amendment (2007 Measures No. 1) Act 2007"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2007A00056/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Tax Laws Amendment (2007 Measures No. 1) Act 2007"@en-AU ;
+    dct:title "Tax Laws Amendment (2007 Measures No. 1) Act 2007"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2007A00056" .
+

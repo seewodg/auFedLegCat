@@ -1,0 +1,509 @@
+@prefix F2019L00153: <http://example.org/au/leg/dataset/F2019L00153/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2019L00153:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Habitat critical to the survival of Littoral Rainforest"@en-AU ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Habitat critical to the survival of Littoral Rainforest - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Habitat critical to the survival of Littoral Rainforest"@en-AU ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951224> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951224"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 References"@en-AU ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "References - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "References"@en-AU ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951236> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951236"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Appendices"@en-AU ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Appendices - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Appendices"@en-AU ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951237> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951237"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Connectivity"@en-AU ;
+    dct:isPartOf F2019L00153:10 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Connectivity - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Connectivity"@en-AU ;
+    skos:narrower F2019L00153:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951216> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951216"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Patch size"@en-AU ;
+    dct:isPartOf F2019L00153:10 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Patch size - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Patch size"@en-AU ;
+    skos:narrower F2019L00153:10 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951217> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951217"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Structural and component complexity"@en-AU ;
+    dct:isPartOf F2019L00153:10 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Structural and component complexity - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Structural and component complexity"@en-AU ;
+    skos:narrower F2019L00153:10 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951218> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951218"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Guidance for identification and assessment"@en-AU ;
+    dct:isPartOf F2019L00153:10 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Guidance for identification and assessment - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Guidance for identification and assessment"@en-AU ;
+    skos:narrower F2019L00153:10 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951219> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951219"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Derived native vegetation"@en-AU ;
+    dct:isPartOf F2019L00153:10 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Derived native vegetation - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Derived native vegetation"@en-AU ;
+    skos:narrower F2019L00153:10 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951220> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951220"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Threatened species and species of conservation significance"@en-AU ;
+    dct:isPartOf F2019L00153:10 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Threatened species and species of conservation significance - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Threatened species and species of conservation significance"@en-AU ;
+    skos:narrower F2019L00153:10 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951221> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951221"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Buffer zones"@en-AU ;
+    dct:isPartOf F2019L00153:10 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Buffer zones - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Buffer zones"@en-AU ;
+    skos:narrower F2019L00153:10 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951222> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951222"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 International obligations"@en-AU ;
+    dct:isPartOf F2019L00153:10 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "International obligations - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "International obligations"@en-AU ;
+    skos:narrower F2019L00153:10 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951223> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951223"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 Community description"@en-AU ;
+    dct:isPartOf F2019L00153:1 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Community description - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "Community description"@en-AU ;
+    skos:narrower F2019L00153:1 ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951207> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951207"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Overarching objective"@en-AU ;
+    dct:isPartOf F2019L00153:20 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Overarching objective - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Overarching objective"@en-AU ;
+    skos:narrower F2019L00153:20 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951226> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951226"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Recovery strategies"@en-AU ;
+    dct:isPartOf F2019L00153:20 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Recovery strategies - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Recovery strategies"@en-AU ;
+    skos:narrower F2019L00153:20 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951227> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951227"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Performance criteria"@en-AU ;
+    dct:isPartOf F2019L00153:20 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Performance criteria - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Performance criteria"@en-AU ;
+    skos:narrower F2019L00153:20 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951228> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951228"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Recovery actions"@en-AU ;
+    dct:isPartOf F2019L00153:20 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Recovery actions - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Recovery actions"@en-AU ;
+    skos:narrower F2019L00153:20 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951229> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951229"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Factors influencing successful implementation of the recovery plan"@en-AU ;
+    dct:isPartOf F2019L00153:25 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Factors influencing successful implementation of the recovery plan - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Factors influencing successful implementation of the recovery plan"@en-AU ;
+    skos:narrower F2019L00153:25 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951231> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951231"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Management considerations"@en-AU ;
+    dct:isPartOf F2019L00153:25 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Management considerations - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Management considerations"@en-AU ;
+    skos:narrower F2019L00153:25 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951232> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951232"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Projected funding needs"@en-AU ;
+    dct:isPartOf F2019L00153:25 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Projected funding needs - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Projected funding needs"@en-AU ;
+    skos:narrower F2019L00153:25 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951233> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951233"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Social and economic considerations"@en-AU ;
+    dct:isPartOf F2019L00153:25 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Social and economic considerations - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Social and economic considerations"@en-AU ;
+    skos:narrower F2019L00153:25 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951234> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951234"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 Distribution"@en-AU ;
+    dct:isPartOf F2019L00153:1 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Distribution - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "Distribution"@en-AU ;
+    skos:narrower F2019L00153:1 ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951208> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951208"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Review"@en-AU ;
+    dct:isPartOf F2019L00153:25 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Review - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Review"@en-AU ;
+    skos:narrower F2019L00153:25 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951235> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951235"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 Objective and strategies"@en-AU ;
+    dct:isPartOf F2019L00153:1 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Objective and strategies - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "Objective and strategies"@en-AU ;
+    skos:narrower F2019L00153:1 ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951209> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951209"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Legislative context"@en-AU ;
+    dct:isPartOf F2019L00153:1 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Legislative context - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Legislative context"@en-AU ;
+    skos:narrower F2019L00153:1 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951210> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951210"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Stakeholders and other interests"@en-AU ;
+    dct:isPartOf F2019L00153:1 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Stakeholders and other interests - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Stakeholders and other interests"@en-AU ;
+    skos:narrower F2019L00153:1 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951211> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951211"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Significant impacts from anthropogenic actions"@en-AU ;
+    dct:isPartOf F2019L00153:7 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Significant impacts from anthropogenic actions - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Significant impacts from anthropogenic actions"@en-AU ;
+    skos:narrower F2019L00153:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951213> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951213"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Key threats"@en-AU ;
+    dct:isPartOf F2019L00153:7 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Key threats - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Key threats"@en-AU ;
+    skos:narrower F2019L00153:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951214> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951214"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Threats"@en-AU ;
+    dct:hasPart F2019L00153:8,
+        F2019L00153:9 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Threats - Abrievated Graph Key: I7"@en-AU ;
+    skos:broader F2019L00153:8,
+        F2019L00153:9 ;
+    skos:definition "Threats"@en-AU ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951212> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951212"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Recovery program"@en-AU ;
+    dct:hasPart F2019L00153:21,
+        F2019L00153:22,
+        F2019L00153:23,
+        F2019L00153:24 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Recovery program - Abrievated Graph Key: I20"@en-AU ;
+    skos:broader F2019L00153:21,
+        F2019L00153:22,
+        F2019L00153:23,
+        F2019L00153:24 ;
+    skos:definition "Recovery program"@en-AU ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951225> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951225"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 Introduction"@en-AU ;
+    dct:hasPart F2019L00153:2,
+        F2019L00153:3,
+        F2019L00153:4,
+        F2019L00153:5,
+        F2019L00153:6 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Introduction - Abrievated Graph Key: I1"@en-AU ;
+    skos:broader F2019L00153:2,
+        F2019L00153:3,
+        F2019L00153:4,
+        F2019L00153:5,
+        F2019L00153:6 ;
+    skos:definition "Introduction"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951206> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951206"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Implementation"@en-AU ;
+    dct:hasPart F2019L00153:26,
+        F2019L00153:27,
+        F2019L00153:28,
+        F2019L00153:29,
+        F2019L00153:30 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Implementation - Abrievated Graph Key: I25"@en-AU ;
+    skos:broader F2019L00153:26,
+        F2019L00153:27,
+        F2019L00153:28,
+        F2019L00153:29,
+        F2019L00153:30 ;
+    skos:definition "Implementation"@en-AU ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951230> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951230"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Biodiversity considerations"@en-AU ;
+    dct:hasPart F2019L00153:11,
+        F2019L00153:12,
+        F2019L00153:13,
+        F2019L00153:14,
+        F2019L00153:15,
+        F2019L00153:16,
+        F2019L00153:17,
+        F2019L00153:18 ;
+    dct:isReferencedBy F2019L00153: ;
+    rdfs:comment "Biodiversity considerations - Abrievated Graph Key: I10"@en-AU ;
+    skos:broader F2019L00153:11,
+        F2019L00153:12,
+        F2019L00153:13,
+        F2019L00153:14,
+        F2019L00153:15,
+        F2019L00153:16,
+        F2019L00153:17,
+        F2019L00153:18 ;
+    skos:definition "Biodiversity considerations"@en-AU ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951215> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L00153/asmade/2019-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc503951215"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L00153: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "National Recovery Plan for the Littoral Rainforest and Coastal Vine Thickets of Eastern Australia Ecological Community" ;
+    dct:Jurisdiction " Department of Climate Change, Energy, the Environment and Water "@en-AU ;
+    dct:created "2026-05-26T11:03:47.325586"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2019-02-19T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "National Recovery Plan for the Littoral Rainforest and Coastal Vine Thickets of Eastern Australia Ecological Community"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2019L00153/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "National Recovery Plan for the Littoral Rainforest and Coastal Vine Thickets of Eastern Australia Ecological Community"@en-AU ;
+    dct:title "National Recovery Plan for the Littoral Rainforest and Coastal Vine Thickets of Eastern Australia Ecological Community"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item ;
+    schema:status "In force" ;
+    schema:version "F2019L00153" .
+

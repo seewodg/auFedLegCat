@@ -1,0 +1,161 @@
+@prefix F2017L01112: <http://example.org/au/leg/dataset/F2017L01112/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2017L01112:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 About these guidelines"@en-AU ;
+    dct:isPartOf F2017L01112:1 ;
+    dct:isReferencedBy F2017L01112: ;
+    rdfs:comment "About these guidelines - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "About these guidelines"@en-AU ;
+    skos:narrower F2017L01112:1 ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2017L01112/asmade/2017-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc483556693> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2017L01112/asmade/2017-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc483556693"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2017L01112:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 Structure of these guidelines"@en-AU ;
+    dct:isPartOf F2017L01112:1 ;
+    dct:isReferencedBy F2017L01112: ;
+    rdfs:comment "Structure of these guidelines - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "Structure of these guidelines"@en-AU ;
+    skos:narrower F2017L01112:1 ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2017L01112/asmade/2017-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc483556694> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2017L01112/asmade/2017-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc483556694"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2017L01112:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 General"@en-AU ;
+    dct:isPartOf F2017L01112:4 ;
+    dct:isReferencedBy F2017L01112: ;
+    rdfs:comment "General - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "General"@en-AU ;
+    skos:narrower F2017L01112:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2017L01112/asmade/2017-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc483556696> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2017L01112/asmade/2017-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc483556696"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2017L01112:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 ACCC guideline"@en-AU ;
+    dct:isPartOf F2017L01112:4 ;
+    dct:isReferencedBy F2017L01112: ;
+    rdfs:comment "ACCC guideline - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "ACCC guideline"@en-AU ;
+    skos:narrower F2017L01112:4 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2017L01112/asmade/2017-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc483556697> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2017L01112/asmade/2017-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc483556697"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2017L01112:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 General"@en-AU ;
+    dct:isPartOf F2017L01112:7 ;
+    dct:isReferencedBy F2017L01112: ;
+    rdfs:comment "General - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "General"@en-AU ;
+    skos:narrower F2017L01112:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2017L01112/asmade/2017-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc483556704> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2017L01112/asmade/2017-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc483556704"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2017L01112:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 ACCC guideline"@en-AU ;
+    dct:isPartOf F2017L01112:7 ;
+    dct:isReferencedBy F2017L01112: ;
+    rdfs:comment "ACCC guideline - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "ACCC guideline"@en-AU ;
+    skos:narrower F2017L01112:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2017L01112/asmade/2017-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc483556705> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2017L01112/asmade/2017-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc483556705"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2017L01112:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 Introduction"@en-AU ;
+    dct:hasPart F2017L01112:2,
+        F2017L01112:3 ;
+    dct:isReferencedBy F2017L01112: ;
+    rdfs:comment "Introduction - Abrievated Graph Key: I1"@en-AU ;
+    skos:broader F2017L01112:2,
+        F2017L01112:3 ;
+    skos:definition "Introduction"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2017L01112/asmade/2017-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc483556692> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2017L01112/asmade/2017-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc483556692"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2017L01112:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 Deferring arbitration of access disputes or consideration of access undertakings"@en-AU ;
+    dct:hasPart F2017L01112:5,
+        F2017L01112:6 ;
+    dct:isReferencedBy F2017L01112: ;
+    rdfs:comment "Deferring arbitration of access disputes or consideration of access undertakings - Abrievated Graph Key: I4"@en-AU ;
+    skos:broader F2017L01112:5,
+        F2017L01112:6 ;
+    skos:definition "Deferring arbitration of access disputes or consideration of access undertakings"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2017L01112/asmade/2017-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc483556695> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2017L01112/asmade/2017-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc483556695"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2017L01112:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Backdating of final determinations"@en-AU ;
+    dct:hasPart F2017L01112:8,
+        F2017L01112:9 ;
+    dct:isReferencedBy F2017L01112: ;
+    rdfs:comment "Backdating of final determinations - Abrievated Graph Key: I7"@en-AU ;
+    skos:broader F2017L01112:8,
+        F2017L01112:9 ;
+    skos:definition "Backdating of final determinations"@en-AU ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2017L01112/asmade/2017-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc483556703> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2017L01112/asmade/2017-08-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc483556703"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2017L01112: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Guidelines relating to deferral of arbitrations and backdating of determinations under Part IIIA of the Competition and Consumer Act 2010" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-27T17:11:58.621752"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2017-08-30T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Guidelines relating to deferral of arbitrations and backdating of determinations under Part IIIA of the Competition and Consumer Act 2010"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2017L01112/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Guidelines relating to deferral of arbitrations and backdating of determinations under Part IIIA of the Competition and Consumer Act 2010"@en-AU ;
+    dct:title "Guidelines relating to deferral of arbitrations and backdating of determinations under Part IIIA of the Competition and Consumer Act 2010"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item ;
+    schema:status "In force" ;
+    schema:version "F2017L01112" .
+

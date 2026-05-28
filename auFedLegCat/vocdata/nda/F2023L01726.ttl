@@ -1,0 +1,643 @@
+@prefix F2023L01726: <http://example.org/au/leg/dataset/F2023L01726/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2023L01726:10 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D10 Division 2 Complaints management and resolution system requirements"@en-AU ;
+    dct:isPartOf F2023L01726:6 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "Division 2 Complaints management and resolution system requirements - Abrievated Graph Key: D10"@en-AU ;
+    skos:definition "Division 2 Complaints management and resolution system requirements"@en-AU ;
+    skos:narrower F2023L01726:6 ;
+    skos:prefLabel "Division D10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271723> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271723"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L01726:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 7  System must comply with this Part"@en-AU ;
+    dct:isPartOf F2023L01726:6 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "7  System must comply with this Part - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "7  System must comply with this Part"@en-AU ;
+    skos:narrower F2023L01726:6 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271724> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271724"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 8  Complaints management and resolution system requirements"@en-AU ;
+    dct:isPartOf F2023L01726:6 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "8  Complaints management and resolution system requirements - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "8  Complaints management and resolution system requirements"@en-AU ;
+    skos:narrower F2023L01726:6 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271725> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271725"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 9  System must afford procedural fairness"@en-AU ;
+    dct:isPartOf F2023L01726:6 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "9  System must afford procedural fairness - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "9  System must afford procedural fairness"@en-AU ;
+    skos:narrower F2023L01726:6 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271726> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271726"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 10  Documentation record keeping and statistics"@en-AU ;
+    dct:isPartOf F2023L01726:6 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "10  Documentation record keeping and statistics - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "10  Documentation record keeping and statistics"@en-AU ;
+    skos:narrower F2023L01726:6 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271727> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271727"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 11  Roles responsibilities compliance and training of workers"@en-AU ;
+    dct:isPartOf F2023L01726:6 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "11  Roles responsibilities compliance and training of workers - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "11  Roles responsibilities compliance and training of workers"@en-AU ;
+    skos:narrower F2023L01726:6 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271728> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271728"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 12  Referring complaints"@en-AU ;
+    dct:isPartOf F2023L01726:6 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "12  Referring complaints - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "12  Referring complaints"@en-AU ;
+    skos:narrower F2023L01726:6 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271729> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271729"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 13  Simplified outline of this Part"@en-AU ;
+    dct:isPartOf F2023L01726:18 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "13  Simplified outline of this Part - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "13  Simplified outline of this Part"@en-AU ;
+    skos:narrower F2023L01726:18 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271732> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271732"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 1  Name"@en-AU ;
+    dct:isPartOf F2023L01726:1 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "1  Name - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "1  Name"@en-AU ;
+    skos:narrower F2023L01726:1 ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271715> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271715"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 14  Purpose of this Part"@en-AU ;
+    dct:isPartOf F2023L01726:18 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "14  Purpose of this Part - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "14  Purpose of this Part"@en-AU ;
+    skos:narrower F2023L01726:18 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271733> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271733"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 15  Incidents that are also reportable incidents"@en-AU ;
+    dct:isPartOf F2023L01726:18 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "15  Incidents that are also reportable incidents - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "15  Incidents that are also reportable incidents"@en-AU ;
+    skos:narrower F2023L01726:18 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271734> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271734"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 16  System must comply with this Division"@en-AU ;
+    dct:isPartOf F2023L01726:22 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "16  System must comply with this Division - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "16  System must comply with this Division"@en-AU ;
+    skos:narrower F2023L01726:22 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271736> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271736"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 17  Incidents that must be covered"@en-AU ;
+    dct:isPartOf F2023L01726:22 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "17  Incidents that must be covered - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "17  Incidents that must be covered"@en-AU ;
+    skos:narrower F2023L01726:22 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271737> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271737"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 18  Incident management system procedures"@en-AU ;
+    dct:isPartOf F2023L01726:22 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "18  Incident management system procedures - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "18  Incident management system procedures"@en-AU ;
+    skos:narrower F2023L01726:22 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271738> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271738"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 19  System must afford procedural fairness"@en-AU ;
+    dct:isPartOf F2023L01726:22 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "19  System must afford procedural fairness - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "19  System must afford procedural fairness"@en-AU ;
+    skos:narrower F2023L01726:22 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271739> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271739"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 20  Documentation record keeping and statistics"@en-AU ;
+    dct:isPartOf F2023L01726:22 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "20  Documentation record keeping and statistics - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "20  Documentation record keeping and statistics"@en-AU ;
+    skos:narrower F2023L01726:22 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271740> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271740"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 21  Roles responsibilities compliance and training of workers"@en-AU ;
+    dct:isPartOf F2023L01726:22 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "21  Roles responsibilities compliance and training of workers - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "21  Roles responsibilities compliance and training of workers"@en-AU ;
+    skos:narrower F2023L01726:22 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271741> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271741"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 2  Commencement"@en-AU ;
+    dct:isPartOf F2023L01726:1 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:narrower F2023L01726:1 ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271716> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271716"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 22  Notifying and managing reportable incidents"@en-AU ;
+    dct:isPartOf F2023L01726:29 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "22  Notifying and managing reportable incidents - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "22  Notifying and managing reportable incidents"@en-AU ;
+    skos:narrower F2023L01726:29 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271743> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271743"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 23  Reportable incidents include alleged reportable incidents"@en-AU ;
+    dct:isPartOf F2023L01726:29 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "23  Reportable incidents include alleged reportable incidents - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "23  Reportable incidents include alleged reportable incidents"@en-AU ;
+    skos:narrower F2023L01726:29 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271744> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271744"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 24  Duty of key personnel in relation to reportable incidents"@en-AU ;
+    dct:isPartOf F2023L01726:29 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "24  Duty of key personnel in relation to reportable incidents - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "24  Duty of key personnel in relation to reportable incidents"@en-AU ;
+    skos:narrower F2023L01726:29 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271745> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271745"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 25  Duty of workers to notify covered person of reportable incidents"@en-AU ;
+    dct:isPartOf F2023L01726:29 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "25  Duty of workers to notify covered person of reportable incidents - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "25  Duty of workers to notify covered person of reportable incidents"@en-AU ;
+    skos:narrower F2023L01726:29 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271746> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271746"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 26  Certain reportable incidents must be notified to the Department"@en-AU ;
+    dct:isPartOf F2023L01726:29 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "26  Certain reportable incidents must be notified to the Department - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "26  Certain reportable incidents must be notified to the Department"@en-AU ;
+    skos:narrower F2023L01726:29 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271747> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271747"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 27  Circumstances in which certain information relating to reportable incidents need not be obtained"@en-AU ;
+    dct:isPartOf F2023L01726:29 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "27  Circumstances in which certain information relating to reportable incidents need not be obtained - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "27  Circumstances in which certain information relating to reportable incidents need not be obtained"@en-AU ;
+    skos:narrower F2023L01726:29 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271748> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271748"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 28  Keeping the Department updated"@en-AU ;
+    dct:isPartOf F2023L01726:29 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "28  Keeping the Department updated - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "28  Keeping the Department updated"@en-AU ;
+    skos:narrower F2023L01726:29 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271749> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271749"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 29  Providing the Department with a final report"@en-AU ;
+    dct:isPartOf F2023L01726:29 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "29  Providing the Department with a final report - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "29  Providing the Department with a final report"@en-AU ;
+    skos:narrower F2023L01726:29 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271750> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271750"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 30  Record keeping"@en-AU ;
+    dct:isPartOf F2023L01726:29 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "30  Record keeping - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "30  Record keeping"@en-AU ;
+    skos:narrower F2023L01726:29 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271751> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271751"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 31  Action by the Department in relation to reportable incidents"@en-AU ;
+    dct:isPartOf F2023L01726:29 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "31  Action by the Department in relation to reportable incidents - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "31  Action by the Department in relation to reportable incidents"@en-AU ;
+    skos:narrower F2023L01726:29 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271752> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271752"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 3  Authority"@en-AU ;
+    dct:isPartOf F2023L01726:1 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "3  Authority - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "3  Authority"@en-AU ;
+    skos:narrower F2023L01726:1 ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271717> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271717"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 4  Definitions"@en-AU ;
+    dct:isPartOf F2023L01726:1 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "4  Definitions - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "4  Definitions"@en-AU ;
+    skos:narrower F2023L01726:1 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271718> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271718"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 5  Simplified outline of this Part"@en-AU ;
+    dct:isPartOf F2023L01726:7 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "5  Simplified outline of this Part - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "5  Simplified outline of this Part"@en-AU ;
+    skos:narrower F2023L01726:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271721> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271721"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 6  Purpose of this Part"@en-AU ;
+    dct:isPartOf F2023L01726:7 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "6  Purpose of this Part - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "6  Purpose of this Part"@en-AU ;
+    skos:narrower F2023L01726:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271722> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271722"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2023L01726:17 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P17 Part 3 Incident management"@en-AU ;
+    dct:hasPart F2023L01726:18,
+        F2023L01726:22,
+        F2023L01726:29 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "Part 3 Incident management - Abrievated Graph Key: P17"@en-AU ;
+    skos:broader F2023L01726:18,
+        F2023L01726:22,
+        F2023L01726:29 ;
+    skos:definition "Part 3 Incident management"@en-AU ;
+    skos:prefLabel "Part P17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271730> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271730"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2023L01726:7 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D7 Division 1 Introduction"@en-AU ;
+    dct:hasPart F2023L01726:8,
+        F2023L01726:9 ;
+    dct:isPartOf F2023L01726:6 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "Division 1 Introduction - Abrievated Graph Key: D7"@en-AU ;
+    skos:broader F2023L01726:8,
+        F2023L01726:9 ;
+    skos:definition "Division 1 Introduction"@en-AU ;
+    skos:narrower F2023L01726:6 ;
+    skos:prefLabel "Division D7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271720> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271720"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L01726:1 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P1 Part 1 Preliminary"@en-AU ;
+    dct:hasPart F2023L01726:2,
+        F2023L01726:3,
+        F2023L01726:4,
+        F2023L01726:5 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "Part 1 Preliminary - Abrievated Graph Key: P1"@en-AU ;
+    skos:broader F2023L01726:2,
+        F2023L01726:3,
+        F2023L01726:4,
+        F2023L01726:5 ;
+    skos:definition "Part 1 Preliminary"@en-AU ;
+    skos:prefLabel "Part P1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271714> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271714"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2023L01726:18 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D18 Division 1 Introduction"@en-AU ;
+    dct:hasPart F2023L01726:19,
+        F2023L01726:20,
+        F2023L01726:21 ;
+    dct:isPartOf F2023L01726:17 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "Division 1 Introduction - Abrievated Graph Key: D18"@en-AU ;
+    skos:broader F2023L01726:19,
+        F2023L01726:20,
+        F2023L01726:21 ;
+    skos:definition "Division 1 Introduction"@en-AU ;
+    skos:narrower F2023L01726:17 ;
+    skos:prefLabel "Division D18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271731> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271731"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L01726:22 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D22 Division 2 Incident management system requirements"@en-AU ;
+    dct:hasPart F2023L01726:23,
+        F2023L01726:24,
+        F2023L01726:25,
+        F2023L01726:26,
+        F2023L01726:27,
+        F2023L01726:28 ;
+    dct:isPartOf F2023L01726:17 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "Division 2 Incident management system requirements - Abrievated Graph Key: D22"@en-AU ;
+    skos:broader F2023L01726:23,
+        F2023L01726:24,
+        F2023L01726:25,
+        F2023L01726:26,
+        F2023L01726:27,
+        F2023L01726:28 ;
+    skos:definition "Division 2 Incident management system requirements"@en-AU ;
+    skos:narrower F2023L01726:17 ;
+    skos:prefLabel "Division D22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271735> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271735"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L01726:6 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P6 Part 2 Complaints management and resolution"@en-AU ;
+    dct:hasPart F2023L01726:10,
+        F2023L01726:11,
+        F2023L01726:12,
+        F2023L01726:13,
+        F2023L01726:14,
+        F2023L01726:15,
+        F2023L01726:16,
+        F2023L01726:7 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "Part 2 Complaints management and resolution - Abrievated Graph Key: P6"@en-AU ;
+    skos:broader F2023L01726:10,
+        F2023L01726:11,
+        F2023L01726:12,
+        F2023L01726:13,
+        F2023L01726:14,
+        F2023L01726:15,
+        F2023L01726:16,
+        F2023L01726:7 ;
+    skos:definition "Part 2 Complaints management and resolution"@en-AU ;
+    skos:prefLabel "Part P6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271719> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271719"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2023L01726:29 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D29 Division 3 Reportable incidents"@en-AU ;
+    dct:hasPart F2023L01726:30,
+        F2023L01726:31,
+        F2023L01726:32,
+        F2023L01726:33,
+        F2023L01726:34,
+        F2023L01726:35,
+        F2023L01726:36,
+        F2023L01726:37,
+        F2023L01726:38,
+        F2023L01726:39 ;
+    dct:isPartOf F2023L01726:17 ;
+    dct:isReferencedBy F2023L01726: ;
+    rdfs:comment "Division 3 Reportable incidents - Abrievated Graph Key: D29"@en-AU ;
+    skos:broader F2023L01726:30,
+        F2023L01726:31,
+        F2023L01726:32,
+        F2023L01726:33,
+        F2023L01726:34,
+        F2023L01726:35,
+        F2023L01726:36,
+        F2023L01726:37,
+        F2023L01726:38,
+        F2023L01726:39 ;
+    skos:definition "Division 3 Reportable incidents"@en-AU ;
+    skos:narrower F2023L01726:17 ;
+    skos:prefLabel "Division D29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271742> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2023L01726/asmade/2023-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc153271742"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2023L01726: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Disability Services and Inclusion (Complaints and Incidents Management) Rules 2023" ;
+    dct:Jurisdiction " Department of Health, Disability and Ageing "@en-AU ;
+    dct:created "2026-05-27T17:50:24.755501"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2023-12-20T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Disability Services and Inclusion (Complaints and Incidents Management) Rules 2023"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2023L01726/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Disability Services and Inclusion (Complaints and Incidents Management) Rules 2023"@en-AU ;
+    dct:title "Disability Services and Inclusion (Complaints and Incidents Management) Rules 2023"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part ;
+    schema:status "In force" ;
+    schema:version "F2023L01726" .
+

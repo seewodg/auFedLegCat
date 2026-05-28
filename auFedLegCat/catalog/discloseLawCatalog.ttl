@@ -1,0 +1,114 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix discloselawcatalog: <http://example.org/au/leg/catalog/discloselawcatalog/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix ocmv: <https://w3id.org/ontouml-models/vocabulary#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+discloselawcatalog: a owl:Class,
+        dcat:Catalog,
+        dcat:Resource ;
+    rdfs:label "Australian Legislation Catalog - discloseLawCatalog"@en ;
+    dct:alternative "discloseLawCatalog Catalog"@en ;
+    dct:bibliographicCitation "Marcus Jowsey et al. (UNECE Team 2024)."@en ;
+    dct:creator <https://orcid.org/0009-0007-8434-7325> ;
+    dct:description "The Australian Legislation Catalog Example, short-nameddiscloseLawCatalog, is a structured and open-source catalog that refers to RDF datasets generated from Australian Legislation. It was designed to provide an example for research, and could be applied in any applications."@en ;
+    dct:issued "2024-06-16T17:53:16.365007"^^xsd:dateTime ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:modified "2026-05-27T19:36:30.512071"^^xsd:dateTime ;
+    dct:publisher <https://orcid.org/0009-0007-8434-7325> ;
+    dct:title "Australian Legislation Catalog - discloseLawCatalog"@en ;
+    dcat:dataset <http://example.org/au/leg/dataset/C1901A00006/latest/>,
+        <http://example.org/au/leg/dataset/C1936A00027/latest/>,
+        <http://example.org/au/leg/dataset/C1953A00001/latest/>,
+        <http://example.org/au/leg/dataset/C1958A00062/latest/>,
+        <http://example.org/au/leg/dataset/C1959A00006/latest/>,
+        <http://example.org/au/leg/dataset/C1967A00053/latest/>,
+        <http://example.org/au/leg/dataset/C2004A00435/latest/>,
+        <http://example.org/au/leg/dataset/C2004A00547/latest/>,
+        <http://example.org/au/leg/dataset/C2004A00568/latest/>,
+        <http://example.org/au/leg/dataset/C2004A00725/latest/>,
+        <http://example.org/au/leg/dataset/C2004A00762/latest/>,
+        <http://example.org/au/leg/dataset/C2004A00818/latest/>,
+        <http://example.org/au/leg/dataset/C2004A00819/latest/>,
+        <http://example.org/au/leg/dataset/C2004A00851/latest/>,
+        <http://example.org/au/leg/dataset/C2004A00891/latest/>,
+        <http://example.org/au/leg/dataset/C2004A00975/asmade/>,
+        <http://example.org/au/leg/dataset/C2004A01226/asmade/>,
+        <http://example.org/au/leg/dataset/C2004A01334/asmade/>,
+        <http://example.org/au/leg/dataset/C2004A02473/asmade/>,
+        <http://example.org/au/leg/dataset/C2004A02585/asmade/>,
+        <http://example.org/au/leg/dataset/C2004A03048/latest/>,
+        <http://example.org/au/leg/dataset/C2004A03231/asmade/>,
+        <http://example.org/au/leg/dataset/C2004A03268/latest/>,
+        <http://example.org/au/leg/dataset/C2004A03280/latest/>,
+        <http://example.org/au/leg/dataset/C2004A03591/asmade/>,
+        <http://example.org/au/leg/dataset/C2004A03596/latest/>,
+        <http://example.org/au/leg/dataset/C2004A04121/latest/>,
+        <http://example.org/au/leg/dataset/C2004A04154/latest/>,
+        <http://example.org/au/leg/dataset/C2004A04501/asmade/>,
+        <http://example.org/au/leg/dataset/C2004A04860/latest/>,
+        <http://example.org/au/leg/dataset/C2004A05097/asmade/>,
+        <http://example.org/au/leg/dataset/C2004A05128/latest/>,
+        <http://example.org/au/leg/dataset/C2004A05138/latest/>,
+        <http://example.org/au/leg/dataset/C2004A05165/asmade/>,
+        <http://example.org/au/leg/dataset/C2005A00147/asmade/>,
+        <http://example.org/au/leg/dataset/C2006A00160/latest/>,
+        <http://example.org/au/leg/dataset/C2006A00169/latest/>,
+        <http://example.org/au/leg/dataset/C2007A00009/asmade/>,
+        <http://example.org/au/leg/dataset/C2007A00056/asmade/>,
+        <http://example.org/au/leg/dataset/C2007A00079/asmade/>,
+        <http://example.org/au/leg/dataset/C2010A00075/latest/>,
+        <http://example.org/au/leg/dataset/C2012A00132/latest/>,
+        <http://example.org/au/leg/dataset/C2013A00052/latest/>,
+        <http://example.org/au/leg/dataset/C2015A00070/latest/>,
+        <http://example.org/au/leg/dataset/C2015A00130/asmade/>,
+        <http://example.org/au/leg/dataset/C2016A00012/asmade/>,
+        <http://example.org/au/leg/dataset/C2016A00056/asmade/>,
+        <http://example.org/au/leg/dataset/C2016A00089/asmade/>,
+        <http://example.org/au/leg/dataset/C2018A00106/asmade/>,
+        <http://example.org/au/leg/dataset/C2019A00037/asmade/>,
+        <http://example.org/au/leg/dataset/C2019A00127/asmade/>,
+        <http://example.org/au/leg/dataset/C2022A00014/asmade/>,
+        <http://example.org/au/leg/dataset/C2023A00069/asmade/>,
+        <http://example.org/au/leg/dataset/C2023A00076/asmade/>,
+        <http://example.org/au/leg/dataset/C2024A00051/asmade/>,
+        <http://example.org/au/leg/dataset/C2024A00058/latest/>,
+        <http://example.org/au/leg/dataset/C2024A00110/asmade/>,
+        <http://example.org/au/leg/dataset/F2001B00274/latest/>,
+        <http://example.org/au/leg/dataset/F2006L00254/latest/>,
+        <http://example.org/au/leg/dataset/F2009L04093/latest/>,
+        <http://example.org/au/leg/dataset/F2015L01592/latest/>,
+        <http://example.org/au/leg/dataset/F2015L01603/latest/>,
+        <http://example.org/au/leg/dataset/F2015L01617/latest/>,
+        <http://example.org/au/leg/dataset/F2015L01621/latest/>,
+        <http://example.org/au/leg/dataset/F2017L00223/latest/>,
+        <http://example.org/au/leg/dataset/F2017L01184/latest/>,
+        <http://example.org/au/leg/dataset/F2017L01474/latest/>,
+        <http://example.org/au/leg/dataset/F2018L01356/latest/>,
+        <http://example.org/au/leg/dataset/F2020L00288/latest/>,
+        <http://example.org/au/leg/dataset/F2020L01173/asmade/>,
+        <http://example.org/au/leg/dataset/F2020L01199/asmade/>,
+        <http://example.org/au/leg/dataset/F2020L01551/asmade/>,
+        <http://example.org/au/leg/dataset/F2020L01555/asmade/>,
+        <http://example.org/au/leg/dataset/F2020L01591/asmade/>,
+        <http://example.org/au/leg/dataset/F2021L01197/latest/>,
+        <http://example.org/au/leg/dataset/F2022L00389/asmade/>,
+        <http://example.org/au/leg/dataset/F2022L01578/asmade/>,
+        <http://example.org/au/leg/dataset/F2023L00457/latest/>,
+        <http://example.org/au/leg/dataset/F2023L00673/asmade/>,
+        <http://example.org/au/leg/dataset/F2023L00715/asmade/>,
+        <http://example.org/au/leg/dataset/F2024L00057/asmade/>,
+        <http://example.org/au/leg/dataset/F2024L01523/asmade/>,
+        <http://example.org/au/leg/dataset/F2025L00276/asmade/>,
+        <http://example.org/au/leg/dataset/F2025L00542/asmade/>,
+        <http://example.org/au/leg/dataset/F2025L00753/latest/>,
+        <http://example.org/au/leg/dataset/F2025L01427/asmade/>,
+        <http://example.org/au/leg/dataset/F2026L00391/asmade/>,
+        <http://example.org/au/leg/dataset/F2026L00590/asmade/>,
+        <http://example.org/au/leg/dataset/F2026L00607/asmade/> ;
+    dcat:themeTaxonomy legcons: ;
+    ocmv:storageUrl <https://github.com/seewodg/auFedLegCat/tree/main/auFedLegCat/catalog> .
+

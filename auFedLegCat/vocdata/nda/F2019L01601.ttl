@@ -1,0 +1,933 @@
+@prefix F2019L01601: <http://example.org/au/leg/dataset/F2019L01601/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2019L01601:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Application of Part 2"@en-AU ;
+    dct:isPartOf F2019L01601:11 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Application of Part 2 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Application of Part 2"@en-AU ;
+    skos:narrower F2019L01601:11 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351187> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351187"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Failure to maintain satisfactory academic progress undergraduate coursework"@en-AU ;
+    dct:isPartOf F2019L01601:13 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Failure to maintain satisfactory academic progress undergraduate coursework - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Failure to maintain satisfactory academic progress undergraduate coursework"@en-AU ;
+    skos:narrower F2019L01601:13 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351189> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351189"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Restoration of good standing undergraduate coursework"@en-AU ;
+    dct:isPartOf F2019L01601:13 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Restoration of good standing undergraduate coursework - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Restoration of good standing undergraduate coursework"@en-AU ;
+    skos:narrower F2019L01601:13 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351190> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351190"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Failure to maintain satisfactory academic progress postgraduate coursework"@en-AU ;
+    dct:isPartOf F2019L01601:13 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Failure to maintain satisfactory academic progress postgraduate coursework - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Failure to maintain satisfactory academic progress postgraduate coursework"@en-AU ;
+    skos:narrower F2019L01601:13 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351191> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351191"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Restoration of good standing postgraduate coursework"@en-AU ;
+    dct:isPartOf F2019L01601:13 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Restoration of good standing postgraduate coursework - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Restoration of good standing postgraduate coursework"@en-AU ;
+    skos:narrower F2019L01601:13 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351192> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351192"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Repeated failures in same course undergraduate coursework"@en-AU ;
+    dct:isPartOf F2019L01601:18 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Repeated failures in same course undergraduate coursework - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Repeated failures in same course undergraduate coursework"@en-AU ;
+    skos:narrower F2019L01601:18 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351194> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351194"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 Name"@en-AU ;
+    dct:isPartOf F2019L01601:1 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Name - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "Name"@en-AU ;
+    skos:narrower F2019L01601:1 ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351177> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351177"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Repeated failures in same course postgraduate coursework"@en-AU ;
+    dct:isPartOf F2019L01601:18 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Repeated failures in same course postgraduate coursework - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Repeated failures in same course postgraduate coursework"@en-AU ;
+    skos:narrower F2019L01601:18 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351195> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351195"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Failure to achieve results at required level undergraduate coursework"@en-AU ;
+    dct:isPartOf F2019L01601:21 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Failure to achieve results at required level undergraduate coursework - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Failure to achieve results at required level undergraduate coursework"@en-AU ;
+    skos:narrower F2019L01601:21 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351197> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351197"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Failure to achieve results at required level postgraduate coursework"@en-AU ;
+    dct:isPartOf F2019L01601:21 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Failure to achieve results at required level postgraduate coursework - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Failure to achieve results at required level postgraduate coursework"@en-AU ;
+    skos:narrower F2019L01601:21 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351198> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351198"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Contravention of committee conditions undergraduate coursework"@en-AU ;
+    dct:isPartOf F2019L01601:24 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Contravention of committee conditions undergraduate coursework - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Contravention of committee conditions undergraduate coursework"@en-AU ;
+    skos:narrower F2019L01601:24 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351200> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351200"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Contravention of committee conditions postgraduate coursework"@en-AU ;
+    dct:isPartOf F2019L01601:24 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Contravention of committee conditions postgraduate coursework - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Contravention of committee conditions postgraduate coursework"@en-AU ;
+    skos:narrower F2019L01601:24 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351201> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351201"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Application of Part 3"@en-AU ;
+    dct:isPartOf F2019L01601:27 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Application of Part 3 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Application of Part 3"@en-AU ;
+    skos:narrower F2019L01601:27 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351203> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351203"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Academic progress required for medical programs"@en-AU ;
+    dct:isPartOf F2019L01601:27 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Academic progress required for medical programs - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Academic progress required for medical programs"@en-AU ;
+    skos:narrower F2019L01601:27 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351204> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351204"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 Commencement"@en-AU ;
+    dct:isPartOf F2019L01601:1 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Commencement - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "Commencement"@en-AU ;
+    skos:narrower F2019L01601:1 ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351178> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351178"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Application of Division 41"@en-AU ;
+    dct:isPartOf F2019L01601:31 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Application of Division 41 - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Application of Division 41"@en-AU ;
+    skos:narrower F2019L01601:31 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351207> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351207"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Establishment of Academic Progress Committee etc"@en-AU ;
+    dct:isPartOf F2019L01601:31 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Establishment of Academic Progress Committee etc - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Establishment of Academic Progress Committee etc"@en-AU ;
+    skos:narrower F2019L01601:31 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351208> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351208"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Exclusion decision appeal to Academic Progress Committee"@en-AU ;
+    dct:isPartOf F2019L01601:31 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Exclusion decision appeal to Academic Progress Committee - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Exclusion decision appeal to Academic Progress Committee"@en-AU ;
+    skos:narrower F2019L01601:31 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351209> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351209"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Exclusion appeal hearing and decision"@en-AU ;
+    dct:isPartOf F2019L01601:31 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Exclusion appeal hearing and decision - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Exclusion appeal hearing and decision"@en-AU ;
+    skos:narrower F2019L01601:31 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351210> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351210"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 Exclusion appeal decision procedural appeal to Deputy ViceChancellor"@en-AU ;
+    dct:isPartOf F2019L01601:31 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Exclusion appeal decision procedural appeal to Deputy ViceChancellor - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "Exclusion appeal decision procedural appeal to Deputy ViceChancellor"@en-AU ;
+    skos:narrower F2019L01601:31 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351211> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351211"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Exclusion appeal decision procedural appeal hearing and decision"@en-AU ;
+    dct:isPartOf F2019L01601:31 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Exclusion appeal decision procedural appeal hearing and decision - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Exclusion appeal decision procedural appeal hearing and decision"@en-AU ;
+    skos:narrower F2019L01601:31 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351212> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351212"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 Review of exclusion decisions"@en-AU ;
+    dct:isPartOf F2019L01601:31 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Review of exclusion decisions - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "Review of exclusion decisions"@en-AU ;
+    skos:narrower F2019L01601:31 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351213> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351213"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 Authority"@en-AU ;
+    dct:isPartOf F2019L01601:1 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Authority - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "Authority"@en-AU ;
+    skos:narrower F2019L01601:1 ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351179> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351179"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 Transfer decision application for review by Associate Dean"@en-AU ;
+    dct:isPartOf F2019L01601:39 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Transfer decision application for review by Associate Dean - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "Transfer decision application for review by Associate Dean"@en-AU ;
+    skos:narrower F2019L01601:39 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351215> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351215"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 Transfer decision review by Associate Dean"@en-AU ;
+    dct:isPartOf F2019L01601:39 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Transfer decision review by Associate Dean - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "Transfer decision review by Associate Dean"@en-AU ;
+    skos:narrower F2019L01601:39 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351216> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351216"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 Transfer decision application for procedural review by Deputy ViceChancellor"@en-AU ;
+    dct:isPartOf F2019L01601:39 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Transfer decision application for procedural review by Deputy ViceChancellor - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "Transfer decision application for procedural review by Deputy ViceChancellor"@en-AU ;
+    skos:narrower F2019L01601:39 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351217> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351217"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:43 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I43 Transfer decision procedural review by Deputy ViceChancellor"@en-AU ;
+    dct:isPartOf F2019L01601:39 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Transfer decision procedural review by Deputy ViceChancellor - Abrievated Graph Key: I43"@en-AU ;
+    skos:definition "Transfer decision procedural review by Deputy ViceChancellor"@en-AU ;
+    skos:narrower F2019L01601:39 ;
+    skos:prefLabel "Item I43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351218> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351218"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:45 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I45 Effect of exclusion"@en-AU ;
+    dct:isPartOf F2019L01601:44 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Effect of exclusion - Abrievated Graph Key: I45"@en-AU ;
+    skos:definition "Effect of exclusion"@en-AU ;
+    skos:narrower F2019L01601:44 ;
+    skos:prefLabel "Item I45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351220> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351220"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:46 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I46 Appointment of Delegated Authorities"@en-AU ;
+    dct:isPartOf F2019L01601:44 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Appointment of Delegated Authorities - Abrievated Graph Key: I46"@en-AU ;
+    skos:definition "Appointment of Delegated Authorities"@en-AU ;
+    skos:narrower F2019L01601:44 ;
+    skos:prefLabel "Item I46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351221> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351221"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:47 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I47 Delegated Authorities double degree programs"@en-AU ;
+    dct:isPartOf F2019L01601:44 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Delegated Authorities double degree programs - Abrievated Graph Key: I47"@en-AU ;
+    skos:definition "Delegated Authorities double degree programs"@en-AU ;
+    skos:narrower F2019L01601:44 ;
+    skos:prefLabel "Item I47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351222> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351222"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:48 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I48 Associate Deans double degree programs"@en-AU ;
+    dct:isPartOf F2019L01601:44 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Associate Deans double degree programs - Abrievated Graph Key: I48"@en-AU ;
+    skos:definition "Associate Deans double degree programs"@en-AU ;
+    skos:narrower F2019L01601:44 ;
+    skos:prefLabel "Item I48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351223> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351223"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:49 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I49 Approved forms"@en-AU ;
+    dct:isPartOf F2019L01601:44 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Approved forms - Abrievated Graph Key: I49"@en-AU ;
+    skos:definition "Approved forms"@en-AU ;
+    skos:narrower F2019L01601:44 ;
+    skos:prefLabel "Item I49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351224> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351224"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Definitions"@en-AU ;
+    dct:isPartOf F2019L01601:1 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Definitions - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Definitions"@en-AU ;
+    skos:narrower F2019L01601:1 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351180> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351180"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:50 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I50 Delegation by ViceChancellor"@en-AU ;
+    dct:isPartOf F2019L01601:44 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Delegation by ViceChancellor - Abrievated Graph Key: I50"@en-AU ;
+    skos:definition "Delegation by ViceChancellor"@en-AU ;
+    skos:narrower F2019L01601:44 ;
+    skos:prefLabel "Item I50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351225> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351225"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:51 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I51 Delegation by Registrar"@en-AU ;
+    dct:isPartOf F2019L01601:44 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Delegation by Registrar - Abrievated Graph Key: I51"@en-AU ;
+    skos:definition "Delegation by Registrar"@en-AU ;
+    skos:narrower F2019L01601:44 ;
+    skos:prefLabel "Item I51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351226> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351226"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:52 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I52 Service of notices etc"@en-AU ;
+    dct:isPartOf F2019L01601:44 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Service of notices etc - Abrievated Graph Key: I52"@en-AU ;
+    skos:definition "Service of notices etc"@en-AU ;
+    skos:narrower F2019L01601:44 ;
+    skos:prefLabel "Item I52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351227> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351227"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:54 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I54 Repeals"@en-AU ;
+    dct:isPartOf F2019L01601:53 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Repeals - Abrievated Graph Key: I54"@en-AU ;
+    skos:definition "Repeals"@en-AU ;
+    skos:narrower F2019L01601:53 ;
+    skos:prefLabel "Item I54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351229> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351229"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:55 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I55 Transitional application of instrument to existing programs etc"@en-AU ;
+    dct:isPartOf F2019L01601:53 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Transitional application of instrument to existing programs etc - Abrievated Graph Key: I55"@en-AU ;
+    skos:definition "Transitional application of instrument to existing programs etc"@en-AU ;
+    skos:narrower F2019L01601:53 ;
+    skos:prefLabel "Item I55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351230> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351230"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:56 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I56 Transitional modifications on student application"@en-AU ;
+    dct:isPartOf F2019L01601:53 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Transitional modifications on student application - Abrievated Graph Key: I56"@en-AU ;
+    skos:definition "Transitional modifications on student application"@en-AU ;
+    skos:narrower F2019L01601:53 ;
+    skos:prefLabel "Item I56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351231> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351231"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:57 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I57 Transitional orders"@en-AU ;
+    dct:isPartOf F2019L01601:53 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Transitional orders - Abrievated Graph Key: I57"@en-AU ;
+    skos:definition "Transitional orders"@en-AU ;
+    skos:narrower F2019L01601:53 ;
+    skos:prefLabel "Item I57"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351232> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351232"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:58 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I58 Transitional provisions additional etc"@en-AU ;
+    dct:isPartOf F2019L01601:53 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Transitional provisions additional etc - Abrievated Graph Key: I58"@en-AU ;
+    skos:definition "Transitional provisions additional etc"@en-AU ;
+    skos:narrower F2019L01601:53 ;
+    skos:prefLabel "Item I58"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351233> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351233"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Application of instrument"@en-AU ;
+    dct:isPartOf F2019L01601:1 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Application of instrument - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Application of instrument"@en-AU ;
+    skos:narrower F2019L01601:1 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351181> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351181"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Equivalent courses"@en-AU ;
+    dct:isPartOf F2019L01601:1 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Equivalent courses - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Equivalent courses"@en-AU ;
+    skos:narrower F2019L01601:1 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351182> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351182"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Joint double or dual programs with other institutions etc"@en-AU ;
+    dct:isPartOf F2019L01601:1 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Joint double or dual programs with other institutions etc - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Joint double or dual programs with other institutions etc"@en-AU ;
+    skos:narrower F2019L01601:1 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351183> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351183"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Consistent and fair application of instrument"@en-AU ;
+    dct:isPartOf F2019L01601:1 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Consistent and fair application of instrument - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Consistent and fair application of instrument"@en-AU ;
+    skos:narrower F2019L01601:1 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351184> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351184"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Application"@en-AU ;
+    dct:hasPart F2019L01601:12 ;
+    dct:isPartOf F2019L01601:10 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Application - Abrievated Graph Key: I11"@en-AU ;
+    skos:broader F2019L01601:12 ;
+    skos:definition "Application"@en-AU ;
+    skos:narrower F2019L01601:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351186> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351186"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Academic progress rules medical programs"@en-AU ;
+    dct:hasPart F2019L01601:28,
+        F2019L01601:29 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Academic progress rules medical programs - Abrievated Graph Key: I27"@en-AU ;
+    skos:broader F2019L01601:28,
+        F2019L01601:29 ;
+    skos:definition "Academic progress rules medical programs"@en-AU ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351202> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351202"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Academic progress appeals and reviews"@en-AU ;
+    dct:hasPart F2019L01601:31,
+        F2019L01601:39 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Academic progress appeals and reviews - Abrievated Graph Key: I30"@en-AU ;
+    skos:broader F2019L01601:31,
+        F2019L01601:39 ;
+    skos:definition "Academic progress appeals and reviews"@en-AU ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351205> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351205"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Repeated failures in same course"@en-AU ;
+    dct:hasPart F2019L01601:19,
+        F2019L01601:20 ;
+    dct:isPartOf F2019L01601:10 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Repeated failures in same course - Abrievated Graph Key: I18"@en-AU ;
+    skos:broader F2019L01601:19,
+        F2019L01601:20 ;
+    skos:definition "Repeated failures in same course"@en-AU ;
+    skos:narrower F2019L01601:10 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351193> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351193"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Failure to achieve results at required level"@en-AU ;
+    dct:hasPart F2019L01601:22,
+        F2019L01601:23 ;
+    dct:isPartOf F2019L01601:10 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Failure to achieve results at required level - Abrievated Graph Key: I21"@en-AU ;
+    skos:broader F2019L01601:22,
+        F2019L01601:23 ;
+    skos:definition "Failure to achieve results at required level"@en-AU ;
+    skos:narrower F2019L01601:10 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351196> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351196"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Contravention of Academic Progress Committee conditions"@en-AU ;
+    dct:hasPart F2019L01601:25,
+        F2019L01601:26 ;
+    dct:isPartOf F2019L01601:10 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Contravention of Academic Progress Committee conditions - Abrievated Graph Key: I24"@en-AU ;
+    skos:broader F2019L01601:25,
+        F2019L01601:26 ;
+    skos:definition "Contravention of Academic Progress Committee conditions"@en-AU ;
+    skos:narrower F2019L01601:10 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351199> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351199"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Academic progress rules programs other than medical programs"@en-AU ;
+    dct:hasPart F2019L01601:11,
+        F2019L01601:13,
+        F2019L01601:18,
+        F2019L01601:21,
+        F2019L01601:24 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Academic progress rules programs other than medical programs - Abrievated Graph Key: I10"@en-AU ;
+    skos:broader F2019L01601:11,
+        F2019L01601:13,
+        F2019L01601:18,
+        F2019L01601:21,
+        F2019L01601:24 ;
+    skos:definition "Academic progress rules programs other than medical programs"@en-AU ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351185> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351185"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Failure to maintain satisfactory academic progress"@en-AU ;
+    dct:hasPart F2019L01601:14,
+        F2019L01601:15,
+        F2019L01601:16,
+        F2019L01601:17 ;
+    dct:isPartOf F2019L01601:10 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Failure to maintain satisfactory academic progress - Abrievated Graph Key: I13"@en-AU ;
+    skos:broader F2019L01601:14,
+        F2019L01601:15,
+        F2019L01601:16,
+        F2019L01601:17 ;
+    skos:definition "Failure to maintain satisfactory academic progress"@en-AU ;
+    skos:narrower F2019L01601:10 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351188> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351188"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 Transfer decisions"@en-AU ;
+    dct:hasPart F2019L01601:40,
+        F2019L01601:41,
+        F2019L01601:42,
+        F2019L01601:43 ;
+    dct:isPartOf F2019L01601:30 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Transfer decisions - Abrievated Graph Key: I39"@en-AU ;
+    skos:broader F2019L01601:40,
+        F2019L01601:41,
+        F2019L01601:42,
+        F2019L01601:43 ;
+    skos:definition "Transfer decisions"@en-AU ;
+    skos:narrower F2019L01601:30 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351214> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351214"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:53 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I53 Repeals and transitional"@en-AU ;
+    dct:hasPart F2019L01601:54,
+        F2019L01601:55,
+        F2019L01601:56,
+        F2019L01601:57,
+        F2019L01601:58 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Repeals and transitional - Abrievated Graph Key: I53"@en-AU ;
+    skos:broader F2019L01601:54,
+        F2019L01601:55,
+        F2019L01601:56,
+        F2019L01601:57,
+        F2019L01601:58 ;
+    skos:definition "Repeals and transitional"@en-AU ;
+    skos:prefLabel "Item I53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351228> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351228"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 Preliminary"@en-AU ;
+    dct:hasPart F2019L01601:2,
+        F2019L01601:3,
+        F2019L01601:4,
+        F2019L01601:5,
+        F2019L01601:6,
+        F2019L01601:7,
+        F2019L01601:8,
+        F2019L01601:9 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Preliminary - Abrievated Graph Key: I1"@en-AU ;
+    skos:broader F2019L01601:2,
+        F2019L01601:3,
+        F2019L01601:4,
+        F2019L01601:5,
+        F2019L01601:6,
+        F2019L01601:7,
+        F2019L01601:8,
+        F2019L01601:9 ;
+    skos:definition "Preliminary"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351176> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351176"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Exclusion decisions"@en-AU ;
+    dct:hasPart F2019L01601:32,
+        F2019L01601:33,
+        F2019L01601:34,
+        F2019L01601:35,
+        F2019L01601:36,
+        F2019L01601:37,
+        F2019L01601:38 ;
+    dct:isPartOf F2019L01601:30 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Exclusion decisions - Abrievated Graph Key: I31"@en-AU ;
+    skos:broader F2019L01601:32,
+        F2019L01601:33,
+        F2019L01601:34,
+        F2019L01601:35,
+        F2019L01601:36,
+        F2019L01601:37,
+        F2019L01601:38 ;
+    skos:definition "Exclusion decisions"@en-AU ;
+    skos:narrower F2019L01601:30 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351206> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351206"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 Miscellaneous"@en-AU ;
+    dct:hasPart F2019L01601:45,
+        F2019L01601:46,
+        F2019L01601:47,
+        F2019L01601:48,
+        F2019L01601:49,
+        F2019L01601:50,
+        F2019L01601:51,
+        F2019L01601:52 ;
+    dct:isReferencedBy F2019L01601: ;
+    rdfs:comment "Miscellaneous - Abrievated Graph Key: I44"@en-AU ;
+    skos:broader F2019L01601:45,
+        F2019L01601:46,
+        F2019L01601:47,
+        F2019L01601:48,
+        F2019L01601:49,
+        F2019L01601:50,
+        F2019L01601:51,
+        F2019L01601:52 ;
+    skos:definition "Miscellaneous"@en-AU ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351219> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2019L01601/asmade/2019-12-09/text/original/epub/OEBPS/document_1/document_1.html#_Toc26351219"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2019L01601: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Academic Progress Rule 2019" ;
+    dct:Jurisdiction " Department of Education "@en-AU ;
+    dct:created "2026-05-27T17:56:06.089369"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2019-12-09T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Academic Progress Rule 2019"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2019L01601/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Academic Progress Rule 2019"@en-AU ;
+    dct:title "Academic Progress Rule 2019"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item ;
+    schema:status "In force" ;
+    schema:version "F2019L01601" .
+

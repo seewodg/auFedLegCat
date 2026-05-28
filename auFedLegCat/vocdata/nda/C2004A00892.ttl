@@ -1,0 +1,578 @@
+@prefix C2004A00892: <http://example.org/au/leg/dataset/C2004A00892/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A00892:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109805991> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109805991"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109805992> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109805992"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Commonwealth Serum Laboratories Act 1961"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Commonwealth Serum Laboratories Act 1961 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Commonwealth Serum Laboratories Act 1961"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806009> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806009"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806010> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806010"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Corporations Futures Organisations Levies Act 2001"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Corporations Futures Organisations Levies Act 2001 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Corporations Futures Organisations Levies Act 2001"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806060> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806060"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Corporations Securities Exchanges Levies Act 2001"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Corporations Securities Exchanges Levies Act 2001 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Corporations Securities Exchanges Levies Act 2001"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806061> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806061"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Financial Transaction Reports Act 1988"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Financial Transaction Reports Act 1988 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Financial Transaction Reports Act 1988"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806062> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806062"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Fringe Benefits Tax Assessment Act 1986 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806063> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806063"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806064> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806064"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Insurance Act 1973"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Insurance Act 1973 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Insurance Act 1973"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806065> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806065"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Insurance Agents and Brokers Act 1984"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Insurance Agents and Brokers Act 1984 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Insurance Agents and Brokers Act 1984"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806066> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806066"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Insurance Contracts Act 1984"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Insurance Contracts Act 1984 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Insurance Contracts Act 1984"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806067> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806067"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Interactive Gambling Act 2001"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Interactive Gambling Act 2001 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Interactive Gambling Act 2001"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806068> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806068"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Life Insurance Act 1995"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Life Insurance Act 1995 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Life Insurance Act 1995"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806069> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806069"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Marine Insurance Act 1909"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Marine Insurance Act 1909 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Marine Insurance Act 1909"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806070> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806070"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Payment Systems and Netting Act 1998"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Payment Systems and Netting Act 1998 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Payment Systems and Netting Act 1998"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806071> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806071"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Retirement Savings Accounts Act 1997"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Retirement Savings Accounts Act 1997 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Retirement Savings Accounts Act 1997"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806072> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806072"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Superannuation Guarantee Administration Act 1992"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Superannuation Guarantee Administration Act 1992 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Superannuation Guarantee Administration Act 1992"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806073> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806073"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806074> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806074"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Superannuation Legislation Amendment Choice of Superannuation Funds Act 2001"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Superannuation Legislation Amendment Choice of Superannuation Funds Act 2001 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Superannuation Legislation Amendment Choice of Superannuation Funds Act 2001"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806077> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806077"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Superannuation Resolution of Complaints Act 1993"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Superannuation Resolution of Complaints Act 1993 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Superannuation Resolution of Complaints Act 1993"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806078> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806078"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Telstra Corporation Act 1991"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Telstra Corporation Act 1991 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Telstra Corporation Act 1991"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806079> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806079"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Trade Practices Act 1974"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Trade Practices Act 1974 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Trade Practices Act 1974"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806080> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806080"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Treasury Legislation Amendment Application of Criminal Code Act No 1 2001"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Treasury Legislation Amendment Application of Criminal Code Act No 1 2001 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Treasury Legislation Amendment Application of Criminal Code Act No 1 2001"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806081> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806081"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Financial Sector Collection of DataConsequential and Transitional Provisions Act 2001"@en-AU ;
+    dct:isPartOf C2004A00892:32 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Financial Sector Collection of DataConsequential and Transitional Provisions Act 2001 - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Financial Sector Collection of DataConsequential and Transitional Provisions Act 2001"@en-AU ;
+    skos:narrower C2004A00892:32 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806083> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806083"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Retirement Savings Accounts Act 1997"@en-AU ;
+    dct:isPartOf C2004A00892:32 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Retirement Savings Accounts Act 1997 - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Retirement Savings Accounts Act 1997"@en-AU ;
+    skos:narrower C2004A00892:32 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806084> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806084"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2004A00892:32 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2004A00892:32 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806085> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806085"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Administrative Decisions Judicial Review Act 1977"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Administrative Decisions Judicial Review Act 1977 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Administrative Decisions Judicial Review Act 1977"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109805995> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109805995"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Administrative Review Tribunal Consequential and Transitional Provisions Act 2001"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Administrative Review Tribunal Consequential and Transitional Provisions Act 2001 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Administrative Review Tribunal Consequential and Transitional Provisions Act 2001"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109805996> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109805996"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Australian Industry Development Corporation Act 1970"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Australian Industry Development Corporation Act 1970 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Australian Industry Development Corporation Act 1970"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109805997> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109805997"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Australian Securities and Investments Commission Act 2001"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Australian Securities and Investments Commission Act 2001 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Australian Securities and Investments Commission Act 2001"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109805998> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109805998"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Bankruptcy Act 1966"@en-AU ;
+    dct:isPartOf C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Bankruptcy Act 1966 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Bankruptcy Act 1966"@en-AU ;
+    skos:narrower C2004A00892:4 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806008> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806008"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A00892:32,
+        C2004A00892:4 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A00892:32,
+        C2004A00892:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109805993> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109805993"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00892:32 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S32 Schedule 2 Amendments related to possible delayed commencement of Parts 5 and 6 of Schedule 2 to the Financial Sector Collection of DataConsequential and Transitional Provisions Act 2001"@en-AU ;
+    dct:hasPart C2004A00892:33,
+        C2004A00892:34,
+        C2004A00892:35 ;
+    dct:isPartOf C2004A00892:3 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Schedule 2 Amendments related to possible delayed commencement of Parts 5 and 6 of Schedule 2 to the Financial Sector Collection of DataConsequential and Transitional Provisions Act 2001 - Abrievated Graph Key: S32"@en-AU ;
+    skos:broader C2004A00892:33,
+        C2004A00892:34,
+        C2004A00892:35 ;
+    skos:definition "Schedule 2 Amendments related to possible delayed commencement of Parts 5 and 6 of Schedule 2 to the Financial Sector Collection of DataConsequential and Transitional Provisions Act 2001"@en-AU ;
+    skos:narrower C2004A00892:3 ;
+    skos:prefLabel "Schedule S32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806082> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806082"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00892: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Financial Services Reform (Consequential Provisions) Act 2001" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-27T17:13:09.649169"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2002-03-11T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Financial Services Reform (Consequential Provisions) Act 2001"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A00892/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Financial Services Reform (Consequential Provisions) Act 2001"@en-AU ;
+    dct:title "Financial Services Reform (Consequential Provisions) Act 2001"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2005C00499 C01" .
+
+C2004A00892:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments and repeals"@en-AU ;
+    dct:hasPart C2004A00892:10,
+        C2004A00892:11,
+        C2004A00892:12,
+        C2004A00892:13,
+        C2004A00892:14,
+        C2004A00892:15,
+        C2004A00892:16,
+        C2004A00892:17,
+        C2004A00892:18,
+        C2004A00892:19,
+        C2004A00892:20,
+        C2004A00892:21,
+        C2004A00892:22,
+        C2004A00892:23,
+        C2004A00892:24,
+        C2004A00892:25,
+        C2004A00892:26,
+        C2004A00892:27,
+        C2004A00892:28,
+        C2004A00892:29,
+        C2004A00892:30,
+        C2004A00892:31,
+        C2004A00892:5,
+        C2004A00892:6,
+        C2004A00892:7,
+        C2004A00892:8,
+        C2004A00892:9 ;
+    dct:isPartOf C2004A00892:3 ;
+    dct:isReferencedBy C2004A00892: ;
+    rdfs:comment "Schedule 1 Amendments and repeals - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A00892:10,
+        C2004A00892:11,
+        C2004A00892:12,
+        C2004A00892:13,
+        C2004A00892:14,
+        C2004A00892:15,
+        C2004A00892:16,
+        C2004A00892:17,
+        C2004A00892:18,
+        C2004A00892:19,
+        C2004A00892:20,
+        C2004A00892:21,
+        C2004A00892:22,
+        C2004A00892:23,
+        C2004A00892:24,
+        C2004A00892:25,
+        C2004A00892:26,
+        C2004A00892:27,
+        C2004A00892:28,
+        C2004A00892:29,
+        C2004A00892:30,
+        C2004A00892:31,
+        C2004A00892:5,
+        C2004A00892:6,
+        C2004A00892:7,
+        C2004A00892:8,
+        C2004A00892:9 ;
+    skos:definition "Schedule 1 Amendments and repeals"@en-AU ;
+    skos:narrower C2004A00892:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109805994> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00892/2002-03-11/2002-03-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc109805994"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+

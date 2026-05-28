@@ -1,0 +1,740 @@
+@prefix C2010A00003: <http://example.org/au/leg/dataset/C2010A00003/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2010A00003:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title see Note 1"@en-AU ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "1  Short title see Note 1 - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title see Note 1"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663156> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663156"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00003:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663157> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663157"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00003:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Proceeds of Crime Act 2002"@en-AU ;
+    dct:isPartOf C2010A00003:12 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Proceeds of Crime Act 2002 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Proceeds of Crime Act 2002"@en-AU ;
+    skos:narrower C2010A00003:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663202> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663202"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00003:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Crimes Act 1914"@en-AU ;
+    dct:isPartOf C2010A00003:14 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Crimes Act 1914 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Crimes Act 1914"@en-AU ;
+    skos:narrower C2010A00003:14 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663228> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663228"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00003:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2010A00003:14 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2010A00003:14 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663229> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663229"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00003:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Proceeds of Crime Act 2002"@en-AU ;
+    dct:isPartOf C2010A00003:17 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Proceeds of Crime Act 2002 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Proceeds of Crime Act 2002"@en-AU ;
+    skos:narrower C2010A00003:17 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663231> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663231"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00003:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Proceeds of Crime Act 2002"@en-AU ;
+    dct:isPartOf C2010A00003:19 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Proceeds of Crime Act 2002 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Proceeds of Crime Act 2002"@en-AU ;
+    skos:narrower C2010A00003:19 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663234> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663234"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00003:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Proceeds of Crime Act 2002"@en-AU ;
+    dct:isPartOf C2010A00003:21 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Proceeds of Crime Act 2002 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Proceeds of Crime Act 2002"@en-AU ;
+    skos:narrower C2010A00003:21 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663236> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663236"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00003:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Proceeds of Crime Act 2002"@en-AU ;
+    dct:isPartOf C2010A00003:23 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Proceeds of Crime Act 2002 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Proceeds of Crime Act 2002"@en-AU ;
+    skos:narrower C2010A00003:23 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663240> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663240"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00003:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Proceeds of Crime Act 2002"@en-AU ;
+    dct:isPartOf C2010A00003:25 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Proceeds of Crime Act 2002 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Proceeds of Crime Act 2002"@en-AU ;
+    skos:narrower C2010A00003:25 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663242> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663242"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00003:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Proceeds of Crime Act 2002"@en-AU ;
+    dct:isPartOf C2010A00003:27 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Proceeds of Crime Act 2002 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Proceeds of Crime Act 2002"@en-AU ;
+    skos:narrower C2010A00003:27 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663244> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663244"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00003:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Crimes Act 1914"@en-AU ;
+    dct:isPartOf C2010A00003:30 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Crimes Act 1914 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Crimes Act 1914"@en-AU ;
+    skos:narrower C2010A00003:30 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663247> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663247"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00003:32 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P32 Part 2 Provisions relating to precommencement authorisations under State controlled operations law"@en-AU ;
+    dct:isPartOf C2010A00003:29 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Part 2 Provisions relating to precommencement authorisations under State controlled operations law - Abrievated Graph Key: P32"@en-AU ;
+    skos:definition "Part 2 Provisions relating to precommencement authorisations under State controlled operations law"@en-AU ;
+    skos:narrower C2010A00003:29 ;
+    skos:prefLabel "Part P32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663390> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663390"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00003:33 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P33 Part 3 General application and transitional provisions"@en-AU ;
+    dct:isPartOf C2010A00003:29 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Part 3 General application and transitional provisions - Abrievated Graph Key: P33"@en-AU ;
+    skos:definition "Part 3 General application and transitional provisions"@en-AU ;
+    skos:narrower C2010A00003:29 ;
+    skos:prefLabel "Part P33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663391> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663391"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00003:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2010A00003:34 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2010A00003:34 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663393> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663393"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00003:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 Criminal Code Act 1995"@en-AU ;
+    dct:isPartOf C2010A00003:37 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Criminal Code Act 1995 - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "Criminal Code Act 1995"@en-AU ;
+    skos:narrower C2010A00003:37 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663396> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663396"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00003:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 Telecommunications Interception and Access Act 1979"@en-AU ;
+    dct:isPartOf C2010A00003:40 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Telecommunications Interception and Access Act 1979 - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "Telecommunications Interception and Access Act 1979"@en-AU ;
+    skos:narrower C2010A00003:40 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663400> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663400"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00003:43 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I43 Telecommunications Interception and Access Act 1979"@en-AU ;
+    dct:isPartOf C2010A00003:42 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Telecommunications Interception and Access Act 1979 - Abrievated Graph Key: I43"@en-AU ;
+    skos:definition "Telecommunications Interception and Access Act 1979"@en-AU ;
+    skos:narrower C2010A00003:42 ;
+    skos:prefLabel "Item I43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663402> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663402"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00003:44 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P44 Part 3 Regulations"@en-AU ;
+    dct:isPartOf C2010A00003:36 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Part 3 Regulations - Abrievated Graph Key: P44"@en-AU ;
+    skos:definition "Part 3 Regulations"@en-AU ;
+    skos:narrower C2010A00003:36 ;
+    skos:prefLabel "Part P44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663403> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663403"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00003:45 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I45 Notes to the   STYLEREF ShortT  MERGEFORMAT  Crimes Legislation Amendment Serious and Organised Crime Act 2010"@en-AU ;
+    dct:isPartOf C2010A00003:3 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Notes to the   STYLEREF ShortT  MERGEFORMAT  Crimes Legislation Amendment Serious and Organised Crime Act 2010 - Abrievated Graph Key: I45"@en-AU ;
+    skos:definition "Notes to the   STYLEREF ShortT  MERGEFORMAT  Crimes Legislation Amendment Serious and Organised Crime Act 2010"@en-AU ;
+    skos:narrower C2010A00003:3 ;
+    skos:prefLabel "Item I45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663404> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663404"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00003:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Proceeds of Crime Act 2002"@en-AU ;
+    dct:isPartOf C2010A00003:5 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Proceeds of Crime Act 2002 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Proceeds of Crime Act 2002"@en-AU ;
+    skos:narrower C2010A00003:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663161> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663161"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00003:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Bankruptcy Act 1966"@en-AU ;
+    dct:isPartOf C2010A00003:7 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Bankruptcy Act 1966 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Bankruptcy Act 1966"@en-AU ;
+    skos:narrower C2010A00003:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663197> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663197"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00003:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Crimes Act 1914"@en-AU ;
+    dct:isPartOf C2010A00003:7 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Crimes Act 1914 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Crimes Act 1914"@en-AU ;
+    skos:narrower C2010A00003:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663198> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663198"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00003:12 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D12 Division 1 Main amendments"@en-AU ;
+    dct:hasPart C2010A00003:13 ;
+    dct:isPartOf C2010A00003:11 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Division 1 Main amendments - Abrievated Graph Key: D12"@en-AU ;
+    skos:broader C2010A00003:13 ;
+    skos:definition "Division 1 Main amendments"@en-AU ;
+    skos:narrower C2010A00003:11 ;
+    skos:prefLabel "Division D12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663201> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663201"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2010A00003:17 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P17 Part 2 Removal of 6 year time limit"@en-AU ;
+    dct:hasPart C2010A00003:18 ;
+    dct:isPartOf C2010A00003:10 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Part 2 Removal of 6 year time limit - Abrievated Graph Key: P17"@en-AU ;
+    skos:broader C2010A00003:18 ;
+    skos:definition "Part 2 Removal of 6 year time limit"@en-AU ;
+    skos:narrower C2010A00003:10 ;
+    skos:prefLabel "Part P17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663230> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663230"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00003:19 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P19 Part 3 Confiscation scheme and instruments of serious offences"@en-AU ;
+    dct:hasPart C2010A00003:20 ;
+    dct:isPartOf C2010A00003:10 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Part 3 Confiscation scheme and instruments of serious offences - Abrievated Graph Key: P19"@en-AU ;
+    skos:broader C2010A00003:20 ;
+    skos:definition "Part 3 Confiscation scheme and instruments of serious offences"@en-AU ;
+    skos:narrower C2010A00003:10 ;
+    skos:prefLabel "Part P19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663233> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663233"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00003:21 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P21 Part 4 Disclosure of information"@en-AU ;
+    dct:hasPart C2010A00003:22 ;
+    dct:isPartOf C2010A00003:10 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Part 4 Disclosure of information - Abrievated Graph Key: P21"@en-AU ;
+    skos:broader C2010A00003:22 ;
+    skos:definition "Part 4 Disclosure of information"@en-AU ;
+    skos:narrower C2010A00003:10 ;
+    skos:prefLabel "Part P21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663235> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663235"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00003:23 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P23 Part 5 Legal aid costs"@en-AU ;
+    dct:hasPart C2010A00003:24 ;
+    dct:isPartOf C2010A00003:10 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Part 5 Legal aid costs - Abrievated Graph Key: P23"@en-AU ;
+    skos:broader C2010A00003:24 ;
+    skos:definition "Part 5 Legal aid costs"@en-AU ;
+    skos:narrower C2010A00003:10 ;
+    skos:prefLabel "Part P23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663239> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663239"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00003:25 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P25 Part 6 Technical amendments"@en-AU ;
+    dct:hasPart C2010A00003:26 ;
+    dct:isPartOf C2010A00003:10 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Part 6 Technical amendments - Abrievated Graph Key: P25"@en-AU ;
+    skos:broader C2010A00003:26 ;
+    skos:definition "Part 6 Technical amendments"@en-AU ;
+    skos:narrower C2010A00003:10 ;
+    skos:prefLabel "Part P25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663241> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663241"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00003:27 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P27 Part 7 Other amendments"@en-AU ;
+    dct:hasPart C2010A00003:28 ;
+    dct:isPartOf C2010A00003:10 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Part 7 Other amendments - Abrievated Graph Key: P27"@en-AU ;
+    skos:broader C2010A00003:28 ;
+    skos:definition "Part 7 Other amendments"@en-AU ;
+    skos:narrower C2010A00003:10 ;
+    skos:prefLabel "Part P27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663243> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663243"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00003:30 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P30 Part 1 Main amendments"@en-AU ;
+    dct:hasPart C2010A00003:31 ;
+    dct:isPartOf C2010A00003:29 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P30"@en-AU ;
+    skos:broader C2010A00003:31 ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2010A00003:29 ;
+    skos:prefLabel "Part P30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663246> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663246"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00003:34 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P34 Part 4 Consequential amendment"@en-AU ;
+    dct:hasPart C2010A00003:35 ;
+    dct:isPartOf C2010A00003:29 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Part 4 Consequential amendment - Abrievated Graph Key: P34"@en-AU ;
+    skos:broader C2010A00003:35 ;
+    skos:definition "Part 4 Consequential amendment"@en-AU ;
+    skos:narrower C2010A00003:29 ;
+    skos:prefLabel "Part P34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663392> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663392"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00003:37 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P37 Part 1 Joint commission"@en-AU ;
+    dct:hasPart C2010A00003:38 ;
+    dct:isPartOf C2010A00003:36 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Part 1 Joint commission - Abrievated Graph Key: P37"@en-AU ;
+    skos:broader C2010A00003:38 ;
+    skos:definition "Part 1 Joint commission"@en-AU ;
+    skos:narrower C2010A00003:36 ;
+    skos:prefLabel "Part P37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663395> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663395"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00003:40 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D40 Division 1 Offences involving criminal organisations"@en-AU ;
+    dct:hasPart C2010A00003:41 ;
+    dct:isPartOf C2010A00003:39 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Division 1 Offences involving criminal organisations - Abrievated Graph Key: D40"@en-AU ;
+    skos:broader C2010A00003:41 ;
+    skos:definition "Division 1 Offences involving criminal organisations"@en-AU ;
+    skos:narrower C2010A00003:39 ;
+    skos:prefLabel "Division D40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663399> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663399"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2010A00003:42 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D42 Division 2 Use of information for purposes of organised crime control laws"@en-AU ;
+    dct:hasPart C2010A00003:43 ;
+    dct:isPartOf C2010A00003:39 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Division 2 Use of information for purposes of organised crime control laws - Abrievated Graph Key: D42"@en-AU ;
+    skos:broader C2010A00003:43 ;
+    skos:definition "Division 2 Use of information for purposes of organised crime control laws"@en-AU ;
+    skos:narrower C2010A00003:39 ;
+    skos:prefLabel "Division D42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663401> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663401"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2010A00003:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Main amendments"@en-AU ;
+    dct:hasPart C2010A00003:6 ;
+    dct:isPartOf C2010A00003:4 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2010A00003:6 ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2010A00003:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663160> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663160"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00003:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 1 Freezing orders"@en-AU ;
+    dct:hasPart C2010A00003:12,
+        C2010A00003:14 ;
+    dct:isPartOf C2010A00003:10 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Part 1 Freezing orders - Abrievated Graph Key: P11"@en-AU ;
+    skos:broader C2010A00003:12,
+        C2010A00003:14 ;
+    skos:definition "Part 1 Freezing orders"@en-AU ;
+    skos:narrower C2010A00003:10 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663200> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663200"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00003:14 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D14 Division 2 Related amendments"@en-AU ;
+    dct:hasPart C2010A00003:15,
+        C2010A00003:16 ;
+    dct:isPartOf C2010A00003:11 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Division 2 Related amendments - Abrievated Graph Key: D14"@en-AU ;
+    skos:broader C2010A00003:15,
+        C2010A00003:16 ;
+    skos:definition "Division 2 Related amendments"@en-AU ;
+    skos:narrower C2010A00003:11 ;
+    skos:prefLabel "Division D14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663227> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663227"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2010A00003:39 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P39 Part 2 Amendment of the Telecommunications Interception and Access Act 1979"@en-AU ;
+    dct:hasPart C2010A00003:40,
+        C2010A00003:42 ;
+    dct:isPartOf C2010A00003:36 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Part 2 Amendment of the Telecommunications Interception and Access Act 1979 - Abrievated Graph Key: P39"@en-AU ;
+    skos:broader C2010A00003:40,
+        C2010A00003:42 ;
+    skos:definition "Part 2 Amendment of the Telecommunications Interception and Access Act 1979"@en-AU ;
+    skos:narrower C2010A00003:36 ;
+    skos:prefLabel "Part P39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663398> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663398"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00003:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Unexplained wealth"@en-AU ;
+    dct:hasPart C2010A00003:5,
+        C2010A00003:7 ;
+    dct:isPartOf C2010A00003:3 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Schedule 1 Unexplained wealth - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2010A00003:5,
+        C2010A00003:7 ;
+    skos:definition "Schedule 1 Unexplained wealth"@en-AU ;
+    skos:narrower C2010A00003:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663159> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663159"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2010A00003:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Related amendments"@en-AU ;
+    dct:hasPart C2010A00003:8,
+        C2010A00003:9 ;
+    dct:isPartOf C2010A00003:4 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Part 2 Related amendments - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader C2010A00003:8,
+        C2010A00003:9 ;
+    skos:definition "Part 2 Related amendments"@en-AU ;
+    skos:narrower C2010A00003:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663196> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663196"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2010A00003:36 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S36 Schedule 4 Other amendments"@en-AU ;
+    dct:hasPart C2010A00003:37,
+        C2010A00003:39,
+        C2010A00003:44 ;
+    dct:isPartOf C2010A00003:3 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Schedule 4 Other amendments - Abrievated Graph Key: S36"@en-AU ;
+    skos:broader C2010A00003:37,
+        C2010A00003:39,
+        C2010A00003:44 ;
+    skos:definition "Schedule 4 Other amendments"@en-AU ;
+    skos:narrower C2010A00003:3 ;
+    skos:prefLabel "Schedule S36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663394> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663394"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2010A00003:29 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S29 Schedule 3 Amendments relating to controlled operations assumed identities and witness identity protection"@en-AU ;
+    dct:hasPart C2010A00003:30,
+        C2010A00003:32,
+        C2010A00003:33,
+        C2010A00003:34 ;
+    dct:isPartOf C2010A00003:3 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Schedule 3 Amendments relating to controlled operations assumed identities and witness identity protection - Abrievated Graph Key: S29"@en-AU ;
+    skos:broader C2010A00003:30,
+        C2010A00003:32,
+        C2010A00003:33,
+        C2010A00003:34 ;
+    skos:definition "Schedule 3 Amendments relating to controlled operations assumed identities and witness identity protection"@en-AU ;
+    skos:narrower C2010A00003:3 ;
+    skos:prefLabel "Schedule S29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663245> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663245"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2010A00003:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2010A00003:10,
+        C2010A00003:29,
+        C2010A00003:36,
+        C2010A00003:4,
+        C2010A00003:45 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2010A00003:10,
+        C2010A00003:29,
+        C2010A00003:36,
+        C2010A00003:4,
+        C2010A00003:45 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663158> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663158"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2010A00003:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 2 Other amendments relating to proceeds of crime"@en-AU ;
+    dct:hasPart C2010A00003:11,
+        C2010A00003:17,
+        C2010A00003:19,
+        C2010A00003:21,
+        C2010A00003:23,
+        C2010A00003:25,
+        C2010A00003:27 ;
+    dct:isPartOf C2010A00003:3 ;
+    dct:isReferencedBy C2010A00003: ;
+    rdfs:comment "Schedule 2 Other amendments relating to proceeds of crime - Abrievated Graph Key: S10"@en-AU ;
+    skos:broader C2010A00003:11,
+        C2010A00003:17,
+        C2010A00003:19,
+        C2010A00003:21,
+        C2010A00003:23,
+        C2010A00003:25,
+        C2010A00003:27 ;
+    skos:definition "Schedule 2 Other amendments relating to proceeds of crime"@en-AU ;
+    skos:narrower C2010A00003:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663199> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2010A00003/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc314663199"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2010A00003: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Crimes Legislation Amendment (Serious and Organised Crime) Act 2010" ;
+    dct:Jurisdiction " Attorney-General's Department "@en-AU ;
+    dct:created "2026-05-27T17:03:32.157043"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2012-01-01T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Crimes Legislation Amendment (Serious and Organised Crime) Act 2010"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2010A00003/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Crimes Legislation Amendment (Serious and Organised Crime) Act 2010"@en-AU ;
+    dct:title "Crimes Legislation Amendment (Serious and Organised Crime) Act 2010"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2012C00115 C01" .
+

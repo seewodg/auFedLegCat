@@ -1,0 +1,69 @@
+@prefix F2016L00424: <http://example.org/au/leg/dataset/F2016L00424/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2016L00424:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 What is a safety data sheet"@en-AU ;
+    dct:isReferencedBy F2016L00424: ;
+    rdfs:comment "What is a safety data sheet - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "What is a safety data sheet"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2016L00424/asmade/2016-03-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc310065955> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2016L00424/asmade/2016-03-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc310065955"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2016L00424:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 PREPARING REVIEWING AND AMENDING SAFETY DATA SHEETS"@en-AU ;
+    dct:hasPart F2016L00424:3 ;
+    dct:isReferencedBy F2016L00424: ;
+    rdfs:comment "PREPARING REVIEWING AND AMENDING SAFETY DATA SHEETS - Abrievated Graph Key: I2"@en-AU ;
+    skos:broader F2016L00424:3 ;
+    skos:definition "PREPARING REVIEWING AND AMENDING SAFETY DATA SHEETS"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2016L00424/asmade/2016-03-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc310065959> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2016L00424/asmade/2016-03-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc310065959"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2016L00424:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 What information is needed in an SDS"@en-AU ;
+    dct:isPartOf F2016L00424:2 ;
+    dct:isReferencedBy F2016L00424: ;
+    rdfs:comment "What information is needed in an SDS - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "What information is needed in an SDS"@en-AU ;
+    skos:narrower F2016L00424:2 ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2016L00424/asmade/2016-03-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc310065960> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2016L00424/asmade/2016-03-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc310065960"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2016L00424: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Work Health and Safety (Preparation of Safety Data Sheets for Hazardous Chemicals) Code of Practice 2015" ;
+    dct:Jurisdiction " Department of Employment and Workplace Relations "@en-AU ;
+    dct:created "2026-05-27T18:02:27.206456"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2016-03-30T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Work Health and Safety (Preparation of Safety Data Sheets for Hazardous Chemicals) Code of Practice 2015"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2016L00424/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Work Health and Safety (Preparation of Safety Data Sheets for Hazardous Chemicals) Code of Practice 2015"@en-AU ;
+    dct:title "Work Health and Safety (Preparation of Safety Data Sheets for Hazardous Chemicals) Code of Practice 2015"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item ;
+    schema:status "In force" ;
+    schema:version "F2016L00424" .
+

@@ -1,0 +1,388 @@
+@prefix C2005A00153: <http://example.org/au/leg/dataset/C2005A00153/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2005A00153:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154294700> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154294700"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00153:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154294701> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154294701"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00153:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Workplace Relations Act 1996"@en-AU ;
+    dct:isPartOf C2005A00153:9 ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "Workplace Relations Act 1996 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2005A00153:9 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296033> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296033"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00153:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Workplace Relations Act 1996"@en-AU ;
+    dct:isPartOf C2005A00153:11 ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "Workplace Relations Act 1996 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2005A00153:11 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296044> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296044"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00153:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Workplace Relations Act 1996"@en-AU ;
+    dct:isPartOf C2005A00153:13 ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "Workplace Relations Act 1996 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2005A00153:13 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296061> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296061"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00153:16 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P16 Part 1 Regulations for transitional etc provisions and consequential amendments"@en-AU ;
+    dct:isPartOf C2005A00153:15 ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "Part 1 Regulations for transitional etc provisions and consequential amendments - Abrievated Graph Key: P16"@en-AU ;
+    skos:definition "Part 1 Regulations for transitional etc provisions and consequential amendments"@en-AU ;
+    skos:narrower C2005A00153:15 ;
+    skos:prefLabel "Part P16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296065> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296065"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2005A00153:18 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D18 Division 1 Definitions used in this Part"@en-AU ;
+    dct:isPartOf C2005A00153:17 ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "Division 1 Definitions used in this Part - Abrievated Graph Key: D18"@en-AU ;
+    skos:definition "Division 1 Definitions used in this Part"@en-AU ;
+    skos:narrower C2005A00153:17 ;
+    skos:prefLabel "Division D18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296067> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296067"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2005A00153:19 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D19 Division 2 Awards"@en-AU ;
+    dct:isPartOf C2005A00153:17 ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "Division 2 Awards - Abrievated Graph Key: D19"@en-AU ;
+    skos:definition "Division 2 Awards"@en-AU ;
+    skos:narrower C2005A00153:17 ;
+    skos:prefLabel "Division D19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296068> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296068"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2005A00153:20 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D20 Division 3 Termination of employment"@en-AU ;
+    dct:isPartOf C2005A00153:17 ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "Division 3 Termination of employment - Abrievated Graph Key: D20"@en-AU ;
+    skos:definition "Division 3 Termination of employment"@en-AU ;
+    skos:narrower C2005A00153:17 ;
+    skos:prefLabel "Division D20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296069> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296069"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2005A00153:21 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D21 Division 4 Miscellaneous"@en-AU ;
+    dct:isPartOf C2005A00153:17 ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "Division 4 Miscellaneous - Abrievated Graph Key: D21"@en-AU ;
+    skos:definition "Division 4 Miscellaneous"@en-AU ;
+    skos:narrower C2005A00153:17 ;
+    skos:prefLabel "Division D21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296070> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296070"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2005A00153:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Workplace Relations Act 1996"@en-AU ;
+    dct:isPartOf C2005A00153:22 ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "Workplace Relations Act 1996 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2005A00153:22 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296072> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296072"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00153:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Workplace Relations Act 1996"@en-AU ;
+    dct:isPartOf C2005A00153:4 ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "Workplace Relations Act 1996 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2005A00153:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154294704> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154294704"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00153:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Workplace Relations Act 1996"@en-AU ;
+    dct:isPartOf C2005A00153:6 ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "Workplace Relations Act 1996 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2005A00153:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154295975> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154295975"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00153:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Financial Management and Accountability Regulations 1997"@en-AU ;
+    dct:isPartOf C2005A00153:6 ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "Financial Management and Accountability Regulations 1997 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Financial Management and Accountability Regulations 1997"@en-AU ;
+    skos:narrower C2005A00153:6 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296031> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296031"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00153:11 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S11 Schedule 3 Schoolbased apprentices and trainees"@en-AU ;
+    dct:hasPart C2005A00153:12 ;
+    dct:isPartOf C2005A00153:3 ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "Schedule 3 Schoolbased apprentices and trainees - Abrievated Graph Key: S11"@en-AU ;
+    skos:broader C2005A00153:12 ;
+    skos:definition "Schedule 3 Schoolbased apprentices and trainees"@en-AU ;
+    skos:narrower C2005A00153:3 ;
+    skos:prefLabel "Schedule S11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296043> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296043"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00153:13 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S13 Schedule 3 ARedundancy pay by small business employers"@en-AU ;
+    dct:hasPart C2005A00153:14 ;
+    dct:isPartOf C2005A00153:3 ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "Schedule 3 ARedundancy pay by small business employers - Abrievated Graph Key: S13"@en-AU ;
+    skos:broader C2005A00153:14 ;
+    skos:definition "Schedule 3 ARedundancy pay by small business employers"@en-AU ;
+    skos:narrower C2005A00153:3 ;
+    skos:prefLabel "Schedule S13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296060> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296060"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00153:22 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S22 Schedule 5 Renumbering the Workplace Relations Act 1996"@en-AU ;
+    dct:hasPart C2005A00153:23 ;
+    dct:isPartOf C2005A00153:3 ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "Schedule 5 Renumbering the Workplace Relations Act 1996 - Abrievated Graph Key: S22"@en-AU ;
+    skos:broader C2005A00153:23 ;
+    skos:definition "Schedule 5 Renumbering the Workplace Relations Act 1996"@en-AU ;
+    skos:narrower C2005A00153:3 ;
+    skos:prefLabel "Schedule S22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296071> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296071"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00153:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Main amendments"@en-AU ;
+    dct:hasPart C2005A00153:5 ;
+    dct:isPartOf C2005A00153:3 ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "Schedule 1 Main amendments - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2005A00153:5 ;
+    skos:definition "Schedule 1 Main amendments"@en-AU ;
+    skos:narrower C2005A00153:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154294703> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154294703"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00153:9 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S9 Schedule 2 Transitional arrangements for State organisations"@en-AU ;
+    dct:hasPart C2005A00153:10 ;
+    dct:isPartOf C2005A00153:3 ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "Schedule 2 Transitional arrangements for State organisations - Abrievated Graph Key: S9"@en-AU ;
+    skos:broader C2005A00153:10 ;
+    skos:definition "Schedule 2 Transitional arrangements for State organisations"@en-AU ;
+    skos:narrower C2005A00153:3 ;
+    skos:prefLabel "Schedule S9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296032> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296032"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00153:15 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S15 Schedule 4 Transitional and other provisions"@en-AU ;
+    dct:hasPart C2005A00153:16,
+        C2005A00153:17 ;
+    dct:isPartOf C2005A00153:3 ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "Schedule 4 Transitional and other provisions - Abrievated Graph Key: S15"@en-AU ;
+    skos:broader C2005A00153:16,
+        C2005A00153:17 ;
+    skos:definition "Schedule 4 Transitional and other provisions"@en-AU ;
+    skos:narrower C2005A00153:3 ;
+    skos:prefLabel "Schedule S15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296064> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296064"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00153:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 1 AEstablishment of Australian Fair Pay Commission"@en-AU ;
+    dct:hasPart C2005A00153:7,
+        C2005A00153:8 ;
+    dct:isPartOf C2005A00153:3 ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "Schedule 1 AEstablishment of Australian Fair Pay Commission - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2005A00153:7,
+        C2005A00153:8 ;
+    skos:definition "Schedule 1 AEstablishment of Australian Fair Pay Commission"@en-AU ;
+    skos:narrower C2005A00153:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154295974> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154295974"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00153:17 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P17 Part 2 Transitional application and saving provisions"@en-AU ;
+    dct:hasPart C2005A00153:18,
+        C2005A00153:19,
+        C2005A00153:20,
+        C2005A00153:21 ;
+    dct:isPartOf C2005A00153:15 ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "Part 2 Transitional application and saving provisions - Abrievated Graph Key: P17"@en-AU ;
+    skos:broader C2005A00153:18,
+        C2005A00153:19,
+        C2005A00153:20,
+        C2005A00153:21 ;
+    skos:definition "Part 2 Transitional application and saving provisions"@en-AU ;
+    skos:narrower C2005A00153:15 ;
+    skos:prefLabel "Part P17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296066> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154296066"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2005A00153:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2005A00153:11,
+        C2005A00153:13,
+        C2005A00153:15,
+        C2005A00153:22,
+        C2005A00153:4,
+        C2005A00153:6,
+        C2005A00153:9 ;
+    dct:isReferencedBy C2005A00153: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2005A00153:11,
+        C2005A00153:13,
+        C2005A00153:15,
+        C2005A00153:22,
+        C2005A00153:4,
+        C2005A00153:6,
+        C2005A00153:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154294702> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00153/2006-12-12/2006-12-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc154294702"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00153: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Workplace Relations Amendment (Work Choices) Act 2005" ;
+    dct:Jurisdiction " Department of Employment and Workplace Relations "@en-AU ;
+    dct:created "2026-05-27T17:08:02.796420"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2006-12-12T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Workplace Relations Amendment (Work Choices) Act 2005"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2005A00153/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Workplace Relations Amendment (Work Choices) Act 2005"@en-AU ;
+    dct:title "Workplace Relations Amendment (Work Choices) Act 2005"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2007C00183" .
+

@@ -1,0 +1,915 @@
+@prefix C2007A00154: <http://example.org/au/leg/dataset/C2007A00154/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2007A00154:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title see Note 1"@en-AU ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "1  Short title see Note 1 - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title see Note 1"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686264> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686264"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686265> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686265"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Life Insurance Act 1995"@en-AU ;
+    dct:isPartOf C2007A00154:5 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Life Insurance Act 1995 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Life Insurance Act 1995"@en-AU ;
+    skos:narrower C2007A00154:5 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686297> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686297"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2007A00154:5 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2007A00154:5 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686316> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686316"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 AntiMoney Laundering and CounterTerrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2007A00154:12 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "AntiMoney Laundering and CounterTerrorism Financing Act 2006 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "AntiMoney Laundering and CounterTerrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2007A00154:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686332> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686332"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Banking Act 1959"@en-AU ;
+    dct:isPartOf C2007A00154:12 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Banking Act 1959 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Banking Act 1959"@en-AU ;
+    skos:narrower C2007A00154:12 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686333> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686333"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2007A00154:12 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2007A00154:12 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686335> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686335"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2007A00154:12 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2007A00154:12 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686336> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686336"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2007A00154:12 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2007A00154:12 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686337> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686337"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Insurance Act 1973"@en-AU ;
+    dct:isPartOf C2007A00154:12 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Insurance Act 1973 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Insurance Act 1973"@en-AU ;
+    skos:narrower C2007A00154:12 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686338> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686338"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Life Insurance Act 1995"@en-AU ;
+    dct:isPartOf C2007A00154:12 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Life Insurance Act 1995 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Life Insurance Act 1995"@en-AU ;
+    skos:narrower C2007A00154:12 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686342> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686342"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2007A00154:12 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2007A00154:12 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686353> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686353"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 A New Tax System Australian Business Number Act 1999"@en-AU ;
+    dct:isPartOf C2007A00154:21 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "A New Tax System Australian Business Number Act 1999 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "A New Tax System Australian Business Number Act 1999"@en-AU ;
+    skos:narrower C2007A00154:21 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686356> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686356"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2007A00154:21 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2007A00154:21 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686357> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686357"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Life Insurance Act 1995"@en-AU ;
+    dct:isPartOf C2007A00154:24 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Life Insurance Act 1995 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Life Insurance Act 1995"@en-AU ;
+    skos:narrower C2007A00154:24 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686361> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686361"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:26 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P26 Part 5 Application transitional and saving provisions"@en-AU ;
+    dct:isPartOf C2007A00154:4 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Part 5 Application transitional and saving provisions - Abrievated Graph Key: P26"@en-AU ;
+    skos:definition "Part 5 Application transitional and saving provisions"@en-AU ;
+    skos:narrower C2007A00154:4 ;
+    skos:prefLabel "Part P26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686362> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686362"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00154:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Financial Institutions Supervisory Levies Collection Act 1998"@en-AU ;
+    dct:isPartOf C2007A00154:27 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Financial Institutions Supervisory Levies Collection Act 1998 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Financial Institutions Supervisory Levies Collection Act 1998"@en-AU ;
+    skos:narrower C2007A00154:27 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686364> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686364"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2007A00154:27 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2007A00154:27 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686366> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686366"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Financial Institutions Supervisory Levies Collection Act 1998"@en-AU ;
+    dct:isPartOf C2007A00154:30 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Financial Institutions Supervisory Levies Collection Act 1998 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Financial Institutions Supervisory Levies Collection Act 1998"@en-AU ;
+    skos:narrower C2007A00154:30 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686369> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686369"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Financial Sector Collection of DataConsequential and Transitional Provisions Act 2001"@en-AU ;
+    dct:isPartOf C2007A00154:30 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Financial Sector Collection of DataConsequential and Transitional Provisions Act 2001 - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Financial Sector Collection of DataConsequential and Transitional Provisions Act 2001"@en-AU ;
+    skos:narrower C2007A00154:30 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686370> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686370"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2007A00154:30 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2007A00154:30 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686371> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686371"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2007A00154:30 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2007A00154:30 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686372> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686372"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Superannuation Self Managed Superannuation Funds Taxation Act 1987"@en-AU ;
+    dct:isPartOf C2007A00154:30 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Superannuation Self Managed Superannuation Funds Taxation Act 1987 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Superannuation Self Managed Superannuation Funds Taxation Act 1987"@en-AU ;
+    skos:narrower C2007A00154:30 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686380> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686380"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Australian Securities and Investments Commission Act 2001"@en-AU ;
+    dct:isPartOf C2007A00154:36 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Australian Securities and Investments Commission Act 2001 - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Australian Securities and Investments Commission Act 2001"@en-AU ;
+    skos:narrower C2007A00154:36 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686382> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686382"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 Authorised Deposittaking Institutions Supervisory Levy Imposition Act 1998"@en-AU ;
+    dct:isPartOf C2007A00154:36 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Authorised Deposittaking Institutions Supervisory Levy Imposition Act 1998 - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "Authorised Deposittaking Institutions Supervisory Levy Imposition Act 1998"@en-AU ;
+    skos:narrower C2007A00154:36 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686383> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686383"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 Authorised Nonoperating Holding Companies Supervisory Levy Imposition Act 1998"@en-AU ;
+    dct:isPartOf C2007A00154:36 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Authorised Nonoperating Holding Companies Supervisory Levy Imposition Act 1998 - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "Authorised Nonoperating Holding Companies Supervisory Levy Imposition Act 1998"@en-AU ;
+    skos:narrower C2007A00154:36 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686384> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686384"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 Banking Act 1959"@en-AU ;
+    dct:isPartOf C2007A00154:36 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Banking Act 1959 - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "Banking Act 1959"@en-AU ;
+    skos:narrower C2007A00154:36 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686385> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686385"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 Cheques Act 1986"@en-AU ;
+    dct:isPartOf C2007A00154:36 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Cheques Act 1986 - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "Cheques Act 1986"@en-AU ;
+    skos:narrower C2007A00154:36 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686386> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686386"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 Commonwealth Bank Sale Act 1995"@en-AU ;
+    dct:isPartOf C2007A00154:36 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Commonwealth Bank Sale Act 1995 - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "Commonwealth Bank Sale Act 1995"@en-AU ;
+    skos:narrower C2007A00154:36 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686387> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686387"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:43 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I43 Commonwealth Borrowing Levy Collection Act 1987"@en-AU ;
+    dct:isPartOf C2007A00154:36 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Commonwealth Borrowing Levy Collection Act 1987 - Abrievated Graph Key: I43"@en-AU ;
+    skos:definition "Commonwealth Borrowing Levy Collection Act 1987"@en-AU ;
+    skos:narrower C2007A00154:36 ;
+    skos:prefLabel "Item I43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686388> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686388"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2007A00154:36 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2007A00154:36 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686389> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686389"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:45 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I45 Currency Act 1965"@en-AU ;
+    dct:isPartOf C2007A00154:36 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Currency Act 1965 - Abrievated Graph Key: I45"@en-AU ;
+    skos:definition "Currency Act 1965"@en-AU ;
+    skos:narrower C2007A00154:36 ;
+    skos:prefLabel "Item I45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686390> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686390"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:46 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I46 Financial Sector Business Transfer and Group Restructure Act 1999"@en-AU ;
+    dct:isPartOf C2007A00154:36 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Financial Sector Business Transfer and Group Restructure Act 1999 - Abrievated Graph Key: I46"@en-AU ;
+    skos:definition "Financial Sector Business Transfer and Group Restructure Act 1999"@en-AU ;
+    skos:narrower C2007A00154:36 ;
+    skos:prefLabel "Item I46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686391> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686391"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:47 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I47 Financial Sector Collection of Data Act 2001"@en-AU ;
+    dct:isPartOf C2007A00154:36 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Financial Sector Collection of Data Act 2001 - Abrievated Graph Key: I47"@en-AU ;
+    skos:definition "Financial Sector Collection of Data Act 2001"@en-AU ;
+    skos:narrower C2007A00154:36 ;
+    skos:prefLabel "Item I47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686392> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686392"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:48 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I48 Insurance Acquisitions and Takeovers Act 1991"@en-AU ;
+    dct:isPartOf C2007A00154:36 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Insurance Acquisitions and Takeovers Act 1991 - Abrievated Graph Key: I48"@en-AU ;
+    skos:definition "Insurance Acquisitions and Takeovers Act 1991"@en-AU ;
+    skos:narrower C2007A00154:36 ;
+    skos:prefLabel "Item I48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686393> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686393"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:49 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I49 Insurance Act 1973"@en-AU ;
+    dct:isPartOf C2007A00154:36 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Insurance Act 1973 - Abrievated Graph Key: I49"@en-AU ;
+    skos:definition "Insurance Act 1973"@en-AU ;
+    skos:narrower C2007A00154:36 ;
+    skos:prefLabel "Item I49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686394> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686394"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:50 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I50 Life Insurance Supervisory Levy Imposition Act 1998"@en-AU ;
+    dct:isPartOf C2007A00154:36 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Life Insurance Supervisory Levy Imposition Act 1998 - Abrievated Graph Key: I50"@en-AU ;
+    skos:definition "Life Insurance Supervisory Levy Imposition Act 1998"@en-AU ;
+    skos:narrower C2007A00154:36 ;
+    skos:prefLabel "Item I50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686395> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686395"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:51 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I51 Payment Systems and Netting Act 1998"@en-AU ;
+    dct:isPartOf C2007A00154:36 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Payment Systems and Netting Act 1998 - Abrievated Graph Key: I51"@en-AU ;
+    skos:definition "Payment Systems and Netting Act 1998"@en-AU ;
+    skos:narrower C2007A00154:36 ;
+    skos:prefLabel "Item I51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686396> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686396"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:52 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I52 Retirement Savings Account Providers Supervisory Levy Imposition Act 1998"@en-AU ;
+    dct:isPartOf C2007A00154:36 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Retirement Savings Account Providers Supervisory Levy Imposition Act 1998 - Abrievated Graph Key: I52"@en-AU ;
+    skos:definition "Retirement Savings Account Providers Supervisory Levy Imposition Act 1998"@en-AU ;
+    skos:narrower C2007A00154:36 ;
+    skos:prefLabel "Item I52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686397> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686397"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:53 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I53 Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2007A00154:36 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: I53"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2007A00154:36 ;
+    skos:prefLabel "Item I53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686398> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686398"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:54 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I54 Superannuation Supervisory Levy Determination Validation Act 2000"@en-AU ;
+    dct:isPartOf C2007A00154:36 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Superannuation Supervisory Levy Determination Validation Act 2000 - Abrievated Graph Key: I54"@en-AU ;
+    skos:definition "Superannuation Supervisory Levy Determination Validation Act 2000"@en-AU ;
+    skos:narrower C2007A00154:36 ;
+    skos:prefLabel "Item I54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686399> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686399"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:55 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I55 Superannuation Supervisory Levy Imposition Act 1998"@en-AU ;
+    dct:isPartOf C2007A00154:36 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Superannuation Supervisory Levy Imposition Act 1998 - Abrievated Graph Key: I55"@en-AU ;
+    skos:definition "Superannuation Supervisory Levy Imposition Act 1998"@en-AU ;
+    skos:narrower C2007A00154:36 ;
+    skos:prefLabel "Item I55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686400> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686400"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:56 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I56 Notes to the   STYLEREF ShortT  MERGEFORMAT  Financial Sector Legislation Amendment Simplifying Regulation and Review Act 2007"@en-AU ;
+    dct:isPartOf C2007A00154:3 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Notes to the   STYLEREF ShortT  MERGEFORMAT  Financial Sector Legislation Amendment Simplifying Regulation and Review Act 2007 - Abrievated Graph Key: I56"@en-AU ;
+    skos:definition "Notes to the   STYLEREF ShortT  MERGEFORMAT  Financial Sector Legislation Amendment Simplifying Regulation and Review Act 2007"@en-AU ;
+    skos:narrower C2007A00154:3 ;
+    skos:prefLabel "Item I56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686401> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686401"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 A New Tax System Australian Business Number Act 1999"@en-AU ;
+    dct:isPartOf C2007A00154:5 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "A New Tax System Australian Business Number Act 1999 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "A New Tax System Australian Business Number Act 1999"@en-AU ;
+    skos:narrower C2007A00154:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686269> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686269"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Banking Act 1959"@en-AU ;
+    dct:isPartOf C2007A00154:5 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Banking Act 1959 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Banking Act 1959"@en-AU ;
+    skos:narrower C2007A00154:5 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686272> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686272"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2007A00154:5 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2007A00154:5 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686285> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686285"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Insurance Act 1973"@en-AU ;
+    dct:isPartOf C2007A00154:5 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Insurance Act 1973 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Insurance Act 1973"@en-AU ;
+    skos:narrower C2007A00154:5 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686286> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686286"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:24 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P24 Part 4 Amendments commencing 1 July 2011"@en-AU ;
+    dct:hasPart C2007A00154:25 ;
+    dct:isPartOf C2007A00154:4 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Part 4 Amendments commencing 1 July 2011 - Abrievated Graph Key: P24"@en-AU ;
+    skos:broader C2007A00154:25 ;
+    skos:definition "Part 4 Amendments commencing 1 July 2011"@en-AU ;
+    skos:narrower C2007A00154:4 ;
+    skos:prefLabel "Part P24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686360> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686360"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00154:21 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P21 Part 3 Amendments commencing 12 months after Royal Assent"@en-AU ;
+    dct:hasPart C2007A00154:22,
+        C2007A00154:23 ;
+    dct:isPartOf C2007A00154:4 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Part 3 Amendments commencing 12 months after Royal Assent - Abrievated Graph Key: P21"@en-AU ;
+    skos:broader C2007A00154:22,
+        C2007A00154:23 ;
+    skos:definition "Part 3 Amendments commencing 12 months after Royal Assent"@en-AU ;
+    skos:narrower C2007A00154:4 ;
+    skos:prefLabel "Part P21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686355> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686355"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00154:27 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S27 Schedule 2 Financial assistance"@en-AU ;
+    dct:hasPart C2007A00154:28,
+        C2007A00154:29 ;
+    dct:isPartOf C2007A00154:3 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Schedule 2 Financial assistance - Abrievated Graph Key: S27"@en-AU ;
+    skos:broader C2007A00154:28,
+        C2007A00154:29 ;
+    skos:definition "Schedule 2 Financial assistance"@en-AU ;
+    skos:narrower C2007A00154:3 ;
+    skos:prefLabel "Schedule S27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686363> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686363"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00154:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2007A00154:27,
+        C2007A00154:30,
+        C2007A00154:36,
+        C2007A00154:4,
+        C2007A00154:56 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2007A00154:27,
+        C2007A00154:30,
+        C2007A00154:36,
+        C2007A00154:4,
+        C2007A00154:56 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686266> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686266"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00154:30 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S30 Schedule 3 Accounts reporting etc obligations"@en-AU ;
+    dct:hasPart C2007A00154:31,
+        C2007A00154:32,
+        C2007A00154:33,
+        C2007A00154:34,
+        C2007A00154:35 ;
+    dct:isPartOf C2007A00154:3 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Schedule 3 Accounts reporting etc obligations - Abrievated Graph Key: S30"@en-AU ;
+    skos:broader C2007A00154:31,
+        C2007A00154:32,
+        C2007A00154:33,
+        C2007A00154:34,
+        C2007A00154:35 ;
+    skos:definition "Schedule 3 Accounts reporting etc obligations"@en-AU ;
+    skos:narrower C2007A00154:3 ;
+    skos:prefLabel "Schedule S30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686368> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686368"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00154:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Streamlining prudential regulation"@en-AU ;
+    dct:hasPart C2007A00154:12,
+        C2007A00154:21,
+        C2007A00154:24,
+        C2007A00154:26,
+        C2007A00154:5 ;
+    dct:isPartOf C2007A00154:3 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Schedule 1 Streamlining prudential regulation - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2007A00154:12,
+        C2007A00154:21,
+        C2007A00154:24,
+        C2007A00154:26,
+        C2007A00154:5 ;
+    skos:definition "Schedule 1 Streamlining prudential regulation"@en-AU ;
+    skos:narrower C2007A00154:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686267> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686267"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00154:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Amendments commencing on Royal Assent"@en-AU ;
+    dct:hasPart C2007A00154:10,
+        C2007A00154:11,
+        C2007A00154:6,
+        C2007A00154:7,
+        C2007A00154:8,
+        C2007A00154:9 ;
+    dct:isPartOf C2007A00154:4 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Part 1 Amendments commencing on Royal Assent - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2007A00154:10,
+        C2007A00154:11,
+        C2007A00154:6,
+        C2007A00154:7,
+        C2007A00154:8,
+        C2007A00154:9 ;
+    skos:definition "Part 1 Amendments commencing on Royal Assent"@en-AU ;
+    skos:narrower C2007A00154:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686268> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686268"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00154:12 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P12 Part 2 Amendments commencing 1 January 2008"@en-AU ;
+    dct:hasPart C2007A00154:13,
+        C2007A00154:14,
+        C2007A00154:15,
+        C2007A00154:16,
+        C2007A00154:17,
+        C2007A00154:18,
+        C2007A00154:19,
+        C2007A00154:20 ;
+    dct:isPartOf C2007A00154:4 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Part 2 Amendments commencing 1 January 2008 - Abrievated Graph Key: P12"@en-AU ;
+    skos:broader C2007A00154:13,
+        C2007A00154:14,
+        C2007A00154:15,
+        C2007A00154:16,
+        C2007A00154:17,
+        C2007A00154:18,
+        C2007A00154:19,
+        C2007A00154:20 ;
+    skos:definition "Part 2 Amendments commencing 1 January 2008"@en-AU ;
+    skos:narrower C2007A00154:4 ;
+    skos:prefLabel "Part P12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686331> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686331"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00154:36 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S36 Schedule 4 Technical amendments relating to legislative instruments"@en-AU ;
+    dct:hasPart C2007A00154:37,
+        C2007A00154:38,
+        C2007A00154:39,
+        C2007A00154:40,
+        C2007A00154:41,
+        C2007A00154:42,
+        C2007A00154:43,
+        C2007A00154:44,
+        C2007A00154:45,
+        C2007A00154:46,
+        C2007A00154:47,
+        C2007A00154:48,
+        C2007A00154:49,
+        C2007A00154:50,
+        C2007A00154:51,
+        C2007A00154:52,
+        C2007A00154:53,
+        C2007A00154:54,
+        C2007A00154:55 ;
+    dct:isPartOf C2007A00154:3 ;
+    dct:isReferencedBy C2007A00154: ;
+    rdfs:comment "Schedule 4 Technical amendments relating to legislative instruments - Abrievated Graph Key: S36"@en-AU ;
+    skos:broader C2007A00154:37,
+        C2007A00154:38,
+        C2007A00154:39,
+        C2007A00154:40,
+        C2007A00154:41,
+        C2007A00154:42,
+        C2007A00154:43,
+        C2007A00154:44,
+        C2007A00154:45,
+        C2007A00154:46,
+        C2007A00154:47,
+        C2007A00154:48,
+        C2007A00154:49,
+        C2007A00154:50,
+        C2007A00154:51,
+        C2007A00154:52,
+        C2007A00154:53,
+        C2007A00154:54,
+        C2007A00154:55 ;
+    skos:definition "Schedule 4 Technical amendments relating to legislative instruments"@en-AU ;
+    skos:narrower C2007A00154:3 ;
+    skos:prefLabel "Schedule S36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686381> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00154/2010-07-27/2010-07-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc268686381"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00154: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Financial Sector Legislation Amendment (Simplifying Regulation and Review) Act 2007" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-27T17:37:29.038004"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2010-07-27T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Financial Sector Legislation Amendment (Simplifying Regulation and Review) Act 2007"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2007A00154/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Financial Sector Legislation Amendment (Simplifying Regulation and Review) Act 2007"@en-AU ;
+    dct:title "Financial Sector Legislation Amendment (Simplifying Regulation and Review) Act 2007"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2010C00544 C01" .
+

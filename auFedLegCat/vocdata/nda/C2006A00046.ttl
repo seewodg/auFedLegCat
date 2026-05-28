@@ -1,0 +1,915 @@
+@prefix C2006A00046: <http://example.org/au/leg/dataset/C2006A00046/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2006A00046:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204334> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204334"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204335> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204335"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2006A00046:9 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2006A00046:9 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204367> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204367"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 2 Application of amendments and savings"@en-AU ;
+    dct:isPartOf C2006A00046:8 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Part 2 Application of amendments and savings - Abrievated Graph Key: P11"@en-AU ;
+    skos:definition "Part 2 Application of amendments and savings"@en-AU ;
+    skos:narrower C2006A00046:8 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204404> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204404"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00046:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Evidence Act 1995"@en-AU ;
+    dct:isPartOf C2006A00046:13 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Evidence Act 1995 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Evidence Act 1995"@en-AU ;
+    skos:narrower C2006A00046:13 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204407> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204407"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2006A00046:13 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2006A00046:13 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204408> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204408"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:16 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P16 Part 2 Application of amendments"@en-AU ;
+    dct:isPartOf C2006A00046:12 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Part 2 Application of amendments - Abrievated Graph Key: P16"@en-AU ;
+    skos:definition "Part 2 Application of amendments"@en-AU ;
+    skos:narrower C2006A00046:12 ;
+    skos:prefLabel "Part P16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204427> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204427"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00046:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2006A00046:18 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2006A00046:18 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204430> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204430"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2006A00046:20 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2006A00046:20 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204432> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204432"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2006A00046:22 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2006A00046:22 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204436> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204436"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Federal Magistrates Act 1999"@en-AU ;
+    dct:isPartOf C2006A00046:22 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Federal Magistrates Act 1999 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Federal Magistrates Act 1999"@en-AU ;
+    skos:narrower C2006A00046:22 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204501> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204501"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2006A00046:22 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2006A00046:22 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204510> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204510"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Marriage Act 1961"@en-AU ;
+    dct:isPartOf C2006A00046:22 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Marriage Act 1961 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Marriage Act 1961"@en-AU ;
+    skos:narrower C2006A00046:22 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204512> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204512"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:27 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P27 Part 4 Transitional matters relating to family counselling and family dispute resolution"@en-AU ;
+    dct:isPartOf C2006A00046:17 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Part 4 Transitional matters relating to family counselling and family dispute resolution - Abrievated Graph Key: P27"@en-AU ;
+    skos:definition "Part 4 Transitional matters relating to family counselling and family dispute resolution"@en-AU ;
+    skos:narrower C2006A00046:17 ;
+    skos:prefLabel "Part P27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204513> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204513"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00046:28 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P28 Part 5 Application and transitional provisions relating to other changes to dispute resolution"@en-AU ;
+    dct:isPartOf C2006A00046:17 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Part 5 Application and transitional provisions relating to other changes to dispute resolution - Abrievated Graph Key: P28"@en-AU ;
+    skos:definition "Part 5 Application and transitional provisions relating to other changes to dispute resolution"@en-AU ;
+    skos:narrower C2006A00046:17 ;
+    skos:prefLabel "Part P28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204514> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204514"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00046:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2006A00046:30 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2006A00046:30 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204517> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204517"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:32 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P32 Part 2 Application of amendments and saving of appointments"@en-AU ;
+    dct:isPartOf C2006A00046:29 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Part 2 Application of amendments and saving of appointments - Abrievated Graph Key: P32"@en-AU ;
+    skos:definition "Part 2 Application of amendments and saving of appointments"@en-AU ;
+    skos:narrower C2006A00046:29 ;
+    skos:prefLabel "Part P32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204522> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204522"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00046:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2006A00046:34 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2006A00046:34 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204525> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204525"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:36 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P36 Part 2 Application of amendments and savings"@en-AU ;
+    dct:isPartOf C2006A00046:33 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Part 2 Application of amendments and savings - Abrievated Graph Key: P36"@en-AU ;
+    skos:definition "Part 2 Application of amendments and savings"@en-AU ;
+    skos:narrower C2006A00046:33 ;
+    skos:prefLabel "Part P36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204533> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204533"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00046:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2006A00046:38 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2006A00046:38 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204536> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204536"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:40 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P40 Part 2 Application of amendment"@en-AU ;
+    dct:isPartOf C2006A00046:37 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Part 2 Application of amendment - Abrievated Graph Key: P40"@en-AU ;
+    skos:definition "Part 2 Application of amendment"@en-AU ;
+    skos:narrower C2006A00046:37 ;
+    skos:prefLabel "Part P40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204537> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204537"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00046:43 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I43 Australian Citizenship Act 1948"@en-AU ;
+    dct:isPartOf C2006A00046:42 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Australian Citizenship Act 1948 - Abrievated Graph Key: I43"@en-AU ;
+    skos:definition "Australian Citizenship Act 1948"@en-AU ;
+    skos:narrower C2006A00046:42 ;
+    skos:prefLabel "Item I43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204540> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204540"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 Australian Passports Act 2005"@en-AU ;
+    dct:isPartOf C2006A00046:42 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Australian Passports Act 2005 - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "Australian Passports Act 2005"@en-AU ;
+    skos:narrower C2006A00046:42 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204541> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204541"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:45 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I45 Child Support Assessment Act 1989"@en-AU ;
+    dct:isPartOf C2006A00046:42 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Child Support Assessment Act 1989 - Abrievated Graph Key: I45"@en-AU ;
+    skos:definition "Child Support Assessment Act 1989"@en-AU ;
+    skos:narrower C2006A00046:42 ;
+    skos:prefLabel "Item I45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204542> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204542"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:46 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I46 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2006A00046:42 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I46"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2006A00046:42 ;
+    skos:prefLabel "Item I46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204543> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204543"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:47 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I47 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2006A00046:42 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I47"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2006A00046:42 ;
+    skos:prefLabel "Item I47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204549> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204549"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:48 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P48 Part 2 Savings"@en-AU ;
+    dct:isPartOf C2006A00046:41 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Part 2 Savings - Abrievated Graph Key: P48"@en-AU ;
+    skos:definition "Part 2 Savings"@en-AU ;
+    skos:narrower C2006A00046:41 ;
+    skos:prefLabel "Part P48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204550> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204550"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00046:51 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I51 Australian Passports Act 2005"@en-AU ;
+    dct:isPartOf C2006A00046:50 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Australian Passports Act 2005 - Abrievated Graph Key: I51"@en-AU ;
+    skos:definition "Australian Passports Act 2005"@en-AU ;
+    skos:narrower C2006A00046:50 ;
+    skos:prefLabel "Item I51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204553> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204553"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:52 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I52 Child Support Registration and Collection Act 1988"@en-AU ;
+    dct:isPartOf C2006A00046:50 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Child Support Registration and Collection Act 1988 - Abrievated Graph Key: I52"@en-AU ;
+    skos:definition "Child Support Registration and Collection Act 1988"@en-AU ;
+    skos:narrower C2006A00046:50 ;
+    skos:prefLabel "Item I52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204554> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204554"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:53 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I53 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2006A00046:50 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I53"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2006A00046:50 ;
+    skos:prefLabel "Item I53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204555> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204555"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:54 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P54 Part 2 Savings"@en-AU ;
+    dct:isPartOf C2006A00046:49 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Part 2 Savings - Abrievated Graph Key: P54"@en-AU ;
+    skos:definition "Part 2 Savings"@en-AU ;
+    skos:narrower C2006A00046:49 ;
+    skos:prefLabel "Part P54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204556> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204556"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00046:56 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I56 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2006A00046:55 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I56"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2006A00046:55 ;
+    skos:prefLabel "Item I56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204558> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204558"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2006A00046:5 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2006A00046:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204339> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204339"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Application of amendments"@en-AU ;
+    dct:isPartOf C2006A00046:4 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Part 2 Application of amendments - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 2 Application of amendments"@en-AU ;
+    skos:narrower C2006A00046:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204364> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204364"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00046:18 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P18 Part 1 Changes to approval of organisations"@en-AU ;
+    dct:hasPart C2006A00046:19 ;
+    dct:isPartOf C2006A00046:17 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Part 1 Changes to approval of organisations - Abrievated Graph Key: P18"@en-AU ;
+    skos:broader C2006A00046:19 ;
+    skos:definition "Part 1 Changes to approval of organisations"@en-AU ;
+    skos:narrower C2006A00046:17 ;
+    skos:prefLabel "Part P18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204429> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204429"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00046:20 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P20 Part 2 Protection of names"@en-AU ;
+    dct:hasPart C2006A00046:21 ;
+    dct:isPartOf C2006A00046:17 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Part 2 Protection of names - Abrievated Graph Key: P20"@en-AU ;
+    skos:broader C2006A00046:21 ;
+    skos:definition "Part 2 Protection of names"@en-AU ;
+    skos:narrower C2006A00046:17 ;
+    skos:prefLabel "Part P20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204431> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204431"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00046:30 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P30 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2006A00046:31 ;
+    dct:isPartOf C2006A00046:29 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P30"@en-AU ;
+    skos:broader C2006A00046:31 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2006A00046:29 ;
+    skos:prefLabel "Part P30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204516> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204516"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00046:34 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P34 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2006A00046:35 ;
+    dct:isPartOf C2006A00046:33 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P34"@en-AU ;
+    skos:broader C2006A00046:35 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2006A00046:33 ;
+    skos:prefLabel "Part P34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204524> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204524"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00046:38 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P38 Part 1 Amendment"@en-AU ;
+    dct:hasPart C2006A00046:39 ;
+    dct:isPartOf C2006A00046:37 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Part 1 Amendment - Abrievated Graph Key: P38"@en-AU ;
+    skos:broader C2006A00046:39 ;
+    skos:definition "Part 1 Amendment"@en-AU ;
+    skos:narrower C2006A00046:37 ;
+    skos:prefLabel "Part P38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204535> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204535"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00046:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2006A00046:6 ;
+    dct:isPartOf C2006A00046:4 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2006A00046:6 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2006A00046:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204338> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204338"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00046:55 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S55 Schedule 10 Orders of nonjudicial officers of State courts of summary jurisdiction"@en-AU ;
+    dct:hasPart C2006A00046:56 ;
+    dct:isPartOf C2006A00046:3 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Schedule 10 Orders of nonjudicial officers of State courts of summary jurisdiction - Abrievated Graph Key: S55"@en-AU ;
+    skos:broader C2006A00046:56 ;
+    skos:definition "Schedule 10 Orders of nonjudicial officers of State courts of summary jurisdiction"@en-AU ;
+    skos:narrower C2006A00046:3 ;
+    skos:prefLabel "Schedule S55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204557> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204557"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00046:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2006A00046:10 ;
+    dct:isPartOf C2006A00046:8 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P9"@en-AU ;
+    skos:broader C2006A00046:10 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2006A00046:8 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204366> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204366"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00046:12 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S12 Schedule 3 Amendments relating to the conduct of childrelated proceedings"@en-AU ;
+    dct:hasPart C2006A00046:13,
+        C2006A00046:16 ;
+    dct:isPartOf C2006A00046:3 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Schedule 3 Amendments relating to the conduct of childrelated proceedings - Abrievated Graph Key: S12"@en-AU ;
+    skos:broader C2006A00046:13,
+        C2006A00046:16 ;
+    skos:definition "Schedule 3 Amendments relating to the conduct of childrelated proceedings"@en-AU ;
+    skos:narrower C2006A00046:3 ;
+    skos:prefLabel "Schedule S12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204405> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204405"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00046:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2006A00046:14,
+        C2006A00046:15 ;
+    dct:isPartOf C2006A00046:12 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P13"@en-AU ;
+    skos:broader C2006A00046:14,
+        C2006A00046:15 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2006A00046:12 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204406> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204406"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00046:29 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S29 Schedule 5 Representation of childs interests by independent childrens lawyer"@en-AU ;
+    dct:hasPart C2006A00046:30,
+        C2006A00046:32 ;
+    dct:isPartOf C2006A00046:3 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Schedule 5 Representation of childs interests by independent childrens lawyer - Abrievated Graph Key: S29"@en-AU ;
+    skos:broader C2006A00046:30,
+        C2006A00046:32 ;
+    skos:definition "Schedule 5 Representation of childs interests by independent childrens lawyer"@en-AU ;
+    skos:narrower C2006A00046:3 ;
+    skos:prefLabel "Schedule S29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204515> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204515"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00046:33 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S33 Schedule 6 Family violence"@en-AU ;
+    dct:hasPart C2006A00046:34,
+        C2006A00046:36 ;
+    dct:isPartOf C2006A00046:3 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Schedule 6 Family violence - Abrievated Graph Key: S33"@en-AU ;
+    skos:broader C2006A00046:34,
+        C2006A00046:36 ;
+    skos:definition "Schedule 6 Family violence"@en-AU ;
+    skos:narrower C2006A00046:3 ;
+    skos:prefLabel "Schedule S33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204523> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204523"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00046:37 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S37 Schedule 7 Jurisdiction of courts"@en-AU ;
+    dct:hasPart C2006A00046:38,
+        C2006A00046:40 ;
+    dct:isPartOf C2006A00046:3 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Schedule 7 Jurisdiction of courts - Abrievated Graph Key: S37"@en-AU ;
+    skos:broader C2006A00046:38,
+        C2006A00046:40 ;
+    skos:definition "Schedule 7 Jurisdiction of courts"@en-AU ;
+    skos:narrower C2006A00046:3 ;
+    skos:prefLabel "Schedule S37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204534> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204534"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00046:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Shared parental responsibility"@en-AU ;
+    dct:hasPart C2006A00046:5,
+        C2006A00046:7 ;
+    dct:isPartOf C2006A00046:3 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Schedule 1 Shared parental responsibility - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2006A00046:5,
+        C2006A00046:7 ;
+    skos:definition "Schedule 1 Shared parental responsibility"@en-AU ;
+    skos:narrower C2006A00046:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204337> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204337"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00046:41 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S41 Schedule 8 Removal of references to residence and contact"@en-AU ;
+    dct:hasPart C2006A00046:42,
+        C2006A00046:48 ;
+    dct:isPartOf C2006A00046:3 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Schedule 8 Removal of references to residence and contact - Abrievated Graph Key: S41"@en-AU ;
+    skos:broader C2006A00046:42,
+        C2006A00046:48 ;
+    skos:definition "Schedule 8 Removal of references to residence and contact"@en-AU ;
+    skos:narrower C2006A00046:3 ;
+    skos:prefLabel "Schedule S41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204538> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204538"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00046:49 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S49 Schedule 9 Relocation of defined terms used in Part VII"@en-AU ;
+    dct:hasPart C2006A00046:50,
+        C2006A00046:54 ;
+    dct:isPartOf C2006A00046:3 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Schedule 9 Relocation of defined terms used in Part VII - Abrievated Graph Key: S49"@en-AU ;
+    skos:broader C2006A00046:50,
+        C2006A00046:54 ;
+    skos:definition "Schedule 9 Relocation of defined terms used in Part VII"@en-AU ;
+    skos:narrower C2006A00046:3 ;
+    skos:prefLabel "Schedule S49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204551> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204551"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00046:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 2 Compliance regime"@en-AU ;
+    dct:hasPart C2006A00046:11,
+        C2006A00046:9 ;
+    dct:isPartOf C2006A00046:3 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Schedule 2 Compliance regime - Abrievated Graph Key: S8"@en-AU ;
+    skos:broader C2006A00046:11,
+        C2006A00046:9 ;
+    skos:definition "Schedule 2 Compliance regime"@en-AU ;
+    skos:narrower C2006A00046:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204365> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204365"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00046:50 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P50 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2006A00046:51,
+        C2006A00046:52,
+        C2006A00046:53 ;
+    dct:isPartOf C2006A00046:49 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P50"@en-AU ;
+    skos:broader C2006A00046:51,
+        C2006A00046:52,
+        C2006A00046:53 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2006A00046:49 ;
+    skos:prefLabel "Part P50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204552> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204552"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00046:22 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P22 Part 3 Changes to dispute resolution"@en-AU ;
+    dct:hasPart C2006A00046:23,
+        C2006A00046:24,
+        C2006A00046:25,
+        C2006A00046:26 ;
+    dct:isPartOf C2006A00046:17 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Part 3 Changes to dispute resolution - Abrievated Graph Key: P22"@en-AU ;
+    skos:broader C2006A00046:23,
+        C2006A00046:24,
+        C2006A00046:25,
+        C2006A00046:26 ;
+    skos:definition "Part 3 Changes to dispute resolution"@en-AU ;
+    skos:narrower C2006A00046:17 ;
+    skos:prefLabel "Part P22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204435> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204435"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00046:17 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S17 Schedule 4 Changes to dispute resolution"@en-AU ;
+    dct:hasPart C2006A00046:18,
+        C2006A00046:20,
+        C2006A00046:22,
+        C2006A00046:27,
+        C2006A00046:28 ;
+    dct:isPartOf C2006A00046:3 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Schedule 4 Changes to dispute resolution - Abrievated Graph Key: S17"@en-AU ;
+    skos:broader C2006A00046:18,
+        C2006A00046:20,
+        C2006A00046:22,
+        C2006A00046:27,
+        C2006A00046:28 ;
+    skos:definition "Schedule 4 Changes to dispute resolution"@en-AU ;
+    skos:narrower C2006A00046:3 ;
+    skos:prefLabel "Schedule S17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204428> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204428"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00046:42 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P42 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2006A00046:43,
+        C2006A00046:44,
+        C2006A00046:45,
+        C2006A00046:46,
+        C2006A00046:47 ;
+    dct:isPartOf C2006A00046:41 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P42"@en-AU ;
+    skos:broader C2006A00046:43,
+        C2006A00046:44,
+        C2006A00046:45,
+        C2006A00046:46,
+        C2006A00046:47 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2006A00046:41 ;
+    skos:prefLabel "Part P42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204539> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204539"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00046:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2006A00046:12,
+        C2006A00046:17,
+        C2006A00046:29,
+        C2006A00046:33,
+        C2006A00046:37,
+        C2006A00046:4,
+        C2006A00046:41,
+        C2006A00046:49,
+        C2006A00046:55,
+        C2006A00046:8 ;
+    dct:isReferencedBy C2006A00046: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2006A00046:12,
+        C2006A00046:17,
+        C2006A00046:29,
+        C2006A00046:33,
+        C2006A00046:37,
+        C2006A00046:4,
+        C2006A00046:41,
+        C2006A00046:49,
+        C2006A00046:55,
+        C2006A00046:8 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204336> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00046/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html#_Toc205204336"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00046: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Family Law Amendment (Shared Parental Responsibility) Act 2006" ;
+    dct:Jurisdiction " Attorney-General's Department "@en-AU ;
+    dct:created "2026-05-27T17:03:43.804274"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2007-03-15T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Family Law Amendment (Shared Parental Responsibility) Act 2006"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2006A00046/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Family Law Amendment (Shared Parental Responsibility) Act 2006"@en-AU ;
+    dct:title "Family Law Amendment (Shared Parental Responsibility) Act 2006"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2008C00441 C02" .
+

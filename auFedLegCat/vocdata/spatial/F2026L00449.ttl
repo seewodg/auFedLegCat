@@ -1,0 +1,65 @@
+@prefix F2026L00449: <http://example.org/au/leg/dataset/F2026L00449/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2026L00449:1 a legcons:Volume,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Volume - V1 Volume 1"@en-AU ;
+    dct:isReferencedBy F2026L00449: ;
+    rdfs:comment "Volume 1 - Abrievated Graph Key: V1"@en-AU ;
+    skos:definition "Volume 1"@en-AU ;
+    skos:prefLabel "Volume V1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2026L00449/asmade/2026-04-24/text/original/epub/OEBPS/document_1/document_1.html> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2026L00449/asmade/2026-04-24/text/original/epub/OEBPS/document_1/document_1.html"^^xsd:anyURI ;
+    dcat:theme legcons:Volume .
+
+F2026L00449:2 a legcons:Volume,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Volume - V2 Volume 2"@en-AU ;
+    dct:isReferencedBy F2026L00449: ;
+    rdfs:comment "Volume 2 - Abrievated Graph Key: V2"@en-AU ;
+    skos:definition "Volume 2"@en-AU ;
+    skos:prefLabel "Volume V2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2026L00449/asmade/2026-04-24/text/original/epub/OEBPS/document_2/document_2.html> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2026L00449/asmade/2026-04-24/text/original/epub/OEBPS/document_2/document_2.html"^^xsd:anyURI ;
+    dcat:theme legcons:Volume .
+
+F2026L00449:3 a legcons:Volume,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Volume - V3 Volume 3"@en-AU ;
+    dct:isReferencedBy F2026L00449: ;
+    rdfs:comment "Volume 3 - Abrievated Graph Key: V3"@en-AU ;
+    skos:definition "Volume 3"@en-AU ;
+    skos:prefLabel "Volume V3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2026L00449/asmade/2026-04-24/text/original/epub/OEBPS/document_3/document_3.html> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2026L00449/asmade/2026-04-24/text/original/epub/OEBPS/document_3/document_3.html"^^xsd:anyURI ;
+    dcat:theme legcons:Volume .
+
+F2026L00449: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Private Health Insurance (Medical Devices and Human Tissue Products) Rules (No. 2) 2026" ;
+    dct:Jurisdiction " Department of Health, Disability and Ageing "@en-AU ;
+    dct:created "2026-05-26T11:04:34.960564"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2026-04-24T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Private Health Insurance (Medical Devices and Human Tissue Products) Rules (No. 2) 2026"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2026L00449/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Private Health Insurance (Medical Devices and Human Tissue Products) Rules (No. 2) 2026"@en-AU ;
+    dct:title "Private Health Insurance (Medical Devices and Human Tissue Products) Rules (No. 2) 2026"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Volume ;
+    schema:status "In force" ;
+    schema:version "F2026L00449" .
+

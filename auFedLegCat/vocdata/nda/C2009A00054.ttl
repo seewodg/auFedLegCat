@@ -1,0 +1,2144 @@
+@prefix C2009A00054: <http://example.org/au/leg/dataset/C2009A00054/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2009A00054:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title see Note 1"@en-AU ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "1  Short title see Note 1 - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title see Note 1"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055268> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055268"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055269> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055269"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055270> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055270"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:100 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P100 Part 2 Transitional provision"@en-AU ;
+    dct:isPartOf C2009A00054:97 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Part 2 Transitional provision - Abrievated Graph Key: P100"@en-AU ;
+    skos:definition "Part 2 Transitional provision"@en-AU ;
+    skos:narrower C2009A00054:97 ;
+    skos:prefLabel "Part P100"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055403> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055403"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2009A00054:103 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I103 Parliamentary Service Act 1999"@en-AU ;
+    dct:isPartOf C2009A00054:102 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Parliamentary Service Act 1999 - Abrievated Graph Key: I103"@en-AU ;
+    skos:definition "Parliamentary Service Act 1999"@en-AU ;
+    skos:narrower C2009A00054:102 ;
+    skos:prefLabel "Item I103"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055406> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055406"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:104 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P104 Part 2 Saving provision"@en-AU ;
+    dct:isPartOf C2009A00054:101 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Part 2 Saving provision - Abrievated Graph Key: P104"@en-AU ;
+    skos:definition "Part 2 Saving provision"@en-AU ;
+    skos:narrower C2009A00054:101 ;
+    skos:prefLabel "Part P104"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055407> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055407"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2009A00054:107 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I107 Privacy Act 1988"@en-AU ;
+    dct:isPartOf C2009A00054:106 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Privacy Act 1988 - Abrievated Graph Key: I107"@en-AU ;
+    skos:definition "Privacy Act 1988"@en-AU ;
+    skos:narrower C2009A00054:106 ;
+    skos:prefLabel "Item I107"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055410> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055410"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:108 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I108 Public Service Act 1999"@en-AU ;
+    dct:isPartOf C2009A00054:106 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Public Service Act 1999 - Abrievated Graph Key: I108"@en-AU ;
+    skos:definition "Public Service Act 1999"@en-AU ;
+    skos:narrower C2009A00054:106 ;
+    skos:prefLabel "Item I108"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055411> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055411"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:109 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P109 Part 2 Saving provision"@en-AU ;
+    dct:isPartOf C2009A00054:105 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Part 2 Saving provision - Abrievated Graph Key: P109"@en-AU ;
+    skos:definition "Part 2 Saving provision"@en-AU ;
+    skos:narrower C2009A00054:105 ;
+    skos:prefLabel "Part P109"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055412> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055412"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2009A00054:111 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I111 MoombaSydney Pipeline System Sale Act 1994"@en-AU ;
+    dct:isPartOf C2009A00054:110 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "MoombaSydney Pipeline System Sale Act 1994 - Abrievated Graph Key: I111"@en-AU ;
+    skos:definition "MoombaSydney Pipeline System Sale Act 1994"@en-AU ;
+    skos:narrower C2009A00054:110 ;
+    skos:prefLabel "Item I111"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055414> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055414"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:112 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I112 Offshore Petroleum and Greenhouse Gas Storage Act 2006"@en-AU ;
+    dct:isPartOf C2009A00054:110 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Offshore Petroleum and Greenhouse Gas Storage Act 2006 - Abrievated Graph Key: I112"@en-AU ;
+    skos:definition "Offshore Petroleum and Greenhouse Gas Storage Act 2006"@en-AU ;
+    skos:narrower C2009A00054:110 ;
+    skos:prefLabel "Item I112"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055415> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055415"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:113 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I113 Snowy Hydro Corporatisation Act 1997"@en-AU ;
+    dct:isPartOf C2009A00054:110 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Snowy Hydro Corporatisation Act 1997 - Abrievated Graph Key: I113"@en-AU ;
+    skos:definition "Snowy Hydro Corporatisation Act 1997"@en-AU ;
+    skos:narrower C2009A00054:110 ;
+    skos:prefLabel "Item I113"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055416> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055416"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:116 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I116 Commonwealth Volunteers Protection Act 2003"@en-AU ;
+    dct:isPartOf C2009A00054:115 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Commonwealth Volunteers Protection Act 2003 - Abrievated Graph Key: I116"@en-AU ;
+    skos:definition "Commonwealth Volunteers Protection Act 2003"@en-AU ;
+    skos:narrower C2009A00054:115 ;
+    skos:prefLabel "Item I116"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055419> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055419"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:117 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I117 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2009A00054:115 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I117"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2009A00054:115 ;
+    skos:prefLabel "Item I117"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055420> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055420"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:118 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I118 Financial Sector Business Transfer and Group Restructure Act 1999"@en-AU ;
+    dct:isPartOf C2009A00054:115 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Financial Sector Business Transfer and Group Restructure Act 1999 - Abrievated Graph Key: I118"@en-AU ;
+    skos:definition "Financial Sector Business Transfer and Group Restructure Act 1999"@en-AU ;
+    skos:narrower C2009A00054:115 ;
+    skos:prefLabel "Item I118"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055421> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055421"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:119 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I119 Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    dct:isPartOf C2009A00054:115 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Fringe Benefits Tax Assessment Act 1986 - Abrievated Graph Key: I119"@en-AU ;
+    skos:definition "Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    skos:narrower C2009A00054:115 ;
+    skos:prefLabel "Item I119"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055422> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055422"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Fair Work Transitional Provisions and Consequential Amendments Act 2009"@en-AU ;
+    dct:isPartOf C2009A00054:11 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Fair Work Transitional Provisions and Consequential Amendments Act 2009 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Fair Work Transitional Provisions and Consequential Amendments Act 2009"@en-AU ;
+    skos:narrower C2009A00054:11 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055290> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055290"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:120 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I120 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2009A00054:115 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I120"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2009A00054:115 ;
+    skos:prefLabel "Item I120"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055423> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055423"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:121 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I121 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2009A00054:115 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I121"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2009A00054:115 ;
+    skos:prefLabel "Item I121"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055424> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055424"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:122 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I122 Insurance Act 1973"@en-AU ;
+    dct:isPartOf C2009A00054:115 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Insurance Act 1973 - Abrievated Graph Key: I122"@en-AU ;
+    skos:definition "Insurance Act 1973"@en-AU ;
+    skos:narrower C2009A00054:115 ;
+    skos:prefLabel "Item I122"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055425> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055425"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:123 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I123 Life Insurance Act 1995"@en-AU ;
+    dct:isPartOf C2009A00054:115 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Life Insurance Act 1995 - Abrievated Graph Key: I123"@en-AU ;
+    skos:definition "Life Insurance Act 1995"@en-AU ;
+    skos:narrower C2009A00054:115 ;
+    skos:prefLabel "Item I123"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055426> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055426"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:124 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I124 Superannuation Guarantee Administration Act 1992"@en-AU ;
+    dct:isPartOf C2009A00054:115 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Superannuation Guarantee Administration Act 1992 - Abrievated Graph Key: I124"@en-AU ;
+    skos:definition "Superannuation Guarantee Administration Act 1992"@en-AU ;
+    skos:narrower C2009A00054:115 ;
+    skos:prefLabel "Item I124"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055427> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055427"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:125 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I125 Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2009A00054:115 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: I125"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2009A00054:115 ;
+    skos:prefLabel "Item I125"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055429> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055429"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:126 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I126 Trade Practices Act 1974"@en-AU ;
+    dct:isPartOf C2009A00054:115 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Trade Practices Act 1974 - Abrievated Graph Key: I126"@en-AU ;
+    skos:definition "Trade Practices Act 1974"@en-AU ;
+    skos:narrower C2009A00054:115 ;
+    skos:prefLabel "Item I126"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055430> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055430"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:127 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P127 Part 2 Application provision"@en-AU ;
+    dct:isPartOf C2009A00054:114 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Part 2 Application provision - Abrievated Graph Key: P127"@en-AU ;
+    skos:definition "Part 2 Application provision"@en-AU ;
+    skos:narrower C2009A00054:114 ;
+    skos:prefLabel "Part P127"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055431> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055431"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2009A00054:130 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I130 Military Rehabilitation and Compensation Act 2004"@en-AU ;
+    dct:isPartOf C2009A00054:129 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Military Rehabilitation and Compensation Act 2004 - Abrievated Graph Key: I130"@en-AU ;
+    skos:definition "Military Rehabilitation and Compensation Act 2004"@en-AU ;
+    skos:narrower C2009A00054:129 ;
+    skos:prefLabel "Item I130"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055434> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055434"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:131 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P131 Part 2 Application provision"@en-AU ;
+    dct:isPartOf C2009A00054:128 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Part 2 Application provision - Abrievated Graph Key: P131"@en-AU ;
+    skos:definition "Part 2 Application provision"@en-AU ;
+    skos:narrower C2009A00054:128 ;
+    skos:prefLabel "Part P131"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055435> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055435"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2009A00054:132 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S132 Schedule 20 Regulations"@en-AU ;
+    dct:isPartOf C2009A00054:4 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Schedule 20 Regulations - Abrievated Graph Key: S132"@en-AU ;
+    skos:definition "Schedule 20 Regulations"@en-AU ;
+    skos:narrower C2009A00054:4 ;
+    skos:prefLabel "Schedule S132"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055436> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055436"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00054:133 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I133 Notes to the   STYLEREF ShortT  MERGEFORMAT  Fair Work State Referral and Consequential and Other Amendments Act 2009"@en-AU ;
+    dct:isPartOf C2009A00054:4 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Notes to the   STYLEREF ShortT  MERGEFORMAT  Fair Work State Referral and Consequential and Other Amendments Act 2009 - Abrievated Graph Key: I133"@en-AU ;
+    skos:definition "Notes to the   STYLEREF ShortT  MERGEFORMAT  Fair Work State Referral and Consequential and Other Amendments Act 2009"@en-AU ;
+    skos:narrower C2009A00054:4 ;
+    skos:prefLabel "Item I133"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055437> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055437"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Fair Work Act 2009"@en-AU ;
+    dct:isPartOf C2009A00054:13 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Fair Work Act 2009 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Fair Work Act 2009"@en-AU ;
+    skos:narrower C2009A00054:13 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055292> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055292"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:15 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S15 Schedule 3 Other amendments of the Fair Work Act 2009"@en-AU ;
+    dct:isPartOf C2009A00054:4 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Schedule 3 Other amendments of the Fair Work Act 2009 - Abrievated Graph Key: S15"@en-AU ;
+    skos:definition "Schedule 3 Other amendments of the Fair Work Act 2009"@en-AU ;
+    skos:narrower C2009A00054:4 ;
+    skos:prefLabel "Schedule S15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055302> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055302"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00054:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Australian Meat and Livestock Industry Repeals and Consequential Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2009A00054:16 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Australian Meat and Livestock Industry Repeals and Consequential Provisions Act 1997 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Australian Meat and Livestock Industry Repeals and Consequential Provisions Act 1997"@en-AU ;
+    skos:narrower C2009A00054:16 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055304> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055304"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Dairy Industry Service Reform Act 2003"@en-AU ;
+    dct:isPartOf C2009A00054:16 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Dairy Industry Service Reform Act 2003 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Dairy Industry Service Reform Act 2003"@en-AU ;
+    skos:narrower C2009A00054:16 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055305> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055305"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Horticulture Marketing and Research and Development Services Repeals and Consequential Provisions Act 2000"@en-AU ;
+    dct:isPartOf C2009A00054:16 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Horticulture Marketing and Research and Development Services Repeals and Consequential Provisions Act 2000 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Horticulture Marketing and Research and Development Services Repeals and Consequential Provisions Act 2000"@en-AU ;
+    skos:narrower C2009A00054:16 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055306> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055306"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Pig Industry Act 2001"@en-AU ;
+    dct:isPartOf C2009A00054:16 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Pig Industry Act 2001 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Pig Industry Act 2001"@en-AU ;
+    skos:narrower C2009A00054:16 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055307> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055307"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Age Discrimination Act 2004"@en-AU ;
+    dct:isPartOf C2009A00054:22 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Age Discrimination Act 2004 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Age Discrimination Act 2004"@en-AU ;
+    skos:narrower C2009A00054:22 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055310> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055310"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Australian Capital Territory SelfGovernment Act 1988"@en-AU ;
+    dct:isPartOf C2009A00054:22 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Australian Capital Territory SelfGovernment Act 1988 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Australian Capital Territory SelfGovernment Act 1988"@en-AU ;
+    skos:narrower C2009A00054:22 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055311> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055311"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Australian Crime Commission Act 2002"@en-AU ;
+    dct:isPartOf C2009A00054:22 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Australian Crime Commission Act 2002 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Australian Crime Commission Act 2002"@en-AU ;
+    skos:narrower C2009A00054:22 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055312> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055312"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Australian Federal Police Act 1979"@en-AU ;
+    dct:isPartOf C2009A00054:22 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Australian Federal Police Act 1979 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Australian Federal Police Act 1979"@en-AU ;
+    skos:narrower C2009A00054:22 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055313> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055313"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Bankruptcy Act 1966"@en-AU ;
+    dct:isPartOf C2009A00054:22 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Bankruptcy Act 1966 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Bankruptcy Act 1966"@en-AU ;
+    skos:narrower C2009A00054:22 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055314> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055314"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Crimes Act 1914"@en-AU ;
+    dct:isPartOf C2009A00054:22 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Crimes Act 1914 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Crimes Act 1914"@en-AU ;
+    skos:narrower C2009A00054:22 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055315> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055315"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Criminal Code Act 1995"@en-AU ;
+    dct:isPartOf C2009A00054:22 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Criminal Code Act 1995 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Criminal Code Act 1995"@en-AU ;
+    skos:narrower C2009A00054:22 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055316> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055316"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Disability Discrimination Act 1992"@en-AU ;
+    dct:isPartOf C2009A00054:22 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Disability Discrimination Act 1992 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Disability Discrimination Act 1992"@en-AU ;
+    skos:narrower C2009A00054:22 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055317> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055317"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Human Rights and Equal Opportunity Commission Act 1986"@en-AU ;
+    dct:isPartOf C2009A00054:22 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Human Rights and Equal Opportunity Commission Act 1986 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Human Rights and Equal Opportunity Commission Act 1986"@en-AU ;
+    skos:narrower C2009A00054:22 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055318> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055318"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Judges Pensions Act 1968"@en-AU ;
+    dct:isPartOf C2009A00054:22 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Judges Pensions Act 1968 - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Judges Pensions Act 1968"@en-AU ;
+    skos:narrower C2009A00054:22 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055319> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055319"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Judiciary Act 1903"@en-AU ;
+    dct:isPartOf C2009A00054:22 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Judiciary Act 1903 - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Judiciary Act 1903"@en-AU ;
+    skos:narrower C2009A00054:22 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055320> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055320"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Jurisdiction of Courts Crossvesting Act 1987"@en-AU ;
+    dct:isPartOf C2009A00054:22 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Jurisdiction of Courts Crossvesting Act 1987 - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Jurisdiction of Courts Crossvesting Act 1987"@en-AU ;
+    skos:narrower C2009A00054:22 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055321> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055321"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Jury Exemption Act 1965"@en-AU ;
+    dct:isPartOf C2009A00054:22 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Jury Exemption Act 1965 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Jury Exemption Act 1965"@en-AU ;
+    skos:narrower C2009A00054:22 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055322> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055322"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 Legislative Instruments Act 2003"@en-AU ;
+    dct:isPartOf C2009A00054:22 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Legislative Instruments Act 2003 - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "Legislative Instruments Act 2003"@en-AU ;
+    skos:narrower C2009A00054:22 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055323> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055323"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Northern Territory SelfGovernment Act 1978"@en-AU ;
+    dct:isPartOf C2009A00054:22 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Northern Territory SelfGovernment Act 1978 - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Northern Territory SelfGovernment Act 1978"@en-AU ;
+    skos:narrower C2009A00054:22 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055324> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055324"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 Seat of Government Administration Act 1910"@en-AU ;
+    dct:isPartOf C2009A00054:22 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Seat of Government Administration Act 1910 - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "Seat of Government Administration Act 1910"@en-AU ;
+    skos:narrower C2009A00054:22 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055325> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055325"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 Sex Discrimination Act 1984"@en-AU ;
+    dct:isPartOf C2009A00054:22 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Sex Discrimination Act 1984 - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "Sex Discrimination Act 1984"@en-AU ;
+    skos:narrower C2009A00054:22 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055326> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055326"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 Age Discrimination Act 2004"@en-AU ;
+    dct:isPartOf C2009A00054:41 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Age Discrimination Act 2004 - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "Age Discrimination Act 2004"@en-AU ;
+    skos:narrower C2009A00054:41 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055329> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055329"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:43 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I43 Disability Discrimination Act 1992"@en-AU ;
+    dct:isPartOf C2009A00054:41 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Disability Discrimination Act 1992 - Abrievated Graph Key: I43"@en-AU ;
+    skos:definition "Disability Discrimination Act 1992"@en-AU ;
+    skos:narrower C2009A00054:41 ;
+    skos:prefLabel "Item I43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055330> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055330"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 Fair Work Act 2009"@en-AU ;
+    dct:isPartOf C2009A00054:41 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Fair Work Act 2009 - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "Fair Work Act 2009"@en-AU ;
+    skos:narrower C2009A00054:41 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055331> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055331"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:45 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I45 Human Rights and Equal Opportunity Commission Act 1986"@en-AU ;
+    dct:isPartOf C2009A00054:41 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Human Rights and Equal Opportunity Commission Act 1986 - Abrievated Graph Key: I45"@en-AU ;
+    skos:definition "Human Rights and Equal Opportunity Commission Act 1986"@en-AU ;
+    skos:narrower C2009A00054:41 ;
+    skos:prefLabel "Item I45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055332> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055332"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:46 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I46 Sex Discrimination Act 1984"@en-AU ;
+    dct:isPartOf C2009A00054:41 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Sex Discrimination Act 1984 - Abrievated Graph Key: I46"@en-AU ;
+    skos:definition "Sex Discrimination Act 1984"@en-AU ;
+    skos:narrower C2009A00054:41 ;
+    skos:prefLabel "Item I46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055333> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055333"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:48 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I48 Fair Work Act 2009"@en-AU ;
+    dct:isPartOf C2009A00054:47 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Fair Work Act 2009 - Abrievated Graph Key: I48"@en-AU ;
+    skos:definition "Fair Work Act 2009"@en-AU ;
+    skos:narrower C2009A00054:47 ;
+    skos:prefLabel "Item I48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055335> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055335"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:49 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P49 Part 3 Application provisions"@en-AU ;
+    dct:isPartOf C2009A00054:21 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Part 3 Application provisions - Abrievated Graph Key: P49"@en-AU ;
+    skos:definition "Part 3 Application provisions"@en-AU ;
+    skos:narrower C2009A00054:21 ;
+    skos:prefLabel "Part P49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055336> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055336"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2009A00054:51 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I51 Telstra Corporation Act 1991"@en-AU ;
+    dct:isPartOf C2009A00054:50 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Telstra Corporation Act 1991 - Abrievated Graph Key: I51"@en-AU ;
+    skos:definition "Telstra Corporation Act 1991"@en-AU ;
+    skos:narrower C2009A00054:50 ;
+    skos:prefLabel "Item I51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055338> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055338"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:54 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I54 Naval Defence Act 1910"@en-AU ;
+    dct:isPartOf C2009A00054:53 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Naval Defence Act 1910 - Abrievated Graph Key: I54"@en-AU ;
+    skos:definition "Naval Defence Act 1910"@en-AU ;
+    skos:narrower C2009A00054:53 ;
+    skos:prefLabel "Item I54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055341> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055341"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:55 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P55 Part 2 Application provisions"@en-AU ;
+    dct:isPartOf C2009A00054:52 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Part 2 Application provisions - Abrievated Graph Key: P55"@en-AU ;
+    skos:definition "Part 2 Application provisions"@en-AU ;
+    skos:narrower C2009A00054:52 ;
+    skos:prefLabel "Part P55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055342> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055342"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2009A00054:58 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I58 Air Passenger Ticket Levy Collection Act 2001"@en-AU ;
+    dct:isPartOf C2009A00054:57 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Air Passenger Ticket Levy Collection Act 2001 - Abrievated Graph Key: I58"@en-AU ;
+    skos:definition "Air Passenger Ticket Levy Collection Act 2001"@en-AU ;
+    skos:narrower C2009A00054:57 ;
+    skos:prefLabel "Item I58"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055345> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055345"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:59 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I59 Building and Construction Industry Improvement Act 2005"@en-AU ;
+    dct:isPartOf C2009A00054:57 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Building and Construction Industry Improvement Act 2005 - Abrievated Graph Key: I59"@en-AU ;
+    skos:definition "Building and Construction Industry Improvement Act 2005"@en-AU ;
+    skos:narrower C2009A00054:57 ;
+    skos:prefLabel "Item I59"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055346> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055346"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Fair Work Act 2009"@en-AU ;
+    dct:isPartOf C2009A00054:5 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Fair Work Act 2009 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Fair Work Act 2009"@en-AU ;
+    skos:narrower C2009A00054:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055273> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055273"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:60 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I60 Coal Mining Industry Long Service Leave Funding Act 1992"@en-AU ;
+    dct:isPartOf C2009A00054:57 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Coal Mining Industry Long Service Leave Funding Act 1992 - Abrievated Graph Key: I60"@en-AU ;
+    skos:definition "Coal Mining Industry Long Service Leave Funding Act 1992"@en-AU ;
+    skos:narrower C2009A00054:57 ;
+    skos:prefLabel "Item I60"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055350> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055350"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:61 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I61 Defence Act 1903"@en-AU ;
+    dct:isPartOf C2009A00054:57 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Defence Act 1903 - Abrievated Graph Key: I61"@en-AU ;
+    skos:definition "Defence Act 1903"@en-AU ;
+    skos:narrower C2009A00054:57 ;
+    skos:prefLabel "Item I61"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055351> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055351"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:62 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I62 Long Service Leave Commonwealth Employees Act 1976"@en-AU ;
+    dct:isPartOf C2009A00054:57 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Long Service Leave Commonwealth Employees Act 1976 - Abrievated Graph Key: I62"@en-AU ;
+    skos:definition "Long Service Leave Commonwealth Employees Act 1976"@en-AU ;
+    skos:narrower C2009A00054:57 ;
+    skos:prefLabel "Item I62"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055352> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055352"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:63 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I63 Maternity Leave Commonwealth Employees Act 1973"@en-AU ;
+    dct:isPartOf C2009A00054:57 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Maternity Leave Commonwealth Employees Act 1973 - Abrievated Graph Key: I63"@en-AU ;
+    skos:definition "Maternity Leave Commonwealth Employees Act 1973"@en-AU ;
+    skos:narrower C2009A00054:57 ;
+    skos:prefLabel "Item I63"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055353> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055353"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:64 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I64 Occupational Health and Safety Act 1991"@en-AU ;
+    dct:isPartOf C2009A00054:57 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Occupational Health and Safety Act 1991 - Abrievated Graph Key: I64"@en-AU ;
+    skos:definition "Occupational Health and Safety Act 1991"@en-AU ;
+    skos:narrower C2009A00054:57 ;
+    skos:prefLabel "Item I64"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055354> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055354"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:65 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I65 Occupational Health and Safety Maritime Industry Act 1993"@en-AU ;
+    dct:isPartOf C2009A00054:57 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Occupational Health and Safety Maritime Industry Act 1993 - Abrievated Graph Key: I65"@en-AU ;
+    skos:definition "Occupational Health and Safety Maritime Industry Act 1993"@en-AU ;
+    skos:narrower C2009A00054:57 ;
+    skos:prefLabel "Item I65"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055355> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055355"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:66 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I66 Remuneration Tribunal Act 1973"@en-AU ;
+    dct:isPartOf C2009A00054:57 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Remuneration Tribunal Act 1973 - Abrievated Graph Key: I66"@en-AU ;
+    skos:definition "Remuneration Tribunal Act 1973"@en-AU ;
+    skos:narrower C2009A00054:57 ;
+    skos:prefLabel "Item I66"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055356> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055356"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:67 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I67 Safety Rehabilitation and Compensation Act 1988"@en-AU ;
+    dct:isPartOf C2009A00054:57 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Safety Rehabilitation and Compensation Act 1988 - Abrievated Graph Key: I67"@en-AU ;
+    skos:definition "Safety Rehabilitation and Compensation Act 1988"@en-AU ;
+    skos:narrower C2009A00054:57 ;
+    skos:prefLabel "Item I67"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055357> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055357"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:68 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I68 Seafarers Rehabilitation and Compensation Act 1992"@en-AU ;
+    dct:isPartOf C2009A00054:57 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Seafarers Rehabilitation and Compensation Act 1992 - Abrievated Graph Key: I68"@en-AU ;
+    skos:definition "Seafarers Rehabilitation and Compensation Act 1992"@en-AU ;
+    skos:narrower C2009A00054:57 ;
+    skos:prefLabel "Item I68"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055358> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055358"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:69 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I69 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2009A00054:57 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I69"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2009A00054:57 ;
+    skos:prefLabel "Item I69"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055359> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055359"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:70 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I70 Tradesmens Rights Regulation Act 1946"@en-AU ;
+    dct:isPartOf C2009A00054:57 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Tradesmens Rights Regulation Act 1946 - Abrievated Graph Key: I70"@en-AU ;
+    skos:definition "Tradesmens Rights Regulation Act 1946"@en-AU ;
+    skos:narrower C2009A00054:57 ;
+    skos:prefLabel "Item I70"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055360> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055360"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:71 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I71 United States Naval Communication Station Civilian Employees Act 1968"@en-AU ;
+    dct:isPartOf C2009A00054:57 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "United States Naval Communication Station Civilian Employees Act 1968 - Abrievated Graph Key: I71"@en-AU ;
+    skos:definition "United States Naval Communication Station Civilian Employees Act 1968"@en-AU ;
+    skos:narrower C2009A00054:57 ;
+    skos:prefLabel "Item I71"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055361> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055361"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:73 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D73 Division 1 Provisions relating to the Building and Construction Industry Improvement Act 2005"@en-AU ;
+    dct:isPartOf C2009A00054:72 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Division 1 Provisions relating to the Building and Construction Industry Improvement Act 2005 - Abrievated Graph Key: D73"@en-AU ;
+    skos:definition "Division 1 Provisions relating to the Building and Construction Industry Improvement Act 2005"@en-AU ;
+    skos:narrower C2009A00054:72 ;
+    skos:prefLabel "Division D73"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055363> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055363"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2009A00054:74 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D74 Division 1 AProvision relating to the Coal Mining Industry Long Service Leave Funding Act 1992"@en-AU ;
+    dct:isPartOf C2009A00054:72 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Division 1 AProvision relating to the Coal Mining Industry Long Service Leave Funding Act 1992 - Abrievated Graph Key: D74"@en-AU ;
+    skos:definition "Division 1 AProvision relating to the Coal Mining Industry Long Service Leave Funding Act 1992"@en-AU ;
+    skos:narrower C2009A00054:72 ;
+    skos:prefLabel "Division D74"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055364> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055364"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2009A00054:75 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D75 Division 2 Provision relating to the Defence Act 1903"@en-AU ;
+    dct:isPartOf C2009A00054:72 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Division 2 Provision relating to the Defence Act 1903 - Abrievated Graph Key: D75"@en-AU ;
+    skos:definition "Division 2 Provision relating to the Defence Act 1903"@en-AU ;
+    skos:narrower C2009A00054:72 ;
+    skos:prefLabel "Division D75"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055365> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055365"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2009A00054:76 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D76 Division 2 AProvision relating to the Maternity Leave Commonwealth Employees Act 1973"@en-AU ;
+    dct:isPartOf C2009A00054:72 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Division 2 AProvision relating to the Maternity Leave Commonwealth Employees Act 1973 - Abrievated Graph Key: D76"@en-AU ;
+    skos:definition "Division 2 AProvision relating to the Maternity Leave Commonwealth Employees Act 1973"@en-AU ;
+    skos:narrower C2009A00054:72 ;
+    skos:prefLabel "Division D76"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055366> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055366"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2009A00054:77 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D77 Division 3 Provisions relating to the Remuneration Tribunal Act 1973"@en-AU ;
+    dct:isPartOf C2009A00054:72 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Division 3 Provisions relating to the Remuneration Tribunal Act 1973 - Abrievated Graph Key: D77"@en-AU ;
+    skos:definition "Division 3 Provisions relating to the Remuneration Tribunal Act 1973"@en-AU ;
+    skos:narrower C2009A00054:72 ;
+    skos:prefLabel "Division D77"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055367> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055367"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2009A00054:78 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D78 Division 4 Provisions relating to the Seafarers Rehabilitation and Compensation Act 1992"@en-AU ;
+    dct:isPartOf C2009A00054:72 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Division 4 Provisions relating to the Seafarers Rehabilitation and Compensation Act 1992 - Abrievated Graph Key: D78"@en-AU ;
+    skos:definition "Division 4 Provisions relating to the Seafarers Rehabilitation and Compensation Act 1992"@en-AU ;
+    skos:narrower C2009A00054:72 ;
+    skos:prefLabel "Division D78"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055368> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055368"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2009A00054:79 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D79 Division 5 Provisions relating to the Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2009A00054:72 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Division 5 Provisions relating to the Social Security Act 1991 - Abrievated Graph Key: D79"@en-AU ;
+    skos:definition "Division 5 Provisions relating to the Social Security Act 1991"@en-AU ;
+    skos:narrower C2009A00054:72 ;
+    skos:prefLabel "Division D79"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055369> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055369"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2009A00054:81 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I81 Equal Opportunity for Women in the Workplace Act 1999"@en-AU ;
+    dct:isPartOf C2009A00054:80 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Equal Opportunity for Women in the Workplace Act 1999 - Abrievated Graph Key: I81"@en-AU ;
+    skos:definition "Equal Opportunity for Women in the Workplace Act 1999"@en-AU ;
+    skos:narrower C2009A00054:80 ;
+    skos:prefLabel "Item I81"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055371> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055371"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:82 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I82 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2009A00054:80 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I82"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2009A00054:80 ;
+    skos:prefLabel "Item I82"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055372> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055372"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:84 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I84 Airports Transitional Act 1996"@en-AU ;
+    dct:isPartOf C2009A00054:83 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Airports Transitional Act 1996 - Abrievated Graph Key: I84"@en-AU ;
+    skos:definition "Airports Transitional Act 1996"@en-AU ;
+    skos:narrower C2009A00054:83 ;
+    skos:prefLabel "Item I84"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055374> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055374"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:85 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I85 Commonwealth Authorities and Companies Act 1997"@en-AU ;
+    dct:isPartOf C2009A00054:83 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Commonwealth Authorities and Companies Act 1997 - Abrievated Graph Key: I85"@en-AU ;
+    skos:definition "Commonwealth Authorities and Companies Act 1997"@en-AU ;
+    skos:narrower C2009A00054:83 ;
+    skos:prefLabel "Item I85"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055375> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055375"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:86 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I86 Commonwealth Electoral Act 1918"@en-AU ;
+    dct:isPartOf C2009A00054:83 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Commonwealth Electoral Act 1918 - Abrievated Graph Key: I86"@en-AU ;
+    skos:definition "Commonwealth Electoral Act 1918"@en-AU ;
+    skos:narrower C2009A00054:83 ;
+    skos:prefLabel "Item I86"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055376> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055376"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:87 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I87 Superannuation Act 1976"@en-AU ;
+    dct:isPartOf C2009A00054:83 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Superannuation Act 1976 - Abrievated Graph Key: I87"@en-AU ;
+    skos:definition "Superannuation Act 1976"@en-AU ;
+    skos:narrower C2009A00054:83 ;
+    skos:prefLabel "Item I87"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055377> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055377"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:88 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I88 Superannuation Act 1990"@en-AU ;
+    dct:isPartOf C2009A00054:83 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Superannuation Act 1990 - Abrievated Graph Key: I88"@en-AU ;
+    skos:definition "Superannuation Act 1990"@en-AU ;
+    skos:narrower C2009A00054:83 ;
+    skos:prefLabel "Item I88"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055378> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055378"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Fair Work Transitional Provisions and Consequential Amendments Act 2009"@en-AU ;
+    dct:isPartOf C2009A00054:8 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Fair Work Transitional Provisions and Consequential Amendments Act 2009 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Fair Work Transitional Provisions and Consequential Amendments Act 2009"@en-AU ;
+    skos:narrower C2009A00054:8 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055287> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055287"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:90 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I90 Commonwealth Serum Laboratories Act 1961"@en-AU ;
+    dct:isPartOf C2009A00054:89 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Commonwealth Serum Laboratories Act 1961 - Abrievated Graph Key: I90"@en-AU ;
+    skos:definition "Commonwealth Serum Laboratories Act 1961"@en-AU ;
+    skos:narrower C2009A00054:89 ;
+    skos:prefLabel "Item I90"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055380> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055380"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:91 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I91 National Health Act 1953"@en-AU ;
+    dct:isPartOf C2009A00054:89 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "National Health Act 1953 - Abrievated Graph Key: I91"@en-AU ;
+    skos:definition "National Health Act 1953"@en-AU ;
+    skos:narrower C2009A00054:89 ;
+    skos:prefLabel "Item I91"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055381> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055381"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:93 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I93 Fair Work Act 2009"@en-AU ;
+    dct:isPartOf C2009A00054:92 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Fair Work Act 2009 - Abrievated Graph Key: I93"@en-AU ;
+    skos:definition "Fair Work Act 2009"@en-AU ;
+    skos:narrower C2009A00054:92 ;
+    skos:prefLabel "Item I93"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055383> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055383"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:94 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I94 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2009A00054:92 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I94"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2009A00054:92 ;
+    skos:prefLabel "Item I94"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055385> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055385"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:96 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I96 Navigation Act 1912"@en-AU ;
+    dct:isPartOf C2009A00054:95 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Navigation Act 1912 - Abrievated Graph Key: I96"@en-AU ;
+    skos:definition "Navigation Act 1912"@en-AU ;
+    skos:narrower C2009A00054:95 ;
+    skos:prefLabel "Item I96"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055398> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055398"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:99 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I99 Independent Contractors Act 2006"@en-AU ;
+    dct:isPartOf C2009A00054:98 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Independent Contractors Act 2006 - Abrievated Graph Key: I99"@en-AU ;
+    skos:definition "Independent Contractors Act 2006"@en-AU ;
+    skos:narrower C2009A00054:98 ;
+    skos:prefLabel "Item I99"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055402> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055402"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054:102 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P102 Part 1 Consequential amendments"@en-AU ;
+    dct:hasPart C2009A00054:103 ;
+    dct:isPartOf C2009A00054:101 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Part 1 Consequential amendments - Abrievated Graph Key: P102"@en-AU ;
+    skos:broader C2009A00054:103 ;
+    skos:definition "Part 1 Consequential amendments"@en-AU ;
+    skos:narrower C2009A00054:101 ;
+    skos:prefLabel "Part P102"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055405> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055405"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2009A00054:11 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D11 Division 1 State reference public sector transitional award modernisation"@en-AU ;
+    dct:hasPart C2009A00054:12 ;
+    dct:isPartOf C2009A00054:10 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Division 1 State reference public sector transitional award modernisation - Abrievated Graph Key: D11"@en-AU ;
+    skos:broader C2009A00054:12 ;
+    skos:definition "Division 1 State reference public sector transitional award modernisation"@en-AU ;
+    skos:narrower C2009A00054:10 ;
+    skos:prefLabel "Division D11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055289> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055289"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2009A00054:129 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P129 Part 1 Consequential amendments"@en-AU ;
+    dct:hasPart C2009A00054:130 ;
+    dct:isPartOf C2009A00054:128 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Part 1 Consequential amendments - Abrievated Graph Key: P129"@en-AU ;
+    skos:broader C2009A00054:130 ;
+    skos:definition "Part 1 Consequential amendments"@en-AU ;
+    skos:narrower C2009A00054:128 ;
+    skos:prefLabel "Part P129"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055433> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055433"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2009A00054:13 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D13 Division 2 Other amendments related to State reference public sector modern awards"@en-AU ;
+    dct:hasPart C2009A00054:14 ;
+    dct:isPartOf C2009A00054:10 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Division 2 Other amendments related to State reference public sector modern awards - Abrievated Graph Key: D13"@en-AU ;
+    skos:broader C2009A00054:14 ;
+    skos:definition "Division 2 Other amendments related to State reference public sector modern awards"@en-AU ;
+    skos:narrower C2009A00054:10 ;
+    skos:prefLabel "Division D13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055291> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055291"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2009A00054:47 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D47 Division 2 Amendments relating to HREOC name change"@en-AU ;
+    dct:hasPart C2009A00054:48 ;
+    dct:isPartOf C2009A00054:40 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Division 2 Amendments relating to HREOC name change - Abrievated Graph Key: D47"@en-AU ;
+    skos:broader C2009A00054:48 ;
+    skos:definition "Division 2 Amendments relating to HREOC name change"@en-AU ;
+    skos:narrower C2009A00054:40 ;
+    skos:prefLabel "Division D47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055334> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055334"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2009A00054:5 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S5 Schedule 1 Referring States"@en-AU ;
+    dct:hasPart C2009A00054:6 ;
+    dct:isPartOf C2009A00054:4 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Schedule 1 Referring States - Abrievated Graph Key: S5"@en-AU ;
+    skos:broader C2009A00054:6 ;
+    skos:definition "Schedule 1 Referring States"@en-AU ;
+    skos:narrower C2009A00054:4 ;
+    skos:prefLabel "Schedule S5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055272> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055272"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00054:50 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S50 Schedule 6 Broadband Communications and the Digital Economy"@en-AU ;
+    dct:hasPart C2009A00054:51 ;
+    dct:isPartOf C2009A00054:4 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Schedule 6 Broadband Communications and the Digital Economy - Abrievated Graph Key: S50"@en-AU ;
+    skos:broader C2009A00054:51 ;
+    skos:definition "Schedule 6 Broadband Communications and the Digital Economy"@en-AU ;
+    skos:narrower C2009A00054:4 ;
+    skos:prefLabel "Schedule S50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055337> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055337"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00054:53 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P53 Part 1 Consequential amendments"@en-AU ;
+    dct:hasPart C2009A00054:54 ;
+    dct:isPartOf C2009A00054:52 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Part 1 Consequential amendments - Abrievated Graph Key: P53"@en-AU ;
+    skos:broader C2009A00054:54 ;
+    skos:definition "Part 1 Consequential amendments"@en-AU ;
+    skos:narrower C2009A00054:52 ;
+    skos:prefLabel "Part P53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055340> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055340"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2009A00054:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 1 Treatment of transitional awards and common rules as transitional instruments etc"@en-AU ;
+    dct:hasPart C2009A00054:9 ;
+    dct:isPartOf C2009A00054:7 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Part 1 Treatment of transitional awards and common rules as transitional instruments etc - Abrievated Graph Key: P8"@en-AU ;
+    skos:broader C2009A00054:9 ;
+    skos:definition "Part 1 Treatment of transitional awards and common rules as transitional instruments etc"@en-AU ;
+    skos:narrower C2009A00054:7 ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055286> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055286"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2009A00054:95 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S95 Schedule 13 Infrastructure Transport Regional Development and Local Government"@en-AU ;
+    dct:hasPart C2009A00054:96 ;
+    dct:isPartOf C2009A00054:4 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Schedule 13 Infrastructure Transport Regional Development and Local Government - Abrievated Graph Key: S95"@en-AU ;
+    skos:broader C2009A00054:96 ;
+    skos:definition "Schedule 13 Infrastructure Transport Regional Development and Local Government"@en-AU ;
+    skos:narrower C2009A00054:4 ;
+    skos:prefLabel "Schedule S95"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055397> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055397"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00054:98 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P98 Part 1 Consequential amendments"@en-AU ;
+    dct:hasPart C2009A00054:99 ;
+    dct:isPartOf C2009A00054:97 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Part 1 Consequential amendments - Abrievated Graph Key: P98"@en-AU ;
+    skos:broader C2009A00054:99 ;
+    skos:definition "Part 1 Consequential amendments"@en-AU ;
+    skos:narrower C2009A00054:97 ;
+    skos:prefLabel "Part P98"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055401> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055401"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2009A00054:10 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P10 Part 2 State reference public sector modern awards"@en-AU ;
+    dct:hasPart C2009A00054:11,
+        C2009A00054:13 ;
+    dct:isPartOf C2009A00054:7 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Part 2 State reference public sector modern awards - Abrievated Graph Key: P10"@en-AU ;
+    skos:broader C2009A00054:11,
+        C2009A00054:13 ;
+    skos:definition "Part 2 State reference public sector modern awards"@en-AU ;
+    skos:narrower C2009A00054:7 ;
+    skos:prefLabel "Part P10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055288> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055288"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2009A00054:101 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S101 Schedule 15 Parliamentary Service"@en-AU ;
+    dct:hasPart C2009A00054:102,
+        C2009A00054:104 ;
+    dct:isPartOf C2009A00054:4 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Schedule 15 Parliamentary Service - Abrievated Graph Key: S101"@en-AU ;
+    skos:broader C2009A00054:102,
+        C2009A00054:104 ;
+    skos:definition "Schedule 15 Parliamentary Service"@en-AU ;
+    skos:narrower C2009A00054:4 ;
+    skos:prefLabel "Schedule S101"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055404> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055404"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00054:105 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S105 Schedule 16 Prime Minister and Cabinet"@en-AU ;
+    dct:hasPart C2009A00054:106,
+        C2009A00054:109 ;
+    dct:isPartOf C2009A00054:4 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Schedule 16 Prime Minister and Cabinet - Abrievated Graph Key: S105"@en-AU ;
+    skos:broader C2009A00054:106,
+        C2009A00054:109 ;
+    skos:definition "Schedule 16 Prime Minister and Cabinet"@en-AU ;
+    skos:narrower C2009A00054:4 ;
+    skos:prefLabel "Schedule S105"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055408> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055408"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00054:106 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P106 Part 1 Consequential amendments"@en-AU ;
+    dct:hasPart C2009A00054:107,
+        C2009A00054:108 ;
+    dct:isPartOf C2009A00054:105 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Part 1 Consequential amendments - Abrievated Graph Key: P106"@en-AU ;
+    skos:broader C2009A00054:107,
+        C2009A00054:108 ;
+    skos:definition "Part 1 Consequential amendments"@en-AU ;
+    skos:narrower C2009A00054:105 ;
+    skos:prefLabel "Part P106"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055409> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055409"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2009A00054:114 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S114 Schedule 18 Treasury"@en-AU ;
+    dct:hasPart C2009A00054:115,
+        C2009A00054:127 ;
+    dct:isPartOf C2009A00054:4 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Schedule 18 Treasury - Abrievated Graph Key: S114"@en-AU ;
+    skos:broader C2009A00054:115,
+        C2009A00054:127 ;
+    skos:definition "Schedule 18 Treasury"@en-AU ;
+    skos:narrower C2009A00054:4 ;
+    skos:prefLabel "Schedule S114"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055417> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055417"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00054:128 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S128 Schedule 19 Veterans Affairs"@en-AU ;
+    dct:hasPart C2009A00054:129,
+        C2009A00054:131 ;
+    dct:isPartOf C2009A00054:4 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Schedule 19 Veterans Affairs - Abrievated Graph Key: S128"@en-AU ;
+    skos:broader C2009A00054:129,
+        C2009A00054:131 ;
+    skos:definition "Schedule 19 Veterans Affairs"@en-AU ;
+    skos:narrower C2009A00054:4 ;
+    skos:prefLabel "Schedule S128"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055432> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055432"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00054:40 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P40 Part 2 Amendments relating to discrimination in compliance with industrial instruments and laws"@en-AU ;
+    dct:hasPart C2009A00054:41,
+        C2009A00054:47 ;
+    dct:isPartOf C2009A00054:21 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Part 2 Amendments relating to discrimination in compliance with industrial instruments and laws - Abrievated Graph Key: P40"@en-AU ;
+    skos:broader C2009A00054:41,
+        C2009A00054:47 ;
+    skos:definition "Part 2 Amendments relating to discrimination in compliance with industrial instruments and laws"@en-AU ;
+    skos:narrower C2009A00054:21 ;
+    skos:prefLabel "Part P40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055327> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055327"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2009A00054:52 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S52 Schedule 7 Defence"@en-AU ;
+    dct:hasPart C2009A00054:53,
+        C2009A00054:55 ;
+    dct:isPartOf C2009A00054:4 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Schedule 7 Defence - Abrievated Graph Key: S52"@en-AU ;
+    skos:broader C2009A00054:53,
+        C2009A00054:55 ;
+    skos:definition "Schedule 7 Defence"@en-AU ;
+    skos:narrower C2009A00054:4 ;
+    skos:prefLabel "Schedule S52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055339> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055339"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00054:56 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S56 Schedule 8 Education Employment and Workplace Relations"@en-AU ;
+    dct:hasPart C2009A00054:57,
+        C2009A00054:72 ;
+    dct:isPartOf C2009A00054:4 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Schedule 8 Education Employment and Workplace Relations - Abrievated Graph Key: S56"@en-AU ;
+    skos:broader C2009A00054:57,
+        C2009A00054:72 ;
+    skos:definition "Schedule 8 Education Employment and Workplace Relations"@en-AU ;
+    skos:narrower C2009A00054:4 ;
+    skos:prefLabel "Schedule S56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055343> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055343"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00054:7 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S7 Schedule 2 Consequential and transitional provisions relating to referral of matters"@en-AU ;
+    dct:hasPart C2009A00054:10,
+        C2009A00054:8 ;
+    dct:isPartOf C2009A00054:4 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Schedule 2 Consequential and transitional provisions relating to referral of matters - Abrievated Graph Key: S7"@en-AU ;
+    skos:broader C2009A00054:10,
+        C2009A00054:8 ;
+    skos:definition "Schedule 2 Consequential and transitional provisions relating to referral of matters"@en-AU ;
+    skos:narrower C2009A00054:4 ;
+    skos:prefLabel "Schedule S7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055285> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055285"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00054:80 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S80 Schedule 9 Families Housing Community Services and Indigenous Affairs"@en-AU ;
+    dct:hasPart C2009A00054:81,
+        C2009A00054:82 ;
+    dct:isPartOf C2009A00054:4 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Schedule 9 Families Housing Community Services and Indigenous Affairs - Abrievated Graph Key: S80"@en-AU ;
+    skos:broader C2009A00054:81,
+        C2009A00054:82 ;
+    skos:definition "Schedule 9 Families Housing Community Services and Indigenous Affairs"@en-AU ;
+    skos:narrower C2009A00054:4 ;
+    skos:prefLabel "Schedule S80"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055370> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055370"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00054:89 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S89 Schedule 11 Health and Ageing"@en-AU ;
+    dct:hasPart C2009A00054:90,
+        C2009A00054:91 ;
+    dct:isPartOf C2009A00054:4 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Schedule 11 Health and Ageing - Abrievated Graph Key: S89"@en-AU ;
+    skos:broader C2009A00054:90,
+        C2009A00054:91 ;
+    skos:definition "Schedule 11 Health and Ageing"@en-AU ;
+    skos:narrower C2009A00054:4 ;
+    skos:prefLabel "Schedule S89"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055379> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055379"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00054:92 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S92 Schedule 12 Immigration and Citizenship"@en-AU ;
+    dct:hasPart C2009A00054:93,
+        C2009A00054:94 ;
+    dct:isPartOf C2009A00054:4 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Schedule 12 Immigration and Citizenship - Abrievated Graph Key: S92"@en-AU ;
+    skos:broader C2009A00054:93,
+        C2009A00054:94 ;
+    skos:definition "Schedule 12 Immigration and Citizenship"@en-AU ;
+    skos:narrower C2009A00054:4 ;
+    skos:prefLabel "Schedule S92"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055382> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055382"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00054:97 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S97 Schedule 14 Innovation Industry Science and Research"@en-AU ;
+    dct:hasPart C2009A00054:100,
+        C2009A00054:98 ;
+    dct:isPartOf C2009A00054:4 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Schedule 14 Innovation Industry Science and Research - Abrievated Graph Key: S97"@en-AU ;
+    skos:broader C2009A00054:100,
+        C2009A00054:98 ;
+    skos:definition "Schedule 14 Innovation Industry Science and Research"@en-AU ;
+    skos:narrower C2009A00054:4 ;
+    skos:prefLabel "Schedule S97"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055400> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055400"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00054:110 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S110 Schedule 17 Resources Energy and Tourism"@en-AU ;
+    dct:hasPart C2009A00054:111,
+        C2009A00054:112,
+        C2009A00054:113 ;
+    dct:isPartOf C2009A00054:4 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Schedule 17 Resources Energy and Tourism - Abrievated Graph Key: S110"@en-AU ;
+    skos:broader C2009A00054:111,
+        C2009A00054:112,
+        C2009A00054:113 ;
+    skos:definition "Schedule 17 Resources Energy and Tourism"@en-AU ;
+    skos:narrower C2009A00054:4 ;
+    skos:prefLabel "Schedule S110"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055413> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055413"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00054:21 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S21 Schedule 5 AttorneyGeneral"@en-AU ;
+    dct:hasPart C2009A00054:22,
+        C2009A00054:40,
+        C2009A00054:49 ;
+    dct:isPartOf C2009A00054:4 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Schedule 5 AttorneyGeneral - Abrievated Graph Key: S21"@en-AU ;
+    skos:broader C2009A00054:22,
+        C2009A00054:40,
+        C2009A00054:49 ;
+    skos:definition "Schedule 5 AttorneyGeneral"@en-AU ;
+    skos:narrower C2009A00054:4 ;
+    skos:prefLabel "Schedule S21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055308> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055308"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00054:16 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S16 Schedule 4 Agriculture Fisheries and Forestry"@en-AU ;
+    dct:hasPart C2009A00054:17,
+        C2009A00054:18,
+        C2009A00054:19,
+        C2009A00054:20 ;
+    dct:isPartOf C2009A00054:4 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Schedule 4 Agriculture Fisheries and Forestry - Abrievated Graph Key: S16"@en-AU ;
+    skos:broader C2009A00054:17,
+        C2009A00054:18,
+        C2009A00054:19,
+        C2009A00054:20 ;
+    skos:definition "Schedule 4 Agriculture Fisheries and Forestry"@en-AU ;
+    skos:narrower C2009A00054:4 ;
+    skos:prefLabel "Schedule S16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055303> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055303"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00054:41 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D41 Division 1 General"@en-AU ;
+    dct:hasPart C2009A00054:42,
+        C2009A00054:43,
+        C2009A00054:44,
+        C2009A00054:45,
+        C2009A00054:46 ;
+    dct:isPartOf C2009A00054:40 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Division 1 General - Abrievated Graph Key: D41"@en-AU ;
+    skos:broader C2009A00054:42,
+        C2009A00054:43,
+        C2009A00054:44,
+        C2009A00054:45,
+        C2009A00054:46 ;
+    skos:definition "Division 1 General"@en-AU ;
+    skos:narrower C2009A00054:40 ;
+    skos:prefLabel "Division D41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055328> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055328"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2009A00054:83 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S83 Schedule 10 Finance and Deregulation"@en-AU ;
+    dct:hasPart C2009A00054:84,
+        C2009A00054:85,
+        C2009A00054:86,
+        C2009A00054:87,
+        C2009A00054:88 ;
+    dct:isPartOf C2009A00054:4 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Schedule 10 Finance and Deregulation - Abrievated Graph Key: S83"@en-AU ;
+    skos:broader C2009A00054:84,
+        C2009A00054:85,
+        C2009A00054:86,
+        C2009A00054:87,
+        C2009A00054:88 ;
+    skos:definition "Schedule 10 Finance and Deregulation"@en-AU ;
+    skos:narrower C2009A00054:4 ;
+    skos:prefLabel "Schedule S83"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055373> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055373"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00054:72 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P72 Part 2 Transitional provisions"@en-AU ;
+    dct:hasPart C2009A00054:73,
+        C2009A00054:74,
+        C2009A00054:75,
+        C2009A00054:76,
+        C2009A00054:77,
+        C2009A00054:78,
+        C2009A00054:79 ;
+    dct:isPartOf C2009A00054:56 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Part 2 Transitional provisions - Abrievated Graph Key: P72"@en-AU ;
+    skos:broader C2009A00054:73,
+        C2009A00054:74,
+        C2009A00054:75,
+        C2009A00054:76,
+        C2009A00054:77,
+        C2009A00054:78,
+        C2009A00054:79 ;
+    skos:definition "Part 2 Transitional provisions"@en-AU ;
+    skos:narrower C2009A00054:56 ;
+    skos:prefLabel "Part P72"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055362> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055362"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2009A00054:115 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P115 Part 1 Consequential amendments"@en-AU ;
+    dct:hasPart C2009A00054:116,
+        C2009A00054:117,
+        C2009A00054:118,
+        C2009A00054:119,
+        C2009A00054:120,
+        C2009A00054:121,
+        C2009A00054:122,
+        C2009A00054:123,
+        C2009A00054:124,
+        C2009A00054:125,
+        C2009A00054:126 ;
+    dct:isPartOf C2009A00054:114 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Part 1 Consequential amendments - Abrievated Graph Key: P115"@en-AU ;
+    skos:broader C2009A00054:116,
+        C2009A00054:117,
+        C2009A00054:118,
+        C2009A00054:119,
+        C2009A00054:120,
+        C2009A00054:121,
+        C2009A00054:122,
+        C2009A00054:123,
+        C2009A00054:124,
+        C2009A00054:125,
+        C2009A00054:126 ;
+    skos:definition "Part 1 Consequential amendments"@en-AU ;
+    skos:narrower C2009A00054:114 ;
+    skos:prefLabel "Part P115"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055418> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055418"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2009A00054:57 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P57 Part 1 Consequential amendments"@en-AU ;
+    dct:hasPart C2009A00054:58,
+        C2009A00054:59,
+        C2009A00054:60,
+        C2009A00054:61,
+        C2009A00054:62,
+        C2009A00054:63,
+        C2009A00054:64,
+        C2009A00054:65,
+        C2009A00054:66,
+        C2009A00054:67,
+        C2009A00054:68,
+        C2009A00054:69,
+        C2009A00054:70,
+        C2009A00054:71 ;
+    dct:isPartOf C2009A00054:56 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Part 1 Consequential amendments - Abrievated Graph Key: P57"@en-AU ;
+    skos:broader C2009A00054:58,
+        C2009A00054:59,
+        C2009A00054:60,
+        C2009A00054:61,
+        C2009A00054:62,
+        C2009A00054:63,
+        C2009A00054:64,
+        C2009A00054:65,
+        C2009A00054:66,
+        C2009A00054:67,
+        C2009A00054:68,
+        C2009A00054:69,
+        C2009A00054:70,
+        C2009A00054:71 ;
+    skos:definition "Part 1 Consequential amendments"@en-AU ;
+    skos:narrower C2009A00054:56 ;
+    skos:prefLabel "Part P57"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055344> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055344"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2009A00054:22 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P22 Part 1 General consequential amendments"@en-AU ;
+    dct:hasPart C2009A00054:23,
+        C2009A00054:24,
+        C2009A00054:25,
+        C2009A00054:26,
+        C2009A00054:27,
+        C2009A00054:28,
+        C2009A00054:29,
+        C2009A00054:30,
+        C2009A00054:31,
+        C2009A00054:32,
+        C2009A00054:33,
+        C2009A00054:34,
+        C2009A00054:35,
+        C2009A00054:36,
+        C2009A00054:37,
+        C2009A00054:38,
+        C2009A00054:39 ;
+    dct:isPartOf C2009A00054:21 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "Part 1 General consequential amendments - Abrievated Graph Key: P22"@en-AU ;
+    skos:broader C2009A00054:23,
+        C2009A00054:24,
+        C2009A00054:25,
+        C2009A00054:26,
+        C2009A00054:27,
+        C2009A00054:28,
+        C2009A00054:29,
+        C2009A00054:30,
+        C2009A00054:31,
+        C2009A00054:32,
+        C2009A00054:33,
+        C2009A00054:34,
+        C2009A00054:35,
+        C2009A00054:36,
+        C2009A00054:37,
+        C2009A00054:38,
+        C2009A00054:39 ;
+    skos:definition "Part 1 General consequential amendments"@en-AU ;
+    skos:narrower C2009A00054:21 ;
+    skos:prefLabel "Part P22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055309> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055309"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2009A00054:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 4  Definition"@en-AU ;
+    dct:hasPart C2009A00054:101,
+        C2009A00054:105,
+        C2009A00054:110,
+        C2009A00054:114,
+        C2009A00054:128,
+        C2009A00054:132,
+        C2009A00054:133,
+        C2009A00054:15,
+        C2009A00054:16,
+        C2009A00054:21,
+        C2009A00054:5,
+        C2009A00054:50,
+        C2009A00054:52,
+        C2009A00054:56,
+        C2009A00054:7,
+        C2009A00054:80,
+        C2009A00054:83,
+        C2009A00054:89,
+        C2009A00054:92,
+        C2009A00054:95,
+        C2009A00054:97 ;
+    dct:isReferencedBy C2009A00054: ;
+    rdfs:comment "4  Definition - Abrievated Graph Key: I4"@en-AU ;
+    skos:broader C2009A00054:101,
+        C2009A00054:105,
+        C2009A00054:110,
+        C2009A00054:114,
+        C2009A00054:128,
+        C2009A00054:132,
+        C2009A00054:133,
+        C2009A00054:15,
+        C2009A00054:16,
+        C2009A00054:21,
+        C2009A00054:5,
+        C2009A00054:50,
+        C2009A00054:52,
+        C2009A00054:56,
+        C2009A00054:7,
+        C2009A00054:80,
+        C2009A00054:83,
+        C2009A00054:89,
+        C2009A00054:92,
+        C2009A00054:95,
+        C2009A00054:97 ;
+    skos:definition "4  Definition"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055271> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00054/2010-01-01/2010-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc340055271"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00054: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Fair Work (State Referral and Consequential and Other Amendments) Act 2009" ;
+    dct:Jurisdiction " Department of Employment and Workplace Relations "@en-AU ;
+    dct:created "2026-05-27T17:40:25.167602"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2010-01-01T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Fair Work (State Referral and Consequential and Other Amendments) Act 2009"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2009A00054/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Fair Work (State Referral and Consequential and Other Amendments) Act 2009"@en-AU ;
+    dct:title "Fair Work (State Referral and Consequential and Other Amendments) Act 2009"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2012C00794" .
+

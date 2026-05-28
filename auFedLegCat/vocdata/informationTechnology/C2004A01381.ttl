@@ -1,0 +1,98 @@
+@prefix C2004A01381: <http://example.org/au/leg/dataset/C2004A01381/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A01381:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A01381: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01381/asmade/2004-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc90205734> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01381/asmade/2004-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc90205734"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01381:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A01381: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01381/asmade/2004-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc90205735> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01381/asmade/2004-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc90205735"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01381:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A01381:4 ;
+    dct:isReferencedBy C2004A01381: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A01381:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01381/asmade/2004-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc90205736> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01381/asmade/2004-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc90205736"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01381:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Textile Clothing and Footwear Strategic Investment Program Act 1999"@en-AU ;
+    dct:isPartOf C2004A01381:4 ;
+    dct:isReferencedBy C2004A01381: ;
+    rdfs:comment "Textile Clothing and Footwear Strategic Investment Program Act 1999 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Textile Clothing and Footwear Strategic Investment Program Act 1999"@en-AU ;
+    skos:narrower C2004A01381:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01381/asmade/2004-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc90205738> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01381/asmade/2004-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc90205738"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01381:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments"@en-AU ;
+    dct:hasPart C2004A01381:5 ;
+    dct:isPartOf C2004A01381:3 ;
+    dct:isReferencedBy C2004A01381: ;
+    rdfs:comment "Schedule 1 Amendments - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A01381:5 ;
+    skos:definition "Schedule 1 Amendments"@en-AU ;
+    skos:narrower C2004A01381:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01381/asmade/2004-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc90205737> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01381/asmade/2004-12-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc90205737"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01381: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Textile, Clothing and Footwear Strategic Investment Program Amendment (Post-2005 Scheme) Act 2004" ;
+    dct:Jurisdiction " Department of Industry, Science and Resources "@en-AU ;
+    dct:created "2026-05-26T20:35:50.393688"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2004-12-14T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Textile, Clothing and Footwear Strategic Investment Program Amendment (Post-2005 Scheme) Act 2004"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A01381/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Textile, Clothing and Footwear Strategic Investment Program Amendment (Post-2005 Scheme) Act 2004"@en-AU ;
+    dct:title "Textile, Clothing and Footwear Strategic Investment Program Amendment (Post-2005 Scheme) Act 2004"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2004A01381" .
+

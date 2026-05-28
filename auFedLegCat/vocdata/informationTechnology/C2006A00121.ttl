@@ -1,0 +1,403 @@
+@prefix C2006A00121: <http://example.org/au/leg/dataset/C2006A00121/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2006A00121:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753945> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753945"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00121:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753946> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753946"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00121:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2006A00121:10 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2006A00121:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753956> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753956"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00121:12 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P12 Part 2 Saving provisions"@en-AU ;
+    dct:isPartOf C2006A00121:9 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "Part 2 Saving provisions - Abrievated Graph Key: P12"@en-AU ;
+    skos:definition "Part 2 Saving provisions"@en-AU ;
+    skos:narrower C2006A00121:9 ;
+    skos:prefLabel "Part P12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753958> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753958"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00121:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2006A00121:13 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2006A00121:13 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753960> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753960"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00121:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Higher Education Funding Act 1988"@en-AU ;
+    dct:isPartOf C2006A00121:15 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "Higher Education Funding Act 1988 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Higher Education Funding Act 1988"@en-AU ;
+    skos:narrower C2006A00121:15 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753962> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753962"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00121:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2006A00121:17 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2006A00121:17 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753964> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753964"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00121:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2006A00121:19 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2006A00121:19 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753966> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753966"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00121:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2006A00121:21 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2006A00121:21 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753969> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753969"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00121:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Australian Research Council Act 2001"@en-AU ;
+    dct:isPartOf C2006A00121:23 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "Australian Research Council Act 2001 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Australian Research Council Act 2001"@en-AU ;
+    skos:narrower C2006A00121:23 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753972> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753972"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00121:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Higher Education Funding Act 1988"@en-AU ;
+    dct:isPartOf C2006A00121:4 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "Higher Education Funding Act 1988 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Higher Education Funding Act 1988"@en-AU ;
+    skos:narrower C2006A00121:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753949> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753949"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00121:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2006A00121:4 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2006A00121:4 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753950> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753950"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00121:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2006A00121:7 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2006A00121:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753952> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753952"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00121:10 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P10 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2006A00121:11 ;
+    dct:isPartOf C2006A00121:9 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P10"@en-AU ;
+    skos:broader C2006A00121:11 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2006A00121:9 ;
+    skos:prefLabel "Part P10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753955> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753955"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00121:13 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S13 Schedule 4 Rounding in calculation of HELP debts"@en-AU ;
+    dct:hasPart C2006A00121:14 ;
+    dct:isPartOf C2006A00121:3 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "Schedule 4 Rounding in calculation of HELP debts - Abrievated Graph Key: S13"@en-AU ;
+    skos:broader C2006A00121:14 ;
+    skos:definition "Schedule 4 Rounding in calculation of HELP debts"@en-AU ;
+    skos:narrower C2006A00121:3 ;
+    skos:prefLabel "Schedule S13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753959> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753959"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00121:15 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S15 Schedule 5 Repeal of the Higher Education HECS Account"@en-AU ;
+    dct:hasPart C2006A00121:16 ;
+    dct:isPartOf C2006A00121:3 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "Schedule 5 Repeal of the Higher Education HECS Account - Abrievated Graph Key: S15"@en-AU ;
+    skos:broader C2006A00121:16 ;
+    skos:definition "Schedule 5 Repeal of the Higher Education HECS Account"@en-AU ;
+    skos:narrower C2006A00121:3 ;
+    skos:prefLabel "Schedule S15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753961> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753961"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00121:17 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S17 Schedule 6 Winter schools"@en-AU ;
+    dct:hasPart C2006A00121:18 ;
+    dct:isPartOf C2006A00121:3 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "Schedule 6 Winter schools - Abrievated Graph Key: S17"@en-AU ;
+    skos:broader C2006A00121:18 ;
+    skos:definition "Schedule 6 Winter schools"@en-AU ;
+    skos:narrower C2006A00121:3 ;
+    skos:prefLabel "Schedule S17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753963> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753963"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00121:19 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S19 Schedule 7 Electronic communications"@en-AU ;
+    dct:hasPart C2006A00121:20 ;
+    dct:isPartOf C2006A00121:3 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "Schedule 7 Electronic communications - Abrievated Graph Key: S19"@en-AU ;
+    skos:broader C2006A00121:20 ;
+    skos:definition "Schedule 7 Electronic communications"@en-AU ;
+    skos:narrower C2006A00121:3 ;
+    skos:prefLabel "Schedule S19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753965> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753965"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00121:21 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S21 Schedule 8 Regulation of higher education in external territories"@en-AU ;
+    dct:hasPart C2006A00121:22 ;
+    dct:isPartOf C2006A00121:3 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "Schedule 8 Regulation of higher education in external territories - Abrievated Graph Key: S21"@en-AU ;
+    skos:broader C2006A00121:22 ;
+    skos:definition "Schedule 8 Regulation of higher education in external territories"@en-AU ;
+    skos:narrower C2006A00121:3 ;
+    skos:prefLabel "Schedule S21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753968> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753968"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00121:23 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S23 Schedule 9 Amounts relating to research funding"@en-AU ;
+    dct:hasPart C2006A00121:24 ;
+    dct:isPartOf C2006A00121:3 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "Schedule 9 Amounts relating to research funding - Abrievated Graph Key: S23"@en-AU ;
+    skos:broader C2006A00121:24 ;
+    skos:definition "Schedule 9 Amounts relating to research funding"@en-AU ;
+    skos:narrower C2006A00121:3 ;
+    skos:prefLabel "Schedule S23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753971> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753971"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00121:7 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S7 Schedule 2 FEEHELP limit"@en-AU ;
+    dct:hasPart C2006A00121:8 ;
+    dct:isPartOf C2006A00121:3 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "Schedule 2 FEEHELP limit - Abrievated Graph Key: S7"@en-AU ;
+    skos:broader C2006A00121:8 ;
+    skos:definition "Schedule 2 FEEHELP limit"@en-AU ;
+    skos:narrower C2006A00121:3 ;
+    skos:prefLabel "Schedule S7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753951> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753951"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00121:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amounts relating to grants"@en-AU ;
+    dct:hasPart C2006A00121:5,
+        C2006A00121:6 ;
+    dct:isPartOf C2006A00121:3 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "Schedule 1 Amounts relating to grants - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2006A00121:5,
+        C2006A00121:6 ;
+    skos:definition "Schedule 1 Amounts relating to grants"@en-AU ;
+    skos:narrower C2006A00121:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753948> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753948"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00121:9 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S9 Schedule 3 Setting student contribution amounts and tuition fees"@en-AU ;
+    dct:hasPart C2006A00121:10,
+        C2006A00121:12 ;
+    dct:isPartOf C2006A00121:3 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "Schedule 3 Setting student contribution amounts and tuition fees - Abrievated Graph Key: S9"@en-AU ;
+    skos:broader C2006A00121:10,
+        C2006A00121:12 ;
+    skos:definition "Schedule 3 Setting student contribution amounts and tuition fees"@en-AU ;
+    skos:narrower C2006A00121:3 ;
+    skos:prefLabel "Schedule S9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753954> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753954"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00121:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2006A00121:13,
+        C2006A00121:15,
+        C2006A00121:17,
+        C2006A00121:19,
+        C2006A00121:21,
+        C2006A00121:23,
+        C2006A00121:4,
+        C2006A00121:7,
+        C2006A00121:9 ;
+    dct:isReferencedBy C2006A00121: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2006A00121:13,
+        C2006A00121:15,
+        C2006A00121:17,
+        C2006A00121:19,
+        C2006A00121:21,
+        C2006A00121:23,
+        C2006A00121:4,
+        C2006A00121:7,
+        C2006A00121:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753947> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00121/asmade/2006-11-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc150753947"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00121: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Higher Education Legislation Amendment (2006 Budget and Other Measures) Act 2006" ;
+    dct:Jurisdiction " Department of Education "@en-AU ;
+    dct:created "2026-05-26T20:36:49.303227"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2006-11-04T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Higher Education Legislation Amendment (2006 Budget and Other Measures) Act 2006"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2006A00121/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Higher Education Legislation Amendment (2006 Budget and Other Measures) Act 2006"@en-AU ;
+    dct:title "Higher Education Legislation Amendment (2006 Budget and Other Measures) Act 2006"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2006A00121" .
+

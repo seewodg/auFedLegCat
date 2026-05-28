@@ -1,0 +1,226 @@
+@prefix C2004A00885: <http://example.org/au/leg/dataset/C2004A00885/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A00885:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A00885: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806114> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806114"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00885:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A00885: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806115> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806115"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00885:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Financial Sector Collection of Data Act 2001"@en-AU ;
+    dct:isPartOf C2004A00885:6 ;
+    dct:isReferencedBy C2004A00885: ;
+    rdfs:comment "Financial Sector Collection of Data Act 2001 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Financial Sector Collection of Data Act 2001"@en-AU ;
+    skos:narrower C2004A00885:6 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806217> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806217"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00885:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Financial Transactions Reports Act 1988"@en-AU ;
+    dct:isPartOf C2004A00885:6 ;
+    dct:isReferencedBy C2004A00885: ;
+    rdfs:comment "Financial Transactions Reports Act 1988 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Financial Transactions Reports Act 1988"@en-AU ;
+    skos:narrower C2004A00885:6 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806218> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806218"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00885:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Insurance Acquisitions and Takeovers Act 1991"@en-AU ;
+    dct:isPartOf C2004A00885:6 ;
+    dct:isReferencedBy C2004A00885: ;
+    rdfs:comment "Insurance Acquisitions and Takeovers Act 1991 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Insurance Acquisitions and Takeovers Act 1991"@en-AU ;
+    skos:narrower C2004A00885:6 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806219> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806219"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00885:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Seafarers Rehabilitation and Compensation Act 1992"@en-AU ;
+    dct:isPartOf C2004A00885:6 ;
+    dct:isReferencedBy C2004A00885: ;
+    rdfs:comment "Seafarers Rehabilitation and Compensation Act 1992 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Seafarers Rehabilitation and Compensation Act 1992"@en-AU ;
+    skos:narrower C2004A00885:6 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806220> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806220"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00885:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendment of the Insurance Act 1973"@en-AU ;
+    dct:isPartOf C2004A00885:3 ;
+    dct:isReferencedBy C2004A00885: ;
+    rdfs:comment "Schedule 1 Amendment of the Insurance Act 1973 - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Amendment of the Insurance Act 1973"@en-AU ;
+    skos:narrower C2004A00885:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806117> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806117"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00885:5 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S5 Schedule 2 Transitional provisions"@en-AU ;
+    dct:isPartOf C2004A00885:3 ;
+    dct:isReferencedBy C2004A00885: ;
+    rdfs:comment "Schedule 2 Transitional provisions - Abrievated Graph Key: S5"@en-AU ;
+    skos:definition "Schedule 2 Transitional provisions"@en-AU ;
+    skos:narrower C2004A00885:3 ;
+    skos:prefLabel "Schedule S5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806212> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806212"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00885:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Australian Prudential Regulation Authority Act 1998"@en-AU ;
+    dct:isPartOf C2004A00885:6 ;
+    dct:isReferencedBy C2004A00885: ;
+    rdfs:comment "Australian Prudential Regulation Authority Act 1998 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Australian Prudential Regulation Authority Act 1998"@en-AU ;
+    skos:narrower C2004A00885:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806214> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806214"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00885:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Australian Securities and Investments Commission Act 2001"@en-AU ;
+    dct:isPartOf C2004A00885:6 ;
+    dct:isReferencedBy C2004A00885: ;
+    rdfs:comment "Australian Securities and Investments Commission Act 2001 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Australian Securities and Investments Commission Act 2001"@en-AU ;
+    skos:narrower C2004A00885:6 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806215> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806215"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00885:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2004A00885:6 ;
+    dct:isReferencedBy C2004A00885: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2004A00885:6 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806216> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806216"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00885:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A00885:4,
+        C2004A00885:5,
+        C2004A00885:6 ;
+    dct:isReferencedBy C2004A00885: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A00885:4,
+        C2004A00885:5,
+        C2004A00885:6 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806116> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806116"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00885: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "General Insurance Reform Act 2001" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-27T17:41:54.052996"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2002-07-01T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "General Insurance Reform Act 2001"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A00885/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "General Insurance Reform Act 2001"@en-AU ;
+    dct:title "General Insurance Reform Act 2001"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2005C00502 C02" .
+
+C2004A00885:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 3 Consequential amendment of other Acts"@en-AU ;
+    dct:hasPart C2004A00885:10,
+        C2004A00885:11,
+        C2004A00885:12,
+        C2004A00885:13,
+        C2004A00885:7,
+        C2004A00885:8,
+        C2004A00885:9 ;
+    dct:isPartOf C2004A00885:3 ;
+    dct:isReferencedBy C2004A00885: ;
+    rdfs:comment "Schedule 3 Consequential amendment of other Acts - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2004A00885:10,
+        C2004A00885:11,
+        C2004A00885:12,
+        C2004A00885:13,
+        C2004A00885:7,
+        C2004A00885:8,
+        C2004A00885:9 ;
+    skos:definition "Schedule 3 Consequential amendment of other Acts"@en-AU ;
+    skos:narrower C2004A00885:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806213> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00885/2002-07-01/2002-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc109806213"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+

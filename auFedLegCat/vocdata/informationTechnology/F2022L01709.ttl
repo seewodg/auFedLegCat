@@ -1,0 +1,122 @@
+@prefix F2022L01709: <http://example.org/au/leg/dataset/F2022L01709/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2022L01709:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Name"@en-AU ;
+    dct:isReferencedBy F2022L01709: ;
+    rdfs:comment "1  Name - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Name"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2022L01709/asmade/2022-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc89684650> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2022L01709/asmade/2022-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc89684650"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2022L01709:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy F2022L01709: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2022L01709/asmade/2022-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc89684651> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2022L01709/asmade/2022-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc89684651"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2022L01709:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Authority"@en-AU ;
+    dct:isReferencedBy F2022L01709: ;
+    rdfs:comment "3  Authority - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "3  Authority"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2022L01709/asmade/2022-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc89684652> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2022L01709/asmade/2022-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc89684652"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2022L01709:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 4  Schedules"@en-AU ;
+    dct:isReferencedBy F2022L01709: ;
+    rdfs:comment "4  Schedules - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "4  Schedules"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2022L01709/asmade/2022-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc89684653> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2022L01709/asmade/2022-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc89684653"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2022L01709:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 1 Amendments"@en-AU ;
+    dct:isPartOf F2022L01709:5 ;
+    dct:isReferencedBy F2022L01709: ;
+    rdfs:comment "Schedule 1 Amendments - Abrievated Graph Key: S6"@en-AU ;
+    skos:definition "Schedule 1 Amendments"@en-AU ;
+    skos:narrower F2022L01709:5 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2022L01709/asmade/2022-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc89684655> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2022L01709/asmade/2022-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc89684655"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F2022L01709:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 VET Student Loans Courses and Loan Caps Determination 2016"@en-AU ;
+    dct:isPartOf F2022L01709:5 ;
+    dct:isReferencedBy F2022L01709: ;
+    rdfs:comment "VET Student Loans Courses and Loan Caps Determination 2016 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "VET Student Loans Courses and Loan Caps Determination 2016"@en-AU ;
+    skos:narrower F2022L01709:5 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2022L01709/asmade/2022-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc89684656> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2022L01709/asmade/2022-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc89684656"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2022L01709:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 5  Transitional arrangements"@en-AU ;
+    dct:hasPart F2022L01709:6,
+        F2022L01709:7 ;
+    dct:isReferencedBy F2022L01709: ;
+    rdfs:comment "5  Transitional arrangements - Abrievated Graph Key: I5"@en-AU ;
+    skos:broader F2022L01709:6,
+        F2022L01709:7 ;
+    skos:definition "5  Transitional arrangements"@en-AU ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2022L01709/asmade/2022-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc89684654> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2022L01709/asmade/2022-12-20/text/original/epub/OEBPS/document_1/document_1.html#_Toc89684654"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2022L01709: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "VET Student Loans (Courses and Loan Caps) Amendment Determination (No.4) 2022" ;
+    dct:Jurisdiction " Department of Employment and Workplace Relations "@en-AU ;
+    dct:created "2026-05-26T20:41:33.121053"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2022-12-20T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "VET Student Loans (Courses and Loan Caps) Amendment Determination (No.4) 2022"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2022L01709/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "VET Student Loans (Courses and Loan Caps) Amendment Determination (No.4) 2022"@en-AU ;
+    dct:title "VET Student Loans (Courses and Loan Caps) Amendment Determination (No.4) 2022"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "F2022L01709" .
+

@@ -1,0 +1,483 @@
+@prefix C2012A00154: <http://example.org/au/leg/dataset/C2012A00154/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2012A00154:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370106> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370106"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00154:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370107> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370107"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00154:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    dct:isPartOf C2012A00154:9 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "A New Tax System Family Assistance Administration Act 1999 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    skos:narrower C2012A00154:9 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370115> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370115"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00154:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Child Support Registration and Collection Act 1988"@en-AU ;
+    dct:isPartOf C2012A00154:9 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "Child Support Registration and Collection Act 1988 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Child Support Registration and Collection Act 1988"@en-AU ;
+    skos:narrower C2012A00154:9 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370124> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370124"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00154:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Paid Parental Leave Act 2010"@en-AU ;
+    dct:isPartOf C2012A00154:9 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "Paid Parental Leave Act 2010 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Paid Parental Leave Act 2010"@en-AU ;
+    skos:narrower C2012A00154:9 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370131> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370131"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00154:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Social Security Administration Act 1999"@en-AU ;
+    dct:isPartOf C2012A00154:9 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "Social Security Administration Act 1999 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Social Security Administration Act 1999"@en-AU ;
+    skos:narrower C2012A00154:9 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370141> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370141"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00154:14 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P14 Part 2 Application and transitional provisions for amendments of the A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    dct:isPartOf C2012A00154:8 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "Part 2 Application and transitional provisions for amendments of the A New Tax System Family Assistance Administration Act 1999 - Abrievated Graph Key: P14"@en-AU ;
+    skos:definition "Part 2 Application and transitional provisions for amendments of the A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    skos:narrower C2012A00154:8 ;
+    skos:prefLabel "Part P14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370154> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370154"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00154:15 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P15 Part 3 Application and transitional provisions for amendments of the Child Support Registration and Collection Act 1988"@en-AU ;
+    dct:isPartOf C2012A00154:8 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "Part 3 Application and transitional provisions for amendments of the Child Support Registration and Collection Act 1988 - Abrievated Graph Key: P15"@en-AU ;
+    skos:definition "Part 3 Application and transitional provisions for amendments of the Child Support Registration and Collection Act 1988"@en-AU ;
+    skos:narrower C2012A00154:8 ;
+    skos:prefLabel "Part P15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370155> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370155"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00154:16 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P16 Part 4 Application and transitional provisions for amendments of the Paid Parental Leave Act 2010"@en-AU ;
+    dct:isPartOf C2012A00154:8 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "Part 4 Application and transitional provisions for amendments of the Paid Parental Leave Act 2010 - Abrievated Graph Key: P16"@en-AU ;
+    skos:definition "Part 4 Application and transitional provisions for amendments of the Paid Parental Leave Act 2010"@en-AU ;
+    skos:narrower C2012A00154:8 ;
+    skos:prefLabel "Part P16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370156> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370156"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00154:17 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P17 Part 5 Application and transitional provisions for amendments of the Social Security Administration Act 1999"@en-AU ;
+    dct:isPartOf C2012A00154:8 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "Part 5 Application and transitional provisions for amendments of the Social Security Administration Act 1999 - Abrievated Graph Key: P17"@en-AU ;
+    skos:definition "Part 5 Application and transitional provisions for amendments of the Social Security Administration Act 1999"@en-AU ;
+    skos:narrower C2012A00154:8 ;
+    skos:prefLabel "Part P17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370157> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370157"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00154:18 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P18 Part 6 Regulations"@en-AU ;
+    dct:isPartOf C2012A00154:8 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "Part 6 Regulations - Abrievated Graph Key: P18"@en-AU ;
+    skos:definition "Part 6 Regulations"@en-AU ;
+    skos:narrower C2012A00154:8 ;
+    skos:prefLabel "Part P18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370158> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370158"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00154:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Child Support Assessment Act 1989"@en-AU ;
+    dct:isPartOf C2012A00154:19 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "Child Support Assessment Act 1989 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Child Support Assessment Act 1989"@en-AU ;
+    skos:narrower C2012A00154:19 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370160> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370160"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00154:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Child Support Registration and Collection Act 1988"@en-AU ;
+    dct:isPartOf C2012A00154:19 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "Child Support Registration and Collection Act 1988 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Child Support Registration and Collection Act 1988"@en-AU ;
+    skos:narrower C2012A00154:19 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370162> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370162"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00154:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 A New Tax System Family Assistance Act 1999"@en-AU ;
+    dct:isPartOf C2012A00154:22 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "A New Tax System Family Assistance Act 1999 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Act 1999"@en-AU ;
+    skos:narrower C2012A00154:22 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370164> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370164"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00154:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    dct:isPartOf C2012A00154:22 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "A New Tax System Family Assistance Administration Act 1999 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    skos:narrower C2012A00154:22 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370169> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370169"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00154:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2012A00154:22 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2012A00154:22 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370170> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370170"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00154:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 A New Tax System Family Assistance Act 1999"@en-AU ;
+    dct:isPartOf C2012A00154:26 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "A New Tax System Family Assistance Act 1999 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Act 1999"@en-AU ;
+    skos:narrower C2012A00154:26 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370172> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370172"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00154:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    dct:isPartOf C2012A00154:26 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "A New Tax System Family Assistance Administration Act 1999 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    skos:narrower C2012A00154:26 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370174> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370174"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00154:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2012A00154:26 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2012A00154:26 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370175> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370175"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00154:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Social Security Administration Act 1999"@en-AU ;
+    dct:isPartOf C2012A00154:4 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "Social Security Administration Act 1999 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Social Security Administration Act 1999"@en-AU ;
+    skos:narrower C2012A00154:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370110> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370110"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00154:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Indigenous Education Targeted Assistance Act 2000"@en-AU ;
+    dct:isPartOf C2012A00154:6 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "Indigenous Education Targeted Assistance Act 2000 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Indigenous Education Targeted Assistance Act 2000"@en-AU ;
+    skos:narrower C2012A00154:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370112> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370112"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00154:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Extending Cape York welfare reform trial"@en-AU ;
+    dct:hasPart C2012A00154:5 ;
+    dct:isPartOf C2012A00154:3 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "Schedule 1 Extending Cape York welfare reform trial - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2012A00154:5 ;
+    skos:definition "Schedule 1 Extending Cape York welfare reform trial"@en-AU ;
+    skos:narrower C2012A00154:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370109> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370109"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00154:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Indigenous education payments"@en-AU ;
+    dct:hasPart C2012A00154:7 ;
+    dct:isPartOf C2012A00154:3 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "Schedule 2 Indigenous education payments - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2012A00154:7 ;
+    skos:definition "Schedule 2 Indigenous education payments"@en-AU ;
+    skos:narrower C2012A00154:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370111> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370111"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00154:19 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S19 Schedule 4 Amendments relating to certain child support declarations"@en-AU ;
+    dct:hasPart C2012A00154:20,
+        C2012A00154:21 ;
+    dct:isPartOf C2012A00154:3 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "Schedule 4 Amendments relating to certain child support declarations - Abrievated Graph Key: S19"@en-AU ;
+    skos:broader C2012A00154:20,
+        C2012A00154:21 ;
+    skos:definition "Schedule 4 Amendments relating to certain child support declarations"@en-AU ;
+    skos:narrower C2012A00154:3 ;
+    skos:prefLabel "Schedule S19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370159> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370159"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00154:22 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S22 Schedule 5 Schoolkids bonus"@en-AU ;
+    dct:hasPart C2012A00154:23,
+        C2012A00154:24,
+        C2012A00154:25 ;
+    dct:isPartOf C2012A00154:3 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "Schedule 5 Schoolkids bonus - Abrievated Graph Key: S22"@en-AU ;
+    skos:broader C2012A00154:23,
+        C2012A00154:24,
+        C2012A00154:25 ;
+    skos:definition "Schedule 5 Schoolkids bonus"@en-AU ;
+    skos:narrower C2012A00154:3 ;
+    skos:prefLabel "Schedule S22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370163> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370163"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00154:26 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S26 Schedule 6 Other amendments"@en-AU ;
+    dct:hasPart C2012A00154:27,
+        C2012A00154:28,
+        C2012A00154:29 ;
+    dct:isPartOf C2012A00154:3 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "Schedule 6 Other amendments - Abrievated Graph Key: S26"@en-AU ;
+    skos:broader C2012A00154:27,
+        C2012A00154:28,
+        C2012A00154:29 ;
+    skos:definition "Schedule 6 Other amendments"@en-AU ;
+    skos:narrower C2012A00154:3 ;
+    skos:prefLabel "Schedule S26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370171> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370171"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00154:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2012A00154:10,
+        C2012A00154:11,
+        C2012A00154:12,
+        C2012A00154:13 ;
+    dct:isPartOf C2012A00154:8 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P9"@en-AU ;
+    skos:broader C2012A00154:10,
+        C2012A00154:11,
+        C2012A00154:12,
+        C2012A00154:13 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2012A00154:8 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370114> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370114"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00154:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2012A00154:19,
+        C2012A00154:22,
+        C2012A00154:26,
+        C2012A00154:4,
+        C2012A00154:6,
+        C2012A00154:8 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2012A00154:19,
+        C2012A00154:22,
+        C2012A00154:26,
+        C2012A00154:4,
+        C2012A00154:6,
+        C2012A00154:8 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370108> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370108"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00154:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 3 Social Security Appeals Tribunal"@en-AU ;
+    dct:hasPart C2012A00154:14,
+        C2012A00154:15,
+        C2012A00154:16,
+        C2012A00154:17,
+        C2012A00154:18,
+        C2012A00154:9 ;
+    dct:isPartOf C2012A00154:3 ;
+    dct:isReferencedBy C2012A00154: ;
+    rdfs:comment "Schedule 3 Social Security Appeals Tribunal - Abrievated Graph Key: S8"@en-AU ;
+    skos:broader C2012A00154:14,
+        C2012A00154:15,
+        C2012A00154:16,
+        C2012A00154:17,
+        C2012A00154:18,
+        C2012A00154:9 ;
+    skos:definition "Schedule 3 Social Security Appeals Tribunal"@en-AU ;
+    skos:narrower C2012A00154:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370113> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00154/asmade/2012-05-27/text/original/epub/OEBPS/document_1/document_1.html#_Toc341370113"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00154: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Social Security and Other Legislation Amendment (Further 2012 Budget and Other Measures) Act 2012" ;
+    dct:Jurisdiction " Department of Social Services "@en-AU ;
+    dct:created "2026-05-27T17:11:23.149432"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2012-05-27T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Social Security and Other Legislation Amendment (Further 2012 Budget and Other Measures) Act 2012"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2012A00154/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Social Security and Other Legislation Amendment (Further 2012 Budget and Other Measures) Act 2012"@en-AU ;
+    dct:title "Social Security and Other Legislation Amendment (Further 2012 Budget and Other Measures) Act 2012"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2012A00154" .
+

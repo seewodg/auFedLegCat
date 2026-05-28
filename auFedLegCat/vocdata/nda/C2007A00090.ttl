@@ -1,0 +1,195 @@
+@prefix C2007A00090: <http://example.org/au/leg/dataset/C2007A00090/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2007A00090:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2007A00090: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642558> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642558"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00090:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2007A00090: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642559> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642559"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00090:10 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P10 Part 5 Reporting requirements and records"@en-AU ;
+    dct:isPartOf C2007A00090:5 ;
+    dct:isReferencedBy C2007A00090: ;
+    rdfs:comment "Part 5 Reporting requirements and records - Abrievated Graph Key: P10"@en-AU ;
+    skos:definition "Part 5 Reporting requirements and records"@en-AU ;
+    skos:narrower C2007A00090:5 ;
+    skos:prefLabel "Part P10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642609> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642609"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00090:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 6 Miscellaneous"@en-AU ;
+    dct:isPartOf C2007A00090:5 ;
+    dct:isReferencedBy C2007A00090: ;
+    rdfs:comment "Part 6 Miscellaneous - Abrievated Graph Key: P11"@en-AU ;
+    skos:definition "Part 6 Miscellaneous"@en-AU ;
+    skos:narrower C2007A00090:5 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642610> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642610"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00090:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendment of the Agricultural and Veterinary Chemicals Administration Act 1992"@en-AU ;
+    dct:isPartOf C2007A00090:3 ;
+    dct:isReferencedBy C2007A00090: ;
+    rdfs:comment "Schedule 1 Amendment of the Agricultural and Veterinary Chemicals Administration Act 1992 - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Amendment of the Agricultural and Veterinary Chemicals Administration Act 1992"@en-AU ;
+    skos:narrower C2007A00090:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642561> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642561"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00090:6 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P6 Part 1 Definitions"@en-AU ;
+    dct:isPartOf C2007A00090:5 ;
+    dct:isReferencedBy C2007A00090: ;
+    rdfs:comment "Part 1 Definitions - Abrievated Graph Key: P6"@en-AU ;
+    skos:definition "Part 1 Definitions"@en-AU ;
+    skos:narrower C2007A00090:5 ;
+    skos:prefLabel "Part P6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642605> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642605"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00090:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Assets liabilities and legal proceedings"@en-AU ;
+    dct:isPartOf C2007A00090:5 ;
+    dct:isReferencedBy C2007A00090: ;
+    rdfs:comment "Part 2 Assets liabilities and legal proceedings - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 2 Assets liabilities and legal proceedings"@en-AU ;
+    skos:narrower C2007A00090:5 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642606> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642606"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00090:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 3 Staffing matters"@en-AU ;
+    dct:isPartOf C2007A00090:5 ;
+    dct:isReferencedBy C2007A00090: ;
+    rdfs:comment "Part 3 Staffing matters - Abrievated Graph Key: P8"@en-AU ;
+    skos:definition "Part 3 Staffing matters"@en-AU ;
+    skos:narrower C2007A00090:5 ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642607> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642607"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00090:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 4 References to and things done by or in relation to the directors of the APVMA"@en-AU ;
+    dct:isPartOf C2007A00090:5 ;
+    dct:isReferencedBy C2007A00090: ;
+    rdfs:comment "Part 4 References to and things done by or in relation to the directors of the APVMA - Abrievated Graph Key: P9"@en-AU ;
+    skos:definition "Part 4 References to and things done by or in relation to the directors of the APVMA"@en-AU ;
+    skos:narrower C2007A00090:5 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642608> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642608"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00090:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2007A00090:4,
+        C2007A00090:5 ;
+    dct:isReferencedBy C2007A00090: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2007A00090:4,
+        C2007A00090:5 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642560> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642560"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00090: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Agricultural and Veterinary Chemicals (Administration) Amendment Act 2007" ;
+    dct:Jurisdiction " Department of Agriculture, Fisheries and Forestry "@en-AU ;
+    dct:created "2026-05-27T17:29:40.165111"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2007-06-22T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Agricultural and Veterinary Chemicals (Administration) Amendment Act 2007"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2007A00090/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Agricultural and Veterinary Chemicals (Administration) Amendment Act 2007"@en-AU ;
+    dct:title "Agricultural and Veterinary Chemicals (Administration) Amendment Act 2007"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2007A00090" .
+
+C2007A00090:5 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S5 Schedule 2 Application and transitional provisions"@en-AU ;
+    dct:hasPart C2007A00090:10,
+        C2007A00090:11,
+        C2007A00090:6,
+        C2007A00090:7,
+        C2007A00090:8,
+        C2007A00090:9 ;
+    dct:isPartOf C2007A00090:3 ;
+    dct:isReferencedBy C2007A00090: ;
+    rdfs:comment "Schedule 2 Application and transitional provisions - Abrievated Graph Key: S5"@en-AU ;
+    skos:broader C2007A00090:10,
+        C2007A00090:11,
+        C2007A00090:6,
+        C2007A00090:7,
+        C2007A00090:8,
+        C2007A00090:9 ;
+    skos:definition "Schedule 2 Application and transitional provisions"@en-AU ;
+    skos:narrower C2007A00090:3 ;
+    skos:prefLabel "Schedule S5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642604> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00090/asmade/2007-06-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc170642604"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+

@@ -1,0 +1,41 @@
+@prefix F2011L02051: <http://example.org/au/leg/dataset/F2011L02051/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2011L02051:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 Higher Education Provider Approval No 6 of 2011  Legislative Instrument"@en-AU ;
+    dct:isReferencedBy F2011L02051: ;
+    rdfs:comment "Higher Education Provider Approval No 6 of 2011  Legislative Instrument - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "Higher Education Provider Approval No 6 of 2011  Legislative Instrument"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2011L02051/asmade/2011-10-11/text/original/epub/OEBPS/document_1/document_1.html> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2011L02051/asmade/2011-10-11/text/original/epub/OEBPS/document_1/document_1.html"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2011L02051: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Higher Education Provider Approval No. 6 of 2011" ;
+    dct:Jurisdiction " Department of Education "@en-AU ;
+    dct:created "2026-05-26T20:39:34.439578"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2011-10-11T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Higher Education Provider Approval No. 6 of 2011"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2011L02051/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Higher Education Provider Approval No. 6 of 2011"@en-AU ;
+    dct:title "Higher Education Provider Approval No. 6 of 2011"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item ;
+    schema:status "In force" ;
+    schema:version "F2011L02051" .
+

@@ -1,0 +1,171 @@
+@prefix F2015L00833: <http://example.org/au/leg/dataset/F2015L00833/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2015L00833:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Name"@en-AU ;
+    dct:isReferencedBy F2015L00833: ;
+    rdfs:comment "1  Name - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Name"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2015L00833/2016-05-10/2016-05-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc453753081> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2015L00833/2016-05-10/2016-05-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc453753081"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2015L00833:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 3  Authority"@en-AU ;
+    dct:isReferencedBy F2015L00833: ;
+    rdfs:comment "3  Authority - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "3  Authority"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2015L00833/2016-05-10/2016-05-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc453753082> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2015L00833/2016-05-10/2016-05-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc453753082"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2015L00833:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 4  Authority for expenditure"@en-AU ;
+    dct:isReferencedBy F2015L00833: ;
+    rdfs:comment "4  Authority for expenditure - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "4  Authority for expenditure"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2015L00833/2016-05-10/2016-05-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc453753083> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2015L00833/2016-05-10/2016-05-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc453753083"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2015L00833:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 5  Powers of Administrator"@en-AU ;
+    dct:isReferencedBy F2015L00833: ;
+    rdfs:comment "5  Powers of Administrator - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "5  Powers of Administrator"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2015L00833/2016-05-10/2016-05-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc453753084> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2015L00833/2016-05-10/2016-05-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc453753084"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2015L00833:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Endnote 4 Amendment history"@en-AU ;
+    dct:isPartOf F2015L00833:6 ;
+    dct:isReferencedBy F2015L00833: ;
+    rdfs:comment "Endnote 4 Amendment history - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Endnote 4 Amendment history"@en-AU ;
+    skos:narrower F2015L00833:6 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2015L00833/2016-05-10/2016-05-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc453753090> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2015L00833/2016-05-10/2016-05-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc453753090"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2015L00833:5 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S5 Schedule 1 Appropriations"@en-AU ;
+    dct:hasPart F2015L00833:6 ;
+    dct:isReferencedBy F2015L00833: ;
+    rdfs:comment "Schedule 1 Appropriations - Abrievated Graph Key: S5"@en-AU ;
+    skos:broader F2015L00833:6 ;
+    skos:definition "Schedule 1 Appropriations"@en-AU ;
+    skos:prefLabel "Schedule S5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2015L00833/2016-05-10/2016-05-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc453753085> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2015L00833/2016-05-10/2016-05-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc453753085"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F2015L00833:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Endnote 1 About the endnotes"@en-AU ;
+    dct:isPartOf F2015L00833:6 ;
+    dct:isReferencedBy F2015L00833: ;
+    rdfs:comment "Endnote 1 About the endnotes - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Endnote 1 About the endnotes"@en-AU ;
+    skos:narrower F2015L00833:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2015L00833/2016-05-10/2016-05-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc453753087> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2015L00833/2016-05-10/2016-05-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc453753087"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2015L00833:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Endnote 2 Abbreviation key"@en-AU ;
+    dct:isPartOf F2015L00833:6 ;
+    dct:isReferencedBy F2015L00833: ;
+    rdfs:comment "Endnote 2 Abbreviation key - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Endnote 2 Abbreviation key"@en-AU ;
+    skos:narrower F2015L00833:6 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2015L00833/2016-05-10/2016-05-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc453753088> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2015L00833/2016-05-10/2016-05-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc453753088"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2015L00833:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Endnote 3 Legislation history"@en-AU ;
+    dct:isPartOf F2015L00833:6 ;
+    dct:isReferencedBy F2015L00833: ;
+    rdfs:comment "Endnote 3 Legislation history - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Endnote 3 Legislation history"@en-AU ;
+    skos:narrower F2015L00833:6 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2015L00833/2016-05-10/2016-05-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc453753089> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2015L00833/2016-05-10/2016-05-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc453753089"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2015L00833: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Norfolk Island Appropriation Ordinance 2015-2016" ;
+    dct:Jurisdiction " Department of Infrastructure, Transport, Regional Development, Communications, Sport and the Arts "@en-AU ;
+    dct:created "2026-05-26T20:55:42.320112"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2016-05-10T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Norfolk Island Appropriation Ordinance 2015-2016"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2015L00833/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Norfolk Island Appropriation Ordinance 2015-2016"@en-AU ;
+    dct:title "Norfolk Island Appropriation Ordinance 2015-2016"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Endnotes,
+        legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "F2016C00603 C02" .
+
+F2015L00833:6 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E6 Endnotes"@en-AU ;
+    dct:hasPart F2015L00833:10,
+        F2015L00833:7,
+        F2015L00833:8,
+        F2015L00833:9 ;
+    dct:isPartOf F2015L00833:5 ;
+    dct:isReferencedBy F2015L00833: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E6"@en-AU ;
+    skos:broader F2015L00833:10,
+        F2015L00833:7,
+        F2015L00833:8,
+        F2015L00833:9 ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:narrower F2015L00833:5 ;
+    skos:prefLabel "Endnotes E6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2015L00833/2016-05-10/2016-05-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc453753086> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2015L00833/2016-05-10/2016-05-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc453753086"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+

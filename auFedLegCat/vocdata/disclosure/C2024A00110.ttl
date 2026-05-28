@@ -1,0 +1,1140 @@
+@prefix C2024A00110: <http://example.org/au/leg/dataset/C2024A00110/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2024A00110:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888431> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888431"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888432> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888432"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Banking Act 1959"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Banking Act 1959 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Banking Act 1959"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888489> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888489"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Commonwealth Electoral Act 1918"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Commonwealth Electoral Act 1918 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Commonwealth Electoral Act 1918"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888490> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888490"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:12 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S12 Schedule 3 Regulating additional high risk services"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Schedule 3 Regulating additional high risk services - Abrievated Graph Key: S12"@en-AU ;
+    skos:definition "Schedule 3 Regulating additional high risk services"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Schedule S12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888491> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888491"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2024A00110:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 1 Real estate"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Part 1 Real estate - Abrievated Graph Key: P13"@en-AU ;
+    skos:definition "Part 1 Real estate"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888492> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888492"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00110:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Anti Money Laundering and Counter Terrorism Financing Act 2006 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888493> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888493"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:15 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P15 Part 2 Dealers in precious metals and stones"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Part 2 Dealers in precious metals and stones - Abrievated Graph Key: P15"@en-AU ;
+    skos:definition "Part 2 Dealers in precious metals and stones"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Part P15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888494> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888494"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00110:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Anti Money Laundering and Counter Terrorism Financing Act 2006 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888495> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888495"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:17 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P17 Part 3 Professional services"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Part 3 Professional services - Abrievated Graph Key: P17"@en-AU ;
+    skos:definition "Part 3 Professional services"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Part P17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888497> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888497"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00110:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Anti Money Laundering and Counter Terrorism Financing Act 2006 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888498> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888498"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:19 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P19 Part 4 Transitional provisions"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Part 4 Transitional provisions - Abrievated Graph Key: P19"@en-AU ;
+    skos:definition "Part 4 Transitional provisions"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Part P19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888499> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888499"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00110:20 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S20 Schedule 4 Legal professional privilege"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Schedule 4 Legal professional privilege - Abrievated Graph Key: S20"@en-AU ;
+    skos:definition "Schedule 4 Legal professional privilege"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Schedule S20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888500> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888500"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2024A00110:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Anti Money Laundering and Counter Terrorism Financing Act 2006 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888501> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888501"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:22 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S22 Schedule 5 Tipping off offence and disclosure of AUSTRAC information to foreign countries or agencies"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Schedule 5 Tipping off offence and disclosure of AUSTRAC information to foreign countries or agencies - Abrievated Graph Key: S22"@en-AU ;
+    skos:definition "Schedule 5 Tipping off offence and disclosure of AUSTRAC information to foreign countries or agencies"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Schedule S22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888504> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888504"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2024A00110:23 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P23 Part 1 Main amendments"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P23"@en-AU ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Part P23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888505> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888505"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00110:24 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D24 Division 1 Tipping off offence"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Division 1 Tipping off offence - Abrievated Graph Key: D24"@en-AU ;
+    skos:definition "Division 1 Tipping off offence"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Division D24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888506> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888506"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2024A00110:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Anti Money Laundering and Counter Terrorism Financing Act 2006 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888507> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888507"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:26 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D26 Division 2 Disclosure of AUSTRAC information to foreign countries or agencies"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Division 2 Disclosure of AUSTRAC information to foreign countries or agencies - Abrievated Graph Key: D26"@en-AU ;
+    skos:definition "Division 2 Disclosure of AUSTRAC information to foreign countries or agencies"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Division D26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888509> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888509"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2024A00110:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Anti Money Laundering and Counter Terrorism Financing Act 2006 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888510> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888510"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:28 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P28 Part 2 Contingent amendments"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Part 2 Contingent amendments - Abrievated Graph Key: P28"@en-AU ;
+    skos:definition "Part 2 Contingent amendments"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Part P28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888511> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888511"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00110:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Intelligence Services Legislation Amendment Act 2024"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Intelligence Services Legislation Amendment Act 2024 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Intelligence Services Legislation Amendment Act 2024"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888512> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888512"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:30 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S30 Schedule 6 Services relating to virtual assets"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Schedule 6 Services relating to virtual assets - Abrievated Graph Key: S30"@en-AU ;
+    skos:definition "Schedule 6 Services relating to virtual assets"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Schedule S30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888513> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888513"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2024A00110:31 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P31 Part 1 Main amendments"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P31"@en-AU ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Part P31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888514> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888514"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00110:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Anti Money Laundering and Counter Terrorism Financing Act 2006 - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888515> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888515"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:33 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P33 Part 2 Contingent amendments"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Part 2 Contingent amendments - Abrievated Graph Key: P33"@en-AU ;
+    skos:definition "Part 2 Contingent amendments"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Part P33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888518> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888518"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00110:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Proceeds of Crime Act 2002"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Proceeds of Crime Act 2002 - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Proceeds of Crime Act 2002"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888519> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888519"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:35 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S35 Schedule 7 Definition of bearer negotiable instrument"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Schedule 7 Definition of bearer negotiable instrument - Abrievated Graph Key: S35"@en-AU ;
+    skos:definition "Schedule 7 Definition of bearer negotiable instrument"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Schedule S35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888520> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888520"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2024A00110:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Anti Money Laundering and Counter Terrorism Financing Act 2006 - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888521> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888521"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:37 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S37 Schedule 8 Transfers of value and international value transfer services"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Schedule 8 Transfers of value and international value transfer services - Abrievated Graph Key: S37"@en-AU ;
+    skos:definition "Schedule 8 Transfers of value and international value transfer services"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Schedule S37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888523> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888523"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2024A00110:38 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P38 Part 1 Transfers of value"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Part 1 Transfers of value - Abrievated Graph Key: P38"@en-AU ;
+    skos:definition "Part 1 Transfers of value"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Part P38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888524> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888524"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00110:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Anti Money Laundering and Counter Terrorism Financing Act 2006 - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888525> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888525"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 AMLCTF programs and business groups"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Schedule 1 AMLCTF programs and business groups - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 AMLCTF programs and business groups"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888434> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888434"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2024A00110:40 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P40 Part 2 International value transfer services"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Part 2 International value transfer services - Abrievated Graph Key: P40"@en-AU ;
+    skos:definition "Part 2 International value transfer services"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Part P40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888537> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888537"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00110:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Anti Money Laundering and Counter Terrorism Financing Act 2006 - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888538> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888538"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:42 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S42 Schedule 9 Powers and definitions"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Schedule 9 Powers and definitions - Abrievated Graph Key: S42"@en-AU ;
+    skos:definition "Schedule 9 Powers and definitions"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Schedule S42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888544> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888544"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2024A00110:43 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P43 Part 1 Examination power"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Part 1 Examination power - Abrievated Graph Key: P43"@en-AU ;
+    skos:definition "Part 1 Examination power"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Part P43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888545> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888545"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00110:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Anti Money Laundering and Counter Terrorism Financing Act 2006 - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888546> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888546"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:45 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P45 Part 2 Information gathering power"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Part 2 Information gathering power - Abrievated Graph Key: P45"@en-AU ;
+    skos:definition "Part 2 Information gathering power"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Part P45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888570> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888570"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00110:46 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D46 Division 1 Main amendments"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Division 1 Main amendments - Abrievated Graph Key: D46"@en-AU ;
+    skos:definition "Division 1 Main amendments"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Division D46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888571> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888571"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2024A00110:47 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I47 Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Anti Money Laundering and Counter Terrorism Financing Act 2006 - Abrievated Graph Key: I47"@en-AU ;
+    skos:definition "Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888572> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888572"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:48 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D48 Division 2 Consequential amendments"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Division 2 Consequential amendments - Abrievated Graph Key: D48"@en-AU ;
+    skos:definition "Division 2 Consequential amendments"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Division D48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888575> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888575"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2024A00110:49 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I49 Freedom of Information Act 1982"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Freedom of Information Act 1982 - Abrievated Graph Key: I49"@en-AU ;
+    skos:definition "Freedom of Information Act 1982"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888576> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888576"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Anti Money Laundering and Counter Terrorism Financing Act 2006 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888435> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888435"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:50 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P50 Part 3 Definitions"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Part 3 Definitions - Abrievated Graph Key: P50"@en-AU ;
+    skos:definition "Part 3 Definitions"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Part P50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888577> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888577"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00110:51 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I51 Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Anti Money Laundering and Counter Terrorism Financing Act 2006 - Abrievated Graph Key: I51"@en-AU ;
+    skos:definition "Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888578> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888578"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:52 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P52 Part 4 Contingent amendment"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Part 4 Contingent amendment - Abrievated Graph Key: P52"@en-AU ;
+    skos:definition "Part 4 Contingent amendment"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Part P52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888580> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888580"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00110:53 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I53 Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Anti Money Laundering and Counter Terrorism Financing Act 2006 - Abrievated Graph Key: I53"@en-AU ;
+    skos:definition "Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888581> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888581"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:54 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S54 Schedule 10 Exemptions"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Schedule 10 Exemptions - Abrievated Graph Key: S54"@en-AU ;
+    skos:definition "Schedule 10 Exemptions"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Schedule S54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888582> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888582"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2024A00110:55 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I55 Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Anti Money Laundering and Counter Terrorism Financing Act 2006 - Abrievated Graph Key: I55"@en-AU ;
+    skos:definition "Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888583> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888583"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:56 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S56 Schedule 11 Repeal of the Financial Transaction Reports Act 1988"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Schedule 11 Repeal of the Financial Transaction Reports Act 1988 - Abrievated Graph Key: S56"@en-AU ;
+    skos:definition "Schedule 11 Repeal of the Financial Transaction Reports Act 1988"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Schedule S56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888595> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888595"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2024A00110:57 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P57 Part 1 Repeals"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Part 1 Repeals - Abrievated Graph Key: P57"@en-AU ;
+    skos:definition "Part 1 Repeals"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Part P57"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888596> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888596"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00110:58 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I58 Financial Transaction Reports Act 1988"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Financial Transaction Reports Act 1988 - Abrievated Graph Key: I58"@en-AU ;
+    skos:definition "Financial Transaction Reports Act 1988"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I58"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888597> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888597"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:59 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P59 Part 2 Consequential amendments"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Part 2 Consequential amendments - Abrievated Graph Key: P59"@en-AU ;
+    skos:definition "Part 2 Consequential amendments"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Part P59"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888598> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888598"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00110:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Customer due diligence"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Schedule 2 Customer due diligence - Abrievated Graph Key: S6"@en-AU ;
+    skos:definition "Schedule 2 Customer due diligence"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888471> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888471"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2024A00110:60 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D60 Division 1 Amendment of the Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Division 1 Amendment of the Anti Money Laundering and Counter Terrorism Financing Act 2006 - Abrievated Graph Key: D60"@en-AU ;
+    skos:definition "Division 1 Amendment of the Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Division D60"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888599> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888599"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2024A00110:61 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I61 Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Anti Money Laundering and Counter Terrorism Financing Act 2006 - Abrievated Graph Key: I61"@en-AU ;
+    skos:definition "Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I61"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888600> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888600"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:62 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D62 Division 2 Amendments of other Acts"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Division 2 Amendments of other Acts - Abrievated Graph Key: D62"@en-AU ;
+    skos:definition "Division 2 Amendments of other Acts"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Division D62"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888602> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888602"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2024A00110:63 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I63 Australian Securities and Investments Commission Act 2001"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Australian Securities and Investments Commission Act 2001 - Abrievated Graph Key: I63"@en-AU ;
+    skos:definition "Australian Securities and Investments Commission Act 2001"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I63"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888603> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888603"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:64 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I64 Commonwealth Electoral Act 1918"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Commonwealth Electoral Act 1918 - Abrievated Graph Key: I64"@en-AU ;
+    skos:definition "Commonwealth Electoral Act 1918"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I64"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888604> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888604"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:65 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I65 Criminal Code Act 1995"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Criminal Code Act 1995 - Abrievated Graph Key: I65"@en-AU ;
+    skos:definition "Criminal Code Act 1995"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I65"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888605> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888605"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:66 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I66 Freedom of Information Act 1982"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Freedom of Information Act 1982 - Abrievated Graph Key: I66"@en-AU ;
+    skos:definition "Freedom of Information Act 1982"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I66"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888606> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888606"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:67 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I67 Proceeds of Crime Act 2002"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Proceeds of Crime Act 2002 - Abrievated Graph Key: I67"@en-AU ;
+    skos:definition "Proceeds of Crime Act 2002"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I67"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888607> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888607"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:68 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I68 Surveillance Devices Act 2004"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Surveillance Devices Act 2004 - Abrievated Graph Key: I68"@en-AU ;
+    skos:definition "Surveillance Devices Act 2004"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I68"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888608> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888608"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:69 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P69 Part 3 Transitional provisions"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Part 3 Transitional provisions - Abrievated Graph Key: P69"@en-AU ;
+    skos:definition "Part 3 Transitional provisions"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Part P69"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888609> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888609"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00110:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 1 Main amendments"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888472> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888472"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00110:70 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S70 Schedule 12 Transitional rules"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Schedule 12 Transitional rules - Abrievated Graph Key: S70"@en-AU ;
+    skos:definition "Schedule 12 Transitional rules"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Schedule S70"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888610> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888610"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2024A00110:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Anti Money Laundering and Counter Terrorism Financing Act 2006 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888473> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888473"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00110:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 2 Consequential amendments"@en-AU ;
+    dct:isPartOf C2024A00110:3 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "Part 2 Consequential amendments - Abrievated Graph Key: P9"@en-AU ;
+    skos:definition "Part 2 Consequential amendments"@en-AU ;
+    skos:narrower C2024A00110:3 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888488> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888488"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00110: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Anti-Money Laundering and Counter-Terrorism Financing Amendment Act 2024" ;
+    dct:Jurisdiction " Department of Home Affairs "@en-AU ;
+    dct:created "2026-05-27T19:44:47.536352"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2024-12-10T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Anti-Money Laundering and Counter-Terrorism Financing Amendment Act 2024"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2024A00110/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Anti-Money Laundering and Counter-Terrorism Financing Amendment Act 2024"@en-AU ;
+    dct:title "Anti-Money Laundering and Counter-Terrorism Financing Amendment Act 2024"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2024A00110" .
+
+C2024A00110:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2024A00110:10,
+        C2024A00110:11,
+        C2024A00110:12,
+        C2024A00110:13,
+        C2024A00110:14,
+        C2024A00110:15,
+        C2024A00110:16,
+        C2024A00110:17,
+        C2024A00110:18,
+        C2024A00110:19,
+        C2024A00110:20,
+        C2024A00110:21,
+        C2024A00110:22,
+        C2024A00110:23,
+        C2024A00110:24,
+        C2024A00110:25,
+        C2024A00110:26,
+        C2024A00110:27,
+        C2024A00110:28,
+        C2024A00110:29,
+        C2024A00110:30,
+        C2024A00110:31,
+        C2024A00110:32,
+        C2024A00110:33,
+        C2024A00110:34,
+        C2024A00110:35,
+        C2024A00110:36,
+        C2024A00110:37,
+        C2024A00110:38,
+        C2024A00110:39,
+        C2024A00110:4,
+        C2024A00110:40,
+        C2024A00110:41,
+        C2024A00110:42,
+        C2024A00110:43,
+        C2024A00110:44,
+        C2024A00110:45,
+        C2024A00110:46,
+        C2024A00110:47,
+        C2024A00110:48,
+        C2024A00110:49,
+        C2024A00110:5,
+        C2024A00110:50,
+        C2024A00110:51,
+        C2024A00110:52,
+        C2024A00110:53,
+        C2024A00110:54,
+        C2024A00110:55,
+        C2024A00110:56,
+        C2024A00110:57,
+        C2024A00110:58,
+        C2024A00110:59,
+        C2024A00110:6,
+        C2024A00110:60,
+        C2024A00110:61,
+        C2024A00110:62,
+        C2024A00110:63,
+        C2024A00110:64,
+        C2024A00110:65,
+        C2024A00110:66,
+        C2024A00110:67,
+        C2024A00110:68,
+        C2024A00110:69,
+        C2024A00110:7,
+        C2024A00110:70,
+        C2024A00110:8,
+        C2024A00110:9 ;
+    dct:isReferencedBy C2024A00110: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2024A00110:10,
+        C2024A00110:11,
+        C2024A00110:12,
+        C2024A00110:13,
+        C2024A00110:14,
+        C2024A00110:15,
+        C2024A00110:16,
+        C2024A00110:17,
+        C2024A00110:18,
+        C2024A00110:19,
+        C2024A00110:20,
+        C2024A00110:21,
+        C2024A00110:22,
+        C2024A00110:23,
+        C2024A00110:24,
+        C2024A00110:25,
+        C2024A00110:26,
+        C2024A00110:27,
+        C2024A00110:28,
+        C2024A00110:29,
+        C2024A00110:30,
+        C2024A00110:31,
+        C2024A00110:32,
+        C2024A00110:33,
+        C2024A00110:34,
+        C2024A00110:35,
+        C2024A00110:36,
+        C2024A00110:37,
+        C2024A00110:38,
+        C2024A00110:39,
+        C2024A00110:4,
+        C2024A00110:40,
+        C2024A00110:41,
+        C2024A00110:42,
+        C2024A00110:43,
+        C2024A00110:44,
+        C2024A00110:45,
+        C2024A00110:46,
+        C2024A00110:47,
+        C2024A00110:48,
+        C2024A00110:49,
+        C2024A00110:5,
+        C2024A00110:50,
+        C2024A00110:51,
+        C2024A00110:52,
+        C2024A00110:53,
+        C2024A00110:54,
+        C2024A00110:55,
+        C2024A00110:56,
+        C2024A00110:57,
+        C2024A00110:58,
+        C2024A00110:59,
+        C2024A00110:6,
+        C2024A00110:60,
+        C2024A00110:61,
+        C2024A00110:62,
+        C2024A00110:63,
+        C2024A00110:64,
+        C2024A00110:65,
+        C2024A00110:66,
+        C2024A00110:67,
+        C2024A00110:68,
+        C2024A00110:69,
+        C2024A00110:7,
+        C2024A00110:70,
+        C2024A00110:8,
+        C2024A00110:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888433> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00110/asmade/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html#_Toc184888433"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+

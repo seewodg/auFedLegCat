@@ -1,0 +1,902 @@
+@prefix F2025L01263: <http://example.org/au/leg/dataset/F2025L01263/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2025L01263:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 Foreword"@en-AU ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Foreword - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "Foreword"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871875> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871875"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Procurement risk"@en-AU ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Procurement risk - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Procurement risk"@en-AU ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871911> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871911"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Considering value for money"@en-AU ;
+    dct:isPartOf F2025L01263:10 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Considering value for money - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Considering value for money"@en-AU ;
+    skos:narrower F2025L01263:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871885> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871885"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Achieving value for money"@en-AU ;
+    dct:isPartOf F2025L01263:10 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Achieving value for money - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Achieving value for money"@en-AU ;
+    skos:narrower F2025L01263:10 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871886> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871886"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Broader benefits to the Australian economy"@en-AU ;
+    dct:isPartOf F2025L01263:10 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Broader benefits to the Australian economy - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Broader benefits to the Australian economy"@en-AU ;
+    skos:narrower F2025L01263:10 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871887> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871887"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Procurementconnected policies"@en-AU ;
+    dct:isPartOf F2025L01263:10 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Procurementconnected policies - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Procurementconnected policies"@en-AU ;
+    skos:narrower F2025L01263:10 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871888> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871888"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Coordinated procurement"@en-AU ;
+    dct:isPartOf F2025L01263:10 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Coordinated procurement - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Coordinated procurement"@en-AU ;
+    skos:narrower F2025L01263:10 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871889> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871889"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Cooperative procurement"@en-AU ;
+    dct:isPartOf F2025L01263:10 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Cooperative procurement - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Cooperative procurement"@en-AU ;
+    skos:narrower F2025L01263:10 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871890> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871890"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Contract end dates"@en-AU ;
+    dct:isPartOf F2025L01263:10 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Contract end dates - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Contract end dates"@en-AU ;
+    skos:narrower F2025L01263:10 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871891> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871891"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Thirdparty procurement"@en-AU ;
+    dct:isPartOf F2025L01263:10 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Thirdparty procurement - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Thirdparty procurement"@en-AU ;
+    skos:narrower F2025L01263:10 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871892> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871892"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Consideration of Australian businesses"@en-AU ;
+    dct:isPartOf F2025L01263:19 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Consideration of Australian businesses - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Consideration of Australian businesses"@en-AU ;
+    skos:narrower F2025L01263:19 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871894> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871894"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Small and Medium Enterprises"@en-AU ;
+    dct:isPartOf F2025L01263:19 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Small and Medium Enterprises - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Small and Medium Enterprises"@en-AU ;
+    skos:narrower F2025L01263:19 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871895> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871895"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Ethical behaviour"@en-AU ;
+    dct:isPartOf F2025L01263:22 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Ethical behaviour - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Ethical behaviour"@en-AU ;
+    skos:narrower F2025L01263:22 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871897> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871897"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Judicial Review"@en-AU ;
+    dct:isPartOf F2025L01263:22 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Judicial Review - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Judicial Review"@en-AU ;
+    skos:narrower F2025L01263:22 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871898> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871898"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Commonwealth contracts"@en-AU ;
+    dct:isPartOf F2025L01263:22 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Commonwealth contracts - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Commonwealth contracts"@en-AU ;
+    skos:narrower F2025L01263:22 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871899> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871899"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Records"@en-AU ;
+    dct:isPartOf F2025L01263:26 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Records - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Records"@en-AU ;
+    skos:narrower F2025L01263:26 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871901> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871901"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 AusTender"@en-AU ;
+    dct:isPartOf F2025L01263:26 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "AusTender - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "AusTender"@en-AU ;
+    skos:narrower F2025L01263:26 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871902> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871902"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Annual procurement plans"@en-AU ;
+    dct:isPartOf F2025L01263:26 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Annual procurement plans - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Annual procurement plans"@en-AU ;
+    skos:narrower F2025L01263:26 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871903> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871903"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 Procurement"@en-AU ;
+    dct:isPartOf F2025L01263:2 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Procurement - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "Procurement"@en-AU ;
+    skos:narrower F2025L01263:2 ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871877> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871877"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Notifications to the market"@en-AU ;
+    dct:isPartOf F2025L01263:26 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Notifications to the market - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Notifications to the market"@en-AU ;
+    skos:narrower F2025L01263:26 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871904> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871904"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Providing information"@en-AU ;
+    dct:isPartOf F2025L01263:26 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Providing information - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Providing information"@en-AU ;
+    skos:narrower F2025L01263:26 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871905> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871905"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Reporting arrangements"@en-AU ;
+    dct:isPartOf F2025L01263:26 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Reporting arrangements - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Reporting arrangements"@en-AU ;
+    skos:narrower F2025L01263:26 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871906> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871906"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Subcontractors"@en-AU ;
+    dct:isPartOf F2025L01263:26 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Subcontractors - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Subcontractors"@en-AU ;
+    skos:narrower F2025L01263:26 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871907> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871907"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Treatment of confidential information"@en-AU ;
+    dct:isPartOf F2025L01263:26 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Treatment of confidential information - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Treatment of confidential information"@en-AU ;
+    skos:narrower F2025L01263:26 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871908> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871908"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Standard verification"@en-AU ;
+    dct:isPartOf F2025L01263:26 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Standard verification - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Standard verification"@en-AU ;
+    skos:narrower F2025L01263:26 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871909> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871909"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 Other obligations"@en-AU ;
+    dct:isPartOf F2025L01263:26 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Other obligations - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "Other obligations"@en-AU ;
+    skos:narrower F2025L01263:26 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871910> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871910"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 Requirement to estimate value of procurement"@en-AU ;
+    dct:isPartOf F2025L01263:38 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Requirement to estimate value of procurement - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "Requirement to estimate value of procurement"@en-AU ;
+    skos:narrower F2025L01263:38 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871913> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871913"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 Resource Management Framework"@en-AU ;
+    dct:isPartOf F2025L01263:2 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Resource Management Framework - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "Resource Management Framework"@en-AU ;
+    skos:narrower F2025L01263:2 ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871878> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871878"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 Procurement thresholds"@en-AU ;
+    dct:isPartOf F2025L01263:38 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Procurement thresholds - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "Procurement thresholds"@en-AU ;
+    skos:narrower F2025L01263:38 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871914> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871914"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 Procurement methods"@en-AU ;
+    dct:isPartOf F2025L01263:38 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Procurement methods - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "Procurement methods"@en-AU ;
+    skos:narrower F2025L01263:38 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871915> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871915"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 Procurement from existing arrangements"@en-AU ;
+    dct:isPartOf F2025L01263:38 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Procurement from existing arrangements - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "Procurement from existing arrangements"@en-AU ;
+    skos:narrower F2025L01263:38 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871916> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871916"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:43 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D43 Division 2 Additional rules for procurements at or above the relevant procurement threshold"@en-AU ;
+    dct:isPartOf F2025L01263:38 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Division 2 Additional rules for procurements at or above the relevant procurement threshold - Abrievated Graph Key: D43"@en-AU ;
+    skos:definition "Division 2 Additional rules for procurements at or above the relevant procurement threshold"@en-AU ;
+    skos:narrower F2025L01263:38 ;
+    skos:prefLabel "Division D43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871917> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871917"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2025L01263:45 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I45 Nondiscrimination"@en-AU ;
+    dct:isPartOf F2025L01263:44 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Nondiscrimination - Abrievated Graph Key: I45"@en-AU ;
+    skos:definition "Nondiscrimination"@en-AU ;
+    skos:narrower F2025L01263:44 ;
+    skos:prefLabel "Item I45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871919> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871919"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:46 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I46 Conditions for limited tender"@en-AU ;
+    dct:isPartOf F2025L01263:44 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Conditions for limited tender - Abrievated Graph Key: I46"@en-AU ;
+    skos:definition "Conditions for limited tender"@en-AU ;
+    skos:narrower F2025L01263:44 ;
+    skos:prefLabel "Item I46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871920> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871920"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:47 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I47 Request documentation"@en-AU ;
+    dct:isPartOf F2025L01263:44 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Request documentation - Abrievated Graph Key: I47"@en-AU ;
+    skos:definition "Request documentation"@en-AU ;
+    skos:narrower F2025L01263:44 ;
+    skos:prefLabel "Item I47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871921> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871921"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:48 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I48 Specifications"@en-AU ;
+    dct:isPartOf F2025L01263:44 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Specifications - Abrievated Graph Key: I48"@en-AU ;
+    skos:definition "Specifications"@en-AU ;
+    skos:narrower F2025L01263:44 ;
+    skos:prefLabel "Item I48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871922> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871922"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:49 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I49 Modification of evaluation criteria or specifications"@en-AU ;
+    dct:isPartOf F2025L01263:44 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Modification of evaluation criteria or specifications - Abrievated Graph Key: I49"@en-AU ;
+    skos:definition "Modification of evaluation criteria or specifications"@en-AU ;
+    skos:narrower F2025L01263:44 ;
+    skos:prefLabel "Item I49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871923> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871923"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 International obligations"@en-AU ;
+    dct:isPartOf F2025L01263:2 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "International obligations - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "International obligations"@en-AU ;
+    skos:narrower F2025L01263:2 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871879> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871879"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:50 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I50 Conditions for participation"@en-AU ;
+    dct:isPartOf F2025L01263:44 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Conditions for participation - Abrievated Graph Key: I50"@en-AU ;
+    skos:definition "Conditions for participation"@en-AU ;
+    skos:narrower F2025L01263:44 ;
+    skos:prefLabel "Item I50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871924> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871924"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:51 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I51 Negotiations"@en-AU ;
+    dct:isPartOf F2025L01263:44 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Negotiations - Abrievated Graph Key: I51"@en-AU ;
+    skos:definition "Negotiations"@en-AU ;
+    skos:narrower F2025L01263:44 ;
+    skos:prefLabel "Item I51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871925> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871925"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:52 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I52 Minimum time limits"@en-AU ;
+    dct:isPartOf F2025L01263:44 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Minimum time limits - Abrievated Graph Key: I52"@en-AU ;
+    skos:definition "Minimum time limits"@en-AU ;
+    skos:narrower F2025L01263:44 ;
+    skos:prefLabel "Item I52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871926> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871926"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:53 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I53 Late submissions"@en-AU ;
+    dct:isPartOf F2025L01263:44 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Late submissions - Abrievated Graph Key: I53"@en-AU ;
+    skos:definition "Late submissions"@en-AU ;
+    skos:narrower F2025L01263:44 ;
+    skos:prefLabel "Item I53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871927> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871927"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:54 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I54 Handling of submissions and additional information"@en-AU ;
+    dct:isPartOf F2025L01263:44 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Handling of submissions and additional information - Abrievated Graph Key: I54"@en-AU ;
+    skos:definition "Handling of submissions and additional information"@en-AU ;
+    skos:narrower F2025L01263:44 ;
+    skos:prefLabel "Item I54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871928> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871928"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:55 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I55 Awarding contracts"@en-AU ;
+    dct:isPartOf F2025L01263:44 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Awarding contracts - Abrievated Graph Key: I55"@en-AU ;
+    skos:definition "Awarding contracts"@en-AU ;
+    skos:narrower F2025L01263:44 ;
+    skos:prefLabel "Item I55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871929> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871929"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:56 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I56 Appendix A Exemptions"@en-AU ;
+    dct:isPartOf F2025L01263:44 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Appendix A Exemptions - Abrievated Graph Key: I56"@en-AU ;
+    skos:definition "Appendix A Exemptions"@en-AU ;
+    skos:narrower F2025L01263:44 ;
+    skos:prefLabel "Item I56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871930> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871930"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:57 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I57 Appendix B Definitions"@en-AU ;
+    dct:isPartOf F2025L01263:44 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Appendix B Definitions - Abrievated Graph Key: I57"@en-AU ;
+    skos:definition "Appendix B Definitions"@en-AU ;
+    skos:narrower F2025L01263:44 ;
+    skos:prefLabel "Item I57"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871931> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871931"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Compliance with the two divisions of the CPRs"@en-AU ;
+    dct:isPartOf F2025L01263:6 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Compliance with the two divisions of the CPRs - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Compliance with the two divisions of the CPRs"@en-AU ;
+    skos:narrower F2025L01263:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871881> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871881"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Using Appendix A exemptions"@en-AU ;
+    dct:isPartOf F2025L01263:6 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Using Appendix A exemptions - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Using Appendix A exemptions"@en-AU ;
+    skos:narrower F2025L01263:6 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871882> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871882"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:9 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D9 Division 1 Rules for all procurements"@en-AU ;
+    dct:isPartOf F2025L01263:6 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Division 1 Rules for all procurements - Abrievated Graph Key: D9"@en-AU ;
+    skos:definition "Division 1 Rules for all procurements"@en-AU ;
+    skos:narrower F2025L01263:6 ;
+    skos:prefLabel "Division D9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871883> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871883"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+F2025L01263:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Encouraging competition"@en-AU ;
+    dct:hasPart F2025L01263:20,
+        F2025L01263:21 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Encouraging competition - Abrievated Graph Key: I19"@en-AU ;
+    skos:broader F2025L01263:20,
+        F2025L01263:21 ;
+    skos:definition "Encouraging competition"@en-AU ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871893> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871893"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 Procurement framework"@en-AU ;
+    dct:hasPart F2025L01263:3,
+        F2025L01263:4,
+        F2025L01263:5 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Procurement framework - Abrievated Graph Key: I2"@en-AU ;
+    skos:broader F2025L01263:3,
+        F2025L01263:4,
+        F2025L01263:5 ;
+    skos:definition "Procurement framework"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871876> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871876"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Efficient effective economical and ethical procurement"@en-AU ;
+    dct:hasPart F2025L01263:23,
+        F2025L01263:24,
+        F2025L01263:25 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Efficient effective economical and ethical procurement - Abrievated Graph Key: I22"@en-AU ;
+    skos:broader F2025L01263:23,
+        F2025L01263:24,
+        F2025L01263:25 ;
+    skos:definition "Efficient effective economical and ethical procurement"@en-AU ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871896> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871896"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 How to use the Commonwealth Procurement Rules"@en-AU ;
+    dct:hasPart F2025L01263:7,
+        F2025L01263:8,
+        F2025L01263:9 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "How to use the Commonwealth Procurement Rules - Abrievated Graph Key: I6"@en-AU ;
+    skos:broader F2025L01263:7,
+        F2025L01263:8,
+        F2025L01263:9 ;
+    skos:definition "How to use the Commonwealth Procurement Rules"@en-AU ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871880> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871880"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 Procurement method"@en-AU ;
+    dct:hasPart F2025L01263:39,
+        F2025L01263:40,
+        F2025L01263:41,
+        F2025L01263:42,
+        F2025L01263:43 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Procurement method - Abrievated Graph Key: I38"@en-AU ;
+    skos:broader F2025L01263:39,
+        F2025L01263:40,
+        F2025L01263:41,
+        F2025L01263:42,
+        F2025L01263:43 ;
+    skos:definition "Procurement method"@en-AU ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871912> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871912"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Value for money"@en-AU ;
+    dct:hasPart F2025L01263:11,
+        F2025L01263:12,
+        F2025L01263:13,
+        F2025L01263:14,
+        F2025L01263:15,
+        F2025L01263:16,
+        F2025L01263:17,
+        F2025L01263:18 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Value for money - Abrievated Graph Key: I10"@en-AU ;
+    skos:broader F2025L01263:11,
+        F2025L01263:12,
+        F2025L01263:13,
+        F2025L01263:14,
+        F2025L01263:15,
+        F2025L01263:16,
+        F2025L01263:17,
+        F2025L01263:18 ;
+    skos:definition "Value for money"@en-AU ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871884> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871884"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Accountability and transparency"@en-AU ;
+    dct:hasPart F2025L01263:27,
+        F2025L01263:28,
+        F2025L01263:29,
+        F2025L01263:30,
+        F2025L01263:31,
+        F2025L01263:32,
+        F2025L01263:33,
+        F2025L01263:34,
+        F2025L01263:35,
+        F2025L01263:36 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Accountability and transparency - Abrievated Graph Key: I26"@en-AU ;
+    skos:broader F2025L01263:27,
+        F2025L01263:28,
+        F2025L01263:29,
+        F2025L01263:30,
+        F2025L01263:31,
+        F2025L01263:32,
+        F2025L01263:33,
+        F2025L01263:34,
+        F2025L01263:35,
+        F2025L01263:36 ;
+    skos:definition "Accountability and transparency"@en-AU ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871900> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871900"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 Additional rules"@en-AU ;
+    dct:hasPart F2025L01263:45,
+        F2025L01263:46,
+        F2025L01263:47,
+        F2025L01263:48,
+        F2025L01263:49,
+        F2025L01263:50,
+        F2025L01263:51,
+        F2025L01263:52,
+        F2025L01263:53,
+        F2025L01263:54,
+        F2025L01263:55,
+        F2025L01263:56,
+        F2025L01263:57 ;
+    dct:isReferencedBy F2025L01263: ;
+    rdfs:comment "Additional rules - Abrievated Graph Key: I44"@en-AU ;
+    skos:broader F2025L01263:45,
+        F2025L01263:46,
+        F2025L01263:47,
+        F2025L01263:48,
+        F2025L01263:49,
+        F2025L01263:50,
+        F2025L01263:51,
+        F2025L01263:52,
+        F2025L01263:53,
+        F2025L01263:54,
+        F2025L01263:55,
+        F2025L01263:56,
+        F2025L01263:57 ;
+    skos:definition "Additional rules"@en-AU ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871918> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01263/asmade/2025-10-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc211871918"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01263: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Commonwealth Procurement Rules 17 November 2025" ;
+    dct:Jurisdiction " Department of Finance "@en-AU ;
+    dct:created "2026-05-27T17:21:15.532359"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2025-10-22T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Commonwealth Procurement Rules 17 November 2025"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2025L01263/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Commonwealth Procurement Rules 17 November 2025"@en-AU ;
+    dct:title "Commonwealth Procurement Rules 17 November 2025"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item ;
+    schema:status "In force" ;
+    schema:version "F2025L01263" .
+

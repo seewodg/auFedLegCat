@@ -1,0 +1,89 @@
+@prefix F2025L01251: <http://example.org/au/leg/dataset/F2025L01251/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2025L01251:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Name"@en-AU ;
+    dct:isReferencedBy F2025L01251: ;
+    rdfs:comment "1  Name - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Name"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01251/asmade/2025-10-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc206685443> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01251/asmade/2025-10-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc206685443"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01251:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy F2025L01251: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01251/asmade/2025-10-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc206685444> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01251/asmade/2025-10-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc206685444"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01251:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Authority"@en-AU ;
+    dct:isReferencedBy F2025L01251: ;
+    rdfs:comment "3  Authority - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "3  Authority"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01251/asmade/2025-10-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc206685445> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01251/asmade/2025-10-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc206685445"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01251:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 Preliminary"@en-AU ;
+    dct:isReferencedBy F2025L01251: ;
+    rdfs:comment "Preliminary - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "Preliminary"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01251/asmade/2025-10-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc206685446> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01251/asmade/2025-10-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc206685446"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01251:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Standards"@en-AU ;
+    dct:isReferencedBy F2025L01251: ;
+    rdfs:comment "Standards - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Standards"@en-AU ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2025L01251/asmade/2025-10-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc206685447> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2025L01251/asmade/2025-10-17/text/original/epub/OEBPS/document_1/document_1.html#_Toc206685447"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2025L01251: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "National Higher Education Code to Prevent and Respond to Gender-based Violence 2025" ;
+    dct:Jurisdiction " Department of Education "@en-AU ;
+    dct:created "2026-05-27T17:04:54.369372"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2025-10-17T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "National Higher Education Code to Prevent and Respond to Gender-based Violence 2025"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2025L01251/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "National Higher Education Code to Prevent and Respond to Gender-based Violence 2025"@en-AU ;
+    dct:title "National Higher Education Code to Prevent and Respond to Gender-based Violence 2025"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item ;
+    schema:status "In force" ;
+    schema:version "F2025L01251" .
+

@@ -1,0 +1,41 @@
+@prefix F2024L00708: <http://example.org/au/leg/dataset/F2024L00708/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2024L00708:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 Text"@en-AU ;
+    dct:isReferencedBy F2024L00708: ;
+    rdfs:comment "Text - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "Text"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L00708/asmade/2024-06-20/text/original/epub/OEBPS/document_1/document_1.html> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L00708/asmade/2024-06-20/text/original/epub/OEBPS/document_1/document_1.html"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L00708: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Accounting Standard AASB 18 Presentation and Disclosure in Financial Statements" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-26T21:21:27.564836"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2024-06-20T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Accounting Standard AASB 18 Presentation and Disclosure in Financial Statements"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2024L00708/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Accounting Standard AASB 18 Presentation and Disclosure in Financial Statements"@en-AU ;
+    dct:title "Accounting Standard AASB 18 Presentation and Disclosure in Financial Statements"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item ;
+    schema:status "In force" ;
+    schema:version "F2024L00708" .
+

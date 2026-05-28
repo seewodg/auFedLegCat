@@ -1,0 +1,146 @@
+@prefix C2004A00725: <http://example.org/au/leg/dataset/C2004A00725/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A00725:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A00725: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00725/2000-11-13/2000-11-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc110051986> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00725/2000-11-13/2000-11-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc110051986"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00725:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A00725: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00725/2000-11-13/2000-11-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc110051987> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00725/2000-11-13/2000-11-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc110051987"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00725:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendment of the Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2004A00725:3 ;
+    dct:isReferencedBy C2004A00725: ;
+    rdfs:comment "Schedule 1 Amendment of the Social Security Act 1991 - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Amendment of the Social Security Act 1991"@en-AU ;
+    skos:narrower C2004A00725:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00725/2000-11-13/2000-11-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc110051989> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00725/2000-11-13/2000-11-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc110051989"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00725:5 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S5 Schedule 2 Amendment of the Veterans Entitlements Act 1986"@en-AU ;
+    dct:isPartOf C2004A00725:3 ;
+    dct:isReferencedBy C2004A00725: ;
+    rdfs:comment "Schedule 2 Amendment of the Veterans Entitlements Act 1986 - Abrievated Graph Key: S5"@en-AU ;
+    skos:definition "Schedule 2 Amendment of the Veterans Entitlements Act 1986"@en-AU ;
+    skos:narrower C2004A00725:3 ;
+    skos:prefLabel "Schedule S5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00725/2000-11-13/2000-11-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc110052067> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00725/2000-11-13/2000-11-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc110052067"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00725:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 3 Amendment of the Farm Household Support Act 1992"@en-AU ;
+    dct:isPartOf C2004A00725:3 ;
+    dct:isReferencedBy C2004A00725: ;
+    rdfs:comment "Schedule 3 Amendment of the Farm Household Support Act 1992 - Abrievated Graph Key: S6"@en-AU ;
+    skos:definition "Schedule 3 Amendment of the Farm Household Support Act 1992"@en-AU ;
+    skos:narrower C2004A00725:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00725/2000-11-13/2000-11-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc110052144> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00725/2000-11-13/2000-11-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc110052144"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00725:7 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S7 Schedule 4 Amendment of the Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2004A00725:3 ;
+    dct:isReferencedBy C2004A00725: ;
+    rdfs:comment "Schedule 4 Amendment of the Income Tax Assessment Act 1936 - Abrievated Graph Key: S7"@en-AU ;
+    skos:definition "Schedule 4 Amendment of the Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2004A00725:3 ;
+    skos:prefLabel "Schedule S7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00725/2000-11-13/2000-11-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc110052145> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00725/2000-11-13/2000-11-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc110052145"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00725:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 5 Amendment of the Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2004A00725:3 ;
+    dct:isReferencedBy C2004A00725: ;
+    rdfs:comment "Schedule 5 Amendment of the Taxation Administration Act 1953 - Abrievated Graph Key: S8"@en-AU ;
+    skos:definition "Schedule 5 Amendment of the Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2004A00725:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00725/2000-11-13/2000-11-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc110052146> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00725/2000-11-13/2000-11-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc110052146"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00725: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Social Security and Veterans' Entitlements Legislation Amendment (Private Trusts and Private Companies—Integrity of Means Testing) Act 2000" ;
+    dct:Jurisdiction " Department of Veterans' Affairs "@en-AU ;
+    dct:created "2026-05-27T19:38:17.294735"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2000-11-13T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Social Security and Veterans' Entitlements Legislation Amendment (Private Trusts and Private Companies—Integrity of Means Testing) Act 2000"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A00725/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Social Security and Veterans' Entitlements Legislation Amendment (Private Trusts and Private Companies—Integrity of Means Testing) Act 2000"@en-AU ;
+    dct:title "Social Security and Veterans' Entitlements Legislation Amendment (Private Trusts and Private Companies—Integrity of Means Testing) Act 2000"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2005C00508 C01" .
+
+C2004A00725:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A00725:4,
+        C2004A00725:5,
+        C2004A00725:6,
+        C2004A00725:7,
+        C2004A00725:8 ;
+    dct:isReferencedBy C2004A00725: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A00725:4,
+        C2004A00725:5,
+        C2004A00725:6,
+        C2004A00725:7,
+        C2004A00725:8 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00725/2000-11-13/2000-11-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc110051988> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00725/2000-11-13/2000-11-13/text/original/epub/OEBPS/document_1/document_1.html#_Toc110051988"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+

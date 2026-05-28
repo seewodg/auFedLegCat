@@ -1,0 +1,258 @@
+@prefix C2004A00736: <http://example.org/au/leg/dataset/C2004A00736/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A00736:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A00736: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853162> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853162"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00736:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A00736: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853163> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853163"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00736:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Bankruptcy Act 1966"@en-AU ;
+    dct:isPartOf C2004A00736:8 ;
+    dct:isReferencedBy C2004A00736: ;
+    rdfs:comment "Bankruptcy Act 1966 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Bankruptcy Act 1966"@en-AU ;
+    skos:narrower C2004A00736:8 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853221> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853221"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00736:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Child Support Assessment Act 1989"@en-AU ;
+    dct:isPartOf C2004A00736:8 ;
+    dct:isReferencedBy C2004A00736: ;
+    rdfs:comment "Child Support Assessment Act 1989 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Child Support Assessment Act 1989"@en-AU ;
+    skos:narrower C2004A00736:8 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853222> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853222"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00736:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Child Support Registration and Collection Act 1988"@en-AU ;
+    dct:isPartOf C2004A00736:8 ;
+    dct:isReferencedBy C2004A00736: ;
+    rdfs:comment "Child Support Registration and Collection Act 1988 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Child Support Registration and Collection Act 1988"@en-AU ;
+    skos:narrower C2004A00736:8 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853223> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853223"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00736:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2004A00736:8 ;
+    dct:isReferencedBy C2004A00736: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2004A00736:8 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853224> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853224"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00736:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Federal Magistrates Act 1999"@en-AU ;
+    dct:isPartOf C2004A00736:8 ;
+    dct:isReferencedBy C2004A00736: ;
+    rdfs:comment "Federal Magistrates Act 1999 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Federal Magistrates Act 1999"@en-AU ;
+    skos:narrower C2004A00736:8 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853247> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853247"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00736:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Veterans Entitlements Act 1986"@en-AU ;
+    dct:isPartOf C2004A00736:8 ;
+    dct:isReferencedBy C2004A00736: ;
+    rdfs:comment "Veterans Entitlements Act 1986 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Veterans Entitlements Act 1986"@en-AU ;
+    skos:narrower C2004A00736:8 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853248> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853248"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00736:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2004A00736:4 ;
+    dct:isReferencedBy C2004A00736: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2004A00736:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853166> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853166"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00736:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2004A00736:6 ;
+    dct:isReferencedBy C2004A00736: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2004A00736:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853203> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853203"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00736:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 A New Tax System Family Assistance Act 1999"@en-AU ;
+    dct:isPartOf C2004A00736:8 ;
+    dct:isReferencedBy C2004A00736: ;
+    rdfs:comment "A New Tax System Family Assistance Act 1999 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Act 1999"@en-AU ;
+    skos:narrower C2004A00736:8 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853220> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853220"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00736:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Consequences of failure to comply with orders and other obligations"@en-AU ;
+    dct:hasPart C2004A00736:5 ;
+    dct:isPartOf C2004A00736:3 ;
+    dct:isReferencedBy C2004A00736: ;
+    rdfs:comment "Schedule 1 Consequences of failure to comply with orders and other obligations - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A00736:5 ;
+    skos:definition "Schedule 1 Consequences of failure to comply with orders and other obligations"@en-AU ;
+    skos:narrower C2004A00736:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853165> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853165"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00736:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Financial agreements"@en-AU ;
+    dct:hasPart C2004A00736:7 ;
+    dct:isPartOf C2004A00736:3 ;
+    dct:isReferencedBy C2004A00736: ;
+    rdfs:comment "Schedule 2 Financial agreements - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2004A00736:7 ;
+    skos:definition "Schedule 2 Financial agreements"@en-AU ;
+    skos:narrower C2004A00736:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853202> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853202"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00736:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A00736:4,
+        C2004A00736:6,
+        C2004A00736:8 ;
+    dct:isReferencedBy C2004A00736: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A00736:4,
+        C2004A00736:6,
+        C2004A00736:8 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853164> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853164"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00736: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Family Law Amendment Act 2000" ;
+    dct:Jurisdiction " Attorney-General's Department "@en-AU ;
+    dct:created "2026-05-27T17:13:44.843342"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "1988-07-01T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Family Law Amendment Act 2000"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A00736/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Family Law Amendment Act 2000"@en-AU ;
+    dct:title "Family Law Amendment Act 2000"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2004A00736" .
+
+C2004A00736:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 3 Other amendments"@en-AU ;
+    dct:hasPart C2004A00736:10,
+        C2004A00736:11,
+        C2004A00736:12,
+        C2004A00736:13,
+        C2004A00736:14,
+        C2004A00736:15,
+        C2004A00736:9 ;
+    dct:isPartOf C2004A00736:3 ;
+    dct:isReferencedBy C2004A00736: ;
+    rdfs:comment "Schedule 3 Other amendments - Abrievated Graph Key: S8"@en-AU ;
+    skos:broader C2004A00736:10,
+        C2004A00736:11,
+        C2004A00736:12,
+        C2004A00736:13,
+        C2004A00736:14,
+        C2004A00736:15,
+        C2004A00736:9 ;
+    skos:definition "Schedule 3 Other amendments"@en-AU ;
+    skos:narrower C2004A00736:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853219> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00736/asmade/1988-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc498853219"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+

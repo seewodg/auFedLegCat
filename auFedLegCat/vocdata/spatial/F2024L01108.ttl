@@ -1,0 +1,150 @@
+@prefix F2024L01108: <http://example.org/au/leg/dataset/F2024L01108/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2024L01108:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Name"@en-AU ;
+    dct:isReferencedBy F2024L01108: ;
+    rdfs:comment "1  Name - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Name"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01108/asmade/2024-09-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc175067830> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01108/asmade/2024-09-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc175067830"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01108:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy F2024L01108: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01108/asmade/2024-09-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc175067831> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01108/asmade/2024-09-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc175067831"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01108:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Authority"@en-AU ;
+    dct:isReferencedBy F2024L01108: ;
+    rdfs:comment "3  Authority - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "3  Authority"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01108/asmade/2024-09-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc175067832> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01108/asmade/2024-09-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc175067832"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01108:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 4  Definitions"@en-AU ;
+    dct:isReferencedBy F2024L01108: ;
+    rdfs:comment "4  Definitions - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "4  Definitions"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01108/asmade/2024-09-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc175067833> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01108/asmade/2024-09-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc175067833"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01108:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 5  Declared area"@en-AU ;
+    dct:isReferencedBy F2024L01108: ;
+    rdfs:comment "5  Declared area - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "5  Declared area"@en-AU ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01108/asmade/2024-09-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc175067834> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01108/asmade/2024-09-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc175067834"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01108:7 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S7 Schedule 1 Declared Area OEI 032024 Part 1"@en-AU ;
+    dct:isPartOf F2024L01108:6 ;
+    dct:isReferencedBy F2024L01108: ;
+    rdfs:comment "Schedule 1 Declared Area OEI 032024 Part 1 - Abrievated Graph Key: S7"@en-AU ;
+    skos:definition "Schedule 1 Declared Area OEI 032024 Part 1"@en-AU ;
+    skos:narrower F2024L01108:6 ;
+    skos:prefLabel "Schedule S7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01108/asmade/2024-09-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc175067836> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01108/asmade/2024-09-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc175067836"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F2024L01108:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 2 Declared Area OEI 032024 Part 2"@en-AU ;
+    dct:isPartOf F2024L01108:6 ;
+    dct:isReferencedBy F2024L01108: ;
+    rdfs:comment "Schedule 2 Declared Area OEI 032024 Part 2 - Abrievated Graph Key: S8"@en-AU ;
+    skos:definition "Schedule 2 Declared Area OEI 032024 Part 2"@en-AU ;
+    skos:narrower F2024L01108:6 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01108/asmade/2024-09-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc175067837> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01108/asmade/2024-09-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc175067837"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F2024L01108:9 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S9 Schedule 3 Simplified map of declared area"@en-AU ;
+    dct:isPartOf F2024L01108:6 ;
+    dct:isReferencedBy F2024L01108: ;
+    rdfs:comment "Schedule 3 Simplified map of declared area - Abrievated Graph Key: S9"@en-AU ;
+    skos:definition "Schedule 3 Simplified map of declared area"@en-AU ;
+    skos:narrower F2024L01108:6 ;
+    skos:prefLabel "Schedule S9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01108/asmade/2024-09-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc175067838> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01108/asmade/2024-09-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc175067838"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F2024L01108:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 6  Conditions"@en-AU ;
+    dct:hasPart F2024L01108:7,
+        F2024L01108:8,
+        F2024L01108:9 ;
+    dct:isReferencedBy F2024L01108: ;
+    rdfs:comment "6  Conditions - Abrievated Graph Key: I6"@en-AU ;
+    skos:broader F2024L01108:7,
+        F2024L01108:8,
+        F2024L01108:9 ;
+    skos:definition "6  Conditions"@en-AU ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2024L01108/asmade/2024-09-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc175067835> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2024L01108/asmade/2024-09-02/text/original/epub/OEBPS/document_1/document_1.html#_Toc175067835"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2024L01108: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Offshore Electricity Infrastructure (Declared Area OEI-03-2024) Declaration 2024" ;
+    dct:Jurisdiction " Department of Climate Change, Energy, the Environment and Water "@en-AU ;
+    dct:created "2026-05-26T10:49:58.841435"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2024-09-02T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Offshore Electricity Infrastructure (Declared Area OEI-03-2024) Declaration 2024"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2024L01108/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Offshore Electricity Infrastructure (Declared Area OEI-03-2024) Declaration 2024"@en-AU ;
+    dct:title "Offshore Electricity Infrastructure (Declared Area OEI-03-2024) Declaration 2024"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "F2024L01108" .
+

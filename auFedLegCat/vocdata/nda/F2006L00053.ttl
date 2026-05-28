@@ -1,0 +1,122 @@
+@prefix F2006L00053: <http://example.org/au/leg/dataset/F2006L00053/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2006L00053:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1	Name of Regulations see Note 1"@en-AU ;
+    dct:isReferencedBy F2006L00053: ;
+    rdfs:comment "1	Name of Regulations see Note 1 - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1	Name of Regulations see Note 1"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2006L00053/2009-10-14/2009-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc243214812> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2006L00053/2009-10-14/2009-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc243214812"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2006L00053:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2	Commencement see Note 1"@en-AU ;
+    dct:isReferencedBy F2006L00053: ;
+    rdfs:comment "2	Commencement see Note 1 - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2	Commencement see Note 1"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2006L00053/2009-10-14/2009-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc243214813> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2006L00053/2009-10-14/2009-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc243214813"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2006L00053:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3	Definitions"@en-AU ;
+    dct:isReferencedBy F2006L00053: ;
+    rdfs:comment "3	Definitions - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "3	Definitions"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2006L00053/2009-10-14/2009-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc243214814> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2006L00053/2009-10-14/2009-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc243214814"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2006L00053:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 4	Extradition countries"@en-AU ;
+    dct:isReferencedBy F2006L00053: ;
+    rdfs:comment "4	Extradition countries - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "4	Extradition countries"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2006L00053/2009-10-14/2009-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc243214815> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2006L00053/2009-10-14/2009-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc243214815"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2006L00053:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 5	Application of the Act"@en-AU ;
+    dct:hasPart F2006L00053:6 ;
+    dct:isReferencedBy F2006L00053: ;
+    rdfs:comment "5	Application of the Act - Abrievated Graph Key: I5"@en-AU ;
+    skos:broader F2006L00053:6 ;
+    skos:definition "5	Application of the Act"@en-AU ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2006L00053/2009-10-14/2009-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc243214816> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2006L00053/2009-10-14/2009-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc243214816"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2006L00053:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Notes to the   STYLEREF  Title  Extradition Convention against Corruption Regulations 2005"@en-AU ;
+    dct:isPartOf F2006L00053:6 ;
+    dct:isReferencedBy F2006L00053: ;
+    rdfs:comment "Notes to the   STYLEREF  Title  Extradition Convention against Corruption Regulations 2005 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Notes to the   STYLEREF  Title  Extradition Convention against Corruption Regulations 2005"@en-AU ;
+    skos:narrower F2006L00053:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2006L00053/2009-10-14/2009-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc243214818> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2006L00053/2009-10-14/2009-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc243214818"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2006L00053:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 1	United Nations Convention against Corruption"@en-AU ;
+    dct:hasPart F2006L00053:7 ;
+    dct:isPartOf F2006L00053:5 ;
+    dct:isReferencedBy F2006L00053: ;
+    rdfs:comment "Schedule 1	United Nations Convention against Corruption - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader F2006L00053:7 ;
+    skos:definition "Schedule 1	United Nations Convention against Corruption"@en-AU ;
+    skos:narrower F2006L00053:5 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2006L00053/2009-10-14/2009-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc243214817> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2006L00053/2009-10-14/2009-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc243214817"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F2006L00053: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Extradition (Convention against Corruption) Regulations 2005" ;
+    dct:Jurisdiction " Attorney-General's Department "@en-AU ;
+    dct:created "2026-05-27T17:27:54.249407"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2009-10-14T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Extradition (Convention against Corruption) Regulations 2005"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2006L00053/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Extradition (Convention against Corruption) Regulations 2005"@en-AU ;
+    dct:title "Extradition (Convention against Corruption) Regulations 2005"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "F2009C01026 C01" .
+

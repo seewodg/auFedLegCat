@@ -1,0 +1,852 @@
+@prefix C2006A00125: <http://example.org/au/leg/dataset/C2006A00125/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2006A00125:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title see Note 1"@en-AU ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "1  Short title see Note 1 - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title see Note 1"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624906> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624906"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00125:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624907> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624907"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00125:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Aboriginal and Torres Strait Islander Act 2005"@en-AU ;
+    dct:isPartOf C2006A00125:9 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Aboriginal and Torres Strait Islander Act 2005 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Aboriginal and Torres Strait Islander Act 2005"@en-AU ;
+    skos:narrower C2006A00125:9 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624915> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624915"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00125:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Aboriginal Land Lake Condah and Framlingham Forest Act 1987"@en-AU ;
+    dct:isPartOf C2006A00125:9 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Aboriginal Land Lake Condah and Framlingham Forest Act 1987 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Aboriginal Land Lake Condah and Framlingham Forest Act 1987"@en-AU ;
+    skos:narrower C2006A00125:9 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624916> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624916"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00125:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Aboriginal Land Rights Northern Territory Act 1976"@en-AU ;
+    dct:isPartOf C2006A00125:9 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Aboriginal Land Rights Northern Territory Act 1976 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Aboriginal Land Rights Northern Territory Act 1976"@en-AU ;
+    skos:narrower C2006A00125:9 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624917> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624917"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00125:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Age Discrimination Act 2004"@en-AU ;
+    dct:isPartOf C2006A00125:9 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Age Discrimination Act 2004 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Age Discrimination Act 2004"@en-AU ;
+    skos:narrower C2006A00125:9 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624918> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624918"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00125:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Commonwealth Authorities and Companies Act 1997"@en-AU ;
+    dct:isPartOf C2006A00125:9 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Commonwealth Authorities and Companies Act 1997 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Commonwealth Authorities and Companies Act 1997"@en-AU ;
+    skos:narrower C2006A00125:9 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624919> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624919"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00125:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Commonwealth Volunteers Protection Act 2003"@en-AU ;
+    dct:isPartOf C2006A00125:9 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Commonwealth Volunteers Protection Act 2003 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Commonwealth Volunteers Protection Act 2003"@en-AU ;
+    skos:narrower C2006A00125:9 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624920> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624920"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00125:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Criminal Code Act 1995"@en-AU ;
+    dct:isPartOf C2006A00125:9 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Criminal Code Act 1995 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Criminal Code Act 1995"@en-AU ;
+    skos:narrower C2006A00125:9 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624921> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624921"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00125:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    dct:isPartOf C2006A00125:9 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Environment Protection and Biodiversity Conservation Act 1999 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    skos:narrower C2006A00125:9 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624922> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624922"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00125:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2006A00125:9 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2006A00125:9 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624923> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624923"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00125:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Remuneration Tribunal Act 1973"@en-AU ;
+    dct:isPartOf C2006A00125:9 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Remuneration Tribunal Act 1973 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Remuneration Tribunal Act 1973"@en-AU ;
+    skos:narrower C2006A00125:9 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624924> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624924"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00125:21 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P21 Part 1 Preliminary"@en-AU ;
+    dct:isPartOf C2006A00125:20 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Part 1 Preliminary - Abrievated Graph Key: P21"@en-AU ;
+    skos:definition "Part 1 Preliminary"@en-AU ;
+    skos:narrower C2006A00125:20 ;
+    skos:prefLabel "Part P21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624926> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624926"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00125:23 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D23 Division 1 Registration under the new Act"@en-AU ;
+    dct:isPartOf C2006A00125:22 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 1 Registration under the new Act - Abrievated Graph Key: D23"@en-AU ;
+    skos:definition "Division 1 Registration under the new Act"@en-AU ;
+    skos:narrower C2006A00125:22 ;
+    skos:prefLabel "Division D23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624928> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624928"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:24 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D24 Division 2 Classification of transitional corporations"@en-AU ;
+    dct:isPartOf C2006A00125:22 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 2 Classification of transitional corporations - Abrievated Graph Key: D24"@en-AU ;
+    skos:definition "Division 2 Classification of transitional corporations"@en-AU ;
+    skos:narrower C2006A00125:22 ;
+    skos:prefLabel "Division D24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624929> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624929"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:25 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D25 Division 3 First constitution"@en-AU ;
+    dct:isPartOf C2006A00125:22 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 3 First constitution - Abrievated Graph Key: D25"@en-AU ;
+    skos:definition "Division 3 First constitution"@en-AU ;
+    skos:narrower C2006A00125:22 ;
+    skos:prefLabel "Division D25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624930> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624930"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:26 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D26 Division 4 Other effects of registration"@en-AU ;
+    dct:isPartOf C2006A00125:22 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 4 Other effects of registration - Abrievated Graph Key: D26"@en-AU ;
+    skos:definition "Division 4 Other effects of registration"@en-AU ;
+    skos:narrower C2006A00125:22 ;
+    skos:prefLabel "Division D26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624931> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624931"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:27 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D27 Division 5 Members and observers"@en-AU ;
+    dct:isPartOf C2006A00125:22 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 5 Members and observers - Abrievated Graph Key: D27"@en-AU ;
+    skos:definition "Division 5 Members and observers"@en-AU ;
+    skos:narrower C2006A00125:22 ;
+    skos:prefLabel "Division D27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624932> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624932"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:28 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D28 Division 6 Directors"@en-AU ;
+    dct:isPartOf C2006A00125:22 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 6 Directors - Abrievated Graph Key: D28"@en-AU ;
+    skos:definition "Division 6 Directors"@en-AU ;
+    skos:narrower C2006A00125:22 ;
+    skos:prefLabel "Division D28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624933> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624933"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:29 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D29 Division 7 Meetings"@en-AU ;
+    dct:isPartOf C2006A00125:22 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 7 Meetings - Abrievated Graph Key: D29"@en-AU ;
+    skos:definition "Division 7 Meetings"@en-AU ;
+    skos:narrower C2006A00125:22 ;
+    skos:prefLabel "Division D29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624934> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624934"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:30 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D30 Division 8 Related party benefits"@en-AU ;
+    dct:isPartOf C2006A00125:22 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 8 Related party benefits - Abrievated Graph Key: D30"@en-AU ;
+    skos:definition "Division 8 Related party benefits"@en-AU ;
+    skos:narrower C2006A00125:22 ;
+    skos:prefLabel "Division D30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624935> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624935"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:31 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D31 Division 9 Record keeping"@en-AU ;
+    dct:isPartOf C2006A00125:22 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 9 Record keeping - Abrievated Graph Key: D31"@en-AU ;
+    skos:definition "Division 9 Record keeping"@en-AU ;
+    skos:narrower C2006A00125:22 ;
+    skos:prefLabel "Division D31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624936> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624936"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:32 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D32 Division 10 Reporting for financial year ending on 30 June 2007"@en-AU ;
+    dct:isPartOf C2006A00125:22 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 10 Reporting for financial year ending on 30 June 2007 - Abrievated Graph Key: D32"@en-AU ;
+    skos:definition "Division 10 Reporting for financial year ending on 30 June 2007"@en-AU ;
+    skos:narrower C2006A00125:22 ;
+    skos:prefLabel "Division D32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624937> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624937"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:33 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D33 Division 11 Reporting for financial year ending on 30 June 2008"@en-AU ;
+    dct:isPartOf C2006A00125:22 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 11 Reporting for financial year ending on 30 June 2008 - Abrievated Graph Key: D33"@en-AU ;
+    skos:definition "Division 11 Reporting for financial year ending on 30 June 2008"@en-AU ;
+    skos:narrower C2006A00125:22 ;
+    skos:prefLabel "Division D33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624938> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624938"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:34 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D34 Division 12 Reporting exemptions"@en-AU ;
+    dct:isPartOf C2006A00125:22 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 12 Reporting exemptions - Abrievated Graph Key: D34"@en-AU ;
+    skos:definition "Division 12 Reporting exemptions"@en-AU ;
+    skos:narrower C2006A00125:22 ;
+    skos:prefLabel "Division D34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624939> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624939"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:35 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D35 Division 13 Enforcement"@en-AU ;
+    dct:isPartOf C2006A00125:22 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 13 Enforcement - Abrievated Graph Key: D35"@en-AU ;
+    skos:definition "Division 13 Enforcement"@en-AU ;
+    skos:narrower C2006A00125:22 ;
+    skos:prefLabel "Division D35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624940> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624940"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:36 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D36 Division 14 Special administration"@en-AU ;
+    dct:isPartOf C2006A00125:22 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 14 Special administration - Abrievated Graph Key: D36"@en-AU ;
+    skos:definition "Division 14 Special administration"@en-AU ;
+    skos:narrower C2006A00125:22 ;
+    skos:prefLabel "Division D36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624941> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624941"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:37 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D37 Division 15 Winding up"@en-AU ;
+    dct:isPartOf C2006A00125:22 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 15 Winding up - Abrievated Graph Key: D37"@en-AU ;
+    skos:definition "Division 15 Winding up"@en-AU ;
+    skos:narrower C2006A00125:22 ;
+    skos:prefLabel "Division D37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624942> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624942"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:39 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D39 Division 1 Applications for incorporation"@en-AU ;
+    dct:isPartOf C2006A00125:38 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 1 Applications for incorporation - Abrievated Graph Key: D39"@en-AU ;
+    skos:definition "Division 1 Applications for incorporation"@en-AU ;
+    skos:narrower C2006A00125:38 ;
+    skos:prefLabel "Division D39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624944> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624944"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:40 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D40 Division 2 Application for name change"@en-AU ;
+    dct:isPartOf C2006A00125:38 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 2 Application for name change - Abrievated Graph Key: D40"@en-AU ;
+    skos:definition "Division 2 Application for name change"@en-AU ;
+    skos:narrower C2006A00125:38 ;
+    skos:prefLabel "Division D40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624945> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624945"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:41 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D41 Division 3 Changes to constitution"@en-AU ;
+    dct:isPartOf C2006A00125:38 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 3 Changes to constitution - Abrievated Graph Key: D41"@en-AU ;
+    skos:definition "Division 3 Changes to constitution"@en-AU ;
+    skos:narrower C2006A00125:38 ;
+    skos:prefLabel "Division D41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624946> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624946"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:42 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D42 Division 4 Meetings called before commencement"@en-AU ;
+    dct:isPartOf C2006A00125:38 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 4 Meetings called before commencement - Abrievated Graph Key: D42"@en-AU ;
+    skos:definition "Division 4 Meetings called before commencement"@en-AU ;
+    skos:narrower C2006A00125:38 ;
+    skos:prefLabel "Division D42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624947> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624947"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:43 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D43 Division 5 Compliance and enforcement steps"@en-AU ;
+    dct:isPartOf C2006A00125:38 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 5 Compliance and enforcement steps - Abrievated Graph Key: D43"@en-AU ;
+    skos:definition "Division 5 Compliance and enforcement steps"@en-AU ;
+    skos:narrower C2006A00125:38 ;
+    skos:prefLabel "Division D43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624948> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624948"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:44 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D44 Division 6 Administrations"@en-AU ;
+    dct:isPartOf C2006A00125:38 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 6 Administrations - Abrievated Graph Key: D44"@en-AU ;
+    skos:definition "Division 6 Administrations"@en-AU ;
+    skos:narrower C2006A00125:38 ;
+    skos:prefLabel "Division D44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624949> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624949"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:45 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D45 Division 7 Corporations Act administrations"@en-AU ;
+    dct:isPartOf C2006A00125:38 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 7 Corporations Act administrations - Abrievated Graph Key: D45"@en-AU ;
+    skos:definition "Division 7 Corporations Act administrations"@en-AU ;
+    skos:narrower C2006A00125:38 ;
+    skos:prefLabel "Division D45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624950> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624950"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:46 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D46 Division 8 Windings up"@en-AU ;
+    dct:isPartOf C2006A00125:38 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 8 Windings up - Abrievated Graph Key: D46"@en-AU ;
+    skos:definition "Division 8 Windings up"@en-AU ;
+    skos:narrower C2006A00125:38 ;
+    skos:prefLabel "Division D46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624951> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624951"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:47 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D47 Division 9 Deregistration and reinstatement"@en-AU ;
+    dct:isPartOf C2006A00125:38 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 9 Deregistration and reinstatement - Abrievated Graph Key: D47"@en-AU ;
+    skos:definition "Division 9 Deregistration and reinstatement"@en-AU ;
+    skos:narrower C2006A00125:38 ;
+    skos:prefLabel "Division D47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624952> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624952"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:49 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D49 Division 1 Compliance and enforcement"@en-AU ;
+    dct:isPartOf C2006A00125:48 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 1 Compliance and enforcement - Abrievated Graph Key: D49"@en-AU ;
+    skos:definition "Division 1 Compliance and enforcement"@en-AU ;
+    skos:narrower C2006A00125:48 ;
+    skos:prefLabel "Division D49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624954> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624954"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Native Title Act 1993"@en-AU ;
+    dct:isPartOf C2006A00125:4 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Native Title Act 1993 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Native Title Act 1993"@en-AU ;
+    skos:narrower C2006A00125:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624910> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624910"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00125:50 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D50 Division 2 The Registrar"@en-AU ;
+    dct:isPartOf C2006A00125:48 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 2 The Registrar - Abrievated Graph Key: D50"@en-AU ;
+    skos:definition "Division 2 The Registrar"@en-AU ;
+    skos:narrower C2006A00125:48 ;
+    skos:prefLabel "Division D50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624955> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624955"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:51 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D51 Division 3 Other administrative matters"@en-AU ;
+    dct:isPartOf C2006A00125:48 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Division 3 Other administrative matters - Abrievated Graph Key: D51"@en-AU ;
+    skos:definition "Division 3 Other administrative matters"@en-AU ;
+    skos:narrower C2006A00125:48 ;
+    skos:prefLabel "Division D51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624956> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624956"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00125:52 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I52 Notes to the   STYLEREF ShortT  MERGEFORMAT  Corporations Aboriginal and Torres Strait Islander Consequential Transitional and Other Measures Act 2006"@en-AU ;
+    dct:isPartOf C2006A00125:3 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Notes to the   STYLEREF ShortT  MERGEFORMAT  Corporations Aboriginal and Torres Strait Islander Consequential Transitional and Other Measures Act 2006 - Abrievated Graph Key: I52"@en-AU ;
+    skos:definition "Notes to the   STYLEREF ShortT  MERGEFORMAT  Corporations Aboriginal and Torres Strait Islander Consequential Transitional and Other Measures Act 2006"@en-AU ;
+    skos:narrower C2006A00125:3 ;
+    skos:prefLabel "Item I52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624957> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624957"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00125:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Aboriginal Councils and Associations Act 1976"@en-AU ;
+    dct:isPartOf C2006A00125:7 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Aboriginal Councils and Associations Act 1976 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Aboriginal Councils and Associations Act 1976"@en-AU ;
+    skos:narrower C2006A00125:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624913> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624913"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00125:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendment of the Native Title Act 1993"@en-AU ;
+    dct:hasPart C2006A00125:5 ;
+    dct:isPartOf C2006A00125:3 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Schedule 1 Amendment of the Native Title Act 1993 - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2006A00125:5 ;
+    skos:definition "Schedule 1 Amendment of the Native Title Act 1993"@en-AU ;
+    skos:narrower C2006A00125:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624909> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624909"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00125:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 1 Repeal"@en-AU ;
+    dct:hasPart C2006A00125:8 ;
+    dct:isPartOf C2006A00125:6 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Part 1 Repeal - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader C2006A00125:8 ;
+    skos:definition "Part 1 Repeal"@en-AU ;
+    skos:narrower C2006A00125:6 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624912> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624912"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00125:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Repeal and amendment of other Acts"@en-AU ;
+    dct:hasPart C2006A00125:7,
+        C2006A00125:9 ;
+    dct:isPartOf C2006A00125:3 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Schedule 2 Repeal and amendment of other Acts - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2006A00125:7,
+        C2006A00125:9 ;
+    skos:definition "Schedule 2 Repeal and amendment of other Acts"@en-AU ;
+    skos:narrower C2006A00125:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624911> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624911"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00125:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2006A00125:20,
+        C2006A00125:4,
+        C2006A00125:52,
+        C2006A00125:6 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2006A00125:20,
+        C2006A00125:4,
+        C2006A00125:52,
+        C2006A00125:6 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624908> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624908"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00125:48 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P48 Part 4 Administrative matters compliance and enforcement"@en-AU ;
+    dct:hasPart C2006A00125:49,
+        C2006A00125:50,
+        C2006A00125:51 ;
+    dct:isPartOf C2006A00125:20 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Part 4 Administrative matters compliance and enforcement - Abrievated Graph Key: P48"@en-AU ;
+    skos:broader C2006A00125:49,
+        C2006A00125:50,
+        C2006A00125:51 ;
+    skos:definition "Part 4 Administrative matters compliance and enforcement"@en-AU ;
+    skos:narrower C2006A00125:20 ;
+    skos:prefLabel "Part P48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624953> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624953"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00125:20 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S20 Schedule 3 Transitional provisions"@en-AU ;
+    dct:hasPart C2006A00125:21,
+        C2006A00125:22,
+        C2006A00125:38,
+        C2006A00125:48 ;
+    dct:isPartOf C2006A00125:3 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Schedule 3 Transitional provisions - Abrievated Graph Key: S20"@en-AU ;
+    skos:broader C2006A00125:21,
+        C2006A00125:22,
+        C2006A00125:38,
+        C2006A00125:48 ;
+    skos:definition "Schedule 3 Transitional provisions"@en-AU ;
+    skos:narrower C2006A00125:3 ;
+    skos:prefLabel "Schedule S20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624925> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624925"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00125:38 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P38 Part 3 Matters pending under old Act immediately before commencement"@en-AU ;
+    dct:hasPart C2006A00125:39,
+        C2006A00125:40,
+        C2006A00125:41,
+        C2006A00125:42,
+        C2006A00125:43,
+        C2006A00125:44,
+        C2006A00125:45,
+        C2006A00125:46,
+        C2006A00125:47 ;
+    dct:isPartOf C2006A00125:20 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Part 3 Matters pending under old Act immediately before commencement - Abrievated Graph Key: P38"@en-AU ;
+    skos:broader C2006A00125:39,
+        C2006A00125:40,
+        C2006A00125:41,
+        C2006A00125:42,
+        C2006A00125:43,
+        C2006A00125:44,
+        C2006A00125:45,
+        C2006A00125:46,
+        C2006A00125:47 ;
+    skos:definition "Part 3 Matters pending under old Act immediately before commencement"@en-AU ;
+    skos:narrower C2006A00125:20 ;
+    skos:prefLabel "Part P38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624943> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624943"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00125:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 2 Amendment of Acts"@en-AU ;
+    dct:hasPart C2006A00125:10,
+        C2006A00125:11,
+        C2006A00125:12,
+        C2006A00125:13,
+        C2006A00125:14,
+        C2006A00125:15,
+        C2006A00125:16,
+        C2006A00125:17,
+        C2006A00125:18,
+        C2006A00125:19 ;
+    dct:isPartOf C2006A00125:6 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Part 2 Amendment of Acts - Abrievated Graph Key: P9"@en-AU ;
+    skos:broader C2006A00125:10,
+        C2006A00125:11,
+        C2006A00125:12,
+        C2006A00125:13,
+        C2006A00125:14,
+        C2006A00125:15,
+        C2006A00125:16,
+        C2006A00125:17,
+        C2006A00125:18,
+        C2006A00125:19 ;
+    skos:definition "Part 2 Amendment of Acts"@en-AU ;
+    skos:narrower C2006A00125:6 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624914> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624914"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00125:22 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P22 Part 2 Bringing transitional corporations across to new system"@en-AU ;
+    dct:hasPart C2006A00125:23,
+        C2006A00125:24,
+        C2006A00125:25,
+        C2006A00125:26,
+        C2006A00125:27,
+        C2006A00125:28,
+        C2006A00125:29,
+        C2006A00125:30,
+        C2006A00125:31,
+        C2006A00125:32,
+        C2006A00125:33,
+        C2006A00125:34,
+        C2006A00125:35,
+        C2006A00125:36,
+        C2006A00125:37 ;
+    dct:isPartOf C2006A00125:20 ;
+    dct:isReferencedBy C2006A00125: ;
+    rdfs:comment "Part 2 Bringing transitional corporations across to new system - Abrievated Graph Key: P22"@en-AU ;
+    skos:broader C2006A00125:23,
+        C2006A00125:24,
+        C2006A00125:25,
+        C2006A00125:26,
+        C2006A00125:27,
+        C2006A00125:28,
+        C2006A00125:29,
+        C2006A00125:30,
+        C2006A00125:31,
+        C2006A00125:32,
+        C2006A00125:33,
+        C2006A00125:34,
+        C2006A00125:35,
+        C2006A00125:36,
+        C2006A00125:37 ;
+    skos:definition "Part 2 Bringing transitional corporations across to new system"@en-AU ;
+    skos:narrower C2006A00125:20 ;
+    skos:prefLabel "Part P22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624927> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00125/2010-03-01/2010-03-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc257624927"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00125: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Corporations (Aboriginal and Torres Strait Islander) Consequential, Transitional and Other Measures Act 2006" ;
+    dct:Jurisdiction " Department of the Prime Minister and Cabinet "@en-AU ;
+    dct:created "2026-05-27T17:47:51.583075"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2010-03-01T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Corporations (Aboriginal and Torres Strait Islander) Consequential, Transitional and Other Measures Act 2006"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2006A00125/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Corporations (Aboriginal and Torres Strait Islander) Consequential, Transitional and Other Measures Act 2006"@en-AU ;
+    dct:title "Corporations (Aboriginal and Torres Strait Islander) Consequential, Transitional and Other Measures Act 2006"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2010C00237 C01" .
+

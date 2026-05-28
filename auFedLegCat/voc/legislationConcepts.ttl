@@ -30,8 +30,8 @@
         sdo:identifier <https://orcid.org/0009-0007-8434-7325> ;
         sdo:email <seewodg@gmail.com> ;
         sdo:affiliation [
-        sdo:name "United Nations Transparency Protocol" ;
-        sdo:url <https://uncefact.github.io/spec-untp/> ;
+        sdo:name "Australian Legislation Concepts" ;
+        sdo:url <https://github.com/seewodg/> ;
         ] ;
     ] ;
 .
@@ -131,7 +131,7 @@
 :Item
     a owl:NamedIndividual , skos:Concept , prof:ResourceRole ;
     skos:inScheme : ;
-    skos:prefLabel "Items"@en ;
+    skos:prefLabel "Item"@en ;
     rdfs:label "Item"@en     ;
     skos:definition "The Item component of a regulation/statute."@en ;
     skos:isTopConceptOf  : , :ToC , :Volume , :Part , :Endnotes , :Chapter , :Division , :Subdivision , :Schedule , :Section ;

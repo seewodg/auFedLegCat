@@ -1,0 +1,101 @@
+@prefix F2022L00044: <http://example.org/au/leg/dataset/F2022L00044/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2022L00044:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Name"@en-AU ;
+    dct:isReferencedBy F2022L00044: ;
+    rdfs:comment "1  Name - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Name"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2022L00044/asmade/2022-01-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc90550039> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2022L00044/asmade/2022-01-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc90550039"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2022L00044:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy F2022L00044: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2022L00044/asmade/2022-01-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc90550040> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2022L00044/asmade/2022-01-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc90550040"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2022L00044:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Authority"@en-AU ;
+    dct:isReferencedBy F2022L00044: ;
+    rdfs:comment "3  Authority - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "3  Authority"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2022L00044/asmade/2022-01-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc90550041> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2022L00044/asmade/2022-01-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc90550041"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2022L00044:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 4  Definitions"@en-AU ;
+    dct:isReferencedBy F2022L00044: ;
+    rdfs:comment "4  Definitions - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "4  Definitions"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2022L00044/asmade/2022-01-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc90550042> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2022L00044/asmade/2022-01-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc90550042"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2022L00044:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 5  Prescribed program"@en-AU ;
+    dct:isReferencedBy F2022L00044: ;
+    rdfs:comment "5  Prescribed program - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "5  Prescribed program"@en-AU ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2022L00044/asmade/2022-01-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc90550043> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2022L00044/asmade/2022-01-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc90550043"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2022L00044:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 6  Specified legislative power"@en-AU ;
+    dct:isReferencedBy F2022L00044: ;
+    rdfs:comment "6  Specified legislative power - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "6  Specified legislative power"@en-AU ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2022L00044/asmade/2022-01-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc90550044> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2022L00044/asmade/2022-01-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc90550044"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2022L00044: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Industry Research and Development (Consumer Data Right—AEMO Concessional Loan Program) Instrument 2022" ;
+    dct:Jurisdiction " Department of Industry, Science and Resources "@en-AU ;
+    dct:created "2026-05-27T17:47:04.839040"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2022-01-19T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Industry Research and Development (Consumer Data Right—AEMO Concessional Loan Program) Instrument 2022"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2022L00044/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Industry Research and Development (Consumer Data Right—AEMO Concessional Loan Program) Instrument 2022"@en-AU ;
+    dct:title "Industry Research and Development (Consumer Data Right—AEMO Concessional Loan Program) Instrument 2022"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item ;
+    schema:status "In force" ;
+    schema:version "F2022L00044" .
+

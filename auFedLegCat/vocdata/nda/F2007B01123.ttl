@@ -1,0 +1,695 @@
+@prefix F2007B01123: <http://example.org/au/leg/dataset/F2007B01123/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2007B01123:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 Introductory Note"@en-AU ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "Introductory Note - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "Introductory Note"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958400> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958400"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 6	National environment protection goals"@en-AU ;
+    dct:isPartOf F2007B01123:8 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "6	National environment protection goals - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "6	National environment protection goals"@en-AU ;
+    skos:narrower F2007B01123:8 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958409> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958409"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 7	Establishment of National Pollutant Inventory"@en-AU ;
+    dct:isPartOf F2007B01123:8 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "7	Establishment of National Pollutant Inventory - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "7	Establishment of National Pollutant Inventory"@en-AU ;
+    skos:narrower F2007B01123:8 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958410> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958410"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 8	Nature of National Pollutant Inventory"@en-AU ;
+    dct:isPartOf F2007B01123:8 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "8	Nature of National Pollutant Inventory - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "8	Nature of National Pollutant Inventory"@en-AU ;
+    skos:narrower F2007B01123:8 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958411> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958411"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 9	Collection of data from reporting facilities"@en-AU ;
+    dct:isPartOf F2007B01123:13 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "9	Collection of data from reporting facilities - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "9	Collection of data from reporting facilities"@en-AU ;
+    skos:narrower F2007B01123:13 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958413> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958413"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 10	Reporting threshold  category 1 category 1 a and category 1 b substances"@en-AU ;
+    dct:isPartOf F2007B01123:13 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "10	Reporting threshold  category 1 category 1 a and category 1 b substances - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "10	Reporting threshold  category 1 category 1 a and category 1 b substances"@en-AU ;
+    skos:narrower F2007B01123:13 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958414> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958414"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 11	Reporting threshold  category 2 a and category 2 b substances"@en-AU ;
+    dct:isPartOf F2007B01123:13 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "11	Reporting threshold  category 2 a and category 2 b substances - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "11	Reporting threshold  category 2 a and category 2 b substances"@en-AU ;
+    skos:narrower F2007B01123:13 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958415> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958415"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 12	Reporting threshold  category 3 substances"@en-AU ;
+    dct:isPartOf F2007B01123:13 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "12	Reporting threshold  category 3 substances - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "12	Reporting threshold  category 3 substances"@en-AU ;
+    skos:narrower F2007B01123:13 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958416> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958416"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 14	Commencement of reporting"@en-AU ;
+    dct:isPartOf F2007B01123:13 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "14	Commencement of reporting - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "14	Commencement of reporting"@en-AU ;
+    skos:narrower F2007B01123:13 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958417> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958417"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 15	Emission and transfer estimation techniques"@en-AU ;
+    dct:isPartOf F2007B01123:13 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "15	Emission and transfer estimation techniques - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "15	Emission and transfer estimation techniques"@en-AU ;
+    skos:narrower F2007B01123:13 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958418> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958418"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 16	Accuracy of information"@en-AU ;
+    dct:isPartOf F2007B01123:13 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "16	Accuracy of information - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "16	Accuracy of information"@en-AU ;
+    skos:narrower F2007B01123:13 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958419> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958419"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 17	Assessment of integrity of data"@en-AU ;
+    dct:isPartOf F2007B01123:13 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "17	Assessment of integrity of data - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "17	Assessment of integrity of data"@en-AU ;
+    skos:narrower F2007B01123:13 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958420> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958420"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 18	Data  Commonwealth requirement"@en-AU ;
+    dct:isPartOf F2007B01123:13 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "18	Data  Commonwealth requirement - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "18	Data  Commonwealth requirement"@en-AU ;
+    skos:narrower F2007B01123:13 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958421> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958421"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 19	Information from reporting facilities supplied to the Commonwealth"@en-AU ;
+    dct:isPartOf F2007B01123:13 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "19	Information from reporting facilities supplied to the Commonwealth - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "19	Information from reporting facilities supplied to the Commonwealth"@en-AU ;
+    skos:narrower F2007B01123:13 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958422> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958422"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 20	Emission and transfer data from sources other than reporting facilities"@en-AU ;
+    dct:isPartOf F2007B01123:13 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "20	Emission and transfer data from sources other than reporting facilities - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "20	Emission and transfer data from sources other than reporting facilities"@en-AU ;
+    skos:narrower F2007B01123:13 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958423> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958423"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 21	Additional information supplied to the Commonwealth"@en-AU ;
+    dct:isPartOf F2007B01123:13 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "21	Additional information supplied to the Commonwealth - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "21	Additional information supplied to the Commonwealth"@en-AU ;
+    skos:narrower F2007B01123:13 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958424> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958424"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 22	Amending the reporting list"@en-AU ;
+    dct:isPartOf F2007B01123:26 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "22	Amending the reporting list - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "22	Amending the reporting list"@en-AU ;
+    skos:narrower F2007B01123:26 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958426> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958426"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 23	Confidentiality  national security"@en-AU ;
+    dct:isPartOf F2007B01123:26 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "23	Confidentiality  national security - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "23	Confidentiality  national security"@en-AU ;
+    skos:narrower F2007B01123:26 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958427> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958427"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 24	Commercial confidentiality"@en-AU ;
+    dct:isPartOf F2007B01123:26 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "24	Commercial confidentiality - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "24	Commercial confidentiality"@en-AU ;
+    skos:narrower F2007B01123:26 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958428> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958428"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 1	Name of Measure"@en-AU ;
+    dct:isPartOf F2007B01123:2 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "1	Name of Measure - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "1	Name of Measure"@en-AU ;
+    skos:narrower F2007B01123:2 ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958402> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958402"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 25	Enforcement provisions"@en-AU ;
+    dct:isPartOf F2007B01123:26 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "25	Enforcement provisions - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "25	Enforcement provisions"@en-AU ;
+    skos:narrower F2007B01123:26 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958429> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958429"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 26	Legal status of data supplied to the National Pollutant Inventory"@en-AU ;
+    dct:isPartOf F2007B01123:26 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "26	Legal status of data supplied to the National Pollutant Inventory - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "26	Legal status of data supplied to the National Pollutant Inventory"@en-AU ;
+    skos:narrower F2007B01123:26 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958430> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958430"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 27	Security of data"@en-AU ;
+    dct:isPartOf F2007B01123:26 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "27	Security of data - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "27	Security of data"@en-AU ;
+    skos:narrower F2007B01123:26 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958431> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958431"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 28	Storage information"@en-AU ;
+    dct:isPartOf F2007B01123:26 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "28	Storage information - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "28	Storage information"@en-AU ;
+    skos:narrower F2007B01123:26 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958432> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958432"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 29	Access and provision of National Pollutant Inventory data to the public"@en-AU ;
+    dct:isPartOf F2007B01123:26 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "29	Access and provision of National Pollutant Inventory data to the public - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "29	Access and provision of National Pollutant Inventory data to the public"@en-AU ;
+    skos:narrower F2007B01123:26 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958433> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958433"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 30	Summary of information to be included in annual report"@en-AU ;
+    dct:isPartOf F2007B01123:26 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "30	Summary of information to be included in annual report - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "30	Summary of information to be included in annual report"@en-AU ;
+    skos:narrower F2007B01123:26 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958434> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958434"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 31	Way that Commonwealth will disseminate information"@en-AU ;
+    dct:isPartOf F2007B01123:26 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "31	Way that Commonwealth will disseminate information - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "31	Way that Commonwealth will disseminate information"@en-AU ;
+    skos:narrower F2007B01123:26 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958435> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958435"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 32	Rights of third parties"@en-AU ;
+    dct:isPartOf F2007B01123:26 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "32	Rights of third parties - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "32	Rights of third parties"@en-AU ;
+    skos:narrower F2007B01123:26 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958436> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958436"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 33	Review of this Measure"@en-AU ;
+    dct:isPartOf F2007B01123:26 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "33	Review of this Measure - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "33	Review of this Measure"@en-AU ;
+    skos:narrower F2007B01123:26 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958437> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958437"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 2	Commencement"@en-AU ;
+    dct:isPartOf F2007B01123:2 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "2	Commencement - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "2	Commencement"@en-AU ;
+    skos:narrower F2007B01123:2 ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958403> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958403"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 Table 1"@en-AU ;
+    dct:isPartOf F2007B01123:39 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "Table 1 - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "Table 1"@en-AU ;
+    skos:narrower F2007B01123:39 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958439> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958439"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 Notes to the   REF Citation charformat  MERGEFORMAT  National Environment Protection National Pollutant Inventory Measure 1998"@en-AU ;
+    dct:isPartOf F2007B01123:39 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "Notes to the   REF Citation charformat  MERGEFORMAT  National Environment Protection National Pollutant Inventory Measure 1998 - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "Notes to the   REF Citation charformat  MERGEFORMAT  National Environment Protection National Pollutant Inventory Measure 1998"@en-AU ;
+    skos:narrower F2007B01123:39 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958440> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958440"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 Table of Instruments"@en-AU ;
+    dct:isPartOf F2007B01123:39 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "Table of Instruments - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "Table of Instruments"@en-AU ;
+    skos:narrower F2007B01123:39 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958441> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958441"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:43 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I43 Table of Amendments"@en-AU ;
+    dct:isPartOf F2007B01123:39 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "Table of Amendments - Abrievated Graph Key: I43"@en-AU ;
+    skos:definition "Table of Amendments"@en-AU ;
+    skos:narrower F2007B01123:39 ;
+    skos:prefLabel "Item I43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958442> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958442"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 3	Definitions"@en-AU ;
+    dct:isPartOf F2007B01123:2 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "3	Definitions - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "3	Definitions"@en-AU ;
+    skos:narrower F2007B01123:2 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958404> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958404"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 3 a	Meaning of operational control"@en-AU ;
+    dct:isPartOf F2007B01123:2 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "3 a	Meaning of operational control - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "3 a	Meaning of operational control"@en-AU ;
+    skos:narrower F2007B01123:2 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958405> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958405"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 4	Meaning of reporting period"@en-AU ;
+    dct:isPartOf F2007B01123:2 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "4	Meaning of reporting period - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "4	Meaning of reporting period"@en-AU ;
+    skos:narrower F2007B01123:2 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958406> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958406"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 5	Desired environmental outcomes"@en-AU ;
+    dct:isPartOf F2007B01123:8 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "5	Desired environmental outcomes - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "5	Desired environmental outcomes"@en-AU ;
+    skos:narrower F2007B01123:8 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958408> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958408"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B01123:39 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S39 Schedule A"@en-AU ;
+    dct:hasPart F2007B01123:40,
+        F2007B01123:41,
+        F2007B01123:42,
+        F2007B01123:43 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "Schedule A - Abrievated Graph Key: S39"@en-AU ;
+    skos:broader F2007B01123:40,
+        F2007B01123:41,
+        F2007B01123:42,
+        F2007B01123:43 ;
+    skos:definition "Schedule A"@en-AU ;
+    skos:prefLabel "Schedule S39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958438> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958438"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F2007B01123:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 2	National Environment Protection Goals"@en-AU ;
+    dct:hasPart F2007B01123:10,
+        F2007B01123:11,
+        F2007B01123:12,
+        F2007B01123:9 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "Part 2	National Environment Protection Goals - Abrievated Graph Key: P8"@en-AU ;
+    skos:broader F2007B01123:10,
+        F2007B01123:11,
+        F2007B01123:12,
+        F2007B01123:9 ;
+    skos:definition "Part 2	National Environment Protection Goals"@en-AU ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958407> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958407"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B01123:2 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P2 Part 1	Preliminary"@en-AU ;
+    dct:hasPart F2007B01123:3,
+        F2007B01123:4,
+        F2007B01123:5,
+        F2007B01123:6,
+        F2007B01123:7 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "Part 1	Preliminary - Abrievated Graph Key: P2"@en-AU ;
+    skos:broader F2007B01123:3,
+        F2007B01123:4,
+        F2007B01123:5,
+        F2007B01123:6,
+        F2007B01123:7 ;
+    skos:definition "Part 1	Preliminary"@en-AU ;
+    skos:prefLabel "Part P2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958401> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958401"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B01123:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 3	National environment protection protocols"@en-AU ;
+    dct:hasPart F2007B01123:14,
+        F2007B01123:15,
+        F2007B01123:16,
+        F2007B01123:17,
+        F2007B01123:18,
+        F2007B01123:19,
+        F2007B01123:20,
+        F2007B01123:21,
+        F2007B01123:22,
+        F2007B01123:23,
+        F2007B01123:24,
+        F2007B01123:25 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "Part 3	National environment protection protocols - Abrievated Graph Key: P13"@en-AU ;
+    skos:broader F2007B01123:14,
+        F2007B01123:15,
+        F2007B01123:16,
+        F2007B01123:17,
+        F2007B01123:18,
+        F2007B01123:19,
+        F2007B01123:20,
+        F2007B01123:21,
+        F2007B01123:22,
+        F2007B01123:23,
+        F2007B01123:24,
+        F2007B01123:25 ;
+    skos:definition "Part 3	National environment protection protocols"@en-AU ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958412> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958412"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B01123:26 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P26 Part 4	National Environment Protection Guidelines"@en-AU ;
+    dct:hasPart F2007B01123:27,
+        F2007B01123:28,
+        F2007B01123:29,
+        F2007B01123:30,
+        F2007B01123:31,
+        F2007B01123:32,
+        F2007B01123:33,
+        F2007B01123:34,
+        F2007B01123:35,
+        F2007B01123:36,
+        F2007B01123:37,
+        F2007B01123:38 ;
+    dct:isReferencedBy F2007B01123: ;
+    rdfs:comment "Part 4	National Environment Protection Guidelines - Abrievated Graph Key: P26"@en-AU ;
+    skos:broader F2007B01123:27,
+        F2007B01123:28,
+        F2007B01123:29,
+        F2007B01123:30,
+        F2007B01123:31,
+        F2007B01123:32,
+        F2007B01123:33,
+        F2007B01123:34,
+        F2007B01123:35,
+        F2007B01123:36,
+        F2007B01123:37,
+        F2007B01123:38 ;
+    skos:definition "Part 4	National Environment Protection Guidelines"@en-AU ;
+    skos:prefLabel "Part P26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958425> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B01123/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc214958425"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B01123: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "National Environment Protection (National Pollutant Inventory) Measure 1998" ;
+    dct:Jurisdiction " Department of Climate Change, Energy, the Environment and Water "@en-AU ;
+    dct:created "2026-05-27T18:03:38.046916"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2008-11-26T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "National Environment Protection (National Pollutant Inventory) Measure 1998"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2007B01123/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "National Environment Protection (National Pollutant Inventory) Measure 1998"@en-AU ;
+    dct:title "National Environment Protection (National Pollutant Inventory) Measure 1998"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "F2008C00620" .
+

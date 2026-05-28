@@ -1,0 +1,612 @@
+@prefix C2008A00115: <http://example.org/au/leg/dataset/C2008A00115/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2008A00115:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341660> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341660"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00115:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341661> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341661"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00115:10 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D10 Division 3 De facto relationships linked to earlier participating jurisdictions"@en-AU ;
+    dct:isPartOf C2008A00115:7 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Division 3 De facto relationships linked to earlier participating jurisdictions - Abrievated Graph Key: D10"@en-AU ;
+    skos:definition "Division 3 De facto relationships linked to earlier participating jurisdictions"@en-AU ;
+    skos:narrower C2008A00115:7 ;
+    skos:prefLabel "Division D10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341746> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341746"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2008A00115:11 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D11 Division 4 De facto relationships linked to later participating jurisdictions"@en-AU ;
+    dct:isPartOf C2008A00115:7 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Division 4 De facto relationships linked to later participating jurisdictions - Abrievated Graph Key: D11"@en-AU ;
+    skos:definition "Division 4 De facto relationships linked to later participating jurisdictions"@en-AU ;
+    skos:narrower C2008A00115:7 ;
+    skos:prefLabel "Division D11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341747> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341747"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2008A00115:12 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D12 Division 5 Application of new Act to transitioning agreements"@en-AU ;
+    dct:isPartOf C2008A00115:7 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Division 5 Application of new Act to transitioning agreements - Abrievated Graph Key: D12"@en-AU ;
+    skos:definition "Division 5 Application of new Act to transitioning agreements"@en-AU ;
+    skos:narrower C2008A00115:7 ;
+    skos:prefLabel "Division D12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341748> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341748"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2008A00115:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 A New Tax System Family Assistance Act 1999"@en-AU ;
+    dct:isPartOf C2008A00115:13 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "A New Tax System Family Assistance Act 1999 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Act 1999"@en-AU ;
+    skos:narrower C2008A00115:13 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341750> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341750"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00115:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Bankruptcy Act 1966"@en-AU ;
+    dct:isPartOf C2008A00115:13 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Bankruptcy Act 1966 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Bankruptcy Act 1966"@en-AU ;
+    skos:narrower C2008A00115:13 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341751> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341751"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00115:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Child Support Assessment Act 1989"@en-AU ;
+    dct:isPartOf C2008A00115:13 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Child Support Assessment Act 1989 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Child Support Assessment Act 1989"@en-AU ;
+    skos:narrower C2008A00115:13 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341752> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341752"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00115:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Child Support Registration and Collection Act 1988"@en-AU ;
+    dct:isPartOf C2008A00115:13 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Child Support Registration and Collection Act 1988 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Child Support Registration and Collection Act 1988"@en-AU ;
+    skos:narrower C2008A00115:13 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341753> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341753"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00115:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Federal Magistrates Act 1999"@en-AU ;
+    dct:isPartOf C2008A00115:13 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Federal Magistrates Act 1999 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Federal Magistrates Act 1999"@en-AU ;
+    skos:narrower C2008A00115:13 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341754> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341754"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00115:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 First Home Saver Accounts Act 2008"@en-AU ;
+    dct:isPartOf C2008A00115:13 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "First Home Saver Accounts Act 2008 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "First Home Saver Accounts Act 2008"@en-AU ;
+    skos:narrower C2008A00115:13 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341755> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341755"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00115:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2008A00115:13 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2008A00115:13 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341756> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341756"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00115:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Proceeds of Crime Act 2002"@en-AU ;
+    dct:isPartOf C2008A00115:13 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Proceeds of Crime Act 2002 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Proceeds of Crime Act 2002"@en-AU ;
+    skos:narrower C2008A00115:13 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341757> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341757"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00115:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2008A00115:13 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2008A00115:13 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341758> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341758"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00115:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Veterans Entitlements Act 1986"@en-AU ;
+    dct:isPartOf C2008A00115:13 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Veterans Entitlements Act 1986 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Veterans Entitlements Act 1986"@en-AU ;
+    skos:narrower C2008A00115:13 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341759> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341759"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00115:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2008A00115:25 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2008A00115:25 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341762> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341762"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00115:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2008A00115:27 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2008A00115:27 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341765> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341765"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00115:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2008A00115:29 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2008A00115:29 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341767> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341767"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00115:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2008A00115:31 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2008A00115:31 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341769> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341769"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00115:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2008A00115:33 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2008A00115:33 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341771> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341771"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00115:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2008A00115:35 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2008A00115:35 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341776> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341776"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00115:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Proceeds of Crime Act 2002"@en-AU ;
+    dct:isPartOf C2008A00115:35 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Proceeds of Crime Act 2002 - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Proceeds of Crime Act 2002"@en-AU ;
+    skos:narrower C2008A00115:35 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341777> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341777"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00115:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2008A00115:5 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2008A00115:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341665> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341665"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00115:8 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D8 Division 1 Introduction"@en-AU ;
+    dct:isPartOf C2008A00115:7 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Division 1 Introduction - Abrievated Graph Key: D8"@en-AU ;
+    skos:definition "Division 1 Introduction"@en-AU ;
+    skos:narrower C2008A00115:7 ;
+    skos:prefLabel "Division D8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341744> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341744"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2008A00115:9 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D9 Division 2 Application of new Act to de facto relationships breaking down before commencement"@en-AU ;
+    dct:isPartOf C2008A00115:7 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Division 2 Application of new Act to de facto relationships breaking down before commencement - Abrievated Graph Key: D9"@en-AU ;
+    skos:definition "Division 2 Application of new Act to de facto relationships breaking down before commencement"@en-AU ;
+    skos:narrower C2008A00115:7 ;
+    skos:prefLabel "Division D9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341745> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341745"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2008A00115:25 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P25 Part 1 Clarifying that other persons can be parties"@en-AU ;
+    dct:hasPart C2008A00115:26 ;
+    dct:isPartOf C2008A00115:24 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Part 1 Clarifying that other persons can be parties - Abrievated Graph Key: P25"@en-AU ;
+    skos:broader C2008A00115:26 ;
+    skos:definition "Part 1 Clarifying that other persons can be parties"@en-AU ;
+    skos:narrower C2008A00115:24 ;
+    skos:prefLabel "Part P25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341761> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341761"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2008A00115:27 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P27 Part 2 Separation declarations"@en-AU ;
+    dct:hasPart C2008A00115:28 ;
+    dct:isPartOf C2008A00115:24 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Part 2 Separation declarations - Abrievated Graph Key: P27"@en-AU ;
+    skos:broader C2008A00115:28 ;
+    skos:definition "Part 2 Separation declarations"@en-AU ;
+    skos:narrower C2008A00115:24 ;
+    skos:prefLabel "Part P27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341764> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341764"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2008A00115:29 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P29 Part 3 Matrimonial causes"@en-AU ;
+    dct:hasPart C2008A00115:30 ;
+    dct:isPartOf C2008A00115:24 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Part 3 Matrimonial causes - Abrievated Graph Key: P29"@en-AU ;
+    skos:broader C2008A00115:30 ;
+    skos:definition "Part 3 Matrimonial causes"@en-AU ;
+    skos:narrower C2008A00115:24 ;
+    skos:prefLabel "Part P29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341766> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341766"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2008A00115:31 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P31 Part 4 Other amendments"@en-AU ;
+    dct:hasPart C2008A00115:32 ;
+    dct:isPartOf C2008A00115:24 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Part 4 Other amendments - Abrievated Graph Key: P31"@en-AU ;
+    skos:broader C2008A00115:32 ;
+    skos:definition "Part 4 Other amendments"@en-AU ;
+    skos:narrower C2008A00115:24 ;
+    skos:prefLabel "Part P31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341768> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341768"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2008A00115:33 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S33 Schedule 3 AChildren"@en-AU ;
+    dct:hasPart C2008A00115:34 ;
+    dct:isPartOf C2008A00115:3 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Schedule 3 AChildren - Abrievated Graph Key: S33"@en-AU ;
+    skos:broader C2008A00115:34 ;
+    skos:definition "Schedule 3 AChildren"@en-AU ;
+    skos:narrower C2008A00115:3 ;
+    skos:prefLabel "Schedule S33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341770> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341770"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2008A00115:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2008A00115:6 ;
+    dct:isPartOf C2008A00115:4 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2008A00115:6 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2008A00115:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341664> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341664"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2008A00115:35 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S35 Schedule 4 Other measures"@en-AU ;
+    dct:hasPart C2008A00115:36,
+        C2008A00115:37 ;
+    dct:isPartOf C2008A00115:3 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Schedule 4 Other measures - Abrievated Graph Key: S35"@en-AU ;
+    skos:broader C2008A00115:36,
+        C2008A00115:37 ;
+    skos:definition "Schedule 4 Other measures"@en-AU ;
+    skos:narrower C2008A00115:3 ;
+    skos:prefLabel "Schedule S35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341775> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341775"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2008A00115:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments relating to de facto financial matters"@en-AU ;
+    dct:hasPart C2008A00115:5,
+        C2008A00115:7 ;
+    dct:isPartOf C2008A00115:3 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Schedule 1 Amendments relating to de facto financial matters - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2008A00115:5,
+        C2008A00115:7 ;
+    skos:definition "Schedule 1 Amendments relating to de facto financial matters"@en-AU ;
+    skos:narrower C2008A00115:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341663> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341663"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2008A00115:24 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S24 Schedule 3 Amendments relating to financial agreements about marriage"@en-AU ;
+    dct:hasPart C2008A00115:25,
+        C2008A00115:27,
+        C2008A00115:29,
+        C2008A00115:31 ;
+    dct:isPartOf C2008A00115:3 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Schedule 3 Amendments relating to financial agreements about marriage - Abrievated Graph Key: S24"@en-AU ;
+    skos:broader C2008A00115:25,
+        C2008A00115:27,
+        C2008A00115:29,
+        C2008A00115:31 ;
+    skos:definition "Schedule 3 Amendments relating to financial agreements about marriage"@en-AU ;
+    skos:narrower C2008A00115:3 ;
+    skos:prefLabel "Schedule S24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341760> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341760"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2008A00115:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2008A00115:13,
+        C2008A00115:24,
+        C2008A00115:33,
+        C2008A00115:35,
+        C2008A00115:4 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2008A00115:13,
+        C2008A00115:24,
+        C2008A00115:33,
+        C2008A00115:35,
+        C2008A00115:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341662> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341662"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00115:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Transitional provisions"@en-AU ;
+    dct:hasPart C2008A00115:10,
+        C2008A00115:11,
+        C2008A00115:12,
+        C2008A00115:8,
+        C2008A00115:9 ;
+    dct:isPartOf C2008A00115:4 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Part 2 Transitional provisions - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader C2008A00115:10,
+        C2008A00115:11,
+        C2008A00115:12,
+        C2008A00115:8,
+        C2008A00115:9 ;
+    skos:definition "Part 2 Transitional provisions"@en-AU ;
+    skos:narrower C2008A00115:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341743> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341743"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2008A00115:13 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S13 Schedule 2 Consequential amendments relating to de facto financial matters"@en-AU ;
+    dct:hasPart C2008A00115:14,
+        C2008A00115:15,
+        C2008A00115:16,
+        C2008A00115:17,
+        C2008A00115:18,
+        C2008A00115:19,
+        C2008A00115:20,
+        C2008A00115:21,
+        C2008A00115:22,
+        C2008A00115:23 ;
+    dct:isPartOf C2008A00115:3 ;
+    dct:isReferencedBy C2008A00115: ;
+    rdfs:comment "Schedule 2 Consequential amendments relating to de facto financial matters - Abrievated Graph Key: S13"@en-AU ;
+    skos:broader C2008A00115:14,
+        C2008A00115:15,
+        C2008A00115:16,
+        C2008A00115:17,
+        C2008A00115:18,
+        C2008A00115:19,
+        C2008A00115:20,
+        C2008A00115:21,
+        C2008A00115:22,
+        C2008A00115:23 ;
+    skos:definition "Schedule 2 Consequential amendments relating to de facto financial matters"@en-AU ;
+    skos:narrower C2008A00115:3 ;
+    skos:prefLabel "Schedule S13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341749> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00115/asmade/2003-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc214341749"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2008A00115: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Family Law Amendment (De Facto Financial Matters and Other Measures) Act 2008" ;
+    dct:Jurisdiction " Attorney-General's Department "@en-AU ;
+    dct:created "2026-05-27T17:35:43.560335"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2003-01-01T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Family Law Amendment (De Facto Financial Matters and Other Measures) Act 2008"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2008A00115/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Family Law Amendment (De Facto Financial Matters and Other Measures) Act 2008"@en-AU ;
+    dct:title "Family Law Amendment (De Facto Financial Matters and Other Measures) Act 2008"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2008A00115" .
+

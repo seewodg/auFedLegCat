@@ -1,0 +1,154 @@
+@prefix F1997B02745: <http://example.org/au/leg/dataset/F1997B02745/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F1997B02745:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1	Name of regulations see Note 1"@en-AU ;
+    dct:isReferencedBy F1997B02745: ;
+    rdfs:comment "1	Name of regulations see Note 1 - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1	Name of regulations see Note 1"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1997B02745/2001-09-01/2001-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc42656475> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1997B02745/2001-09-01/2001-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc42656475"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1997B02745:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2	Commencement"@en-AU ;
+    dct:isReferencedBy F1997B02745: ;
+    rdfs:comment "2	Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2	Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1997B02745/2001-09-01/2001-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc42656476> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1997B02745/2001-09-01/2001-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc42656476"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1997B02745:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3	Definitions"@en-AU ;
+    dct:isReferencedBy F1997B02745: ;
+    rdfs:comment "3	Definitions - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "3	Definitions"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1997B02745/2001-09-01/2001-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc42656477> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1997B02745/2001-09-01/2001-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc42656477"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1997B02745:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 4	Application of Act"@en-AU ;
+    dct:isReferencedBy F1997B02745: ;
+    rdfs:comment "4	Application of Act - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "4	Application of Act"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1997B02745/2001-09-01/2001-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc42656478> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1997B02745/2001-09-01/2001-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc42656478"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1997B02745:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 1	Convention on laundering search seizure and confiscation of the proceeds from crime"@en-AU ;
+    dct:isPartOf F1997B02745:5 ;
+    dct:isReferencedBy F1997B02745: ;
+    rdfs:comment "Schedule 1	Convention on laundering search seizure and confiscation of the proceeds from crime - Abrievated Graph Key: S6"@en-AU ;
+    skos:definition "Schedule 1	Convention on laundering search seizure and confiscation of the proceeds from crime"@en-AU ;
+    skos:narrower F1997B02745:5 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1997B02745/2001-09-01/2001-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc42656480> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1997B02745/2001-09-01/2001-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc42656480"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F1997B02745:7 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S7 Schedule 2	Instrument of ratification"@en-AU ;
+    dct:isPartOf F1997B02745:5 ;
+    dct:isReferencedBy F1997B02745: ;
+    rdfs:comment "Schedule 2	Instrument of ratification - Abrievated Graph Key: S7"@en-AU ;
+    skos:definition "Schedule 2	Instrument of ratification"@en-AU ;
+    skos:narrower F1997B02745:5 ;
+    skos:prefLabel "Schedule S7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1997B02745/2001-09-01/2001-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc42656481> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1997B02745/2001-09-01/2001-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc42656481"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F1997B02745:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Notes to the   REF Citation charformat  MERGEFORMAT  Mutual Assistance in Criminal Matters MoneyLaundering Convention Regulations 1997"@en-AU ;
+    dct:isPartOf F1997B02745:8 ;
+    dct:isReferencedBy F1997B02745: ;
+    rdfs:comment "Notes to the   REF Citation charformat  MERGEFORMAT  Mutual Assistance in Criminal Matters MoneyLaundering Convention Regulations 1997 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Notes to the   REF Citation charformat  MERGEFORMAT  Mutual Assistance in Criminal Matters MoneyLaundering Convention Regulations 1997"@en-AU ;
+    skos:narrower F1997B02745:8 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1997B02745/2001-09-01/2001-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc42656483> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1997B02745/2001-09-01/2001-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc42656483"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1997B02745:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 3	Parties to the Convention other than Australia"@en-AU ;
+    dct:hasPart F1997B02745:9 ;
+    dct:isPartOf F1997B02745:5 ;
+    dct:isReferencedBy F1997B02745: ;
+    rdfs:comment "Schedule 3	Parties to the Convention other than Australia - Abrievated Graph Key: S8"@en-AU ;
+    skos:broader F1997B02745:9 ;
+    skos:definition "Schedule 3	Parties to the Convention other than Australia"@en-AU ;
+    skos:narrower F1997B02745:5 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1997B02745/2001-09-01/2001-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc42656482> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1997B02745/2001-09-01/2001-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc42656482"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F1997B02745:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 5	Admissibility of certain documents"@en-AU ;
+    dct:hasPart F1997B02745:6,
+        F1997B02745:7,
+        F1997B02745:8 ;
+    dct:isReferencedBy F1997B02745: ;
+    rdfs:comment "5	Admissibility of certain documents - Abrievated Graph Key: I5"@en-AU ;
+    skos:broader F1997B02745:6,
+        F1997B02745:7,
+        F1997B02745:8 ;
+    skos:definition "5	Admissibility of certain documents"@en-AU ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F1997B02745/2001-09-01/2001-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc42656479> ;
+    dcat:landingPage "https://www.legislation.gov.au/F1997B02745/2001-09-01/2001-09-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc42656479"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F1997B02745: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Mutual Assistance in Criminal Matters (Money-Laundering Convention) Regulations 1997" ;
+    dct:Jurisdiction " Attorney-General's Department "@en-AU ;
+    dct:created "2026-05-27T17:50:13.074429"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2001-09-01T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Mutual Assistance in Criminal Matters (Money-Laundering Convention) Regulations 1997"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F1997B02745/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Mutual Assistance in Criminal Matters (Money-Laundering Convention) Regulations 1997"@en-AU ;
+    dct:title "Mutual Assistance in Criminal Matters (Money-Laundering Convention) Regulations 1997"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "F2004C00692" .
+

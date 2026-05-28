@@ -1,0 +1,292 @@
+@prefix C2009A00113: <http://example.org/au/leg/dataset/C2009A00113/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2009A00113:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2009A00113: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661507> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661507"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00113:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2009A00113: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661508> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661508"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00113:10 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D10 Division 2 Liabilities and legal proceedings"@en-AU ;
+    dct:isPartOf C2009A00113:8 ;
+    dct:isReferencedBy C2009A00113: ;
+    rdfs:comment "Division 2 Liabilities and legal proceedings - Abrievated Graph Key: D10"@en-AU ;
+    skos:definition "Division 2 Liabilities and legal proceedings"@en-AU ;
+    skos:narrower C2009A00113:8 ;
+    skos:prefLabel "Division D10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661580> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661580"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2009A00113:11 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D11 Division 3 ASADA members"@en-AU ;
+    dct:isPartOf C2009A00113:8 ;
+    dct:isReferencedBy C2009A00113: ;
+    rdfs:comment "Division 3 ASADA members - Abrievated Graph Key: D11"@en-AU ;
+    skos:definition "Division 3 ASADA members"@en-AU ;
+    skos:narrower C2009A00113:8 ;
+    skos:prefLabel "Division D11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661581> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661581"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2009A00113:12 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D12 Division 4 References to and things done by or in relation to the ASADA or the ASADA members"@en-AU ;
+    dct:isPartOf C2009A00113:8 ;
+    dct:isReferencedBy C2009A00113: ;
+    rdfs:comment "Division 4 References to and things done by or in relation to the ASADA or the ASADA members - Abrievated Graph Key: D12"@en-AU ;
+    skos:definition "Division 4 References to and things done by or in relation to the ASADA or the ASADA members"@en-AU ;
+    skos:narrower C2009A00113:8 ;
+    skos:prefLabel "Division D12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661582> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661582"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2009A00113:13 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D13 Division 5 Transitional arrangements relating to the AntiDoping Rule Violation Committee"@en-AU ;
+    dct:isPartOf C2009A00113:8 ;
+    dct:isReferencedBy C2009A00113: ;
+    rdfs:comment "Division 5 Transitional arrangements relating to the AntiDoping Rule Violation Committee - Abrievated Graph Key: D13"@en-AU ;
+    skos:definition "Division 5 Transitional arrangements relating to the AntiDoping Rule Violation Committee"@en-AU ;
+    skos:narrower C2009A00113:8 ;
+    skos:prefLabel "Division D13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661583> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661583"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2009A00113:14 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D14 Division 6 Reporting requirements"@en-AU ;
+    dct:isPartOf C2009A00113:8 ;
+    dct:isReferencedBy C2009A00113: ;
+    rdfs:comment "Division 6 Reporting requirements - Abrievated Graph Key: D14"@en-AU ;
+    skos:definition "Division 6 Reporting requirements"@en-AU ;
+    skos:narrower C2009A00113:8 ;
+    skos:prefLabel "Division D14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661584> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661584"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2009A00113:15 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D15 Division 7 Miscellaneous"@en-AU ;
+    dct:isPartOf C2009A00113:8 ;
+    dct:isReferencedBy C2009A00113: ;
+    rdfs:comment "Division 7 Miscellaneous - Abrievated Graph Key: D15"@en-AU ;
+    skos:definition "Division 7 Miscellaneous"@en-AU ;
+    skos:narrower C2009A00113:8 ;
+    skos:prefLabel "Division D15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661585> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661585"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2009A00113:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Australian Sports AntiDoping Authority Act 2006"@en-AU ;
+    dct:isPartOf C2009A00113:16 ;
+    dct:isReferencedBy C2009A00113: ;
+    rdfs:comment "Australian Sports AntiDoping Authority Act 2006 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Australian Sports AntiDoping Authority Act 2006"@en-AU ;
+    skos:narrower C2009A00113:16 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661587> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661587"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00113:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Australian Sports AntiDoping Authority Act 2006"@en-AU ;
+    dct:isPartOf C2009A00113:5 ;
+    dct:isReferencedBy C2009A00113: ;
+    rdfs:comment "Australian Sports AntiDoping Authority Act 2006 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Australian Sports AntiDoping Authority Act 2006"@en-AU ;
+    skos:narrower C2009A00113:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661512> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661512"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00113:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Australian Sports Commission Act 1989"@en-AU ;
+    dct:isPartOf C2009A00113:5 ;
+    dct:isReferencedBy C2009A00113: ;
+    rdfs:comment "Australian Sports Commission Act 1989 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Australian Sports Commission Act 1989"@en-AU ;
+    skos:narrower C2009A00113:5 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661577> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661577"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00113:9 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D9 Division 1 Definitions"@en-AU ;
+    dct:isPartOf C2009A00113:8 ;
+    dct:isReferencedBy C2009A00113: ;
+    rdfs:comment "Division 1 Definitions - Abrievated Graph Key: D9"@en-AU ;
+    skos:definition "Division 1 Definitions"@en-AU ;
+    skos:narrower C2009A00113:8 ;
+    skos:prefLabel "Division D9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661579> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661579"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2009A00113:16 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S16 Schedule 2 Other amendments"@en-AU ;
+    dct:hasPart C2009A00113:17 ;
+    dct:isPartOf C2009A00113:3 ;
+    dct:isReferencedBy C2009A00113: ;
+    rdfs:comment "Schedule 2 Other amendments - Abrievated Graph Key: S16"@en-AU ;
+    skos:broader C2009A00113:17 ;
+    skos:definition "Schedule 2 Other amendments"@en-AU ;
+    skos:narrower C2009A00113:3 ;
+    skos:prefLabel "Schedule S16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661586> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661586"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00113:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2009A00113:16,
+        C2009A00113:4 ;
+    dct:isReferencedBy C2009A00113: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2009A00113:16,
+        C2009A00113:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661509> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661509"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00113:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Governance of ASADA"@en-AU ;
+    dct:hasPart C2009A00113:5,
+        C2009A00113:8 ;
+    dct:isPartOf C2009A00113:3 ;
+    dct:isReferencedBy C2009A00113: ;
+    rdfs:comment "Schedule 1 Governance of ASADA - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2009A00113:5,
+        C2009A00113:8 ;
+    skos:definition "Schedule 1 Governance of ASADA"@en-AU ;
+    skos:narrower C2009A00113:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661510> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661510"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00113:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2009A00113:6,
+        C2009A00113:7 ;
+    dct:isPartOf C2009A00113:4 ;
+    dct:isReferencedBy C2009A00113: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2009A00113:6,
+        C2009A00113:7 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2009A00113:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661511> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661511"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2009A00113:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 2 Application and transitional provisions"@en-AU ;
+    dct:hasPart C2009A00113:10,
+        C2009A00113:11,
+        C2009A00113:12,
+        C2009A00113:13,
+        C2009A00113:14,
+        C2009A00113:15,
+        C2009A00113:9 ;
+    dct:isPartOf C2009A00113:4 ;
+    dct:isReferencedBy C2009A00113: ;
+    rdfs:comment "Part 2 Application and transitional provisions - Abrievated Graph Key: P8"@en-AU ;
+    skos:broader C2009A00113:10,
+        C2009A00113:11,
+        C2009A00113:12,
+        C2009A00113:13,
+        C2009A00113:14,
+        C2009A00113:15,
+        C2009A00113:9 ;
+    skos:definition "Part 2 Application and transitional provisions"@en-AU ;
+    skos:narrower C2009A00113:4 ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661578> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00113/asmade/2009-11-16/text/original/epub/OEBPS/document_1/document_1.html#_Toc244661578"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2009A00113: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Australian Sports Anti-Doping Authority Amendment Act 2009" ;
+    dct:Jurisdiction " Department of Infrastructure, Transport, Regional Development, Communications, Sport and the Arts "@en-AU ;
+    dct:created "2026-05-26T20:51:42.464548"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2009-11-16T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Australian Sports Anti-Doping Authority Amendment Act 2009"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2009A00113/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Australian Sports Anti-Doping Authority Amendment Act 2009"@en-AU ;
+    dct:title "Australian Sports Anti-Doping Authority Amendment Act 2009"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2009A00113" .
+

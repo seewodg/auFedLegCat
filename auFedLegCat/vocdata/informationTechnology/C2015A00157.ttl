@@ -1,0 +1,403 @@
+@prefix C2015A00157: <http://example.org/au/leg/dataset/C2015A00157/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2015A00157:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436398912> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436398912"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00157:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436398913> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436398913"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00157:10 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P10 Part 2 Rulemaking powers application and transitional provisions"@en-AU ;
+    dct:isPartOf C2015A00157:4 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "Part 2 Rulemaking powers application and transitional provisions - Abrievated Graph Key: P10"@en-AU ;
+    skos:definition "Part 2 Rulemaking powers application and transitional provisions"@en-AU ;
+    skos:narrower C2015A00157:4 ;
+    skos:prefLabel "Part P10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399030> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399030"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2015A00157:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Healthcare Identifiers Act 2010"@en-AU ;
+    dct:isPartOf C2015A00157:11 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "Healthcare Identifiers Act 2010 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Healthcare Identifiers Act 2010"@en-AU ;
+    skos:narrower C2015A00157:11 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399032> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399032"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00157:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Health Insurance Act 1973"@en-AU ;
+    dct:isPartOf C2015A00157:11 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "Health Insurance Act 1973 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Health Insurance Act 1973"@en-AU ;
+    skos:narrower C2015A00157:11 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399033> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399033"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00157:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 National Health Act 1953"@en-AU ;
+    dct:isPartOf C2015A00157:11 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "National Health Act 1953 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "National Health Act 1953"@en-AU ;
+    skos:narrower C2015A00157:11 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399034> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399034"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00157:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Personally Controlled Electronic Health Records Act 2012"@en-AU ;
+    dct:isPartOf C2015A00157:11 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "Personally Controlled Electronic Health Records Act 2012 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Personally Controlled Electronic Health Records Act 2012"@en-AU ;
+    skos:narrower C2015A00157:11 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399035> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399035"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00157:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Health Insurance Act 1973"@en-AU ;
+    dct:isPartOf C2015A00157:16 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "Health Insurance Act 1973 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Health Insurance Act 1973"@en-AU ;
+    skos:narrower C2015A00157:16 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399047> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399047"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00157:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 National Health Act 1953"@en-AU ;
+    dct:isPartOf C2015A00157:16 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "National Health Act 1953 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "National Health Act 1953"@en-AU ;
+    skos:narrower C2015A00157:16 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399048> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399048"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00157:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Personally Controlled Electronic Health Records Act 2012"@en-AU ;
+    dct:isPartOf C2015A00157:16 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "Personally Controlled Electronic Health Records Act 2012 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Personally Controlled Electronic Health Records Act 2012"@en-AU ;
+    skos:narrower C2015A00157:16 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399049> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399049"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00157:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Personally Controlled Electronic Health Records Act 2012"@en-AU ;
+    dct:isPartOf C2015A00157:21 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "Personally Controlled Electronic Health Records Act 2012 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Personally Controlled Electronic Health Records Act 2012"@en-AU ;
+    skos:narrower C2015A00157:21 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399052> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399052"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00157:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Health Insurance Act 1973"@en-AU ;
+    dct:isPartOf C2015A00157:23 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "Health Insurance Act 1973 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Health Insurance Act 1973"@en-AU ;
+    skos:narrower C2015A00157:23 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399054> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399054"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00157:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Copyright Act 1968"@en-AU ;
+    dct:isPartOf C2015A00157:5 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "Copyright Act 1968 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Copyright Act 1968"@en-AU ;
+    skos:narrower C2015A00157:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436398917> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436398917"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00157:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Healthcare Identifiers Act 2010"@en-AU ;
+    dct:isPartOf C2015A00157:5 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "Healthcare Identifiers Act 2010 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Healthcare Identifiers Act 2010"@en-AU ;
+    skos:narrower C2015A00157:5 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436398920> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436398920"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00157:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Personally Controlled Electronic Health Records Act 2012"@en-AU ;
+    dct:isPartOf C2015A00157:5 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "Personally Controlled Electronic Health Records Act 2012 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Personally Controlled Electronic Health Records Act 2012"@en-AU ;
+    skos:narrower C2015A00157:5 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436398973> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436398973"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00157:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Privacy Act 1988"@en-AU ;
+    dct:isPartOf C2015A00157:5 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "Privacy Act 1988 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Privacy Act 1988"@en-AU ;
+    skos:narrower C2015A00157:5 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399027> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399027"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00157:21 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P21 Part 1 Amendments relating to the Legislation Act 2003"@en-AU ;
+    dct:hasPart C2015A00157:22 ;
+    dct:isPartOf C2015A00157:20 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "Part 1 Amendments relating to the Legislation Act 2003 - Abrievated Graph Key: P21"@en-AU ;
+    skos:broader C2015A00157:22 ;
+    skos:definition "Part 1 Amendments relating to the Legislation Act 2003"@en-AU ;
+    skos:narrower C2015A00157:20 ;
+    skos:prefLabel "Part P21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399051> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399051"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2015A00157:23 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P23 Part 2 Amendments relating to delegations"@en-AU ;
+    dct:hasPart C2015A00157:24 ;
+    dct:isPartOf C2015A00157:20 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "Part 2 Amendments relating to delegations - Abrievated Graph Key: P23"@en-AU ;
+    skos:broader C2015A00157:24 ;
+    skos:definition "Part 2 Amendments relating to delegations"@en-AU ;
+    skos:narrower C2015A00157:20 ;
+    skos:prefLabel "Part P23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399053> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399053"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2015A00157:20 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S20 Schedule 4 Further consequential amendments"@en-AU ;
+    dct:hasPart C2015A00157:21,
+        C2015A00157:23 ;
+    dct:isPartOf C2015A00157:3 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "Schedule 4 Further consequential amendments - Abrievated Graph Key: S20"@en-AU ;
+    skos:broader C2015A00157:21,
+        C2015A00157:23 ;
+    skos:definition "Schedule 4 Further consequential amendments"@en-AU ;
+    skos:narrower C2015A00157:3 ;
+    skos:prefLabel "Schedule S20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399050> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399050"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2015A00157:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Healthcare identifiers and health records"@en-AU ;
+    dct:hasPart C2015A00157:10,
+        C2015A00157:5 ;
+    dct:isPartOf C2015A00157:3 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "Schedule 1 Healthcare identifiers and health records - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2015A00157:10,
+        C2015A00157:5 ;
+    skos:definition "Schedule 1 Healthcare identifiers and health records"@en-AU ;
+    skos:narrower C2015A00157:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436398915> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436398915"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2015A00157:16 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S16 Schedule 3 Renaming consumers as healthcare recipients"@en-AU ;
+    dct:hasPart C2015A00157:17,
+        C2015A00157:18,
+        C2015A00157:19 ;
+    dct:isPartOf C2015A00157:3 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "Schedule 3 Renaming consumers as healthcare recipients - Abrievated Graph Key: S16"@en-AU ;
+    skos:broader C2015A00157:17,
+        C2015A00157:18,
+        C2015A00157:19 ;
+    skos:definition "Schedule 3 Renaming consumers as healthcare recipients"@en-AU ;
+    skos:narrower C2015A00157:3 ;
+    skos:prefLabel "Schedule S16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399046> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399046"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2015A00157:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2015A00157:11,
+        C2015A00157:16,
+        C2015A00157:20,
+        C2015A00157:4 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2015A00157:11,
+        C2015A00157:16,
+        C2015A00157:20,
+        C2015A00157:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436398914> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436398914"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2015A00157:11 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S11 Schedule 2 Renaming PCEHR as My Health Record"@en-AU ;
+    dct:hasPart C2015A00157:12,
+        C2015A00157:13,
+        C2015A00157:14,
+        C2015A00157:15 ;
+    dct:isPartOf C2015A00157:3 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "Schedule 2 Renaming PCEHR as My Health Record - Abrievated Graph Key: S11"@en-AU ;
+    skos:broader C2015A00157:12,
+        C2015A00157:13,
+        C2015A00157:14,
+        C2015A00157:15 ;
+    skos:definition "Schedule 2 Renaming PCEHR as My Health Record"@en-AU ;
+    skos:narrower C2015A00157:3 ;
+    skos:prefLabel "Schedule S11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399031> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436399031"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2015A00157:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2015A00157:6,
+        C2015A00157:7,
+        C2015A00157:8,
+        C2015A00157:9 ;
+    dct:isPartOf C2015A00157:4 ;
+    dct:isReferencedBy C2015A00157: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2015A00157:6,
+        C2015A00157:7,
+        C2015A00157:8,
+        C2015A00157:9 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2015A00157:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436398916> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2015A00157/asmade/2015-11-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc436398916"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2015A00157: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Health Legislation Amendment (eHealth) Act 2015" ;
+    dct:Jurisdiction " Department of Health, Disability and Ageing "@en-AU ;
+    dct:created "2026-05-26T21:07:18.135902"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2015-11-26T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Health Legislation Amendment (eHealth) Act 2015"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2015A00157/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Health Legislation Amendment (eHealth) Act 2015"@en-AU ;
+    dct:title "Health Legislation Amendment (eHealth) Act 2015"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2015A00157" .
+

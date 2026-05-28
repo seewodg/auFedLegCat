@@ -1,0 +1,228 @@
+@prefix C2006A00087: <http://example.org/au/leg/dataset/C2006A00087/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2006A00087:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2006A00087: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795378> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795378"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00087:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2006A00087: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795379> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795379"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00087:10 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D10 Division 3 CEO and designated committees"@en-AU ;
+    dct:isPartOf C2006A00087:7 ;
+    dct:isReferencedBy C2006A00087: ;
+    rdfs:comment "Division 3 CEO and designated committees - Abrievated Graph Key: D10"@en-AU ;
+    skos:definition "Division 3 CEO and designated committees"@en-AU ;
+    skos:narrower C2006A00087:7 ;
+    skos:prefLabel "Division D10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795405> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795405"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00087:11 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D11 Division 4 Miscellaneous"@en-AU ;
+    dct:isPartOf C2006A00087:7 ;
+    dct:isReferencedBy C2006A00087: ;
+    rdfs:comment "Division 4 Miscellaneous - Abrievated Graph Key: D11"@en-AU ;
+    skos:definition "Division 4 Miscellaneous"@en-AU ;
+    skos:narrower C2006A00087:7 ;
+    skos:prefLabel "Division D11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795406> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795406"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00087:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Australian Research Council Act 2001"@en-AU ;
+    dct:isPartOf C2006A00087:12 ;
+    dct:isReferencedBy C2006A00087: ;
+    rdfs:comment "Australian Research Council Act 2001 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Australian Research Council Act 2001"@en-AU ;
+    skos:narrower C2006A00087:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795408> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795408"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00087:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Australian Research Council Act 2001"@en-AU ;
+    dct:isPartOf C2006A00087:5 ;
+    dct:isReferencedBy C2006A00087: ;
+    rdfs:comment "Australian Research Council Act 2001 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Australian Research Council Act 2001"@en-AU ;
+    skos:narrower C2006A00087:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795383> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795383"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00087:8 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D8 Division 1 Preliminary"@en-AU ;
+    dct:isPartOf C2006A00087:7 ;
+    dct:isReferencedBy C2006A00087: ;
+    rdfs:comment "Division 1 Preliminary - Abrievated Graph Key: D8"@en-AU ;
+    skos:definition "Division 1 Preliminary"@en-AU ;
+    skos:narrower C2006A00087:7 ;
+    skos:prefLabel "Division D8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795403> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795403"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00087:9 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D9 Division 2 Reference to and things done by or in relation to old ARC"@en-AU ;
+    dct:isPartOf C2006A00087:7 ;
+    dct:isReferencedBy C2006A00087: ;
+    rdfs:comment "Division 2 Reference to and things done by or in relation to old ARC - Abrievated Graph Key: D9"@en-AU ;
+    skos:definition "Division 2 Reference to and things done by or in relation to old ARC"@en-AU ;
+    skos:narrower C2006A00087:7 ;
+    skos:prefLabel "Division D9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795404> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795404"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2006A00087:12 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S12 Schedule 2 Funding of research"@en-AU ;
+    dct:hasPart C2006A00087:13 ;
+    dct:isPartOf C2006A00087:3 ;
+    dct:isReferencedBy C2006A00087: ;
+    rdfs:comment "Schedule 2 Funding of research - Abrievated Graph Key: S12"@en-AU ;
+    skos:broader C2006A00087:13 ;
+    skos:definition "Schedule 2 Funding of research"@en-AU ;
+    skos:narrower C2006A00087:3 ;
+    skos:prefLabel "Schedule S12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795407> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795407"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00087:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2006A00087:12,
+        C2006A00087:4 ;
+    dct:isReferencedBy C2006A00087: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2006A00087:12,
+        C2006A00087:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795380> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795380"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00087:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Main amendments"@en-AU ;
+    dct:hasPart C2006A00087:6 ;
+    dct:isPartOf C2006A00087:4 ;
+    dct:isReferencedBy C2006A00087: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2006A00087:6 ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2006A00087:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795382> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795382"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00087:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Structure of the Australian Research Council"@en-AU ;
+    dct:hasPart C2006A00087:5,
+        C2006A00087:7 ;
+    dct:isPartOf C2006A00087:3 ;
+    dct:isReferencedBy C2006A00087: ;
+    rdfs:comment "Schedule 1 Structure of the Australian Research Council - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2006A00087:5,
+        C2006A00087:7 ;
+    skos:definition "Schedule 1 Structure of the Australian Research Council"@en-AU ;
+    skos:narrower C2006A00087:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795381> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795381"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00087:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Transitional provisions"@en-AU ;
+    dct:hasPart C2006A00087:10,
+        C2006A00087:11,
+        C2006A00087:8,
+        C2006A00087:9 ;
+    dct:isPartOf C2006A00087:4 ;
+    dct:isReferencedBy C2006A00087: ;
+    rdfs:comment "Part 2 Transitional provisions - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader C2006A00087:10,
+        C2006A00087:11,
+        C2006A00087:8,
+        C2006A00087:9 ;
+    skos:definition "Part 2 Transitional provisions"@en-AU ;
+    skos:narrower C2006A00087:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795402> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00087/asmade/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc139795402"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00087: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Australian Research Council Amendment Act 2006" ;
+    dct:Jurisdiction " Department of Education "@en-AU ;
+    dct:created "2026-05-27T17:24:23.141834"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2006-06-30T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Australian Research Council Amendment Act 2006"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2006A00087/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Australian Research Council Amendment Act 2006"@en-AU ;
+    dct:title "Australian Research Council Amendment Act 2006"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2006A00087" .
+

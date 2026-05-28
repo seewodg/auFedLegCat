@@ -1,0 +1,314 @@
+@prefix F2018L01468: <http://example.org/au/leg/dataset/F2018L01468/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2018L01468:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 7  Builddown method"@en-AU ;
+    dct:isPartOf F2018L01468:8 ;
+    dct:isReferencedBy F2018L01468: ;
+    rdfs:comment "7  Builddown method - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "7  Builddown method"@en-AU ;
+    skos:narrower F2018L01468:8 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858244> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858244"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2018L01468:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 8  Buildup method"@en-AU ;
+    dct:isPartOf F2018L01468:8 ;
+    dct:isReferencedBy F2018L01468: ;
+    rdfs:comment "8  Buildup method - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "8  Buildup method"@en-AU ;
+    skos:narrower F2018L01468:8 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858245> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858245"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2018L01468:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 9  Net cost method"@en-AU ;
+    dct:isPartOf F2018L01468:8 ;
+    dct:isReferencedBy F2018L01468: ;
+    rdfs:comment "9  Net cost method - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "9  Net cost method"@en-AU ;
+    skos:narrower F2018L01468:8 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858246> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858246"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2018L01468:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 10  Value of goods that are originating materials or nonoriginating materials"@en-AU ;
+    dct:isPartOf F2018L01468:13 ;
+    dct:isReferencedBy F2018L01468: ;
+    rdfs:comment "10  Value of goods that are originating materials or nonoriginating materials - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "10  Value of goods that are originating materials or nonoriginating materials"@en-AU ;
+    skos:narrower F2018L01468:13 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858248> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858248"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2018L01468:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 11  Value of accessories spare parts or tools"@en-AU ;
+    dct:isPartOf F2018L01468:13 ;
+    dct:isReferencedBy F2018L01468: ;
+    rdfs:comment "11  Value of accessories spare parts or tools - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "11  Value of accessories spare parts or tools"@en-AU ;
+    skos:narrower F2018L01468:13 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858249> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858249"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2018L01468:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 12  Value of packaging material and container"@en-AU ;
+    dct:isPartOf F2018L01468:13 ;
+    dct:isReferencedBy F2018L01468: ;
+    rdfs:comment "12  Value of packaging material and container - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "12  Value of packaging material and container"@en-AU ;
+    skos:narrower F2018L01468:13 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858250> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858250"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2018L01468:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 13  Exportation of goods to territory of a Partyrecord keeping by exporter who is not the producer of the goods"@en-AU ;
+    dct:isPartOf F2018L01468:17 ;
+    dct:isReferencedBy F2018L01468: ;
+    rdfs:comment "13  Exportation of goods to territory of a Partyrecord keeping by exporter who is not the producer of the goods - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "13  Exportation of goods to territory of a Partyrecord keeping by exporter who is not the producer of the goods"@en-AU ;
+    skos:narrower F2018L01468:17 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858252> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858252"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2018L01468:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 14  Exportation of goods to territory of a Partyrecord keeping by the producer of the goods"@en-AU ;
+    dct:isPartOf F2018L01468:17 ;
+    dct:isReferencedBy F2018L01468: ;
+    rdfs:comment "14  Exportation of goods to territory of a Partyrecord keeping by the producer of the goods - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "14  Exportation of goods to territory of a Partyrecord keeping by the producer of the goods"@en-AU ;
+    skos:narrower F2018L01468:17 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858253> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858253"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2018L01468:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 1  Name"@en-AU ;
+    dct:isPartOf F2018L01468:1 ;
+    dct:isReferencedBy F2018L01468: ;
+    rdfs:comment "1  Name - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "1  Name"@en-AU ;
+    skos:narrower F2018L01468:1 ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858236> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858236"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2018L01468:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 2  Commencement"@en-AU ;
+    dct:isPartOf F2018L01468:1 ;
+    dct:isReferencedBy F2018L01468: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:narrower F2018L01468:1 ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858237> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858237"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2018L01468:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 3  Authority"@en-AU ;
+    dct:isPartOf F2018L01468:1 ;
+    dct:isReferencedBy F2018L01468: ;
+    rdfs:comment "3  Authority - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "3  Authority"@en-AU ;
+    skos:narrower F2018L01468:1 ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858238> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858238"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2018L01468:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 4  Definitions"@en-AU ;
+    dct:isPartOf F2018L01468:1 ;
+    dct:isReferencedBy F2018L01468: ;
+    rdfs:comment "4  Definitions - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "4  Definitions"@en-AU ;
+    skos:narrower F2018L01468:1 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858239> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858239"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2018L01468:6 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P6 Part 2 Tariff change requirement"@en-AU ;
+    dct:hasPart F2018L01468:7 ;
+    dct:isReferencedBy F2018L01468: ;
+    rdfs:comment "Part 2 Tariff change requirement - Abrievated Graph Key: P6"@en-AU ;
+    skos:broader F2018L01468:7 ;
+    skos:definition "Part 2 Tariff change requirement"@en-AU ;
+    skos:prefLabel "Part P6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858240> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858240"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2018L01468:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 5  Change in tariff classification requirement for nonoriginating materials"@en-AU ;
+    dct:isPartOf F2018L01468:6 ;
+    dct:isReferencedBy F2018L01468: ;
+    rdfs:comment "5  Change in tariff classification requirement for nonoriginating materials - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "5  Change in tariff classification requirement for nonoriginating materials"@en-AU ;
+    skos:narrower F2018L01468:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858241> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858241"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2018L01468:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 6  Focused value method"@en-AU ;
+    dct:isPartOf F2018L01468:8 ;
+    dct:isReferencedBy F2018L01468: ;
+    rdfs:comment "6  Focused value method - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "6  Focused value method"@en-AU ;
+    skos:narrower F2018L01468:8 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858243> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858243"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2018L01468:17 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P17 Part 5 Record keeping obligations"@en-AU ;
+    dct:hasPart F2018L01468:18,
+        F2018L01468:19 ;
+    dct:isReferencedBy F2018L01468: ;
+    rdfs:comment "Part 5 Record keeping obligations - Abrievated Graph Key: P17"@en-AU ;
+    skos:broader F2018L01468:18,
+        F2018L01468:19 ;
+    skos:definition "Part 5 Record keeping obligations"@en-AU ;
+    skos:prefLabel "Part P17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858251> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858251"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2018L01468:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 4 Determination of value"@en-AU ;
+    dct:hasPart F2018L01468:14,
+        F2018L01468:15,
+        F2018L01468:16 ;
+    dct:isReferencedBy F2018L01468: ;
+    rdfs:comment "Part 4 Determination of value - Abrievated Graph Key: P13"@en-AU ;
+    skos:broader F2018L01468:14,
+        F2018L01468:15,
+        F2018L01468:16 ;
+    skos:definition "Part 4 Determination of value"@en-AU ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858247> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858247"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2018L01468:1 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P1 Part 1 Preliminary"@en-AU ;
+    dct:hasPart F2018L01468:2,
+        F2018L01468:3,
+        F2018L01468:4,
+        F2018L01468:5 ;
+    dct:isReferencedBy F2018L01468: ;
+    rdfs:comment "Part 1 Preliminary - Abrievated Graph Key: P1"@en-AU ;
+    skos:broader F2018L01468:2,
+        F2018L01468:3,
+        F2018L01468:4,
+        F2018L01468:5 ;
+    skos:definition "Part 1 Preliminary"@en-AU ;
+    skos:prefLabel "Part P1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858235> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858235"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2018L01468:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 3 Regional value content requirement"@en-AU ;
+    dct:hasPart F2018L01468:10,
+        F2018L01468:11,
+        F2018L01468:12,
+        F2018L01468:9 ;
+    dct:isReferencedBy F2018L01468: ;
+    rdfs:comment "Part 3 Regional value content requirement - Abrievated Graph Key: P8"@en-AU ;
+    skos:broader F2018L01468:10,
+        F2018L01468:11,
+        F2018L01468:12,
+        F2018L01468:9 ;
+    skos:definition "Part 3 Regional value content requirement"@en-AU ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858242> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2018L01468/asmade/2018-10-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc526858242"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2018L01468: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Customs (Trans-Pacific Partnership Rules of Origin) Regulations 2018" ;
+    dct:Jurisdiction " Department of Home Affairs "@en-AU ;
+    dct:created "2026-05-27T17:06:28.347359"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2018-10-26T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Customs (Trans-Pacific Partnership Rules of Origin) Regulations 2018"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2018L01468/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Customs (Trans-Pacific Partnership Rules of Origin) Regulations 2018"@en-AU ;
+    dct:title "Customs (Trans-Pacific Partnership Rules of Origin) Regulations 2018"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part ;
+    schema:status "In force" ;
+    schema:version "F2018L01468" .
+
