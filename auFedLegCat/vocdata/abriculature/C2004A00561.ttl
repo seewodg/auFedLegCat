@@ -1,0 +1,275 @@
+@prefix C2004A00561: <http://example.org/au/leg/dataset/C2004A00561/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A00561:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A00561: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304564> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304564"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00561:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A00561: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304565> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304565"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00561:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 1 Change of name of Committee"@en-AU ;
+    dct:isPartOf C2004A00561:10 ;
+    dct:isReferencedBy C2004A00561: ;
+    rdfs:comment "Part 1 Change of name of Committee - Abrievated Graph Key: P11"@en-AU ;
+    skos:definition "Part 1 Change of name of Committee"@en-AU ;
+    skos:narrower C2004A00561:10 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304576> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304576"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00561:12 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P12 Part 2 Amendments of references to Committee"@en-AU ;
+    dct:isPartOf C2004A00561:10 ;
+    dct:isReferencedBy C2004A00561: ;
+    rdfs:comment "Part 2 Amendments of references to Committee - Abrievated Graph Key: P12"@en-AU ;
+    skos:definition "Part 2 Amendments of references to Committee"@en-AU ;
+    skos:narrower C2004A00561:10 ;
+    skos:prefLabel "Part P12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304580> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304580"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00561:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 3 Transitional"@en-AU ;
+    dct:isPartOf C2004A00561:10 ;
+    dct:isReferencedBy C2004A00561: ;
+    rdfs:comment "Part 3 Transitional - Abrievated Graph Key: P13"@en-AU ;
+    skos:definition "Part 3 Transitional"@en-AU ;
+    skos:narrower C2004A00561:10 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304581> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304581"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00561:14 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S14 Schedule 5 Primary Industry Councils Act 1991"@en-AU ;
+    dct:isPartOf C2004A00561:3 ;
+    dct:isReferencedBy C2004A00561: ;
+    rdfs:comment "Schedule 5 Primary Industry Councils Act 1991 - Abrievated Graph Key: S14"@en-AU ;
+    skos:definition "Schedule 5 Primary Industry Councils Act 1991"@en-AU ;
+    skos:narrower C2004A00561:3 ;
+    skos:prefLabel "Schedule S14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304582> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304582"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00561:15 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S15 Schedule 6 Rural Adjustment Act 1992"@en-AU ;
+    dct:isPartOf C2004A00561:3 ;
+    dct:isReferencedBy C2004A00561: ;
+    rdfs:comment "Schedule 6 Rural Adjustment Act 1992 - Abrievated Graph Key: S15"@en-AU ;
+    skos:definition "Schedule 6 Rural Adjustment Act 1992"@en-AU ;
+    skos:narrower C2004A00561:3 ;
+    skos:prefLabel "Schedule S15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304583> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304583"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00561:16 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S16 Schedule 7 Australian Wine and Brandy Corporation Act 1980"@en-AU ;
+    dct:isPartOf C2004A00561:3 ;
+    dct:isReferencedBy C2004A00561: ;
+    rdfs:comment "Schedule 7 Australian Wine and Brandy Corporation Act 1980 - Abrievated Graph Key: S16"@en-AU ;
+    skos:definition "Schedule 7 Australian Wine and Brandy Corporation Act 1980"@en-AU ;
+    skos:narrower C2004A00561:3 ;
+    skos:prefLabel "Schedule S16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304586> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304586"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00561:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Plant Breeders Rights Act 1994"@en-AU ;
+    dct:isPartOf C2004A00561:3 ;
+    dct:isReferencedBy C2004A00561: ;
+    rdfs:comment "Schedule 1 Plant Breeders Rights Act 1994 - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Plant Breeders Rights Act 1994"@en-AU ;
+    skos:narrower C2004A00561:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304567> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304567"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00561:5 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S5 Schedule 2 Primary Industries Levies and Charges Collection Act 1991"@en-AU ;
+    dct:isPartOf C2004A00561:3 ;
+    dct:isReferencedBy C2004A00561: ;
+    rdfs:comment "Schedule 2 Primary Industries Levies and Charges Collection Act 1991 - Abrievated Graph Key: S5"@en-AU ;
+    skos:definition "Schedule 2 Primary Industries Levies and Charges Collection Act 1991"@en-AU ;
+    skos:narrower C2004A00561:3 ;
+    skos:prefLabel "Schedule S5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304568> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304568"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00561:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Australian Horticultural Corporation Act 1987"@en-AU ;
+    dct:isPartOf C2004A00561:6 ;
+    dct:isReferencedBy C2004A00561: ;
+    rdfs:comment "Australian Horticultural Corporation Act 1987 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Australian Horticultural Corporation Act 1987"@en-AU ;
+    skos:narrower C2004A00561:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304572> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304572"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00561:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Farm Household Support Act 1992"@en-AU ;
+    dct:isPartOf C2004A00561:6 ;
+    dct:isReferencedBy C2004A00561: ;
+    rdfs:comment "Farm Household Support Act 1992 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Farm Household Support Act 1992"@en-AU ;
+    skos:narrower C2004A00561:6 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304573> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304573"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00561:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Primary Industries and Energy Legislation Amendment Act No 1 1996"@en-AU ;
+    dct:isPartOf C2004A00561:6 ;
+    dct:isReferencedBy C2004A00561: ;
+    rdfs:comment "Primary Industries and Energy Legislation Amendment Act No 1 1996 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Primary Industries and Energy Legislation Amendment Act No 1 1996"@en-AU ;
+    skos:narrower C2004A00561:6 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304574> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304574"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00561:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 4 Natural Resources Management Financial Assistance Act 1992"@en-AU ;
+    dct:hasPart C2004A00561:11,
+        C2004A00561:12,
+        C2004A00561:13 ;
+    dct:isPartOf C2004A00561:3 ;
+    dct:isReferencedBy C2004A00561: ;
+    rdfs:comment "Schedule 4 Natural Resources Management Financial Assistance Act 1992 - Abrievated Graph Key: S10"@en-AU ;
+    skos:broader C2004A00561:11,
+        C2004A00561:12,
+        C2004A00561:13 ;
+    skos:definition "Schedule 4 Natural Resources Management Financial Assistance Act 1992"@en-AU ;
+    skos:narrower C2004A00561:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304575> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304575"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00561:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 3 Technical amendments"@en-AU ;
+    dct:hasPart C2004A00561:7,
+        C2004A00561:8,
+        C2004A00561:9 ;
+    dct:isPartOf C2004A00561:3 ;
+    dct:isReferencedBy C2004A00561: ;
+    rdfs:comment "Schedule 3 Technical amendments - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2004A00561:7,
+        C2004A00561:8,
+        C2004A00561:9 ;
+    skos:definition "Schedule 3 Technical amendments"@en-AU ;
+    skos:narrower C2004A00561:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304571> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304571"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00561:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A00561:10,
+        C2004A00561:14,
+        C2004A00561:15,
+        C2004A00561:16,
+        C2004A00561:4,
+        C2004A00561:5,
+        C2004A00561:6 ;
+    dct:isReferencedBy C2004A00561: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A00561:10,
+        C2004A00561:14,
+        C2004A00561:15,
+        C2004A00561:16,
+        C2004A00561:4,
+        C2004A00561:5,
+        C2004A00561:6 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304566> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00561/asmade/1996-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc455304566"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00561: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Agriculture, Fisheries and Forestry Legislation Amendment Act (No. 2) 1999" ;
+    dct:Jurisdiction " Department of Agriculture, Fisheries and Forestry "@en-AU ;
+    dct:created "2026-05-23T13:52:46.550154"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "1996-06-28T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Agriculture, Fisheries and Forestry Legislation Amendment Act (No. 2) 1999"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A00561/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Agriculture, Fisheries and Forestry Legislation Amendment Act (No. 2) 1999"@en-AU ;
+    dct:title "Agriculture, Fisheries and Forestry Legislation Amendment Act (No. 2) 1999"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2004A00561" .
+

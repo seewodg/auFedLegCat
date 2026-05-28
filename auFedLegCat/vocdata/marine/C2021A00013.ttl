@@ -1,0 +1,3060 @@
+@prefix C2021A00013: <http://example.org/au/leg/dataset/C2021A00013/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2021A00013:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744669> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744669"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744670> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744670"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:10 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D10 Division 2 Application of amendments"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Division 2 Application of amendments - Abrievated Graph Key: D10"@en-AU ;
+    skos:definition "Division 2 Application of amendments"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Division D10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744703> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744703"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2021A00013:100 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I100 Law Enforcement Integrity Commissioner Act 2006"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Law Enforcement Integrity Commissioner Act 2006 - Abrievated Graph Key: I100"@en-AU ;
+    skos:definition "Law Enforcement Integrity Commissioner Act 2006"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I100"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744808> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744808"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:101 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I101 Major Sporting Events Indicia and Images Protection Act 2014"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Major Sporting Events Indicia and Images Protection Act 2014 - Abrievated Graph Key: I101"@en-AU ;
+    skos:definition "Major Sporting Events Indicia and Images Protection Act 2014"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I101"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744809> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744809"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:102 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I102 Marriage Act 1961"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Marriage Act 1961 - Abrievated Graph Key: I102"@en-AU ;
+    skos:definition "Marriage Act 1961"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I102"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744810> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744810"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:103 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I103 Marriage Amendment Definition and Religious Freedoms Act 2017"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Marriage Amendment Definition and Religious Freedoms Act 2017 - Abrievated Graph Key: I103"@en-AU ;
+    skos:definition "Marriage Amendment Definition and Religious Freedoms Act 2017"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I103"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744811> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744811"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:104 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I104 Maternity Leave Commonwealth Employees Act 1973"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Maternity Leave Commonwealth Employees Act 1973 - Abrievated Graph Key: I104"@en-AU ;
+    skos:definition "Maternity Leave Commonwealth Employees Act 1973"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I104"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744812> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744812"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:105 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I105 Migration Act 1958"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Migration Act 1958 - Abrievated Graph Key: I105"@en-AU ;
+    skos:definition "Migration Act 1958"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I105"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744813> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744813"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:106 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I106 Mutual Assistance in Criminal Matters Act 1987"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Mutual Assistance in Criminal Matters Act 1987 - Abrievated Graph Key: I106"@en-AU ;
+    skos:definition "Mutual Assistance in Criminal Matters Act 1987"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I106"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744814> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744814"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:107 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I107 My Health Records Act 2012"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "My Health Records Act 2012 - Abrievated Graph Key: I107"@en-AU ;
+    skos:definition "My Health Records Act 2012"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I107"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744815> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744815"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:108 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I108 Narcotic Drugs Act 1967"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Narcotic Drugs Act 1967 - Abrievated Graph Key: I108"@en-AU ;
+    skos:definition "Narcotic Drugs Act 1967"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I108"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744816> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744816"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:109 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I109 National Cancer Screening Register Act 2016"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "National Cancer Screening Register Act 2016 - Abrievated Graph Key: I109"@en-AU ;
+    skos:definition "National Cancer Screening Register Act 2016"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I109"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744817> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744817"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:11 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D11 Division 3 Saving and transitional provisions Family Law Act 1975 amendments"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Division 3 Saving and transitional provisions Family Law Act 1975 amendments - Abrievated Graph Key: D11"@en-AU ;
+    skos:definition "Division 3 Saving and transitional provisions Family Law Act 1975 amendments"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Division D11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744704> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744704"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2021A00013:110 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I110 National Consumer Credit Protection Act 2009"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "National Consumer Credit Protection Act 2009 - Abrievated Graph Key: I110"@en-AU ;
+    skos:definition "National Consumer Credit Protection Act 2009"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I110"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744818> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744818"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:111 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I111 National Disability Insurance Scheme Act 2013"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "National Disability Insurance Scheme Act 2013 - Abrievated Graph Key: I111"@en-AU ;
+    skos:definition "National Disability Insurance Scheme Act 2013"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I111"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744819> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744819"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:112 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I112 National Greenhouse and Energy Reporting Act 2007"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "National Greenhouse and Energy Reporting Act 2007 - Abrievated Graph Key: I112"@en-AU ;
+    skos:definition "National Greenhouse and Energy Reporting Act 2007"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I112"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744820> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744820"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:113 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I113 National Health Act 1953"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "National Health Act 1953 - Abrievated Graph Key: I113"@en-AU ;
+    skos:definition "National Health Act 1953"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I113"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744821> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744821"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:114 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I114 National Health Security Act 2007"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "National Health Security Act 2007 - Abrievated Graph Key: I114"@en-AU ;
+    skos:definition "National Health Security Act 2007"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I114"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744822> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744822"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:115 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I115 National Measurement Act 1960"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "National Measurement Act 1960 - Abrievated Graph Key: I115"@en-AU ;
+    skos:definition "National Measurement Act 1960"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I115"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744823> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744823"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:116 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I116 National Redress Scheme for Institutional Child Sexual Abuse Act 2018"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "National Redress Scheme for Institutional Child Sexual Abuse Act 2018 - Abrievated Graph Key: I116"@en-AU ;
+    skos:definition "National Redress Scheme for Institutional Child Sexual Abuse Act 2018"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I116"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744824> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744824"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:117 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I117 National Vocational Education and Training Regulator Act 2011"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "National Vocational Education and Training Regulator Act 2011 - Abrievated Graph Key: I117"@en-AU ;
+    skos:definition "National Vocational Education and Training Regulator Act 2011"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I117"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744825> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744825"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:118 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I118 Offshore Petroleum and Greenhouse Gas Storage Act 2006"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Offshore Petroleum and Greenhouse Gas Storage Act 2006 - Abrievated Graph Key: I118"@en-AU ;
+    skos:definition "Offshore Petroleum and Greenhouse Gas Storage Act 2006"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I118"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744826> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744826"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:119 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I119 Ombudsman Act 1976"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Ombudsman Act 1976 - Abrievated Graph Key: I119"@en-AU ;
+    skos:definition "Ombudsman Act 1976"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I119"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744827> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744827"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:12 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D12 Division 4 Saving and transitional provisions Federal Court of Australia Act 1976 amendments"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Division 4 Saving and transitional provisions Federal Court of Australia Act 1976 amendments - Abrievated Graph Key: D12"@en-AU ;
+    skos:definition "Division 4 Saving and transitional provisions Federal Court of Australia Act 1976 amendments"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Division D12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744705> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744705"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2021A00013:120 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I120 Ozone Protection and Synthetic Greenhouse Gas Management Act 1989"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Ozone Protection and Synthetic Greenhouse Gas Management Act 1989 - Abrievated Graph Key: I120"@en-AU ;
+    skos:definition "Ozone Protection and Synthetic Greenhouse Gas Management Act 1989"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I120"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744828> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744828"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:121 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I121 Paid Parental Leave Act 2010"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Paid Parental Leave Act 2010 - Abrievated Graph Key: I121"@en-AU ;
+    skos:definition "Paid Parental Leave Act 2010"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I121"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744829> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744829"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:122 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I122 Parliamentary Business Resources Act 2017"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Parliamentary Business Resources Act 2017 - Abrievated Graph Key: I122"@en-AU ;
+    skos:definition "Parliamentary Business Resources Act 2017"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I122"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744830> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744830"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:123 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I123 Personal Property Securities Act 2009"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Personal Property Securities Act 2009 - Abrievated Graph Key: I123"@en-AU ;
+    skos:definition "Personal Property Securities Act 2009"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I123"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744831> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744831"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:124 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I124 Petroleum and Other Fuels Reporting Act 2017"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Petroleum and Other Fuels Reporting Act 2017 - Abrievated Graph Key: I124"@en-AU ;
+    skos:definition "Petroleum and Other Fuels Reporting Act 2017"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I124"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744832> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744832"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:125 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I125 Plant Breeders Rights Act 1994"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Plant Breeders Rights Act 1994 - Abrievated Graph Key: I125"@en-AU ;
+    skos:definition "Plant Breeders Rights Act 1994"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I125"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744833> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744833"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:126 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I126 Privacy Act 1988"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Privacy Act 1988 - Abrievated Graph Key: I126"@en-AU ;
+    skos:definition "Privacy Act 1988"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I126"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744834> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744834"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:127 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I127 Proceeds of Crime Act 2002"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Proceeds of Crime Act 2002 - Abrievated Graph Key: I127"@en-AU ;
+    skos:definition "Proceeds of Crime Act 2002"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I127"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744835> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744835"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:128 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I128 Product Emissions Standards Act 2017"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Product Emissions Standards Act 2017 - Abrievated Graph Key: I128"@en-AU ;
+    skos:definition "Product Emissions Standards Act 2017"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I128"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744836> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744836"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:129 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I129 Product Stewardship Act 2011"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Product Stewardship Act 2011 - Abrievated Graph Key: I129"@en-AU ;
+    skos:definition "Product Stewardship Act 2011"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I129"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744837> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744837"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 3 Amendments not commencing before 1 January 2020"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Part 3 Amendments not commencing before 1 January 2020 - Abrievated Graph Key: P13"@en-AU ;
+    skos:definition "Part 3 Amendments not commencing before 1 January 2020"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744706> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744706"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2021A00013:130 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I130 Public Interest Disclosure Act 2013"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Public Interest Disclosure Act 2013 - Abrievated Graph Key: I130"@en-AU ;
+    skos:definition "Public Interest Disclosure Act 2013"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I130"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744838> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744838"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:131 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I131 Regulatory Powers Standard Provisions Act 2014"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Regulatory Powers Standard Provisions Act 2014 - Abrievated Graph Key: I131"@en-AU ;
+    skos:definition "Regulatory Powers Standard Provisions Act 2014"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I131"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744839> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744839"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:132 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I132 Remuneration and Allowances Act 1990"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Remuneration and Allowances Act 1990 - Abrievated Graph Key: I132"@en-AU ;
+    skos:definition "Remuneration and Allowances Act 1990"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I132"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744840> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744840"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:133 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I133 Renewable Energy Electricity Act 2000"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Renewable Energy Electricity Act 2000 - Abrievated Graph Key: I133"@en-AU ;
+    skos:definition "Renewable Energy Electricity Act 2000"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I133"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744841> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744841"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:134 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I134 Resale Royalty Right for Visual Artists Act 2009"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Resale Royalty Right for Visual Artists Act 2009 - Abrievated Graph Key: I134"@en-AU ;
+    skos:definition "Resale Royalty Right for Visual Artists Act 2009"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I134"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744842> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744842"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:135 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I135 Road Vehicle Standards Act 2018"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Road Vehicle Standards Act 2018 - Abrievated Graph Key: I135"@en-AU ;
+    skos:definition "Road Vehicle Standards Act 2018"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I135"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744843> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744843"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:136 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I136 Security of Critical Infrastructure Act 2018"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Security of Critical Infrastructure Act 2018 - Abrievated Graph Key: I136"@en-AU ;
+    skos:definition "Security of Critical Infrastructure Act 2018"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I136"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744844> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744844"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:137 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I137 Shipping Registration Act 1981"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Shipping Registration Act 1981 - Abrievated Graph Key: I137"@en-AU ;
+    skos:definition "Shipping Registration Act 1981"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I137"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744845> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744845"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:138 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I138 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I138"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I138"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744846> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744846"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:139 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I139 Space Launches and Returns Act 2018"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Space Launches and Returns Act 2018 - Abrievated Graph Key: I139"@en-AU ;
+    skos:definition "Space Launches and Returns Act 2018"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I139"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744847> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744847"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Federal Circuit and Family Court of Australia Act 2021"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Federal Circuit and Family Court of Australia Act 2021 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Federal Circuit and Family Court of Australia Act 2021"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744707> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744707"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:140 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I140 Stronger Futures in the Northern Territory Act 2012"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Stronger Futures in the Northern Territory Act 2012 - Abrievated Graph Key: I140"@en-AU ;
+    skos:definition "Stronger Futures in the Northern Territory Act 2012"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I140"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744848> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744848"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:141 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I141 Student Assistance Act 1973"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Student Assistance Act 1973 - Abrievated Graph Key: I141"@en-AU ;
+    skos:definition "Student Assistance Act 1973"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I141"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744849> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744849"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:142 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I142 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I142"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I142"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744850> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744850"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:143 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I143 Telecommunications and Other Legislation Amendment Assistance and Access Act 2018"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Telecommunications and Other Legislation Amendment Assistance and Access Act 2018 - Abrievated Graph Key: I143"@en-AU ;
+    skos:definition "Telecommunications and Other Legislation Amendment Assistance and Access Act 2018"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I143"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744851> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744851"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:144 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I144 Tertiary Education Quality and Standards Agency Act 2011"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Tertiary Education Quality and Standards Agency Act 2011 - Abrievated Graph Key: I144"@en-AU ;
+    skos:definition "Tertiary Education Quality and Standards Agency Act 2011"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I144"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744852> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744852"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:145 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I145 Therapeutic Goods Act 1989"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Therapeutic Goods Act 1989 - Abrievated Graph Key: I145"@en-AU ;
+    skos:definition "Therapeutic Goods Act 1989"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I145"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744853> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744853"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:146 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I146 Tobacco Plain Packaging Act 2011"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Tobacco Plain Packaging Act 2011 - Abrievated Graph Key: I146"@en-AU ;
+    skos:definition "Tobacco Plain Packaging Act 2011"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I146"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744854> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744854"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:147 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I147 Trade Marks Act 1995"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Trade Marks Act 1995 - Abrievated Graph Key: I147"@en-AU ;
+    skos:definition "Trade Marks Act 1995"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I147"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744855> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744855"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:148 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I148 Trans Tasman Proceedings Act 2010"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Trans Tasman Proceedings Act 2010 - Abrievated Graph Key: I148"@en-AU ;
+    skos:definition "Trans Tasman Proceedings Act 2010"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I148"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744856> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744856"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:149 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I149 Underwater Cultural Heritage Act 2018"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Underwater Cultural Heritage Act 2018 - Abrievated Graph Key: I149"@en-AU ;
+    skos:definition "Underwater Cultural Heritage Act 2018"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I149"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744857> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744857"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:15 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P15 Part 4 Amendments relating to making Rules of Court"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Part 4 Amendments relating to making Rules of Court - Abrievated Graph Key: P15"@en-AU ;
+    skos:definition "Part 4 Amendments relating to making Rules of Court"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Part P15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744708> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744708"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2021A00013:150 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I150 VET Student Loans Act 2016"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "VET Student Loans Act 2016 - Abrievated Graph Key: I150"@en-AU ;
+    skos:definition "VET Student Loans Act 2016"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I150"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744858> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744858"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:151 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I151 Water Act 2007"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Water Act 2007 - Abrievated Graph Key: I151"@en-AU ;
+    skos:definition "Water Act 2007"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I151"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744859> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744859"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:152 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I152 Water Efficiency Labelling and Standards Act 2005"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Water Efficiency Labelling and Standards Act 2005 - Abrievated Graph Key: I152"@en-AU ;
+    skos:definition "Water Efficiency Labelling and Standards Act 2005"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I152"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744860> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744860"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:153 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I153 Work Health and Safety Act 2011"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Work Health and Safety Act 2011 - Abrievated Graph Key: I153"@en-AU ;
+    skos:definition "Work Health and Safety Act 2011"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I153"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744861> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744861"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:154 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S154 Schedule 3 Repeal of the Federal Circuit Court of Australia Act 1999"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Schedule 3 Repeal of the Federal Circuit Court of Australia Act 1999 - Abrievated Graph Key: S154"@en-AU ;
+    skos:definition "Schedule 3 Repeal of the Federal Circuit Court of Australia Act 1999"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Schedule S154"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744862> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744862"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2021A00013:155 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P155 Part 1 Repeals"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Part 1 Repeals - Abrievated Graph Key: P155"@en-AU ;
+    skos:definition "Part 1 Repeals"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Part P155"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744863> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744863"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2021A00013:156 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I156 Federal Circuit Court of Australia Act 1999"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Federal Circuit Court of Australia Act 1999 - Abrievated Graph Key: I156"@en-AU ;
+    skos:definition "Federal Circuit Court of Australia Act 1999"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I156"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744864> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744864"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:157 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P157 Part 2 Saving and transitional provisions"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Part 2 Saving and transitional provisions - Abrievated Graph Key: P157"@en-AU ;
+    skos:definition "Part 2 Saving and transitional provisions"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Part P157"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744865> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744865"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2021A00013:158 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S158 Schedule 4 Contingent amendments"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Schedule 4 Contingent amendments - Abrievated Graph Key: S158"@en-AU ;
+    skos:definition "Schedule 4 Contingent amendments"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Schedule S158"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744866> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744866"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2021A00013:159 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P159 Part 1 Aged Care Legislation Amendment New Commissioner Functions Act 2019"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Part 1 Aged Care Legislation Amendment New Commissioner Functions Act 2019 - Abrievated Graph Key: P159"@en-AU ;
+    skos:definition "Part 1 Aged Care Legislation Amendment New Commissioner Functions Act 2019"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Part P159"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744867> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744867"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2021A00013:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Corporations Aboriginal and Torres Strait Islander Act 2006"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Corporations Aboriginal and Torres Strait Islander Act 2006 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Corporations Aboriginal and Torres Strait Islander Act 2006"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744709> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744709"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:160 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I160 Aged Care Act 1997"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Aged Care Act 1997 - Abrievated Graph Key: I160"@en-AU ;
+    skos:definition "Aged Care Act 1997"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I160"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744868> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744868"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:161 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I161 Aged Care Quality and Safety Commission Act 2018"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Aged Care Quality and Safety Commission Act 2018 - Abrievated Graph Key: I161"@en-AU ;
+    skos:definition "Aged Care Quality and Safety Commission Act 2018"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I161"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744869> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744869"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:162 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P162 Part 2 Communications Legislation Amendment Deregulation and Other Measures Act 2019"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Part 2 Communications Legislation Amendment Deregulation and Other Measures Act 2019 - Abrievated Graph Key: P162"@en-AU ;
+    skos:definition "Part 2 Communications Legislation Amendment Deregulation and Other Measures Act 2019"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Part P162"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744870> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744870"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2021A00013:163 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I163 Communications Legislation Amendment Deregulation and Other Measures Act 2019"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Communications Legislation Amendment Deregulation and Other Measures Act 2019 - Abrievated Graph Key: I163"@en-AU ;
+    skos:definition "Communications Legislation Amendment Deregulation and Other Measures Act 2019"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I163"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744871> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744871"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:164 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P164 Part 3 Fair Work Laws Amendment Proper Use of Worker Benefits Act 2021"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Part 3 Fair Work Laws Amendment Proper Use of Worker Benefits Act 2021 - Abrievated Graph Key: P164"@en-AU ;
+    skos:definition "Part 3 Fair Work Laws Amendment Proper Use of Worker Benefits Act 2021"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Part P164"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744872> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744872"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2021A00013:165 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I165 Fair Work Act 2009"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Fair Work Act 2009 - Abrievated Graph Key: I165"@en-AU ;
+    skos:definition "Fair Work Act 2009"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I165"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744873> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744873"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:166 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P166 Part 4 Family Law Amendment Western Australia De Facto Superannuation Splitting and Bankruptcy Act 2020"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Part 4 Family Law Amendment Western Australia De Facto Superannuation Splitting and Bankruptcy Act 2020 - Abrievated Graph Key: P166"@en-AU ;
+    skos:definition "Part 4 Family Law Amendment Western Australia De Facto Superannuation Splitting and Bankruptcy Act 2020"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Part P166"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744874> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744874"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2021A00013:167 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I167 Bankruptcy Act 1966"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Bankruptcy Act 1966 - Abrievated Graph Key: I167"@en-AU ;
+    skos:definition "Bankruptcy Act 1966"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I167"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744875> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744875"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:168 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I168 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I168"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I168"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744876> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744876"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:169 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I169 Federal Circuit and Family Court of Australia Act 2021"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Federal Circuit and Family Court of Australia Act 2021 - Abrievated Graph Key: I169"@en-AU ;
+    skos:definition "Federal Circuit and Family Court of Australia Act 2021"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I169"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744878> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744878"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744710> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744710"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:170 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P170 Part 5 Interactive Gambling Amendment National Self exclusion Register Act 2019"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Part 5 Interactive Gambling Amendment National Self exclusion Register Act 2019 - Abrievated Graph Key: P170"@en-AU ;
+    skos:definition "Part 5 Interactive Gambling Amendment National Self exclusion Register Act 2019"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Part P170"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744879> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744879"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2021A00013:171 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I171 Interactive Gambling Act 2001"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Interactive Gambling Act 2001 - Abrievated Graph Key: I171"@en-AU ;
+    skos:definition "Interactive Gambling Act 2001"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I171"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744880> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744880"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:172 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P172 Part 6 National Sports Tribunal Act 2019"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Part 6 National Sports Tribunal Act 2019 - Abrievated Graph Key: P172"@en-AU ;
+    skos:definition "Part 6 National Sports Tribunal Act 2019"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Part P172"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744881> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744881"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2021A00013:173 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I173 National Sports Tribunal Act 2019"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "National Sports Tribunal Act 2019 - Abrievated Graph Key: I173"@en-AU ;
+    skos:definition "National Sports Tribunal Act 2019"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I173"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744882> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744882"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:174 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P174 Part 7 Offshore Petroleum and Greenhouse Gas Storage Amendment Miscellaneous Amendments Act 2019"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Part 7 Offshore Petroleum and Greenhouse Gas Storage Amendment Miscellaneous Amendments Act 2019 - Abrievated Graph Key: P174"@en-AU ;
+    skos:definition "Part 7 Offshore Petroleum and Greenhouse Gas Storage Amendment Miscellaneous Amendments Act 2019"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Part P174"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744883> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744883"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2021A00013:175 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I175 Offshore Petroleum and Greenhouse Gas Storage Act 2006"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Offshore Petroleum and Greenhouse Gas Storage Act 2006 - Abrievated Graph Key: I175"@en-AU ;
+    skos:definition "Offshore Petroleum and Greenhouse Gas Storage Act 2006"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I175"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744884> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744884"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:176 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P176 Part 8 Student Identifiers Amendment Enhanced Student Permissions Act 2020"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Part 8 Student Identifiers Amendment Enhanced Student Permissions Act 2020 - Abrievated Graph Key: P176"@en-AU ;
+    skos:definition "Part 8 Student Identifiers Amendment Enhanced Student Permissions Act 2020"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Part P176"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744885> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744885"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2021A00013:177 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I177 Student Identifiers Act 2014"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Student Identifiers Act 2014 - Abrievated Graph Key: I177"@en-AU ;
+    skos:definition "Student Identifiers Act 2014"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I177"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744886> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744886"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:178 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P178 Part 9 Telecommunications Legislation Amendment Competition and Consumer Act 2020"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Part 9 Telecommunications Legislation Amendment Competition and Consumer Act 2020 - Abrievated Graph Key: P178"@en-AU ;
+    skos:definition "Part 9 Telecommunications Legislation Amendment Competition and Consumer Act 2020"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Part P178"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744887> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744887"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2021A00013:179 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I179 Telecommunications Act 1997"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Telecommunications Act 1997 - Abrievated Graph Key: I179"@en-AU ;
+    skos:definition "Telecommunications Act 1997"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I179"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744888> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744888"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744711> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744711"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:180 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I180 Telecommunications Consumer Protection and Service Standards Act 1999"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Telecommunications Consumer Protection and Service Standards Act 1999 - Abrievated Graph Key: I180"@en-AU ;
+    skos:definition "Telecommunications Consumer Protection and Service Standards Act 1999"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I180"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744889> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744889"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:181 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S181 Schedule 5 Transitional provisions"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Schedule 5 Transitional provisions - Abrievated Graph Key: S181"@en-AU ;
+    skos:definition "Schedule 5 Transitional provisions"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Schedule S181"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744890> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744890"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2021A00013:182 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P182 Part 1 Introduction"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Part 1 Introduction - Abrievated Graph Key: P182"@en-AU ;
+    skos:definition "Part 1 Introduction"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Part P182"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744891> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744891"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2021A00013:183 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P183 Part 2 Continuity of the Family Court of Australia and Judges and personnel of the Court"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Part 2 Continuity of the Family Court of Australia and Judges and personnel of the Court - Abrievated Graph Key: P183"@en-AU ;
+    skos:definition "Part 2 Continuity of the Family Court of Australia and Judges and personnel of the Court"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Part P183"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744892> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744892"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2021A00013:184 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P184 Part 3 Continuity of the Federal Circuit Court of Australia and Judges and personnel of the Court"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Part 3 Continuity of the Federal Circuit Court of Australia and Judges and personnel of the Court - Abrievated Graph Key: P184"@en-AU ;
+    skos:definition "Part 3 Continuity of the Federal Circuit Court of Australia and Judges and personnel of the Court"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Part P184"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744893> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744893"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2021A00013:185 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P185 Part 4 Transitional arrangements for appeals"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Part 4 Transitional arrangements for appeals - Abrievated Graph Key: P185"@en-AU ;
+    skos:definition "Part 4 Transitional arrangements for appeals"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Part P185"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744894> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744894"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2021A00013:186 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D186 Division 1 Appeals or applications not made but time for making appeal or application not expired"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Division 1 Appeals or applications not made but time for making appeal or application not expired - Abrievated Graph Key: D186"@en-AU ;
+    skos:definition "Division 1 Appeals or applications not made but time for making appeal or application not expired"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Division D186"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744895> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744895"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2021A00013:187 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D187 Division 2 Matters not substantively heard before the commencement day"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Division 2 Matters not substantively heard before the commencement day - Abrievated Graph Key: D187"@en-AU ;
+    skos:definition "Division 2 Matters not substantively heard before the commencement day"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Division D187"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744896> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744896"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2021A00013:188 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D188 Division 3 Matters substantively heard in whole or in part before the commencement day"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Division 3 Matters substantively heard in whole or in part before the commencement day - Abrievated Graph Key: D188"@en-AU ;
+    skos:definition "Division 3 Matters substantively heard in whole or in part before the commencement day"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Division D188"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744897> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744897"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2021A00013:189 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D189 Division 4 Miscellaneous"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Division 4 Miscellaneous - Abrievated Graph Key: D189"@en-AU ;
+    skos:definition "Division 4 Miscellaneous"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Division D189"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744898> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744898"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2021A00013:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Federal Circuit and Family Court of Australia Act 2021"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Federal Circuit and Family Court of Australia Act 2021 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Federal Circuit and Family Court of Australia Act 2021"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744712> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744712"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:190 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P190 Part 5 Miscellaneous"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Part 5 Miscellaneous - Abrievated Graph Key: P190"@en-AU ;
+    skos:definition "Part 5 Miscellaneous"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Part P190"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744899> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744899"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2021A00013:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Plant Breeders Rights Act 1994"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Plant Breeders Rights Act 1994 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Plant Breeders Rights Act 1994"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744713> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744713"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:21 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S21 Schedule 2 Further consequential amendments"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Schedule 2 Further consequential amendments - Abrievated Graph Key: S21"@en-AU ;
+    skos:definition "Schedule 2 Further consequential amendments"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Schedule S21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744714> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744714"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2021A00013:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Administrative Appeals Tribunal Act 1975"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Administrative Appeals Tribunal Act 1975 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Administrative Appeals Tribunal Act 1975"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744715> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744715"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Administrative Decisions Judicial Review Act 1977"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Administrative Decisions Judicial Review Act 1977 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Administrative Decisions Judicial Review Act 1977"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744716> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744716"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Admiralty Act 1988"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Admiralty Act 1988 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Admiralty Act 1988"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744718> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744718"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Aged Care Act 1997"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Aged Care Act 1997 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Aged Care Act 1997"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744719> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744719"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Age Discrimination Act 2004"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Age Discrimination Act 2004 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Age Discrimination Act 2004"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744720> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744720"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "A New Tax System Family Assistance Administration Act 1999 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "A New Tax System Family Assistance Administration Act 1999"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744721> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744721"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Antarctic Treaty Environment Protection Act 1980"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Antarctic Treaty Environment Protection Act 1980 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Antarctic Treaty Environment Protection Act 1980"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744722> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744722"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Archives Act 1983"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Archives Act 1983 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Archives Act 1983"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744723> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744723"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Australian Charities and Not for profits Commission Act 2012"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Australian Charities and Not for profits Commission Act 2012 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Australian Charities and Not for profits Commission Act 2012"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744724> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744724"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Australian Crime Commission Act 2002"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Australian Crime Commission Act 2002 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Australian Crime Commission Act 2002"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744725> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744725"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Australian Energy Market Act 2004"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Australian Energy Market Act 2004 - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Australian Energy Market Act 2004"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744726> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744726"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Australian Human Rights Commission Act 1986"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Australian Human Rights Commission Act 1986 - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Australian Human Rights Commission Act 1986"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744727> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744727"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Australian Jobs Act 2013"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Australian Jobs Act 2013 - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Australian Jobs Act 2013"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744728> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744728"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Australian Passports Act 2005"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Australian Passports Act 2005 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Australian Passports Act 2005"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744729> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744729"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 Australian Securities and Investments Commission Act 2001"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Australian Securities and Investments Commission Act 2001 - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "Australian Securities and Investments Commission Act 2001"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744730> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744730"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Australian Security Intelligence Organisation Act 1979"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Australian Security Intelligence Organisation Act 1979 - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Australian Security Intelligence Organisation Act 1979"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744731> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744731"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 Australian Sports Anti Doping Authority Act 2006"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Australian Sports Anti Doping Authority Act 2006 - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "Australian Sports Anti Doping Authority Act 2006"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744732> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744732"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 Bankruptcy Act 1966"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Bankruptcy Act 1966 - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "Bankruptcy Act 1966"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744733> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744733"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments relating to the Federal Circuit and Family Court of Australia"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Schedule 1 Amendments relating to the Federal Circuit and Family Court of Australia - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Amendments relating to the Federal Circuit and Family Court of Australia"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744672> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744672"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2021A00013:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 Biosecurity Act 2015"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Biosecurity Act 2015 - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "Biosecurity Act 2015"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744734> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744734"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 Broadcasting Legislation Amendment Broadcasting Reform Act 2017"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Broadcasting Legislation Amendment Broadcasting Reform Act 2017 - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "Broadcasting Legislation Amendment Broadcasting Reform Act 2017"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744735> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744735"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 Broadcasting Services Act 1992"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Broadcasting Services Act 1992 - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "Broadcasting Services Act 1992"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744736> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744736"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:43 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I43 Budget Savings Omnibus Act 2016"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Budget Savings Omnibus Act 2016 - Abrievated Graph Key: I43"@en-AU ;
+    skos:definition "Budget Savings Omnibus Act 2016"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744737> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744737"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 Building and Construction Industry Improving Productivity Act 2016"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Building and Construction Industry Improving Productivity Act 2016 - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "Building and Construction Industry Improving Productivity Act 2016"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744738> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744738"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:45 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I45 Building Energy Efficiency Disclosure Act 2010"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Building Energy Efficiency Disclosure Act 2010 - Abrievated Graph Key: I45"@en-AU ;
+    skos:definition "Building Energy Efficiency Disclosure Act 2010"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744739> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744739"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:46 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I46 Child Support Assessment Act 1989"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Child Support Assessment Act 1989 - Abrievated Graph Key: I46"@en-AU ;
+    skos:definition "Child Support Assessment Act 1989"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744740> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744740"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:47 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I47 Child Support Registration and Collection Act 1988"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Child Support Registration and Collection Act 1988 - Abrievated Graph Key: I47"@en-AU ;
+    skos:definition "Child Support Registration and Collection Act 1988"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744744> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744744"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:48 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I48 Civil Dispute Resolution Act 2011"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Civil Dispute Resolution Act 2011 - Abrievated Graph Key: I48"@en-AU ;
+    skos:definition "Civil Dispute Resolution Act 2011"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744748> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744748"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:49 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I49 Coal Mining Industry Long Service Leave Administration Act 1992"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Coal Mining Industry Long Service Leave Administration Act 1992 - Abrievated Graph Key: I49"@en-AU ;
+    skos:definition "Coal Mining Industry Long Service Leave Administration Act 1992"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744749> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744749"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Amendments"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P5"@en-AU ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744673> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744673"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2021A00013:50 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I50 Coal Mining Industry Long Service Leave Payroll Levy Collection Act 1992"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Coal Mining Industry Long Service Leave Payroll Levy Collection Act 1992 - Abrievated Graph Key: I50"@en-AU ;
+    skos:definition "Coal Mining Industry Long Service Leave Payroll Levy Collection Act 1992"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744750> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744750"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:51 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I51 Coastal Trading Revitalising Australian Shipping Act 2012"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Coastal Trading Revitalising Australian Shipping Act 2012 - Abrievated Graph Key: I51"@en-AU ;
+    skos:definition "Coastal Trading Revitalising Australian Shipping Act 2012"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744751> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744751"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:52 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I52 Competition and Consumer Act 2010"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Competition and Consumer Act 2010 - Abrievated Graph Key: I52"@en-AU ;
+    skos:definition "Competition and Consumer Act 2010"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744752> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744752"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:53 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I53 Copyright Act 1968"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Copyright Act 1968 - Abrievated Graph Key: I53"@en-AU ;
+    skos:definition "Copyright Act 1968"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744754> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744754"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:54 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I54 Corporations Aboriginal and Torres Strait Islander Act 2006"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Corporations Aboriginal and Torres Strait Islander Act 2006 - Abrievated Graph Key: I54"@en-AU ;
+    skos:definition "Corporations Aboriginal and Torres Strait Islander Act 2006"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744755> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744755"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:55 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I55 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I55"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744757> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744757"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:56 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I56 Court Security Act 2013"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Court Security Act 2013 - Abrievated Graph Key: I56"@en-AU ;
+    skos:definition "Court Security Act 2013"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744758> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744758"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:57 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I57 Crimes Act 1914"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Crimes Act 1914 - Abrievated Graph Key: I57"@en-AU ;
+    skos:definition "Crimes Act 1914"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I57"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744759> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744759"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:58 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I58 Criminal Code Act 1995"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Criminal Code Act 1995 - Abrievated Graph Key: I58"@en-AU ;
+    skos:definition "Criminal Code Act 1995"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I58"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744760> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744760"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:59 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I59 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I59"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I59"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744762> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744762"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Family Law Act 1975"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Family Law Act 1975 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Family Law Act 1975"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744674> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744674"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:60 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I60 Defence Act 1903"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Defence Act 1903 - Abrievated Graph Key: I60"@en-AU ;
+    skos:definition "Defence Act 1903"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I60"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744763> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744763"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:61 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I61 Defence Force Home Loans Assistance Act 1990"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Defence Force Home Loans Assistance Act 1990 - Abrievated Graph Key: I61"@en-AU ;
+    skos:definition "Defence Force Home Loans Assistance Act 1990"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I61"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744764> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744764"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:62 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I62 Defence Reserve Service Protection Act 2001"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Defence Reserve Service Protection Act 2001 - Abrievated Graph Key: I62"@en-AU ;
+    skos:definition "Defence Reserve Service Protection Act 2001"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I62"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744765> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744765"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:63 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I63 Designs Act 2003"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Designs Act 2003 - Abrievated Graph Key: I63"@en-AU ;
+    skos:definition "Designs Act 2003"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I63"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744766> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744766"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:64 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I64 Do Not Call Register Act 2006"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Do Not Call Register Act 2006 - Abrievated Graph Key: I64"@en-AU ;
+    skos:definition "Do Not Call Register Act 2006"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I64"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744767> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744767"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:65 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I65 Education Services for Overseas Students Act 2000"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Education Services for Overseas Students Act 2000 - Abrievated Graph Key: I65"@en-AU ;
+    skos:definition "Education Services for Overseas Students Act 2000"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I65"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744768> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744768"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:66 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I66 Enhancing Online Safety Act 2015"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Enhancing Online Safety Act 2015 - Abrievated Graph Key: I66"@en-AU ;
+    skos:definition "Enhancing Online Safety Act 2015"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I66"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744769> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744769"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:67 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I67 Evidence Act 1995"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Evidence Act 1995 - Abrievated Graph Key: I67"@en-AU ;
+    skos:definition "Evidence Act 1995"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I67"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744770> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744770"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:68 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I68 Extradition Act 1988"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Extradition Act 1988 - Abrievated Graph Key: I68"@en-AU ;
+    skos:definition "Extradition Act 1988"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I68"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744771> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744771"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:69 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I69 Fair Work Act 2009"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Fair Work Act 2009 - Abrievated Graph Key: I69"@en-AU ;
+    skos:definition "Fair Work Act 2009"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I69"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744772> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744772"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Federal Court of Australia Act 1976"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Federal Court of Australia Act 1976 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Federal Court of Australia Act 1976"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744688> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744688"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:70 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I70 Fair Work Registered Organisations Act 2009"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Fair Work Registered Organisations Act 2009 - Abrievated Graph Key: I70"@en-AU ;
+    skos:definition "Fair Work Registered Organisations Act 2009"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I70"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744775> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744775"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:71 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I71 Fair Work Transitional Provisions and Consequential Amendments Act 2009"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Fair Work Transitional Provisions and Consequential Amendments Act 2009 - Abrievated Graph Key: I71"@en-AU ;
+    skos:definition "Fair Work Transitional Provisions and Consequential Amendments Act 2009"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I71"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744776> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744776"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:72 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I72 Family Court of Western Australia Orders of Registrars Act 1997"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Family Court of Western Australia Orders of Registrars Act 1997 - Abrievated Graph Key: I72"@en-AU ;
+    skos:definition "Family Court of Western Australia Orders of Registrars Act 1997"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I72"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744777> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744777"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:73 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I73 Federal Proceedings Costs Act 1981"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Federal Proceedings Costs Act 1981 - Abrievated Graph Key: I73"@en-AU ;
+    skos:definition "Federal Proceedings Costs Act 1981"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I73"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744778> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744778"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:74 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I74 Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Foreign Acquisitions and Takeovers Act 1975 - Abrievated Graph Key: I74"@en-AU ;
+    skos:definition "Foreign Acquisitions and Takeovers Act 1975"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I74"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744779> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744779"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:75 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I75 Foreign Evidence Act 1994"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Foreign Evidence Act 1994 - Abrievated Graph Key: I75"@en-AU ;
+    skos:definition "Foreign Evidence Act 1994"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I75"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744780> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744780"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:76 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I76 Freedom of Information Act 1982"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Freedom of Information Act 1982 - Abrievated Graph Key: I76"@en-AU ;
+    skos:definition "Freedom of Information Act 1982"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I76"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744781> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744781"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:77 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I77 Government Procurement Judicial Review Act 2018"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Government Procurement Judicial Review Act 2018 - Abrievated Graph Key: I77"@en-AU ;
+    skos:definition "Government Procurement Judicial Review Act 2018"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I77"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744782> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744782"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:78 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I78 Great Barrier Reef Marine Park Amendment Authority Governance and Other Matters Act 2018"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Great Barrier Reef Marine Park Amendment Authority Governance and Other Matters Act 2018 - Abrievated Graph Key: I78"@en-AU ;
+    skos:definition "Great Barrier Reef Marine Park Amendment Authority Governance and Other Matters Act 2018"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I78"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744785> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744785"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:79 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I79 Greenhouse and Energy Minimum Standards Act 2012"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Greenhouse and Energy Minimum Standards Act 2012 - Abrievated Graph Key: I79"@en-AU ;
+    skos:definition "Greenhouse and Energy Minimum Standards Act 2012"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I79"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744786> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744786"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 2 Application saving and transitional provisions"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Part 2 Application saving and transitional provisions - Abrievated Graph Key: P8"@en-AU ;
+    skos:definition "Part 2 Application saving and transitional provisions"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744701> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744701"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2021A00013:80 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I80 Healthcare Identifiers Act 2010"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Healthcare Identifiers Act 2010 - Abrievated Graph Key: I80"@en-AU ;
+    skos:definition "Healthcare Identifiers Act 2010"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I80"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744787> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744787"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:81 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I81 Higher Education Support Act 2003"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Higher Education Support Act 2003 - Abrievated Graph Key: I81"@en-AU ;
+    skos:definition "Higher Education Support Act 2003"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I81"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744788> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744788"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:82 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I82 Horse Disease Response Levy Collection Act 2011"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Horse Disease Response Levy Collection Act 2011 - Abrievated Graph Key: I82"@en-AU ;
+    skos:definition "Horse Disease Response Levy Collection Act 2011"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I82"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744789> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744789"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:83 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I83 Human Rights Legislation Amendment Act 2017"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Human Rights Legislation Amendment Act 2017 - Abrievated Graph Key: I83"@en-AU ;
+    skos:definition "Human Rights Legislation Amendment Act 2017"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I83"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744790> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744790"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:84 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I84 Illegal Logging Prohibition Act 2012"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Illegal Logging Prohibition Act 2012 - Abrievated Graph Key: I84"@en-AU ;
+    skos:definition "Illegal Logging Prohibition Act 2012"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I84"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744791> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744791"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:85 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I85 Imported Food Control Act 1992"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Imported Food Control Act 1992 - Abrievated Graph Key: I85"@en-AU ;
+    skos:definition "Imported Food Control Act 1992"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I85"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744792> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744792"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:86 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I86 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I86"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I86"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744793> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744793"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:87 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I87 Independent Contractors Act 2006"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Independent Contractors Act 2006 - Abrievated Graph Key: I87"@en-AU ;
+    skos:definition "Independent Contractors Act 2006"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I87"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744794> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744794"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:88 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I88 Industrial Chemicals Act 2019"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Industrial Chemicals Act 2019 - Abrievated Graph Key: I88"@en-AU ;
+    skos:definition "Industrial Chemicals Act 2019"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I88"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744795> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744795"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:89 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I89 Industrial Chemicals Notification and Assessment Act 1989"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Industrial Chemicals Notification and Assessment Act 1989 - Abrievated Graph Key: I89"@en-AU ;
+    skos:definition "Industrial Chemicals Notification and Assessment Act 1989"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I89"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744796> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744796"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:9 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D9 Division 1 Introduction"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Division 1 Introduction - Abrievated Graph Key: D9"@en-AU ;
+    skos:definition "Division 1 Introduction"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Division D9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744702> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744702"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2021A00013:90 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I90 Inspector General of Live Animal Exports Act 2019"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Inspector General of Live Animal Exports Act 2019 - Abrievated Graph Key: I90"@en-AU ;
+    skos:definition "Inspector General of Live Animal Exports Act 2019"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I90"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744797> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744797"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:91 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I91 Insurance Contracts Act 1984"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Insurance Contracts Act 1984 - Abrievated Graph Key: I91"@en-AU ;
+    skos:definition "Insurance Contracts Act 1984"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I91"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744798> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744798"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:92 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I92 Intellectual Property Laws Amendment Productivity Commission Response Part 1 and Other Measures Act 2018"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Intellectual Property Laws Amendment Productivity Commission Response Part 1 and Other Measures Act 2018 - Abrievated Graph Key: I92"@en-AU ;
+    skos:definition "Intellectual Property Laws Amendment Productivity Commission Response Part 1 and Other Measures Act 2018"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I92"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744799> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744799"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:93 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I93 Interactive Gambling Act 2001"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Interactive Gambling Act 2001 - Abrievated Graph Key: I93"@en-AU ;
+    skos:definition "Interactive Gambling Act 2001"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I93"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744800> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744800"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:94 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I94 Judges Long Leave Payments Act 1979"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Judges Long Leave Payments Act 1979 - Abrievated Graph Key: I94"@en-AU ;
+    skos:definition "Judges Long Leave Payments Act 1979"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I94"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744801> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744801"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:95 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I95 Judges Pensions Act 1968"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Judges Pensions Act 1968 - Abrievated Graph Key: I95"@en-AU ;
+    skos:definition "Judges Pensions Act 1968"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I95"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744803> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744803"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:96 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I96 Judicial and Statutory Officers Remuneration and Allowances Act 1984"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Judicial and Statutory Officers Remuneration and Allowances Act 1984 - Abrievated Graph Key: I96"@en-AU ;
+    skos:definition "Judicial and Statutory Officers Remuneration and Allowances Act 1984"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I96"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744804> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744804"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:97 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I97 Judicial Misbehaviour and Incapacity Parliamentary Commissions Act 2012"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Judicial Misbehaviour and Incapacity Parliamentary Commissions Act 2012 - Abrievated Graph Key: I97"@en-AU ;
+    skos:definition "Judicial Misbehaviour and Incapacity Parliamentary Commissions Act 2012"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I97"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744805> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744805"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:98 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I98 Judiciary Act 1903"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Judiciary Act 1903 - Abrievated Graph Key: I98"@en-AU ;
+    skos:definition "Judiciary Act 1903"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I98"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744806> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744806"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013:99 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I99 Jurisdiction of Courts Cross vesting Act 1987"@en-AU ;
+    dct:isPartOf C2021A00013:3 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "Jurisdiction of Courts Cross vesting Act 1987 - Abrievated Graph Key: I99"@en-AU ;
+    skos:definition "Jurisdiction of Courts Cross vesting Act 1987"@en-AU ;
+    skos:narrower C2021A00013:3 ;
+    skos:prefLabel "Item I99"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744807> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744807"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2021A00013: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Federal Circuit and Family Court of Australia (Consequential Amendments and Transitional Provisions) Act 2021" ;
+    dct:Jurisdiction " Attorney-General's Department "@en-AU ;
+    dct:created "2026-05-23T03:30:44.035164"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2021-03-01T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Federal Circuit and Family Court of Australia (Consequential Amendments and Transitional Provisions) Act 2021"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2021A00013/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Federal Circuit and Family Court of Australia (Consequential Amendments and Transitional Provisions) Act 2021"@en-AU ;
+    dct:title "Federal Circuit and Family Court of Australia (Consequential Amendments and Transitional Provisions) Act 2021"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2021A00013" .
+
+C2021A00013:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2021A00013:10,
+        C2021A00013:100,
+        C2021A00013:101,
+        C2021A00013:102,
+        C2021A00013:103,
+        C2021A00013:104,
+        C2021A00013:105,
+        C2021A00013:106,
+        C2021A00013:107,
+        C2021A00013:108,
+        C2021A00013:109,
+        C2021A00013:11,
+        C2021A00013:110,
+        C2021A00013:111,
+        C2021A00013:112,
+        C2021A00013:113,
+        C2021A00013:114,
+        C2021A00013:115,
+        C2021A00013:116,
+        C2021A00013:117,
+        C2021A00013:118,
+        C2021A00013:119,
+        C2021A00013:12,
+        C2021A00013:120,
+        C2021A00013:121,
+        C2021A00013:122,
+        C2021A00013:123,
+        C2021A00013:124,
+        C2021A00013:125,
+        C2021A00013:126,
+        C2021A00013:127,
+        C2021A00013:128,
+        C2021A00013:129,
+        C2021A00013:13,
+        C2021A00013:130,
+        C2021A00013:131,
+        C2021A00013:132,
+        C2021A00013:133,
+        C2021A00013:134,
+        C2021A00013:135,
+        C2021A00013:136,
+        C2021A00013:137,
+        C2021A00013:138,
+        C2021A00013:139,
+        C2021A00013:14,
+        C2021A00013:140,
+        C2021A00013:141,
+        C2021A00013:142,
+        C2021A00013:143,
+        C2021A00013:144,
+        C2021A00013:145,
+        C2021A00013:146,
+        C2021A00013:147,
+        C2021A00013:148,
+        C2021A00013:149,
+        C2021A00013:15,
+        C2021A00013:150,
+        C2021A00013:151,
+        C2021A00013:152,
+        C2021A00013:153,
+        C2021A00013:154,
+        C2021A00013:155,
+        C2021A00013:156,
+        C2021A00013:157,
+        C2021A00013:158,
+        C2021A00013:159,
+        C2021A00013:16,
+        C2021A00013:160,
+        C2021A00013:161,
+        C2021A00013:162,
+        C2021A00013:163,
+        C2021A00013:164,
+        C2021A00013:165,
+        C2021A00013:166,
+        C2021A00013:167,
+        C2021A00013:168,
+        C2021A00013:169,
+        C2021A00013:17,
+        C2021A00013:170,
+        C2021A00013:171,
+        C2021A00013:172,
+        C2021A00013:173,
+        C2021A00013:174,
+        C2021A00013:175,
+        C2021A00013:176,
+        C2021A00013:177,
+        C2021A00013:178,
+        C2021A00013:179,
+        C2021A00013:18,
+        C2021A00013:180,
+        C2021A00013:181,
+        C2021A00013:182,
+        C2021A00013:183,
+        C2021A00013:184,
+        C2021A00013:185,
+        C2021A00013:186,
+        C2021A00013:187,
+        C2021A00013:188,
+        C2021A00013:189,
+        C2021A00013:19,
+        C2021A00013:190,
+        C2021A00013:20,
+        C2021A00013:21,
+        C2021A00013:22,
+        C2021A00013:23,
+        C2021A00013:24,
+        C2021A00013:25,
+        C2021A00013:26,
+        C2021A00013:27,
+        C2021A00013:28,
+        C2021A00013:29,
+        C2021A00013:30,
+        C2021A00013:31,
+        C2021A00013:32,
+        C2021A00013:33,
+        C2021A00013:34,
+        C2021A00013:35,
+        C2021A00013:36,
+        C2021A00013:37,
+        C2021A00013:38,
+        C2021A00013:39,
+        C2021A00013:4,
+        C2021A00013:40,
+        C2021A00013:41,
+        C2021A00013:42,
+        C2021A00013:43,
+        C2021A00013:44,
+        C2021A00013:45,
+        C2021A00013:46,
+        C2021A00013:47,
+        C2021A00013:48,
+        C2021A00013:49,
+        C2021A00013:5,
+        C2021A00013:50,
+        C2021A00013:51,
+        C2021A00013:52,
+        C2021A00013:53,
+        C2021A00013:54,
+        C2021A00013:55,
+        C2021A00013:56,
+        C2021A00013:57,
+        C2021A00013:58,
+        C2021A00013:59,
+        C2021A00013:6,
+        C2021A00013:60,
+        C2021A00013:61,
+        C2021A00013:62,
+        C2021A00013:63,
+        C2021A00013:64,
+        C2021A00013:65,
+        C2021A00013:66,
+        C2021A00013:67,
+        C2021A00013:68,
+        C2021A00013:69,
+        C2021A00013:7,
+        C2021A00013:70,
+        C2021A00013:71,
+        C2021A00013:72,
+        C2021A00013:73,
+        C2021A00013:74,
+        C2021A00013:75,
+        C2021A00013:76,
+        C2021A00013:77,
+        C2021A00013:78,
+        C2021A00013:79,
+        C2021A00013:8,
+        C2021A00013:80,
+        C2021A00013:81,
+        C2021A00013:82,
+        C2021A00013:83,
+        C2021A00013:84,
+        C2021A00013:85,
+        C2021A00013:86,
+        C2021A00013:87,
+        C2021A00013:88,
+        C2021A00013:89,
+        C2021A00013:9,
+        C2021A00013:90,
+        C2021A00013:91,
+        C2021A00013:92,
+        C2021A00013:93,
+        C2021A00013:94,
+        C2021A00013:95,
+        C2021A00013:96,
+        C2021A00013:97,
+        C2021A00013:98,
+        C2021A00013:99 ;
+    dct:isReferencedBy C2021A00013: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2021A00013:10,
+        C2021A00013:100,
+        C2021A00013:101,
+        C2021A00013:102,
+        C2021A00013:103,
+        C2021A00013:104,
+        C2021A00013:105,
+        C2021A00013:106,
+        C2021A00013:107,
+        C2021A00013:108,
+        C2021A00013:109,
+        C2021A00013:11,
+        C2021A00013:110,
+        C2021A00013:111,
+        C2021A00013:112,
+        C2021A00013:113,
+        C2021A00013:114,
+        C2021A00013:115,
+        C2021A00013:116,
+        C2021A00013:117,
+        C2021A00013:118,
+        C2021A00013:119,
+        C2021A00013:12,
+        C2021A00013:120,
+        C2021A00013:121,
+        C2021A00013:122,
+        C2021A00013:123,
+        C2021A00013:124,
+        C2021A00013:125,
+        C2021A00013:126,
+        C2021A00013:127,
+        C2021A00013:128,
+        C2021A00013:129,
+        C2021A00013:13,
+        C2021A00013:130,
+        C2021A00013:131,
+        C2021A00013:132,
+        C2021A00013:133,
+        C2021A00013:134,
+        C2021A00013:135,
+        C2021A00013:136,
+        C2021A00013:137,
+        C2021A00013:138,
+        C2021A00013:139,
+        C2021A00013:14,
+        C2021A00013:140,
+        C2021A00013:141,
+        C2021A00013:142,
+        C2021A00013:143,
+        C2021A00013:144,
+        C2021A00013:145,
+        C2021A00013:146,
+        C2021A00013:147,
+        C2021A00013:148,
+        C2021A00013:149,
+        C2021A00013:15,
+        C2021A00013:150,
+        C2021A00013:151,
+        C2021A00013:152,
+        C2021A00013:153,
+        C2021A00013:154,
+        C2021A00013:155,
+        C2021A00013:156,
+        C2021A00013:157,
+        C2021A00013:158,
+        C2021A00013:159,
+        C2021A00013:16,
+        C2021A00013:160,
+        C2021A00013:161,
+        C2021A00013:162,
+        C2021A00013:163,
+        C2021A00013:164,
+        C2021A00013:165,
+        C2021A00013:166,
+        C2021A00013:167,
+        C2021A00013:168,
+        C2021A00013:169,
+        C2021A00013:17,
+        C2021A00013:170,
+        C2021A00013:171,
+        C2021A00013:172,
+        C2021A00013:173,
+        C2021A00013:174,
+        C2021A00013:175,
+        C2021A00013:176,
+        C2021A00013:177,
+        C2021A00013:178,
+        C2021A00013:179,
+        C2021A00013:18,
+        C2021A00013:180,
+        C2021A00013:181,
+        C2021A00013:182,
+        C2021A00013:183,
+        C2021A00013:184,
+        C2021A00013:185,
+        C2021A00013:186,
+        C2021A00013:187,
+        C2021A00013:188,
+        C2021A00013:189,
+        C2021A00013:19,
+        C2021A00013:190,
+        C2021A00013:20,
+        C2021A00013:21,
+        C2021A00013:22,
+        C2021A00013:23,
+        C2021A00013:24,
+        C2021A00013:25,
+        C2021A00013:26,
+        C2021A00013:27,
+        C2021A00013:28,
+        C2021A00013:29,
+        C2021A00013:30,
+        C2021A00013:31,
+        C2021A00013:32,
+        C2021A00013:33,
+        C2021A00013:34,
+        C2021A00013:35,
+        C2021A00013:36,
+        C2021A00013:37,
+        C2021A00013:38,
+        C2021A00013:39,
+        C2021A00013:4,
+        C2021A00013:40,
+        C2021A00013:41,
+        C2021A00013:42,
+        C2021A00013:43,
+        C2021A00013:44,
+        C2021A00013:45,
+        C2021A00013:46,
+        C2021A00013:47,
+        C2021A00013:48,
+        C2021A00013:49,
+        C2021A00013:5,
+        C2021A00013:50,
+        C2021A00013:51,
+        C2021A00013:52,
+        C2021A00013:53,
+        C2021A00013:54,
+        C2021A00013:55,
+        C2021A00013:56,
+        C2021A00013:57,
+        C2021A00013:58,
+        C2021A00013:59,
+        C2021A00013:6,
+        C2021A00013:60,
+        C2021A00013:61,
+        C2021A00013:62,
+        C2021A00013:63,
+        C2021A00013:64,
+        C2021A00013:65,
+        C2021A00013:66,
+        C2021A00013:67,
+        C2021A00013:68,
+        C2021A00013:69,
+        C2021A00013:7,
+        C2021A00013:70,
+        C2021A00013:71,
+        C2021A00013:72,
+        C2021A00013:73,
+        C2021A00013:74,
+        C2021A00013:75,
+        C2021A00013:76,
+        C2021A00013:77,
+        C2021A00013:78,
+        C2021A00013:79,
+        C2021A00013:8,
+        C2021A00013:80,
+        C2021A00013:81,
+        C2021A00013:82,
+        C2021A00013:83,
+        C2021A00013:84,
+        C2021A00013:85,
+        C2021A00013:86,
+        C2021A00013:87,
+        C2021A00013:88,
+        C2021A00013:89,
+        C2021A00013:9,
+        C2021A00013:90,
+        C2021A00013:91,
+        C2021A00013:92,
+        C2021A00013:93,
+        C2021A00013:94,
+        C2021A00013:95,
+        C2021A00013:96,
+        C2021A00013:97,
+        C2021A00013:98,
+        C2021A00013:99 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744671> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2021A00013/asmade/2021-03-01/text/1/epub/OEBPS/document_1/document_1.html#_Toc65744671"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+

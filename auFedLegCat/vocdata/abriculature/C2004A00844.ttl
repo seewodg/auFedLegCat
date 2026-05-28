@@ -1,0 +1,162 @@
+@prefix C2004A00844: <http://example.org/au/leg/dataset/C2004A00844/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A00844:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A00844: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00844/asmade/2000-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc517837563> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00844/asmade/2000-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc517837563"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00844:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A00844: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00844/asmade/2000-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc517837564> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00844/asmade/2000-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc517837564"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00844:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2004A00844:4 ;
+    dct:isReferencedBy C2004A00844: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2004A00844:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00844/asmade/2000-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc517837567> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00844/asmade/2000-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc517837567"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00844:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2004A00844:6 ;
+    dct:isReferencedBy C2004A00844: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2004A00844:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00844/asmade/2000-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc517837710> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00844/asmade/2000-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc517837710"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00844:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2004A00844:8 ;
+    dct:isReferencedBy C2004A00844: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2004A00844:8 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00844/asmade/2000-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc517837712> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00844/asmade/2000-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc517837712"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00844:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Capital Allowances"@en-AU ;
+    dct:hasPart C2004A00844:5 ;
+    dct:isPartOf C2004A00844:3 ;
+    dct:isReferencedBy C2004A00844: ;
+    rdfs:comment "Schedule 1 Capital Allowances - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A00844:5 ;
+    skos:definition "Schedule 1 Capital Allowances"@en-AU ;
+    skos:narrower C2004A00844:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00844/asmade/2000-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc517837566> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00844/asmade/2000-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc517837566"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00844:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Effective life and lowcost plant"@en-AU ;
+    dct:hasPart C2004A00844:7 ;
+    dct:isPartOf C2004A00844:3 ;
+    dct:isReferencedBy C2004A00844: ;
+    rdfs:comment "Schedule 2 Effective life and lowcost plant - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2004A00844:7 ;
+    skos:definition "Schedule 2 Effective life and lowcost plant"@en-AU ;
+    skos:narrower C2004A00844:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00844/asmade/2000-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc517837709> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00844/asmade/2000-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc517837709"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00844:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 3 Secondhand plant"@en-AU ;
+    dct:hasPart C2004A00844:9 ;
+    dct:isPartOf C2004A00844:3 ;
+    dct:isReferencedBy C2004A00844: ;
+    rdfs:comment "Schedule 3 Secondhand plant - Abrievated Graph Key: S8"@en-AU ;
+    skos:broader C2004A00844:9 ;
+    skos:definition "Schedule 3 Secondhand plant"@en-AU ;
+    skos:narrower C2004A00844:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00844/asmade/2000-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc517837711> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00844/asmade/2000-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc517837711"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00844:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A00844:4,
+        C2004A00844:6,
+        C2004A00844:8 ;
+    dct:isReferencedBy C2004A00844: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A00844:4,
+        C2004A00844:6,
+        C2004A00844:8 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00844/asmade/2000-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc517837565> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00844/asmade/2000-07-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc517837565"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00844: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "New Business Tax System (Capital Allowances) Act 2001" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-23T14:14:57.450905"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2000-07-01T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "New Business Tax System (Capital Allowances) Act 2001"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A00844/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "New Business Tax System (Capital Allowances) Act 2001"@en-AU ;
+    dct:title "New Business Tax System (Capital Allowances) Act 2001"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2004A00844" .
+

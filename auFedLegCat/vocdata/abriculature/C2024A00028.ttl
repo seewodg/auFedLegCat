@@ -1,0 +1,179 @@
+@prefix C2024A00028: <http://example.org/au/leg/dataset/C2024A00028/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2024A00028:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2024A00028: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00028/asmade/2024-05-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc168065396> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00028/asmade/2024-05-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc168065396"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00028:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2024A00028: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00028/asmade/2024-05-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc168065397> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00028/asmade/2024-05-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc168065397"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00028:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Natural Heritage Trust of Australia Act 1997"@en-AU ;
+    dct:isPartOf C2024A00028:3 ;
+    dct:isReferencedBy C2024A00028: ;
+    rdfs:comment "Natural Heritage Trust of Australia Act 1997 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Natural Heritage Trust of Australia Act 1997"@en-AU ;
+    skos:narrower C2024A00028:3 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00028/asmade/2024-05-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc168065406> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00028/asmade/2024-05-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc168065406"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00028:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendment of the Primary Industries Research and Development Act 1989"@en-AU ;
+    dct:isPartOf C2024A00028:3 ;
+    dct:isReferencedBy C2024A00028: ;
+    rdfs:comment "Schedule 1 Amendment of the Primary Industries Research and Development Act 1989 - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Amendment of the Primary Industries Research and Development Act 1989"@en-AU ;
+    skos:narrower C2024A00028:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00028/asmade/2024-05-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc168065399> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00028/asmade/2024-05-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc168065399"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2024A00028:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Primary Industries Research and Development Act 1989"@en-AU ;
+    dct:isPartOf C2024A00028:3 ;
+    dct:isReferencedBy C2024A00028: ;
+    rdfs:comment "Primary Industries Research and Development Act 1989 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Primary Industries Research and Development Act 1989"@en-AU ;
+    skos:narrower C2024A00028:3 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00028/asmade/2024-05-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc168065400> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00028/asmade/2024-05-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc168065400"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00028:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Repeal of the Rural Adjustment Act 1992"@en-AU ;
+    dct:isPartOf C2024A00028:3 ;
+    dct:isReferencedBy C2024A00028: ;
+    rdfs:comment "Schedule 2 Repeal of the Rural Adjustment Act 1992 - Abrievated Graph Key: S6"@en-AU ;
+    skos:definition "Schedule 2 Repeal of the Rural Adjustment Act 1992"@en-AU ;
+    skos:narrower C2024A00028:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00028/asmade/2024-05-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc168065402> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00028/asmade/2024-05-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc168065402"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2024A00028:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 1 Repeal"@en-AU ;
+    dct:isPartOf C2024A00028:3 ;
+    dct:isReferencedBy C2024A00028: ;
+    rdfs:comment "Part 1 Repeal - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 1 Repeal"@en-AU ;
+    skos:narrower C2024A00028:3 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00028/asmade/2024-05-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc168065403> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00028/asmade/2024-05-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc168065403"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00028:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Rural Adjustment Act 1992"@en-AU ;
+    dct:isPartOf C2024A00028:3 ;
+    dct:isReferencedBy C2024A00028: ;
+    rdfs:comment "Rural Adjustment Act 1992 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Rural Adjustment Act 1992"@en-AU ;
+    skos:narrower C2024A00028:3 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00028/asmade/2024-05-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc168065404> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00028/asmade/2024-05-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc168065404"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00028:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 2 Consequential amendments"@en-AU ;
+    dct:isPartOf C2024A00028:3 ;
+    dct:isReferencedBy C2024A00028: ;
+    rdfs:comment "Part 2 Consequential amendments - Abrievated Graph Key: P9"@en-AU ;
+    skos:definition "Part 2 Consequential amendments"@en-AU ;
+    skos:narrower C2024A00028:3 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00028/asmade/2024-05-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc168065405> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00028/asmade/2024-05-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc168065405"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00028: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Agriculture Legislation Amendment (Modernising Administrative Processes) Act 2024" ;
+    dct:Jurisdiction " Department of Agriculture, Fisheries and Forestry "@en-AU ;
+    dct:created "2026-05-23T13:51:23.391671"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2024-05-30T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Agriculture Legislation Amendment (Modernising Administrative Processes) Act 2024"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2024A00028/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Agriculture Legislation Amendment (Modernising Administrative Processes) Act 2024"@en-AU ;
+    dct:title "Agriculture Legislation Amendment (Modernising Administrative Processes) Act 2024"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2024A00028" .
+
+C2024A00028:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2024A00028:10,
+        C2024A00028:4,
+        C2024A00028:5,
+        C2024A00028:6,
+        C2024A00028:7,
+        C2024A00028:8,
+        C2024A00028:9 ;
+    dct:isReferencedBy C2024A00028: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2024A00028:10,
+        C2024A00028:4,
+        C2024A00028:5,
+        C2024A00028:6,
+        C2024A00028:7,
+        C2024A00028:8,
+        C2024A00028:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00028/asmade/2024-05-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc168065398> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00028/asmade/2024-05-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc168065398"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+

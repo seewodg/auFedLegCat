@@ -1,0 +1,210 @@
+@prefix C2016A00012: <http://example.org/au/leg/dataset/C2016A00012/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2016A00012:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2016A00012: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613123> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613123"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00012:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2016A00012: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613124> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613124"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00012:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Narcotic Drugs Act 1967"@en-AU ;
+    dct:isPartOf C2016A00012:9 ;
+    dct:isReferencedBy C2016A00012: ;
+    rdfs:comment "Narcotic Drugs Act 1967 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Narcotic Drugs Act 1967"@en-AU ;
+    skos:narrower C2016A00012:9 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613293> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613293"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00012:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Therapeutic Goods Act 1989"@en-AU ;
+    dct:isPartOf C2016A00012:11 ;
+    dct:isReferencedBy C2016A00012: ;
+    rdfs:comment "Therapeutic Goods Act 1989 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Therapeutic Goods Act 1989"@en-AU ;
+    skos:narrower C2016A00012:11 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613296> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613296"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00012:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Narcotic Drugs Act 1967"@en-AU ;
+    dct:isPartOf C2016A00012:4 ;
+    dct:isReferencedBy C2016A00012: ;
+    rdfs:comment "Narcotic Drugs Act 1967 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Narcotic Drugs Act 1967"@en-AU ;
+    skos:narrower C2016A00012:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613127> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613127"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00012:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Narcotic Drugs Act 1967"@en-AU ;
+    dct:isPartOf C2016A00012:6 ;
+    dct:isReferencedBy C2016A00012: ;
+    rdfs:comment "Narcotic Drugs Act 1967 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Narcotic Drugs Act 1967"@en-AU ;
+    skos:narrower C2016A00012:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613289> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613289"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00012:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 3 Transitional provisions"@en-AU ;
+    dct:isPartOf C2016A00012:3 ;
+    dct:isReferencedBy C2016A00012: ;
+    rdfs:comment "Schedule 3 Transitional provisions - Abrievated Graph Key: S8"@en-AU ;
+    skos:definition "Schedule 3 Transitional provisions"@en-AU ;
+    skos:narrower C2016A00012:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613291> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613291"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00012:11 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S11 Schedule 5 Consequential amendments"@en-AU ;
+    dct:hasPart C2016A00012:12 ;
+    dct:isPartOf C2016A00012:3 ;
+    dct:isReferencedBy C2016A00012: ;
+    rdfs:comment "Schedule 5 Consequential amendments - Abrievated Graph Key: S11"@en-AU ;
+    skos:broader C2016A00012:12 ;
+    skos:definition "Schedule 5 Consequential amendments"@en-AU ;
+    skos:narrower C2016A00012:3 ;
+    skos:prefLabel "Schedule S11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613295> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613295"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00012:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments relating to medicinal cannabis"@en-AU ;
+    dct:hasPart C2016A00012:5 ;
+    dct:isPartOf C2016A00012:3 ;
+    dct:isReferencedBy C2016A00012: ;
+    rdfs:comment "Schedule 1 Amendments relating to medicinal cannabis - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2016A00012:5 ;
+    skos:definition "Schedule 1 Amendments relating to medicinal cannabis"@en-AU ;
+    skos:narrower C2016A00012:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613126> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613126"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00012:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Amendments relating to authorisation of State and Territory agencies"@en-AU ;
+    dct:hasPart C2016A00012:7 ;
+    dct:isPartOf C2016A00012:3 ;
+    dct:isReferencedBy C2016A00012: ;
+    rdfs:comment "Schedule 2 Amendments relating to authorisation of State and Territory agencies - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2016A00012:7 ;
+    skos:definition "Schedule 2 Amendments relating to authorisation of State and Territory agencies"@en-AU ;
+    skos:narrower C2016A00012:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613288> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613288"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00012:9 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S9 Schedule 4 Amendments relating to Schedules"@en-AU ;
+    dct:hasPart C2016A00012:10 ;
+    dct:isPartOf C2016A00012:3 ;
+    dct:isReferencedBy C2016A00012: ;
+    rdfs:comment "Schedule 4 Amendments relating to Schedules - Abrievated Graph Key: S9"@en-AU ;
+    skos:broader C2016A00012:10 ;
+    skos:definition "Schedule 4 Amendments relating to Schedules"@en-AU ;
+    skos:narrower C2016A00012:3 ;
+    skos:prefLabel "Schedule S9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613292> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613292"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00012:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2016A00012:11,
+        C2016A00012:4,
+        C2016A00012:6,
+        C2016A00012:8,
+        C2016A00012:9 ;
+    dct:isReferencedBy C2016A00012: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2016A00012:11,
+        C2016A00012:4,
+        C2016A00012:6,
+        C2016A00012:8,
+        C2016A00012:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613125> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00012/asmade/2016-02-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc444613125"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00012: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Narcotic Drugs Amendment Act 2016" ;
+    dct:Jurisdiction " Department of Health, Disability and Ageing "@en-AU ;
+    dct:created "2026-05-23T14:13:21.986766"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2016-02-29T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Narcotic Drugs Amendment Act 2016"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2016A00012/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Narcotic Drugs Amendment Act 2016"@en-AU ;
+    dct:title "Narcotic Drugs Amendment Act 2016"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2016A00012" .
+

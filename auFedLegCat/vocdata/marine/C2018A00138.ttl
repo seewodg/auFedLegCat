@@ -1,0 +1,114 @@
+@prefix C2018A00138: <http://example.org/au/leg/dataset/C2018A00138/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2018A00138:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2018A00138: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00138/asmade/2018-11-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc531267608> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00138/asmade/2018-11-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc531267608"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2018A00138:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2018A00138: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00138/asmade/2018-11-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc531267609> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00138/asmade/2018-11-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc531267609"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2018A00138:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2018A00138:4 ;
+    dct:isReferencedBy C2018A00138: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2018A00138:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00138/asmade/2018-11-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc531267610> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00138/asmade/2018-11-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc531267610"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2018A00138:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Marine Safety Domestic Commercial Vessel National Law Act 2012"@en-AU ;
+    dct:isPartOf C2018A00138:4 ;
+    dct:isReferencedBy C2018A00138: ;
+    rdfs:comment "Marine Safety Domestic Commercial Vessel National Law Act 2012 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Marine Safety Domestic Commercial Vessel National Law Act 2012"@en-AU ;
+    skos:narrower C2018A00138:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00138/asmade/2018-11-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc531267612> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00138/asmade/2018-11-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc531267612"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2018A00138:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Navigation Act 2012"@en-AU ;
+    dct:isPartOf C2018A00138:4 ;
+    dct:isReferencedBy C2018A00138: ;
+    rdfs:comment "Navigation Act 2012 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Navigation Act 2012"@en-AU ;
+    skos:narrower C2018A00138:4 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00138/asmade/2018-11-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc531267613> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00138/asmade/2018-11-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc531267613"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2018A00138: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Maritime Legislation Amendment Act 2018" ;
+    dct:Jurisdiction " Department of Infrastructure, Transport, Regional Development, Communications, Sport and the Arts "@en-AU ;
+    dct:created "2026-05-23T02:59:06.151208"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2018-11-29T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Maritime Legislation Amendment Act 2018"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2018A00138/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Maritime Legislation Amendment Act 2018"@en-AU ;
+    dct:title "Maritime Legislation Amendment Act 2018"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2018A00138" .
+
+C2018A00138:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments"@en-AU ;
+    dct:hasPart C2018A00138:5,
+        C2018A00138:6 ;
+    dct:isPartOf C2018A00138:3 ;
+    dct:isReferencedBy C2018A00138: ;
+    rdfs:comment "Schedule 1 Amendments - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2018A00138:5,
+        C2018A00138:6 ;
+    skos:definition "Schedule 1 Amendments"@en-AU ;
+    skos:narrower C2018A00138:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2018A00138/asmade/2018-11-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc531267611> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2018A00138/asmade/2018-11-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc531267611"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+

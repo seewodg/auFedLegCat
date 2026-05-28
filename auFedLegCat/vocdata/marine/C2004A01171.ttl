@@ -1,0 +1,178 @@
+@prefix C2004A01171: <http://example.org/au/leg/dataset/C2004A01171/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A01171:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A01171: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01171/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc50873970> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01171/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc50873970"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01171:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A01171: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01171/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc50873971> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01171/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc50873971"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01171:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    dct:isPartOf C2004A01171:9 ;
+    dct:isReferencedBy C2004A01171: ;
+    rdfs:comment "Environment Protection and Biodiversity Conservation Act 1999 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    skos:narrower C2004A01171:9 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01171/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc50874071> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01171/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc50874071"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01171:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    dct:isPartOf C2004A01171:4 ;
+    dct:isReferencedBy C2004A01171: ;
+    rdfs:comment "Environment Protection and Biodiversity Conservation Act 1999 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    skos:narrower C2004A01171:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01171/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc50873974> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01171/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc50873974"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01171:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    dct:isPartOf C2004A01171:6 ;
+    dct:isReferencedBy C2004A01171: ;
+    rdfs:comment "Environment Protection and Biodiversity Conservation Act 1999 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    skos:narrower C2004A01171:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01171/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc50874068> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01171/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc50874068"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01171:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 3 New listings of places in other lists"@en-AU ;
+    dct:isPartOf C2004A01171:3 ;
+    dct:isReferencedBy C2004A01171: ;
+    rdfs:comment "Schedule 3 New listings of places in other lists - Abrievated Graph Key: S8"@en-AU ;
+    skos:definition "Schedule 3 New listings of places in other lists"@en-AU ;
+    skos:narrower C2004A01171:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01171/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc50874069> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01171/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc50874069"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01171:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments relating to the National Heritage List and Commonwealth Heritage List"@en-AU ;
+    dct:hasPart C2004A01171:5 ;
+    dct:isPartOf C2004A01171:3 ;
+    dct:isReferencedBy C2004A01171: ;
+    rdfs:comment "Schedule 1 Amendments relating to the National Heritage List and Commonwealth Heritage List - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A01171:5 ;
+    skos:definition "Schedule 1 Amendments relating to the National Heritage List and Commonwealth Heritage List"@en-AU ;
+    skos:narrower C2004A01171:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01171/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc50873973> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01171/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc50873973"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01171:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Amendments relating to the Director of Indigenous Heritage Protection"@en-AU ;
+    dct:hasPart C2004A01171:7 ;
+    dct:isPartOf C2004A01171:3 ;
+    dct:isReferencedBy C2004A01171: ;
+    rdfs:comment "Schedule 2 Amendments relating to the Director of Indigenous Heritage Protection - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2004A01171:7 ;
+    skos:definition "Schedule 2 Amendments relating to the Director of Indigenous Heritage Protection"@en-AU ;
+    skos:narrower C2004A01171:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01171/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc50874067> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01171/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc50874067"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01171:9 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S9 Schedule 4 Other amendments"@en-AU ;
+    dct:hasPart C2004A01171:10 ;
+    dct:isPartOf C2004A01171:3 ;
+    dct:isReferencedBy C2004A01171: ;
+    rdfs:comment "Schedule 4 Other amendments - Abrievated Graph Key: S9"@en-AU ;
+    skos:broader C2004A01171:10 ;
+    skos:definition "Schedule 4 Other amendments"@en-AU ;
+    skos:narrower C2004A01171:3 ;
+    skos:prefLabel "Schedule S9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01171/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc50874070> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01171/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc50874070"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A01171:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A01171:4,
+        C2004A01171:6,
+        C2004A01171:8,
+        C2004A01171:9 ;
+    dct:isReferencedBy C2004A01171: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A01171:4,
+        C2004A01171:6,
+        C2004A01171:8,
+        C2004A01171:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A01171/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc50873972> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A01171/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc50873972"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A01171: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Environment and Heritage Legislation Amendment Act (No. 1) 2003" ;
+    dct:Jurisdiction " Department of Climate Change, Energy, the Environment and Water "@en-AU ;
+    dct:created "2026-05-23T03:31:31.379995"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2007-02-19T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Environment and Heritage Legislation Amendment Act (No. 1) 2003"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A01171/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Environment and Heritage Legislation Amendment Act (No. 1) 2003"@en-AU ;
+    dct:title "Environment and Heritage Legislation Amendment Act (No. 1) 2003"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2007C00084" .
+

@@ -1,0 +1,801 @@
+@prefix C2011A00132: <http://example.org/au/leg/dataset/C2011A00132/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2011A00132:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291742> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291742"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291743> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291743"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Carbon Credits Carbon Farming Initiative Act 2011"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Carbon Credits Carbon Farming Initiative Act 2011 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Carbon Credits Carbon Farming Initiative Act 2011"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291751> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291751"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Competition and Consumer Act 2010"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Competition and Consumer Act 2010 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Competition and Consumer Act 2010"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291753> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291753"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Financial Management and Accountability Regulations 1997"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Financial Management and Accountability Regulations 1997 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Financial Management and Accountability Regulations 1997"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291754> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291754"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 National Greenhouse and Energy Reporting Act 2007"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "National Greenhouse and Energy Reporting Act 2007 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "National Greenhouse and Energy Reporting Act 2007"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291755> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291755"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Ozone Protection and Synthetic Greenhouse Gas Management Act 1989"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Ozone Protection and Synthetic Greenhouse Gas Management Act 1989 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Ozone Protection and Synthetic Greenhouse Gas Management Act 1989"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291761> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291761"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Renewable Energy Electricity Act 2000"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Renewable Energy Electricity Act 2000 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Renewable Energy Electricity Act 2000"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291763> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291763"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291765> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291765"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:17 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D17 Division 2 Transitional provisions"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Division 2 Transitional provisions - Abrievated Graph Key: D17"@en-AU ;
+    skos:definition "Division 2 Transitional provisions"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Division D17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291766> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291766"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2011A00132:18 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P18 Part 2 Amendments commencing on 1 July 2012"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Part 2 Amendments commencing on 1 July 2012 - Abrievated Graph Key: P18"@en-AU ;
+    skos:definition "Part 2 Amendments commencing on 1 July 2012"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Part P18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291767> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291767"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2011A00132:19 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D19 Division 1 Amendments"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Division 1 Amendments - Abrievated Graph Key: D19"@en-AU ;
+    skos:definition "Division 1 Amendments"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Division D19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291768> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291768"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2011A00132:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Australian National Registry of Emissions Units Act 2011"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Australian National Registry of Emissions Units Act 2011 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Australian National Registry of Emissions Units Act 2011"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291769> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291769"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Australian Securities and Investments Commission Act 2001"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Australian Securities and Investments Commission Act 2001 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Australian Securities and Investments Commission Act 2001"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291778> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291778"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Carbon Credits Carbon Farming Initiative Act 2011"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Carbon Credits Carbon Farming Initiative Act 2011 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Carbon Credits Carbon Farming Initiative Act 2011"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291779> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291779"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Competition and Consumer Act 2010"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Competition and Consumer Act 2010 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Competition and Consumer Act 2010"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291781> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291781"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291782> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291782"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Evidence Act 1995"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Evidence Act 1995 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Evidence Act 1995"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291783> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291783"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Financial Management and Accountability Regulations 1997"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Financial Management and Accountability Regulations 1997 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Financial Management and Accountability Regulations 1997"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291784> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291784"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 National Greenhouse and Energy Reporting Act 2007"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "National Greenhouse and Energy Reporting Act 2007 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "National Greenhouse and Energy Reporting Act 2007"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291785> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291785"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Ozone Protection and Synthetic Greenhouse Gas Management Act 1989"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Ozone Protection and Synthetic Greenhouse Gas Management Act 1989 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Ozone Protection and Synthetic Greenhouse Gas Management Act 1989"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291835> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291835"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Renewable Energy Electricity Act 2000"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Renewable Energy Electricity Act 2000 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Renewable Energy Electricity Act 2000"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291845> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291845"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:30 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D30 Division 2 Application and transitional provisions"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Division 2 Application and transitional provisions - Abrievated Graph Key: D30"@en-AU ;
+    skos:definition "Division 2 Application and transitional provisions"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Division D30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291847> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291847"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2011A00132:31 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S31 Schedule 2 Taxation amendments"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Schedule 2 Taxation amendments - Abrievated Graph Key: S31"@en-AU ;
+    skos:definition "Schedule 2 Taxation amendments"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Schedule S31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291848> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291848"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2011A00132:32 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P32 Part 1 Amendments relating to GST"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Part 1 Amendments relating to GST - Abrievated Graph Key: P32"@en-AU ;
+    skos:definition "Part 1 Amendments relating to GST"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Part P32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291849> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291849"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2011A00132:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "A New Tax System Goods and Services Tax Act 1999 - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291850> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291850"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:34 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P34 Part 2 Amendments commencing at the same time as section 3 of the Clean Energy Act 2011 commences"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Part 2 Amendments commencing at the same time as section 3 of the Clean Energy Act 2011 commences - Abrievated Graph Key: P34"@en-AU ;
+    skos:definition "Part 2 Amendments commencing at the same time as section 3 of the Clean Energy Act 2011 commences"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Part P34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291853> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291853"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2011A00132:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291854> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291854"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291855> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291855"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291912> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291912"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291920> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291920"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:39 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S39 Schedule 3 Amendments relating to renewable energy certificates"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Schedule 3 Amendments relating to renewable energy certificates - Abrievated Graph Key: S39"@en-AU ;
+    skos:definition "Schedule 3 Amendments relating to renewable energy certificates"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Schedule S39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291921> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291921"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2011A00132:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 General amendments"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Schedule 1 General amendments - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 General amendments"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291745> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291745"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2011A00132:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 Renewable Energy Electricity Act 2000"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Renewable Energy Electricity Act 2000 - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "Renewable Energy Electricity Act 2000"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291922> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291922"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:41 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S41 Schedule 4 Amendments relating to the Australian National Registry of Emissions Units"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Schedule 4 Amendments relating to the Australian National Registry of Emissions Units - Abrievated Graph Key: S41"@en-AU ;
+    skos:definition "Schedule 4 Amendments relating to the Australian National Registry of Emissions Units"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Schedule S41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291924> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291924"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2011A00132:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 Australian National Registry of Emissions Units Act 2011"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Australian National Registry of Emissions Units Act 2011 - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "Australian National Registry of Emissions Units Act 2011"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291925> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291925"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:43 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S43 Schedule 5 Amendments relating to the Carbon Farming Initiative"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Schedule 5 Amendments relating to the Carbon Farming Initiative - Abrievated Graph Key: S43"@en-AU ;
+    skos:definition "Schedule 5 Amendments relating to the Carbon Farming Initiative"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Schedule S43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291947> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291947"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2011A00132:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 Carbon Credits Carbon Farming Initiative Act 2011"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Carbon Credits Carbon Farming Initiative Act 2011 - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "Carbon Credits Carbon Farming Initiative Act 2011"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291948> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291948"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:46 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I46 Endnote 1 About the endnotes"@en-AU ;
+    dct:isPartOf C2011A00132:45 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Endnote 1 About the endnotes - Abrievated Graph Key: I46"@en-AU ;
+    skos:definition "Endnote 1 About the endnotes"@en-AU ;
+    skos:narrower C2011A00132:45 ;
+    skos:prefLabel "Item I46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291952> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291952"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:47 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I47 Endnote 2 Abbreviation key"@en-AU ;
+    dct:isPartOf C2011A00132:45 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Endnote 2 Abbreviation key - Abrievated Graph Key: I47"@en-AU ;
+    skos:definition "Endnote 2 Abbreviation key"@en-AU ;
+    skos:narrower C2011A00132:45 ;
+    skos:prefLabel "Item I47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291953> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291953"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:48 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I48 Endnote 3 Legislation history"@en-AU ;
+    dct:isPartOf C2011A00132:45 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Endnote 3 Legislation history - Abrievated Graph Key: I48"@en-AU ;
+    skos:definition "Endnote 3 Legislation history"@en-AU ;
+    skos:narrower C2011A00132:45 ;
+    skos:prefLabel "Item I48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291954> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291954"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:49 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I49 Endnote 4 Amendment history"@en-AU ;
+    dct:isPartOf C2011A00132:45 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Endnote 4 Amendment history - Abrievated Graph Key: I49"@en-AU ;
+    skos:definition "Endnote 4 Amendment history"@en-AU ;
+    skos:narrower C2011A00132:45 ;
+    skos:prefLabel "Item I49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291955> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291955"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Amendments commencing at the same time as section 3 of the Clean Energy Act 2011 commences"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Part 1 Amendments commencing at the same time as section 3 of the Clean Energy Act 2011 commences - Abrievated Graph Key: P5"@en-AU ;
+    skos:definition "Part 1 Amendments commencing at the same time as section 3 of the Clean Energy Act 2011 commences"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291746> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291746"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2011A00132:6 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D6 Division 1 Amendments"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Division 1 Amendments - Abrievated Graph Key: D6"@en-AU ;
+    skos:definition "Division 1 Amendments"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Division D6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291747> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291747"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2011A00132:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Anti Money Laundering and Counter Terrorism Financing Act 2006 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Anti Money Laundering and Counter Terrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291748> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291748"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Australian National Registry of Emissions Units Act 2011"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Australian National Registry of Emissions Units Act 2011 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Australian National Registry of Emissions Units Act 2011"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291749> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291749"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Australian Securities and Investments Commission Act 2001"@en-AU ;
+    dct:isPartOf C2011A00132:3 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Australian Securities and Investments Commission Act 2001 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Australian Securities and Investments Commission Act 2001"@en-AU ;
+    skos:narrower C2011A00132:3 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291750> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291750"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00132:45 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E45 Endnotes"@en-AU ;
+    dct:hasPart C2011A00132:46,
+        C2011A00132:47,
+        C2011A00132:48,
+        C2011A00132:49 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E45"@en-AU ;
+    skos:broader C2011A00132:46,
+        C2011A00132:47,
+        C2011A00132:48,
+        C2011A00132:49 ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:prefLabel "Endnotes E45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291951> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291951"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+
+C2011A00132: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Clean Energy (Consequential Amendments) Act 2011" ;
+    dct:Jurisdiction " Department of Climate Change, Energy, the Environment and Water "@en-AU ;
+    dct:created "2026-05-23T13:59:57.922293"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2023-04-12T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Clean Energy (Consequential Amendments) Act 2011"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2011A00132/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Clean Energy (Consequential Amendments) Act 2011"@en-AU ;
+    dct:title "Clean Energy (Consequential Amendments) Act 2011"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Endnotes,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2023C00080 C03" .
+
+C2011A00132:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2011A00132:10,
+        C2011A00132:11,
+        C2011A00132:12,
+        C2011A00132:13,
+        C2011A00132:14,
+        C2011A00132:15,
+        C2011A00132:16,
+        C2011A00132:17,
+        C2011A00132:18,
+        C2011A00132:19,
+        C2011A00132:20,
+        C2011A00132:21,
+        C2011A00132:22,
+        C2011A00132:23,
+        C2011A00132:24,
+        C2011A00132:25,
+        C2011A00132:26,
+        C2011A00132:27,
+        C2011A00132:28,
+        C2011A00132:29,
+        C2011A00132:30,
+        C2011A00132:31,
+        C2011A00132:32,
+        C2011A00132:33,
+        C2011A00132:34,
+        C2011A00132:35,
+        C2011A00132:36,
+        C2011A00132:37,
+        C2011A00132:38,
+        C2011A00132:39,
+        C2011A00132:4,
+        C2011A00132:40,
+        C2011A00132:41,
+        C2011A00132:42,
+        C2011A00132:43,
+        C2011A00132:44,
+        C2011A00132:5,
+        C2011A00132:6,
+        C2011A00132:7,
+        C2011A00132:8,
+        C2011A00132:9 ;
+    dct:isReferencedBy C2011A00132: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2011A00132:10,
+        C2011A00132:11,
+        C2011A00132:12,
+        C2011A00132:13,
+        C2011A00132:14,
+        C2011A00132:15,
+        C2011A00132:16,
+        C2011A00132:17,
+        C2011A00132:18,
+        C2011A00132:19,
+        C2011A00132:20,
+        C2011A00132:21,
+        C2011A00132:22,
+        C2011A00132:23,
+        C2011A00132:24,
+        C2011A00132:25,
+        C2011A00132:26,
+        C2011A00132:27,
+        C2011A00132:28,
+        C2011A00132:29,
+        C2011A00132:30,
+        C2011A00132:31,
+        C2011A00132:32,
+        C2011A00132:33,
+        C2011A00132:34,
+        C2011A00132:35,
+        C2011A00132:36,
+        C2011A00132:37,
+        C2011A00132:38,
+        C2011A00132:39,
+        C2011A00132:4,
+        C2011A00132:40,
+        C2011A00132:41,
+        C2011A00132:42,
+        C2011A00132:43,
+        C2011A00132:44,
+        C2011A00132:5,
+        C2011A00132:6,
+        C2011A00132:7,
+        C2011A00132:8,
+        C2011A00132:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291744> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00132/2023-04-12/2023-04-12/text/original/epub/OEBPS/document_1/document_1.html#_Toc132291744"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+

@@ -1,0 +1,227 @@
+@prefix C2012A00138: <http://example.org/au/leg/dataset/C2012A00138/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2012A00138:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2012A00138: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024040> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024040"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00138:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2012A00138: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024041> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024041"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00138:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    dct:isPartOf C2012A00138:9 ;
+    dct:isReferencedBy C2012A00138: ;
+    rdfs:comment "A New Tax System Goods and Services Tax Act 1999 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    skos:narrower C2012A00138:9 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024050> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024050"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00138:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 A New Tax System Luxury Car Tax Act 1999"@en-AU ;
+    dct:isPartOf C2012A00138:9 ;
+    dct:isReferencedBy C2012A00138: ;
+    rdfs:comment "A New Tax System Luxury Car Tax Act 1999 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "A New Tax System Luxury Car Tax Act 1999"@en-AU ;
+    skos:narrower C2012A00138:9 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024051> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024051"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00138:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 A New Tax System Wine Equalisation Tax Act 1999"@en-AU ;
+    dct:isPartOf C2012A00138:9 ;
+    dct:isReferencedBy C2012A00138: ;
+    rdfs:comment "A New Tax System Wine Equalisation Tax Act 1999 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "A New Tax System Wine Equalisation Tax Act 1999"@en-AU ;
+    skos:narrower C2012A00138:9 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024052> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024052"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00138:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 2 Application provision"@en-AU ;
+    dct:isPartOf C2012A00138:8 ;
+    dct:isReferencedBy C2012A00138: ;
+    rdfs:comment "Part 2 Application provision - Abrievated Graph Key: P13"@en-AU ;
+    skos:definition "Part 2 Application provision"@en-AU ;
+    skos:narrower C2012A00138:8 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024053> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024053"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00138:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Customs Tariff Act 1995"@en-AU ;
+    dct:isPartOf C2012A00138:5 ;
+    dct:isReferencedBy C2012A00138: ;
+    rdfs:comment "Customs Tariff Act 1995 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Customs Tariff Act 1995"@en-AU ;
+    skos:narrower C2012A00138:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024045> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024045"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00138:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Application saving and transitional provisions"@en-AU ;
+    dct:isPartOf C2012A00138:4 ;
+    dct:isReferencedBy C2012A00138: ;
+    rdfs:comment "Part 2 Application saving and transitional provisions - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 2 Application saving and transitional provisions"@en-AU ;
+    skos:narrower C2012A00138:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024047> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024047"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00138:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2012A00138:4,
+        C2012A00138:8 ;
+    dct:isReferencedBy C2012A00138: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2012A00138:4,
+        C2012A00138:8 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024042> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024042"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00138:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2012A00138:6 ;
+    dct:isPartOf C2012A00138:4 ;
+    dct:isReferencedBy C2012A00138: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2012A00138:6 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2012A00138:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024044> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024044"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00138:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Main amendments"@en-AU ;
+    dct:hasPart C2012A00138:5,
+        C2012A00138:7 ;
+    dct:isPartOf C2012A00138:3 ;
+    dct:isReferencedBy C2012A00138: ;
+    rdfs:comment "Schedule 1 Main amendments - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2012A00138:5,
+        C2012A00138:7 ;
+    skos:definition "Schedule 1 Main amendments"@en-AU ;
+    skos:narrower C2012A00138:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024043> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024043"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00138:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 2 Consequential amendments"@en-AU ;
+    dct:hasPart C2012A00138:13,
+        C2012A00138:9 ;
+    dct:isPartOf C2012A00138:3 ;
+    dct:isReferencedBy C2012A00138: ;
+    rdfs:comment "Schedule 2 Consequential amendments - Abrievated Graph Key: S8"@en-AU ;
+    skos:broader C2012A00138:13,
+        C2012A00138:9 ;
+    skos:definition "Schedule 2 Consequential amendments"@en-AU ;
+    skos:narrower C2012A00138:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024048> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024048"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00138:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2012A00138:10,
+        C2012A00138:11,
+        C2012A00138:12 ;
+    dct:isPartOf C2012A00138:8 ;
+    dct:isReferencedBy C2012A00138: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P9"@en-AU ;
+    skos:broader C2012A00138:10,
+        C2012A00138:11,
+        C2012A00138:12 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2012A00138:8 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024049> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00138/asmade/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html#_Toc337024049"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00138: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Customs Tariff Amendment (Schedule 4) Act 2012" ;
+    dct:Jurisdiction " Department of Home Affairs "@en-AU ;
+    dct:created "2026-05-23T14:08:36.421149"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2012-09-25T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Customs Tariff Amendment (Schedule 4) Act 2012"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2012A00138/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Customs Tariff Amendment (Schedule 4) Act 2012"@en-AU ;
+    dct:title "Customs Tariff Amendment (Schedule 4) Act 2012"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2012A00138" .
+

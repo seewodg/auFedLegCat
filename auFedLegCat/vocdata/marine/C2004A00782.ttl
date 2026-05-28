@@ -1,0 +1,269 @@
+@prefix C2004A00782: <http://example.org/au/leg/dataset/C2004A00782/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A00782:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A00782: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500560992> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500560992"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00782:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A00782: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500560993> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500560993"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00782:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:isReferencedBy C2004A00782: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500560994> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500560994"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00782:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Great Barrier Reef Marine Park Act 1975"@en-AU ;
+    dct:isPartOf C2004A00782:5 ;
+    dct:isReferencedBy C2004A00782: ;
+    rdfs:comment "Great Barrier Reef Marine Park Act 1975 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Great Barrier Reef Marine Park Act 1975"@en-AU ;
+    skos:narrower C2004A00782:5 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500561008> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500561008"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00782:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Hazardous Waste Regulation of Exports and Imports Act 1989"@en-AU ;
+    dct:isPartOf C2004A00782:5 ;
+    dct:isReferencedBy C2004A00782: ;
+    rdfs:comment "Hazardous Waste Regulation of Exports and Imports Act 1989 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Hazardous Waste Regulation of Exports and Imports Act 1989"@en-AU ;
+    skos:narrower C2004A00782:5 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500561012> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500561012"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00782:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Historic Shipwrecks Act 1976"@en-AU ;
+    dct:isPartOf C2004A00782:5 ;
+    dct:isReferencedBy C2004A00782: ;
+    rdfs:comment "Historic Shipwrecks Act 1976 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Historic Shipwrecks Act 1976"@en-AU ;
+    skos:narrower C2004A00782:5 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500561014> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500561014"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00782:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 National Environment Protection Measures Implementation Act 1998"@en-AU ;
+    dct:isPartOf C2004A00782:5 ;
+    dct:isReferencedBy C2004A00782: ;
+    rdfs:comment "National Environment Protection Measures Implementation Act 1998 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "National Environment Protection Measures Implementation Act 1998"@en-AU ;
+    skos:narrower C2004A00782:5 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500561016> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500561016"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00782:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Ozone Protection Act 1989"@en-AU ;
+    dct:isPartOf C2004A00782:5 ;
+    dct:isReferencedBy C2004A00782: ;
+    rdfs:comment "Ozone Protection Act 1989 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Ozone Protection Act 1989"@en-AU ;
+    skos:narrower C2004A00782:5 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500561018> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500561018"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00782:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Sea Installations Act 1987"@en-AU ;
+    dct:isPartOf C2004A00782:5 ;
+    dct:isReferencedBy C2004A00782: ;
+    rdfs:comment "Sea Installations Act 1987 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Sea Installations Act 1987"@en-AU ;
+    skos:narrower C2004A00782:5 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500561020> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500561020"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00782:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Wildlife Protection Regulation of Exports and Imports Act 1982"@en-AU ;
+    dct:isPartOf C2004A00782:5 ;
+    dct:isReferencedBy C2004A00782: ;
+    rdfs:comment "Wildlife Protection Regulation of Exports and Imports Act 1982 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Wildlife Protection Regulation of Exports and Imports Act 1982"@en-AU ;
+    skos:narrower C2004A00782:5 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500561023> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500561023"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00782:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 4  Application of amendments"@en-AU ;
+    dct:hasPart C2004A00782:5 ;
+    dct:isReferencedBy C2004A00782: ;
+    rdfs:comment "4  Application of amendments - Abrievated Graph Key: I4"@en-AU ;
+    skos:broader C2004A00782:5 ;
+    skos:definition "4  Application of amendments"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500560995> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500560995"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00782:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Aboriginal and Torres Strait Islander Heritage Protection Act 1984"@en-AU ;
+    dct:isPartOf C2004A00782:5 ;
+    dct:isReferencedBy C2004A00782: ;
+    rdfs:comment "Aboriginal and Torres Strait Islander Heritage Protection Act 1984 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Aboriginal and Torres Strait Islander Heritage Protection Act 1984"@en-AU ;
+    skos:narrower C2004A00782:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500560997> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500560997"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00782:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Antarctic Marine Living Resources Conservation Act 1981"@en-AU ;
+    dct:isPartOf C2004A00782:5 ;
+    dct:isReferencedBy C2004A00782: ;
+    rdfs:comment "Antarctic Marine Living Resources Conservation Act 1981 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Antarctic Marine Living Resources Conservation Act 1981"@en-AU ;
+    skos:narrower C2004A00782:5 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500561000> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500561000"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00782:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Antarctic Treaty Environment Protection Act 1980"@en-AU ;
+    dct:isPartOf C2004A00782:5 ;
+    dct:isReferencedBy C2004A00782: ;
+    rdfs:comment "Antarctic Treaty Environment Protection Act 1980 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Antarctic Treaty Environment Protection Act 1980"@en-AU ;
+    skos:narrower C2004A00782:5 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500561003> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500561003"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00782:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Environment Protection Alligator Rivers Region Act 1978"@en-AU ;
+    dct:isPartOf C2004A00782:5 ;
+    dct:isReferencedBy C2004A00782: ;
+    rdfs:comment "Environment Protection Alligator Rivers Region Act 1978 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Environment Protection Alligator Rivers Region Act 1978"@en-AU ;
+    skos:narrower C2004A00782:5 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500561006> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500561006"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00782: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Environment and Heritage Legislation Amendment (Application of Criminal Code) Act 2001" ;
+    dct:created "2026-05-23T03:02:39.466159"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2001-03-22T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Environment and Heritage Legislation Amendment (Application of Criminal Code) Act 2001"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A00782/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Environment and Heritage Legislation Amendment (Application of Criminal Code) Act 2001"@en-AU ;
+    dct:title "Environment and Heritage Legislation Amendment (Application of Criminal Code) Act 2001"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2004A00782" .
+
+C2004A00782:5 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S5 Schedule 1 Amendment of Acts"@en-AU ;
+    dct:hasPart C2004A00782:10,
+        C2004A00782:11,
+        C2004A00782:12,
+        C2004A00782:13,
+        C2004A00782:14,
+        C2004A00782:15,
+        C2004A00782:16,
+        C2004A00782:6,
+        C2004A00782:7,
+        C2004A00782:8,
+        C2004A00782:9 ;
+    dct:isPartOf C2004A00782:4 ;
+    dct:isReferencedBy C2004A00782: ;
+    rdfs:comment "Schedule 1 Amendment of Acts - Abrievated Graph Key: S5"@en-AU ;
+    skos:broader C2004A00782:10,
+        C2004A00782:11,
+        C2004A00782:12,
+        C2004A00782:13,
+        C2004A00782:14,
+        C2004A00782:15,
+        C2004A00782:16,
+        C2004A00782:6,
+        C2004A00782:7,
+        C2004A00782:8,
+        C2004A00782:9 ;
+    skos:definition "Schedule 1 Amendment of Acts"@en-AU ;
+    skos:narrower C2004A00782:4 ;
+    skos:prefLabel "Schedule S5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500560996> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00782/asmade/2001-03-22/text/original/epub/OEBPS/document_1/document_1.html#_Toc500560996"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+

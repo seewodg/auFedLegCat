@@ -1,0 +1,419 @@
+@prefix C2006A00030: <http://example.org/au/leg/dataset/C2006A00030/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2006A00030:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402126> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402126"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00030:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402127> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402127"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00030:10 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P10 Part 6 Industrial Chemicals Notification and Assessment Act 1989"@en-AU ;
+    dct:isPartOf C2006A00030:4 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Part 6 Industrial Chemicals Notification and Assessment Act 1989 - Abrievated Graph Key: P10"@en-AU ;
+    skos:definition "Part 6 Industrial Chemicals Notification and Assessment Act 1989"@en-AU ;
+    skos:narrower C2006A00030:4 ;
+    skos:prefLabel "Part P10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402141> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402141"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00030:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 7 National Blood Authority Act 2003"@en-AU ;
+    dct:isPartOf C2006A00030:4 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Part 7 National Blood Authority Act 2003 - Abrievated Graph Key: P11"@en-AU ;
+    skos:definition "Part 7 National Blood Authority Act 2003"@en-AU ;
+    skos:narrower C2006A00030:4 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402142> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402142"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00030:12 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P12 Part 8 National Health and Medical Research Council Act 1992"@en-AU ;
+    dct:isPartOf C2006A00030:4 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Part 8 National Health and Medical Research Council Act 1992 - Abrievated Graph Key: P12"@en-AU ;
+    skos:definition "Part 8 National Health and Medical Research Council Act 1992"@en-AU ;
+    skos:narrower C2006A00030:4 ;
+    skos:prefLabel "Part P12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402143> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402143"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00030:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 9 Natural Resources Management Financial Assistance Act 1992"@en-AU ;
+    dct:isPartOf C2006A00030:4 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Part 9 Natural Resources Management Financial Assistance Act 1992 - Abrievated Graph Key: P13"@en-AU ;
+    skos:definition "Part 9 Natural Resources Management Financial Assistance Act 1992"@en-AU ;
+    skos:narrower C2006A00030:4 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402144> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402144"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00030:14 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S14 Schedule 2 Amendment of the Safety Rehabilitation and Compensation Act 1988"@en-AU ;
+    dct:isPartOf C2006A00030:3 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Schedule 2 Amendment of the Safety Rehabilitation and Compensation Act 1988 - Abrievated Graph Key: S14"@en-AU ;
+    skos:definition "Schedule 2 Amendment of the Safety Rehabilitation and Compensation Act 1988"@en-AU ;
+    skos:narrower C2006A00030:3 ;
+    skos:prefLabel "Schedule S14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402146> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402146"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00030:16 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P16 Part 1 Aboriginal and Torres Strait Islander Act 2005"@en-AU ;
+    dct:isPartOf C2006A00030:15 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Part 1 Aboriginal and Torres Strait Islander Act 2005 - Abrievated Graph Key: P16"@en-AU ;
+    skos:definition "Part 1 Aboriginal and Torres Strait Islander Act 2005"@en-AU ;
+    skos:narrower C2006A00030:15 ;
+    skos:prefLabel "Part P16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402151> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402151"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00030:17 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P17 Part 2 Australian Institute of Marine Science Act 1972"@en-AU ;
+    dct:isPartOf C2006A00030:15 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Part 2 Australian Institute of Marine Science Act 1972 - Abrievated Graph Key: P17"@en-AU ;
+    skos:definition "Part 2 Australian Institute of Marine Science Act 1972"@en-AU ;
+    skos:narrower C2006A00030:15 ;
+    skos:prefLabel "Part P17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402152> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402152"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00030:18 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P18 Part 3 Financial Management and Accountability Act 1997"@en-AU ;
+    dct:isPartOf C2006A00030:15 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Part 3 Financial Management and Accountability Act 1997 - Abrievated Graph Key: P18"@en-AU ;
+    skos:definition "Part 3 Financial Management and Accountability Act 1997"@en-AU ;
+    skos:narrower C2006A00030:15 ;
+    skos:prefLabel "Part P18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402154> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402154"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00030:19 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P19 Part 4 Native Title Act 1993"@en-AU ;
+    dct:isPartOf C2006A00030:15 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Part 4 Native Title Act 1993 - Abrievated Graph Key: P19"@en-AU ;
+    skos:definition "Part 4 Native Title Act 1993"@en-AU ;
+    skos:narrower C2006A00030:15 ;
+    skos:prefLabel "Part P19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402155> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402155"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00030:20 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P20 Part 5 Public Accounts and Audit Committee Act 1951"@en-AU ;
+    dct:isPartOf C2006A00030:15 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Part 5 Public Accounts and Audit Committee Act 1951 - Abrievated Graph Key: P20"@en-AU ;
+    skos:definition "Part 5 Public Accounts and Audit Committee Act 1951"@en-AU ;
+    skos:narrower C2006A00030:15 ;
+    skos:prefLabel "Part P20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402156> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402156"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00030:21 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P21 Part 6 Public Service Act 1999"@en-AU ;
+    dct:isPartOf C2006A00030:15 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Part 6 Public Service Act 1999 - Abrievated Graph Key: P21"@en-AU ;
+    skos:definition "Part 6 Public Service Act 1999"@en-AU ;
+    skos:narrower C2006A00030:15 ;
+    skos:prefLabel "Part P21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402159> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402159"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00030:22 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P22 Part 7 Superannuation Act 1976"@en-AU ;
+    dct:isPartOf C2006A00030:15 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Part 7 Superannuation Act 1976 - Abrievated Graph Key: P22"@en-AU ;
+    skos:definition "Part 7 Superannuation Act 1976"@en-AU ;
+    skos:narrower C2006A00030:15 ;
+    skos:prefLabel "Part P22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402160> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402160"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00030:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Employment Services Act 1994"@en-AU ;
+    dct:isPartOf C2006A00030:23 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Employment Services Act 1994 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Employment Services Act 1994"@en-AU ;
+    skos:narrower C2006A00030:23 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402162> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402162"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00030:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Loan Act 1977"@en-AU ;
+    dct:isPartOf C2006A00030:23 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Loan Act 1977 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Loan Act 1977"@en-AU ;
+    skos:narrower C2006A00030:23 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402163> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402163"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00030:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Aboriginal and Torres Strait Islander Act 2005"@en-AU ;
+    dct:isPartOf C2006A00030:4 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Part 1 Aboriginal and Torres Strait Islander Act 2005 - Abrievated Graph Key: P5"@en-AU ;
+    skos:definition "Part 1 Aboriginal and Torres Strait Islander Act 2005"@en-AU ;
+    skos:narrower C2006A00030:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402130> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402130"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00030:6 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P6 Part 2 Aboriginal Land Lake Condah and Framlingham Forest Act 1987"@en-AU ;
+    dct:isPartOf C2006A00030:4 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Part 2 Aboriginal Land Lake Condah and Framlingham Forest Act 1987 - Abrievated Graph Key: P6"@en-AU ;
+    skos:definition "Part 2 Aboriginal Land Lake Condah and Framlingham Forest Act 1987"@en-AU ;
+    skos:narrower C2006A00030:4 ;
+    skos:prefLabel "Part P6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402134> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402134"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00030:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 3 Australian Research Council Act 2001"@en-AU ;
+    dct:isPartOf C2006A00030:4 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Part 3 Australian Research Council Act 2001 - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 3 Australian Research Council Act 2001"@en-AU ;
+    skos:narrower C2006A00030:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402137> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402137"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00030:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 4 Child Support Registration and Collection Act 1988"@en-AU ;
+    dct:isPartOf C2006A00030:4 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Part 4 Child Support Registration and Collection Act 1988 - Abrievated Graph Key: P8"@en-AU ;
+    skos:definition "Part 4 Child Support Registration and Collection Act 1988"@en-AU ;
+    skos:narrower C2006A00030:4 ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402139> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402139"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00030:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 5 Gene Technology Act 2000"@en-AU ;
+    dct:isPartOf C2006A00030:4 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Part 5 Gene Technology Act 2000 - Abrievated Graph Key: P9"@en-AU ;
+    skos:definition "Part 5 Gene Technology Act 2000"@en-AU ;
+    skos:narrower C2006A00030:4 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402140> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402140"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2006A00030:23 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S23 Schedule 4 Repeal of Acts"@en-AU ;
+    dct:hasPart C2006A00030:24,
+        C2006A00030:25 ;
+    dct:isPartOf C2006A00030:3 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Schedule 4 Repeal of Acts - Abrievated Graph Key: S23"@en-AU ;
+    skos:broader C2006A00030:24,
+        C2006A00030:25 ;
+    skos:definition "Schedule 4 Repeal of Acts"@en-AU ;
+    skos:narrower C2006A00030:3 ;
+    skos:prefLabel "Schedule S23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402161> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402161"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00030:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2006A00030:14,
+        C2006A00030:15,
+        C2006A00030:23,
+        C2006A00030:4 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2006A00030:14,
+        C2006A00030:15,
+        C2006A00030:23,
+        C2006A00030:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402128> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402128"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2006A00030:15 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S15 Schedule 3 Other amendments"@en-AU ;
+    dct:hasPart C2006A00030:16,
+        C2006A00030:17,
+        C2006A00030:18,
+        C2006A00030:19,
+        C2006A00030:20,
+        C2006A00030:21,
+        C2006A00030:22 ;
+    dct:isPartOf C2006A00030:3 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Schedule 3 Other amendments - Abrievated Graph Key: S15"@en-AU ;
+    skos:broader C2006A00030:16,
+        C2006A00030:17,
+        C2006A00030:18,
+        C2006A00030:19,
+        C2006A00030:20,
+        C2006A00030:21,
+        C2006A00030:22 ;
+    skos:definition "Schedule 3 Other amendments"@en-AU ;
+    skos:narrower C2006A00030:3 ;
+    skos:prefLabel "Schedule S15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402150> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402150"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00030:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments relating to Special Accounts"@en-AU ;
+    dct:hasPart C2006A00030:10,
+        C2006A00030:11,
+        C2006A00030:12,
+        C2006A00030:13,
+        C2006A00030:5,
+        C2006A00030:6,
+        C2006A00030:7,
+        C2006A00030:8,
+        C2006A00030:9 ;
+    dct:isPartOf C2006A00030:3 ;
+    dct:isReferencedBy C2006A00030: ;
+    rdfs:comment "Schedule 1 Amendments relating to Special Accounts - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2006A00030:10,
+        C2006A00030:11,
+        C2006A00030:12,
+        C2006A00030:13,
+        C2006A00030:5,
+        C2006A00030:6,
+        C2006A00030:7,
+        C2006A00030:8,
+        C2006A00030:9 ;
+    skos:definition "Schedule 1 Amendments relating to Special Accounts"@en-AU ;
+    skos:narrower C2006A00030:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402129> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2006A00030/asmade/2005-03-24/text/original/epub/OEBPS/document_1/document_1.html#_Toc131402129"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2006A00030: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Financial Framework Legislation Amendment Act (No. 1) 2006" ;
+    dct:Jurisdiction " Department of Finance "@en-AU ;
+    dct:created "2026-05-23T03:15:37.616462"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2005-03-24T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Financial Framework Legislation Amendment Act (No. 1) 2006"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2006A00030/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Financial Framework Legislation Amendment Act (No. 1) 2006"@en-AU ;
+    dct:title "Financial Framework Legislation Amendment Act (No. 1) 2006"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2006A00030" .
+

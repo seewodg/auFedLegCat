@@ -10,7 +10,7 @@ import sys
 from config import CONFIG_INFO
 
 def scrapeMetaPage(g, legID, source_url): # capture metadata from the legislation details page - lists legislation metadata
-    print(f"Legislation Metadata Details Page https://www.legislation.gov.au/{legID}/latest/details scraping has begun")
+    print(f"Legislation Metadata Details Page https://www.legislation.gov.au{legID} scraping has begun")
     try:
         parser = 'html.parser'  # or 'lxml' (preferred) or 'html5lib', if installed
         resp = requests.get(source_url)
@@ -22,7 +22,7 @@ def scrapeMetaPage(g, legID, source_url): # capture metadata from the legislatio
         vers = ""
         titleID = ""
 #        regDate = ""
-        baseURL = f"http://example.org/au/leg/dataset/{legID}/"
+        baseURL = f"http://example.org/au/leg/dataset{legID}/"
         nspace = URIRef(baseURL)
         for span in soup.find_all('span', attrs={'class':'badge badge-default badge-size-large bg-success'}): # Legislation Status
             stat = span.string
@@ -53,6 +53,7 @@ def scrapeMetaPage(g, legID, source_url): # capture metadata from the legislatio
           return e
 
 def scrape(g, source_url, legID, outputFolder): # capture the legislation associated metadata for the legislation page, write the graph header, and pass miner for leg mining
+    shortID = trimLegID()
     print("Legislation ToC scraping has begun")
     print(f"legilsation Identifier: {legID}")
     print(f"Legislation Webpage: {source_url}")
@@ -66,14 +67,14 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
         
         # build first part of graph
         global baseURL
-        baseURL = f"http://example.org/au/leg/dataset/{legID}/"
+        baseURL = f"http://example.org/au/leg/dataset{legID}/"
         nspace = URIRef(baseURL)
         g.bind("LegID", Namespace(nspace))
         global skosref
         skosref = URIRef("http://example.org/au/leg/concepts/")
         builder = "https://orcid.org/0009-0007-8434-7325"
         g.bind(':', Namespace(nspace))
-        g.bind(legID, nspace) # the base URI
+        g.bind(shortID, nspace) # the base URI
         g.bind('rdf', RDF)
         g.bind('rdfs', RDFS)
         g.bind('skos', SKOS)
@@ -87,6 +88,7 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
         g.add((nspace, DCTERMS.created, Literal(datetime.datetime.now(), datatype=XSD.dateTime)))
         # get the page metadata
         if legID is not None and pageMeta is True:
+            # print(f"Got here {pageMeta}")
             key = ""
             value = ""
             for meta in soup.find_all('meta'):
@@ -116,7 +118,8 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
                             g.add((nspace, DCTERMS.subject, Literal(value, lang="en-AU")))
         # get metadata from the legislation details page
         if legID is not None and detailedMetadata is True:
-            scrapeMetaPage(g, legID, f"https://www.legislation.gov.au/{legID}/latest/details") # e.g.https://www.legislation.gov.au/F2021L00319/latest/details
+            # scrapeMetaPage(g, shortID, f"https://www.legislation.gov.au{legID}") # e.g.https://www.legislation.gov.au/F2021L00319/latest/details
+            scrapeMetaPage(g, legID, f"https://www.legislation.gov.au{legID}") # e.g.https://www.legislation.gov.au/F2021L00319/latest/details
         # add dcat theme
 #        g.add((nspace, DCAT.theme, URIRef(skosref + "ToC")))
         # add license
@@ -126,13 +129,21 @@ def scrape(g, source_url, legID, outputFolder): # capture the legislation associ
         # scrape data for DCAT dataset
         if legID is not None and ToC is True:
             tocScrape(g, soup, nspace)
-
         # write the output (turtle) file
-        g.serialize(destination=outputFolder + legID + '.ttl', format='ttl')
+        newfilename = trimLegID() # STRIP OUTPUTFOLDER TO JUST THE LEG ID
+        # print(f"FILENAME {newfilename}")
+        g.serialize(destination=outputFolder + newfilename + '.ttl', format='ttl')
+        # print("PASSED SCRAPE TRUE")
         return True
         # return g
     except Exception as e:
         return e
+
+def trimLegID():
+    fn = legID.strip('/')
+    filename = fn.split('/')
+    newfilename = filename[0]    
+    return newfilename
 
 def tocScrape(g, soup, nspace):
     try:
@@ -149,19 +160,20 @@ def tocScrape(g, soup, nspace):
                             if link is not None:
                                 cnt = cnt + 1
                                 heading = link.string
+                                print(f"Got Here {heading}")
                                 heading = cleanCruft(str(heading))
-                                # print(f"tocScrape - clean - {heading}")
+                                # print(f"tocScrape - heading - {heading}")
                                 leader = URIRef(nspace + str(cnt))
                                 # add top level menu items to graph
                                 if addNode(g, cnt, heading, leader, link) == True:
-                                    # print(leader)
+                                    # print(f"tocScrape leader {leader}")
                                     ## check for children and if found, recurse
                                     if checkForChildren(toc) == True:
                                         kids = toc.findChildren("ul" , recursive=False)
                                         for kid in kids:
                                             ccnt = childTocScrape(g, kid, nspace, leader, cnt)
                                             if ccnt > cnt: cnt = ccnt
-                                            # print(cnt)
+                                            # print(f"tocScrape kids {cnt}")
         result = True
         return result
     except Exception as e:
@@ -225,10 +237,11 @@ def addNode(g, cnt, heading, leader, link):
     except Exception as e:
         return e
     
-def buildNode(g, headingVal, cnt, leader, heading, link): # this is where the not is constructed, including its place in the SKOS taxonomy
+def buildNode(g, headingVal, cnt, leader, heading, link): # this is where the node is constructed, including its place in the SKOS taxonomy
     try:
         # print(f"heading: {heading}")
         if not (leader, RDF.type, URIRef(skosref + headingVal)) in g:
+            print(f"LINK VALUE: {link}")
             prfx = headingVal[0].upper() + str(cnt)
             cleanHeading = cleanCruft(headingVal)
             # print(f"buidNode - clean - {headingVal}")
@@ -291,8 +304,7 @@ def init(leg):
     global detailedMetadata; detailedMetadata = CONFIG_INFO["detailedMetadata"]
     global outputFolder; outputFolder = CONFIG_INFO["outputFolder"]
     # an arry of legislation classification concepts
-    global lawCategory
-    lawCategory = ["ToC", "Volume", "Part", "Chapter", "Schedule", "Endnotes", "Division", "Subdivision", "Section", "Item"]
+    global lawCategory; lawCategory = ["ToC", "Volume", "Part", "Chapter", "Schedule", "Endnotes", "Division", "Subdivision", "Section", "Item"]
 
     # print(f"LegID: {legID}")
     # print(f"ToC: {ToC}")
@@ -302,7 +314,7 @@ def init(leg):
     pageMetaMessage = ""
     result = True
     g = Graph()
-    leg_seed_url = f"https://www.legislation.gov.au/{legID}/latest/text" # e.g.https://www.legislation.gov.au/F2021L00319/latest/text
+    leg_seed_url = f"https://www.legislation.gov.au{legID}" # e.g.https://www.legislation.gov.au/F2021L00319/latest/text
     if legID is not None:
         if scrape(g, leg_seed_url, legID, outputFolder) is True:
             tocMessage = "Page Table of Contents"

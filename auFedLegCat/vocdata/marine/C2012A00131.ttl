@@ -1,0 +1,98 @@
+@prefix C2012A00131: <http://example.org/au/leg/dataset/C2012A00131/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2012A00131:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2012A00131: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00131/asmade/2012-09-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc336006410> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00131/asmade/2012-09-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc336006410"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00131:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2012A00131: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00131/asmade/2012-09-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc336006411> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00131/asmade/2012-09-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc336006411"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00131:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2012A00131:4 ;
+    dct:isReferencedBy C2012A00131: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2012A00131:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00131/asmade/2012-09-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc336006412> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00131/asmade/2012-09-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc336006412"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00131:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    dct:isPartOf C2012A00131:4 ;
+    dct:isReferencedBy C2012A00131: ;
+    rdfs:comment "Environment Protection and Biodiversity Conservation Act 1999 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Environment Protection and Biodiversity Conservation Act 1999"@en-AU ;
+    skos:narrower C2012A00131:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00131/asmade/2012-09-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc336006414> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00131/asmade/2012-09-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc336006414"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00131:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Declared commercial fishing activities"@en-AU ;
+    dct:hasPart C2012A00131:5 ;
+    dct:isPartOf C2012A00131:3 ;
+    dct:isReferencedBy C2012A00131: ;
+    rdfs:comment "Schedule 1 Declared commercial fishing activities - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2012A00131:5 ;
+    skos:definition "Schedule 1 Declared commercial fishing activities"@en-AU ;
+    skos:narrower C2012A00131:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00131/asmade/2012-09-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc336006413> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00131/asmade/2012-09-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc336006413"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00131: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Environment Protection and Biodiversity Conservation Amendment (Declared Commercial Fishing Activities) Act 2012" ;
+    dct:Jurisdiction " Department of Climate Change, Energy, the Environment and Water "@en-AU ;
+    dct:created "2026-05-23T03:01:40.483662"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2012-09-19T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Environment Protection and Biodiversity Conservation Amendment (Declared Commercial Fishing Activities) Act 2012"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2012A00131/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Environment Protection and Biodiversity Conservation Amendment (Declared Commercial Fishing Activities) Act 2012"@en-AU ;
+    dct:title "Environment Protection and Biodiversity Conservation Amendment (Declared Commercial Fishing Activities) Act 2012"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2012A00131" .
+

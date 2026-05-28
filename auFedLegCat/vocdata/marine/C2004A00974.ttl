@@ -1,0 +1,115 @@
+@prefix C2004A00974: <http://example.org/au/leg/dataset/C2004A00974/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A00974:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A00974: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00974/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12995531> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00974/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12995531"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00974:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A00974: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00974/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12995532> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00974/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12995532"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00974:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A00974:4 ;
+    dct:isReferencedBy C2004A00974: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A00974:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00974/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12995533> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00974/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12995533"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00974:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Amendment of the Customs Act 1901"@en-AU ;
+    dct:isPartOf C2004A00974:4 ;
+    dct:isReferencedBy C2004A00974: ;
+    rdfs:comment "Part 1 Amendment of the Customs Act 1901 - Abrievated Graph Key: P5"@en-AU ;
+    skos:definition "Part 1 Amendment of the Customs Act 1901"@en-AU ;
+    skos:narrower C2004A00974:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00974/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12995535> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00974/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12995535"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00974:6 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P6 Part 2 Amendment of the Excise Act 1901"@en-AU ;
+    dct:isPartOf C2004A00974:4 ;
+    dct:isReferencedBy C2004A00974: ;
+    rdfs:comment "Part 2 Amendment of the Excise Act 1901 - Abrievated Graph Key: P6"@en-AU ;
+    skos:definition "Part 2 Amendment of the Excise Act 1901"@en-AU ;
+    skos:narrower C2004A00974:4 ;
+    skos:prefLabel "Part P6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00974/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12995536> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00974/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12995536"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00974: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Diesel Fuel Rebate Scheme Amendment Act 2002" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-23T03:05:35.699101"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2002-06-29T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Diesel Fuel Rebate Scheme Amendment Act 2002"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A00974/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Diesel Fuel Rebate Scheme Amendment Act 2002"@en-AU ;
+    dct:title "Diesel Fuel Rebate Scheme Amendment Act 2002"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2004A00974" .
+
+C2004A00974:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Extension of the Diesel Fuel Rebate Scheme"@en-AU ;
+    dct:hasPart C2004A00974:5,
+        C2004A00974:6 ;
+    dct:isPartOf C2004A00974:3 ;
+    dct:isReferencedBy C2004A00974: ;
+    rdfs:comment "Schedule 1 Extension of the Diesel Fuel Rebate Scheme - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A00974:5,
+        C2004A00974:6 ;
+    skos:definition "Schedule 1 Extension of the Diesel Fuel Rebate Scheme"@en-AU ;
+    skos:narrower C2004A00974:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00974/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12995534> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00974/asmade/2002-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc12995534"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+

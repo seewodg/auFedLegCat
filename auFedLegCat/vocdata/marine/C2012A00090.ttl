@@ -1,0 +1,355 @@
+@prefix C2012A00090: <http://example.org/au/leg/dataset/C2012A00090/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2012A00090:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2012A00090: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185551> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185551"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00090:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2012A00090: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185552> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185552"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00090:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Antarctic Treaty Environment Protection Act 1980"@en-AU ;
+    dct:isPartOf C2012A00090:11 ;
+    dct:isReferencedBy C2012A00090: ;
+    rdfs:comment "Antarctic Treaty Environment Protection Act 1980 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Antarctic Treaty Environment Protection Act 1980"@en-AU ;
+    skos:narrower C2012A00090:11 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185581> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185581"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00090:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Antarctic Treaty Environment Protection Act 1980"@en-AU ;
+    dct:isPartOf C2012A00090:13 ;
+    dct:isReferencedBy C2012A00090: ;
+    rdfs:comment "Antarctic Treaty Environment Protection Act 1980 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Antarctic Treaty Environment Protection Act 1980"@en-AU ;
+    skos:narrower C2012A00090:13 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185599> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185599"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00090:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Antarctic Treaty Environment Protection Act 1980"@en-AU ;
+    dct:isPartOf C2012A00090:15 ;
+    dct:isReferencedBy C2012A00090: ;
+    rdfs:comment "Antarctic Treaty Environment Protection Act 1980 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Antarctic Treaty Environment Protection Act 1980"@en-AU ;
+    skos:narrower C2012A00090:15 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185625> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185625"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00090:17 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P17 Part 4 Application and savings provisions"@en-AU ;
+    dct:isPartOf C2012A00090:10 ;
+    dct:isReferencedBy C2012A00090: ;
+    rdfs:comment "Part 4 Application and savings provisions - Abrievated Graph Key: P17"@en-AU ;
+    skos:definition "Part 4 Application and savings provisions"@en-AU ;
+    skos:narrower C2012A00090:10 ;
+    skos:prefLabel "Part P17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185626> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185626"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00090:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Antarctic Treaty Environment Protection Act 1980"@en-AU ;
+    dct:isPartOf C2012A00090:18 ;
+    dct:isReferencedBy C2012A00090: ;
+    rdfs:comment "Antarctic Treaty Environment Protection Act 1980 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Antarctic Treaty Environment Protection Act 1980"@en-AU ;
+    skos:narrower C2012A00090:18 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185628> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185628"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00090:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Antarctic Treaty Environment Protection Act 1980"@en-AU ;
+    dct:isPartOf C2012A00090:20 ;
+    dct:isReferencedBy C2012A00090: ;
+    rdfs:comment "Antarctic Treaty Environment Protection Act 1980 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Antarctic Treaty Environment Protection Act 1980"@en-AU ;
+    skos:narrower C2012A00090:20 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185636> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185636"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00090:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Antarctic Treaty Environment Protection Act 1980"@en-AU ;
+    dct:isPartOf C2012A00090:5 ;
+    dct:isReferencedBy C2012A00090: ;
+    rdfs:comment "Antarctic Treaty Environment Protection Act 1980 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Antarctic Treaty Environment Protection Act 1980"@en-AU ;
+    skos:narrower C2012A00090:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185556> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185556"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00090:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Antarctic Treaty Environment Protection Act 1980"@en-AU ;
+    dct:isPartOf C2012A00090:7 ;
+    dct:isReferencedBy C2012A00090: ;
+    rdfs:comment "Antarctic Treaty Environment Protection Act 1980 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Antarctic Treaty Environment Protection Act 1980"@en-AU ;
+    skos:narrower C2012A00090:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185574> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185574"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00090:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 3 Application provisions"@en-AU ;
+    dct:isPartOf C2012A00090:4 ;
+    dct:isReferencedBy C2012A00090: ;
+    rdfs:comment "Part 3 Application provisions - Abrievated Graph Key: P9"@en-AU ;
+    skos:definition "Part 3 Application provisions"@en-AU ;
+    skos:narrower C2012A00090:4 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185578> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185578"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00090:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 1 Environmental protection approvals"@en-AU ;
+    dct:hasPart C2012A00090:12 ;
+    dct:isPartOf C2012A00090:10 ;
+    dct:isReferencedBy C2012A00090: ;
+    rdfs:comment "Part 1 Environmental protection approvals - Abrievated Graph Key: P11"@en-AU ;
+    skos:broader C2012A00090:12 ;
+    skos:definition "Part 1 Environmental protection approvals"@en-AU ;
+    skos:narrower C2012A00090:10 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185580> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185580"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00090:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 2 Environmental emergencies etc"@en-AU ;
+    dct:hasPart C2012A00090:14 ;
+    dct:isPartOf C2012A00090:10 ;
+    dct:isReferencedBy C2012A00090: ;
+    rdfs:comment "Part 2 Environmental emergencies etc - Abrievated Graph Key: P13"@en-AU ;
+    skos:broader C2012A00090:14 ;
+    skos:definition "Part 2 Environmental emergencies etc"@en-AU ;
+    skos:narrower C2012A00090:10 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185598> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185598"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00090:15 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P15 Part 3 Amendment relating to safety approvals"@en-AU ;
+    dct:hasPart C2012A00090:16 ;
+    dct:isPartOf C2012A00090:10 ;
+    dct:isReferencedBy C2012A00090: ;
+    rdfs:comment "Part 3 Amendment relating to safety approvals - Abrievated Graph Key: P15"@en-AU ;
+    skos:broader C2012A00090:16 ;
+    skos:definition "Part 3 Amendment relating to safety approvals"@en-AU ;
+    skos:narrower C2012A00090:10 ;
+    skos:prefLabel "Part P15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185624> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185624"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00090:18 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S18 Schedule 3 Implementation of Measure 15 2009"@en-AU ;
+    dct:hasPart C2012A00090:19 ;
+    dct:isPartOf C2012A00090:3 ;
+    dct:isReferencedBy C2012A00090: ;
+    rdfs:comment "Schedule 3 Implementation of Measure 15 2009 - Abrievated Graph Key: S18"@en-AU ;
+    skos:broader C2012A00090:19 ;
+    skos:definition "Schedule 3 Implementation of Measure 15 2009"@en-AU ;
+    skos:narrower C2012A00090:3 ;
+    skos:prefLabel "Schedule S18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185627> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185627"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00090:20 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S20 Schedule 4 Amendments commencing on the day after Royal Assent"@en-AU ;
+    dct:hasPart C2012A00090:21 ;
+    dct:isPartOf C2012A00090:3 ;
+    dct:isReferencedBy C2012A00090: ;
+    rdfs:comment "Schedule 4 Amendments commencing on the day after Royal Assent - Abrievated Graph Key: S20"@en-AU ;
+    skos:broader C2012A00090:21 ;
+    skos:definition "Schedule 4 Amendments commencing on the day after Royal Assent"@en-AU ;
+    skos:narrower C2012A00090:3 ;
+    skos:prefLabel "Schedule S20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185635> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185635"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00090:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Safety approvals"@en-AU ;
+    dct:hasPart C2012A00090:6 ;
+    dct:isPartOf C2012A00090:4 ;
+    dct:isReferencedBy C2012A00090: ;
+    rdfs:comment "Part 1 Safety approvals - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2012A00090:6 ;
+    skos:definition "Part 1 Safety approvals"@en-AU ;
+    skos:narrower C2012A00090:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185555> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185555"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00090:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Other amendments"@en-AU ;
+    dct:hasPart C2012A00090:8 ;
+    dct:isPartOf C2012A00090:4 ;
+    dct:isReferencedBy C2012A00090: ;
+    rdfs:comment "Part 2 Other amendments - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader C2012A00090:8 ;
+    skos:definition "Part 2 Other amendments"@en-AU ;
+    skos:narrower C2012A00090:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185573> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185573"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2012A00090:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2012A00090:10,
+        C2012A00090:18,
+        C2012A00090:20,
+        C2012A00090:4 ;
+    dct:isReferencedBy C2012A00090: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2012A00090:10,
+        C2012A00090:18,
+        C2012A00090:20,
+        C2012A00090:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185553> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185553"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2012A00090:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Implementation of Measure 4 2004"@en-AU ;
+    dct:hasPart C2012A00090:5,
+        C2012A00090:7,
+        C2012A00090:9 ;
+    dct:isPartOf C2012A00090:3 ;
+    dct:isReferencedBy C2012A00090: ;
+    rdfs:comment "Schedule 1 Implementation of Measure 4 2004 - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2012A00090:5,
+        C2012A00090:7,
+        C2012A00090:9 ;
+    skos:definition "Schedule 1 Implementation of Measure 4 2004"@en-AU ;
+    skos:narrower C2012A00090:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185554> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185554"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00090:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 2 Implementation of Annex VI to the Madrid Protocol"@en-AU ;
+    dct:hasPart C2012A00090:11,
+        C2012A00090:13,
+        C2012A00090:15,
+        C2012A00090:17 ;
+    dct:isPartOf C2012A00090:3 ;
+    dct:isReferencedBy C2012A00090: ;
+    rdfs:comment "Schedule 2 Implementation of Annex VI to the Madrid Protocol - Abrievated Graph Key: S10"@en-AU ;
+    skos:broader C2012A00090:11,
+        C2012A00090:13,
+        C2012A00090:15,
+        C2012A00090:17 ;
+    skos:definition "Schedule 2 Implementation of Annex VI to the Madrid Protocol"@en-AU ;
+    skos:narrower C2012A00090:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185579> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2012A00090/asmade/2012-06-28/text/original/epub/OEBPS/document_1/document_1.html#_Toc329185579"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2012A00090: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Antarctic Treaty (Environment Protection) Amendment Act 2012" ;
+    dct:Jurisdiction " Department of Climate Change, Energy, the Environment and Water "@en-AU ;
+    dct:created "2026-05-23T03:29:57.161035"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2012-06-28T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Antarctic Treaty (Environment Protection) Amendment Act 2012"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2012A00090/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Antarctic Treaty (Environment Protection) Amendment Act 2012"@en-AU ;
+    dct:title "Antarctic Treaty (Environment Protection) Amendment Act 2012"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2012A00090" .
+

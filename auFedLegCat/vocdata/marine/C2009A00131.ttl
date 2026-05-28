@@ -1,0 +1,546 @@
+@prefix C2009A00131: <http://example.org/au/leg/dataset/C2009A00131/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2009A00131:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title see Note 1"@en-AU ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "1  Short title see Note 1 - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title see Note 1"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853587> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853587"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853588> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853588"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Plant Breeders Rights Act 1994"@en-AU ;
+    dct:isPartOf C2009A00131:7 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Plant Breeders Rights Act 1994 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Plant Breeders Rights Act 1994"@en-AU ;
+    skos:narrower C2009A00131:7 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853601> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853601"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Trade Marks Act 1995"@en-AU ;
+    dct:isPartOf C2009A00131:7 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Trade Marks Act 1995 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Trade Marks Act 1995"@en-AU ;
+    skos:narrower C2009A00131:7 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853602> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853602"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Admiralty Act 1988"@en-AU ;
+    dct:isPartOf C2009A00131:12 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Admiralty Act 1988 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Admiralty Act 1988"@en-AU ;
+    skos:narrower C2009A00131:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853606> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853606"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Marine Navigation Levy Collection Act 1989"@en-AU ;
+    dct:isPartOf C2009A00131:12 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Marine Navigation Levy Collection Act 1989 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Marine Navigation Levy Collection Act 1989"@en-AU ;
+    skos:narrower C2009A00131:12 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853607> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853607"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Marine Navigation Regulatory Functions Levy Collection Act 1991"@en-AU ;
+    dct:isPartOf C2009A00131:12 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Marine Navigation Regulatory Functions Levy Collection Act 1991 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Marine Navigation Regulatory Functions Levy Collection Act 1991"@en-AU ;
+    skos:narrower C2009A00131:12 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853608> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853608"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Navigation Act 1912"@en-AU ;
+    dct:isPartOf C2009A00131:12 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Navigation Act 1912 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Navigation Act 1912"@en-AU ;
+    skos:narrower C2009A00131:12 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853609> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853609"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Protection of the Sea Civil Liability Act 1981"@en-AU ;
+    dct:isPartOf C2009A00131:12 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Protection of the Sea Civil Liability Act 1981 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Protection of the Sea Civil Liability Act 1981"@en-AU ;
+    skos:narrower C2009A00131:12 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853610> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853610"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Protection of the Sea Harmful Antifouling Systems Act 2006"@en-AU ;
+    dct:isPartOf C2009A00131:12 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Protection of the Sea Harmful Antifouling Systems Act 2006 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Protection of the Sea Harmful Antifouling Systems Act 2006"@en-AU ;
+    skos:narrower C2009A00131:12 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853611> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853611"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Protection of the Sea Prevention of Pollution from Ships Act 1983"@en-AU ;
+    dct:isPartOf C2009A00131:12 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Protection of the Sea Prevention of Pollution from Ships Act 1983 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Protection of the Sea Prevention of Pollution from Ships Act 1983"@en-AU ;
+    skos:narrower C2009A00131:12 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853612> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853612"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Protection of the Sea Shipping Levy Collection Act 1981"@en-AU ;
+    dct:isPartOf C2009A00131:12 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Protection of the Sea Shipping Levy Collection Act 1981 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Protection of the Sea Shipping Levy Collection Act 1981"@en-AU ;
+    skos:narrower C2009A00131:12 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853613> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853613"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Shipping Registration Act 1981"@en-AU ;
+    dct:isPartOf C2009A00131:12 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Shipping Registration Act 1981 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Shipping Registration Act 1981"@en-AU ;
+    skos:narrower C2009A00131:12 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853614> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853614"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:22 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S22 Schedule 4 Personal Property Securities Act 2009"@en-AU ;
+    dct:isPartOf C2009A00131:3 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Schedule 4 Personal Property Securities Act 2009 - Abrievated Graph Key: S22"@en-AU ;
+    skos:definition "Schedule 4 Personal Property Securities Act 2009"@en-AU ;
+    skos:narrower C2009A00131:3 ;
+    skos:prefLabel "Schedule S22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853617> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853617"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00131:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Air Services Act 1995"@en-AU ;
+    dct:isPartOf C2009A00131:23 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Air Services Act 1995 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Air Services Act 1995"@en-AU ;
+    skos:narrower C2009A00131:23 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853620> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853620"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Bankruptcy Act 1966"@en-AU ;
+    dct:isPartOf C2009A00131:23 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Bankruptcy Act 1966 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Bankruptcy Act 1966"@en-AU ;
+    skos:narrower C2009A00131:23 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853621> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853621"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Commonwealth Inscribed Stock Act 1911"@en-AU ;
+    dct:isPartOf C2009A00131:23 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Commonwealth Inscribed Stock Act 1911 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Commonwealth Inscribed Stock Act 1911"@en-AU ;
+    skos:narrower C2009A00131:23 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853622> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853622"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Corporations Aboriginal and Torres Strait Islander Act 2006"@en-AU ;
+    dct:isPartOf C2009A00131:23 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Corporations Aboriginal and Torres Strait Islander Act 2006 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Corporations Aboriginal and Torres Strait Islander Act 2006"@en-AU ;
+    skos:narrower C2009A00131:23 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853623> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853623"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Health Insurance Act 1973"@en-AU ;
+    dct:isPartOf C2009A00131:23 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Health Insurance Act 1973 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Health Insurance Act 1973"@en-AU ;
+    skos:narrower C2009A00131:23 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853624> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853624"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Insurance Act 1973"@en-AU ;
+    dct:isPartOf C2009A00131:23 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Insurance Act 1973 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Insurance Act 1973"@en-AU ;
+    skos:narrower C2009A00131:23 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853626> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853626"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Privacy Act 1988"@en-AU ;
+    dct:isPartOf C2009A00131:23 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Privacy Act 1988 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Privacy Act 1988"@en-AU ;
+    skos:narrower C2009A00131:23 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853627> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853627"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Quarantine Act 1908"@en-AU ;
+    dct:isPartOf C2009A00131:23 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Quarantine Act 1908 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Quarantine Act 1908"@en-AU ;
+    skos:narrower C2009A00131:23 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853630> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853630"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Wool International Act 1993"@en-AU ;
+    dct:isPartOf C2009A00131:23 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Wool International Act 1993 - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Wool International Act 1993"@en-AU ;
+    skos:narrower C2009A00131:23 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853631> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853631"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Notes to the   STYLEREF ShortT  Personal Property Securities Consequential Amendments Act 2009"@en-AU ;
+    dct:isPartOf C2009A00131:3 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Notes to the   STYLEREF ShortT  Personal Property Securities Consequential Amendments Act 2009 - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Notes to the   STYLEREF ShortT  Personal Property Securities Consequential Amendments Act 2009"@en-AU ;
+    skos:narrower C2009A00131:3 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853632> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853632"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Fisheries Management Act 1991"@en-AU ;
+    dct:isPartOf C2009A00131:4 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Fisheries Management Act 1991 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Fisheries Management Act 1991"@en-AU ;
+    skos:narrower C2009A00131:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853591> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853591"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Torres Strait Fisheries Act 1984"@en-AU ;
+    dct:isPartOf C2009A00131:4 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Torres Strait Fisheries Act 1984 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Torres Strait Fisheries Act 1984"@en-AU ;
+    skos:narrower C2009A00131:4 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853596> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853596"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Designs Act 2003"@en-AU ;
+    dct:isPartOf C2009A00131:7 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Designs Act 2003 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Designs Act 2003"@en-AU ;
+    skos:narrower C2009A00131:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853599> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853599"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Patents Act 1990"@en-AU ;
+    dct:isPartOf C2009A00131:7 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Patents Act 1990 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Patents Act 1990"@en-AU ;
+    skos:narrower C2009A00131:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853600> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853600"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Fisheries legislation"@en-AU ;
+    dct:hasPart C2009A00131:5,
+        C2009A00131:6 ;
+    dct:isPartOf C2009A00131:3 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Schedule 1 Fisheries legislation - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2009A00131:5,
+        C2009A00131:6 ;
+    skos:definition "Schedule 1 Fisheries legislation"@en-AU ;
+    skos:narrower C2009A00131:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853590> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853590"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00131:7 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S7 Schedule 2 Intellectual property legislation"@en-AU ;
+    dct:hasPart C2009A00131:10,
+        C2009A00131:11,
+        C2009A00131:8,
+        C2009A00131:9 ;
+    dct:isPartOf C2009A00131:3 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Schedule 2 Intellectual property legislation - Abrievated Graph Key: S7"@en-AU ;
+    skos:broader C2009A00131:10,
+        C2009A00131:11,
+        C2009A00131:8,
+        C2009A00131:9 ;
+    skos:definition "Schedule 2 Intellectual property legislation"@en-AU ;
+    skos:narrower C2009A00131:3 ;
+    skos:prefLabel "Schedule S7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853598> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853598"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00131:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2009A00131:12,
+        C2009A00131:22,
+        C2009A00131:23,
+        C2009A00131:33,
+        C2009A00131:4,
+        C2009A00131:7 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2009A00131:12,
+        C2009A00131:22,
+        C2009A00131:23,
+        C2009A00131:33,
+        C2009A00131:4,
+        C2009A00131:7 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853589> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853589"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2009A00131:12 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S12 Schedule 3 Maritime legislation"@en-AU ;
+    dct:hasPart C2009A00131:13,
+        C2009A00131:14,
+        C2009A00131:15,
+        C2009A00131:16,
+        C2009A00131:17,
+        C2009A00131:18,
+        C2009A00131:19,
+        C2009A00131:20,
+        C2009A00131:21 ;
+    dct:isPartOf C2009A00131:3 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Schedule 3 Maritime legislation - Abrievated Graph Key: S12"@en-AU ;
+    skos:broader C2009A00131:13,
+        C2009A00131:14,
+        C2009A00131:15,
+        C2009A00131:16,
+        C2009A00131:17,
+        C2009A00131:18,
+        C2009A00131:19,
+        C2009A00131:20,
+        C2009A00131:21 ;
+    skos:definition "Schedule 3 Maritime legislation"@en-AU ;
+    skos:narrower C2009A00131:3 ;
+    skos:prefLabel "Schedule S12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853605> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853605"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00131:23 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S23 Schedule 5 Other legislation"@en-AU ;
+    dct:hasPart C2009A00131:24,
+        C2009A00131:25,
+        C2009A00131:26,
+        C2009A00131:27,
+        C2009A00131:28,
+        C2009A00131:29,
+        C2009A00131:30,
+        C2009A00131:31,
+        C2009A00131:32 ;
+    dct:isPartOf C2009A00131:3 ;
+    dct:isReferencedBy C2009A00131: ;
+    rdfs:comment "Schedule 5 Other legislation - Abrievated Graph Key: S23"@en-AU ;
+    skos:broader C2009A00131:24,
+        C2009A00131:25,
+        C2009A00131:26,
+        C2009A00131:27,
+        C2009A00131:28,
+        C2009A00131:29,
+        C2009A00131:30,
+        C2009A00131:31,
+        C2009A00131:32 ;
+    skos:definition "Schedule 5 Other legislation"@en-AU ;
+    skos:narrower C2009A00131:3 ;
+    skos:prefLabel "Schedule S23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853619> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2009A00131/2012-01-30/2012-01-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc315853619"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2009A00131: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Personal Property Securities (Consequential Amendments) Act 2009" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-05-23T03:13:28.840675"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2012-01-30T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Personal Property Securities (Consequential Amendments) Act 2009"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2009A00131/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Personal Property Securities (Consequential Amendments) Act 2009"@en-AU ;
+    dct:title "Personal Property Securities (Consequential Amendments) Act 2009"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2012C00169 C01" .
+

@@ -1,0 +1,354 @@
+@prefix C2004A00921: <http://example.org/au/leg/dataset/C2004A00921/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A00921:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A00921: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082639> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082639"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00921:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A00921: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082640> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082640"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00921:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Customs Tariff Act 1995"@en-AU ;
+    dct:isPartOf C2004A00921:10 ;
+    dct:isReferencedBy C2004A00921: ;
+    rdfs:comment "Customs Tariff Act 1995 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Customs Tariff Act 1995"@en-AU ;
+    skos:narrower C2004A00921:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082649> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082649"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00921:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Customs Tariff Act 1995"@en-AU ;
+    dct:isPartOf C2004A00921:12 ;
+    dct:isReferencedBy C2004A00921: ;
+    rdfs:comment "Customs Tariff Act 1995 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Customs Tariff Act 1995"@en-AU ;
+    skos:narrower C2004A00921:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082651> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082651"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00921:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Customs Tariff Act 1995"@en-AU ;
+    dct:isPartOf C2004A00921:14 ;
+    dct:isReferencedBy C2004A00921: ;
+    rdfs:comment "Customs Tariff Act 1995 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Customs Tariff Act 1995"@en-AU ;
+    skos:narrower C2004A00921:14 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082653> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082653"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00921:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Customs Tariff Act 1995"@en-AU ;
+    dct:isPartOf C2004A00921:16 ;
+    dct:isReferencedBy C2004A00921: ;
+    rdfs:comment "Customs Tariff Act 1995 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Customs Tariff Act 1995"@en-AU ;
+    skos:narrower C2004A00921:16 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082655> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082655"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00921:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Customs Tariff Act 1995"@en-AU ;
+    dct:isPartOf C2004A00921:18 ;
+    dct:isReferencedBy C2004A00921: ;
+    rdfs:comment "Customs Tariff Act 1995 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Customs Tariff Act 1995"@en-AU ;
+    skos:narrower C2004A00921:18 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082657> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082657"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00921:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Customs Tariff Act 1995"@en-AU ;
+    dct:isPartOf C2004A00921:20 ;
+    dct:isReferencedBy C2004A00921: ;
+    rdfs:comment "Customs Tariff Act 1995 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Customs Tariff Act 1995"@en-AU ;
+    skos:narrower C2004A00921:20 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082659> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082659"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00921:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Customs Tariff Act 1995"@en-AU ;
+    dct:isPartOf C2004A00921:4 ;
+    dct:isReferencedBy C2004A00921: ;
+    rdfs:comment "Customs Tariff Act 1995 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Customs Tariff Act 1995"@en-AU ;
+    skos:narrower C2004A00921:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082643> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082643"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00921:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Customs Tariff Act 1995"@en-AU ;
+    dct:isPartOf C2004A00921:6 ;
+    dct:isReferencedBy C2004A00921: ;
+    rdfs:comment "Customs Tariff Act 1995 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Customs Tariff Act 1995"@en-AU ;
+    skos:narrower C2004A00921:6 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082645> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082645"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00921:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Customs Tariff Act 1995"@en-AU ;
+    dct:isPartOf C2004A00921:8 ;
+    dct:isReferencedBy C2004A00921: ;
+    rdfs:comment "Customs Tariff Act 1995 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Customs Tariff Act 1995"@en-AU ;
+    skos:narrower C2004A00921:8 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082647> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082647"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00921:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 4 Amendment of the Customs Tariff Act 1995 having effect from 1 April 2001"@en-AU ;
+    dct:hasPart C2004A00921:11 ;
+    dct:isPartOf C2004A00921:3 ;
+    dct:isReferencedBy C2004A00921: ;
+    rdfs:comment "Schedule 4 Amendment of the Customs Tariff Act 1995 having effect from 1 April 2001 - Abrievated Graph Key: S10"@en-AU ;
+    skos:broader C2004A00921:11 ;
+    skos:definition "Schedule 4 Amendment of the Customs Tariff Act 1995 having effect from 1 April 2001"@en-AU ;
+    skos:narrower C2004A00921:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082648> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082648"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00921:12 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S12 Schedule 4 AAmendment of the Customs Tariff Act 1995 having effect from 30 June 2001"@en-AU ;
+    dct:hasPart C2004A00921:13 ;
+    dct:isPartOf C2004A00921:3 ;
+    dct:isReferencedBy C2004A00921: ;
+    rdfs:comment "Schedule 4 AAmendment of the Customs Tariff Act 1995 having effect from 30 June 2001 - Abrievated Graph Key: S12"@en-AU ;
+    skos:broader C2004A00921:13 ;
+    skos:definition "Schedule 4 AAmendment of the Customs Tariff Act 1995 having effect from 30 June 2001"@en-AU ;
+    skos:narrower C2004A00921:3 ;
+    skos:prefLabel "Schedule S12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082650> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082650"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00921:14 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S14 Schedule 5 Amendment of the Customs Tariff Act 1995 having effect from 1 August 2001"@en-AU ;
+    dct:hasPart C2004A00921:15 ;
+    dct:isPartOf C2004A00921:3 ;
+    dct:isReferencedBy C2004A00921: ;
+    rdfs:comment "Schedule 5 Amendment of the Customs Tariff Act 1995 having effect from 1 August 2001 - Abrievated Graph Key: S14"@en-AU ;
+    skos:broader C2004A00921:15 ;
+    skos:definition "Schedule 5 Amendment of the Customs Tariff Act 1995 having effect from 1 August 2001"@en-AU ;
+    skos:narrower C2004A00921:3 ;
+    skos:prefLabel "Schedule S14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082652> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082652"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00921:16 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S16 Schedule 5 AAmendment of the Customs Tariff Act 1995 having effect from 1 January 2002"@en-AU ;
+    dct:hasPart C2004A00921:17 ;
+    dct:isPartOf C2004A00921:3 ;
+    dct:isReferencedBy C2004A00921: ;
+    rdfs:comment "Schedule 5 AAmendment of the Customs Tariff Act 1995 having effect from 1 January 2002 - Abrievated Graph Key: S16"@en-AU ;
+    skos:broader C2004A00921:17 ;
+    skos:definition "Schedule 5 AAmendment of the Customs Tariff Act 1995 having effect from 1 January 2002"@en-AU ;
+    skos:narrower C2004A00921:3 ;
+    skos:prefLabel "Schedule S16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082654> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082654"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00921:18 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S18 Schedule 6 Amendment of the Customs Tariff Act 1995 having effect from 1 July 2002"@en-AU ;
+    dct:hasPart C2004A00921:19 ;
+    dct:isPartOf C2004A00921:3 ;
+    dct:isReferencedBy C2004A00921: ;
+    rdfs:comment "Schedule 6 Amendment of the Customs Tariff Act 1995 having effect from 1 July 2002 - Abrievated Graph Key: S18"@en-AU ;
+    skos:broader C2004A00921:19 ;
+    skos:definition "Schedule 6 Amendment of the Customs Tariff Act 1995 having effect from 1 July 2002"@en-AU ;
+    skos:narrower C2004A00921:3 ;
+    skos:prefLabel "Schedule S18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082656> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082656"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00921:20 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S20 Schedule 7 Amendment of the Customs Tariff Act 1995 having effect on the 14 th day after this Act receives the Royal Assent"@en-AU ;
+    dct:hasPart C2004A00921:21 ;
+    dct:isPartOf C2004A00921:3 ;
+    dct:isReferencedBy C2004A00921: ;
+    rdfs:comment "Schedule 7 Amendment of the Customs Tariff Act 1995 having effect on the 14 th day after this Act receives the Royal Assent - Abrievated Graph Key: S20"@en-AU ;
+    skos:broader C2004A00921:21 ;
+    skos:definition "Schedule 7 Amendment of the Customs Tariff Act 1995 having effect on the 14 th day after this Act receives the Royal Assent"@en-AU ;
+    skos:narrower C2004A00921:3 ;
+    skos:prefLabel "Schedule S20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082658> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082658"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00921:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendment of the Customs Tariff Act 1995 having effect from 1 January 2001"@en-AU ;
+    dct:hasPart C2004A00921:5 ;
+    dct:isPartOf C2004A00921:3 ;
+    dct:isReferencedBy C2004A00921: ;
+    rdfs:comment "Schedule 1 Amendment of the Customs Tariff Act 1995 having effect from 1 January 2001 - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A00921:5 ;
+    skos:definition "Schedule 1 Amendment of the Customs Tariff Act 1995 having effect from 1 January 2001"@en-AU ;
+    skos:narrower C2004A00921:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082642> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082642"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00921:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Amendment of the Customs Tariff Act 1995 having effect immediately after the commencement of Schedule 1 to the Customs Tariff Amendment Product Stewardship for Waste Oil Act 2000"@en-AU ;
+    dct:hasPart C2004A00921:7 ;
+    dct:isPartOf C2004A00921:3 ;
+    dct:isReferencedBy C2004A00921: ;
+    rdfs:comment "Schedule 2 Amendment of the Customs Tariff Act 1995 having effect immediately after the commencement of Schedule 1 to the Customs Tariff Amendment Product Stewardship for Waste Oil Act 2000 - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2004A00921:7 ;
+    skos:definition "Schedule 2 Amendment of the Customs Tariff Act 1995 having effect immediately after the commencement of Schedule 1 to the Customs Tariff Amendment Product Stewardship for Waste Oil Act 2000"@en-AU ;
+    skos:narrower C2004A00921:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082644> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082644"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00921:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 3 Amendment of the Customs Tariff Act 1995 having effect from 1 March 2001"@en-AU ;
+    dct:hasPart C2004A00921:9 ;
+    dct:isPartOf C2004A00921:3 ;
+    dct:isReferencedBy C2004A00921: ;
+    rdfs:comment "Schedule 3 Amendment of the Customs Tariff Act 1995 having effect from 1 March 2001 - Abrievated Graph Key: S8"@en-AU ;
+    skos:broader C2004A00921:9 ;
+    skos:definition "Schedule 3 Amendment of the Customs Tariff Act 1995 having effect from 1 March 2001"@en-AU ;
+    skos:narrower C2004A00921:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082646> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082646"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00921:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A00921:10,
+        C2004A00921:12,
+        C2004A00921:14,
+        C2004A00921:16,
+        C2004A00921:18,
+        C2004A00921:20,
+        C2004A00921:4,
+        C2004A00921:6,
+        C2004A00921:8 ;
+    dct:isReferencedBy C2004A00921: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A00921:10,
+        C2004A00921:12,
+        C2004A00921:14,
+        C2004A00921:16,
+        C2004A00921:18,
+        C2004A00921:20,
+        C2004A00921:4,
+        C2004A00921:6,
+        C2004A00921:8 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082641> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00921/asmade/2001-01-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc526082641"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00921: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Customs Tariff Amendment Act (No. 4) 2001" ;
+    dct:Jurisdiction " Department of Home Affairs "@en-AU ;
+    dct:created "2026-05-23T14:02:07.559407"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2001-01-01T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Customs Tariff Amendment Act (No. 4) 2001"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A00921/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Customs Tariff Amendment Act (No. 4) 2001"@en-AU ;
+    dct:title "Customs Tariff Amendment Act (No. 4) 2001"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2004A00921" .
+

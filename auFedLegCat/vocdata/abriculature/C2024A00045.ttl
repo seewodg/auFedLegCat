@@ -1,0 +1,271 @@
+@prefix C2024A00045: <http://example.org/au/leg/dataset/C2024A00045/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2024A00045:16 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S16 Schedule 1 Services for which money is appropriated"@en-AU ;
+    dct:isReferencedBy C2024A00045: ;
+    rdfs:comment "Schedule 1 Services for which money is appropriated - Abrievated Graph Key: S16"@en-AU ;
+    skos:definition "Schedule 1 Services for which money is appropriated"@en-AU ;
+    skos:prefLabel "Schedule S16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385334> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385334"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2024A00045:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 8  Administered items"@en-AU ;
+    dct:isPartOf C2024A00045:7 ;
+    dct:isReferencedBy C2024A00045: ;
+    rdfs:comment "8  Administered items - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "8  Administered items"@en-AU ;
+    skos:narrower C2024A00045:7 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385328> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385328"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00045:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 9  Corporate entity items"@en-AU ;
+    dct:isPartOf C2024A00045:7 ;
+    dct:isReferencedBy C2024A00045: ;
+    rdfs:comment "9  Corporate entity items - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "9  Corporate entity items"@en-AU ;
+    skos:narrower C2024A00045:7 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385329> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385329"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00045:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 10  Crediting amounts to special accounts"@en-AU ;
+    dct:isPartOf C2024A00045:12 ;
+    dct:isReferencedBy C2024A00045: ;
+    rdfs:comment "10  Crediting amounts to special accounts - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "10  Crediting amounts to special accounts"@en-AU ;
+    skos:narrower C2024A00045:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385331> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385331"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00045:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 11  Appropriation of the Consolidated Revenue Fund"@en-AU ;
+    dct:isPartOf C2024A00045:12 ;
+    dct:isReferencedBy C2024A00045: ;
+    rdfs:comment "11  Appropriation of the Consolidated Revenue Fund - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "11  Appropriation of the Consolidated Revenue Fund"@en-AU ;
+    skos:narrower C2024A00045:12 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385332> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385332"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00045:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 12  Repeal of this Act"@en-AU ;
+    dct:isPartOf C2024A00045:12 ;
+    dct:isReferencedBy C2024A00045: ;
+    rdfs:comment "12  Repeal of this Act - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "12  Repeal of this Act"@en-AU ;
+    skos:narrower C2024A00045:12 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385333> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385333"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00045:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 1  Short title"@en-AU ;
+    dct:isPartOf C2024A00045:1 ;
+    dct:isReferencedBy C2024A00045: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:narrower C2024A00045:1 ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385320> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385320"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00045:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 2  Commencement"@en-AU ;
+    dct:isPartOf C2024A00045:1 ;
+    dct:isReferencedBy C2024A00045: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:narrower C2024A00045:1 ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385321> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385321"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00045:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 3  Definitions"@en-AU ;
+    dct:isPartOf C2024A00045:1 ;
+    dct:isReferencedBy C2024A00045: ;
+    rdfs:comment "3  Definitions - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "3  Definitions"@en-AU ;
+    skos:narrower C2024A00045:1 ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385322> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385322"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00045:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 4  Portfolio statements"@en-AU ;
+    dct:isPartOf C2024A00045:1 ;
+    dct:isReferencedBy C2024A00045: ;
+    rdfs:comment "4  Portfolio statements - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "4  Portfolio statements"@en-AU ;
+    skos:narrower C2024A00045:1 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385323> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385323"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00045:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 5  Notional transactions between entities that are part of the Commonwealth"@en-AU ;
+    dct:isPartOf C2024A00045:1 ;
+    dct:isReferencedBy C2024A00045: ;
+    rdfs:comment "5  Notional transactions between entities that are part of the Commonwealth - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "5  Notional transactions between entities that are part of the Commonwealth"@en-AU ;
+    skos:narrower C2024A00045:1 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385324> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385324"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00045:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 6  Summary of appropriations"@en-AU ;
+    dct:isPartOf C2024A00045:7 ;
+    dct:isReferencedBy C2024A00045: ;
+    rdfs:comment "6  Summary of appropriations - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "6  Summary of appropriations"@en-AU ;
+    skos:narrower C2024A00045:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385326> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385326"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00045:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 7  Departmental items"@en-AU ;
+    dct:isPartOf C2024A00045:7 ;
+    dct:isReferencedBy C2024A00045: ;
+    rdfs:comment "7  Departmental items - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "7  Departmental items"@en-AU ;
+    skos:narrower C2024A00045:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385327> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385327"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2024A00045:12 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P12 Part 3 Miscellaneous"@en-AU ;
+    dct:hasPart C2024A00045:13,
+        C2024A00045:14,
+        C2024A00045:15 ;
+    dct:isReferencedBy C2024A00045: ;
+    rdfs:comment "Part 3 Miscellaneous - Abrievated Graph Key: P12"@en-AU ;
+    skos:broader C2024A00045:13,
+        C2024A00045:14,
+        C2024A00045:15 ;
+    skos:definition "Part 3 Miscellaneous"@en-AU ;
+    skos:prefLabel "Part P12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385330> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385330"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00045:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Appropriation items"@en-AU ;
+    dct:hasPart C2024A00045:10,
+        C2024A00045:11,
+        C2024A00045:8,
+        C2024A00045:9 ;
+    dct:isReferencedBy C2024A00045: ;
+    rdfs:comment "Part 2 Appropriation items - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader C2024A00045:10,
+        C2024A00045:11,
+        C2024A00045:8,
+        C2024A00045:9 ;
+    skos:definition "Part 2 Appropriation items"@en-AU ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385325> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385325"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00045:1 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P1 Part 1 Preliminary"@en-AU ;
+    dct:hasPart C2024A00045:2,
+        C2024A00045:3,
+        C2024A00045:4,
+        C2024A00045:5,
+        C2024A00045:6 ;
+    dct:isReferencedBy C2024A00045: ;
+    rdfs:comment "Part 1 Preliminary - Abrievated Graph Key: P1"@en-AU ;
+    skos:broader C2024A00045:2,
+        C2024A00045:3,
+        C2024A00045:4,
+        C2024A00045:5,
+        C2024A00045:6 ;
+    skos:definition "Part 1 Preliminary"@en-AU ;
+    skos:prefLabel "Part P1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385319> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2024A00045/asmade/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc170385319"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2024A00045: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Appropriation Act (No. 5) 2023-2024" ;
+    dct:Jurisdiction " Department of Finance "@en-AU ;
+    dct:created "2026-05-23T14:00:21.480092"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2024-06-26T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Appropriation Act (No. 5) 2023-2024"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2024A00045/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Appropriation Act (No. 5) 2023-2024"@en-AU ;
+    dct:title "Appropriation Act (No. 5) 2023-2024"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2024A00045" .
+

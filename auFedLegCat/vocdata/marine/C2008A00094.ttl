@@ -1,0 +1,289 @@
+@prefix C2008A00094: <http://example.org/au/leg/dataset/C2008A00094/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2008A00094:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2008A00094: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416870> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416870"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00094:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2008A00094: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416871> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416871"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00094:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Navigation Act 1912"@en-AU ;
+    dct:isPartOf C2008A00094:9 ;
+    dct:isReferencedBy C2008A00094: ;
+    rdfs:comment "Navigation Act 1912 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Navigation Act 1912"@en-AU ;
+    skos:narrower C2008A00094:9 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416910> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416910"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00094:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Protection of the Sea Prevention of Pollution from Ships Act 1983"@en-AU ;
+    dct:isPartOf C2008A00094:9 ;
+    dct:isReferencedBy C2008A00094: ;
+    rdfs:comment "Protection of the Sea Prevention of Pollution from Ships Act 1983 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Protection of the Sea Prevention of Pollution from Ships Act 1983"@en-AU ;
+    skos:narrower C2008A00094:9 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416911> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416911"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00094:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Marine Navigation Levy Collection Act 1989"@en-AU ;
+    dct:isPartOf C2008A00094:12 ;
+    dct:isReferencedBy C2008A00094: ;
+    rdfs:comment "Marine Navigation Levy Collection Act 1989 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Marine Navigation Levy Collection Act 1989"@en-AU ;
+    skos:narrower C2008A00094:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416913> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416913"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00094:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Marine Navigation Regulatory Functions Levy Collection Act 1991"@en-AU ;
+    dct:isPartOf C2008A00094:12 ;
+    dct:isReferencedBy C2008A00094: ;
+    rdfs:comment "Marine Navigation Regulatory Functions Levy Collection Act 1991 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Marine Navigation Regulatory Functions Levy Collection Act 1991"@en-AU ;
+    skos:narrower C2008A00094:12 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416914> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416914"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00094:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Protection of the Sea Shipping Levy Collection Act 1981"@en-AU ;
+    dct:isPartOf C2008A00094:12 ;
+    dct:isReferencedBy C2008A00094: ;
+    rdfs:comment "Protection of the Sea Shipping Levy Collection Act 1981 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Protection of the Sea Shipping Levy Collection Act 1981"@en-AU ;
+    skos:narrower C2008A00094:12 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416915> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416915"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00094:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Protection of the Sea Oil Pollution Compensation Fund Act 1993"@en-AU ;
+    dct:isPartOf C2008A00094:16 ;
+    dct:isReferencedBy C2008A00094: ;
+    rdfs:comment "Protection of the Sea Oil Pollution Compensation Fund Act 1993 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Protection of the Sea Oil Pollution Compensation Fund Act 1993"@en-AU ;
+    skos:narrower C2008A00094:16 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416918> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416918"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00094:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Protection of the Sea Imposition of Contributions to Oil Pollution Compensation FundCustoms Act 1993"@en-AU ;
+    dct:isPartOf C2008A00094:4 ;
+    dct:isReferencedBy C2008A00094: ;
+    rdfs:comment "Protection of the Sea Imposition of Contributions to Oil Pollution Compensation FundCustoms Act 1993 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Protection of the Sea Imposition of Contributions to Oil Pollution Compensation FundCustoms Act 1993"@en-AU ;
+    skos:narrower C2008A00094:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416874> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416874"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00094:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Protection of the Sea Imposition of Contributions to Oil Pollution Compensation FundExcise Act 1993"@en-AU ;
+    dct:isPartOf C2008A00094:4 ;
+    dct:isReferencedBy C2008A00094: ;
+    rdfs:comment "Protection of the Sea Imposition of Contributions to Oil Pollution Compensation FundExcise Act 1993 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Protection of the Sea Imposition of Contributions to Oil Pollution Compensation FundExcise Act 1993"@en-AU ;
+    skos:narrower C2008A00094:4 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416875> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416875"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00094:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Protection of the Sea Imposition of Contributions to Oil Pollution Compensation FundGeneral Act 1993"@en-AU ;
+    dct:isPartOf C2008A00094:4 ;
+    dct:isReferencedBy C2008A00094: ;
+    rdfs:comment "Protection of the Sea Imposition of Contributions to Oil Pollution Compensation FundGeneral Act 1993 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Protection of the Sea Imposition of Contributions to Oil Pollution Compensation FundGeneral Act 1993"@en-AU ;
+    skos:narrower C2008A00094:4 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416876> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416876"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00094:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Protection of the Sea Oil Pollution Compensation Fund Act 1993"@en-AU ;
+    dct:isPartOf C2008A00094:4 ;
+    dct:isReferencedBy C2008A00094: ;
+    rdfs:comment "Protection of the Sea Oil Pollution Compensation Fund Act 1993 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Protection of the Sea Oil Pollution Compensation Fund Act 1993"@en-AU ;
+    skos:narrower C2008A00094:4 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416877> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416877"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00094:16 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S16 Schedule 4 Miscellaneous"@en-AU ;
+    dct:hasPart C2008A00094:17 ;
+    dct:isPartOf C2008A00094:3 ;
+    dct:isReferencedBy C2008A00094: ;
+    rdfs:comment "Schedule 4 Miscellaneous - Abrievated Graph Key: S16"@en-AU ;
+    skos:broader C2008A00094:17 ;
+    skos:definition "Schedule 4 Miscellaneous"@en-AU ;
+    skos:narrower C2008A00094:3 ;
+    skos:prefLabel "Schedule S16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416917> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416917"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2008A00094:9 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S9 Schedule 2 MARPOL amendments"@en-AU ;
+    dct:hasPart C2008A00094:10,
+        C2008A00094:11 ;
+    dct:isPartOf C2008A00094:3 ;
+    dct:isReferencedBy C2008A00094: ;
+    rdfs:comment "Schedule 2 MARPOL amendments - Abrievated Graph Key: S9"@en-AU ;
+    skos:broader C2008A00094:10,
+        C2008A00094:11 ;
+    skos:definition "Schedule 2 MARPOL amendments"@en-AU ;
+    skos:narrower C2008A00094:3 ;
+    skos:prefLabel "Schedule S9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416909> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416909"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2008A00094:12 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S12 Schedule 3 Amendments relating to shipping and marine navigation levies"@en-AU ;
+    dct:hasPart C2008A00094:13,
+        C2008A00094:14,
+        C2008A00094:15 ;
+    dct:isPartOf C2008A00094:3 ;
+    dct:isReferencedBy C2008A00094: ;
+    rdfs:comment "Schedule 3 Amendments relating to shipping and marine navigation levies - Abrievated Graph Key: S12"@en-AU ;
+    skos:broader C2008A00094:13,
+        C2008A00094:14,
+        C2008A00094:15 ;
+    skos:definition "Schedule 3 Amendments relating to shipping and marine navigation levies"@en-AU ;
+    skos:narrower C2008A00094:3 ;
+    skos:prefLabel "Schedule S12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416912> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416912"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2008A00094:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2008A00094:12,
+        C2008A00094:16,
+        C2008A00094:4,
+        C2008A00094:9 ;
+    dct:isReferencedBy C2008A00094: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2008A00094:12,
+        C2008A00094:16,
+        C2008A00094:4,
+        C2008A00094:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416872> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416872"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00094:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendments implementing the Protocol of 2003 to the International Convention on the Establishment of an International Fund for Compensation for Oil Pollution Damage 1992"@en-AU ;
+    dct:hasPart C2008A00094:5,
+        C2008A00094:6,
+        C2008A00094:7,
+        C2008A00094:8 ;
+    dct:isPartOf C2008A00094:3 ;
+    dct:isReferencedBy C2008A00094: ;
+    rdfs:comment "Schedule 1 Amendments implementing the Protocol of 2003 to the International Convention on the Establishment of an International Fund for Compensation for Oil Pollution Damage 1992 - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2008A00094:5,
+        C2008A00094:6,
+        C2008A00094:7,
+        C2008A00094:8 ;
+    skos:definition "Schedule 1 Amendments implementing the Protocol of 2003 to the International Convention on the Establishment of an International Fund for Compensation for Oil Pollution Damage 1992"@en-AU ;
+    skos:narrower C2008A00094:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416873> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00094/asmade/1995-01-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc211416873"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2008A00094: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Protection of the Sea Legislation Amendment Act 2008" ;
+    dct:created "2026-05-23T02:58:54.454975"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "1995-01-08T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Protection of the Sea Legislation Amendment Act 2008"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2008A00094/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Protection of the Sea Legislation Amendment Act 2008"@en-AU ;
+    dct:title "Protection of the Sea Legislation Amendment Act 2008"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2008A00094" .
+

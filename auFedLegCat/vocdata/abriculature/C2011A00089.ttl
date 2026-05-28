@@ -1,0 +1,194 @@
+@prefix C2011A00089: <http://example.org/au/leg/dataset/C2011A00089/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2011A00089:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2011A00089: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892186> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892186"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00089:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2011A00089: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892187> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892187"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00089:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 7 Amendment of the Wheat Export Marketing Act 2008"@en-AU ;
+    dct:isPartOf C2011A00089:3 ;
+    dct:isReferencedBy C2011A00089: ;
+    rdfs:comment "Schedule 7 Amendment of the Wheat Export Marketing Act 2008 - Abrievated Graph Key: S10"@en-AU ;
+    skos:definition "Schedule 7 Amendment of the Wheat Export Marketing Act 2008"@en-AU ;
+    skos:narrower C2011A00089:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892195> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892195"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2011A00089:11 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S11 Schedule 8 Amendment of the Wine Australia Corporation Act 1980"@en-AU ;
+    dct:isPartOf C2011A00089:3 ;
+    dct:isReferencedBy C2011A00089: ;
+    rdfs:comment "Schedule 8 Amendment of the Wine Australia Corporation Act 1980 - Abrievated Graph Key: S11"@en-AU ;
+    skos:definition "Schedule 8 Amendment of the Wine Australia Corporation Act 1980"@en-AU ;
+    skos:narrower C2011A00089:3 ;
+    skos:prefLabel "Schedule S11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892197> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892197"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2011A00089:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Amendment of the Commonwealth Authorities and Companies Act 1997"@en-AU ;
+    dct:isPartOf C2011A00089:3 ;
+    dct:isReferencedBy C2011A00089: ;
+    rdfs:comment "Schedule 1 Amendment of the Commonwealth Authorities and Companies Act 1997 - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Amendment of the Commonwealth Authorities and Companies Act 1997"@en-AU ;
+    skos:narrower C2011A00089:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892189> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892189"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2011A00089:5 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S5 Schedule 2 Amendment of the Financial Management and Accountability Act 1997"@en-AU ;
+    dct:isPartOf C2011A00089:3 ;
+    dct:isReferencedBy C2011A00089: ;
+    rdfs:comment "Schedule 2 Amendment of the Financial Management and Accountability Act 1997 - Abrievated Graph Key: S5"@en-AU ;
+    skos:definition "Schedule 2 Amendment of the Financial Management and Accountability Act 1997"@en-AU ;
+    skos:narrower C2011A00089:3 ;
+    skos:prefLabel "Schedule S5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892190> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892190"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2011A00089:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 3 Amendment of the Legislative Instruments Act 2003"@en-AU ;
+    dct:isPartOf C2011A00089:3 ;
+    dct:isReferencedBy C2011A00089: ;
+    rdfs:comment "Schedule 3 Amendment of the Legislative Instruments Act 2003 - Abrievated Graph Key: S6"@en-AU ;
+    skos:definition "Schedule 3 Amendment of the Legislative Instruments Act 2003"@en-AU ;
+    skos:narrower C2011A00089:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892191> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892191"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2011A00089:7 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S7 Schedule 4 Amendment of the Primary Industries Excise Levies Act 1999"@en-AU ;
+    dct:isPartOf C2011A00089:3 ;
+    dct:isReferencedBy C2011A00089: ;
+    rdfs:comment "Schedule 4 Amendment of the Primary Industries Excise Levies Act 1999 - Abrievated Graph Key: S7"@en-AU ;
+    skos:definition "Schedule 4 Amendment of the Primary Industries Excise Levies Act 1999"@en-AU ;
+    skos:narrower C2011A00089:3 ;
+    skos:prefLabel "Schedule S7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892192> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892192"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2011A00089:8 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S8 Schedule 5 Amendment of the Renewable Energy Electricity Act 2000"@en-AU ;
+    dct:isPartOf C2011A00089:3 ;
+    dct:isReferencedBy C2011A00089: ;
+    rdfs:comment "Schedule 5 Amendment of the Renewable Energy Electricity Act 2000 - Abrievated Graph Key: S8"@en-AU ;
+    skos:definition "Schedule 5 Amendment of the Renewable Energy Electricity Act 2000"@en-AU ;
+    skos:narrower C2011A00089:3 ;
+    skos:prefLabel "Schedule S8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892193> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892193"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2011A00089:9 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S9 Schedule 6 Amendment of the Science and Industry Research Act 1949"@en-AU ;
+    dct:isPartOf C2011A00089:3 ;
+    dct:isReferencedBy C2011A00089: ;
+    rdfs:comment "Schedule 6 Amendment of the Science and Industry Research Act 1949 - Abrievated Graph Key: S9"@en-AU ;
+    skos:definition "Schedule 6 Amendment of the Science and Industry Research Act 1949"@en-AU ;
+    skos:narrower C2011A00089:3 ;
+    skos:prefLabel "Schedule S9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892194> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892194"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2011A00089: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Financial Framework Legislation Amendment Act (No. 1) 2011" ;
+    dct:Jurisdiction " Department of Finance "@en-AU ;
+    dct:created "2026-05-23T14:04:52.312245"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2011-08-04T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Financial Framework Legislation Amendment Act (No. 1) 2011"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2011A00089/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Financial Framework Legislation Amendment Act (No. 1) 2011"@en-AU ;
+    dct:title "Financial Framework Legislation Amendment Act (No. 1) 2011"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2011A00089" .
+
+C2011A00089:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2011A00089:10,
+        C2011A00089:11,
+        C2011A00089:4,
+        C2011A00089:5,
+        C2011A00089:6,
+        C2011A00089:7,
+        C2011A00089:8,
+        C2011A00089:9 ;
+    dct:isReferencedBy C2011A00089: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2011A00089:10,
+        C2011A00089:11,
+        C2011A00089:4,
+        C2011A00089:5,
+        C2011A00089:6,
+        C2011A00089:7,
+        C2011A00089:8,
+        C2011A00089:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892188> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00089/asmade/2011-08-04/text/original/epub/OEBPS/document_1/document_1.html#_Toc297892188"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
