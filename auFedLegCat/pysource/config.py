@@ -10,10 +10,13 @@ CONFIG_INFO = {
     "pageMetadata": True,
     "detailedMetadata": True,
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     "outputFolder": "./output/",
     "catalogTarget": "https://www.legislation.gov.au/search/text(%22carbon%22,nameAndText,any)/status(InForce)/pointintime(Latest)/type(Principal)/collection(Act,LegislativeInstrument)/administeringdepartments(%22O-007311%22)/sort(searchcontexts%252Ffulltextversion%252Fregisteredat%2520desc)"
 =======
+=======
+>>>>>>> adee4a1d50af68d879ff88cc50f014885305a27d
     "pagelimit": 1,
     "outputFolder": "../output/",
     "catalogName": "discloseLawCatalog",
@@ -23,6 +26,7 @@ CONFIG_INFO = {
 #    "catalogTarget": "https://www.legislation.gov.au/search/text(%22information%20technology%22,nameAndText,contains)/status(InForce)/pointintime(Latest)/collection(Act,LegislativeInstrument)/sort(searchcontexts%2Ftext%2Frelevance%20desc)"
 #    "catalogTarget": "https://www.legislation.gov.au/search/text(%22non%20disclosure%20agreement%22,nameAndText,all)/status(InForce)/pointintime(Latest)/collection(Act,LegislativeInstrument)/sort(searchcontexts%2Ftext%2Frelevance%20desc)"
      "catalogTarget": "https://www.legislation.gov.au/search/text(%22disclosure%20shareholder%22,nameAndText,all)/status(InForce)/pointintime(Latest)/collection(Act,LegislativeInstrument)/sort(searchcontexts%2Ftext%2Frelevance%20desc)"
+<<<<<<< HEAD
 >>>>>>> Stashed changes
 =======
     "pagelimit": 2,
@@ -32,3 +36,6 @@ CONFIG_INFO = {
     "catalogTarget": "https://www.legislation.gov.au/search/text(%22agriculture%22,nameAndText,contains)/status(InForce)/pointintime(Latest)/collection(Act,AdministrativeArrangementsOrder)/sort(searchcontexts%2Ftext%2Frelevance%20desc)"
 >>>>>>> b4e7bce1a071e4d219e35b0886abdc290b3c940f
 }
+=======
+}
+>>>>>>> adee4a1d50af68d879ff88cc50f014885305a27d
