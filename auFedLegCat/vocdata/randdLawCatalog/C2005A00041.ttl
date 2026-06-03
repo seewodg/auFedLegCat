@@ -1,0 +1,1252 @@
+@prefix C2005A00041: <http://example.org/au/leg/dataset/C2005A00041/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2005A00041:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title see Note 1"@en-AU ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "1  Short title see Note 1 - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title see Note 1"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737013> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737013"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737014> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737014"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2005A00041:10 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2005A00041:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737037> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737037"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2005A00041:10 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2005A00041:10 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737046> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737046"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    dct:isPartOf C2005A00041:13 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Fringe Benefits Tax Assessment Act 1986 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    skos:narrower C2005A00041:13 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737050> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737050"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Petroleum Resource Rent Tax Assessment Act 1987"@en-AU ;
+    dct:isPartOf C2005A00041:15 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Petroleum Resource Rent Tax Assessment Act 1987 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Petroleum Resource Rent Tax Assessment Act 1987"@en-AU ;
+    skos:narrower C2005A00041:15 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737052> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737052"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:18 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P18 Part 1 Application"@en-AU ;
+    dct:isPartOf C2005A00041:17 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Part 1 Application - Abrievated Graph Key: P18"@en-AU ;
+    skos:definition "Part 1 Application"@en-AU ;
+    skos:narrower C2005A00041:17 ;
+    skos:prefLabel "Part P18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737057> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737057"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2005A00041:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2005A00041:19 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2005A00041:19 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737059> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737059"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2005A00041:21 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2005A00041:21 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737061> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737061"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2005A00041:21 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2005A00041:21 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737062> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737062"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2005A00041:25 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2005A00041:25 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737065> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737065"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2005A00041:27 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2005A00041:27 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737075> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737075"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2005A00041:27 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2005A00041:27 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737076> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737076"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2005A00041:27 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2005A00041:27 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737077> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737077"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2005A00041:31 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2005A00041:31 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737082> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737082"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2005A00041:31 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2005A00041:31 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737120> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737120"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2005A00041:34 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2005A00041:34 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737125> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737125"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2005A00041:36 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2005A00041:36 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737128> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737128"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2005A00041:39 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2005A00041:39 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737131> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737131"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2005A00041:41 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2005A00041:41 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737133> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737133"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:45 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I45 A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    dct:isPartOf C2005A00041:44 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "A New Tax System Goods and Services Tax Act 1999 - Abrievated Graph Key: I45"@en-AU ;
+    skos:definition "A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    skos:narrower C2005A00041:44 ;
+    skos:prefLabel "Item I45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737136> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737136"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:46 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I46 A New Tax System Wine Equalisation Tax Act 1999"@en-AU ;
+    dct:isPartOf C2005A00041:44 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "A New Tax System Wine Equalisation Tax Act 1999 - Abrievated Graph Key: I46"@en-AU ;
+    skos:definition "A New Tax System Wine Equalisation Tax Act 1999"@en-AU ;
+    skos:narrower C2005A00041:44 ;
+    skos:prefLabel "Item I46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737137> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737137"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:47 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I47 Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    dct:isPartOf C2005A00041:44 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Fringe Benefits Tax Assessment Act 1986 - Abrievated Graph Key: I47"@en-AU ;
+    skos:definition "Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    skos:narrower C2005A00041:44 ;
+    skos:prefLabel "Item I47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737138> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737138"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:48 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I48 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2005A00041:44 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I48"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2005A00041:44 ;
+    skos:prefLabel "Item I48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737139> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737139"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:49 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I49 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2005A00041:44 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I49"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2005A00041:44 ;
+    skos:prefLabel "Item I49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737140> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737140"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2005A00041:4 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2005A00041:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737017> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737017"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:50 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I50 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2005A00041:44 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I50"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2005A00041:44 ;
+    skos:prefLabel "Item I50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737156> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737156"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:51 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I51 New Business Tax System Consolidation and Other Measures Act 2003"@en-AU ;
+    dct:isPartOf C2005A00041:44 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "New Business Tax System Consolidation and Other Measures Act 2003 - Abrievated Graph Key: I51"@en-AU ;
+    skos:definition "New Business Tax System Consolidation and Other Measures Act 2003"@en-AU ;
+    skos:narrower C2005A00041:44 ;
+    skos:prefLabel "Item I51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737160> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737160"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:52 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I52 Petroleum Resource Rent Tax Assessment Act 1987"@en-AU ;
+    dct:isPartOf C2005A00041:44 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Petroleum Resource Rent Tax Assessment Act 1987 - Abrievated Graph Key: I52"@en-AU ;
+    skos:definition "Petroleum Resource Rent Tax Assessment Act 1987"@en-AU ;
+    skos:narrower C2005A00041:44 ;
+    skos:prefLabel "Item I52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737161> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737161"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:53 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I53 Product Grants and Benefits Administration Act 2000"@en-AU ;
+    dct:isPartOf C2005A00041:44 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Product Grants and Benefits Administration Act 2000 - Abrievated Graph Key: I53"@en-AU ;
+    skos:definition "Product Grants and Benefits Administration Act 2000"@en-AU ;
+    skos:narrower C2005A00041:44 ;
+    skos:prefLabel "Item I53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737162> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737162"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:54 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I54 Superannuation Guarantee Administration Act 1992"@en-AU ;
+    dct:isPartOf C2005A00041:44 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Superannuation Guarantee Administration Act 1992 - Abrievated Graph Key: I54"@en-AU ;
+    skos:definition "Superannuation Guarantee Administration Act 1992"@en-AU ;
+    skos:narrower C2005A00041:44 ;
+    skos:prefLabel "Item I54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737163> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737163"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:55 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I55 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2005A00041:44 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I55"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2005A00041:44 ;
+    skos:prefLabel "Item I55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737164> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737164"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:56 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I56 Taxation Laws Amendment Act No 5 2002"@en-AU ;
+    dct:isPartOf C2005A00041:44 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Taxation Laws Amendment Act No 5 2002 - Abrievated Graph Key: I56"@en-AU ;
+    skos:definition "Taxation Laws Amendment Act No 5 2002"@en-AU ;
+    skos:narrower C2005A00041:44 ;
+    skos:prefLabel "Item I56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737167> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737167"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:57 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I57 Venture Capital Act 2002"@en-AU ;
+    dct:isPartOf C2005A00041:44 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Venture Capital Act 2002 - Abrievated Graph Key: I57"@en-AU ;
+    skos:definition "Venture Capital Act 2002"@en-AU ;
+    skos:narrower C2005A00041:44 ;
+    skos:prefLabel "Item I57"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737168> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737168"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:59 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I59 A New Tax System Pay As You Go Act 1999"@en-AU ;
+    dct:isPartOf C2005A00041:58 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "A New Tax System Pay As You Go Act 1999 - Abrievated Graph Key: I59"@en-AU ;
+    skos:definition "A New Tax System Pay As You Go Act 1999"@en-AU ;
+    skos:narrower C2005A00041:58 ;
+    skos:prefLabel "Item I59"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737170> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737170"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2005A00041:4 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2005A00041:4 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737027> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737027"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:60 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I60 Energy Grants Credits Scheme Consequential Amendments Act 2003"@en-AU ;
+    dct:isPartOf C2005A00041:58 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Energy Grants Credits Scheme Consequential Amendments Act 2003 - Abrievated Graph Key: I60"@en-AU ;
+    skos:definition "Energy Grants Credits Scheme Consequential Amendments Act 2003"@en-AU ;
+    skos:narrower C2005A00041:58 ;
+    skos:prefLabel "Item I60"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737171> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737171"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:61 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I61 Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    dct:isPartOf C2005A00041:58 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Fringe Benefits Tax Assessment Act 1986 - Abrievated Graph Key: I61"@en-AU ;
+    skos:definition "Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    skos:narrower C2005A00041:58 ;
+    skos:prefLabel "Item I61"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737172> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737172"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:62 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I62 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2005A00041:58 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I62"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2005A00041:58 ;
+    skos:prefLabel "Item I62"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737173> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737173"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:63 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I63 New Business Tax System Consolidation Act No 1 2002"@en-AU ;
+    dct:isPartOf C2005A00041:58 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "New Business Tax System Consolidation Act No 1 2002 - Abrievated Graph Key: I63"@en-AU ;
+    skos:definition "New Business Tax System Consolidation Act No 1 2002"@en-AU ;
+    skos:narrower C2005A00041:58 ;
+    skos:prefLabel "Item I63"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737174> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737174"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:64 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I64 New Business Tax System Consolidation and Other Measures Act 2003"@en-AU ;
+    dct:isPartOf C2005A00041:58 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "New Business Tax System Consolidation and Other Measures Act 2003 - Abrievated Graph Key: I64"@en-AU ;
+    skos:definition "New Business Tax System Consolidation and Other Measures Act 2003"@en-AU ;
+    skos:narrower C2005A00041:58 ;
+    skos:prefLabel "Item I64"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737175> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737175"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:65 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I65 Taxation Laws Amendment Company Law Review Act 1998"@en-AU ;
+    dct:isPartOf C2005A00041:58 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Taxation Laws Amendment Company Law Review Act 1998 - Abrievated Graph Key: I65"@en-AU ;
+    skos:definition "Taxation Laws Amendment Company Law Review Act 1998"@en-AU ;
+    skos:narrower C2005A00041:58 ;
+    skos:prefLabel "Item I65"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737176> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737176"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:66 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I66 Taxation Laws Amendment Research and Development Act 2001"@en-AU ;
+    dct:isPartOf C2005A00041:58 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Taxation Laws Amendment Research and Development Act 2001 - Abrievated Graph Key: I66"@en-AU ;
+    skos:definition "Taxation Laws Amendment Research and Development Act 2001"@en-AU ;
+    skos:narrower C2005A00041:58 ;
+    skos:prefLabel "Item I66"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737177> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737177"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:67 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I67 Tax Laws Amendment 2004 Measures No 2 Act 2004"@en-AU ;
+    dct:isPartOf C2005A00041:58 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Tax Laws Amendment 2004 Measures No 2 Act 2004 - Abrievated Graph Key: I67"@en-AU ;
+    skos:definition "Tax Laws Amendment 2004 Measures No 2 Act 2004"@en-AU ;
+    skos:narrower C2005A00041:58 ;
+    skos:prefLabel "Item I67"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737178> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737178"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:69 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I69 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2005A00041:68 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I69"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2005A00041:68 ;
+    skos:prefLabel "Item I69"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737180> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737180"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:70 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I70 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2005A00041:68 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I70"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2005A00041:68 ;
+    skos:prefLabel "Item I70"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737181> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737181"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:71 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I71 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2005A00041:68 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I71"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2005A00041:68 ;
+    skos:prefLabel "Item I71"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737183> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737183"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:72 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I72 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2005A00041:68 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I72"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2005A00041:68 ;
+    skos:prefLabel "Item I72"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737184> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737184"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:73 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I73 Venture Capital Act 2002"@en-AU ;
+    dct:isPartOf C2005A00041:68 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Venture Capital Act 2002 - Abrievated Graph Key: I73"@en-AU ;
+    skos:definition "Venture Capital Act 2002"@en-AU ;
+    skos:narrower C2005A00041:68 ;
+    skos:prefLabel "Item I73"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737185> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737185"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:75 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I75 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2005A00041:74 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I75"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2005A00041:74 ;
+    skos:prefLabel "Item I75"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737187> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737187"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:76 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I76 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2005A00041:74 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I76"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2005A00041:74 ;
+    skos:prefLabel "Item I76"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737188> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737188"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:77 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I77 Notes to the   STYLEREF ShortT  MERGEFORMAT  Tax Laws Amendment 2004 Measures No 7 Act 2005"@en-AU ;
+    dct:isPartOf C2005A00041:3 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Notes to the   STYLEREF ShortT  MERGEFORMAT  Tax Laws Amendment 2004 Measures No 7 Act 2005 - Abrievated Graph Key: I77"@en-AU ;
+    skos:definition "Notes to the   STYLEREF ShortT  MERGEFORMAT  Tax Laws Amendment 2004 Measures No 7 Act 2005"@en-AU ;
+    skos:narrower C2005A00041:3 ;
+    skos:prefLabel "Item I77"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737189> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737189"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2005A00041:7 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2005A00041:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737029> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737029"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2005A00041:7 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2005A00041:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737030> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737030"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:13 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S13 Schedule 4 FBT exemption thresholds for long service award benefits"@en-AU ;
+    dct:hasPart C2005A00041:14 ;
+    dct:isPartOf C2005A00041:3 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Schedule 4 FBT exemption thresholds for long service award benefits - Abrievated Graph Key: S13"@en-AU ;
+    skos:broader C2005A00041:14 ;
+    skos:definition "Schedule 4 FBT exemption thresholds for long service award benefits"@en-AU ;
+    skos:narrower C2005A00041:3 ;
+    skos:prefLabel "Schedule S13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737049> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737049"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00041:15 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S15 Schedule 5 Petroleum exploration incentives"@en-AU ;
+    dct:hasPart C2005A00041:16 ;
+    dct:isPartOf C2005A00041:3 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Schedule 5 Petroleum exploration incentives - Abrievated Graph Key: S15"@en-AU ;
+    skos:broader C2005A00041:16 ;
+    skos:definition "Schedule 5 Petroleum exploration incentives"@en-AU ;
+    skos:narrower C2005A00041:3 ;
+    skos:prefLabel "Schedule S15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737051> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737051"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00041:19 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P19 Part 2 Amount of certain liabilities for purpose of calculating allocable cost amount on exit"@en-AU ;
+    dct:hasPart C2005A00041:20 ;
+    dct:isPartOf C2005A00041:17 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Part 2 Amount of certain liabilities for purpose of calculating allocable cost amount on exit - Abrievated Graph Key: P19"@en-AU ;
+    skos:broader C2005A00041:20 ;
+    skos:definition "Part 2 Amount of certain liabilities for purpose of calculating allocable cost amount on exit"@en-AU ;
+    skos:narrower C2005A00041:17 ;
+    skos:prefLabel "Part P19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737058> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737058"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2005A00041:25 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D25 Division 1 Main amendment"@en-AU ;
+    dct:hasPart C2005A00041:26 ;
+    dct:isPartOf C2005A00041:24 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Division 1 Main amendment - Abrievated Graph Key: D25"@en-AU ;
+    skos:broader C2005A00041:26 ;
+    skos:definition "Division 1 Main amendment"@en-AU ;
+    skos:narrower C2005A00041:24 ;
+    skos:prefLabel "Division D25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737064> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737064"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2005A00041:34 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S34 Schedule 7 STS rollover"@en-AU ;
+    dct:hasPart C2005A00041:35 ;
+    dct:isPartOf C2005A00041:3 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Schedule 7 STS rollover - Abrievated Graph Key: S34"@en-AU ;
+    skos:broader C2005A00041:35 ;
+    skos:definition "Schedule 7 STS rollover"@en-AU ;
+    skos:narrower C2005A00041:3 ;
+    skos:prefLabel "Schedule S34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737124> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737124"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00041:36 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S36 Schedule 8 Family trust elections"@en-AU ;
+    dct:hasPart C2005A00041:37 ;
+    dct:isPartOf C2005A00041:3 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Schedule 8 Family trust elections - Abrievated Graph Key: S36"@en-AU ;
+    skos:broader C2005A00041:37 ;
+    skos:definition "Schedule 8 Family trust elections"@en-AU ;
+    skos:narrower C2005A00041:3 ;
+    skos:prefLabel "Schedule S36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737127> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737127"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00041:39 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P39 Part 1 Amendment commencing on 29 June 2004"@en-AU ;
+    dct:hasPart C2005A00041:40 ;
+    dct:isPartOf C2005A00041:38 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Part 1 Amendment commencing on 29 June 2004 - Abrievated Graph Key: P39"@en-AU ;
+    skos:broader C2005A00041:40 ;
+    skos:definition "Part 1 Amendment commencing on 29 June 2004"@en-AU ;
+    skos:narrower C2005A00041:38 ;
+    skos:prefLabel "Part P39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737130> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737130"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2005A00041:41 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P41 Part 2 Amendments commencing on Royal Assent"@en-AU ;
+    dct:hasPart C2005A00041:42 ;
+    dct:isPartOf C2005A00041:38 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Part 2 Amendments commencing on Royal Assent - Abrievated Graph Key: P41"@en-AU ;
+    skos:broader C2005A00041:42 ;
+    skos:definition "Part 2 Amendments commencing on Royal Assent"@en-AU ;
+    skos:narrower C2005A00041:38 ;
+    skos:prefLabel "Part P41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737132> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737132"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2005A00041:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 3 Employee share schemes"@en-AU ;
+    dct:hasPart C2005A00041:11,
+        C2005A00041:12 ;
+    dct:isPartOf C2005A00041:3 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Schedule 3 Employee share schemes - Abrievated Graph Key: S10"@en-AU ;
+    skos:broader C2005A00041:11,
+        C2005A00041:12 ;
+    skos:definition "Schedule 3 Employee share schemes"@en-AU ;
+    skos:narrower C2005A00041:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737036> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737036"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00041:21 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P21 Part 3 Ensuring no double reduction in working out step 3 of allocable cost amount on entry"@en-AU ;
+    dct:hasPart C2005A00041:22,
+        C2005A00041:23 ;
+    dct:isPartOf C2005A00041:17 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Part 3 Ensuring no double reduction in working out step 3 of allocable cost amount on entry - Abrievated Graph Key: P21"@en-AU ;
+    skos:broader C2005A00041:22,
+        C2005A00041:23 ;
+    skos:definition "Part 3 Ensuring no double reduction in working out step 3 of allocable cost amount on entry"@en-AU ;
+    skos:narrower C2005A00041:17 ;
+    skos:prefLabel "Part P21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737060> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737060"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2005A00041:24 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P24 Part 4 Bad debts"@en-AU ;
+    dct:hasPart C2005A00041:25,
+        C2005A00041:27 ;
+    dct:isPartOf C2005A00041:17 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Part 4 Bad debts - Abrievated Graph Key: P24"@en-AU ;
+    skos:broader C2005A00041:25,
+        C2005A00041:27 ;
+    skos:definition "Part 4 Bad debts"@en-AU ;
+    skos:narrower C2005A00041:17 ;
+    skos:prefLabel "Part P24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737063> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737063"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2005A00041:31 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P31 Part 5 Insurance companies"@en-AU ;
+    dct:hasPart C2005A00041:32,
+        C2005A00041:33 ;
+    dct:isPartOf C2005A00041:17 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Part 5 Insurance companies - Abrievated Graph Key: P31"@en-AU ;
+    skos:broader C2005A00041:32,
+        C2005A00041:33 ;
+    skos:definition "Part 5 Insurance companies"@en-AU ;
+    skos:narrower C2005A00041:17 ;
+    skos:prefLabel "Part P31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737081> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737081"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2005A00041:38 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S38 Schedule 9 Noncommercial loans"@en-AU ;
+    dct:hasPart C2005A00041:39,
+        C2005A00041:41 ;
+    dct:isPartOf C2005A00041:3 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Schedule 9 Noncommercial loans - Abrievated Graph Key: S38"@en-AU ;
+    skos:broader C2005A00041:39,
+        C2005A00041:41 ;
+    skos:definition "Schedule 9 Noncommercial loans"@en-AU ;
+    skos:narrower C2005A00041:3 ;
+    skos:prefLabel "Schedule S38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737129> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737129"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00041:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 125 entrepreneurs tax offset"@en-AU ;
+    dct:hasPart C2005A00041:5,
+        C2005A00041:6 ;
+    dct:isPartOf C2005A00041:3 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Schedule 125 entrepreneurs tax offset - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2005A00041:5,
+        C2005A00041:6 ;
+    skos:definition "Schedule 125 entrepreneurs tax offset"@en-AU ;
+    skos:narrower C2005A00041:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737016> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737016"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00041:7 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S7 Schedule 2 STS accounting method"@en-AU ;
+    dct:hasPart C2005A00041:8,
+        C2005A00041:9 ;
+    dct:isPartOf C2005A00041:3 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Schedule 2 STS accounting method - Abrievated Graph Key: S7"@en-AU ;
+    skos:broader C2005A00041:8,
+        C2005A00041:9 ;
+    skos:definition "Schedule 2 STS accounting method"@en-AU ;
+    skos:narrower C2005A00041:3 ;
+    skos:prefLabel "Schedule S7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737028> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737028"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00041:74 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S74 Schedule 11 Film tax offset amendments"@en-AU ;
+    dct:hasPart C2005A00041:75,
+        C2005A00041:76 ;
+    dct:isPartOf C2005A00041:3 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Schedule 11 Film tax offset amendments - Abrievated Graph Key: S74"@en-AU ;
+    skos:broader C2005A00041:75,
+        C2005A00041:76 ;
+    skos:definition "Schedule 11 Film tax offset amendments"@en-AU ;
+    skos:narrower C2005A00041:3 ;
+    skos:prefLabel "Schedule S74"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737186> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737186"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00041:27 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D27 Division 2 Consequential amendments"@en-AU ;
+    dct:hasPart C2005A00041:28,
+        C2005A00041:29,
+        C2005A00041:30 ;
+    dct:isPartOf C2005A00041:24 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Division 2 Consequential amendments - Abrievated Graph Key: D27"@en-AU ;
+    skos:broader C2005A00041:28,
+        C2005A00041:29,
+        C2005A00041:30 ;
+    skos:definition "Division 2 Consequential amendments"@en-AU ;
+    skos:narrower C2005A00041:24 ;
+    skos:prefLabel "Division D27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737074> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737074"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2005A00041:43 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S43 Schedule 10 Technical corrections and amendments"@en-AU ;
+    dct:hasPart C2005A00041:44,
+        C2005A00041:58,
+        C2005A00041:68 ;
+    dct:isPartOf C2005A00041:3 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Schedule 10 Technical corrections and amendments - Abrievated Graph Key: S43"@en-AU ;
+    skos:broader C2005A00041:44,
+        C2005A00041:58,
+        C2005A00041:68 ;
+    skos:definition "Schedule 10 Technical corrections and amendments"@en-AU ;
+    skos:narrower C2005A00041:3 ;
+    skos:prefLabel "Schedule S43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737134> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737134"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00041:17 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S17 Schedule 6 Consolidation"@en-AU ;
+    dct:hasPart C2005A00041:18,
+        C2005A00041:19,
+        C2005A00041:21,
+        C2005A00041:24,
+        C2005A00041:31 ;
+    dct:isPartOf C2005A00041:3 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Schedule 6 Consolidation - Abrievated Graph Key: S17"@en-AU ;
+    skos:broader C2005A00041:18,
+        C2005A00041:19,
+        C2005A00041:21,
+        C2005A00041:24,
+        C2005A00041:31 ;
+    skos:definition "Schedule 6 Consolidation"@en-AU ;
+    skos:narrower C2005A00041:3 ;
+    skos:prefLabel "Schedule S17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737056> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737056"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2005A00041:68 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P68 Part 3 Removal of link notes"@en-AU ;
+    dct:hasPart C2005A00041:69,
+        C2005A00041:70,
+        C2005A00041:71,
+        C2005A00041:72,
+        C2005A00041:73 ;
+    dct:isPartOf C2005A00041:43 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Part 3 Removal of link notes - Abrievated Graph Key: P68"@en-AU ;
+    skos:broader C2005A00041:69,
+        C2005A00041:70,
+        C2005A00041:71,
+        C2005A00041:72,
+        C2005A00041:73 ;
+    skos:definition "Part 3 Removal of link notes"@en-AU ;
+    skos:narrower C2005A00041:43 ;
+    skos:prefLabel "Part P68"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737179> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737179"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2005A00041:58 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P58 Part 2 Technical corrections and amendments commencing otherwise than on Royal Assent"@en-AU ;
+    dct:hasPart C2005A00041:59,
+        C2005A00041:60,
+        C2005A00041:61,
+        C2005A00041:62,
+        C2005A00041:63,
+        C2005A00041:64,
+        C2005A00041:65,
+        C2005A00041:66,
+        C2005A00041:67 ;
+    dct:isPartOf C2005A00041:43 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Part 2 Technical corrections and amendments commencing otherwise than on Royal Assent - Abrievated Graph Key: P58"@en-AU ;
+    skos:broader C2005A00041:59,
+        C2005A00041:60,
+        C2005A00041:61,
+        C2005A00041:62,
+        C2005A00041:63,
+        C2005A00041:64,
+        C2005A00041:65,
+        C2005A00041:66,
+        C2005A00041:67 ;
+    skos:definition "Part 2 Technical corrections and amendments commencing otherwise than on Royal Assent"@en-AU ;
+    skos:narrower C2005A00041:43 ;
+    skos:prefLabel "Part P58"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737169> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737169"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2005A00041:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2005A00041:10,
+        C2005A00041:13,
+        C2005A00041:15,
+        C2005A00041:17,
+        C2005A00041:34,
+        C2005A00041:36,
+        C2005A00041:38,
+        C2005A00041:4,
+        C2005A00041:43,
+        C2005A00041:7,
+        C2005A00041:74,
+        C2005A00041:77 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2005A00041:10,
+        C2005A00041:13,
+        C2005A00041:15,
+        C2005A00041:17,
+        C2005A00041:34,
+        C2005A00041:36,
+        C2005A00041:38,
+        C2005A00041:4,
+        C2005A00041:43,
+        C2005A00041:7,
+        C2005A00041:74,
+        C2005A00041:77 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737015> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737015"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2005A00041:44 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P44 Part 1 Technical corrections and amendments commencing on Royal Assent"@en-AU ;
+    dct:hasPart C2005A00041:45,
+        C2005A00041:46,
+        C2005A00041:47,
+        C2005A00041:48,
+        C2005A00041:49,
+        C2005A00041:50,
+        C2005A00041:51,
+        C2005A00041:52,
+        C2005A00041:53,
+        C2005A00041:54,
+        C2005A00041:55,
+        C2005A00041:56,
+        C2005A00041:57 ;
+    dct:isPartOf C2005A00041:43 ;
+    dct:isReferencedBy C2005A00041: ;
+    rdfs:comment "Part 1 Technical corrections and amendments commencing on Royal Assent - Abrievated Graph Key: P44"@en-AU ;
+    skos:broader C2005A00041:45,
+        C2005A00041:46,
+        C2005A00041:47,
+        C2005A00041:48,
+        C2005A00041:49,
+        C2005A00041:50,
+        C2005A00041:51,
+        C2005A00041:52,
+        C2005A00041:53,
+        C2005A00041:54,
+        C2005A00041:55,
+        C2005A00041:56,
+        C2005A00041:57 ;
+    skos:definition "Part 1 Technical corrections and amendments commencing on Royal Assent"@en-AU ;
+    skos:narrower C2005A00041:43 ;
+    skos:prefLabel "Part P44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737135> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2005A00041/2010-06-29/2010-06-29/text/original/epub/OEBPS/document_1/document_1.html#_Toc269737135"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2005A00041: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Tax Laws Amendment (2004 Measures No. 7) Act 2005" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-06-03T13:55:05.951558"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2010-06-29T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Tax Laws Amendment (2004 Measures No. 7) Act 2005"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2005A00041/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Tax Laws Amendment (2004 Measures No. 7) Act 2005"@en-AU ;
+    dct:title "Tax Laws Amendment (2004 Measures No. 7) Act 2005"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2010C00584 C01" .
+

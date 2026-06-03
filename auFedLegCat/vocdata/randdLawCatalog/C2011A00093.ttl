@@ -1,0 +1,833 @@
+@prefix C2011A00093: <http://example.org/au/leg/dataset/C2011A00093/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2011A00093:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914220> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914220"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914221> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914221"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Industry Research and Development Act 1986"@en-AU ;
+    dct:isPartOf C2011A00093:9 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Industry Research and Development Act 1986 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Industry Research and Development Act 1986"@en-AU ;
+    skos:narrower C2011A00093:9 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914361> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914361"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2011A00093:12 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2011A00093:12 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914365> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914365"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2011A00093:14 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2011A00093:14 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914368> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914368"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2011A00093:16 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2011A00093:16 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914371> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914371"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2011A00093:18 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2011A00093:18 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914375> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914375"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2011A00093:21 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2011A00093:21 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914380> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914380"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2011A00093:23 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2011A00093:23 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914382> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914382"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2011A00093:25 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2011A00093:25 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914384> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914384"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2011A00093:25 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2011A00093:25 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914385> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914385"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2011A00093:25 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2011A00093:25 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914394> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914394"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2011A00093:25 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2011A00093:25 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914395> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914395"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:31 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P31 Part 1 Introduction"@en-AU ;
+    dct:isPartOf C2011A00093:30 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Part 1 Introduction - Abrievated Graph Key: P31"@en-AU ;
+    skos:definition "Part 1 Introduction"@en-AU ;
+    skos:narrower C2011A00093:30 ;
+    skos:prefLabel "Part P31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914397> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914397"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2011A00093:32 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P32 Part 2 Power to make regulations to modify operation of Acts"@en-AU ;
+    dct:isPartOf C2011A00093:30 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Part 2 Power to make regulations to modify operation of Acts - Abrievated Graph Key: P32"@en-AU ;
+    skos:definition "Part 2 Power to make regulations to modify operation of Acts"@en-AU ;
+    skos:narrower C2011A00093:30 ;
+    skos:prefLabel "Part P32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914398> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914398"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2011A00093:33 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P33 Part 3 Modified Acts may provide for certain matters"@en-AU ;
+    dct:isPartOf C2011A00093:30 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Part 3 Modified Acts may provide for certain matters - Abrievated Graph Key: P33"@en-AU ;
+    skos:definition "Part 3 Modified Acts may provide for certain matters"@en-AU ;
+    skos:narrower C2011A00093:30 ;
+    skos:prefLabel "Part P33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914399> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914399"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2011A00093:34 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P34 Part 4 Alternative constitutional basis"@en-AU ;
+    dct:isPartOf C2011A00093:30 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Part 4 Alternative constitutional basis - Abrievated Graph Key: P34"@en-AU ;
+    skos:definition "Part 4 Alternative constitutional basis"@en-AU ;
+    skos:narrower C2011A00093:30 ;
+    skos:prefLabel "Part P34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914400> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914400"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2011A00093:35 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P35 Part 5 Other matters"@en-AU ;
+    dct:isPartOf C2011A00093:30 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Part 5 Other matters - Abrievated Graph Key: P35"@en-AU ;
+    skos:definition "Part 5 Other matters"@en-AU ;
+    skos:narrower C2011A00093:30 ;
+    skos:prefLabel "Part P35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914401> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914401"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2011A00093:37 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P37 Part 1 Application provisions"@en-AU ;
+    dct:isPartOf C2011A00093:36 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Part 1 Application provisions - Abrievated Graph Key: P37"@en-AU ;
+    skos:definition "Part 1 Application provisions"@en-AU ;
+    skos:narrower C2011A00093:36 ;
+    skos:prefLabel "Part P37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914403> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914403"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2011A00093:38 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P38 Part 2 General savings provisions"@en-AU ;
+    dct:isPartOf C2011A00093:36 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Part 2 General savings provisions - Abrievated Graph Key: P38"@en-AU ;
+    skos:definition "Part 2 General savings provisions"@en-AU ;
+    skos:narrower C2011A00093:36 ;
+    skos:prefLabel "Part P38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914404> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914404"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2011A00093:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2011A00093:39 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2011A00093:39 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914406> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914406"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2011A00093:39 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2011A00093:39 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914407> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914407"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:42 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P42 Part 4 Other savings and transitional provisions"@en-AU ;
+    dct:isPartOf C2011A00093:36 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Part 4 Other savings and transitional provisions - Abrievated Graph Key: P42"@en-AU ;
+    skos:definition "Part 4 Other savings and transitional provisions"@en-AU ;
+    skos:narrower C2011A00093:36 ;
+    skos:prefLabel "Part P42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914429> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914429"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2011A00093:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 Endnote 1 About the endnotes"@en-AU ;
+    dct:isPartOf C2011A00093:43 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Endnote 1 About the endnotes - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "Endnote 1 About the endnotes"@en-AU ;
+    skos:narrower C2011A00093:43 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914431> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914431"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:45 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I45 Endnote 2 Abbreviation key"@en-AU ;
+    dct:isPartOf C2011A00093:43 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Endnote 2 Abbreviation key - Abrievated Graph Key: I45"@en-AU ;
+    skos:definition "Endnote 2 Abbreviation key"@en-AU ;
+    skos:narrower C2011A00093:43 ;
+    skos:prefLabel "Item I45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914432> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914432"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:46 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I46 Endnote 3 Legislation history"@en-AU ;
+    dct:isPartOf C2011A00093:43 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Endnote 3 Legislation history - Abrievated Graph Key: I46"@en-AU ;
+    skos:definition "Endnote 3 Legislation history"@en-AU ;
+    skos:narrower C2011A00093:43 ;
+    skos:prefLabel "Item I46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914433> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914433"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:47 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I47 Endnote 4 Amendment history"@en-AU ;
+    dct:isPartOf C2011A00093:43 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Endnote 4 Amendment history - Abrievated Graph Key: I47"@en-AU ;
+    skos:definition "Endnote 4 Amendment history"@en-AU ;
+    skos:narrower C2011A00093:43 ;
+    skos:prefLabel "Item I47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914434> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914434"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:48 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I48 Endnote 5 Uncommenced amendments none"@en-AU ;
+    dct:isPartOf C2011A00093:43 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Endnote 5 Uncommenced amendments none - Abrievated Graph Key: I48"@en-AU ;
+    skos:definition "Endnote 5 Uncommenced amendments none"@en-AU ;
+    skos:narrower C2011A00093:43 ;
+    skos:prefLabel "Item I48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914435> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914435"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:49 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I49 Endnote 6 Modifications none"@en-AU ;
+    dct:isPartOf C2011A00093:43 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Endnote 6 Modifications none - Abrievated Graph Key: I49"@en-AU ;
+    skos:definition "Endnote 6 Modifications none"@en-AU ;
+    skos:narrower C2011A00093:43 ;
+    skos:prefLabel "Item I49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914436> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914436"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2011A00093:4 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2011A00093:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914224> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914224"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:50 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I50 Endnote 7 Misdescribed amendments none"@en-AU ;
+    dct:isPartOf C2011A00093:43 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Endnote 7 Misdescribed amendments none - Abrievated Graph Key: I50"@en-AU ;
+    skos:definition "Endnote 7 Misdescribed amendments none"@en-AU ;
+    skos:narrower C2011A00093:43 ;
+    skos:prefLabel "Item I50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914437> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914437"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:51 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I51 Endnote 8 Miscellaneous none"@en-AU ;
+    dct:isPartOf C2011A00093:43 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Endnote 8 Miscellaneous none - Abrievated Graph Key: I51"@en-AU ;
+    skos:definition "Endnote 8 Miscellaneous none"@en-AU ;
+    skos:narrower C2011A00093:43 ;
+    skos:prefLabel "Item I51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914438> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914438"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Industry Research and Development Act 1986"@en-AU ;
+    dct:isPartOf C2011A00093:7 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Industry Research and Development Act 1986 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Industry Research and Development Act 1986"@en-AU ;
+    skos:narrower C2011A00093:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914289> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914289"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:12 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P12 Part 1 Tax offset rules"@en-AU ;
+    dct:hasPart C2011A00093:13 ;
+    dct:isPartOf C2011A00093:11 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Part 1 Tax offset rules - Abrievated Graph Key: P12"@en-AU ;
+    skos:broader C2011A00093:13 ;
+    skos:definition "Part 1 Tax offset rules"@en-AU ;
+    skos:narrower C2011A00093:11 ;
+    skos:prefLabel "Part P12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914364> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914364"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2011A00093:14 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P14 Part 2 Prepayments of expenditure"@en-AU ;
+    dct:hasPart C2011A00093:15 ;
+    dct:isPartOf C2011A00093:11 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Part 2 Prepayments of expenditure - Abrievated Graph Key: P14"@en-AU ;
+    skos:broader C2011A00093:15 ;
+    skos:definition "Part 2 Prepayments of expenditure"@en-AU ;
+    skos:narrower C2011A00093:11 ;
+    skos:prefLabel "Part P14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914367> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914367"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2011A00093:16 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P16 Part 3 Capital allowances"@en-AU ;
+    dct:hasPart C2011A00093:17 ;
+    dct:isPartOf C2011A00093:11 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Part 3 Capital allowances - Abrievated Graph Key: P16"@en-AU ;
+    skos:broader C2011A00093:17 ;
+    skos:definition "Part 3 Capital allowances"@en-AU ;
+    skos:narrower C2011A00093:11 ;
+    skos:prefLabel "Part P16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914370> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914370"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2011A00093:18 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P18 Part 4 Capital works"@en-AU ;
+    dct:hasPart C2011A00093:19 ;
+    dct:isPartOf C2011A00093:11 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Part 4 Capital works - Abrievated Graph Key: P18"@en-AU ;
+    skos:broader C2011A00093:19 ;
+    skos:definition "Part 4 Capital works"@en-AU ;
+    skos:narrower C2011A00093:11 ;
+    skos:prefLabel "Part P18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914374> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914374"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2011A00093:21 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D21 Division 1 Amending the new law"@en-AU ;
+    dct:hasPart C2011A00093:22 ;
+    dct:isPartOf C2011A00093:20 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Division 1 Amending the new law - Abrievated Graph Key: D21"@en-AU ;
+    skos:broader C2011A00093:22 ;
+    skos:definition "Division 1 Amending the new law"@en-AU ;
+    skos:narrower C2011A00093:20 ;
+    skos:prefLabel "Division D21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914379> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914379"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2011A00093:23 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D23 Division 2 Amending the old law"@en-AU ;
+    dct:hasPart C2011A00093:24 ;
+    dct:isPartOf C2011A00093:20 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Division 2 Amending the old law - Abrievated Graph Key: D23"@en-AU ;
+    skos:broader C2011A00093:24 ;
+    skos:definition "Division 2 Amending the old law"@en-AU ;
+    skos:narrower C2011A00093:20 ;
+    skos:prefLabel "Division D23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914381> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914381"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2011A00093:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Main components of new RD incentive"@en-AU ;
+    dct:hasPart C2011A00093:5 ;
+    dct:isPartOf C2011A00093:3 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Schedule 1 Main components of new RD incentive - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2011A00093:5 ;
+    skos:definition "Schedule 1 Main components of new RD incentive"@en-AU ;
+    skos:narrower C2011A00093:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914223> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914223"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2011A00093:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 1 Main amendment"@en-AU ;
+    dct:hasPart C2011A00093:8 ;
+    dct:isPartOf C2011A00093:6 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Part 1 Main amendment - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader C2011A00093:8 ;
+    skos:definition "Part 1 Main amendment"@en-AU ;
+    skos:narrower C2011A00093:6 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914288> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914288"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2011A00093:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 2 Other amendments"@en-AU ;
+    dct:hasPart C2011A00093:10 ;
+    dct:isPartOf C2011A00093:6 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Part 2 Other amendments - Abrievated Graph Key: P9"@en-AU ;
+    skos:broader C2011A00093:10 ;
+    skos:definition "Part 2 Other amendments"@en-AU ;
+    skos:narrower C2011A00093:6 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914360> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914360"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2011A00093:20 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P20 Part 5 Forgiveness of commercial debts"@en-AU ;
+    dct:hasPart C2011A00093:21,
+        C2011A00093:23 ;
+    dct:isPartOf C2011A00093:11 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Part 5 Forgiveness of commercial debts - Abrievated Graph Key: P20"@en-AU ;
+    skos:broader C2011A00093:21,
+        C2011A00093:23 ;
+    skos:definition "Part 5 Forgiveness of commercial debts"@en-AU ;
+    skos:narrower C2011A00093:11 ;
+    skos:prefLabel "Part P20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914378> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914378"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2011A00093:39 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P39 Part 3 Transitional provisions appearing as amendments of other Acts"@en-AU ;
+    dct:hasPart C2011A00093:40,
+        C2011A00093:41 ;
+    dct:isPartOf C2011A00093:36 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Part 3 Transitional provisions appearing as amendments of other Acts - Abrievated Graph Key: P39"@en-AU ;
+    skos:broader C2011A00093:40,
+        C2011A00093:41 ;
+    skos:definition "Part 3 Transitional provisions appearing as amendments of other Acts"@en-AU ;
+    skos:narrower C2011A00093:36 ;
+    skos:prefLabel "Part P39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914405> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914405"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2011A00093:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Innovation Australias role"@en-AU ;
+    dct:hasPart C2011A00093:7,
+        C2011A00093:9 ;
+    dct:isPartOf C2011A00093:3 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Schedule 2 Innovation Australias role - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader C2011A00093:7,
+        C2011A00093:9 ;
+    skos:definition "Schedule 2 Innovation Australias role"@en-AU ;
+    skos:narrower C2011A00093:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914287> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914287"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2011A00093:25 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P25 Part 6 Other amendments"@en-AU ;
+    dct:hasPart C2011A00093:26,
+        C2011A00093:27,
+        C2011A00093:28,
+        C2011A00093:29 ;
+    dct:isPartOf C2011A00093:11 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Part 6 Other amendments - Abrievated Graph Key: P25"@en-AU ;
+    skos:broader C2011A00093:26,
+        C2011A00093:27,
+        C2011A00093:28,
+        C2011A00093:29 ;
+    skos:definition "Part 6 Other amendments"@en-AU ;
+    skos:narrower C2011A00093:11 ;
+    skos:prefLabel "Part P25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914383> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914383"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2011A00093:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2011A00093:11,
+        C2011A00093:30,
+        C2011A00093:36,
+        C2011A00093:4,
+        C2011A00093:6 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2011A00093:11,
+        C2011A00093:30,
+        C2011A00093:36,
+        C2011A00093:4,
+        C2011A00093:6 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914222> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914222"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2011A00093:36 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S36 Schedule 4 Application savings and transitional provisions"@en-AU ;
+    dct:hasPart C2011A00093:37,
+        C2011A00093:38,
+        C2011A00093:39,
+        C2011A00093:42 ;
+    dct:isPartOf C2011A00093:3 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Schedule 4 Application savings and transitional provisions - Abrievated Graph Key: S36"@en-AU ;
+    skos:broader C2011A00093:37,
+        C2011A00093:38,
+        C2011A00093:39,
+        C2011A00093:42 ;
+    skos:definition "Schedule 4 Application savings and transitional provisions"@en-AU ;
+    skos:narrower C2011A00093:3 ;
+    skos:prefLabel "Schedule S36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914402> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914402"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2011A00093:30 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S30 Schedule 3 AQuarterly credits"@en-AU ;
+    dct:hasPart C2011A00093:31,
+        C2011A00093:32,
+        C2011A00093:33,
+        C2011A00093:34,
+        C2011A00093:35 ;
+    dct:isPartOf C2011A00093:3 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Schedule 3 AQuarterly credits - Abrievated Graph Key: S30"@en-AU ;
+    skos:broader C2011A00093:31,
+        C2011A00093:32,
+        C2011A00093:33,
+        C2011A00093:34,
+        C2011A00093:35 ;
+    skos:definition "Schedule 3 AQuarterly credits"@en-AU ;
+    skos:narrower C2011A00093:3 ;
+    skos:prefLabel "Schedule S30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914396> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914396"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2011A00093:11 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S11 Schedule 3 Other amendments relating to new RD incentive"@en-AU ;
+    dct:hasPart C2011A00093:12,
+        C2011A00093:14,
+        C2011A00093:16,
+        C2011A00093:18,
+        C2011A00093:20,
+        C2011A00093:25 ;
+    dct:isPartOf C2011A00093:3 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Schedule 3 Other amendments relating to new RD incentive - Abrievated Graph Key: S11"@en-AU ;
+    skos:broader C2011A00093:12,
+        C2011A00093:14,
+        C2011A00093:16,
+        C2011A00093:18,
+        C2011A00093:20,
+        C2011A00093:25 ;
+    skos:definition "Schedule 3 Other amendments relating to new RD incentive"@en-AU ;
+    skos:narrower C2011A00093:3 ;
+    skos:prefLabel "Schedule S11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914363> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914363"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2011A00093:43 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E43 Endnotes"@en-AU ;
+    dct:hasPart C2011A00093:44,
+        C2011A00093:45,
+        C2011A00093:46,
+        C2011A00093:47,
+        C2011A00093:48,
+        C2011A00093:49,
+        C2011A00093:50,
+        C2011A00093:51 ;
+    dct:isReferencedBy C2011A00093: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E43"@en-AU ;
+    skos:broader C2011A00093:44,
+        C2011A00093:45,
+        C2011A00093:46,
+        C2011A00093:47,
+        C2011A00093:48,
+        C2011A00093:49,
+        C2011A00093:50,
+        C2011A00093:51 ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:prefLabel "Endnotes E43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914430> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2011A00093/2011-09-08/2011-09-08/text/original/epub/OEBPS/document_1/document_1.html#_Toc401914430"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+
+C2011A00093: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Tax Laws Amendment (Research and Development) Act 2011" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-06-03T13:51:55.115466"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2011-09-08T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Tax Laws Amendment (Research and Development) Act 2011"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2011A00093/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Tax Laws Amendment (Research and Development) Act 2011"@en-AU ;
+    dct:title "Tax Laws Amendment (Research and Development) Act 2011"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Endnotes,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2014C00703 C01" .
+

@@ -1,0 +1,82 @@
+@prefix C2016A00005: <http://example.org/au/leg/dataset/C2016A00005/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2016A00005:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2016A00005: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00005/asmade/2016-02-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc443053271> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00005/asmade/2016-02-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc443053271"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00005:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2016A00005: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00005/asmade/2016-02-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc443053272> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00005/asmade/2016-02-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc443053272"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00005:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Repeals of Acts"@en-AU ;
+    dct:hasPart C2016A00005:4 ;
+    dct:isReferencedBy C2016A00005: ;
+    rdfs:comment "3  Repeals of Acts - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2016A00005:4 ;
+    skos:definition "3  Repeals of Acts"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00005/asmade/2016-02-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc443053273> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00005/asmade/2016-02-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc443053273"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00005:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Repeals of Acts"@en-AU ;
+    dct:isPartOf C2016A00005:3 ;
+    dct:isReferencedBy C2016A00005: ;
+    rdfs:comment "Schedule 1 Repeals of Acts - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Repeals of Acts"@en-AU ;
+    skos:narrower C2016A00005:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00005/asmade/2016-02-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc443053274> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00005/asmade/2016-02-11/text/original/epub/OEBPS/document_1/document_1.html#_Toc443053274"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00005: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Amending Acts 1990 to 1999 Repeal Act 2016" ;
+    dct:Jurisdiction " Attorney-General's Department "@en-AU ;
+    dct:created "2026-06-03T13:57:24.827626"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2016-02-11T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Amending Acts 1990 to 1999 Repeal Act 2016"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2016A00005/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Amending Acts 1990 to 1999 Repeal Act 2016"@en-AU ;
+    dct:title "Amending Acts 1990 to 1999 Repeal Act 2016"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2016A00005" .
+

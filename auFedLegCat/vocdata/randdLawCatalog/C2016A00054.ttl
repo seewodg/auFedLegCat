@@ -1,0 +1,627 @@
+@prefix C2016A00054: <http://example.org/au/leg/dataset/C2016A00054/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2016A00054:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553474> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553474"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553475> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553475"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2016A00054:7 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2016A00054:7 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553500> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553500"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 3 Application of amendments"@en-AU ;
+    dct:isPartOf C2016A00054:4 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Part 3 Application of amendments - Abrievated Graph Key: P11"@en-AU ;
+    skos:definition "Part 3 Application of amendments"@en-AU ;
+    skos:narrower C2016A00054:4 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553501> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553501"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00054:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2016A00054:13 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2016A00054:13 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553504> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553504"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Venture Capital Act 2002"@en-AU ;
+    dct:isPartOf C2016A00054:15 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Venture Capital Act 2002 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Venture Capital Act 2002"@en-AU ;
+    skos:narrower C2016A00054:15 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553515> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553515"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2016A00054:17 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2016A00054:17 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553517> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553517"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Venture Capital Act 2002"@en-AU ;
+    dct:isPartOf C2016A00054:17 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Venture Capital Act 2002 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Venture Capital Act 2002"@en-AU ;
+    skos:narrower C2016A00054:17 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553519> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553519"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2016A00054:20 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2016A00054:20 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553521> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553521"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2016A00054:22 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2016A00054:22 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553523> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553523"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Venture Capital Act 2002"@en-AU ;
+    dct:isPartOf C2016A00054:22 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Venture Capital Act 2002 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Venture Capital Act 2002"@en-AU ;
+    skos:narrower C2016A00054:22 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553524> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553524"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2016A00054:25 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2016A00054:25 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553527> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553527"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Venture Capital Act 2002"@en-AU ;
+    dct:isPartOf C2016A00054:25 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Venture Capital Act 2002 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Venture Capital Act 2002"@en-AU ;
+    skos:narrower C2016A00054:25 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553528> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553528"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2016A00054:28 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2016A00054:28 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553530> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553530"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2016A00054:28 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2016A00054:28 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553531> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553531"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Venture Capital Act 2002"@en-AU ;
+    dct:isPartOf C2016A00054:28 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Venture Capital Act 2002 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Venture Capital Act 2002"@en-AU ;
+    skos:narrower C2016A00054:28 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553553> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553553"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2016A00054:32 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2016A00054:32 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553555> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553555"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2016A00054:34 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2016A00054:34 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553558> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553558"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2016A00054:34 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2016A00054:34 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553559> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553559"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 Venture Capital Act 2002"@en-AU ;
+    dct:isPartOf C2016A00054:37 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Venture Capital Act 2002 - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "Venture Capital Act 2002"@en-AU ;
+    skos:narrower C2016A00054:37 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553561> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553561"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2016A00054:5 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2016A00054:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553479> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553479"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2016A00054:7 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2016A00054:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553498> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553498"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2016A00054:7 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2016A00054:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553499> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553499"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 1 Tax offset for ESVCLP investments"@en-AU ;
+    dct:hasPart C2016A00054:14 ;
+    dct:isPartOf C2016A00054:12 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Part 1 Tax offset for ESVCLP investments - Abrievated Graph Key: P13"@en-AU ;
+    skos:broader C2016A00054:14 ;
+    skos:definition "Part 1 Tax offset for ESVCLP investments"@en-AU ;
+    skos:narrower C2016A00054:12 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553503> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553503"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00054:15 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P15 Part 2 ESVCLP fund size cap"@en-AU ;
+    dct:hasPart C2016A00054:16 ;
+    dct:isPartOf C2016A00054:12 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Part 2 ESVCLP fund size cap - Abrievated Graph Key: P15"@en-AU ;
+    skos:broader C2016A00054:16 ;
+    skos:definition "Part 2 ESVCLP fund size cap"@en-AU ;
+    skos:narrower C2016A00054:12 ;
+    skos:prefLabel "Part P15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553514> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553514"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00054:20 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P20 Part 4 CGT exemption for fixed and unit trust beneficiaries of partners in ESVCLPs"@en-AU ;
+    dct:hasPart C2016A00054:21 ;
+    dct:isPartOf C2016A00054:12 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Part 4 CGT exemption for fixed and unit trust beneficiaries of partners in ESVCLPs - Abrievated Graph Key: P20"@en-AU ;
+    skos:broader C2016A00054:21 ;
+    skos:definition "Part 4 CGT exemption for fixed and unit trust beneficiaries of partners in ESVCLPs"@en-AU ;
+    skos:narrower C2016A00054:12 ;
+    skos:prefLabel "Part P20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553520> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553520"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00054:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2016A00054:12,
+        C2016A00054:4 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2016A00054:12,
+        C2016A00054:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553476> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553476"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2016A00054:32 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P32 Part 8 Auditing requirements"@en-AU ;
+    dct:hasPart C2016A00054:33 ;
+    dct:isPartOf C2016A00054:12 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Part 8 Auditing requirements - Abrievated Graph Key: P32"@en-AU ;
+    skos:broader C2016A00054:33 ;
+    skos:definition "Part 8 Auditing requirements"@en-AU ;
+    skos:narrower C2016A00054:12 ;
+    skos:prefLabel "Part P32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553554> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553554"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00054:37 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P37 Part 10 Conditional registration"@en-AU ;
+    dct:hasPart C2016A00054:38 ;
+    dct:isPartOf C2016A00054:12 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Part 10 Conditional registration - Abrievated Graph Key: P37"@en-AU ;
+    skos:broader C2016A00054:38 ;
+    skos:definition "Part 10 Conditional registration"@en-AU ;
+    skos:narrower C2016A00054:12 ;
+    skos:prefLabel "Part P37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553560> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553560"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00054:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Main amendments"@en-AU ;
+    dct:hasPart C2016A00054:6 ;
+    dct:isPartOf C2016A00054:4 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2016A00054:6 ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2016A00054:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553478> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553478"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00054:17 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P17 Part 3 Removing the ESVCLP divestiture registration requirement"@en-AU ;
+    dct:hasPart C2016A00054:18,
+        C2016A00054:19 ;
+    dct:isPartOf C2016A00054:12 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Part 3 Removing the ESVCLP divestiture registration requirement - Abrievated Graph Key: P17"@en-AU ;
+    skos:broader C2016A00054:18,
+        C2016A00054:19 ;
+    skos:definition "Part 3 Removing the ESVCLP divestiture registration requirement"@en-AU ;
+    skos:narrower C2016A00054:12 ;
+    skos:prefLabel "Part P17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553516> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553516"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00054:22 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P22 Part 5 Requirements for entities in which VCLPs ESVCLPs and AFOFs invest"@en-AU ;
+    dct:hasPart C2016A00054:23,
+        C2016A00054:24 ;
+    dct:isPartOf C2016A00054:12 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Part 5 Requirements for entities in which VCLPs ESVCLPs and AFOFs invest - Abrievated Graph Key: P22"@en-AU ;
+    skos:broader C2016A00054:23,
+        C2016A00054:24 ;
+    skos:definition "Part 5 Requirements for entities in which VCLPs ESVCLPs and AFOFs invest"@en-AU ;
+    skos:narrower C2016A00054:12 ;
+    skos:prefLabel "Part P22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553522> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553522"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00054:25 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P25 Part 6 Foreign venture capital funds of funds"@en-AU ;
+    dct:hasPart C2016A00054:26,
+        C2016A00054:27 ;
+    dct:isPartOf C2016A00054:12 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Part 6 Foreign venture capital funds of funds - Abrievated Graph Key: P25"@en-AU ;
+    skos:broader C2016A00054:26,
+        C2016A00054:27 ;
+    skos:definition "Part 6 Foreign venture capital funds of funds"@en-AU ;
+    skos:narrower C2016A00054:12 ;
+    skos:prefLabel "Part P25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553526> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553526"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00054:34 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P34 Part 9 Managed investment trusts"@en-AU ;
+    dct:hasPart C2016A00054:35,
+        C2016A00054:36 ;
+    dct:isPartOf C2016A00054:12 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Part 9 Managed investment trusts - Abrievated Graph Key: P34"@en-AU ;
+    skos:broader C2016A00054:35,
+        C2016A00054:36 ;
+    skos:definition "Part 9 Managed investment trusts"@en-AU ;
+    skos:narrower C2016A00054:12 ;
+    skos:prefLabel "Part P34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553557> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553557"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00054:28 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P28 Part 7 Rulings that activities are not ineligible activities"@en-AU ;
+    dct:hasPart C2016A00054:29,
+        C2016A00054:30,
+        C2016A00054:31 ;
+    dct:isPartOf C2016A00054:12 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Part 7 Rulings that activities are not ineligible activities - Abrievated Graph Key: P28"@en-AU ;
+    skos:broader C2016A00054:29,
+        C2016A00054:30,
+        C2016A00054:31 ;
+    skos:definition "Part 7 Rulings that activities are not ineligible activities"@en-AU ;
+    skos:narrower C2016A00054:12 ;
+    skos:prefLabel "Part P28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553529> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553529"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00054:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Tax incentives for early stage investors"@en-AU ;
+    dct:hasPart C2016A00054:11,
+        C2016A00054:5,
+        C2016A00054:7 ;
+    dct:isPartOf C2016A00054:3 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Schedule 1 Tax incentives for early stage investors - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2016A00054:11,
+        C2016A00054:5,
+        C2016A00054:7 ;
+    skos:definition "Schedule 1 Tax incentives for early stage investors"@en-AU ;
+    skos:narrower C2016A00054:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553477> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553477"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00054:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Other amendments"@en-AU ;
+    dct:hasPart C2016A00054:10,
+        C2016A00054:8,
+        C2016A00054:9 ;
+    dct:isPartOf C2016A00054:4 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Part 2 Other amendments - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader C2016A00054:10,
+        C2016A00054:8,
+        C2016A00054:9 ;
+    skos:definition "Part 2 Other amendments"@en-AU ;
+    skos:narrower C2016A00054:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553497> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553497"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2016A00054:12 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S12 Schedule 2 Venture capital investment"@en-AU ;
+    dct:hasPart C2016A00054:13,
+        C2016A00054:15,
+        C2016A00054:17,
+        C2016A00054:20,
+        C2016A00054:22,
+        C2016A00054:25,
+        C2016A00054:28,
+        C2016A00054:32,
+        C2016A00054:34,
+        C2016A00054:37 ;
+    dct:isPartOf C2016A00054:3 ;
+    dct:isReferencedBy C2016A00054: ;
+    rdfs:comment "Schedule 2 Venture capital investment - Abrievated Graph Key: S12"@en-AU ;
+    skos:broader C2016A00054:13,
+        C2016A00054:15,
+        C2016A00054:17,
+        C2016A00054:20,
+        C2016A00054:22,
+        C2016A00054:25,
+        C2016A00054:28,
+        C2016A00054:32,
+        C2016A00054:34,
+        C2016A00054:37 ;
+    skos:definition "Schedule 2 Venture capital investment"@en-AU ;
+    skos:narrower C2016A00054:3 ;
+    skos:prefLabel "Schedule S12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553502> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2016A00054/asmade/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html#_Toc450553502"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2016A00054: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Tax Laws Amendment (Tax Incentives for Innovation) Act 2016" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-06-03T13:54:06.603874"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2016-05-05T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Tax Laws Amendment (Tax Incentives for Innovation) Act 2016"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2016A00054/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Tax Laws Amendment (Tax Incentives for Innovation) Act 2016"@en-AU ;
+    dct:title "Tax Laws Amendment (Tax Incentives for Innovation) Act 2016"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2016A00054" .
+

@@ -1,0 +1,735 @@
+@prefix C2007A00078: <http://example.org/au/leg/dataset/C2007A00078/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2007A00078:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626521> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626521"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626522> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626522"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626523> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626523"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    dct:isPartOf C2007A00078:10 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "A New Tax System Goods and Services Tax Act 1999 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    skos:narrower C2007A00078:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626534> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626534"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2007A00078:10 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2007A00078:10 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626535> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626535"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 3 Application"@en-AU ;
+    dct:isPartOf C2007A00078:7 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Part 3 Application - Abrievated Graph Key: P13"@en-AU ;
+    skos:definition "Part 3 Application"@en-AU ;
+    skos:narrower C2007A00078:7 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626537> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626537"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00078:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2007A00078:14 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2007A00078:14 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626539> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626539"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2007A00078:14 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2007A00078:14 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626541> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626541"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2007A00078:14 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2007A00078:14 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626542> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626542"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2007A00078:18 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2007A00078:18 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626544> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626544"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2007A00078:20 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2007A00078:20 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626546> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626546"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Tax Laws Amendment Repeal of Inoperative Provisions Act 2006"@en-AU ;
+    dct:isPartOf C2007A00078:20 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Tax Laws Amendment Repeal of Inoperative Provisions Act 2006 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Tax Laws Amendment Repeal of Inoperative Provisions Act 2006"@en-AU ;
+    skos:narrower C2007A00078:20 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626547> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626547"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2007A00078:23 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2007A00078:23 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626549> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626549"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2007A00078:25 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2007A00078:25 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626551> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626551"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2007A00078:25 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2007A00078:25 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626552> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626552"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2007A00078:29 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2007A00078:29 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626555> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626555"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Venture Capital Act 2002"@en-AU ;
+    dct:isPartOf C2007A00078:29 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Venture Capital Act 2002 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Venture Capital Act 2002"@en-AU ;
+    skos:narrower C2007A00078:29 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626558> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626558"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2007A00078:32 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2007A00078:32 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626560> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626560"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2007A00078:32 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2007A00078:32 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626561> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626561"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Pooled Development Funds Act 1992"@en-AU ;
+    dct:isPartOf C2007A00078:32 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Pooled Development Funds Act 1992 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Pooled Development Funds Act 1992"@en-AU ;
+    skos:narrower C2007A00078:32 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626567> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626567"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 Venture Capital Act 2002"@en-AU ;
+    dct:isPartOf C2007A00078:32 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Venture Capital Act 2002 - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "Venture Capital Act 2002"@en-AU ;
+    skos:narrower C2007A00078:32 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626568> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626568"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2007A00078:37 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2007A00078:37 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626578> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626578"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:39 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I39 Pooled Development Funds Act 1992"@en-AU ;
+    dct:isPartOf C2007A00078:37 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Pooled Development Funds Act 1992 - Abrievated Graph Key: I39"@en-AU ;
+    skos:definition "Pooled Development Funds Act 1992"@en-AU ;
+    skos:narrower C2007A00078:37 ;
+    skos:prefLabel "Item I39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626579> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626579"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 Venture Capital Act 2002"@en-AU ;
+    dct:isPartOf C2007A00078:37 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Venture Capital Act 2002 - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "Venture Capital Act 2002"@en-AU ;
+    skos:narrower C2007A00078:37 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626582> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626582"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 Pooled Development Funds Act 1992"@en-AU ;
+    dct:isPartOf C2007A00078:41 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Pooled Development Funds Act 1992 - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "Pooled Development Funds Act 1992"@en-AU ;
+    skos:narrower C2007A00078:41 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626593> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626593"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2007A00078:43 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2007A00078:43 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626595> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626595"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:45 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I45 Venture Capital Act 2002"@en-AU ;
+    dct:isPartOf C2007A00078:43 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Venture Capital Act 2002 - Abrievated Graph Key: I45"@en-AU ;
+    skos:definition "Venture Capital Act 2002"@en-AU ;
+    skos:narrower C2007A00078:43 ;
+    skos:prefLabel "Item I45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626596> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626596"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2007A00078:5 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2007A00078:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626526> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626526"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2007A00078:8 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2007A00078:8 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626529> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626529"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078:18 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S18 Schedule 4 Donation of listed shares to deductible gift recipients"@en-AU ;
+    dct:hasPart C2007A00078:19 ;
+    dct:isPartOf C2007A00078:4 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Schedule 4 Donation of listed shares to deductible gift recipients - Abrievated Graph Key: S18"@en-AU ;
+    skos:broader C2007A00078:19 ;
+    skos:definition "Schedule 4 Donation of listed shares to deductible gift recipients"@en-AU ;
+    skos:narrower C2007A00078:4 ;
+    skos:prefLabel "Schedule S18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626543> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626543"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00078:23 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S23 Schedule 6 Deductions for contributions relating to fundraising events"@en-AU ;
+    dct:hasPart C2007A00078:24 ;
+    dct:isPartOf C2007A00078:4 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Schedule 6 Deductions for contributions relating to fundraising events - Abrievated Graph Key: S23"@en-AU ;
+    skos:broader C2007A00078:24 ;
+    skos:definition "Schedule 6 Deductions for contributions relating to fundraising events"@en-AU ;
+    skos:narrower C2007A00078:4 ;
+    skos:prefLabel "Schedule S23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626548> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626548"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00078:41 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P41 Part 4 Pooled development funds"@en-AU ;
+    dct:hasPart C2007A00078:42 ;
+    dct:isPartOf C2007A00078:28 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Part 4 Pooled development funds - Abrievated Graph Key: P41"@en-AU ;
+    skos:broader C2007A00078:42 ;
+    skos:definition "Part 4 Pooled development funds"@en-AU ;
+    skos:narrower C2007A00078:28 ;
+    skos:prefLabel "Part P41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626592> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626592"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00078:5 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S5 Schedule 1 Effective life provisions"@en-AU ;
+    dct:hasPart C2007A00078:6 ;
+    dct:isPartOf C2007A00078:4 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Schedule 1 Effective life provisions - Abrievated Graph Key: S5"@en-AU ;
+    skos:broader C2007A00078:6 ;
+    skos:definition "Schedule 1 Effective life provisions"@en-AU ;
+    skos:narrower C2007A00078:4 ;
+    skos:prefLabel "Schedule S5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626525> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626525"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00078:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 1 Main amendments"@en-AU ;
+    dct:hasPart C2007A00078:9 ;
+    dct:isPartOf C2007A00078:7 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P8"@en-AU ;
+    skos:broader C2007A00078:9 ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2007A00078:7 ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626528> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626528"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00078:10 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P10 Part 2 Consequential amendments"@en-AU ;
+    dct:hasPart C2007A00078:11,
+        C2007A00078:12 ;
+    dct:isPartOf C2007A00078:7 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Part 2 Consequential amendments - Abrievated Graph Key: P10"@en-AU ;
+    skos:broader C2007A00078:11,
+        C2007A00078:12 ;
+    skos:definition "Part 2 Consequential amendments"@en-AU ;
+    skos:narrower C2007A00078:7 ;
+    skos:prefLabel "Part P10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626533> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626533"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00078:20 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S20 Schedule 5 Specifically listed deductible gift recipients"@en-AU ;
+    dct:hasPart C2007A00078:21,
+        C2007A00078:22 ;
+    dct:isPartOf C2007A00078:4 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Schedule 5 Specifically listed deductible gift recipients - Abrievated Graph Key: S20"@en-AU ;
+    skos:broader C2007A00078:21,
+        C2007A00078:22 ;
+    skos:definition "Schedule 5 Specifically listed deductible gift recipients"@en-AU ;
+    skos:narrower C2007A00078:4 ;
+    skos:prefLabel "Schedule S20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626545> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626545"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00078:25 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S25 Schedule 7 Technical corrections"@en-AU ;
+    dct:hasPart C2007A00078:26,
+        C2007A00078:27 ;
+    dct:isPartOf C2007A00078:4 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Schedule 7 Technical corrections - Abrievated Graph Key: S25"@en-AU ;
+    skos:broader C2007A00078:26,
+        C2007A00078:27 ;
+    skos:definition "Schedule 7 Technical corrections"@en-AU ;
+    skos:narrower C2007A00078:4 ;
+    skos:prefLabel "Schedule S25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626550> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626550"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00078:29 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P29 Part 1 Venture capital limited partnerships"@en-AU ;
+    dct:hasPart C2007A00078:30,
+        C2007A00078:31 ;
+    dct:isPartOf C2007A00078:28 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Part 1 Venture capital limited partnerships - Abrievated Graph Key: P29"@en-AU ;
+    skos:broader C2007A00078:30,
+        C2007A00078:31 ;
+    skos:definition "Part 1 Venture capital limited partnerships"@en-AU ;
+    skos:narrower C2007A00078:28 ;
+    skos:prefLabel "Part P29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626554> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626554"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00078:43 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P43 Part 5 Conditional registration"@en-AU ;
+    dct:hasPart C2007A00078:44,
+        C2007A00078:45 ;
+    dct:isPartOf C2007A00078:28 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Part 5 Conditional registration - Abrievated Graph Key: P43"@en-AU ;
+    skos:broader C2007A00078:44,
+        C2007A00078:45 ;
+    skos:definition "Part 5 Conditional registration"@en-AU ;
+    skos:narrower C2007A00078:28 ;
+    skos:prefLabel "Part P43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626594> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626594"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00078:14 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S14 Schedule 3 Research and development"@en-AU ;
+    dct:hasPart C2007A00078:15,
+        C2007A00078:16,
+        C2007A00078:17 ;
+    dct:isPartOf C2007A00078:4 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Schedule 3 Research and development - Abrievated Graph Key: S14"@en-AU ;
+    skos:broader C2007A00078:15,
+        C2007A00078:16,
+        C2007A00078:17 ;
+    skos:definition "Schedule 3 Research and development"@en-AU ;
+    skos:narrower C2007A00078:4 ;
+    skos:prefLabel "Schedule S14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626538> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626538"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00078:37 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P37 Part 3 The Venture Capital Registration Board"@en-AU ;
+    dct:hasPart C2007A00078:38,
+        C2007A00078:39,
+        C2007A00078:40 ;
+    dct:isPartOf C2007A00078:28 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Part 3 The Venture Capital Registration Board - Abrievated Graph Key: P37"@en-AU ;
+    skos:broader C2007A00078:38,
+        C2007A00078:39,
+        C2007A00078:40 ;
+    skos:definition "Part 3 The Venture Capital Registration Board"@en-AU ;
+    skos:narrower C2007A00078:28 ;
+    skos:prefLabel "Part P37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626577> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626577"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00078:7 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S7 Schedule 2 Taxation of boating activities"@en-AU ;
+    dct:hasPart C2007A00078:10,
+        C2007A00078:13,
+        C2007A00078:8 ;
+    dct:isPartOf C2007A00078:4 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Schedule 2 Taxation of boating activities - Abrievated Graph Key: S7"@en-AU ;
+    skos:broader C2007A00078:10,
+        C2007A00078:13,
+        C2007A00078:8 ;
+    skos:definition "Schedule 2 Taxation of boating activities"@en-AU ;
+    skos:narrower C2007A00078:4 ;
+    skos:prefLabel "Schedule S7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626527> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626527"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00078:32 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P32 Part 2 Early stage venture capital limited partnerships"@en-AU ;
+    dct:hasPart C2007A00078:33,
+        C2007A00078:34,
+        C2007A00078:35,
+        C2007A00078:36 ;
+    dct:isPartOf C2007A00078:28 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Part 2 Early stage venture capital limited partnerships - Abrievated Graph Key: P32"@en-AU ;
+    skos:broader C2007A00078:33,
+        C2007A00078:34,
+        C2007A00078:35,
+        C2007A00078:36 ;
+    skos:definition "Part 2 Early stage venture capital limited partnerships"@en-AU ;
+    skos:narrower C2007A00078:28 ;
+    skos:prefLabel "Part P32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626559> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626559"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2007A00078:28 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S28 Schedule 8 Venture capital"@en-AU ;
+    dct:hasPart C2007A00078:29,
+        C2007A00078:32,
+        C2007A00078:37,
+        C2007A00078:41,
+        C2007A00078:43 ;
+    dct:isPartOf C2007A00078:4 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "Schedule 8 Venture capital - Abrievated Graph Key: S28"@en-AU ;
+    skos:broader C2007A00078:29,
+        C2007A00078:32,
+        C2007A00078:37,
+        C2007A00078:41,
+        C2007A00078:43 ;
+    skos:definition "Schedule 8 Venture capital"@en-AU ;
+    skos:narrower C2007A00078:4 ;
+    skos:prefLabel "Schedule S28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626553> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626553"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2007A00078:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 4  Amendment of assessments"@en-AU ;
+    dct:hasPart C2007A00078:14,
+        C2007A00078:18,
+        C2007A00078:20,
+        C2007A00078:23,
+        C2007A00078:25,
+        C2007A00078:28,
+        C2007A00078:5,
+        C2007A00078:7 ;
+    dct:isReferencedBy C2007A00078: ;
+    rdfs:comment "4  Amendment of assessments - Abrievated Graph Key: I4"@en-AU ;
+    skos:broader C2007A00078:14,
+        C2007A00078:18,
+        C2007A00078:20,
+        C2007A00078:23,
+        C2007A00078:25,
+        C2007A00078:28,
+        C2007A00078:5,
+        C2007A00078:7 ;
+    skos:definition "4  Amendment of assessments"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626524> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2007A00078/asmade/2002-12-19/text/original/epub/OEBPS/document_1/document_1.html#_Toc170626524"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2007A00078: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Tax Laws Amendment (2007 Measures No. 2) Act 2007" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-06-03T13:53:42.848926"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2002-12-19T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Tax Laws Amendment (2007 Measures No. 2) Act 2007"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2007A00078/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Tax Laws Amendment (2007 Measures No. 2) Act 2007"@en-AU ;
+    dct:title "Tax Laws Amendment (2007 Measures No. 2) Act 2007"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2007A00078" .
+

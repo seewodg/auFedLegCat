@@ -1,0 +1,992 @@
+@prefix F2007B00254: <http://example.org/au/leg/dataset/F2007B00254/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+F2007B00254:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Name of Order"@en-AU ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "1  Name of Order - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Name of Order"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636731> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636731"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B00254:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Interpretation"@en-AU ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "2  Interpretation - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Interpretation"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636732> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636732"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B00254:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  References to Ministers"@en-AU ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "3  References to Ministers - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "3  References to Ministers"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636733> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636733"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B00254:4 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I4 4  References to Departments"@en-AU ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "4  References to Departments - Abrievated Graph Key: I4"@en-AU ;
+    skos:definition "4  References to Departments"@en-AU ;
+    skos:prefLabel "Item I4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636734> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636734"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B00254:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 5  References to Secretaries"@en-AU ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "5  References to Secretaries - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "5  References to Secretaries"@en-AU ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636735> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636735"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B00254:10 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P10 Part 4 Substitution made on 23 February 1999"@en-AU ;
+    dct:isPartOf F2007B00254:6 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 4 Substitution made on 23 February 1999 - Abrievated Graph Key: P10"@en-AU ;
+    skos:definition "Part 4 Substitution made on 23 February 1999"@en-AU ;
+    skos:narrower F2007B00254:6 ;
+    skos:prefLabel "Part P10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636740> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636740"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 5 Substitutions made on 3 May 2001"@en-AU ;
+    dct:isPartOf F2007B00254:6 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 5 Substitutions made on 3 May 2001 - Abrievated Graph Key: P11"@en-AU ;
+    skos:definition "Part 5 Substitutions made on 3 May 2001"@en-AU ;
+    skos:narrower F2007B00254:6 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636741> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636741"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:12 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P12 Part 6 Substitution made on 20 December 2001"@en-AU ;
+    dct:isPartOf F2007B00254:6 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 6 Substitution made on 20 December 2001 - Abrievated Graph Key: P12"@en-AU ;
+    skos:definition "Part 6 Substitution made on 20 December 2001"@en-AU ;
+    skos:narrower F2007B00254:6 ;
+    skos:prefLabel "Part P12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636742> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636742"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 7 Substitutions made on 27 November 2002"@en-AU ;
+    dct:isPartOf F2007B00254:6 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 7 Substitutions made on 27 November 2002 - Abrievated Graph Key: P13"@en-AU ;
+    skos:definition "Part 7 Substitutions made on 27 November 2002"@en-AU ;
+    skos:narrower F2007B00254:6 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636743> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636743"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:14 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P14 Part 8 Substitutions made on 1 January 2004"@en-AU ;
+    dct:isPartOf F2007B00254:6 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 8 Substitutions made on 1 January 2004 - Abrievated Graph Key: P14"@en-AU ;
+    skos:definition "Part 8 Substitutions made on 1 January 2004"@en-AU ;
+    skos:narrower F2007B00254:6 ;
+    skos:prefLabel "Part P14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636744> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636744"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:15 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P15 Part 9 Substitutions made on 13 March 2006"@en-AU ;
+    dct:isPartOf F2007B00254:6 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 9 Substitutions made on 13 March 2006 - Abrievated Graph Key: P15"@en-AU ;
+    skos:definition "Part 9 Substitutions made on 13 March 2006"@en-AU ;
+    skos:narrower F2007B00254:6 ;
+    skos:prefLabel "Part P15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636745> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636745"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:16 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P16 Part 10 Substitutions made on 16 February 2007"@en-AU ;
+    dct:isPartOf F2007B00254:6 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 10 Substitutions made on 16 February 2007 - Abrievated Graph Key: P16"@en-AU ;
+    skos:definition "Part 10 Substitutions made on 16 February 2007"@en-AU ;
+    skos:narrower F2007B00254:6 ;
+    skos:prefLabel "Part P16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636746> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636746"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:17 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P17 Part 11 Substitutions made on 18 December 2007"@en-AU ;
+    dct:isPartOf F2007B00254:6 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 11 Substitutions made on 18 December 2007 - Abrievated Graph Key: P17"@en-AU ;
+    skos:definition "Part 11 Substitutions made on 18 December 2007"@en-AU ;
+    skos:narrower F2007B00254:6 ;
+    skos:prefLabel "Part P17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636747> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636747"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:18 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P18 Part 12 Substitutions made on 11 March 2010"@en-AU ;
+    dct:isPartOf F2007B00254:6 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 12 Substitutions made on 11 March 2010 - Abrievated Graph Key: P18"@en-AU ;
+    skos:definition "Part 12 Substitutions made on 11 March 2010"@en-AU ;
+    skos:narrower F2007B00254:6 ;
+    skos:prefLabel "Part P18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636748> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636748"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:19 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P19 Part 13 Substitutions made on 16 October 2010"@en-AU ;
+    dct:isPartOf F2007B00254:6 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 13 Substitutions made on 16 October 2010 - Abrievated Graph Key: P19"@en-AU ;
+    skos:definition "Part 13 Substitutions made on 16 October 2010"@en-AU ;
+    skos:narrower F2007B00254:6 ;
+    skos:prefLabel "Part P19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636749> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636749"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:20 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P20 Part 14 Substitutions made on 15 September 2011"@en-AU ;
+    dct:isPartOf F2007B00254:6 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 14 Substitutions made on 15 September 2011 - Abrievated Graph Key: P20"@en-AU ;
+    skos:definition "Part 14 Substitutions made on 15 September 2011"@en-AU ;
+    skos:narrower F2007B00254:6 ;
+    skos:prefLabel "Part P20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636750> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636750"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:21 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P21 Part 15 Substitutions made on 9 February 2012"@en-AU ;
+    dct:isPartOf F2007B00254:6 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 15 Substitutions made on 9 February 2012 - Abrievated Graph Key: P21"@en-AU ;
+    skos:definition "Part 15 Substitutions made on 9 February 2012"@en-AU ;
+    skos:narrower F2007B00254:6 ;
+    skos:prefLabel "Part P21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636751> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636751"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:22 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P22 Part 16 Substitutions made on 27 April 2013"@en-AU ;
+    dct:isPartOf F2007B00254:6 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 16 Substitutions made on 27 April 2013 - Abrievated Graph Key: P22"@en-AU ;
+    skos:definition "Part 16 Substitutions made on 27 April 2013"@en-AU ;
+    skos:narrower F2007B00254:6 ;
+    skos:prefLabel "Part P22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636752> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636752"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:23 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P23 Part 17 Substitutions made on 18 September 2013"@en-AU ;
+    dct:isPartOf F2007B00254:6 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 17 Substitutions made on 18 September 2013 - Abrievated Graph Key: P23"@en-AU ;
+    skos:definition "Part 17 Substitutions made on 18 September 2013"@en-AU ;
+    skos:narrower F2007B00254:6 ;
+    skos:prefLabel "Part P23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636753> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636753"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:24 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P24 Part 18 Substitutions made on 12 November 2013"@en-AU ;
+    dct:isPartOf F2007B00254:6 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 18 Substitutions made on 12 November 2013 - Abrievated Graph Key: P24"@en-AU ;
+    skos:definition "Part 18 Substitutions made on 12 November 2013"@en-AU ;
+    skos:narrower F2007B00254:6 ;
+    skos:prefLabel "Part P24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636754> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636754"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:25 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P25 Part 19 Substitutions made on commencement of the Acts Interpretation Substituted ReferencesSection 19 B Amendment Order 2015 No 1"@en-AU ;
+    dct:isPartOf F2007B00254:6 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 19 Substitutions made on commencement of the Acts Interpretation Substituted ReferencesSection 19 B Amendment Order 2015 No 1 - Abrievated Graph Key: P25"@en-AU ;
+    skos:definition "Part 19 Substitutions made on commencement of the Acts Interpretation Substituted ReferencesSection 19 B Amendment Order 2015 No 1"@en-AU ;
+    skos:narrower F2007B00254:6 ;
+    skos:prefLabel "Part P25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636755> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636755"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:27 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P27 Part 1 Substitution made on 6 August 1997"@en-AU ;
+    dct:isPartOf F2007B00254:26 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 1 Substitution made on 6 August 1997 - Abrievated Graph Key: P27"@en-AU ;
+    skos:definition "Part 1 Substitution made on 6 August 1997"@en-AU ;
+    skos:narrower F2007B00254:26 ;
+    skos:prefLabel "Part P27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636757> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636757"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:28 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P28 Part 2 Substitutions made on 29 October 1997"@en-AU ;
+    dct:isPartOf F2007B00254:26 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 2 Substitutions made on 29 October 1997 - Abrievated Graph Key: P28"@en-AU ;
+    skos:definition "Part 2 Substitutions made on 29 October 1997"@en-AU ;
+    skos:narrower F2007B00254:26 ;
+    skos:prefLabel "Part P28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636758> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636758"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:29 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P29 Part 3 Substitutions made on 12 November 1998"@en-AU ;
+    dct:isPartOf F2007B00254:26 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 3 Substitutions made on 12 November 1998 - Abrievated Graph Key: P29"@en-AU ;
+    skos:definition "Part 3 Substitutions made on 12 November 1998"@en-AU ;
+    skos:narrower F2007B00254:26 ;
+    skos:prefLabel "Part P29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636759> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636759"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:30 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P30 Part 4 Substitutions made on 20 December 2001"@en-AU ;
+    dct:isPartOf F2007B00254:26 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 4 Substitutions made on 20 December 2001 - Abrievated Graph Key: P30"@en-AU ;
+    skos:definition "Part 4 Substitutions made on 20 December 2001"@en-AU ;
+    skos:narrower F2007B00254:26 ;
+    skos:prefLabel "Part P30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636760> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636760"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:31 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P31 Part 5 Substitutions made on 13 March 2006"@en-AU ;
+    dct:isPartOf F2007B00254:26 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 5 Substitutions made on 13 March 2006 - Abrievated Graph Key: P31"@en-AU ;
+    skos:definition "Part 5 Substitutions made on 13 March 2006"@en-AU ;
+    skos:narrower F2007B00254:26 ;
+    skos:prefLabel "Part P31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636761> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636761"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:32 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P32 Part 5 Substitutions made on 16 February 2007"@en-AU ;
+    dct:isPartOf F2007B00254:26 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 5 Substitutions made on 16 February 2007 - Abrievated Graph Key: P32"@en-AU ;
+    skos:definition "Part 5 Substitutions made on 16 February 2007"@en-AU ;
+    skos:narrower F2007B00254:26 ;
+    skos:prefLabel "Part P32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636762> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636762"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:33 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P33 Part 7 Substitutions made on 18 December 2007"@en-AU ;
+    dct:isPartOf F2007B00254:26 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 7 Substitutions made on 18 December 2007 - Abrievated Graph Key: P33"@en-AU ;
+    skos:definition "Part 7 Substitutions made on 18 December 2007"@en-AU ;
+    skos:narrower F2007B00254:26 ;
+    skos:prefLabel "Part P33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636763> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636763"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:34 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P34 Part 8 Substitution made on 6 March 2008"@en-AU ;
+    dct:isPartOf F2007B00254:26 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 8 Substitution made on 6 March 2008 - Abrievated Graph Key: P34"@en-AU ;
+    skos:definition "Part 8 Substitution made on 6 March 2008"@en-AU ;
+    skos:narrower F2007B00254:26 ;
+    skos:prefLabel "Part P34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636764> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636764"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:35 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P35 Part 9 Substitution made on 11 March 2010"@en-AU ;
+    dct:isPartOf F2007B00254:26 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 9 Substitution made on 11 March 2010 - Abrievated Graph Key: P35"@en-AU ;
+    skos:definition "Part 9 Substitution made on 11 March 2010"@en-AU ;
+    skos:narrower F2007B00254:26 ;
+    skos:prefLabel "Part P35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636765> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636765"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:36 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P36 Part 10 Substitutions made on 16 October 2010"@en-AU ;
+    dct:isPartOf F2007B00254:26 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 10 Substitutions made on 16 October 2010 - Abrievated Graph Key: P36"@en-AU ;
+    skos:definition "Part 10 Substitutions made on 16 October 2010"@en-AU ;
+    skos:narrower F2007B00254:26 ;
+    skos:prefLabel "Part P36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636766> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636766"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:37 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P37 Part 11 Substitutions made on 9 February 2012"@en-AU ;
+    dct:isPartOf F2007B00254:26 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 11 Substitutions made on 9 February 2012 - Abrievated Graph Key: P37"@en-AU ;
+    skos:definition "Part 11 Substitutions made on 9 February 2012"@en-AU ;
+    skos:narrower F2007B00254:26 ;
+    skos:prefLabel "Part P37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636767> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636767"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:38 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P38 Part 12 Substitutions made on 27 April 2013"@en-AU ;
+    dct:isPartOf F2007B00254:26 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 12 Substitutions made on 27 April 2013 - Abrievated Graph Key: P38"@en-AU ;
+    skos:definition "Part 12 Substitutions made on 27 April 2013"@en-AU ;
+    skos:narrower F2007B00254:26 ;
+    skos:prefLabel "Part P38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636768> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636768"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:39 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P39 Part 13 Substitutions made on 18 September 2013"@en-AU ;
+    dct:isPartOf F2007B00254:26 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 13 Substitutions made on 18 September 2013 - Abrievated Graph Key: P39"@en-AU ;
+    skos:definition "Part 13 Substitutions made on 18 September 2013"@en-AU ;
+    skos:narrower F2007B00254:26 ;
+    skos:prefLabel "Part P39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636769> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636769"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:40 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P40 Part 14 Substitutions made on 12 November 2013"@en-AU ;
+    dct:isPartOf F2007B00254:26 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 14 Substitutions made on 12 November 2013 - Abrievated Graph Key: P40"@en-AU ;
+    skos:definition "Part 14 Substitutions made on 12 November 2013"@en-AU ;
+    skos:narrower F2007B00254:26 ;
+    skos:prefLabel "Part P40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636770> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636770"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:41 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P41 Part 15 Substitutions made on commencement of the Acts Interpretation Substituted ReferencesSection 19 B Amendment Order 2015 No 1"@en-AU ;
+    dct:isPartOf F2007B00254:26 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 15 Substitutions made on commencement of the Acts Interpretation Substituted ReferencesSection 19 B Amendment Order 2015 No 1 - Abrievated Graph Key: P41"@en-AU ;
+    skos:definition "Part 15 Substitutions made on commencement of the Acts Interpretation Substituted ReferencesSection 19 B Amendment Order 2015 No 1"@en-AU ;
+    skos:narrower F2007B00254:26 ;
+    skos:prefLabel "Part P41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636771> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636771"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:43 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P43 Part 1 Substitution made on 6 August 1997"@en-AU ;
+    dct:isPartOf F2007B00254:42 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 1 Substitution made on 6 August 1997 - Abrievated Graph Key: P43"@en-AU ;
+    skos:definition "Part 1 Substitution made on 6 August 1997"@en-AU ;
+    skos:narrower F2007B00254:42 ;
+    skos:prefLabel "Part P43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636773> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636773"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:44 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P44 Part 2 Substitutions made on 29 October 1997"@en-AU ;
+    dct:isPartOf F2007B00254:42 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 2 Substitutions made on 29 October 1997 - Abrievated Graph Key: P44"@en-AU ;
+    skos:definition "Part 2 Substitutions made on 29 October 1997"@en-AU ;
+    skos:narrower F2007B00254:42 ;
+    skos:prefLabel "Part P44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636774> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636774"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:45 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P45 Part 3 Substitutions made on 12 November 1998"@en-AU ;
+    dct:isPartOf F2007B00254:42 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 3 Substitutions made on 12 November 1998 - Abrievated Graph Key: P45"@en-AU ;
+    skos:definition "Part 3 Substitutions made on 12 November 1998"@en-AU ;
+    skos:narrower F2007B00254:42 ;
+    skos:prefLabel "Part P45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636775> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636775"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:46 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P46 Part 4 Substitutions made on 20 December 2001"@en-AU ;
+    dct:isPartOf F2007B00254:42 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 4 Substitutions made on 20 December 2001 - Abrievated Graph Key: P46"@en-AU ;
+    skos:definition "Part 4 Substitutions made on 20 December 2001"@en-AU ;
+    skos:narrower F2007B00254:42 ;
+    skos:prefLabel "Part P46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636776> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636776"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:47 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P47 Part 5 Substitutions made on 13 March 2006"@en-AU ;
+    dct:isPartOf F2007B00254:42 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 5 Substitutions made on 13 March 2006 - Abrievated Graph Key: P47"@en-AU ;
+    skos:definition "Part 5 Substitutions made on 13 March 2006"@en-AU ;
+    skos:narrower F2007B00254:42 ;
+    skos:prefLabel "Part P47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636777> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636777"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:48 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P48 Part 6 Substitutions made on 16 February 2007"@en-AU ;
+    dct:isPartOf F2007B00254:42 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 6 Substitutions made on 16 February 2007 - Abrievated Graph Key: P48"@en-AU ;
+    skos:definition "Part 6 Substitutions made on 16 February 2007"@en-AU ;
+    skos:narrower F2007B00254:42 ;
+    skos:prefLabel "Part P48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636778> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636778"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:49 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P49 Part 7 Substitutions made on 18 December 2007"@en-AU ;
+    dct:isPartOf F2007B00254:42 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 7 Substitutions made on 18 December 2007 - Abrievated Graph Key: P49"@en-AU ;
+    skos:definition "Part 7 Substitutions made on 18 December 2007"@en-AU ;
+    skos:narrower F2007B00254:42 ;
+    skos:prefLabel "Part P49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636779> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636779"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:50 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P50 Part 8 Substitution made on 3 June 2008"@en-AU ;
+    dct:isPartOf F2007B00254:42 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 8 Substitution made on 3 June 2008 - Abrievated Graph Key: P50"@en-AU ;
+    skos:definition "Part 8 Substitution made on 3 June 2008"@en-AU ;
+    skos:narrower F2007B00254:42 ;
+    skos:prefLabel "Part P50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636780> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636780"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:51 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P51 Part 9 Substitution made on 11 March 2010"@en-AU ;
+    dct:isPartOf F2007B00254:42 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 9 Substitution made on 11 March 2010 - Abrievated Graph Key: P51"@en-AU ;
+    skos:definition "Part 9 Substitution made on 11 March 2010"@en-AU ;
+    skos:narrower F2007B00254:42 ;
+    skos:prefLabel "Part P51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636781> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636781"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:52 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P52 Part 10 Substitutions made on 16 October 2010"@en-AU ;
+    dct:isPartOf F2007B00254:42 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 10 Substitutions made on 16 October 2010 - Abrievated Graph Key: P52"@en-AU ;
+    skos:definition "Part 10 Substitutions made on 16 October 2010"@en-AU ;
+    skos:narrower F2007B00254:42 ;
+    skos:prefLabel "Part P52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636782> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636782"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:53 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P53 Part 11 Substitutions made on 9 February 2012"@en-AU ;
+    dct:isPartOf F2007B00254:42 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 11 Substitutions made on 9 February 2012 - Abrievated Graph Key: P53"@en-AU ;
+    skos:definition "Part 11 Substitutions made on 9 February 2012"@en-AU ;
+    skos:narrower F2007B00254:42 ;
+    skos:prefLabel "Part P53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636783> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636783"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:54 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P54 Part 12 Substitutions made on 27 April 2013"@en-AU ;
+    dct:isPartOf F2007B00254:42 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 12 Substitutions made on 27 April 2013 - Abrievated Graph Key: P54"@en-AU ;
+    skos:definition "Part 12 Substitutions made on 27 April 2013"@en-AU ;
+    skos:narrower F2007B00254:42 ;
+    skos:prefLabel "Part P54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636784> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636784"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:55 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P55 Part 13 Substitutions made on 18 September 2013"@en-AU ;
+    dct:isPartOf F2007B00254:42 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 13 Substitutions made on 18 September 2013 - Abrievated Graph Key: P55"@en-AU ;
+    skos:definition "Part 13 Substitutions made on 18 September 2013"@en-AU ;
+    skos:narrower F2007B00254:42 ;
+    skos:prefLabel "Part P55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636785> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636785"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:56 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P56 Part 14 Substitutions made on 12 November 2013"@en-AU ;
+    dct:isPartOf F2007B00254:42 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 14 Substitutions made on 12 November 2013 - Abrievated Graph Key: P56"@en-AU ;
+    skos:definition "Part 14 Substitutions made on 12 November 2013"@en-AU ;
+    skos:narrower F2007B00254:42 ;
+    skos:prefLabel "Part P56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636786> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636786"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:57 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P57 Part 15 Substitutions made on commencement of the Acts Interpretation Substituted ReferencesSection 19 B Amendment Order 2015 No 1"@en-AU ;
+    dct:isPartOf F2007B00254:42 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 15 Substitutions made on commencement of the Acts Interpretation Substituted ReferencesSection 19 B Amendment Order 2015 No 1 - Abrievated Graph Key: P57"@en-AU ;
+    skos:definition "Part 15 Substitutions made on commencement of the Acts Interpretation Substituted ReferencesSection 19 B Amendment Order 2015 No 1"@en-AU ;
+    skos:narrower F2007B00254:42 ;
+    skos:prefLabel "Part P57"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636787> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636787"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:59 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I59 Endnote 1 About the endnotes"@en-AU ;
+    dct:isPartOf F2007B00254:58 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Endnote 1 About the endnotes - Abrievated Graph Key: I59"@en-AU ;
+    skos:definition "Endnote 1 About the endnotes"@en-AU ;
+    skos:narrower F2007B00254:58 ;
+    skos:prefLabel "Item I59"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636789> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636789"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B00254:60 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I60 Endnote 2 Abbreviation key"@en-AU ;
+    dct:isPartOf F2007B00254:58 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Endnote 2 Abbreviation key - Abrievated Graph Key: I60"@en-AU ;
+    skos:definition "Endnote 2 Abbreviation key"@en-AU ;
+    skos:narrower F2007B00254:58 ;
+    skos:prefLabel "Item I60"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636790> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636790"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B00254:61 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I61 Endnote 3 Legislation history"@en-AU ;
+    dct:isPartOf F2007B00254:58 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Endnote 3 Legislation history - Abrievated Graph Key: I61"@en-AU ;
+    skos:definition "Endnote 3 Legislation history"@en-AU ;
+    skos:narrower F2007B00254:58 ;
+    skos:prefLabel "Item I61"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636791> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636791"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B00254:62 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I62 Endnote 4 Amendment history"@en-AU ;
+    dct:isPartOf F2007B00254:58 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Endnote 4 Amendment history - Abrievated Graph Key: I62"@en-AU ;
+    skos:definition "Endnote 4 Amendment history"@en-AU ;
+    skos:narrower F2007B00254:58 ;
+    skos:prefLabel "Item I62"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636792> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636792"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+F2007B00254:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 1 Substitutions made on 6 August 1997"@en-AU ;
+    dct:isPartOf F2007B00254:6 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 1 Substitutions made on 6 August 1997 - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 1 Substitutions made on 6 August 1997"@en-AU ;
+    skos:narrower F2007B00254:6 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636737> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636737"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 2 Substitutions made on 29 October 1997"@en-AU ;
+    dct:isPartOf F2007B00254:6 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 2 Substitutions made on 29 October 1997 - Abrievated Graph Key: P8"@en-AU ;
+    skos:definition "Part 2 Substitutions made on 29 October 1997"@en-AU ;
+    skos:narrower F2007B00254:6 ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636738> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636738"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 3 Substitutions made on 12 November 1998"@en-AU ;
+    dct:isPartOf F2007B00254:6 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Part 3 Substitutions made on 12 November 1998 - Abrievated Graph Key: P9"@en-AU ;
+    skos:definition "Part 3 Substitutions made on 12 November 1998"@en-AU ;
+    skos:narrower F2007B00254:6 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636739> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636739"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+F2007B00254:58 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E58 Endnotes"@en-AU ;
+    dct:hasPart F2007B00254:59,
+        F2007B00254:60,
+        F2007B00254:61,
+        F2007B00254:62 ;
+    dct:isPartOf F2007B00254:42 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E58"@en-AU ;
+    skos:broader F2007B00254:59,
+        F2007B00254:60,
+        F2007B00254:61,
+        F2007B00254:62 ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:narrower F2007B00254:42 ;
+    skos:prefLabel "Endnotes E58"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636788> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636788"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+
+F2007B00254:26 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S26 Schedule 2 References to Departments"@en-AU ;
+    dct:hasPart F2007B00254:27,
+        F2007B00254:28,
+        F2007B00254:29,
+        F2007B00254:30,
+        F2007B00254:31,
+        F2007B00254:32,
+        F2007B00254:33,
+        F2007B00254:34,
+        F2007B00254:35,
+        F2007B00254:36,
+        F2007B00254:37,
+        F2007B00254:38,
+        F2007B00254:39,
+        F2007B00254:40,
+        F2007B00254:41 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Schedule 2 References to Departments - Abrievated Graph Key: S26"@en-AU ;
+    skos:broader F2007B00254:27,
+        F2007B00254:28,
+        F2007B00254:29,
+        F2007B00254:30,
+        F2007B00254:31,
+        F2007B00254:32,
+        F2007B00254:33,
+        F2007B00254:34,
+        F2007B00254:35,
+        F2007B00254:36,
+        F2007B00254:37,
+        F2007B00254:38,
+        F2007B00254:39,
+        F2007B00254:40,
+        F2007B00254:41 ;
+    skos:definition "Schedule 2 References to Departments"@en-AU ;
+    skos:prefLabel "Schedule S26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636756> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636756"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F2007B00254:42 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S42 Schedule 3 References to Secretaries"@en-AU ;
+    dct:hasPart F2007B00254:43,
+        F2007B00254:44,
+        F2007B00254:45,
+        F2007B00254:46,
+        F2007B00254:47,
+        F2007B00254:48,
+        F2007B00254:49,
+        F2007B00254:50,
+        F2007B00254:51,
+        F2007B00254:52,
+        F2007B00254:53,
+        F2007B00254:54,
+        F2007B00254:55,
+        F2007B00254:56,
+        F2007B00254:57,
+        F2007B00254:58 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Schedule 3 References to Secretaries - Abrievated Graph Key: S42"@en-AU ;
+    skos:broader F2007B00254:43,
+        F2007B00254:44,
+        F2007B00254:45,
+        F2007B00254:46,
+        F2007B00254:47,
+        F2007B00254:48,
+        F2007B00254:49,
+        F2007B00254:50,
+        F2007B00254:51,
+        F2007B00254:52,
+        F2007B00254:53,
+        F2007B00254:54,
+        F2007B00254:55,
+        F2007B00254:56,
+        F2007B00254:57,
+        F2007B00254:58 ;
+    skos:definition "Schedule 3 References to Secretaries"@en-AU ;
+    skos:prefLabel "Schedule S42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636772> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636772"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F2007B00254:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 1 References to Ministers"@en-AU ;
+    dct:hasPart F2007B00254:10,
+        F2007B00254:11,
+        F2007B00254:12,
+        F2007B00254:13,
+        F2007B00254:14,
+        F2007B00254:15,
+        F2007B00254:16,
+        F2007B00254:17,
+        F2007B00254:18,
+        F2007B00254:19,
+        F2007B00254:20,
+        F2007B00254:21,
+        F2007B00254:22,
+        F2007B00254:23,
+        F2007B00254:24,
+        F2007B00254:25,
+        F2007B00254:7,
+        F2007B00254:8,
+        F2007B00254:9 ;
+    dct:isReferencedBy F2007B00254: ;
+    rdfs:comment "Schedule 1 References to Ministers - Abrievated Graph Key: S6"@en-AU ;
+    skos:broader F2007B00254:10,
+        F2007B00254:11,
+        F2007B00254:12,
+        F2007B00254:13,
+        F2007B00254:14,
+        F2007B00254:15,
+        F2007B00254:16,
+        F2007B00254:17,
+        F2007B00254:18,
+        F2007B00254:19,
+        F2007B00254:20,
+        F2007B00254:21,
+        F2007B00254:22,
+        F2007B00254:23,
+        F2007B00254:24,
+        F2007B00254:25,
+        F2007B00254:7,
+        F2007B00254:8,
+        F2007B00254:9 ;
+    skos:definition "Schedule 1 References to Ministers"@en-AU ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636736> ;
+    dcat:landingPage "https://www.legislation.gov.au/F2007B00254/2015-12-01/2015-12-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc438636736"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+F2007B00254: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Acts Interpretation (Substituted References — Section 19B) Order 1997" ;
+    dct:Jurisdiction " Attorney-General's Department "@en-AU ;
+    dct:created "2026-06-03T13:59:48.089957"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2015-12-01T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Acts Interpretation (Substituted References — Section 19B) Order 1997"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/F2007B00254/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Acts Interpretation (Substituted References — Section 19B) Order 1997"@en-AU ;
+    dct:title "Acts Interpretation (Substituted References — Section 19B) Order 1997"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Endnotes,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "F2015C01004" .
+

@@ -1,0 +1,499 @@
+@prefix C2023A00029: <http://example.org/au/leg/dataset/C2023A00029/asmade/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2023A00029:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429408> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429408"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00029:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429409> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429409"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00029:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429446> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429446"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00029:11 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P11 Part 2 Application of amendments"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Part 2 Application of amendments - Abrievated Graph Key: P11"@en-AU ;
+    skos:definition "Part 2 Application of amendments"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Part P11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429447> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429447"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00029:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 A New Tax System Goods and Services Tax Regulations 2019"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "A New Tax System Goods and Services Tax Regulations 2019 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "A New Tax System Goods and Services Tax Regulations 2019"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429448> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429448"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00029:13 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S13 Schedule 3 Reducing the compliance burden of record keeping for fringe benefits tax"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Schedule 3 Reducing the compliance burden of record keeping for fringe benefits tax - Abrievated Graph Key: S13"@en-AU ;
+    skos:definition "Schedule 3 Reducing the compliance burden of record keeping for fringe benefits tax"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Schedule S13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429452> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429452"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2023A00029:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Fringe Benefits Tax Assessment Act 1986 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429453> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429453"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00029:15 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S15 Schedule 4 Skills and Training Boost"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Schedule 4 Skills and Training Boost - Abrievated Graph Key: S15"@en-AU ;
+    skos:definition "Schedule 4 Skills and Training Boost"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Schedule S15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429455> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429455"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2023A00029:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429456> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429456"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00029:17 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S17 Schedule 5 Technology investment boost"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Schedule 5 Technology investment boost - Abrievated Graph Key: S17"@en-AU ;
+    skos:definition "Schedule 5 Technology investment boost"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Schedule S17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429459> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429459"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2023A00029:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429460> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429460"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00029:19 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S19 Schedule 6 Financial reporting and auditing requirements for superannuation entities"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Schedule 6 Financial reporting and auditing requirements for superannuation entities - Abrievated Graph Key: S19"@en-AU ;
+    skos:definition "Schedule 6 Financial reporting and auditing requirements for superannuation entities"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Schedule S19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429463> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429463"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2023A00029:20 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P20 Part 1 Amendment of the Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Part 1 Amendment of the Corporations Act 2001 - Abrievated Graph Key: P20"@en-AU ;
+    skos:definition "Part 1 Amendment of the Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Part P20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429464> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429464"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00029:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429465> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429465"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00029:22 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P22 Part 2 Amendments of other Acts"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Part 2 Amendments of other Acts - Abrievated Graph Key: P22"@en-AU ;
+    skos:definition "Part 2 Amendments of other Acts"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Part P22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429489> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429489"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00029:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Australian Securities and Investments Commission Act 2001"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Australian Securities and Investments Commission Act 2001 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Australian Securities and Investments Commission Act 2001"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429490> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429490"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00029:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429491> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429491"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00029:25 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S25 Schedule 8 Amendment of the Clean Energy Finance Corporation Act 2012"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Schedule 8 Amendment of the Clean Energy Finance Corporation Act 2012 - Abrievated Graph Key: S25"@en-AU ;
+    skos:definition "Schedule 8 Amendment of the Clean Energy Finance Corporation Act 2012"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Schedule S25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429505> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429505"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2023A00029:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Clean Energy Finance Corporation Act 2012"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Clean Energy Finance Corporation Act 2012 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Clean Energy Finance Corporation Act 2012"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429506> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429506"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00029:27 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S27 Schedule 9 Taxation of military superannuation benefits Reversing the Douglas decision"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Schedule 9 Taxation of military superannuation benefits Reversing the Douglas decision - Abrievated Graph Key: S27"@en-AU ;
+    skos:definition "Schedule 9 Taxation of military superannuation benefits Reversing the Douglas decision"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Schedule S27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429507> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429507"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2023A00029:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Income Tax Assessment 1997 Act Regulations 2021"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Income Tax Assessment 1997 Act Regulations 2021 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Income Tax Assessment 1997 Act Regulations 2021"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429508> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429508"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00029:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429513> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429513"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00029:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429516> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429516"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00029:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Digital games tax offset"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Schedule 1 Digital games tax offset - Abrievated Graph Key: S4"@en-AU ;
+    skos:definition "Schedule 1 Digital games tax offset"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429411> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429411"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2023A00029:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429412> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429412"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00029:6 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S6 Schedule 2 Taxation treatment of digital currency"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Schedule 2 Taxation treatment of digital currency - Abrievated Graph Key: S6"@en-AU ;
+    skos:definition "Schedule 2 Taxation treatment of digital currency"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Schedule S6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429442> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429442"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2023A00029:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 1 Main amendments"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P7"@en-AU ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429443> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429443"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2023A00029:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "A New Tax System Goods and Services Tax Act 1999 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429444> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429444"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00029:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 A New Tax System Goods and Services Tax Regulations 2019"@en-AU ;
+    dct:isPartOf C2023A00029:3 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "A New Tax System Goods and Services Tax Regulations 2019 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "A New Tax System Goods and Services Tax Regulations 2019"@en-AU ;
+    skos:narrower C2023A00029:3 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429445> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429445"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2023A00029: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Treasury Laws Amendment (2022 Measures No. 4) Act 2023" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-06-03T13:54:42.198406"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2023-06-23T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Treasury Laws Amendment (2022 Measures No. 4) Act 2023"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2023A00029/asmade"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Treasury Laws Amendment (2022 Measures No. 4) Act 2023"@en-AU ;
+    dct:title "Treasury Laws Amendment (2022 Measures No. 4) Act 2023"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2023A00029" .
+
+C2023A00029:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2023A00029:10,
+        C2023A00029:11,
+        C2023A00029:12,
+        C2023A00029:13,
+        C2023A00029:14,
+        C2023A00029:15,
+        C2023A00029:16,
+        C2023A00029:17,
+        C2023A00029:18,
+        C2023A00029:19,
+        C2023A00029:20,
+        C2023A00029:21,
+        C2023A00029:22,
+        C2023A00029:23,
+        C2023A00029:24,
+        C2023A00029:25,
+        C2023A00029:26,
+        C2023A00029:27,
+        C2023A00029:28,
+        C2023A00029:29,
+        C2023A00029:30,
+        C2023A00029:4,
+        C2023A00029:5,
+        C2023A00029:6,
+        C2023A00029:7,
+        C2023A00029:8,
+        C2023A00029:9 ;
+    dct:isReferencedBy C2023A00029: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2023A00029:10,
+        C2023A00029:11,
+        C2023A00029:12,
+        C2023A00029:13,
+        C2023A00029:14,
+        C2023A00029:15,
+        C2023A00029:16,
+        C2023A00029:17,
+        C2023A00029:18,
+        C2023A00029:19,
+        C2023A00029:20,
+        C2023A00029:21,
+        C2023A00029:22,
+        C2023A00029:23,
+        C2023A00029:24,
+        C2023A00029:25,
+        C2023A00029:26,
+        C2023A00029:27,
+        C2023A00029:28,
+        C2023A00029:29,
+        C2023A00029:30,
+        C2023A00029:4,
+        C2023A00029:5,
+        C2023A00029:6,
+        C2023A00029:7,
+        C2023A00029:8,
+        C2023A00029:9 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429410> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2023A00029/asmade/2023-06-23/text/original/epub/OEBPS/document_1/document_1.html#_Toc138429410"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+

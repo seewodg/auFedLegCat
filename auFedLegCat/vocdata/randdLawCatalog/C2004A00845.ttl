@@ -1,0 +1,1784 @@
+@prefix C2004A00845: <http://example.org/au/leg/dataset/C2004A00845/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A00845:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790031> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790031"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790032> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790032"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790033> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790033"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 4015  Recalculating effective life"@en-AU ;
+    dct:isPartOf C2004A00845:7 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4015  Recalculating effective life - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "4015  Recalculating effective life"@en-AU ;
+    skos:narrower C2004A00845:7 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790040> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790040"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:100 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I100 10860  Depreciating asset that is part of a building is a separate asset"@en-AU ;
+    dct:isPartOf C2004A00845:89 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "10860  Depreciating asset that is part of a building is a separate asset - Abrievated Graph Key: I100"@en-AU ;
+    skos:definition "10860  Depreciating asset that is part of a building is a separate asset"@en-AU ;
+    skos:narrower C2004A00845:89 ;
+    skos:prefLabel "Item I100"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790130> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790130"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:101 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I101 11824  Depreciating assets"@en-AU ;
+    dct:isPartOf C2004A00845:89 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "11824  Depreciating assets - Abrievated Graph Key: I101"@en-AU ;
+    skos:definition "11824  Depreciating assets"@en-AU ;
+    skos:narrower C2004A00845:89 ;
+    skos:prefLabel "Item I101"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790131> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790131"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:103 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I103 124655  Rollover for depreciating assets"@en-AU ;
+    dct:isPartOf C2004A00845:102 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "124655  Rollover for depreciating assets - Abrievated Graph Key: I103"@en-AU ;
+    skos:definition "124655  Rollover for depreciating assets"@en-AU ;
+    skos:narrower C2004A00845:102 ;
+    skos:prefLabel "Item I103"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790133> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790133"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:105 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I105 138370  Condition for applying this Division to depreciating asset group"@en-AU ;
+    dct:isPartOf C2004A00845:104 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "138370  Condition for applying this Division to depreciating asset group - Abrievated Graph Key: I105"@en-AU ;
+    skos:definition "138370  Condition for applying this Division to depreciating asset group"@en-AU ;
+    skos:narrower C2004A00845:104 ;
+    skos:prefLabel "Item I105"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790135> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790135"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:107 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I107 Income Tax Rates Act 1986"@en-AU ;
+    dct:isPartOf C2004A00845:106 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Income Tax Rates Act 1986 - Abrievated Graph Key: I107"@en-AU ;
+    skos:definition "Income Tax Rates Act 1986"@en-AU ;
+    skos:narrower C2004A00845:106 ;
+    skos:prefLabel "Item I107"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790137> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790137"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:108 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I108 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2004A00845:106 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I108"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2004A00845:106 ;
+    skos:prefLabel "Item I108"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790138> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790138"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:109 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I109 Veterans Entitlements Act 1986"@en-AU ;
+    dct:isPartOf C2004A00845:106 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Veterans Entitlements Act 1986 - Abrievated Graph Key: I109"@en-AU ;
+    skos:definition "Veterans Entitlements Act 1986"@en-AU ;
+    skos:narrower C2004A00845:106 ;
+    skos:prefLabel "Item I109"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790139> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790139"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 4020  IRUs"@en-AU ;
+    dct:isPartOf C2004A00845:7 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4020  IRUs - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "4020  IRUs"@en-AU ;
+    skos:narrower C2004A00845:7 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790041> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790041"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:110 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S110 Schedule 3 Taxation Laws Amendment Act No 1 2001"@en-AU ;
+    dct:hasPart C2004A00845:111 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Schedule 3 Taxation Laws Amendment Act No 1 2001 - Abrievated Graph Key: S110"@en-AU ;
+    skos:broader C2004A00845:111 ;
+    skos:definition "Schedule 3 Taxation Laws Amendment Act No 1 2001"@en-AU ;
+    skos:prefLabel "Schedule S110"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790140> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790140"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00845:111 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I111 Taxation Laws Amendment Act No 1 2001"@en-AU ;
+    dct:isPartOf C2004A00845:110 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Taxation Laws Amendment Act No 1 2001 - Abrievated Graph Key: I111"@en-AU ;
+    skos:definition "Taxation Laws Amendment Act No 1 2001"@en-AU ;
+    skos:narrower C2004A00845:110 ;
+    skos:prefLabel "Item I111"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790141> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790141"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 4025  Software"@en-AU ;
+    dct:isPartOf C2004A00845:7 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4025  Software - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "4025  Software"@en-AU ;
+    skos:narrower C2004A00845:7 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790042> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790042"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:13 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I13 4030  Spectrum licences"@en-AU ;
+    dct:isPartOf C2004A00845:7 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4030  Spectrum licences - Abrievated Graph Key: I13"@en-AU ;
+    skos:definition "4030  Spectrum licences"@en-AU ;
+    skos:narrower C2004A00845:7 ;
+    skos:prefLabel "Item I13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790043> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790043"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 4033  Datacasting transmitter licences"@en-AU ;
+    dct:isPartOf C2004A00845:7 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4033  Datacasting transmitter licences - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "4033  Datacasting transmitter licences"@en-AU ;
+    skos:narrower C2004A00845:7 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790044> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790044"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 4035  Mining unrecouped expenditure"@en-AU ;
+    dct:isPartOf C2004A00845:7 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4035  Mining unrecouped expenditure - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "4035  Mining unrecouped expenditure"@en-AU ;
+    skos:narrower C2004A00845:7 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790045> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790045"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 4040  Transport expenditure"@en-AU ;
+    dct:isPartOf C2004A00845:7 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4040  Transport expenditure - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "4040  Transport expenditure"@en-AU ;
+    skos:narrower C2004A00845:7 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790046> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790046"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 4045  Intellectual property"@en-AU ;
+    dct:isPartOf C2004A00845:7 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4045  Intellectual property - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "4045  Intellectual property"@en-AU ;
+    skos:narrower C2004A00845:7 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790047> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790047"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 4050  Forestry roads and timber mill buildings"@en-AU ;
+    dct:isPartOf C2004A00845:7 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4050  Forestry roads and timber mill buildings - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "4050  Forestry roads and timber mill buildings"@en-AU ;
+    skos:narrower C2004A00845:7 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790048> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790048"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 4055  Environmental impact assessment"@en-AU ;
+    dct:isPartOf C2004A00845:7 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4055  Environmental impact assessment - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "4055  Environmental impact assessment"@en-AU ;
+    skos:narrower C2004A00845:7 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790049> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790049"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 4060  Pooling under Subdivision 42 L of the former Act"@en-AU ;
+    dct:isPartOf C2004A00845:7 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4060  Pooling under Subdivision 42 L of the former Act - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "4060  Pooling under Subdivision 42 L of the former Act"@en-AU ;
+    skos:narrower C2004A00845:7 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790050> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790050"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 4065  Substituted accounting periods"@en-AU ;
+    dct:isPartOf C2004A00845:7 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4065  Substituted accounting periods - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "4065  Substituted accounting periods"@en-AU ;
+    skos:narrower C2004A00845:7 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790051> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790051"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 4070  References to amounts deducted and reductions in deductions"@en-AU ;
+    dct:isPartOf C2004A00845:7 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4070  References to amounts deducted and reductions in deductions - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "4070  References to amounts deducted and reductions in deductions"@en-AU ;
+    skos:narrower C2004A00845:7 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790052> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790052"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 4075  Mining expenditure incurred after 1 July 2001 on an asset"@en-AU ;
+    dct:isPartOf C2004A00845:7 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4075  Mining expenditure incurred after 1 July 2001 on an asset - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "4075  Mining expenditure incurred after 1 July 2001 on an asset"@en-AU ;
+    skos:narrower C2004A00845:7 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790053> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790053"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 4077  Mining quarrying or prospecting rights or information held before 1 July 2001"@en-AU ;
+    dct:isPartOf C2004A00845:7 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4077  Mining quarrying or prospecting rights or information held before 1 July 2001 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "4077  Mining quarrying or prospecting rights or information held before 1 July 2001"@en-AU ;
+    skos:narrower C2004A00845:7 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790054> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790054"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 4080  Other expenditure incurred after 1 July 2001 on a depreciating asset"@en-AU ;
+    dct:isPartOf C2004A00845:7 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4080  Other expenditure incurred after 1 July 2001 on a depreciating asset - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "4080  Other expenditure incurred after 1 July 2001 on a depreciating asset"@en-AU ;
+    skos:narrower C2004A00845:7 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790055> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790055"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 4085  Excess deductions"@en-AU ;
+    dct:isPartOf C2004A00845:7 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4085  Excess deductions - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "4085  Excess deductions"@en-AU ;
+    skos:narrower C2004A00845:7 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790056> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790056"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 40230  Car limit"@en-AU ;
+    dct:isPartOf C2004A00845:27 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "40230  Car limit - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "40230  Car limit"@en-AU ;
+    skos:narrower C2004A00845:27 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790058> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790058"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 40285  Balancing adjustments"@en-AU ;
+    dct:isPartOf C2004A00845:29 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "40285  Balancing adjustments - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "40285  Balancing adjustments"@en-AU ;
+    skos:narrower C2004A00845:29 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790060> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790060"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 40290  Reduction of deductions under former Act etc"@en-AU ;
+    dct:isPartOf C2004A00845:29 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "40290  Reduction of deductions under former Act etc - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "40290  Reduction of deductions under former Act etc"@en-AU ;
+    skos:narrower C2004A00845:29 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790061> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790061"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 40295  Later year relief"@en-AU ;
+    dct:isPartOf C2004A00845:29 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "40295  Later year relief - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "40295  Later year relief"@en-AU ;
+    skos:narrower C2004A00845:29 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790062> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790062"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 40340  Rollovers"@en-AU ;
+    dct:isPartOf C2004A00845:29 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "40340  Rollovers - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "40340  Rollovers"@en-AU ;
+    skos:narrower C2004A00845:29 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790063> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790063"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 40345  Balancing adjustments for depreciating assets that retain CGT indexation"@en-AU ;
+    dct:isPartOf C2004A00845:29 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "40345  Balancing adjustments for depreciating assets that retain CGT indexation - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "40345  Balancing adjustments for depreciating assets that retain CGT indexation"@en-AU ;
+    skos:narrower C2004A00845:29 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790064> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790064"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 40420  Lowvalue pools under Division 42 continue"@en-AU ;
+    dct:isPartOf C2004A00845:35 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "40420  Lowvalue pools under Division 42 continue - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "40420  Lowvalue pools under Division 42 continue"@en-AU ;
+    skos:narrower C2004A00845:35 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790066> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790066"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 40425  Allocating depreciating assets to lowvalue pools"@en-AU ;
+    dct:isPartOf C2004A00845:35 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "40425  Allocating depreciating assets to lowvalue pools - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "40425  Allocating depreciating assets to lowvalue pools"@en-AU ;
+    skos:narrower C2004A00845:35 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790067> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790067"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 40450  Software development pools"@en-AU ;
+    dct:isPartOf C2004A00845:35 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "40450  Software development pools - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "40450  Software development pools"@en-AU ;
+    skos:narrower C2004A00845:35 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790068> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790068"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:40 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I40 40515  Water facilities grapevines and horticultural plants"@en-AU ;
+    dct:isPartOf C2004A00845:39 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "40515  Water facilities grapevines and horticultural plants - Abrievated Graph Key: I40"@en-AU ;
+    skos:definition "40515  Water facilities grapevines and horticultural plants"@en-AU ;
+    skos:narrower C2004A00845:39 ;
+    skos:prefLabel "Item I40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790070> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790070"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 40520  Special rule for water facilities you no longer hold"@en-AU ;
+    dct:isPartOf C2004A00845:39 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "40520  Special rule for water facilities you no longer hold - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "40520  Special rule for water facilities you no longer hold"@en-AU ;
+    skos:narrower C2004A00845:39 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790071> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790071"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:42 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I42 40525  Amounts deducted for water facilities"@en-AU ;
+    dct:isPartOf C2004A00845:39 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "40525  Amounts deducted for water facilities - Abrievated Graph Key: I42"@en-AU ;
+    skos:definition "40525  Amounts deducted for water facilities"@en-AU ;
+    skos:narrower C2004A00845:39 ;
+    skos:prefLabel "Item I42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790072> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790072"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 40645  Electricity supply and telephone lines"@en-AU ;
+    dct:isPartOf C2004A00845:43 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "40645  Electricity supply and telephone lines - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "40645  Electricity supply and telephone lines"@en-AU ;
+    skos:narrower C2004A00845:43 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790074> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790074"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:45 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I45 40650  Special rule for land that you no longer hold"@en-AU ;
+    dct:isPartOf C2004A00845:43 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "40650  Special rule for land that you no longer hold - Abrievated Graph Key: I45"@en-AU ;
+    skos:definition "40650  Special rule for land that you no longer hold"@en-AU ;
+    skos:narrower C2004A00845:43 ;
+    skos:prefLabel "Item I45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790075> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790075"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:46 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I46 40670  Farm consultants"@en-AU ;
+    dct:isPartOf C2004A00845:43 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "40670  Farm consultants - Abrievated Graph Key: I46"@en-AU ;
+    skos:definition "40670  Farm consultants"@en-AU ;
+    skos:narrower C2004A00845:43 ;
+    skos:prefLabel "Item I46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790076> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790076"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:48 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I48 40825  Genuine prospectors"@en-AU ;
+    dct:isPartOf C2004A00845:47 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "40825  Genuine prospectors - Abrievated Graph Key: I48"@en-AU ;
+    skos:definition "40825  Genuine prospectors"@en-AU ;
+    skos:narrower C2004A00845:47 ;
+    skos:prefLabel "Item I48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790078> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790078"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2004A00845:4 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2004A00845:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790035> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790035"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:50 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I50 Airports Transitional Act 1996"@en-AU ;
+    dct:isPartOf C2004A00845:49 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Airports Transitional Act 1996 - Abrievated Graph Key: I50"@en-AU ;
+    skos:definition "Airports Transitional Act 1996"@en-AU ;
+    skos:narrower C2004A00845:49 ;
+    skos:prefLabel "Item I50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790080> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790080"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:51 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I51 49 B  Special rules for fixtures that are depreciating assetsIncome Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2004A00845:49 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "49 B  Special rules for fixtures that are depreciating assetsIncome Tax Assessment Act 1997 - Abrievated Graph Key: I51"@en-AU ;
+    skos:definition "49 B  Special rules for fixtures that are depreciating assetsIncome Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2004A00845:49 ;
+    skos:prefLabel "Item I51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790081> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790081"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:52 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I52 50 B  Acquisition of depreciating asset from the CommonwealthDivision 40 of the Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2004A00845:49 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "50 B  Acquisition of depreciating asset from the CommonwealthDivision 40 of the Income Tax Assessment Act 1997 - Abrievated Graph Key: I52"@en-AU ;
+    skos:definition "50 B  Acquisition of depreciating asset from the CommonwealthDivision 40 of the Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2004A00845:49 ;
+    skos:prefLabel "Item I52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790082> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790082"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:54 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I54 A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    dct:isPartOf C2004A00845:53 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "A New Tax System Goods and Services Tax Act 1999 - Abrievated Graph Key: I54"@en-AU ;
+    skos:definition "A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    skos:narrower C2004A00845:53 ;
+    skos:prefLabel "Item I54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790084> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790084"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:55 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I55 A New Tax System Luxury Car Tax Act 1999"@en-AU ;
+    dct:isPartOf C2004A00845:53 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "A New Tax System Luxury Car Tax Act 1999 - Abrievated Graph Key: I55"@en-AU ;
+    skos:definition "A New Tax System Luxury Car Tax Act 1999"@en-AU ;
+    skos:narrower C2004A00845:53 ;
+    skos:prefLabel "Item I55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790085> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790085"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:56 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I56 Bounty and Capitalisation Grants Textile Yarns Act 1981"@en-AU ;
+    dct:isPartOf C2004A00845:53 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Bounty and Capitalisation Grants Textile Yarns Act 1981 - Abrievated Graph Key: I56"@en-AU ;
+    skos:definition "Bounty and Capitalisation Grants Textile Yarns Act 1981"@en-AU ;
+    skos:narrower C2004A00845:53 ;
+    skos:prefLabel "Item I56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790086> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790086"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:57 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I57 Bounty Computers Act 1984"@en-AU ;
+    dct:isPartOf C2004A00845:53 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Bounty Computers Act 1984 - Abrievated Graph Key: I57"@en-AU ;
+    skos:definition "Bounty Computers Act 1984"@en-AU ;
+    skos:narrower C2004A00845:53 ;
+    skos:prefLabel "Item I57"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790087> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790087"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:58 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I58 Bounty Machine Tools and Robots Act 1985"@en-AU ;
+    dct:isPartOf C2004A00845:53 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Bounty Machine Tools and Robots Act 1985 - Abrievated Graph Key: I58"@en-AU ;
+    skos:definition "Bounty Machine Tools and Robots Act 1985"@en-AU ;
+    skos:narrower C2004A00845:53 ;
+    skos:prefLabel "Item I58"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790088> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790088"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:59 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I59 Defence Act 1903"@en-AU ;
+    dct:isPartOf C2004A00845:53 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Defence Act 1903 - Abrievated Graph Key: I59"@en-AU ;
+    skos:definition "Defence Act 1903"@en-AU ;
+    skos:narrower C2004A00845:53 ;
+    skos:prefLabel "Item I59"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790089> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790089"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:60 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I60 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2004A00845:53 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I60"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2004A00845:53 ;
+    skos:prefLabel "Item I60"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790090> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790090"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:63 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I63 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2004A00845:62 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I63"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2004A00845:62 ;
+    skos:prefLabel "Item I63"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790093> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790093"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:64 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I64 1540  Providing mining quarrying or prospecting information"@en-AU ;
+    dct:isPartOf C2004A00845:61 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "1540  Providing mining quarrying or prospecting information - Abrievated Graph Key: I64"@en-AU ;
+    skos:definition "1540  Providing mining quarrying or prospecting information"@en-AU ;
+    skos:narrower C2004A00845:61 ;
+    skos:prefLabel "Item I64"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790094> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790094"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:65 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I65 1735  Certain sections not to apply to certain assets or expenditure"@en-AU ;
+    dct:isPartOf C2004A00845:61 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "1735  Certain sections not to apply to certain assets or expenditure - Abrievated Graph Key: I65"@en-AU ;
+    skos:definition "1735  Certain sections not to apply to certain assets or expenditure"@en-AU ;
+    skos:narrower C2004A00845:61 ;
+    skos:prefLabel "Item I65"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790095> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790095"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:67 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I67 2735  Certain sections not to apply to certain assets or expenditure"@en-AU ;
+    dct:isPartOf C2004A00845:66 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "2735  Certain sections not to apply to certain assets or expenditure - Abrievated Graph Key: I67"@en-AU ;
+    skos:definition "2735  Certain sections not to apply to certain assets or expenditure"@en-AU ;
+    skos:narrower C2004A00845:66 ;
+    skos:prefLabel "Item I67"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790097> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790097"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:69 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I69 2780  Cost or opening adjustable value of depreciating assets reduced for input tax credits"@en-AU ;
+    dct:isPartOf C2004A00845:68 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "2780  Cost or opening adjustable value of depreciating assets reduced for input tax credits - Abrievated Graph Key: I69"@en-AU ;
+    skos:definition "2780  Cost or opening adjustable value of depreciating assets reduced for input tax credits"@en-AU ;
+    skos:narrower C2004A00845:68 ;
+    skos:prefLabel "Item I69"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790099> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790099"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:70 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I70 2785  Cost or opening adjustable value of depreciating assets reduced decreasing adjustments"@en-AU ;
+    dct:isPartOf C2004A00845:68 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "2785  Cost or opening adjustable value of depreciating assets reduced decreasing adjustments - Abrievated Graph Key: I70"@en-AU ;
+    skos:definition "2785  Cost or opening adjustable value of depreciating assets reduced decreasing adjustments"@en-AU ;
+    skos:narrower C2004A00845:68 ;
+    skos:prefLabel "Item I70"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790100> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790100"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:71 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I71 2787  Certain decreasing adjustments included in assessable income"@en-AU ;
+    dct:isPartOf C2004A00845:68 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "2787  Certain decreasing adjustments included in assessable income - Abrievated Graph Key: I71"@en-AU ;
+    skos:definition "2787  Certain decreasing adjustments included in assessable income"@en-AU ;
+    skos:narrower C2004A00845:68 ;
+    skos:prefLabel "Item I71"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790101> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790101"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:72 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I72 2790  Cost or opening adjustable value of depreciating assets increased increasing adjustments"@en-AU ;
+    dct:isPartOf C2004A00845:68 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "2790  Cost or opening adjustable value of depreciating assets increased increasing adjustments - Abrievated Graph Key: I72"@en-AU ;
+    skos:definition "2790  Cost or opening adjustable value of depreciating assets increased increasing adjustments"@en-AU ;
+    skos:narrower C2004A00845:68 ;
+    skos:prefLabel "Item I72"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790102> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790102"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:73 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I73 2792  Certain increasing adjustments can be deducted"@en-AU ;
+    dct:isPartOf C2004A00845:68 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "2792  Certain increasing adjustments can be deducted - Abrievated Graph Key: I73"@en-AU ;
+    skos:definition "2792  Certain increasing adjustments can be deducted"@en-AU ;
+    skos:narrower C2004A00845:68 ;
+    skos:prefLabel "Item I73"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790103> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790103"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:74 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I74 2795  Balancing adjustment events"@en-AU ;
+    dct:isPartOf C2004A00845:68 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "2795  Balancing adjustment events - Abrievated Graph Key: I74"@en-AU ;
+    skos:definition "2795  Balancing adjustment events"@en-AU ;
+    skos:narrower C2004A00845:68 ;
+    skos:prefLabel "Item I74"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790104> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790104"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:75 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I75 27100  Pooling"@en-AU ;
+    dct:isPartOf C2004A00845:68 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "27100  Pooling - Abrievated Graph Key: I75"@en-AU ;
+    skos:definition "27100  Pooling"@en-AU ;
+    skos:narrower C2004A00845:68 ;
+    skos:prefLabel "Item I75"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790105> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790105"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:76 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I76 27105  Other Division 40 expenditure"@en-AU ;
+    dct:isPartOf C2004A00845:68 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "27105  Other Division 40 expenditure - Abrievated Graph Key: I76"@en-AU ;
+    skos:definition "27105  Other Division 40 expenditure"@en-AU ;
+    skos:narrower C2004A00845:68 ;
+    skos:prefLabel "Item I76"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790106> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790106"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:77 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I77 27110  Input tax credit etc relating to 2 or more things"@en-AU ;
+    dct:isPartOf C2004A00845:68 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "27110  Input tax credit etc relating to 2 or more things - Abrievated Graph Key: I77"@en-AU ;
+    skos:definition "27110  Input tax credit etc relating to 2 or more things"@en-AU ;
+    skos:narrower C2004A00845:68 ;
+    skos:prefLabel "Item I77"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790107> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790107"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:78 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I78 2830  Capital allowances"@en-AU ;
+    dct:isPartOf C2004A00845:68 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "2830  Capital allowances - Abrievated Graph Key: I78"@en-AU ;
+    skos:definition "2830  Capital allowances"@en-AU ;
+    skos:narrower C2004A00845:68 ;
+    skos:prefLabel "Item I78"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790108> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790108"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:79 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I79 2855  Capital allowances"@en-AU ;
+    dct:isPartOf C2004A00845:68 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "2855  Capital allowances - Abrievated Graph Key: I79"@en-AU ;
+    skos:definition "2855  Capital allowances"@en-AU ;
+    skos:narrower C2004A00845:68 ;
+    skos:prefLabel "Item I79"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790109> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790109"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 4010  Plant"@en-AU ;
+    dct:isPartOf C2004A00845:7 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4010  Plant - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "4010  Plant"@en-AU ;
+    skos:narrower C2004A00845:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790038> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790038"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:80 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I80 4345  Certain antiavoidance provisions"@en-AU ;
+    dct:isPartOf C2004A00845:68 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4345  Certain antiavoidance provisions - Abrievated Graph Key: I80"@en-AU ;
+    skos:definition "4345  Certain antiavoidance provisions"@en-AU ;
+    skos:narrower C2004A00845:68 ;
+    skos:prefLabel "Item I80"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790110> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790110"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:81 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I81 4372  Meaning of forestry road timber operation and timber mill building"@en-AU ;
+    dct:isPartOf C2004A00845:68 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4372  Meaning of forestry road timber operation and timber mill building - Abrievated Graph Key: I81"@en-AU ;
+    skos:definition "4372  Meaning of forestry road timber operation and timber mill building"@en-AU ;
+    skos:narrower C2004A00845:68 ;
+    skos:prefLabel "Item I81"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790111> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790111"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:82 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I82 4540  Meaning of plant and written down value"@en-AU ;
+    dct:isPartOf C2004A00845:68 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4540  Meaning of plant and written down value - Abrievated Graph Key: I82"@en-AU ;
+    skos:definition "4540  Meaning of plant and written down value"@en-AU ;
+    skos:narrower C2004A00845:68 ;
+    skos:prefLabel "Item I82"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790112> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790112"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:85 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I85 581  What this Division is about"@en-AU ;
+    dct:isPartOf C2004A00845:84 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "581  What this Division is about - Abrievated Graph Key: I85"@en-AU ;
+    skos:definition "581  What this Division is about"@en-AU ;
+    skos:narrower C2004A00845:84 ;
+    skos:prefLabel "Item I85"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790115> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790115"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:87 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I87 585  Application of Division"@en-AU ;
+    dct:isPartOf C2004A00845:86 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "585  Application of Division - Abrievated Graph Key: I87"@en-AU ;
+    skos:definition "585  Application of Division"@en-AU ;
+    skos:narrower C2004A00845:86 ;
+    skos:prefLabel "Item I87"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790117> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790117"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:88 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I88 5810  When an asset is acquired in connection with the acquisition of a business"@en-AU ;
+    dct:isPartOf C2004A00845:86 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "5810  When an asset is acquired in connection with the acquisition of a business - Abrievated Graph Key: I88"@en-AU ;
+    skos:definition "5810  When an asset is acquired in connection with the acquisition of a business"@en-AU ;
+    skos:narrower C2004A00845:86 ;
+    skos:prefLabel "Item I88"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790118> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790118"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 4012  Plant acquired after 30 June 2001"@en-AU ;
+    dct:isPartOf C2004A00845:7 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "4012  Plant acquired after 30 June 2001 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "4012  Plant acquired after 30 June 2001"@en-AU ;
+    skos:narrower C2004A00845:7 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790039> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790039"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:90 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I90 5860  Purpose of rules in this Subdivision"@en-AU ;
+    dct:isPartOf C2004A00845:89 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "5860  Purpose of rules in this Subdivision - Abrievated Graph Key: I90"@en-AU ;
+    skos:definition "5860  Purpose of rules in this Subdivision"@en-AU ;
+    skos:narrower C2004A00845:89 ;
+    skos:prefLabel "Item I90"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790120> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790120"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:91 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I91 5865  Choice of method to work out cost of privatised asset"@en-AU ;
+    dct:isPartOf C2004A00845:89 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "5865  Choice of method to work out cost of privatised asset - Abrievated Graph Key: I91"@en-AU ;
+    skos:definition "5865  Choice of method to work out cost of privatised asset"@en-AU ;
+    skos:narrower C2004A00845:89 ;
+    skos:prefLabel "Item I91"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790121> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790121"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:92 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I92 5870  Application of Division 40"@en-AU ;
+    dct:isPartOf C2004A00845:89 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "5870  Application of Division 40 - Abrievated Graph Key: I92"@en-AU ;
+    skos:definition "5870  Application of Division 40"@en-AU ;
+    skos:narrower C2004A00845:89 ;
+    skos:prefLabel "Item I92"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790122> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790122"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:93 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I93 5875  Meaning of notional written down value"@en-AU ;
+    dct:isPartOf C2004A00845:89 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "5875  Meaning of notional written down value - Abrievated Graph Key: I93"@en-AU ;
+    skos:definition "5875  Meaning of notional written down value"@en-AU ;
+    skos:narrower C2004A00845:89 ;
+    skos:prefLabel "Item I93"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790123> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790123"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:94 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I94 5880  Meaning of undeducted preexisting audited book value"@en-AU ;
+    dct:isPartOf C2004A00845:89 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "5880  Meaning of undeducted preexisting audited book value - Abrievated Graph Key: I94"@en-AU ;
+    skos:definition "5880  Meaning of undeducted preexisting audited book value"@en-AU ;
+    skos:narrower C2004A00845:89 ;
+    skos:prefLabel "Item I94"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790124> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790124"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:95 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I95 5885  Preexisting audited book value of depreciating asset"@en-AU ;
+    dct:isPartOf C2004A00845:89 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "5885  Preexisting audited book value of depreciating asset - Abrievated Graph Key: I95"@en-AU ;
+    skos:definition "5885  Preexisting audited book value of depreciating asset"@en-AU ;
+    skos:narrower C2004A00845:89 ;
+    skos:prefLabel "Item I95"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790125> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790125"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:96 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I96 5890  Method for transition entity"@en-AU ;
+    dct:isPartOf C2004A00845:89 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "5890  Method for transition entity - Abrievated Graph Key: I96"@en-AU ;
+    skos:definition "5890  Method for transition entity"@en-AU ;
+    skos:narrower C2004A00845:89 ;
+    skos:prefLabel "Item I96"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790126> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790126"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:97 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I97 104235  Balancing adjustment events for depreciating assets CGT event K 7"@en-AU ;
+    dct:isPartOf C2004A00845:89 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "104235  Balancing adjustment events for depreciating assets CGT event K 7 - Abrievated Graph Key: I97"@en-AU ;
+    skos:definition "104235  Balancing adjustment events for depreciating assets CGT event K 7"@en-AU ;
+    skos:narrower C2004A00845:89 ;
+    skos:prefLabel "Item I97"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790127> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790127"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:98 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I98 104240  Working out capital gain or loss for CGT event K 7 general case"@en-AU ;
+    dct:isPartOf C2004A00845:89 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "104240  Working out capital gain or loss for CGT event K 7 general case - Abrievated Graph Key: I98"@en-AU ;
+    skos:definition "104240  Working out capital gain or loss for CGT event K 7 general case"@en-AU ;
+    skos:narrower C2004A00845:89 ;
+    skos:prefLabel "Item I98"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790128> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790128"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:99 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I99 104245  Working out capital gain or loss for CGT event K 7 pooled assets"@en-AU ;
+    dct:isPartOf C2004A00845:89 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "104245  Working out capital gain or loss for CGT event K 7 pooled assets - Abrievated Graph Key: I99"@en-AU ;
+    skos:definition "104245  Working out capital gain or loss for CGT event K 7 pooled assets"@en-AU ;
+    skos:narrower C2004A00845:89 ;
+    skos:prefLabel "Item I99"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790129> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790129"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:102 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S102 Subdivision 124 KDepreciating assets"@en-AU ;
+    dct:hasPart C2004A00845:103 ;
+    dct:isPartOf C2004A00845:83 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Subdivision 124 KDepreciating assets - Abrievated Graph Key: S102"@en-AU ;
+    skos:broader C2004A00845:103 ;
+    skos:definition "Subdivision 124 KDepreciating assets"@en-AU ;
+    skos:narrower C2004A00845:83 ;
+    skos:prefLabel "Subdivision S102"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790132> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790132"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+C2004A00845:27 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S27 Subdivision 40 CCost"@en-AU ;
+    dct:hasPart C2004A00845:28 ;
+    dct:isPartOf C2004A00845:6 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Subdivision 40 CCost - Abrievated Graph Key: S27"@en-AU ;
+    skos:broader C2004A00845:28 ;
+    skos:definition "Subdivision 40 CCost"@en-AU ;
+    skos:narrower C2004A00845:6 ;
+    skos:prefLabel "Subdivision S27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790057> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790057"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+C2004A00845:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Transitional provisions"@en-AU ;
+    dct:hasPart C2004A00845:5,
+        C2004A00845:6 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Schedule 1 Transitional provisions - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A00845:5,
+        C2004A00845:6 ;
+    skos:definition "Schedule 1 Transitional provisions"@en-AU ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790034> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790034"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00845:47 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S47 Subdivision 40 ICapital expenditure that is deductible over time"@en-AU ;
+    dct:hasPart C2004A00845:48 ;
+    dct:isPartOf C2004A00845:6 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Subdivision 40 ICapital expenditure that is deductible over time - Abrievated Graph Key: S47"@en-AU ;
+    skos:broader C2004A00845:48 ;
+    skos:definition "Subdivision 40 ICapital expenditure that is deductible over time"@en-AU ;
+    skos:narrower C2004A00845:6 ;
+    skos:prefLabel "Subdivision S47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790077> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790077"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+C2004A00845:62 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I62 57130  Plant or depreciating assets covered by Subdivision 58 B of the Income Tax Assessment Act 1997"@en-AU ;
+    dct:hasPart C2004A00845:63 ;
+    dct:isPartOf C2004A00845:61 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "57130  Plant or depreciating assets covered by Subdivision 58 B of the Income Tax Assessment Act 1997 - Abrievated Graph Key: I62"@en-AU ;
+    skos:broader C2004A00845:63 ;
+    skos:definition "57130  Plant or depreciating assets covered by Subdivision 58 B of the Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2004A00845:61 ;
+    skos:prefLabel "Item I62"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790092> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790092"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:66 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S66 Subdivision 27 AGeneral"@en-AU ;
+    dct:hasPart C2004A00845:67 ;
+    dct:isPartOf C2004A00845:49 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Subdivision 27 AGeneral - Abrievated Graph Key: S66"@en-AU ;
+    skos:broader C2004A00845:67 ;
+    skos:definition "Subdivision 27 AGeneral"@en-AU ;
+    skos:narrower C2004A00845:49 ;
+    skos:prefLabel "Subdivision S66"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790096> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790096"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+C2004A00845:84 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I84 Guide to Division 58"@en-AU ;
+    dct:hasPart C2004A00845:85 ;
+    dct:isPartOf C2004A00845:83 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Guide to Division 58 - Abrievated Graph Key: I84"@en-AU ;
+    skos:broader C2004A00845:85 ;
+    skos:definition "Guide to Division 58"@en-AU ;
+    skos:narrower C2004A00845:83 ;
+    skos:prefLabel "Item I84"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790114> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790114"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:104 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S104 Subdivision 138 BValue shifts involving depreciating asset that is plant reductions of direct interests"@en-AU ;
+    dct:hasPart C2004A00845:105,
+        C2004A00845:106 ;
+    dct:isPartOf C2004A00845:83 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Subdivision 138 BValue shifts involving depreciating asset that is plant reductions of direct interests - Abrievated Graph Key: S104"@en-AU ;
+    skos:broader C2004A00845:105,
+        C2004A00845:106 ;
+    skos:definition "Subdivision 138 BValue shifts involving depreciating asset that is plant reductions of direct interests"@en-AU ;
+    skos:narrower C2004A00845:83 ;
+    skos:prefLabel "Subdivision S104"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790134> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790134"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+C2004A00845:86 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S86 Subdivision 58 AApplication"@en-AU ;
+    dct:hasPart C2004A00845:87,
+        C2004A00845:88 ;
+    dct:isPartOf C2004A00845:83 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Subdivision 58 AApplication - Abrievated Graph Key: S86"@en-AU ;
+    skos:broader C2004A00845:87,
+        C2004A00845:88 ;
+    skos:definition "Subdivision 58 AApplication"@en-AU ;
+    skos:narrower C2004A00845:83 ;
+    skos:prefLabel "Subdivision S86"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790116> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790116"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+C2004A00845:106 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I106 900120  Written evidence of depreciating asset expense"@en-AU ;
+    dct:hasPart C2004A00845:107,
+        C2004A00845:108,
+        C2004A00845:109 ;
+    dct:isPartOf C2004A00845:104 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "900120  Written evidence of depreciating asset expense - Abrievated Graph Key: I106"@en-AU ;
+    skos:broader C2004A00845:107,
+        C2004A00845:108,
+        C2004A00845:109 ;
+    skos:definition "900120  Written evidence of depreciating asset expense"@en-AU ;
+    skos:narrower C2004A00845:104 ;
+    skos:prefLabel "Item I106"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790136> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790136"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:35 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S35 Subdivision 40 ELowvalue and software development pools"@en-AU ;
+    dct:hasPart C2004A00845:36,
+        C2004A00845:37,
+        C2004A00845:38 ;
+    dct:isPartOf C2004A00845:6 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Subdivision 40 ELowvalue and software development pools - Abrievated Graph Key: S35"@en-AU ;
+    skos:broader C2004A00845:36,
+        C2004A00845:37,
+        C2004A00845:38 ;
+    skos:definition "Subdivision 40 ELowvalue and software development pools"@en-AU ;
+    skos:narrower C2004A00845:6 ;
+    skos:prefLabel "Subdivision S35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790065> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790065"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+C2004A00845:39 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S39 Subdivision 40 FPrimary production depreciating assets"@en-AU ;
+    dct:hasPart C2004A00845:40,
+        C2004A00845:41,
+        C2004A00845:42 ;
+    dct:isPartOf C2004A00845:6 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Subdivision 40 FPrimary production depreciating assets - Abrievated Graph Key: S39"@en-AU ;
+    skos:broader C2004A00845:40,
+        C2004A00845:41,
+        C2004A00845:42 ;
+    skos:definition "Subdivision 40 FPrimary production depreciating assets"@en-AU ;
+    skos:narrower C2004A00845:6 ;
+    skos:prefLabel "Subdivision S39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790069> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790069"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+C2004A00845:43 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S43 Subdivision 40 GCapital expenditure of primary producers and other landholders"@en-AU ;
+    dct:hasPart C2004A00845:44,
+        C2004A00845:45,
+        C2004A00845:46 ;
+    dct:isPartOf C2004A00845:6 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Subdivision 40 GCapital expenditure of primary producers and other landholders - Abrievated Graph Key: S43"@en-AU ;
+    skos:broader C2004A00845:44,
+        C2004A00845:45,
+        C2004A00845:46 ;
+    skos:definition "Subdivision 40 GCapital expenditure of primary producers and other landholders"@en-AU ;
+    skos:narrower C2004A00845:6 ;
+    skos:prefLabel "Subdivision S43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790073> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790073"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+C2004A00845:61 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S61 Subdivision 57 NDivision not applicable in respect of certain plant"@en-AU ;
+    dct:hasPart C2004A00845:62,
+        C2004A00845:64,
+        C2004A00845:65 ;
+    dct:isPartOf C2004A00845:49 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Subdivision 57 NDivision not applicable in respect of certain plant - Abrievated Graph Key: S61"@en-AU ;
+    skos:broader C2004A00845:62,
+        C2004A00845:64,
+        C2004A00845:65 ;
+    skos:definition "Subdivision 57 NDivision not applicable in respect of certain plant"@en-AU ;
+    skos:narrower C2004A00845:49 ;
+    skos:prefLabel "Subdivision S61"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790091> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790091"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+C2004A00845:29 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S29 Subdivision 40 DBalancing adjustments"@en-AU ;
+    dct:hasPart C2004A00845:30,
+        C2004A00845:31,
+        C2004A00845:32,
+        C2004A00845:33,
+        C2004A00845:34 ;
+    dct:isPartOf C2004A00845:6 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Subdivision 40 DBalancing adjustments - Abrievated Graph Key: S29"@en-AU ;
+    skos:broader C2004A00845:30,
+        C2004A00845:31,
+        C2004A00845:32,
+        C2004A00845:33,
+        C2004A00845:34 ;
+    skos:definition "Subdivision 40 DBalancing adjustments"@en-AU ;
+    skos:narrower C2004A00845:6 ;
+    skos:prefLabel "Subdivision S29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790059> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790059"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+C2004A00845:83 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D83 Division 58 Capital allowances for depreciating assets previously owned by an exempt entity"@en-AU ;
+    dct:hasPart C2004A00845:102,
+        C2004A00845:104,
+        C2004A00845:84,
+        C2004A00845:86,
+        C2004A00845:89 ;
+    dct:isPartOf C2004A00845:49 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Division 58 Capital allowances for depreciating assets previously owned by an exempt entity - Abrievated Graph Key: D83"@en-AU ;
+    skos:broader C2004A00845:102,
+        C2004A00845:104,
+        C2004A00845:84,
+        C2004A00845:86,
+        C2004A00845:89 ;
+    skos:definition "Division 58 Capital allowances for depreciating assets previously owned by an exempt entity"@en-AU ;
+    skos:narrower C2004A00845:49 ;
+    skos:prefLabel "Division D83"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790113> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790113"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2004A00845:49 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S49 Schedule 2 General consequential amendments"@en-AU ;
+    dct:hasPart C2004A00845:50,
+        C2004A00845:51,
+        C2004A00845:52,
+        C2004A00845:53,
+        C2004A00845:61,
+        C2004A00845:66,
+        C2004A00845:68,
+        C2004A00845:83 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Schedule 2 General consequential amendments - Abrievated Graph Key: S49"@en-AU ;
+    skos:broader C2004A00845:50,
+        C2004A00845:51,
+        C2004A00845:52,
+        C2004A00845:53,
+        C2004A00845:61,
+        C2004A00845:66,
+        C2004A00845:68,
+        C2004A00845:83 ;
+    skos:definition "Schedule 2 General consequential amendments"@en-AU ;
+    skos:prefLabel "Schedule S49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790079> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790079"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00845:53 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I53 51 B  Acquisition of depreciating asset from the FACDivision 40 of the Income Tax Assessment Act 1997"@en-AU ;
+    dct:hasPart C2004A00845:54,
+        C2004A00845:55,
+        C2004A00845:56,
+        C2004A00845:57,
+        C2004A00845:58,
+        C2004A00845:59,
+        C2004A00845:60 ;
+    dct:isPartOf C2004A00845:49 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "51 B  Acquisition of depreciating asset from the FACDivision 40 of the Income Tax Assessment Act 1997 - Abrievated Graph Key: I53"@en-AU ;
+    skos:broader C2004A00845:54,
+        C2004A00845:55,
+        C2004A00845:56,
+        C2004A00845:57,
+        C2004A00845:58,
+        C2004A00845:59,
+        C2004A00845:60 ;
+    skos:definition "51 B  Acquisition of depreciating asset from the FACDivision 40 of the Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2004A00845:49 ;
+    skos:prefLabel "Item I53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790083> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790083"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00845:6 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D6 Division 40 Capital allowances"@en-AU ;
+    dct:hasPart C2004A00845:27,
+        C2004A00845:29,
+        C2004A00845:35,
+        C2004A00845:39,
+        C2004A00845:43,
+        C2004A00845:47,
+        C2004A00845:7 ;
+    dct:isPartOf C2004A00845:4 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Division 40 Capital allowances - Abrievated Graph Key: D6"@en-AU ;
+    skos:broader C2004A00845:27,
+        C2004A00845:29,
+        C2004A00845:35,
+        C2004A00845:39,
+        C2004A00845:43,
+        C2004A00845:47,
+        C2004A00845:7 ;
+    skos:definition "Division 40 Capital allowances"@en-AU ;
+    skos:narrower C2004A00845:4 ;
+    skos:prefLabel "Division D6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790036> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790036"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2004A00845:89 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S89 Subdivision 58 BCalculating decline in value of privatised assets under Division 40"@en-AU ;
+    dct:hasPart C2004A00845:100,
+        C2004A00845:101,
+        C2004A00845:90,
+        C2004A00845:91,
+        C2004A00845:92,
+        C2004A00845:93,
+        C2004A00845:94,
+        C2004A00845:95,
+        C2004A00845:96,
+        C2004A00845:97,
+        C2004A00845:98,
+        C2004A00845:99 ;
+    dct:isPartOf C2004A00845:83 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Subdivision 58 BCalculating decline in value of privatised assets under Division 40 - Abrievated Graph Key: S89"@en-AU ;
+    skos:broader C2004A00845:100,
+        C2004A00845:101,
+        C2004A00845:90,
+        C2004A00845:91,
+        C2004A00845:92,
+        C2004A00845:93,
+        C2004A00845:94,
+        C2004A00845:95,
+        C2004A00845:96,
+        C2004A00845:97,
+        C2004A00845:98,
+        C2004A00845:99 ;
+    skos:definition "Subdivision 58 BCalculating decline in value of privatised assets under Division 40"@en-AU ;
+    skos:narrower C2004A00845:83 ;
+    skos:prefLabel "Subdivision S89"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790119> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790119"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+C2004A00845:68 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S68 Subdivision 27 BDivision 40"@en-AU ;
+    dct:hasPart C2004A00845:69,
+        C2004A00845:70,
+        C2004A00845:71,
+        C2004A00845:72,
+        C2004A00845:73,
+        C2004A00845:74,
+        C2004A00845:75,
+        C2004A00845:76,
+        C2004A00845:77,
+        C2004A00845:78,
+        C2004A00845:79,
+        C2004A00845:80,
+        C2004A00845:81,
+        C2004A00845:82 ;
+    dct:isPartOf C2004A00845:49 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Subdivision 27 BDivision 40 - Abrievated Graph Key: S68"@en-AU ;
+    skos:broader C2004A00845:69,
+        C2004A00845:70,
+        C2004A00845:71,
+        C2004A00845:72,
+        C2004A00845:73,
+        C2004A00845:74,
+        C2004A00845:75,
+        C2004A00845:76,
+        C2004A00845:77,
+        C2004A00845:78,
+        C2004A00845:79,
+        C2004A00845:80,
+        C2004A00845:81,
+        C2004A00845:82 ;
+    skos:definition "Subdivision 27 BDivision 40"@en-AU ;
+    skos:narrower C2004A00845:49 ;
+    skos:prefLabel "Subdivision S68"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790098> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790098"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+C2004A00845:7 a legcons:Subdivision,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Subdivision - S7 Subdivision 40 BCore provisions"@en-AU ;
+    dct:hasPart C2004A00845:10,
+        C2004A00845:11,
+        C2004A00845:12,
+        C2004A00845:13,
+        C2004A00845:14,
+        C2004A00845:15,
+        C2004A00845:16,
+        C2004A00845:17,
+        C2004A00845:18,
+        C2004A00845:19,
+        C2004A00845:20,
+        C2004A00845:21,
+        C2004A00845:22,
+        C2004A00845:23,
+        C2004A00845:24,
+        C2004A00845:25,
+        C2004A00845:26,
+        C2004A00845:8,
+        C2004A00845:9 ;
+    dct:isPartOf C2004A00845:6 ;
+    dct:isReferencedBy C2004A00845: ;
+    rdfs:comment "Subdivision 40 BCore provisions - Abrievated Graph Key: S7"@en-AU ;
+    skos:broader C2004A00845:10,
+        C2004A00845:11,
+        C2004A00845:12,
+        C2004A00845:13,
+        C2004A00845:14,
+        C2004A00845:15,
+        C2004A00845:16,
+        C2004A00845:17,
+        C2004A00845:18,
+        C2004A00845:19,
+        C2004A00845:20,
+        C2004A00845:21,
+        C2004A00845:22,
+        C2004A00845:23,
+        C2004A00845:24,
+        C2004A00845:25,
+        C2004A00845:26,
+        C2004A00845:8,
+        C2004A00845:9 ;
+    skos:definition "Subdivision 40 BCore provisions"@en-AU ;
+    skos:narrower C2004A00845:6 ;
+    skos:prefLabel "Subdivision S7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790037> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00845/2001-06-30/2001-06-30/text/original/epub/OEBPS/document_1/document_1.html#_Toc31790037"^^xsd:anyURI ;
+    dcat:theme legcons:Subdivision .
+
+C2004A00845: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "New Business Tax System (Capital Allowances—Transitional and Consequential) Act 2001" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-06-03T13:55:49.006168"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2001-06-30T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "New Business Tax System (Capital Allowances—Transitional and Consequential) Act 2001"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A00845/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "New Business Tax System (Capital Allowances—Transitional and Consequential) Act 2001"@en-AU ;
+    dct:title "New Business Tax System (Capital Allowances—Transitional and Consequential) Act 2001"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Schedule,
+        legcons:Subdivision ;
+    schema:status "In force" ;
+    schema:version "C2004C01190" .
+

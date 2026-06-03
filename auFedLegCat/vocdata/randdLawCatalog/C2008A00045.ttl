@@ -1,0 +1,610 @@
+@prefix C2008A00045: <http://example.org/au/leg/dataset/C2008A00045/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2008A00045:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title see Note 1"@en-AU ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "1  Short title see Note 1 - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title see Note 1"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200630> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200630"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200631> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200631"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Australian Securities and Investments Commission Act 2001"@en-AU ;
+    dct:isPartOf C2008A00045:10 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Australian Securities and Investments Commission Act 2001 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Australian Securities and Investments Commission Act 2001"@en-AU ;
+    skos:narrower C2008A00045:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200664> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200664"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Corporations Act 2001"@en-AU ;
+    dct:isPartOf C2008A00045:10 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Corporations Act 2001 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Corporations Act 2001"@en-AU ;
+    skos:narrower C2008A00045:10 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200665> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200665"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 AntiMoney Laundering and CounterTerrorism Financing Act 2006"@en-AU ;
+    dct:isPartOf C2008A00045:13 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "AntiMoney Laundering and CounterTerrorism Financing Act 2006 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "AntiMoney Laundering and CounterTerrorism Financing Act 2006"@en-AU ;
+    skos:narrower C2008A00045:13 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200667> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200667"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Australian Prudential Regulation Authority Act 1998"@en-AU ;
+    dct:isPartOf C2008A00045:13 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Australian Prudential Regulation Authority Act 1998 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Australian Prudential Regulation Authority Act 1998"@en-AU ;
+    skos:narrower C2008A00045:13 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200668> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200668"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Banking Act 1959"@en-AU ;
+    dct:isPartOf C2008A00045:13 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Banking Act 1959 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Banking Act 1959"@en-AU ;
+    skos:narrower C2008A00045:13 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200669> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200669"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Life Insurance Act 1995"@en-AU ;
+    dct:isPartOf C2008A00045:13 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Life Insurance Act 1995 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Life Insurance Act 1995"@en-AU ;
+    skos:narrower C2008A00045:13 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200670> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200670"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:18 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I18 Social Security Act 1991"@en-AU ;
+    dct:isPartOf C2008A00045:13 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Social Security Act 1991 - Abrievated Graph Key: I18"@en-AU ;
+    skos:definition "Social Security Act 1991"@en-AU ;
+    skos:narrower C2008A00045:13 ;
+    skos:prefLabel "Item I18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200671> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200671"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Superannuation Government Cocontribution for Low Income Earners Act 2003"@en-AU ;
+    dct:isPartOf C2008A00045:13 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Superannuation Government Cocontribution for Low Income Earners Act 2003 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Superannuation Government Cocontribution for Low Income Earners Act 2003"@en-AU ;
+    skos:narrower C2008A00045:13 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200672> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200672"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Superannuation Industry Supervision Act 1993"@en-AU ;
+    dct:isPartOf C2008A00045:13 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Superannuation Industry Supervision Act 1993 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Superannuation Industry Supervision Act 1993"@en-AU ;
+    skos:narrower C2008A00045:13 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200673> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200673"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Veterans Entitlements Act 1986"@en-AU ;
+    dct:isPartOf C2008A00045:13 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Veterans Entitlements Act 1986 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Veterans Entitlements Act 1986"@en-AU ;
+    skos:narrower C2008A00045:13 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200674> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200674"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2008A00045:22 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2008A00045:22 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200676> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200676"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2008A00045:22 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2008A00045:22 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200677> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200677"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2008A00045:22 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2008A00045:22 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200678> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200678"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:27 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I27 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2008A00045:26 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I27"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2008A00045:26 ;
+    skos:prefLabel "Item I27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200680> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200680"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2008A00045:28 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2008A00045:28 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200682> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200682"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Income Tax Rates Act 1986"@en-AU ;
+    dct:isPartOf C2008A00045:28 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Income Tax Rates Act 1986 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Income Tax Rates Act 1986"@en-AU ;
+    skos:narrower C2008A00045:28 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200683> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200683"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2008A00045:28 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2008A00045:28 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200684> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200684"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2008A00045:32 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2008A00045:32 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200686> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200686"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2008A00045:32 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2008A00045:32 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200688> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200688"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:35 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I35 Income Tax Rates Act 1986"@en-AU ;
+    dct:isPartOf C2008A00045:32 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Income Tax Rates Act 1986 - Abrievated Graph Key: I35"@en-AU ;
+    skos:definition "Income Tax Rates Act 1986"@en-AU ;
+    skos:narrower C2008A00045:32 ;
+    skos:prefLabel "Item I35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200705> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200705"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:36 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I36 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2008A00045:32 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I36"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2008A00045:32 ;
+    skos:prefLabel "Item I36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200706> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200706"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Notes to the   STYLEREF ShortT  MERGEFORMAT  First Home Saver Accounts Consequential Amendments Act 2008"@en-AU ;
+    dct:isPartOf C2008A00045:3 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Notes to the   STYLEREF ShortT  MERGEFORMAT  First Home Saver Accounts Consequential Amendments Act 2008 - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Notes to the   STYLEREF ShortT  MERGEFORMAT  First Home Saver Accounts Consequential Amendments Act 2008"@en-AU ;
+    skos:narrower C2008A00045:3 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200707> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200707"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:5 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I5 Income Tax Act 1986"@en-AU ;
+    dct:isPartOf C2008A00045:4 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Income Tax Act 1986 - Abrievated Graph Key: I5"@en-AU ;
+    skos:definition "Income Tax Act 1986"@en-AU ;
+    skos:narrower C2008A00045:4 ;
+    skos:prefLabel "Item I5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200634> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200634"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2008A00045:4 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2008A00045:4 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200635> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200635"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2008A00045:4 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2008A00045:4 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200637> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200637"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Income Tax Rates Act 1986"@en-AU ;
+    dct:isPartOf C2008A00045:4 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Income Tax Rates Act 1986 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Income Tax Rates Act 1986"@en-AU ;
+    skos:narrower C2008A00045:4 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200653> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200653"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2008A00045:4 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2008A00045:4 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200655> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200655"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:26 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S26 Schedule 5 Amendments to change references to virtual PST"@en-AU ;
+    dct:hasPart C2008A00045:27 ;
+    dct:isPartOf C2008A00045:3 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Schedule 5 Amendments to change references to virtual PST - Abrievated Graph Key: S26"@en-AU ;
+    skos:broader C2008A00045:27 ;
+    skos:definition "Schedule 5 Amendments to change references to virtual PST"@en-AU ;
+    skos:narrower C2008A00045:3 ;
+    skos:prefLabel "Schedule S26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200679> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200679"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2008A00045:10 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S10 Schedule 2 Amendments relating to the Corporations Act"@en-AU ;
+    dct:hasPart C2008A00045:11,
+        C2008A00045:12 ;
+    dct:isPartOf C2008A00045:3 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Schedule 2 Amendments relating to the Corporations Act - Abrievated Graph Key: S10"@en-AU ;
+    skos:broader C2008A00045:11,
+        C2008A00045:12 ;
+    skos:definition "Schedule 2 Amendments relating to the Corporations Act"@en-AU ;
+    skos:narrower C2008A00045:3 ;
+    skos:prefLabel "Schedule S10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200663> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200663"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2008A00045:22 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S22 Schedule 4 Amendments to change references to virtual PST assets etc"@en-AU ;
+    dct:hasPart C2008A00045:23,
+        C2008A00045:24,
+        C2008A00045:25 ;
+    dct:isPartOf C2008A00045:3 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Schedule 4 Amendments to change references to virtual PST assets etc - Abrievated Graph Key: S22"@en-AU ;
+    skos:broader C2008A00045:23,
+        C2008A00045:24,
+        C2008A00045:25 ;
+    skos:definition "Schedule 4 Amendments to change references to virtual PST assets etc"@en-AU ;
+    skos:narrower C2008A00045:3 ;
+    skos:prefLabel "Schedule S22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200675> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200675"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2008A00045:28 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S28 Schedule 6 Amendments to change references to complying superannuation class"@en-AU ;
+    dct:hasPart C2008A00045:29,
+        C2008A00045:30,
+        C2008A00045:31 ;
+    dct:isPartOf C2008A00045:3 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Schedule 6 Amendments to change references to complying superannuation class - Abrievated Graph Key: S28"@en-AU ;
+    skos:broader C2008A00045:29,
+        C2008A00045:30,
+        C2008A00045:31 ;
+    skos:definition "Schedule 6 Amendments to change references to complying superannuation class"@en-AU ;
+    skos:narrower C2008A00045:3 ;
+    skos:prefLabel "Schedule S28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200681> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200681"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2008A00045:32 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S32 Schedule 7 Other amendments relating to changes of references to virtual PST etc"@en-AU ;
+    dct:hasPart C2008A00045:33,
+        C2008A00045:34,
+        C2008A00045:35,
+        C2008A00045:36 ;
+    dct:isPartOf C2008A00045:3 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Schedule 7 Other amendments relating to changes of references to virtual PST etc - Abrievated Graph Key: S32"@en-AU ;
+    skos:broader C2008A00045:33,
+        C2008A00045:34,
+        C2008A00045:35,
+        C2008A00045:36 ;
+    skos:definition "Schedule 7 Other amendments relating to changes of references to virtual PST etc"@en-AU ;
+    skos:narrower C2008A00045:3 ;
+    skos:prefLabel "Schedule S32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200685> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200685"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2008A00045:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Main taxation related amendments"@en-AU ;
+    dct:hasPart C2008A00045:5,
+        C2008A00045:6,
+        C2008A00045:7,
+        C2008A00045:8,
+        C2008A00045:9 ;
+    dct:isPartOf C2008A00045:3 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Schedule 1 Main taxation related amendments - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2008A00045:5,
+        C2008A00045:6,
+        C2008A00045:7,
+        C2008A00045:8,
+        C2008A00045:9 ;
+    skos:definition "Schedule 1 Main taxation related amendments"@en-AU ;
+    skos:narrower C2008A00045:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200633> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200633"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2008A00045:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2008A00045:10,
+        C2008A00045:13,
+        C2008A00045:22,
+        C2008A00045:26,
+        C2008A00045:28,
+        C2008A00045:32,
+        C2008A00045:37,
+        C2008A00045:4 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2008A00045:10,
+        C2008A00045:13,
+        C2008A00045:22,
+        C2008A00045:26,
+        C2008A00045:28,
+        C2008A00045:32,
+        C2008A00045:37,
+        C2008A00045:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200632> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200632"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2008A00045:13 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S13 Schedule 3 Other consequential amendments"@en-AU ;
+    dct:hasPart C2008A00045:14,
+        C2008A00045:15,
+        C2008A00045:16,
+        C2008A00045:17,
+        C2008A00045:18,
+        C2008A00045:19,
+        C2008A00045:20,
+        C2008A00045:21 ;
+    dct:isPartOf C2008A00045:3 ;
+    dct:isReferencedBy C2008A00045: ;
+    rdfs:comment "Schedule 3 Other consequential amendments - Abrievated Graph Key: S13"@en-AU ;
+    skos:broader C2008A00045:14,
+        C2008A00045:15,
+        C2008A00045:16,
+        C2008A00045:17,
+        C2008A00045:18,
+        C2008A00045:19,
+        C2008A00045:20,
+        C2008A00045:21 ;
+    skos:definition "Schedule 3 Other consequential amendments"@en-AU ;
+    skos:narrower C2008A00045:3 ;
+    skos:prefLabel "Schedule S13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200666> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2008A00045/2008-06-26/2008-06-26/text/original/epub/OEBPS/document_1/document_1.html#_Toc257200666"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2008A00045: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "First Home Saver Accounts (Consequential Amendments) Act 2008" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-06-03T14:01:12.392081"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2008-06-26T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "First Home Saver Accounts (Consequential Amendments) Act 2008"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2008A00045/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "First Home Saver Accounts (Consequential Amendments) Act 2008"@en-AU ;
+    dct:title "First Home Saver Accounts (Consequential Amendments) Act 2008"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Item,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2010C00222 C01" .
+

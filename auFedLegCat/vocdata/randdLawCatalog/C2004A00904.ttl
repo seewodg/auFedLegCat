@@ -1,0 +1,532 @@
+@prefix C2004A00904: <http://example.org/au/leg/dataset/C2004A00904/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2004A00904:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413592> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413592"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00904:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413593> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413593"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00904:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2004A00904:10 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2004A00904:10 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413603> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413603"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00904:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Industry Research and Development Act 1986"@en-AU ;
+    dct:isPartOf C2004A00904:10 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Industry Research and Development Act 1986 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Industry Research and Development Act 1986"@en-AU ;
+    skos:narrower C2004A00904:10 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413604> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413604"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00904:15 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I15 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2004A00904:14 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I15"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2004A00904:14 ;
+    skos:prefLabel "Item I15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413608> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413608"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00904:17 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I17 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2004A00904:16 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I17"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2004A00904:16 ;
+    skos:prefLabel "Item I17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413610> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413610"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00904:20 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I20 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2004A00904:19 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I20"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2004A00904:19 ;
+    skos:prefLabel "Item I20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413614> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413614"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00904:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2004A00904:19 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2004A00904:19 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413623> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413623"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00904:22 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I22 Industry Research and Development Act 1986"@en-AU ;
+    dct:isPartOf C2004A00904:19 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Industry Research and Development Act 1986 - Abrievated Graph Key: I22"@en-AU ;
+    skos:definition "Industry Research and Development Act 1986"@en-AU ;
+    skos:narrower C2004A00904:19 ;
+    skos:prefLabel "Item I22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413625> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413625"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00904:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2004A00904:23 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2004A00904:23 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413627> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413627"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00904:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2004A00904:23 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2004A00904:23 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413636> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413636"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00904:26 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I26 Industry Research and Development Act 1986"@en-AU ;
+    dct:isPartOf C2004A00904:23 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Industry Research and Development Act 1986 - Abrievated Graph Key: I26"@en-AU ;
+    skos:definition "Industry Research and Development Act 1986"@en-AU ;
+    skos:narrower C2004A00904:23 ;
+    skos:prefLabel "Item I26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413638> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413638"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00904:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2004A00904:27 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2004A00904:27 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413640> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413640"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00904:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2004A00904:27 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2004A00904:27 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413647> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413647"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00904:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Taxation Interest on Overpayments and Early Payments Act 1983"@en-AU ;
+    dct:isPartOf C2004A00904:27 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Taxation Interest on Overpayments and Early Payments Act 1983 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Taxation Interest on Overpayments and Early Payments Act 1983"@en-AU ;
+    skos:narrower C2004A00904:27 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413648> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413648"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00904:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2004A00904:31 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2004A00904:31 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413650> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413650"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00904:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2004A00904:5 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2004A00904:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413597> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413597"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00904:7 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I7 Industry Research and Development Act 1986"@en-AU ;
+    dct:isPartOf C2004A00904:5 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Industry Research and Development Act 1986 - Abrievated Graph Key: I7"@en-AU ;
+    skos:definition "Industry Research and Development Act 1986"@en-AU ;
+    skos:narrower C2004A00904:5 ;
+    skos:prefLabel "Item I7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413598> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413598"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00904:9 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I9 Industry Research and Development Act 1986"@en-AU ;
+    dct:isPartOf C2004A00904:8 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Industry Research and Development Act 1986 - Abrievated Graph Key: I9"@en-AU ;
+    skos:definition "Industry Research and Development Act 1986"@en-AU ;
+    skos:narrower C2004A00904:8 ;
+    skos:prefLabel "Item I9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413601> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413601"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00904:14 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P14 Part 1 Retrospective change to qualifying plant expenditure"@en-AU ;
+    dct:hasPart C2004A00904:15 ;
+    dct:isPartOf C2004A00904:13 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Part 1 Retrospective change to qualifying plant expenditure - Abrievated Graph Key: P14"@en-AU ;
+    skos:broader C2004A00904:15 ;
+    skos:definition "Part 1 Retrospective change to qualifying plant expenditure"@en-AU ;
+    skos:narrower C2004A00904:13 ;
+    skos:prefLabel "Part P14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413607> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413607"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00904:16 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P16 Part 2 Retrospective exemption of pilot plant from CGT provisions"@en-AU ;
+    dct:hasPart C2004A00904:17 ;
+    dct:isPartOf C2004A00904:13 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Part 2 Retrospective exemption of pilot plant from CGT provisions - Abrievated Graph Key: P16"@en-AU ;
+    skos:broader C2004A00904:17 ;
+    skos:definition "Part 2 Retrospective exemption of pilot plant from CGT provisions"@en-AU ;
+    skos:narrower C2004A00904:13 ;
+    skos:prefLabel "Part P16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413609> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413609"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00904:31 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S31 Schedule 4 Incremental tax incentive"@en-AU ;
+    dct:hasPart C2004A00904:32 ;
+    dct:isPartOf C2004A00904:3 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Schedule 4 Incremental tax incentive - Abrievated Graph Key: S31"@en-AU ;
+    skos:broader C2004A00904:32 ;
+    skos:definition "Schedule 4 Incremental tax incentive"@en-AU ;
+    skos:narrower C2004A00904:3 ;
+    skos:prefLabel "Schedule S31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413649> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413649"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00904:8 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P8 Part 1 AReport on access to tax offset"@en-AU ;
+    dct:hasPart C2004A00904:9 ;
+    dct:isPartOf C2004A00904:4 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Part 1 AReport on access to tax offset - Abrievated Graph Key: P8"@en-AU ;
+    skos:broader C2004A00904:9 ;
+    skos:definition "Part 1 AReport on access to tax offset"@en-AU ;
+    skos:narrower C2004A00904:4 ;
+    skos:prefLabel "Part P8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413600> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413600"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00904:10 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P10 Part 3 Research and development plans"@en-AU ;
+    dct:hasPart C2004A00904:11,
+        C2004A00904:12 ;
+    dct:isPartOf C2004A00904:4 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Part 3 Research and development plans - Abrievated Graph Key: P10"@en-AU ;
+    skos:broader C2004A00904:11,
+        C2004A00904:12 ;
+    skos:definition "Part 3 Research and development plans"@en-AU ;
+    skos:narrower C2004A00904:4 ;
+    skos:prefLabel "Part P10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413602> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413602"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00904:18 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P18 Part 3 Effective life basis for deduction"@en-AU ;
+    dct:hasPart C2004A00904:19,
+        C2004A00904:23 ;
+    dct:isPartOf C2004A00904:13 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Part 3 Effective life basis for deduction - Abrievated Graph Key: P18"@en-AU ;
+    skos:broader C2004A00904:19,
+        C2004A00904:23 ;
+    skos:definition "Part 3 Effective life basis for deduction"@en-AU ;
+    skos:narrower C2004A00904:13 ;
+    skos:prefLabel "Part P18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413612> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413612"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00904:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Objects provisions"@en-AU ;
+    dct:hasPart C2004A00904:6,
+        C2004A00904:7 ;
+    dct:isPartOf C2004A00904:4 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Part 1 Objects provisions - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2004A00904:6,
+        C2004A00904:7 ;
+    skos:definition "Part 1 Objects provisions"@en-AU ;
+    skos:narrower C2004A00904:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413596> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413596"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2004A00904:13 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S13 Schedule 2 Plant etc"@en-AU ;
+    dct:hasPart C2004A00904:14,
+        C2004A00904:16,
+        C2004A00904:18 ;
+    dct:isPartOf C2004A00904:3 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Schedule 2 Plant etc - Abrievated Graph Key: S13"@en-AU ;
+    skos:broader C2004A00904:14,
+        C2004A00904:16,
+        C2004A00904:18 ;
+    skos:definition "Schedule 2 Plant etc"@en-AU ;
+    skos:narrower C2004A00904:3 ;
+    skos:prefLabel "Schedule S13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413606> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413606"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00904:19 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D19 Division 1 Amendments commencing at 12 pm on 29 January 2001"@en-AU ;
+    dct:hasPart C2004A00904:20,
+        C2004A00904:21,
+        C2004A00904:22 ;
+    dct:isPartOf C2004A00904:18 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Division 1 Amendments commencing at 12 pm on 29 January 2001 - Abrievated Graph Key: D19"@en-AU ;
+    skos:broader C2004A00904:20,
+        C2004A00904:21,
+        C2004A00904:22 ;
+    skos:definition "Division 1 Amendments commencing at 12 pm on 29 January 2001"@en-AU ;
+    skos:narrower C2004A00904:18 ;
+    skos:prefLabel "Division D19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413613> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413613"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2004A00904:23 a legcons:Division,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Division - D23 Division 2 Amendments commencing immediately after the New Business Tax System Capital Allowances Act 2001"@en-AU ;
+    dct:hasPart C2004A00904:24,
+        C2004A00904:25,
+        C2004A00904:26 ;
+    dct:isPartOf C2004A00904:18 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Division 2 Amendments commencing immediately after the New Business Tax System Capital Allowances Act 2001 - Abrievated Graph Key: D23"@en-AU ;
+    skos:broader C2004A00904:24,
+        C2004A00904:25,
+        C2004A00904:26 ;
+    skos:definition "Division 2 Amendments commencing immediately after the New Business Tax System Capital Allowances Act 2001"@en-AU ;
+    skos:narrower C2004A00904:18 ;
+    skos:prefLabel "Division D23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413626> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413626"^^xsd:anyURI ;
+    dcat:theme legcons:Division .
+
+C2004A00904:27 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S27 Schedule 3 Refundable tax offset"@en-AU ;
+    dct:hasPart C2004A00904:28,
+        C2004A00904:29,
+        C2004A00904:30 ;
+    dct:isPartOf C2004A00904:3 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Schedule 3 Refundable tax offset - Abrievated Graph Key: S27"@en-AU ;
+    skos:broader C2004A00904:28,
+        C2004A00904:29,
+        C2004A00904:30 ;
+    skos:definition "Schedule 3 Refundable tax offset"@en-AU ;
+    skos:narrower C2004A00904:3 ;
+    skos:prefLabel "Schedule S27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413639> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413639"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00904:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2004A00904:13,
+        C2004A00904:27,
+        C2004A00904:31,
+        C2004A00904:4 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2004A00904:13,
+        C2004A00904:27,
+        C2004A00904:31,
+        C2004A00904:4 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413594> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413594"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2004A00904:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Streamlining amendments"@en-AU ;
+    dct:hasPart C2004A00904:10,
+        C2004A00904:5,
+        C2004A00904:8 ;
+    dct:isPartOf C2004A00904:3 ;
+    dct:isReferencedBy C2004A00904: ;
+    rdfs:comment "Schedule 1 Streamlining amendments - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2004A00904:10,
+        C2004A00904:5,
+        C2004A00904:8 ;
+    skos:definition "Schedule 1 Streamlining amendments"@en-AU ;
+    skos:narrower C2004A00904:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413595> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2004A00904/2001-10-01/2001-10-01/text/original/epub/OEBPS/document_1/document_1.html#_Toc16413595"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2004A00904: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Taxation Laws Amendment (Research and Development) Act 2001" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-06-03T13:51:43.140257"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2001-10-01T00:00:00+10:00"^^xsd:dateTime ;
+    dct:description "Taxation Laws Amendment (Research and Development) Act 2001"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2004A00904/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Taxation Laws Amendment (Research and Development) Act 2001"@en-AU ;
+    dct:title "Taxation Laws Amendment (Research and Development) Act 2001"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Division,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2005C00282 C01" .
+

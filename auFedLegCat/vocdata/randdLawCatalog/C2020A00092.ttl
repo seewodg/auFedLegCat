@@ -1,0 +1,1120 @@
+@prefix C2020A00092: <http://example.org/au/leg/dataset/C2020A00092/latest/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix legcons: <http://example.org/au/leg/concepts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+C2020A00092:1 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I1 1  Short title"@en-AU ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "1  Short title - Abrievated Graph Key: I1"@en-AU ;
+    skos:definition "1  Short title"@en-AU ;
+    skos:prefLabel "Item I1"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846483> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846483"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:2 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I2 2  Commencement"@en-AU ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "2  Commencement - Abrievated Graph Key: I2"@en-AU ;
+    skos:definition "2  Commencement"@en-AU ;
+    skos:prefLabel "Item I2"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846484> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846484"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:10 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I10 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2020A00092:9 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I10"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2020A00092:9 ;
+    skos:prefLabel "Item I10"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846492> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846492"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:11 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I11 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2020A00092:9 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I11"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2020A00092:9 ;
+    skos:prefLabel "Item I11"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846493> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846493"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:12 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I12 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2020A00092:9 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I12"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2020A00092:9 ;
+    skos:prefLabel "Item I12"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846494> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846494"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:14 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I14 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2020A00092:13 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I14"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2020A00092:13 ;
+    skos:prefLabel "Item I14"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846496> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846496"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:16 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I16 Treasury Laws Amendment Personal Income Tax Plan Act 2018"@en-AU ;
+    dct:isPartOf C2020A00092:15 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Treasury Laws Amendment Personal Income Tax Plan Act 2018 - Abrievated Graph Key: I16"@en-AU ;
+    skos:definition "Treasury Laws Amendment Personal Income Tax Plan Act 2018"@en-AU ;
+    skos:narrower C2020A00092:15 ;
+    skos:prefLabel "Item I16"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846499> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846499"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:19 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I19 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2020A00092:18 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I19"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2020A00092:18 ;
+    skos:prefLabel "Item I19"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846502> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846502"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:21 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I21 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2020A00092:20 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I21"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2020A00092:20 ;
+    skos:prefLabel "Item I21"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846516> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846516"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:23 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I23 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2020A00092:22 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I23"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2020A00092:22 ;
+    skos:prefLabel "Item I23"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846518> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846518"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:24 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I24 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2020A00092:22 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I24"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2020A00092:22 ;
+    skos:prefLabel "Item I24"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846519> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846519"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:25 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I25 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2020A00092:22 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I25"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2020A00092:22 ;
+    skos:prefLabel "Item I25"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846523> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846523"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:28 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I28 A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    dct:isPartOf C2020A00092:27 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "A New Tax System Goods and Services Tax Act 1999 - Abrievated Graph Key: I28"@en-AU ;
+    skos:definition "A New Tax System Goods and Services Tax Act 1999"@en-AU ;
+    skos:narrower C2020A00092:27 ;
+    skos:prefLabel "Item I28"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846526> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846526"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:29 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I29 Customs Act 1901"@en-AU ;
+    dct:isPartOf C2020A00092:27 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Customs Act 1901 - Abrievated Graph Key: I29"@en-AU ;
+    skos:definition "Customs Act 1901"@en-AU ;
+    skos:narrower C2020A00092:27 ;
+    skos:prefLabel "Item I29"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846527> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846527"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:30 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I30 Excise Act 1901"@en-AU ;
+    dct:isPartOf C2020A00092:27 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Excise Act 1901 - Abrievated Graph Key: I30"@en-AU ;
+    skos:definition "Excise Act 1901"@en-AU ;
+    skos:narrower C2020A00092:27 ;
+    skos:prefLabel "Item I30"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846528> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846528"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:31 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I31 Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    dct:isPartOf C2020A00092:27 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Fringe Benefits Tax Assessment Act 1986 - Abrievated Graph Key: I31"@en-AU ;
+    skos:definition "Fringe Benefits Tax Assessment Act 1986"@en-AU ;
+    skos:narrower C2020A00092:27 ;
+    skos:prefLabel "Item I31"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846529> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846529"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:32 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I32 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2020A00092:27 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I32"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2020A00092:27 ;
+    skos:prefLabel "Item I32"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846530> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846530"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:33 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I33 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2020A00092:27 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I33"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2020A00092:27 ;
+    skos:prefLabel "Item I33"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846531> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846531"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:34 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I34 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2020A00092:27 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I34"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2020A00092:27 ;
+    skos:prefLabel "Item I34"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846532> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846532"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:35 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P35 Part 2 Application of amendments"@en-AU ;
+    dct:isPartOf C2020A00092:26 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Part 2 Application of amendments - Abrievated Graph Key: P35"@en-AU ;
+    skos:definition "Part 2 Application of amendments"@en-AU ;
+    skos:narrower C2020A00092:26 ;
+    skos:prefLabel "Part P35"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846533> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846533"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00092:37 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I37 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2020A00092:36 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I37"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2020A00092:36 ;
+    skos:prefLabel "Item I37"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846535> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846535"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:38 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I38 Tax Laws Amendment Research and Development Act 2015"@en-AU ;
+    dct:isPartOf C2020A00092:36 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Tax Laws Amendment Research and Development Act 2015 - Abrievated Graph Key: I38"@en-AU ;
+    skos:definition "Tax Laws Amendment Research and Development Act 2015"@en-AU ;
+    skos:narrower C2020A00092:36 ;
+    skos:prefLabel "Item I38"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846537> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846537"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:41 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I41 Income Tax Assessment Act 1936"@en-AU ;
+    dct:isPartOf C2020A00092:40 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Income Tax Assessment Act 1936 - Abrievated Graph Key: I41"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1936"@en-AU ;
+    skos:narrower C2020A00092:40 ;
+    skos:prefLabel "Item I41"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846540> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846540"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:43 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I43 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2020A00092:42 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I43"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2020A00092:42 ;
+    skos:prefLabel "Item I43"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846542> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846542"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:44 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I44 Income Tax Rates Act 1986"@en-AU ;
+    dct:isPartOf C2020A00092:42 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Income Tax Rates Act 1986 - Abrievated Graph Key: I44"@en-AU ;
+    skos:definition "Income Tax Rates Act 1986"@en-AU ;
+    skos:narrower C2020A00092:42 ;
+    skos:prefLabel "Item I44"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846566> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846566"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:45 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I45 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2020A00092:42 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I45"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2020A00092:42 ;
+    skos:prefLabel "Item I45"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846567> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846567"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:46 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P46 Part 3 Application of amendments"@en-AU ;
+    dct:isPartOf C2020A00092:39 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Part 3 Application of amendments - Abrievated Graph Key: P46"@en-AU ;
+    skos:definition "Part 3 Application of amendments"@en-AU ;
+    skos:narrower C2020A00092:39 ;
+    skos:prefLabel "Part P46"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846568> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846568"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00092:49 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I49 Taxation Administration Act 1953"@en-AU ;
+    dct:isPartOf C2020A00092:48 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Taxation Administration Act 1953 - Abrievated Graph Key: I49"@en-AU ;
+    skos:definition "Taxation Administration Act 1953"@en-AU ;
+    skos:narrower C2020A00092:48 ;
+    skos:prefLabel "Item I49"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846571> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846571"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:51 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I51 Industry Research and Development Act 1986"@en-AU ;
+    dct:isPartOf C2020A00092:50 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Industry Research and Development Act 1986 - Abrievated Graph Key: I51"@en-AU ;
+    skos:definition "Industry Research and Development Act 1986"@en-AU ;
+    skos:narrower C2020A00092:50 ;
+    skos:prefLabel "Item I51"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846574> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846574"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:53 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I53 Industry Research and Development Act 1986"@en-AU ;
+    dct:isPartOf C2020A00092:52 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Industry Research and Development Act 1986 - Abrievated Graph Key: I53"@en-AU ;
+    skos:definition "Industry Research and Development Act 1986"@en-AU ;
+    skos:narrower C2020A00092:52 ;
+    skos:prefLabel "Item I53"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846580> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846580"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:55 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I55 Industry Research and Development Decisionmaking Principles 2011"@en-AU ;
+    dct:isPartOf C2020A00092:54 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Industry Research and Development Decisionmaking Principles 2011 - Abrievated Graph Key: I55"@en-AU ;
+    skos:definition "Industry Research and Development Decisionmaking Principles 2011"@en-AU ;
+    skos:narrower C2020A00092:54 ;
+    skos:prefLabel "Item I55"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846582> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846582"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:58 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I58 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2020A00092:57 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I58"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2020A00092:57 ;
+    skos:prefLabel "Item I58"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846585> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846585"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:6 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I6 Income Tax Rates Act 1986"@en-AU ;
+    dct:isPartOf C2020A00092:5 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Income Tax Rates Act 1986 - Abrievated Graph Key: I6"@en-AU ;
+    skos:definition "Income Tax Rates Act 1986"@en-AU ;
+    skos:narrower C2020A00092:5 ;
+    skos:prefLabel "Item I6"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846488> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846488"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:60 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I60 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2020A00092:59 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I60"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2020A00092:59 ;
+    skos:prefLabel "Item I60"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846598> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846598"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:61 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I61 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2020A00092:59 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I61"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2020A00092:59 ;
+    skos:prefLabel "Item I61"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846599> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846599"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:63 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I63 Income Tax Assessment Act 1997"@en-AU ;
+    dct:isPartOf C2020A00092:62 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Income Tax Assessment Act 1997 - Abrievated Graph Key: I63"@en-AU ;
+    skos:definition "Income Tax Assessment Act 1997"@en-AU ;
+    skos:narrower C2020A00092:62 ;
+    skos:prefLabel "Item I63"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846601> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846601"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:64 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I64 Income Tax Transitional Provisions Act 1997"@en-AU ;
+    dct:isPartOf C2020A00092:62 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Income Tax Transitional Provisions Act 1997 - Abrievated Graph Key: I64"@en-AU ;
+    skos:definition "Income Tax Transitional Provisions Act 1997"@en-AU ;
+    skos:narrower C2020A00092:62 ;
+    skos:prefLabel "Item I64"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846602> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846602"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:66 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I66 Endnote 1 About the endnotes"@en-AU ;
+    dct:isPartOf C2020A00092:65 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Endnote 1 About the endnotes - Abrievated Graph Key: I66"@en-AU ;
+    skos:definition "Endnote 1 About the endnotes"@en-AU ;
+    skos:narrower C2020A00092:65 ;
+    skos:prefLabel "Item I66"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846604> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846604"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:67 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I67 Endnote 2 Abbreviation key"@en-AU ;
+    dct:isPartOf C2020A00092:65 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Endnote 2 Abbreviation key - Abrievated Graph Key: I67"@en-AU ;
+    skos:definition "Endnote 2 Abbreviation key"@en-AU ;
+    skos:narrower C2020A00092:65 ;
+    skos:prefLabel "Item I67"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846605> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846605"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:68 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I68 Endnote 3 Legislation history"@en-AU ;
+    dct:isPartOf C2020A00092:65 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Endnote 3 Legislation history - Abrievated Graph Key: I68"@en-AU ;
+    skos:definition "Endnote 3 Legislation history"@en-AU ;
+    skos:narrower C2020A00092:65 ;
+    skos:prefLabel "Item I68"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846606> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846606"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:69 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I69 Endnote 4 Amendment history"@en-AU ;
+    dct:isPartOf C2020A00092:65 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Endnote 4 Amendment history - Abrievated Graph Key: I69"@en-AU ;
+    skos:definition "Endnote 4 Amendment history"@en-AU ;
+    skos:narrower C2020A00092:65 ;
+    skos:prefLabel "Item I69"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846607> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846607"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:8 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I8 Income Tax Rates Act 1986"@en-AU ;
+    dct:isPartOf C2020A00092:7 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Income Tax Rates Act 1986 - Abrievated Graph Key: I8"@en-AU ;
+    skos:definition "Income Tax Rates Act 1986"@en-AU ;
+    skos:narrower C2020A00092:7 ;
+    skos:prefLabel "Item I8"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846490> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846490"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:13 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P13 Part 4 Low and Middle Income tax offset"@en-AU ;
+    dct:hasPart C2020A00092:14 ;
+    dct:isPartOf C2020A00092:4 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Part 4 Low and Middle Income tax offset - Abrievated Graph Key: P13"@en-AU ;
+    skos:broader C2020A00092:14 ;
+    skos:definition "Part 4 Low and Middle Income tax offset"@en-AU ;
+    skos:narrower C2020A00092:4 ;
+    skos:prefLabel "Part P13"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846495> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846495"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00092:15 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P15 Part 5 Amendments to amending legislation"@en-AU ;
+    dct:hasPart C2020A00092:16 ;
+    dct:isPartOf C2020A00092:4 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Part 5 Amendments to amending legislation - Abrievated Graph Key: P15"@en-AU ;
+    skos:broader C2020A00092:16 ;
+    skos:definition "Part 5 Amendments to amending legislation"@en-AU ;
+    skos:narrower C2020A00092:4 ;
+    skos:prefLabel "Part P15"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846498> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846498"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00092:18 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P18 Part 1 Main amendments"@en-AU ;
+    dct:hasPart C2020A00092:19 ;
+    dct:isPartOf C2020A00092:17 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Part 1 Main amendments - Abrievated Graph Key: P18"@en-AU ;
+    skos:broader C2020A00092:19 ;
+    skos:definition "Part 1 Main amendments"@en-AU ;
+    skos:narrower C2020A00092:17 ;
+    skos:prefLabel "Part P18"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846501> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846501"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00092:20 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P20 Part 2 Antiavoidance"@en-AU ;
+    dct:hasPart C2020A00092:21 ;
+    dct:isPartOf C2020A00092:17 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Part 2 Antiavoidance - Abrievated Graph Key: P20"@en-AU ;
+    skos:broader C2020A00092:21 ;
+    skos:definition "Part 2 Antiavoidance"@en-AU ;
+    skos:narrower C2020A00092:17 ;
+    skos:prefLabel "Part P20"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846515> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846515"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00092:40 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P40 Part 1 Schemes to reduce income tax"@en-AU ;
+    dct:hasPart C2020A00092:41 ;
+    dct:isPartOf C2020A00092:39 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Part 1 Schemes to reduce income tax - Abrievated Graph Key: P40"@en-AU ;
+    skos:broader C2020A00092:41 ;
+    skos:definition "Part 1 Schemes to reduce income tax"@en-AU ;
+    skos:narrower C2020A00092:39 ;
+    skos:prefLabel "Part P40"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846539> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846539"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00092:48 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P48 Part 1 Reporting of information about research and development tax offset"@en-AU ;
+    dct:hasPart C2020A00092:49 ;
+    dct:isPartOf C2020A00092:47 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Part 1 Reporting of information about research and development tax offset - Abrievated Graph Key: P48"@en-AU ;
+    skos:broader C2020A00092:49 ;
+    skos:definition "Part 1 Reporting of information about research and development tax offset"@en-AU ;
+    skos:narrower C2020A00092:47 ;
+    skos:prefLabel "Part P48"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846570> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846570"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00092:5 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P5 Part 1 Personal income tax reform main amendments"@en-AU ;
+    dct:hasPart C2020A00092:6 ;
+    dct:isPartOf C2020A00092:4 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Part 1 Personal income tax reform main amendments - Abrievated Graph Key: P5"@en-AU ;
+    skos:broader C2020A00092:6 ;
+    skos:definition "Part 1 Personal income tax reform main amendments"@en-AU ;
+    skos:narrower C2020A00092:4 ;
+    skos:prefLabel "Part P5"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846487> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846487"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00092:50 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P50 Part 2 Determinations about performance of Boards functions"@en-AU ;
+    dct:hasPart C2020A00092:51 ;
+    dct:isPartOf C2020A00092:47 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Part 2 Determinations about performance of Boards functions - Abrievated Graph Key: P50"@en-AU ;
+    skos:broader C2020A00092:51 ;
+    skos:definition "Part 2 Determinations about performance of Boards functions"@en-AU ;
+    skos:narrower C2020A00092:47 ;
+    skos:prefLabel "Part P50"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846573> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846573"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00092:52 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P52 Part 3 Delegation by Board and committees"@en-AU ;
+    dct:hasPart C2020A00092:53 ;
+    dct:isPartOf C2020A00092:47 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Part 3 Delegation by Board and committees - Abrievated Graph Key: P52"@en-AU ;
+    skos:broader C2020A00092:53 ;
+    skos:definition "Part 3 Delegation by Board and committees"@en-AU ;
+    skos:narrower C2020A00092:47 ;
+    skos:prefLabel "Part P52"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846579> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846579"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00092:54 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P54 Part 4 Extensions of time"@en-AU ;
+    dct:hasPart C2020A00092:55 ;
+    dct:isPartOf C2020A00092:47 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Part 4 Extensions of time - Abrievated Graph Key: P54"@en-AU ;
+    skos:broader C2020A00092:55 ;
+    skos:definition "Part 4 Extensions of time"@en-AU ;
+    skos:narrower C2020A00092:47 ;
+    skos:prefLabel "Part P54"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846581> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846581"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00092:57 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P57 Part 1 Temporary full expensing of depreciating assets"@en-AU ;
+    dct:hasPart C2020A00092:58 ;
+    dct:isPartOf C2020A00092:56 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Part 1 Temporary full expensing of depreciating assets - Abrievated Graph Key: P57"@en-AU ;
+    skos:broader C2020A00092:58 ;
+    skos:definition "Part 1 Temporary full expensing of depreciating assets"@en-AU ;
+    skos:narrower C2020A00092:56 ;
+    skos:prefLabel "Part P57"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846584> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846584"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00092:7 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P7 Part 2 Personal income tax reform repeals on 1 July 2024"@en-AU ;
+    dct:hasPart C2020A00092:8 ;
+    dct:isPartOf C2020A00092:4 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Part 2 Personal income tax reform repeals on 1 July 2024 - Abrievated Graph Key: P7"@en-AU ;
+    skos:broader C2020A00092:8 ;
+    skos:definition "Part 2 Personal income tax reform repeals on 1 July 2024"@en-AU ;
+    skos:narrower C2020A00092:4 ;
+    skos:prefLabel "Part P7"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846489> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846489"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00092:26 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S26 Schedule 3 Increasing small business entity turnover threshold for certain concessions"@en-AU ;
+    dct:hasPart C2020A00092:27,
+        C2020A00092:35 ;
+    dct:isPartOf C2020A00092:3 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Schedule 3 Increasing small business entity turnover threshold for certain concessions - Abrievated Graph Key: S26"@en-AU ;
+    skos:broader C2020A00092:27,
+        C2020A00092:35 ;
+    skos:definition "Schedule 3 Increasing small business entity turnover threshold for certain concessions"@en-AU ;
+    skos:narrower C2020A00092:3 ;
+    skos:prefLabel "Schedule S26"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846524> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846524"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00092:36 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S36 Schedule 4 Enhancing the RD Tax Incentive"@en-AU ;
+    dct:hasPart C2020A00092:37,
+        C2020A00092:38 ;
+    dct:isPartOf C2020A00092:3 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Schedule 4 Enhancing the RD Tax Incentive - Abrievated Graph Key: S36"@en-AU ;
+    skos:broader C2020A00092:37,
+        C2020A00092:38 ;
+    skos:definition "Schedule 4 Enhancing the RD Tax Incentive"@en-AU ;
+    skos:narrower C2020A00092:3 ;
+    skos:prefLabel "Schedule S36"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846534> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846534"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00092:59 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P59 Part 2 Adjusting existing measures"@en-AU ;
+    dct:hasPart C2020A00092:60,
+        C2020A00092:61 ;
+    dct:isPartOf C2020A00092:56 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Part 2 Adjusting existing measures - Abrievated Graph Key: P59"@en-AU ;
+    skos:broader C2020A00092:60,
+        C2020A00092:61 ;
+    skos:definition "Part 2 Adjusting existing measures"@en-AU ;
+    skos:narrower C2020A00092:56 ;
+    skos:prefLabel "Part P59"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846597> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846597"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00092:62 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P62 Part 3 Consequential amendments"@en-AU ;
+    dct:hasPart C2020A00092:63,
+        C2020A00092:64 ;
+    dct:isPartOf C2020A00092:56 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Part 3 Consequential amendments - Abrievated Graph Key: P62"@en-AU ;
+    skos:broader C2020A00092:63,
+        C2020A00092:64 ;
+    skos:definition "Part 3 Consequential amendments"@en-AU ;
+    skos:narrower C2020A00092:56 ;
+    skos:prefLabel "Part P62"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846600> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846600"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00092:17 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S17 Schedule 2 Temporary loss carry back"@en-AU ;
+    dct:hasPart C2020A00092:18,
+        C2020A00092:20,
+        C2020A00092:22 ;
+    dct:isPartOf C2020A00092:3 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Schedule 2 Temporary loss carry back - Abrievated Graph Key: S17"@en-AU ;
+    skos:broader C2020A00092:18,
+        C2020A00092:20,
+        C2020A00092:22 ;
+    skos:definition "Schedule 2 Temporary loss carry back"@en-AU ;
+    skos:narrower C2020A00092:3 ;
+    skos:prefLabel "Schedule S17"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846500> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846500"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00092:22 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P22 Part 3 Consequential amendments"@en-AU ;
+    dct:hasPart C2020A00092:23,
+        C2020A00092:24,
+        C2020A00092:25 ;
+    dct:isPartOf C2020A00092:17 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Part 3 Consequential amendments - Abrievated Graph Key: P22"@en-AU ;
+    skos:broader C2020A00092:23,
+        C2020A00092:24,
+        C2020A00092:25 ;
+    skos:definition "Part 3 Consequential amendments"@en-AU ;
+    skos:narrower C2020A00092:17 ;
+    skos:prefLabel "Part P22"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846517> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846517"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00092:39 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S39 Schedule 5 Enhancing the integrity of the RD Tax Incentive"@en-AU ;
+    dct:hasPart C2020A00092:40,
+        C2020A00092:42,
+        C2020A00092:46 ;
+    dct:isPartOf C2020A00092:3 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Schedule 5 Enhancing the integrity of the RD Tax Incentive - Abrievated Graph Key: S39"@en-AU ;
+    skos:broader C2020A00092:40,
+        C2020A00092:42,
+        C2020A00092:46 ;
+    skos:definition "Schedule 5 Enhancing the integrity of the RD Tax Incentive"@en-AU ;
+    skos:narrower C2020A00092:3 ;
+    skos:prefLabel "Schedule S39"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846538> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846538"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00092:42 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P42 Part 2 RD clawback and catch up amounts"@en-AU ;
+    dct:hasPart C2020A00092:43,
+        C2020A00092:44,
+        C2020A00092:45 ;
+    dct:isPartOf C2020A00092:39 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Part 2 RD clawback and catch up amounts - Abrievated Graph Key: P42"@en-AU ;
+    skos:broader C2020A00092:43,
+        C2020A00092:44,
+        C2020A00092:45 ;
+    skos:definition "Part 2 RD clawback and catch up amounts"@en-AU ;
+    skos:narrower C2020A00092:39 ;
+    skos:prefLabel "Part P42"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846541> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846541"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00092:56 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S56 Schedule 7 Temporary full expensing of depreciating assets"@en-AU ;
+    dct:hasPart C2020A00092:57,
+        C2020A00092:59,
+        C2020A00092:62 ;
+    dct:isPartOf C2020A00092:3 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Schedule 7 Temporary full expensing of depreciating assets - Abrievated Graph Key: S56"@en-AU ;
+    skos:broader C2020A00092:57,
+        C2020A00092:59,
+        C2020A00092:62 ;
+    skos:definition "Schedule 7 Temporary full expensing of depreciating assets"@en-AU ;
+    skos:narrower C2020A00092:3 ;
+    skos:prefLabel "Schedule S56"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846583> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846583"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00092:65 a legcons:Endnotes,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Endnotes - E65 Endnotes"@en-AU ;
+    dct:hasPart C2020A00092:66,
+        C2020A00092:67,
+        C2020A00092:68,
+        C2020A00092:69 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Endnotes - Abrievated Graph Key: E65"@en-AU ;
+    skos:broader C2020A00092:66,
+        C2020A00092:67,
+        C2020A00092:68,
+        C2020A00092:69 ;
+    skos:definition "Endnotes"@en-AU ;
+    skos:prefLabel "Endnotes E65"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846603> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846603"^^xsd:anyURI ;
+    dcat:theme legcons:Endnotes .
+
+C2020A00092:9 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P9 Part 3 Low Income tax offset"@en-AU ;
+    dct:hasPart C2020A00092:10,
+        C2020A00092:11,
+        C2020A00092:12 ;
+    dct:isPartOf C2020A00092:4 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Part 3 Low Income tax offset - Abrievated Graph Key: P9"@en-AU ;
+    skos:broader C2020A00092:10,
+        C2020A00092:11,
+        C2020A00092:12 ;
+    skos:definition "Part 3 Low Income tax offset"@en-AU ;
+    skos:narrower C2020A00092:4 ;
+    skos:prefLabel "Part P9"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846491> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846491"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00092:47 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S47 Schedule 6 Improving the administration of the RD Tax Incentive"@en-AU ;
+    dct:hasPart C2020A00092:48,
+        C2020A00092:50,
+        C2020A00092:52,
+        C2020A00092:54 ;
+    dct:isPartOf C2020A00092:3 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Schedule 6 Improving the administration of the RD Tax Incentive - Abrievated Graph Key: S47"@en-AU ;
+    skos:broader C2020A00092:48,
+        C2020A00092:50,
+        C2020A00092:52,
+        C2020A00092:54 ;
+    skos:definition "Schedule 6 Improving the administration of the RD Tax Incentive"@en-AU ;
+    skos:narrower C2020A00092:3 ;
+    skos:prefLabel "Schedule S47"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846569> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846569"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00092:4 a legcons:Schedule,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Schedule - S4 Schedule 1 Accelerating the Personal Income Tax Plan"@en-AU ;
+    dct:hasPart C2020A00092:13,
+        C2020A00092:15,
+        C2020A00092:5,
+        C2020A00092:7,
+        C2020A00092:9 ;
+    dct:isPartOf C2020A00092:3 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Schedule 1 Accelerating the Personal Income Tax Plan - Abrievated Graph Key: S4"@en-AU ;
+    skos:broader C2020A00092:13,
+        C2020A00092:15,
+        C2020A00092:5,
+        C2020A00092:7,
+        C2020A00092:9 ;
+    skos:definition "Schedule 1 Accelerating the Personal Income Tax Plan"@en-AU ;
+    skos:narrower C2020A00092:3 ;
+    skos:prefLabel "Schedule S4"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846486> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846486"^^xsd:anyURI ;
+    dcat:theme legcons:Schedule .
+
+C2020A00092:3 a legcons:Item,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Item - I3 3  Schedules"@en-AU ;
+    dct:hasPart C2020A00092:17,
+        C2020A00092:26,
+        C2020A00092:36,
+        C2020A00092:39,
+        C2020A00092:4,
+        C2020A00092:47,
+        C2020A00092:56 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "3  Schedules - Abrievated Graph Key: I3"@en-AU ;
+    skos:broader C2020A00092:17,
+        C2020A00092:26,
+        C2020A00092:36,
+        C2020A00092:39,
+        C2020A00092:4,
+        C2020A00092:47,
+        C2020A00092:56 ;
+    skos:definition "3  Schedules"@en-AU ;
+    skos:prefLabel "Item I3"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846485> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846485"^^xsd:anyURI ;
+    dcat:theme legcons:Item .
+
+C2020A00092:27 a legcons:Part,
+        owl:Class,
+        dcat:Resource ;
+    rdfs:label "Part - P27 Part 1 Amendments"@en-AU ;
+    dct:hasPart C2020A00092:28,
+        C2020A00092:29,
+        C2020A00092:30,
+        C2020A00092:31,
+        C2020A00092:32,
+        C2020A00092:33,
+        C2020A00092:34 ;
+    dct:isPartOf C2020A00092:26 ;
+    dct:isReferencedBy C2020A00092: ;
+    rdfs:comment "Part 1 Amendments - Abrievated Graph Key: P27"@en-AU ;
+    skos:broader C2020A00092:28,
+        C2020A00092:29,
+        C2020A00092:30,
+        C2020A00092:31,
+        C2020A00092:32,
+        C2020A00092:33,
+        C2020A00092:34 ;
+    skos:definition "Part 1 Amendments"@en-AU ;
+    skos:narrower C2020A00092:26 ;
+    skos:prefLabel "Part P27"@en-AU ;
+    dcat:accessURL <https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846525> ;
+    dcat:landingPage "https://www.legislation.gov.au/C2020A00092/2020-10-14/2020-10-14/text/original/epub/OEBPS/document_1/document_1.html#_Toc77846525"^^xsd:anyURI ;
+    dcat:theme legcons:Part .
+
+C2020A00092: a owl:Class,
+        dcat:Dataset,
+        dcat:Resource ;
+    rdfs:label "Treasury Laws Amendment (A Tax Plan for the COVID-19 Economic Recovery) Act 2020" ;
+    dct:Jurisdiction " Department of the Treasury "@en-AU ;
+    dct:created "2026-06-03T13:52:19.276128"^^xsd:dateTime ;
+    dct:creator "https://orcid.org/0009-0007-8434-7325"^^xsd:anyURI ;
+    dct:date "2020-10-14T00:00:00+11:00"^^xsd:dateTime ;
+    dct:description "Treasury Laws Amendment (A Tax Plan for the COVID-19 Economic Recovery) Act 2020"@en-AU ;
+    dct:identifier "https://www.legislation.gov.au/C2020A00092/latest"^^xsd:anyURI ;
+    dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dct:source "scheme=AGLSTERMS.AglsAgent; corporateName=Office Parliamentary Counsel; address=Locked Bag 30 Kingston ACT 2604; contact=+61 2 6120 1400"@en-AU ;
+    dct:subject "Treasury Laws Amendment (A Tax Plan for the COVID-19 Economic Recovery) Act 2020"@en-AU ;
+    dct:title "Treasury Laws Amendment (A Tax Plan for the COVID-19 Economic Recovery) Act 2020"@en-AU ;
+    owl:imports legcons: ;
+    dcat:theme legcons:Endnotes,
+        legcons:Item,
+        legcons:Part,
+        legcons:Schedule ;
+    schema:status "In force" ;
+    schema:version "C2021C00270 C01" .
+
